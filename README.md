@@ -20,3 +20,4 @@ I cultivate hell into heaven.
 - Haskell (Junior)
 - Javascript (Fluently)
 - Python (Junior)
+- Rust (Junior)
