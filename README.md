@@ -5,12 +5,11 @@ Welcome# frozenproof
 # Quick stuffs about me
 I cultivate hell into heaven.
 
-
 ## Experience
-- Worked in Admin service (Webmin/Raw bash shell).
-- Solo designed a simulated stock marketplace (C#).
-- Solo designed a NFT minting app open source (Back-end/Typescript/Javascript).
-- Solo designed a minesweeper game (Javascript).
+- Worked in Admin service (Webmin/Raw bash shell/Server Configurings+Deploy+Maintainence).
+- Solo designed a simulated stock marketplace (C#/Windows Form/MVC Model).
+- Solo programmed a NFT minting server for multiple users open source (Back-end/Typescript/Javascript/NodeJs+ExpressJs).
+- Solo designed a minesweeper game (Javascript/MVC Model).
 - And more to come.
 
 ## Languages
