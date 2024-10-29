@@ -1,0 +1,1856 @@
+[
+    {
+        "card_title": "Firefighter Flag[Halberd]",
+        "item_basestat": "Stat/EffectAmountAilment Resistance %30Attack MP Recovery30Flinch Unavailable1Tumble Unavailable1Stun Unavailable1Absolute Accuracy %30",
+        "item_obtainfrom": "Water City Jewel Box-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Firefighter Flag[Halberd]",
+        "item_basestat": "Stat/EffectAmountAilment Resistance %30Attack MP Recovery30Flinch Unavailable1Tumble Unavailable1Stun Unavailable1Absolute Accuracy %30",
+        "item_obtainfrom": "Water City Jewel Box-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Firefighter Flag[Halberd]",
+        "item_basestat": "empty",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Pencil Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountAilment Resistance %30Attack MP Recovery30Flinch Unavailable1Tumble Unavailable1Stun Unavailable1Absolute Accuracy %30",
+        "item_obtainfrom": "Water City Jewel Box-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Mop[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK1MaxMP1000Aggro %-100Motion Speed %10EXP Gain %10Base Stability %60Pet EXP %10",
+        "item_obtainfrom": "Frilled Shark Potum(Lv 243)Deep Sea: Zone 1",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK16Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK16Base Stability %60Potential15",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK16Base Stability %60",
+        "item_obtainfrom": "Pomum(Lv 3)Rakau Plains",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK27MaxMP100Accuracy2Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK27Base Stability %60Potential16",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK27MaxMP50Accuracy1Base Stability %60",
+        "item_obtainfrom": "Pain Leaf(Lv 17)Isthmus Of Kaus",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Heavy Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK40Accuracy-3Critical Rate6Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Heavy Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK40Base Stability %60Potential18",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Heavy Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK40Accuracy-1Critical Rate1Base Stability %60",
+        "item_obtainfrom": "Guardian Statue(Lv 22)Ruined Temple: Area 2",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Golden Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK45INT3MaxHP100MaxMP100Accuracy10Critical Rate5Guard Recharge %5Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess10 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46AGI %1ATK %1Stability %1Attack MP Recovery2Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Base Stability %60Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46AGI %1ATK %1Stability %1Attack MP Recovery2Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess12 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Base Stability %60Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess12 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46AGI %1ATK %1Stability %1Attack MP Recovery2Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Base Stability %60Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "Magic Crystal Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46MaxMP50Dodge %-5Dark Element1Attack MP Recovery1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "Magic Crystal Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Base Stability %60Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "Magic Crystal Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK46MaxMP100Dodge %-10Dark Element1Attack MP Recovery1Base Stability %60",
+        "item_obtainfrom": "Eerie Crystal(Lv 24)Isthmus Of Kaus: Dragon's Den",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "Bardiche[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK54MaxMP200ATK %1Critical Damage2Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Bardiche[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK54Base Stability %60Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Bardiche[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK54MaxMP150ATK %1Critical Damage2Base Stability %60",
+        "item_obtainfrom": "Soldier Rat(Lv 30)Scaro Town: Area 1",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Trident[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Dodge %5Evasion Recharge %5Wind Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell40 SpinaProcess20 Metal"
+    },
+    {
+        "card_title": "Trident[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Base Stability %60Potential21",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell40 SpinaProcess20 Metal"
+    },
+    {
+        "card_title": "Trident[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Dodge %4Evasion Recharge %4Wind Element1Base Stability %60",
+        "item_obtainfrom": "Soda Potum(Lv 45)Korda Basin",
+        "item_prop": "Sell40 SpinaProcess20 Metal"
+    },
+    {
+        "card_title": "Mauez's Pole[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK80ATK %1Accuracy-20Critical Rate10% stronger against Neutral25Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Wood"
+    },
+    {
+        "card_title": "Mauez's Pole[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK80Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Wood"
+    },
+    {
+        "card_title": "Mauez's Pole[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK80ATK %1Accuracy-2Critical Rate10% stronger against Neutral25Base Stability %70",
+        "item_obtainfrom": "Mauez(Lv 55)New Moon Palace: Innermost",
+        "item_prop": "Sell50 SpinaProcess25 Wood"
+    },
+    {
+        "card_title": "2nd Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88AGI %2ATK %2Stability %2Attack MP Recovery4Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %60Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88AGI %2ATK %2Stability %2Attack MP Recovery4Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess25 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %60Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess25 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88AGI %2ATK %2Stability %2Attack MP Recovery4Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %60Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Blade Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88AGI %3MaxMP200Critical Rate3Attack MP Recovery1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Blade Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %60Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Blade Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88AGI %2MaxMP200Critical Rate1Attack MP Recovery1Base Stability %60",
+        "item_obtainfrom": "Pojo(Lv 51)Land Under Cultivation: Area 1",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Windblast Cone Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Stability %6CSPD300Water resistance %5Wind Element1Attack MP Recovery14Base Stability %60Reduce Dmg (Meteor) %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell24 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Windblast Cone Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %60Potential22",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell51 SpinaProcessunknown"
+    },
+    {
+        "card_title": "BBQ Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK100MaxMP250Physical Pierce %20Critical Damage10Base Stability %80Guard Break %15",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Mezraq[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK107Magic Resistance %-6Critical Damage4Base Stability %60Additional Melee %25",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Mezraq[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK107Base Stability %60Potential24",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Mezraq[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK107Magic Resistance %-3Critical Damage4Base Stability %60Additional Melee %20",
+        "item_obtainfrom": "Mewte(Lv 63)Gravel Terrace",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Sakura Naginata[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK107MaxMP100ATK %1Accuracy20Critical Rate10Light Element1Attack MP Recovery1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Sakura Naginata[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK107MaxMP200ATK %4Accuracy20Critical Rate20Light Element1Attack MP Recovery3Weapon ATK480Base Stability %60",
+        "item_obtainfrom": "Mimesia (Nightmare)(Lv 180)ABCSakura Castle Donjon: Top",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Knight Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK128MaxMP300ATK %1Guard Power %10Guard Recharge %20Light Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "Knight Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK128Base Stability %60Potential26",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "Knight Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK128MaxMP200ATK %1Guard Power %8Guard Recharge %17Light Element1Base Stability %60",
+        "item_obtainfrom": "Helmcoon(Lv 71)Magic Waste Site: Area 1",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "Floral Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK130MaxHP100ATK %2Magic Resistance %5Critical Damage %1Earth Element1Base Stability %65",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell70 SpinaProcess35 Medicine"
+    },
+    {
+        "card_title": "Floral Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK130Base Stability %65Potential26",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell70 SpinaProcess35 Medicine"
+    },
+    {
+        "card_title": "Floral Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK130MaxHP1000ATK %2Magic Resistance %5Critical Damage %1Earth Element1Base Stability %65",
+        "item_obtainfrom": "Grass Dragon Yelb(Lv 73)Albatif Village",
+        "item_prop": "Sell70 SpinaProcess35 Medicine"
+    },
+    {
+        "card_title": "2nd Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK139AGI %3ATK %3Stability %3Attack MP Recovery6Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK139Base Stability %60Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK139AGI %3ATK %3Stability %3Attack MP Recovery6Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess37 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK139Base Stability %60Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess37 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK139AGI %3ATK %3Stability %3Attack MP Recovery6Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK139Base Stability %60Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK139AGI %4ATK %4Stability %15Accuracy %9Attack MP Recovery8Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK139Base Stability %60Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "Thunder Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK150Dodge7Critical Damage3Evasion Recharge %5Wind Element1Base Stability %60",
+        "item_obtainfrom": "Corroded Knight(Lv 86)Garden of Sublimation: Area 1",
+        "item_prop": "Sell80 SpinaProcess40 Metal"
+    },
+    {
+        "card_title": "Thunder Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK150Dodge9Critical Damage3Evasion Recharge %6Wind Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell80 SpinaProcess40 Metal"
+    },
+    {
+        "card_title": "Thunder Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK150Base Stability %60Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell80 SpinaProcess40 Metal"
+    },
+    {
+        "card_title": "Lil Devil Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK160MaxMP660Guard Recharge %-100Dark Element1Attack MP Recovery6Base Stability %60Tumble Unavailable1ATK UP (INT %)100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "6th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK161AGI %4MaxMP100ATK %4Accuracy %5Attack MP Recovery20Base Stability %60Dagger only:Additional Melee %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell85 SpinaProcess42 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK161Base Stability %60Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell85 SpinaProcess42 Metal"
+    },
+    {
+        "card_title": "Ice Spear Glaso[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK161Guard Power %25Guard Recharge %25Water Element1Base Stability %60Additional Magic %125ATK UP (INT %)100ATK DOWN (AGI %)150",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell85 SpinaProcess42 Mana"
+    },
+    {
+        "card_title": "Ice Spear Glaso[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK161Base Stability %60Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell85 SpinaProcess42 Mana"
+    },
+    {
+        "card_title": "Pollaxe[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK174MaxHP400Critical Rate9% stronger against Neutral25Base Stability %60",
+        "item_obtainfrom": "Corroded Sentry Fighter(Lv 97)Dark Castle: Area 2",
+        "item_prop": "Sell90 SpinaProcess45 Metal"
+    },
+    {
+        "card_title": "Pollaxe[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK174MaxHP500Critical Rate12% stronger against Neutral25Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell90 SpinaProcess45 Metal"
+    },
+    {
+        "card_title": "Pollaxe[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK174Base Stability %60Potential29",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell90 SpinaProcess45 Metal"
+    },
+    {
+        "card_title": "Azure Rose[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK175Accuracy30Dark Element1Attack MP Recovery2Base Stability %60Additional Melee %50",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK187AGI %4ATK %4Stability %4Attack MP Recovery8Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK187Base Stability %60Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK187AGI %4ATK %4Stability %4Attack MP Recovery8Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess47 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK187Base Stability %60Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess47 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK187AGI %4ATK %4Stability %4Attack MP Recovery8Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK187Base Stability %60Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "Paladin Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK198ATK %4Stability %8Magic Resistance %16Ailment Resistance %32Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "Paladin Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK198Base Stability %60Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "Paladin Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK198ATK %4Stability %7Magic Resistance %13Ailment Resistance %25Base Stability %60",
+        "item_obtainfrom": "Ledon Machina(Lv 108)Large Demi Machina Factory: Area 1",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "Fisherman's Harpoon[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK200Physical Resistance %10Magic Resistance %15Water resistance %20Wind Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell100 SpinaProcess50 Mana"
+    },
+    {
+        "card_title": "Intruder[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK200ATK %4Dodge %20CSPD300Critical Rate2Critical Damage %3",
+        "item_obtainfrom": "Aranea(Lv 100)Garden of Sublimation: Central Part",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "Intruder[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK200ATK %4Dodge %20CSPD150Critical Rate1Critical Damage %2Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "Intruder[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK200Base Stability %60Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "Reverdie Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK200MaxHP5000ATK %10DEF100Ailment Resistance %10Base Stability %1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "New Moon Naginata[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK222ATK %6Accuracy-20Critical Rate15Water Element1% stronger against Neutral25Base Stability %80",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell155 SpinaProcess77 Mana"
+    },
+    {
+        "card_title": "New Moon Naginata[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK222Base Stability %80Potential40",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell155 SpinaProcess77 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227AGI %5ATK %5Stability %5Attack MP Recovery10Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227Base Stability %60Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227AGI %5ATK %5Stability %5Attack MP Recovery10Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess55 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227Base Stability %60Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess55 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227AGI %5ATK %5Stability %5Attack MP Recovery10Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227Base Stability %60Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227AGI %5ATK %5Stability %15Accuracy %10Attack MP Recovery10Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227Base Stability %60Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Windblast Cone Spear II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227Stability %9CSPD600Water resistance %10Wind Element1Attack MP Recovery19Base Stability %60Reduce Dmg (Meteor) %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Windblast Cone Spear II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK227Base Stability %60Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell52 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Battle Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK229ATK %4Accuracy80Fire Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Battle Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK229Base Stability %60Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Battle Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK229ATK %4Accuracy60Fire Element1Base Stability %60",
+        "item_obtainfrom": "Lyark Vanguard(Lv 115)Lufenas Mansion: Entrance",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Einsamkeit[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK254MaxMP600CSPD-300% stronger against Earth-40Wind Element1Attack MP Recovery3Base Stability %60Additional Melee %100Guard Break %10",
+        "item_obtainfrom": "York(Lv 118)Huge Crysta Factory: Storage",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Einsamkeit[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK254MaxMP600CSPD-300% stronger against Earth-40Wind Element1Attack MP Recovery3Base Stability %60Additional Melee %100Guard Break %10",
+        "item_obtainfrom": "York (Megiston 2017)(Lv 150)41241Event",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Einsamkeit[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK254MaxMP300CSPD-300% stronger against Earth-40Wind Element1Attack MP Recovery6Base Stability %60Additional Melee %50Guard Break %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Einsamkeit[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK254Base Stability %60Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK256AGI %5MaxMP100ATK %5Accuracy %10Attack MP Recovery20Base Stability %60Dagger only:Additional Melee %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %60Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK256AGI %4MaxMP300ATK %4Accuracy120Critical Rate30Base Stability %60Reduce Dmg (Floor) %30Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %60Potential34Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Dia Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK256STR %4ATK %4Critical Rate %5Dark resistance %10Light Element1Attack MP Recovery5Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Noble Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK264MaxMP400Critical Rate30Base Stability %55Guard Break %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Noble Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK264MaxMP300Critical Rate30Base Stability %55Guard Break %15",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Noble Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK264Base Stability %55Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Grilled Squid[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK270MaxHP6000DEF40Accuracy10Light resistance %-20Fire Element1Attack MP Recovery20Base Stability %60Tumble Unavailable1",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell1 SpinaProcess2 Medicine"
+    },
+    {
+        "card_title": "Spada Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK280ATK %6Physical Pierce %12ASPD1000Water Element1Base Stability %65",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Spada Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK280Base Stability %65Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Spada Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK280ATK %6Physical Pierce %10ASPD750Water Element1Base Stability %65",
+        "item_obtainfrom": "Melon Soda Potum(Lv 138)Forgotten Cave",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK286AGI %6ATK %6Stability %5Accuracy %3Attack MP Recovery12Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess65 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK286Base Stability %60Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess65 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK286AGI %6ATK %6Stability %5Accuracy %3Attack MP Recovery13Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK286Base Stability %60Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Amcrie[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK300MaxHP %-30ATK %5Physical Pierce %5Magic Resistance %30Critical Damage5Dark Element1Attack MP Recovery10Base Stability %60",
+        "item_obtainfrom": "Ultimate Machina(Lv 129)Droma Square",
+        "item_prop": "Sell135 SpinaProcess67 Beast"
+    },
+    {
+        "card_title": "Amcrie[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK300MaxHP %-15ATK %5Physical Pierce %3Magic Resistance %30Critical Damage4Dark Element1Attack MP Recovery5Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell135 SpinaProcess67 Beast"
+    },
+    {
+        "card_title": "Amcrie[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK300Base Stability %60Potential37",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell135 SpinaProcess67 Beast"
+    },
+    {
+        "card_title": "Amcrie[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK300MaxHP %-30ATK %6Physical Pierce %1Magic Resistance %15Critical Damage6Attack MP Recovery15% stronger against Neutral25Base Stability %60",
+        "item_obtainfrom": "Ultimate Machina (Megiston 2018)(Lv 160)Event",
+        "item_prop": "Sell135 SpinaProcess67 Beast"
+    },
+    {
+        "card_title": "Gwai Reaper[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK304ATK %4Stability %1Physical Pierce %2Critical Damage %3Earth Element1Short Range Damage %4Base Stability %60Recoil %0.01",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell135 SpinaProcess67 Mana"
+    },
+    {
+        "card_title": "Gwai Reaper[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK304Base Stability %60Potential37",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell135 SpinaProcess67 Mana"
+    },
+    {
+        "card_title": "Gwai Reaper[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK306ATK %4Stability %4Physical Pierce %4Critical Damage %4Earth Element1Short Range Damage %4Base Stability %60Recoil %0.02",
+        "item_obtainfrom": "Ornlarf(Lv 132)Ultimea Palace: Corridor",
+        "item_prop": "Sell135 SpinaProcess67 Mana"
+    },
+    {
+        "card_title": "Lightning Bolt Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK318Accuracy40ASPD %30Critical Damage %5Wind Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell140 SpinaProcess70 Metal"
+    },
+    {
+        "card_title": "Lightning Bolt Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK318Base Stability %60Potential37",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell140 SpinaProcess70 Metal"
+    },
+    {
+        "card_title": "Lightning Bolt Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK318Accuracy30ASPD %10Critical Damage %5Wind Element1Base Stability %60",
+        "item_obtainfrom": "Soul Reaper(Lv 151)Dark Dragon Shrine: Lower",
+        "item_prop": "Sell140 SpinaProcess70 Metal"
+    },
+    {
+        "card_title": "Festival Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK320Accuracy30Critical Rate1Fire Element1Attack MP Recovery5Base Stability %1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Halberd VII[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK334AGI %6ATK %6Stability %5Accuracy %6Attack MP Recovery14Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess72 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Halberd VII[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK334Base Stability %60Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess72 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd VII[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK334AGI %6ATK %6Stability %5Accuracy %6Attack MP Recovery14Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd VII[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK334Base Stability %60Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK334AGI %6ATK %6Stability %15Accuracy %11Attack MP Recovery12Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK334Base Stability %60Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "Raven Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK334MaxMP400ATK %5MATK %5Accuracy20ASPD800Dark Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Warrior Angel Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK346MaxMP200ATK %6Critical Damage6% stronger against Neutral25Base Stability %70Anticipate %20Guard Break %20",
+        "item_obtainfrom": "Mardula(Lv 147)Hall of Blessings Gods",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Warrior Angel Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK346MaxMP600ATK %6Critical Damage6% stronger against Neutral25Base Stability %70Anticipate %2Guard Break %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Warrior Angel Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK346Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Crescent Blade[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK350Accuracy15Critical Damage5Earth Element1Motion Speed %3Base Stability %60",
+        "item_obtainfrom": "Antbee(Lv 153)Eryldan Street: Area 1",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Crescent Blade[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK350Accuracy30Critical Damage6Earth Element1Motion Speed %3Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Crescent Blade[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK350Base Stability %60Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK352AGI %6MaxMP200ATK %6Accuracy %15Attack MP Recovery20Base Stability %60Reduce Dmg (Meteor) %2Dagger only:Additional Melee %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK352Base Stability %60Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK352AGI %6MaxMP320ATK %6Accuracy150Critical Rate30Base Stability %60Reduce Dmg (Floor) %30Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK352Base Stability %60Potential39Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK352AGI %6MaxHP5000ATK %6Accuracy150Critical Rate35Base Stability %60Reduce Dmg (Floor) %35Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK352Base Stability %60Potential39Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Sakura Lantern Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK352MaxMP500ATK %6Accuracy20% stronger against Earth25Ailment Resistance %5Earth Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Snow Bear Parasol[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK355MaxHP4000Accuracy %20% stronger against Wind25Water Element1Base Stability %60Guard Break %30Reduce Dmg (Meteor) %10",
+        "item_obtainfrom": "Snow Bear BoxSnowball Mini Game Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Lil Empress Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK367ATK %6Dodge50Critical Rate25Aggro %-15Fire Element1Base Stability %55",
+        "item_obtainfrom": "Venena Coenubia (YK Wifey)(Lv 140)Ultimea Palace: Throne",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK367ATK %6Dodge150Critical Rate20Aggro %-10Fire Element1Base Stability %55",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK367Base Stability %55Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Sacred Ice Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK369MaxHP3000ATK %6% stronger against Light-25% stronger against Dark10Ailment Resistance %5Water Element1Base Stability %65ATK UP (INT %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 141)Noeliel Castle: Hall (120-140)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sacred Ice Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK369MaxHP1000ATK %2% stronger against Light-25% stronger against Dark10Ailment Resistance %1Water Element1Base Stability %65ATK UP (INT %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 102)Noeliel Castle: Hall (80-100)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sacred Ice Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK369MaxHP2000ATK %4% stronger against Light-25% stronger against Dark10Ailment Resistance %3Water Element1Base Stability %65ATK UP (INT %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 122)Noeliel Castle: Hall (100-120)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "4th Anniv Halberd VIII[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK387AGI %6ATK %6Stability %5Accuracy %9Attack MP Recovery16Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd VIII[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK387Base Stability %60Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK387AGI %6ATK %6Stability %15Accuracy %12Attack MP Recovery14Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK387Base Stability %60Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Ignis Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK387MaxHP2000ATK %6Critical Rate5Fire Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Ignis Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK387Base Stability %60Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Ignis Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK387MaxHP200ATK %6Critical Rate10Fire Element1Base Stability %60",
+        "item_obtainfrom": "Sand Bandits Gan(Lv 176)Geist Desert: Area 2",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Parasol Choco Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK387ATK %6Critical Rate30Light Element1Base Stability %60Reduce Dmg (Bullet) %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Tolerancia (old)[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK390Stability %10CSPD1000Critical Damage20Base Stability %60",
+        "item_obtainfrom": "P. Avatar(Lv 800)15422Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "Eroded Rebellion[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK402MaxMP300ATK %7Accuracy %14Light Element1Base Stability %65Reduce Dmg (Bowling) %30",
+        "item_obtainfrom": "Eroded Pilz(Lv 162)Morthell Swell: Deep Area",
+        "item_prop": "Sell170 SpinaProcess85 Mana"
+    },
+    {
+        "card_title": "Eroded Rebellion[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK402MaxMP500ATK %7Accuracy %7Light Element1Base Stability %65Reduce Dmg (Bowling) %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell170 SpinaProcess85 Mana"
+    },
+    {
+        "card_title": "Eroded Rebellion[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK402Base Stability %65Potential42",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell170 SpinaProcess85 Mana"
+    },
+    {
+        "card_title": "Eroded Rebellion[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK402MaxMP300ATK %8Accuracy %16% stronger against Dark5Light Element1Base Stability %65Reduce Dmg (Bowling) %20",
+        "item_obtainfrom": "Eroded Pilz (Megiston 2020)(Lv 180)Event",
+        "item_prop": "Sell170 SpinaProcess85 Mana"
+    },
+    {
+        "card_title": "Jade Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK424MaxMP400Accuracy120Wind Element1Long Range Damage %6Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "Jade Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK424Base Stability %60Potential42",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "Jade Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK424MaxMP300Accuracy100Wind Element1Long Range Damage %6Base Stability %60",
+        "item_obtainfrom": "Spirabol(Lv 176)Nezim Wetlands",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "Windblast Cone Spear III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK424Stability %12CSPD900Water resistance %15Wind Element1Attack MP Recovery24Base Stability %60Reduce Dmg (Meteor) %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell26 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Windblast Cone Spear III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK424Base Stability %60Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell53 SpinaProcessunknown"
+    },
+    {
+        "card_title": "4th Anniv Halberd IX[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443AGI %7ATK %7Stability %5Accuracy %12Attack MP Recovery18Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "4th Anniv Halberd IX[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443Base Stability %60Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443AGI %7ATK %7Stability %15Accuracy %13Attack MP Recovery16Base Stability %60Reduce Dmg (Meteor) %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443Base Stability %60Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443AGI %7MaxMP200ATK %7Accuracy %20Attack MP Recovery20Base Stability %60Reduce Dmg (Meteor) %4Dagger only:Additional Melee %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443Base Stability %60Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443AGI %7MaxMP340ATK %7Accuracy175Critical Rate30Base Stability %60Reduce Dmg (Floor) %30Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443Base Stability %60Potential43Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443AGI %7MaxHP6000ATK %7Accuracy175Critical Rate35Base Stability %60Reduce Dmg (Floor) %35Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443Base Stability %60Potential43Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "9th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443AGI %6ATK %7Accuracy170Critical Rate40Base Stability %60ATK UP (INT %)100Reduce Dmg (Floor) %40Absolute Dodge %10",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK443Base Stability %60Potential43",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Antler Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK462ATK %7Critical Damage6Dark Element1Base Stability %60Fractional Barrier %10Guard Break %10",
+        "item_obtainfrom": "Rhinoceros(Lv 189)Fugitive Lake Swamp: Area 1",
+        "item_prop": "Sell180 SpinaProcess90 Beast"
+    },
+    {
+        "card_title": "Antler Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK462ATK %7Critical Damage7Dark Element1Base Stability %60Fractional Barrier %14Guard Break %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess90 Beast"
+    },
+    {
+        "card_title": "Antler Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK462Base Stability %60Potential44",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell180 SpinaProcess90 Beast"
+    },
+    {
+        "card_title": "5th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK481AGI %7ATK %7Stability %15Accuracy %14Attack MP Recovery18Base Stability %60Reduce Dmg (Meteor) %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell185 SpinaProcess92 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK481Base Stability %60Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell185 SpinaProcess92 Metal"
+    },
+    {
+        "card_title": "Graviton Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK481ATK %7Physical Pierce %40ASPD %30Dark resistance %10Guard Recharge %20Dark Element1Base Stability %60",
+        "item_obtainfrom": "Repthon(Lv 177)Deltzon Research Zone: Deepest Area",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Graviton Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK481ATK %7Physical Pierce %10ASPD %40Dark resistance %20Guard Recharge %30Dark Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Graviton Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK481Base Stability %60Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK495ASPD1000Critical Rate100Guard Power %25Guard Recharge %25Dark Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Drill Shaft[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK500Accuracy-150Critical Rate100% stronger against Neutral30Base Stability %100Tumble Unavailable1Additional Melee %90Reduce Dmg (Charge) %30",
+        "item_obtainfrom": "Rhinosaur(Lv 233)Fugitive Lake Swamp: Area 3",
+        "item_prop": "Sell225 SpinaProcess112 Metal"
+    },
+    {
+        "card_title": "Macaron Tower Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK500Accuracy10CSPD1000Aggro %-100Water Element1Base Stability %80",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Medicine"
+    },
+    {
+        "card_title": "Temple Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK502MaxMP600Physical Resistance %12Magic Resistance %18Light Element1Base Stability %60",
+        "item_obtainfrom": "Pantarum(Lv 203)Divido Valley: Area 1",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Temple Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK502MaxMP700Physical Resistance %14Magic Resistance %21Light Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Temple Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK502Base Stability %60Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd VII[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523AGI %7ATK %7Stability %15Accuracy %15Attack MP Recovery20Base Stability %60Reduce Dmg (Meteor) %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "5th Anniv Halberd VII[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523Base Stability %60Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523AGI %7MaxMP300ATK %7Accuracy %25Attack MP Recovery20Base Stability %60Reduce Dmg (Meteor) %6Dagger only:Additional Melee %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523Base Stability %60Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523AGI %7MaxMP360ATK %7Accuracy195Critical Rate30Base Stability %60Reduce Dmg (Floor) %30Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523Base Stability %60Potential46Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523AGI %7MaxHP7000ATK %7Accuracy195Critical Rate35Base Stability %60Reduce Dmg (Floor) %35Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523Base Stability %60Potential46Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "9th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523AGI %7ATK %7Accuracy190Critical Rate40Base Stability %60ATK UP (INT %)100Reduce Dmg (Floor) %40Absolute Dodge %12",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Halberd II[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523Base Stability %60Potential46",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523ATK %7ASPD300Critical Rate25Fire Element1% stronger against Neutral25Base Stability %60Dagger only:Aggro %-15",
+        "item_obtainfrom": "Venena Metacoenubia(Lv 185)Neo Plastida",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523ATK %7ASPD350Critical Rate20Fire Element1% stronger against Neutral10Base Stability %60Dagger only:Aggro %-20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Demon Empress Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK523Base Stability %60Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Berg Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK544ATK %8Critical Rate8% stronger against Wind5Earth Element1Base Stability %60Fractional Barrier %8",
+        "item_obtainfrom": "Coccus(Lv 211)Milcaska Falls: Waterfall",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Berg Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK544ATK %8Critical Rate16% stronger against Wind5Earth Element1Base Stability %60Fractional Barrier %8Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Berg Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK544Base Stability %60Potential47Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Firefighter Flag[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK544Physical Resistance %30Magic Resistance %30Fire resistance %50Dark resistance %25Light Element1Invincible Aid (sec)2Item Cooldown-1",
+        "item_obtainfrom": "Sunken Treasure-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Hell Reaper (Halberd)[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK544Critical Rate66Critical Damage6Light resistance %10Aggro %-40Dark Element1Base Stability %60Reduce Dmg (Straight Line) %20",
+        "item_obtainfrom": "Gespenst(Lv 190)Event",
+        "item_prop": "Sell2 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Shovel Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK544STR %4Physical Pierce %15Short Range Damage %8% stronger against Neutral30Base Stability %70Guard Break %15Dagger only:Dodge100Arrow only:Accuracy100",
+        "item_obtainfrom": "Snowball Event NPCSnowball Mini Game Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Yozakura Naginata[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK544STR %2Accuracy300ASPD600% stronger against Dark10Light Element1Short Range Damage %6Base Stability %60Reduce Dmg (Floor) %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK555MaxMP600Earth resistance %20Fire Element1Short Range Damage %2Base Stability %60Physical Barrier1000Reduce Dmg (Floor) %5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK555MaxMP600Light resistance %20Dark Element1Short Range Damage %2Base Stability %60Physical Barrier1000Reduce Dmg (Floor) %5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK555MaxMP600Earth resistance %5Fire Element1Long Range Damage %2Base Stability %60Physical Barrier1000Reduce Dmg (Floor) %20",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK555MaxMP600Light resistance %5Dark Element1Long Range Damage %2Base Stability %60Physical Barrier1000Reduce Dmg (Floor) %20",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK555STR %4MaxMP400ATK %8Earth resistance %10Fire Element1Base Stability %60Physical Barrier3000Reduce Dmg (Floor) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK555STR %4MaxMP400ATK %8Light resistance %10Dark Element1Base Stability %60Physical Barrier3000Reduce Dmg (Floor) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK555MaxMP200ATK %8Earth resistance %20Fire Element1Base Stability %60Physical Barrier2000ATK UP (INT %)150Reduce Dmg (Floor) %20",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK555MaxMP200ATK %8Light resistance %20Dark Element1Base Stability %60Physical Barrier2000ATK UP (INT %)150Reduce Dmg (Floor) %20",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Cosmic Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK564ATK %6ASPD777Critical Rate %100Dark resistance %25Light Element1Base Stability %65Fractional Barrier %5Guard Break %10",
+        "item_obtainfrom": "Devil Dango(Lv 120)Otsukimi Event Venue: Crater Zone",
+        "item_prop": "Sell205 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "Cosmic Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK564ATK %7ASPD777Critical Rate %100Dark resistance %25Light Element1Base Stability %65Fractional Barrier %10Guard Break %20",
+        "item_obtainfrom": "Devil Dango(Lv 170)Otsukimi Event Venue: Crater Zone",
+        "item_prop": "Sell205 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "Cosmic Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK564ATK %8ASPD777Critical Rate %100Dark resistance %25Light Element1Base Stability %65Fractional Barrier %20Guard Break %30",
+        "item_obtainfrom": "Devil Dango(Lv 220)Otsukimi Event Venue: Crater Zone",
+        "item_prop": "Sell205 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "Wanderer's Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK564MaxMP500ATK %8Physical Resistance %10% stronger against Fire5Water resistance %-30Aggro %-20Water Element1Attack MP Recovery10Base Stability %60",
+        "item_obtainfrom": "Irestida(Lv 195)Nov Diela Central",
+        "item_prop": "Sell205 SpinaProcess102 Mana"
+    },
+    {
+        "card_title": "Wanderer's Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK564MaxMP400ATK %8Physical Resistance %15% stronger against Fire5Water resistance %-15Aggro %-30Water Element1Attack MP Recovery8Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell205 SpinaProcess102 Mana"
+    },
+    {
+        "card_title": "Wanderer's Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK564Base Stability %60Potential48",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell205 SpinaProcess102 Mana"
+    },
+    {
+        "card_title": "Tolerancia (old)[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK585Stability %10CSPD1500Critical Damage30Base Stability %60",
+        "item_obtainfrom": "P. Avatar (2021)(Lv 400)15422Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "6th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587AGI %8MaxMP300ATK %8Accuracy %30Attack MP Recovery20Base Stability %60Reduce Dmg (Meteor) %8Dagger only:Additional Melee %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "6th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587Base Stability %60Potential49",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587AGI %8MaxMP380ATK %8Accuracy210Critical Rate30Base Stability %60Reduce Dmg (Floor) %30Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587Base Stability %60Potential49Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587AGI %8MaxHP8000ATK %8Accuracy210Critical Rate35Base Stability %60Reduce Dmg (Floor) %35Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587Base Stability %60Potential49Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "9th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587AGI %8ATK %8Accuracy210Critical Rate40Base Stability %60ATK UP (INT %)100Reduce Dmg (Floor) %40Absolute Dodge %14",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Halberd III[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587Base Stability %60Potential49",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Azure Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587Critical Rate75% stronger against Fire5Water Element1Base Stability %60Anticipate %25Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Beast"
+    },
+    {
+        "card_title": "Azure Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587Base Stability %60Potential49Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Beast"
+    },
+    {
+        "card_title": "Azure Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587Critical Rate70% stronger against Fire5Water Element1Base Stability %60Anticipate %20Attack Range (m)3.5",
+        "item_obtainfrom": "Snorm(Lv 218)Illuminare City: Route 1 (210-230)",
+        "item_prop": "Sell210 SpinaProcess105 Beast"
+    },
+    {
+        "card_title": "Beastlord Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK587Base Stability %60Potential48",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Pearl Sakura Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK620MaxHP %30Critical Rate50Critical Rate %25% stronger against Earth10Fire Element1Base Stability %60Additional Melee %50",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessWood"
+    },
+    {
+        "card_title": "Aquila Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK632ATK %8Accuracy80Water resistance %40Evasion Recharge %40Wind Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Aquila Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK632Base Stability %60Potential50",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Aquila Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK632ATK %8Accuracy75Water resistance %20Evasion Recharge %30Wind Element1Base Stability %60Attack Range (m)3.5",
+        "item_obtainfrom": "Gronio(Lv 237)Espuma Dome: Area 1",
+        "item_prop": "Sell220 SpinaProcess110 Beast"
+    },
+    {
+        "card_title": "Poison Flame Dragon Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK632MaxHP %20ATK %8Magic Resistance %20Accuracy100Critical Rate %60% stronger against Earth30Dark Element1Base Stability %60",
+        "item_obtainfrom": "Vlam the Flame Dragon(Lv 210)Divido Spring",
+        "item_prop": "Sell220 SpinaProcess110 Beast"
+    },
+    {
+        "card_title": "Poison Flame Dragon Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK632MaxHP %10ATK %8Magic Resistance %15Accuracy100Critical Rate %45% stronger against Earth30Dark Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell220 SpinaProcess110 Beast"
+    },
+    {
+        "card_title": "Poison Flame Dragon Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK632Base Stability %60Potential50",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell220 SpinaProcess110 Beast"
+    },
+    {
+        "card_title": "Poison Flame Dragon Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK632MaxHP4000MaxHP %20Magic Resistance %20Accuracy50Critical Rate120Aggro %30Fire Element1Base Stability %60",
+        "item_obtainfrom": "Vlam the Flame Dragon (Megiston 2022)(Lv 230)Event",
+        "item_prop": "Sell220 SpinaProcess110 Beast"
+    },
+    {
+        "card_title": "Queen of Hearts[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK632MaxHP2000MaxMP400ASPD1200CSPD600% stronger against Light10Dark Element1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell220 SpinaProcess110 Metal"
+    },
+    {
+        "card_title": "Ice Spirit Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK654ATK %7ASPD %70Aggro %-30Water Element1Attack MP Recovery25Base Stability %60MATK UP (AGI %)50",
+        "item_obtainfrom": "Dutannen (Weak)(Lv 179)Noeliel Castle: B4F",
+        "item_prop": "Sell225 SpinaProcess112 Mana"
+    },
+    {
+        "card_title": "Ice Spirit Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK654ATK %9ASPD %100Aggro %-50Water Element1Attack MP Recovery25Base Stability %60MATK UP (AGI %)100",
+        "item_obtainfrom": "Dutannen (Max)(Lv 239)Noeliel Castle: B4F",
+        "item_prop": "Sell225 SpinaProcess112 Mana"
+    },
+    {
+        "card_title": "Lolliodd Magic Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK654ATK %6Physical Pierce %6CSPD %-50Critical Rate75Evasion Recharge %-10Short Range Damage %6Long Range Damage %-1Base Stability %55Attack Range (m)3.5",
+        "item_obtainfrom": "Evil Lefina (Plain)(Lv 170)El Scaro",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Lolliodd Magic Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK654ATK %7Physical Pierce %7CSPD %-75Critical Rate75Evasion Recharge %-30Short Range Damage %7Long Range Damage %-5Base Stability %55Attack Range (m)3.5",
+        "item_obtainfrom": "Evil Lefina (Cocoa)(Lv 200)El Scaro",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Lolliodd Magic Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK654ATK %8Physical Pierce %8CSPD %-100Critical Rate75Evasion Recharge %-50Short Range Damage %8Long Range Damage %-10Base Stability %55Attack Range (m)3.5",
+        "item_obtainfrom": "Evil Lefina (Choco)(Lv 230)El Scaro",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Tolerancia[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK672Stability %10CSPD1500Critical Damage30Base Stability %60",
+        "item_obtainfrom": "[NPC]Mysterious Exchange (P. Avatar 2022)Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "7th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678AGI %9MaxMP400ATK %9Accuracy230Critical Rate30Base Stability %60Reduce Dmg (Floor) %30Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "7th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678Base Stability %60Potential52Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678AGI %9MaxHP9000ATK %9Accuracy230Critical Rate35Base Stability %60Reduce Dmg (Floor) %35Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678Base Stability %60Potential52Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "9th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678AGI %9ATK %9Accuracy230Critical Rate40Base Stability %60ATK UP (INT %)100Reduce Dmg (Floor) %40Absolute Dodge %16",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Halberd IV[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678Base Stability %60Potential52",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Guard Bone Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678MaxHP5000Physical Resistance %25% stronger against Wind10Earth Element1Short Range Damage %9Base Stability %65Physical Barrier2500Reduce Dmg (Charge) %25",
+        "item_obtainfrom": "Guard Golem(Lv 222)Weredragon's Throat",
+        "item_prop": "Sell230 SpinaProcess115 Beast"
+    },
+    {
+        "card_title": "Guard Bone Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678MaxHP3000ATK %9MATK %9Physical Resistance %20% stronger against Neutral25Base Stability %65Reduce Dmg (Charge) %35",
+        "item_obtainfrom": "Guard Golem (Megiston 2022)(Lv 250)Event",
+        "item_prop": "Sell230 SpinaProcess115 Beast"
+    },
+    {
+        "card_title": "Guard Bone Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678MaxHP5000Physical Resistance %25% stronger against Wind10Earth Element1Short Range Damage %9Base Stability %65Physical Barrier2000Reduce Dmg (Charge) %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Beast"
+    },
+    {
+        "card_title": "Guard Bone Lance[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678Base Stability %65Potential52",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Beast"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678Accuracy125ASPD1000Critical Rate125Guard Power %35Guard Recharge %35Dark Element1Base Stability %60Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Light Trident[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK678ATK %9Physical Pierce %25Magic Pierce %20Dodge %40Light Element1",
+        "item_obtainfrom": "Corroded Rana(Lv 251)Marinatown: Area 3",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "Holy Night Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK720STR %5ATK %10Physical Pierce %20Magic Pierce %30Magic Resistance %30Light resistance %30Light Element1Base Stability %60",
+        "item_obtainfrom": "Black Velly (Very Hard)(Lv 250)Illuminare City: Central Square",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sakura Warrior Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK726ATK %7Physical Resistance %20Magic Resistance %20Ailment Resistance %20Attack MP Recovery30% stronger against Neutral20Base Stability %60Attack Range (m)3.5",
+        "item_obtainfrom": "Baavgai (Easy)(Lv 200)Mt. Sakuraten: Summit",
+        "item_prop": "Sell240 SpinaProcess120 Mana"
+    },
+    {
+        "card_title": "Sakura Warrior Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK726ATK %8Physical Resistance %25Magic Resistance %25Ailment Resistance %25Attack MP Recovery30% stronger against Neutral25Base Stability %60Attack Range (m)3.5",
+        "item_obtainfrom": "Baavgai (Normal)(Lv 220)Mt. Sakuraten: Summit",
+        "item_prop": "Sell240 SpinaProcess120 Mana"
+    },
+    {
+        "card_title": "Sakura Warrior Halberd[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK726ATK %9Physical Resistance %30Magic Resistance %30Ailment Resistance %30Attack MP Recovery30% stronger against Neutral30Base Stability %60Attack Range (m)3.5",
+        "item_obtainfrom": "Baavgai (Hard)(Lv 240)Mt. Sakuraten: Summit",
+        "item_prop": "Sell240 SpinaProcess120 Mana"
+    },
+    {
+        "card_title": "8th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776AGI %10MaxHP10000ATK %10Accuracy250Critical Rate35Base Stability %60Reduce Dmg (Floor) %35Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell250 SpinaProcess125 Metal"
+    },
+    {
+        "card_title": "8th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776Base Stability %60Potential55Attack Range (m)3.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell250 SpinaProcess125 Metal"
+    },
+    {
+        "card_title": "9th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776AGI %10ATK %10Accuracy250Critical Rate40Base Stability %60ATK UP (INT %)100Reduce Dmg (Floor) %40Absolute Dodge %18",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Halberd V[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776Base Stability %60Potential55",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Dominant Scythespear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776MaxHP %30ATK %10Stability %20Critical Rate40Fire Element1Base Stability %60Tumble Unavailable1Reduce Dmg (Bowling) %40Attack Range (m)3.5",
+        "item_obtainfrom": "Dominaredor(Lv 243)Frozen Falls: Depths",
+        "item_prop": "Sell250 SpinaProcess125 Beast"
+    },
+    {
+        "card_title": "Dominant Scythespear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776MaxHP %20ATK %10Stability %15Critical Rate60Fire Element1Base Stability %60Tumble Unavailable1Reduce Dmg (Bowling) %50Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Dominant Scythespear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776Base Stability %60Potential55",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776MaxMP600ATK %10Earth resistance %25Fire Element1Short Range Damage %3Base Stability %60Physical Barrier2000Reduce Dmg (Floor) %10Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776MaxMP600ATK %10Light resistance %25Dark Element1Short Range Damage %3Base Stability %60Physical Barrier2000Reduce Dmg (Floor) %10Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776MaxMP600ATK %10Earth resistance %10Fire Element1Long Range Damage %3Base Stability %60Physical Barrier2000Reduce Dmg (Floor) %25Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776MaxMP600ATK %10Light resistance %10Dark Element1Long Range Damage %3Base Stability %60Physical Barrier2000Reduce Dmg (Floor) %25Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776STR %5MaxMP400ATK %10Earth resistance %15Fire Element1Base Stability %60Physical Barrier4000Reduce Dmg (Floor) %15Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776STR %5MaxMP400ATK %10Light resistance %15Dark Element1Base Stability %60Physical Barrier4000Reduce Dmg (Floor) %15Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776MaxMP200ATK %10Earth resistance %25Fire Element1Base Stability %60Physical Barrier3000ATK UP (INT %)150Reduce Dmg (Floor) %25Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Infini Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776MaxMP200ATK %10Light resistance %25Dark Element1Base Stability %60Physical Barrier3000ATK UP (INT %)150Reduce Dmg (Floor) %25Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Tolerancia[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK776Stability %10CSPD1500Critical Damage30Base Stability %60",
+        "item_obtainfrom": "[NPC]Mysterious Exchange (P. Avatar 2023)Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "Leodom Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK827MaxMP300ATK %10Physical Resistance %20ASPD %30Base Stability %60Guard Break %20Reduce Dmg (Straight Line) %10% stronger against Neutral35",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell260 SpinaProcess130 Metal"
+    },
+    {
+        "card_title": "Leodom Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK827MaxMP200ATK %10Physical Resistance %30ASPD %40% stronger against Neutral35Base Stability %60Guard Break %20Reduce Dmg (Straight Line) %20",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell260 SpinaProcess130 Metal"
+    },
+    {
+        "card_title": "Leodom Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK827MaxMP100ATK %10Physical Resistance %40ASPD %50% stronger against Neutral35Base Stability %60Fractional Barrier %20Guard Break %20Reduce Dmg (Straight Line) %30",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell260 SpinaProcess130 Metal"
+    },
+    {
+        "card_title": "Mystic Star Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK842MaxHP10000ATK %10Magic Pierce %100Magic Resistance %50Critical Rate %200Light Element1Base Stability %60MATK UP (STR %)100Reduce Dmg (Meteor) %50",
+        "item_obtainfrom": "Etoise(Lv 285)High Difficulty Boss Battle Event Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Avid Glaive[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK852ATK %10Critical Rate50% stronger against Water10Evasion Recharge %100Wind Element1Attack MP Recovery20Base Stability %60Anticipate %40",
+        "item_obtainfrom": "Raging Dragon Bovinari(Lv 258)Little Shrine of Grace Sanctuary",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Crimson Moon Mystic Spear[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK852MaxMP400Fire Element1Attack MP Recovery10Short Range Damage %11Base Stability %60Tumble Unavailable1Fractional Barrier %20Arrow only:Long Range Damage %11",
+        "item_obtainfrom": "Eripmav (Very Hard)(Lv 275)Risus Valley: Depths",
+        "item_prop": "Sell275 SpinaProcess137 Beast"
+    },
+    {
+        "card_title": "9th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK880AGI %10ATK %11Accuracy270Critical Rate40Base Stability %60ATK UP (INT %)100Reduce Dmg (Floor) %40Absolute Dodge %20",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Halberd VI[Halberd]",
+        "item_basestat": "Stat/EffectAmountBase ATK880Base Stability %60Potential59",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    }
+]

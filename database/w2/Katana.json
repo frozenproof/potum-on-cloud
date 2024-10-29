@@ -1,0 +1,1676 @@
+[
+    {
+        "card_title": "Assasin Blade[Katana]",
+        "item_basestat": "Stat/EffectAmountASPD750Critical Rate75Light resistance %-25Dark Element1",
+        "item_obtainfrom": "Fladorga(Lv 247)Little Shrine of Grace: Area 1",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "Assasin Blade[Katana]",
+        "item_basestat": "Stat/EffectAmountASPD750Critical Rate75Light resistance %-25Dark Element1",
+        "item_obtainfrom": "Fladorga(Lv 247)Little Shrine of Grace: Area 1",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "Assasin Blade[Katana]",
+        "item_basestat": "Stat/EffectAmountASPD750Critical Rate75Light resistance %-25Dark Element1",
+        "item_obtainfrom": "Fladorga(Lv 247)Little Shrine of Grace: Area 1",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "Shirasaya[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK4Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Shirasaya[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK4Base Stability %70Potential15",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Shirasaya[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK4Base Stability %70",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Nameless Uchigatana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK6Critical Rate10Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell10 SpinaProcess5 Metal"
+    },
+    {
+        "card_title": "Nameless Uchigatana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK6Base Stability %70Potential16",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell10 SpinaProcess5 Metal"
+    },
+    {
+        "card_title": "Nameless Uchigatana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK6Critical Rate5Base Stability %70",
+        "item_obtainfrom": "Kijimu(Lv 11)Suedor Cliff",
+        "item_prop": "Sell10 SpinaProcess5 Metal"
+    },
+    {
+        "card_title": "Aobato[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK10ASPD100Wind Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell20 SpinaProcess10 Metal"
+    },
+    {
+        "card_title": "Aobato[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK10Base Stability %70Potential18",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell20 SpinaProcess10 Metal"
+    },
+    {
+        "card_title": "Aobato[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK10ASPD75Wind Element1Base Stability %70",
+        "item_obtainfrom": "Beak(Lv 11)Ruined Temple Town",
+        "item_prop": "Sell20 SpinaProcess10 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK11DEX %1Critical Rate2Short Range Damage %1Base Stability %70Unsheathe Attack %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess12 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK11Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess12 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK11DEX %1Critical Rate2Short Range Damage %1Base Stability %70Unsheathe Attack %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK11Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "Golden Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK12INT3MaxMP250ASPD100Critical Rate10Guard Recharge %5Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess10 Mana"
+    },
+    {
+        "card_title": "Kuwagumo[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK13MaxMP100Dark Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Kuwagumo[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK13Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Kuwagumo[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK13MaxMP50Dark Element1Base Stability %70",
+        "item_obtainfrom": "Fire Ghost(Lv 28)Fiery Volcano: Area 1",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Minotaur's Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK15Accuracy3Fire resistance %5Fire Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell35 SpinaProcess17 Beast"
+    },
+    {
+        "card_title": "Minotaur's Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK15Base Stability %70Potential20",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell35 SpinaProcess17 Beast"
+    },
+    {
+        "card_title": "Minotaur's Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase DEF17Base ATK15Accuracy5Fire resistance %10Fire Element1",
+        "item_obtainfrom": "Minotaur(Lv 32)Ruined Temple: Forbidden hall",
+        "item_prop": "Sell35 SpinaProcess17 Beast"
+    },
+    {
+        "card_title": "Kiraboshi[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK17Critical Rate5Light Element1Attack MP Recovery3Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Kiraboshi[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK17Base Stability %70Potential21",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Kiraboshi[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK17Critical Rate4Light Element1Attack MP Recovery2Base Stability %70",
+        "item_obtainfrom": "Stone(Lv 39)New Moon Palace",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "3rd Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22DEX %2Critical Rate4Short Range Damage %2Base Stability %70Unsheathe Attack %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess25 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess25 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22DEX %2Critical Rate4Short Range Damage %2Base Stability %70Unsheathe Attack %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Death Samurai Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22MaxHP1500Critical Rate50Earth resistance %5Ailment Resistance %3Fire Element1Base Stability %70Reduce Dmg (Bullet) %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell27 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Death Samurai Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22Base Stability %70Potential22",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell54 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Tatetsuba[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22Base Stability %70Unsheathe Attack %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Tatetsuba[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Tatetsuba[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK22Base Stability %70Unsheathe Attack %15",
+        "item_obtainfrom": "Bone Dragonewt(Lv 45)Ancient Empress Tomb: Area 1",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Ooze Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK24Critical Damage %2Water Element1Base Stability %70Additional Magic %25",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Ooze Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK24Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Ooze Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK24Critical Damage %3Water Element1Base Stability %70Additional Magic %50",
+        "item_obtainfrom": "Ooze(Lv 52)Lutaros Cavern: Deepest Part",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Koga Koshirae[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK26MaxMP300ATK %2Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Koga Koshirae[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK26Base Stability %70Potential24",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Koga Koshirae[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK26MaxMP250ATK %2Base Stability %70Unsheathe Attack %8",
+        "item_obtainfrom": "Colon Zombie(Lv 57)Vyshed the Tainted Land: Area 1",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sakura Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK27MaxMP100Physical Resistance %10Critical Damage1Light Element1Attack MP Recovery1Base Stability %70Unsheathe Attack %1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Sakura Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK27MaxMP200Physical Resistance %10Critical Damage2Light Element1Attack MP Recovery3Weapon ATK120Base Stability %70Unsheathe Attack %4",
+        "item_obtainfrom": "Mimesia (Nightmare)(Lv 180)ABCSakura Castle Donjon: Top",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Shura Koshirae[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK32Guard Power %20Guard Recharge %20Earth Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "Shura Koshirae[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK32Base Stability %70Potential26",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "Shura Koshirae[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK32Guard Power %18Guard Recharge %18Earth Element1Base Stability %70",
+        "item_obtainfrom": "Targa(Lv 72)Abyss of No Return: Area 1",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK34DEX %3Critical Rate6Short Range Damage %3Base Stability %70Unsheathe Attack %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess37 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK34DEX %3Critical Rate6Short Range Damage %3Base Stability %70Unsheathe Attack %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK34Base Stability %70Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK34DEX %4Physical Pierce %15Critical Rate12Short Range Damage %4Base Stability %70Unsheathe Attack %8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK34Base Stability %70Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "Faldios[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK34Stability %2Short Range Damage %1% stronger against Neutral25Base Stability %70Magic Barrier1000",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Faldios[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK34Base Stability %70Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Faldios[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK34Stability %4Short Range Damage %2% stronger against Neutral25Base Stability %70Magic Barrier500",
+        "item_obtainfrom": "Nurethoth(Lv 76)Gate to Another World: Front",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sumire Renkyoku[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK37Critical Rate10Critical Damage10Base Stability %65Guard Break %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sumire Renkyoku[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK37Base Stability %70Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sumire Renkyoku[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK37Critical Rate5Critical Damage10Base Stability %70Guard Break %15",
+        "item_obtainfrom": "Flying Executioner(Lv 89)Cradle of Soldier: Entrance",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "6th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK40DEX %4Critical Rate30Short Range Damage %4Base Stability %70Unsheathe Attack %8Guard Break %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell85 SpinaProcess42 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK40Base Stability %70Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell85 SpinaProcess42 Metal"
+    },
+    {
+        "card_title": "Ice Katana Ace[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK40MaxMP400Water Element1Base Stability %70Unsheathe Attack %2Additional Magic %100ATK UP (INT %)100ATK DOWN (STR %)150",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Ice Katana Ace[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK40Base Stability %70Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Kuro Momiji[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK43Stability %5ASPD400Fire Element1Base Stability %70Unsheathe Attack %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Kuro Momiji[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK43Base Stability %70Potential29",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Kuro Momiji[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK43Stability %3ASPD300Fire Element1Base Stability %70Unsheathe Attack %5",
+        "item_obtainfrom": "Blaze Ant(Lv 99)Blazing Graben: Upper",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "3rd Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK46DEX %4Critical Rate8Short Range Damage %4Base Stability %70Unsheathe Attack %8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess47 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Base Stability %70Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess47 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK46DEX %4Critical Rate8Short Range Damage %4Base Stability %70Unsheathe Attack %8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Base Stability %70Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "Mafu Swordstick[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Dodge30Evasion Recharge %10Wind Element1Base Stability %70Anticipate %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Mafu Swordstick[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Base Stability %70Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Mafu Swordstick[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK46Dodge40Evasion Recharge %20Wind Element1Base Stability %70Anticipate %5",
+        "item_obtainfrom": "Zolban(Lv 98)Dark Mirror",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Kuro Tsurubami[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK50ASPD1200Attack MP Recovery6Short Range Damage %3Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Kuro Tsurubami[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK50Base Stability %70Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Kuro Tsurubami[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK50ASPD1000Attack MP Recovery5Short Range Damage %3Base Stability %70",
+        "item_obtainfrom": "Torture Machina(Lv 106)Small Demi Machina Factory: Area 1",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "3rd Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56DEX %5Critical Rate10Short Range Damage %5Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess55 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess55 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56DEX %5Critical Rate10Short Range Damage %5Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56DEX %5Physical Pierce %15Critical Rate15Short Range Damage %5Base Stability %70Unsheathe Attack %9",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Death Samurai Sword II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56MaxHP3000Critical Rate75Earth resistance %10Ailment Resistance %6Fire Element1Base Stability %70Reduce Dmg (Bullet) %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell28 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Death Samurai Sword II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56Base Stability %70Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell55 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Iron Fang[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56Physical Pierce %8Earth Element1Short Range Damage %4Base Stability %70Guard Break %16",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Iron Fang[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Iron Fang[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56Physical Pierce %8Earth Element1Short Range Damage %4Base Stability %70Guard Break %12",
+        "item_obtainfrom": "Retainer Doll(Lv 120)Brahe Laboratory: 2nd Building",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Mukuro Koshirae[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK56MaxMP500Critical Damage4Dark Element1Base Stability %75Unsheathe Attack %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell340 SpinaProcess175 Mana"
+    },
+    {
+        "card_title": "6th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK64DEX %5Critical Rate30Short Range Damage %5Base Stability %70Unsheathe Attack %10Guard Break %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK64Base Stability %70Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK64DEX %4Physical Pierce %10Critical Rate30Short Range Damage %4Base Stability %70Guard Break %15Reduce Dmg (Bowling) %30Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK64Base Stability %70Potential34Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Dia Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK64STR %4Dark resistance %10Light Element1Attack MP Recovery5Short Range Damage %4Base Stability %70Unsheathe Attack %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Kasakiri[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK64Critical Rate30Aggro %-15Light Element1Base Stability %70Unsheathe Attack %4",
+        "item_obtainfrom": "Cannon Golem(Lv 123)Suburb of Droma Square: Area 1",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Kasakiri[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK64Critical Rate40Aggro %-20Light Element1Base Stability %70Unsheathe Attack %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Kasakiri[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK64Base Stability %70Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Chocolate Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK65Physical Pierce %8Aggro %-30% stronger against Neutral25Base Stability %70Unsheathe Attack %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Medicine"
+    },
+    {
+        "card_title": "Bokuto[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK70ASPD1000Fire resistance %-20Short Range Damage %5Neutral Resistance %25% stronger against Neutral25Base Stability %80",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Caro Tesla[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK70MaxMP500ATK %5Dodge %-40Evasion Recharge %-20Aggro %50Water Element1Base Stability %70",
+        "item_obtainfrom": "Lalvada(Lv 117)Monster's Forest: Deep Part",
+        "item_prop": "Sell130 SpinaProcess65 Wood"
+    },
+    {
+        "card_title": "Caro Tesla[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK70MaxMP300ATK %5Dodge %-40Evasion Recharge %-20Aggro %40Water Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Wood"
+    },
+    {
+        "card_title": "Caro Tesla[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Base Stability %70Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Wood"
+    },
+    {
+        "card_title": "Korakiri[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK70STR %3MaxMP100ATK %6Critical Damage1Wind Element1Base Stability %70",
+        "item_obtainfrom": "Pelle(Lv 130)Turnus Mine: Area 1",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Korakiri[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK70STR %3MaxMP200ATK %6Critical Damage1Wind Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Korakiri[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Base Stability %70Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess66 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK71DEX %6Physical Pierce %4Critical Rate12Short Range Damage %6Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess65 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK71Base Stability %70Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess65 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK71DEX %6Physical Pierce %4Critical Rate12Short Range Damage %6Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK71Base Stability %70Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Iradium[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK76MaxHP %-30ATK %5Physical Pierce %5Magic Resistance %30Aggro %-15Dark Element1Base Stability %70Unsheathe Attack %5",
+        "item_obtainfrom": "Ultimate Machina(Lv 129)Droma Square",
+        "item_prop": "Sell135 SpinaProcess67 Beast"
+    },
+    {
+        "card_title": "Iradium[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK76MaxHP %-15ATK %5Physical Pierce %3Magic Resistance %30Aggro %-5Dark Element1Base Stability %70Unsheathe Attack %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell135 SpinaProcess67 Beast"
+    },
+    {
+        "card_title": "Iradium[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK76Base Stability %70Potential37",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell135 SpinaProcess67 Beast"
+    },
+    {
+        "card_title": "Iradium[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK76MaxHP %-30ATK %6Physical Pierce %1Magic Resistance %15Aggro %-45% stronger against Neutral25Base Stability %70Unsheathe Attack %6",
+        "item_obtainfrom": "Ultimate Machina (Megiston 2018)(Lv 160)Event",
+        "item_prop": "Sell135 SpinaProcess67 Beast"
+    },
+    {
+        "card_title": "Seiun[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK79Accuracy %9Critical Rate13Water Element1Base Stability %70Unsheathe Attack %5",
+        "item_obtainfrom": "Sanctuary Guardian(Lv 146)Shrine of the Gods: Area 4",
+        "item_prop": "Sell140 SpinaProcess70 Metal"
+    },
+    {
+        "card_title": "Seiun[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK79Accuracy %10Critical Rate15Water Element1Base Stability %70Unsheathe Attack %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell140 SpinaProcess70 Metal"
+    },
+    {
+        "card_title": "Seiun[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK79Base Stability %70Potential37",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell140 SpinaProcess70 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana VII[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK83DEX %6Physical Pierce %8Critical Rate14Short Range Damage %6Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess72 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Katana VII[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK83Base Stability %70Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess72 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana VII[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK83DEX %6Physical Pierce %8Critical Rate14Short Range Damage %6Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana VII[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK83Base Stability %70Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK83DEX %6Physical Pierce %15Critical Rate18Short Range Damage %6Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK83Base Stability %70Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88DEX %6Critical Rate30Short Range Damage %6Base Stability %70Unsheathe Attack %12Guard Break %15Reduce Dmg (Bowling) %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %70Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88DEX %6Physical Pierce %12Critical Rate30Short Range Damage %6Base Stability %70Guard Break %17Reduce Dmg (Bowling) %30Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %70Potential39Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88DEX %6MaxMP150ATK %6Critical Rate35Base Stability %70Unsheathe Attack %5Reduce Dmg (Bowling) %35Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %70Potential39Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Kanpuu[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88ATK %6Physical Pierce %10MDEF %-30Aggro %-20Earth Element1Base Stability %70",
+        "item_obtainfrom": "Rafflesian(Lv 157)Morthell Swell: Area 1",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Kanpuu[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88ATK %6Physical Pierce %10MDEF %-50Aggro %-30Earth Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Kanpuu[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Base Stability %70Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Sakura Lantern Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88Critical Rate40% stronger against Earth25Ailment Resistance %5Earth Element1Attack MP Recovery10Base Stability %70Unsheathe Attack %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Snow Bear Candy[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK88MaxMP400Critical Rate20% stronger against Wind25Fire resistance %-10Water Element1Attack MP Recovery3Base Stability %70",
+        "item_obtainfrom": "Snow Bear BoxSnowball Mini Game Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Lil Empress Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK91ATK %6ASPD200Critical Rate25Aggro %-15Fire Element1Base Stability %65",
+        "item_obtainfrom": "Venena Coenubia (YK Wifey)(Lv 140)Ultimea Palace: Throne",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK91ATK %6ASPD600Critical Rate20Aggro %-10Fire Element1Base Stability %65",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK91Base Stability %65Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Sacred Ice Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK92ATK %6ASPD %120% stronger against Light-25% stronger against Dark10Ailment Resistance %5Water Element1Base Stability %75ATK UP (AGI %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 141)Noeliel Castle: Hall (120-140)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sacred Ice Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK92ATK %2ASPD %40% stronger against Light-25% stronger against Dark10Ailment Resistance %1Water Element1Base Stability %75ATK UP (AGI %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 102)Noeliel Castle: Hall (80-100)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sacred Ice Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK92ATK %4ASPD %80% stronger against Light-25% stronger against Dark10Ailment Resistance %3Water Element1Base Stability %75ATK UP (AGI %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 122)Noeliel Castle: Hall (100-120)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "4th Anniv Katana VIII[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK96DEX %6Physical Pierce %12Critical Rate16Short Range Damage %6Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana VIII[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK96Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK96DEX %6Physical Pierce %15Critical Rate21Short Range Damage %6Base Stability %70Unsheathe Attack %11",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK96Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Adamantine Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK96VIT %10Critical Damage5Light Element1Base Stability %70Unsheathe Attack %6",
+        "item_obtainfrom": "Corphibi(Lv 172)Deltzon Research Zone: Area 1",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Adamantine Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK96VIT %12Critical Damage6Light Element1Base Stability %70Unsheathe Attack %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Adamantine Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK96Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Orion's Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK99Dodge-50Critical Rate100Light resistance %-30% stronger against Neutral25Base Stability %70Anticipate %15",
+        "item_obtainfrom": "Snowball FightEvent",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Dragon Claw Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK100ASPD1000Critical Damage %3Dark Element1Base Stability %70Unsheathe Attack %6Absolute Accuracy %5Reduce Dmg (Straight Line) %20",
+        "item_obtainfrom": "Finstern the Dark Dragon(Lv 156)Dark Dragon Shrine: Near the Top",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Dragon Claw Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK100ASPD500Critical Damage %3Dark Element1Base Stability %70Unsheathe Attack %6Absolute Accuracy %5Reduce Dmg (Straight Line) %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Dragon Claw Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK100Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Dragon Claw Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK100Critical Rate15Dark resistance %20Dark Element1Base Stability %70ATK UP (AGI %)250Reduce Dmg (Straight Line) %20",
+        "item_obtainfrom": "Finstern the Dark Dragon (Megiston 2020)(Lv 200)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Modestia (old)[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK100ASPD1000Critical Rate100Attack MP Recovery10Base Stability %70",
+        "item_obtainfrom": "P. Avatar(Lv 800)5422Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "Pacific Saury[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK100MaxHP3000Accuracy111Critical Rate11Water Element1Attack MP Recovery7Base Stability %60Unsheathe Attack %7",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Crystal Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106MaxMP500Physical Resistance %-15Magic Resistance %20Accuracy %40% stronger against Neutral25Base Stability %60Unsheathe Attack %6",
+        "item_obtainfrom": "Crystal Titan(Lv 138)Decaying Ruins",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Crystal Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106MaxMP200Physical Resistance %-10Magic Resistance %15Accuracy %20% stronger against Neutral25Base Stability %60Unsheathe Attack %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Crystal Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106Base Stability %60Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Crystal Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106MaxMP250Physical Resistance %-5Magic Resistance %10Accuracy %30% stronger against Neutral25Base Stability %60Unsheathe Attack %7",
+        "item_obtainfrom": "Crystal Titan (Megiston 2019)(Lv 175)46B30Event",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Death Samurai Sword III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106MaxHP4500Critical Rate100Earth resistance %15Ailment Resistance %9Fire Element1Base Stability %70Reduce Dmg (Bullet) %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell29 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Death Samurai Sword III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell56 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Glacial Ice Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106ATK %5MATK %5ASPD250Water Element1Attack MP Recovery10Base Stability %70Tumble Unavailable1",
+        "item_obtainfrom": "Evil Shadow(Lv 137)Reindeer Forest",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Glacial Ice Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106ATK %6MATK %6ASPD500Water Element1Attack MP Recovery15Base Stability %70Tumble Unavailable1",
+        "item_obtainfrom": "Evil Shadow(Lv 157)Reindeer Forest",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Glacial Ice Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106ATK %6MATK %6ASPD750Water Element1Attack MP Recovery20Base Stability %70Tumble Unavailable1",
+        "item_obtainfrom": "Evil Shadow(Lv 177)Reindeer Forest",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Red Spider Lily[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106Dark Element1Base Stability %70Unsheathe Attack %12Fractional Barrier %8Anticipate %10",
+        "item_obtainfrom": "Santaby(Lv 182)Tomte Pavillion (170-190)",
+        "item_prop": "Sell170 SpinaProcess85 Medicine"
+    },
+    {
+        "card_title": "Red Spider Lily[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106Base Stability %70Potential42",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell170 SpinaProcess85 Medicine"
+    },
+    {
+        "card_title": "Red Spider Lily[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK106Dark Element1Base Stability %70Unsheathe Attack %12Fractional Barrier %12Anticipate %12",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell170 SpinaProcess85 Medicine"
+    },
+    {
+        "card_title": "Orion's Sword (Snowball Event 2021)[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK108Dodge-50Critical Rate100Light resistance %-30% stronger against Neutral30Base Stability %70Anticipate %15",
+        "item_obtainfrom": "Snowball Event NPCSnowball Mini Game Venue",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "4th Anniv Katana IX[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110DEX %7Physical Pierce %16Critical Rate18Short Range Damage %7Base Stability %70Unsheathe Attack %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "4th Anniv Katana IX[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110DEX %7Physical Pierce %15Critical Rate24Short Range Damage %7Base Stability %70Unsheathe Attack %12Reduce Dmg (Bowling) %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110DEX %7Critical Rate30Short Range Damage %7Base Stability %70Unsheathe Attack %14Guard Break %15Reduce Dmg (Bowling) %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110DEX %7Physical Pierce %14Critical Rate30Short Range Damage %7Base Stability %70Guard Break %19Reduce Dmg (Bowling) %30Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential43Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110DEX %7MaxMP170ATK %7Critical Rate35Base Stability %70Unsheathe Attack %6Reduce Dmg (Bowling) %35Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential43Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "9th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110DEX %6ATK %7Physical Pierce %10CSPD600Critical Rate40Base Stability %70ATK UP (AGI %)250Reduce Dmg (Bowling) %40",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential43",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Seadevil Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110MaxMP400ATK %6Fire resistance %20Aggro %-25Water Element1Attack MP Recovery10Base Stability %70",
+        "item_obtainfrom": "Adaro(Lv 160)Underwater Ruins: Deepest",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Seadevil Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK110MaxMP600ATK %8Fire resistance %10Aggro %-75Water Element1Attack MP Recovery20Base Stability %70",
+        "item_obtainfrom": "Adaro (High Difficulty)(Lv 200)Underwater Ruins: Deepest",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Homura[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK115Earth resistance %20Fire Element1Short Range Damage %7Base Stability %80Additional Melee %50",
+        "item_obtainfrom": "Smilodocanis(Lv 194)Guardian Forest: Lost Woods",
+        "item_prop": "Sell180 SpinaProcess90 Metal"
+    },
+    {
+        "card_title": "Homura[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK115Earth resistance %20Fire Element1Short Range Damage %7Base Stability %80Additional Melee %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess90 Metal"
+    },
+    {
+        "card_title": "Homura[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK115Base Stability %80Potential44",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell180 SpinaProcess90 Metal"
+    },
+    {
+        "card_title": "Mortal Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK115ATK %7Critical Rate70Wind Element1Base Stability %70Guard Break %30",
+        "item_obtainfrom": "Gravicep(Lv 174)Recetacula Sector: Depot Rooftop",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Mortal Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK115ATK %7Critical Rate50Wind Element1Base Stability %70Guard Break %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess90 Metal"
+    },
+    {
+        "card_title": "Mortal Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK115Base Stability %70Potential44",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell180 SpinaProcess90 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK120DEX %7Physical Pierce %15Critical Rate27Short Range Damage %7Base Stability %70Unsheathe Attack %13Reduce Dmg (Bowling) %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell185 SpinaProcess92 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK120Base Stability %70Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell185 SpinaProcess92 Metal"
+    },
+    {
+        "card_title": "Pseudopumpkin Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK120DEF60Light Element1Base Stability %70Unsheathe Attack %7Physical Barrier2000ATK UP (AGI %)250",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell390 SpinaProcess190 Medicine"
+    },
+    {
+        "card_title": "Milk Chocolate Churro[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK125Dodge %10ASPD1000ASPD %100Base Stability %80ATK UP (AGI %)250",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Medicine"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK125Accuracy100ASPD1000Critical Rate100Fire Element1Base Stability %70Anticipate %5Guard Break %5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Shirogane[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK125ATK %7Light Element1Attack MP Recovery7Base Stability %70Unsheathe Attack %7",
+        "item_obtainfrom": "Tetracle(Lv 206)Arstida: Area 1",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Shirogane[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK125ATK %7Light Element1Attack MP Recovery14Base Stability %70Unsheathe Attack %7",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Shirogane[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK125Base Stability %70Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana VII[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130DEX %7Physical Pierce %15Critical Rate30Short Range Damage %7Base Stability %70Unsheathe Attack %14Reduce Dmg (Bowling) %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "5th Anniv Katana VII[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130Base Stability %70Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130DEX %7Critical Rate30Short Range Damage %7Base Stability %70Unsheathe Attack %14Guard Break %20Reduce Dmg (Bowling) %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130Base Stability %70Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130DEX %7Physical Pierce %16Critical Rate30Short Range Damage %7Base Stability %70Guard Break %21Reduce Dmg (Bowling) %30Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130Base Stability %70Potential46Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130DEX %7MaxMP190ATK %7Critical Rate35Base Stability %70Unsheathe Attack %7Reduce Dmg (Bowling) %35Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130Base Stability %70Potential46Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "9th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130DEX %7ATK %7Physical Pierce %13CSPD720Critical Rate40Base Stability %70ATK UP (AGI %)250Reduce Dmg (Bowling) %40",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Katana II[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130Base Stability %70Potential46",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130ATK %7Critical Rate25Fire Element1% stronger against Neutral25Base Stability %70Guard Break %15Heavy Armor only:Fractional Barrier %200",
+        "item_obtainfrom": "Venena Metacoenubia(Lv 185)Neo Plastida",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130ATK %7Critical Rate20Fire Element1% stronger against Neutral10Base Stability %70Guard Break %20Heavy Armor only:Fractional Barrier %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Demon Empress Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK130Base Stability %70Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Murasame[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK136Critical Rate160Water Element1Motion Speed %40Unsheathe Attack %20Anticipate %80Recoil %3",
+        "item_obtainfrom": "Sunken Treasure-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Purple Lightning Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK136ATK %8Accuracy75Critical Rate30Wind Element1Base Stability %70Attack Range (m)2",
+        "item_obtainfrom": "Serpentragon(Lv 215)Boma Moja: Area 1",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Purple Lightning Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK136ATK %8Accuracy80Critical Rate40Wind Element1Base Stability %70Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Purple Lightning Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK136Base Stability %70Potential47Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Yozakura Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK136DEX %2Accuracy300ASPD600% stronger against Dark10Light Element1Short Range Damage %6Base Stability %70Reduce Dmg (Floor) %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK141DEX %4ATK %8Wind resistance %10Aggro %-30Earth Element1Attack MP Recovery7Base Stability %70Reduce Dmg (Bowling) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK141DEX %4ATK %8Earth resistance %10Aggro %-30Fire Element1Attack MP Recovery7Base Stability %70Reduce Dmg (Bowling) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK141ATK %8Wind resistance %5Aggro %-10Earth Element1Attack MP Recovery10Short Range Damage %2Base Stability %70Reduce Dmg (Bowling) %5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK141ATK %8Earth resistance %5Aggro %-10Fire Element1Attack MP Recovery10Short Range Damage %2Base Stability %70Reduce Dmg (Bowling) %5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK141MaxHP3000ATK %7Wind resistance %20Aggro %-40Earth Element1Attack MP Recovery4Base Stability %70Reduce Dmg (Bowling) %20",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK141MaxHP3000ATK %7Earth resistance %20Aggro %-40Fire Element1Attack MP Recovery4Base Stability %70Reduce Dmg (Bowling) %20",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK141ATK %8Physical Resistance %15Magic Resistance %15Wind resistance %30Ailment Resistance %10Earth Element1Base Stability %70Reduce Dmg (Bowling) %30",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK141ATK %8Physical Resistance %15Magic Resistance %15Earth resistance %30Ailment Resistance %10Fire Element1Base Stability %70Reduce Dmg (Bowling) %30",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Black Shadow Nodachi[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK142MaxHP5000ATK %8Stability %5Physical Pierce %20Physical Resistance %30Ailment Resistance %15Dark Element1Base Stability %60",
+        "item_obtainfrom": "Black Shadow(Lv 189)Rokoko City Ruins",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Black Shadow Nodachi[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK142MaxHP3000ATK %8Physical Pierce %20Physical Resistance %20Ailment Resistance %10Dark Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Black Shadow Nodachi[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK142Base Stability %60Potential47",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146DEX %8Critical Rate30Short Range Damage %8Base Stability %70Unsheathe Attack %16Guard Break %20Reduce Dmg (Bowling) %8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "6th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %70Potential49",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146DEX %8Physical Pierce %18Critical Rate30Short Range Damage %8Base Stability %70Guard Break %23Reduce Dmg (Bowling) %30Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %70Potential49Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146DEX %8MaxMP210ATK %8Critical Rate35Base Stability %70Unsheathe Attack %8Reduce Dmg (Bowling) %35Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %70Potential49Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "9th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146DEX %8ATK %8Physical Pierce %16CSPD840Critical Rate40Base Stability %70ATK UP (AGI %)250Reduce Dmg (Bowling) %40",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Katana III[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %70Potential49",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Beastlord Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %70Potential48",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Blue Spinel Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146MaxHP %20Physical Resistance %20Magic Resistance %20Earth Element1Base Stability %70Attack Range (m)2Heavy Armor only:Aggro %40",
+        "item_obtainfrom": "Oris(Lv 221)Weredragon's Vital Point: Area 1",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Blue Spinel Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146MaxHP %30Physical Resistance %20Magic Resistance %25Earth Element1Base Stability %70Attack Range (m)2Heavy Armor only:Aggro %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Blue Spinel Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %70Potential49Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Scarlet Sakura Fairy Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK149MaxHP10000Accuracy75Critical Rate25Dark Element1Attack MP Recovery10Base Stability %60",
+        "item_obtainfrom": "Amalgam(Lv 200)Twilight Sakura Castle: Top",
+        "item_prop": "Sell1 SpinaProcess300 Mana"
+    },
+    {
+        "card_title": "Modestia (old)[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK150ASPD1000Critical Rate120Attack MP Recovery15Base Stability %70",
+        "item_obtainfrom": "P. Avatar (2021)(Lv 400)5422Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Orion's Sword (Snowball Event 2022)[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK150Dodge-50Critical Rate105Light resistance %-25% stronger against Neutral30Base Stability %70Anticipate %15",
+        "item_obtainfrom": "Snowball Event NPCSnowball Mini Game Venue",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Pearl Sakura Mystic Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK150MaxHP %30CSPD %50Critical Rate50Critical Rate %25% stronger against Earth10Fire Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessWood"
+    },
+    {
+        "card_title": "Cruel Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK152MaxMP400Stability %20ASPD %60% stronger against Wind5Aggro %-40Earth Element1Short Range Damage %8Base Stability %70Attack Range (m)2",
+        "item_obtainfrom": "War Dragon Turba(Lv 207)Prime Ramus: Village",
+        "item_prop": "Sell215 SpinaProcess107 Beast"
+    },
+    {
+        "card_title": "Cruel Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK152MaxMP400Stability %2ASPD %50% stronger against Wind5Aggro %-30Earth Element1Short Range Damage %8Base Stability %70Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell215 SpinaProcess107 Beast"
+    },
+    {
+        "card_title": "Cruel Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK152Base Stability %70Potential50Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell215 SpinaProcess107 Beast"
+    },
+    {
+        "card_title": "Cruel Lamina[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK152MaxMP400ATK %9Stability %10ASPD %70Aggro %-50Earth Element1Base Stability %70Attack Range (m)2",
+        "item_obtainfrom": "War Dragon Turba (Megiston 2022)(Lv 240)Event",
+        "item_prop": "Sell215 SpinaProcess107 Beast"
+    },
+    {
+        "card_title": "Hakuro Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK158MaxHP6000MaxMP200Critical Rate40% stronger against Dark10Light Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell220 SpinaProcess110 Metal"
+    },
+    {
+        "card_title": "Sword of Light (Katana)[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK158MaxHP3000MaxMP300Physical Pierce %10Critical Rate100Light Element1Base Stability %70Unsheathe Attack %10Tumble Unavailable1Fractional Barrier %30Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Slayers: Collab Prize ExchangeSofya City",
+        "item_prop": "Sell1000 SpinaProcessN/A"
+    },
+    {
+        "card_title": "White Viper[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK158ATK %8Critical Rate60Water Element1Base Stability %60Unsheathe Attack %7Attack Range (m)2",
+        "item_obtainfrom": "Voda(Lv 236)Puerta Islands: Area 1",
+        "item_prop": "Sell220 SpinaProcess110 Beast"
+    },
+    {
+        "card_title": "Combat Knife[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK163Physical Pierce %30Critical Rate30Critical Rate %30Light resistance %-30Short Range Damage %9Base Stability %80ATK UP (AGI %)250",
+        "item_obtainfrom": "Ignitrus(Lv 251)Vulcani Crater Base",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Modestia[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK168ASPD1000Critical Rate120Attack MP Recovery15Base Stability %70",
+        "item_obtainfrom": "[NPC]Mysterious Exchange (P. Avatar 2022)Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "7th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK169DEX %9Physical Pierce %20Critical Rate30Short Range Damage %9Base Stability %70Guard Break %25Reduce Dmg (Bowling) %30Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "7th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Base Stability %70Potential52Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK169DEX %9MaxMP230ATK %9Critical Rate35Base Stability %70Unsheathe Attack %9Reduce Dmg (Bowling) %35Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Base Stability %70Potential52Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "9th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK169DEX %9ATK %9Physical Pierce %19CSPD960Critical Rate40Base Stability %70ATK UP (AGI %)250Reduce Dmg (Bowling) %40",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Katana IV[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Base Stability %70Potential52",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Accuracy125ASPD1000Critical Rate125Fire Element1Base Stability %70Anticipate %10Guard Break %10Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Burning Ember Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK175Fire Element1Attack MP Recovery20Base Stability %65Unsheathe Attack %9Fractional Barrier %15Guard Break %30Reduce Dmg (Floor) %25Attack Range (m)2Ninjutsu Scroll only:Aggro %-20ATK UP (AGI %)250",
+        "item_obtainfrom": "Burning Dragon Igneus(Lv 225)Boma Moja: Village Center",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Burning Ember Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK175Fire Element1Attack MP Recovery30Base Stability %65Unsheathe Attack %9Fractional Barrier %15Guard Break %15Reduce Dmg (Floor) %15Attack Range (m)2Ninjutsu Scroll only:Aggro %-30ATK UP (AGI %)200",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell235 SpinaProcess117 Wood"
+    },
+    {
+        "card_title": "Burning Ember Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK175Base Stability %65Potential53Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell235 SpinaProcess117 Wood"
+    },
+    {
+        "card_title": "Orion's Sword (Snowball Event 2023)[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK175Dodge-50Critical Rate105Light resistance %-25% stronger against Neutral35Base Stability %70Anticipate %15",
+        "item_obtainfrom": "Snowball Event NPCSnowball Mini Game Venue",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "8th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194DEX %10MaxMP250ATK %10Critical Rate35Base Stability %70Unsheathe Attack %10Reduce Dmg (Bowling) %35Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell250 SpinaProcess125 Metal"
+    },
+    {
+        "card_title": "8th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194Base Stability %70Potential55Attack Range (m)2",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell250 SpinaProcess125 Metal"
+    },
+    {
+        "card_title": "9th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194DEX %10ATK %10Physical Pierce %22CSPD1080Critical Rate40Base Stability %70ATK UP (AGI %)250Reduce Dmg (Bowling) %40",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Katana V[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194Base Stability %70Potential55",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Brass Dragon Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194ATK %10Accuracy100ASPD1000Critical Rate %200Light Element1Base Stability %70Additional Melee %100Reduce Dmg (Charge) %40Attack Range (m)2",
+        "item_obtainfrom": "Brass Dragon Reguita(Lv 240)Boma Konda: Village Center",
+        "item_prop": "Sell250 SpinaProcess125 Metal"
+    },
+    {
+        "card_title": "Brass Dragon Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194ATK %10Accuracy200ASPD1000Critical Rate %100Light Element1Base Stability %70Additional Melee %100Reduce Dmg (Charge) %10Attack Range (m)2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Brass Dragon Sword[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194Base Stability %70Potential55",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Modestia[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194ASPD1000Critical Rate120Attack MP Recovery15Base Stability %70",
+        "item_obtainfrom": "[NPC]Mysterious Exchange (P. Avatar 2023)Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194DEX %5ATK %10Wind resistance %15Aggro %-40Earth Element1Attack MP Recovery7Base Stability %70Reduce Dmg (Bowling) %15Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194DEX %5ATK %10Earth resistance %15Aggro %-40Fire Element1Attack MP Recovery7Base Stability %70Reduce Dmg (Bowling) %15Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194ATK %10Wind resistance %10Aggro %-20Earth Element1Attack MP Recovery10Short Range Damage %3Base Stability %70Reduce Dmg (Bowling) %10Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194ATK %10Earth resistance %10Aggro %-20Fire Element1Attack MP Recovery10Short Range Damage %3Base Stability %70Reduce Dmg (Bowling) %10Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194MaxHP5000ATK %9Wind resistance %25Aggro %-60Earth Element1Attack MP Recovery4Base Stability %70Reduce Dmg (Bowling) %25Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194MaxHP5000ATK %9Earth resistance %25Aggro %-60Fire Element1Attack MP Recovery4Base Stability %70Reduce Dmg (Bowling) %25Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194ATK %10Physical Resistance %20Magic Resistance %20Wind resistance %35Ailment Resistance %15Earth Element1Base Stability %70Reduce Dmg (Bowling) %35Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Patriot Edge[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194ATK %10Physical Resistance %20Magic Resistance %20Earth resistance %35Ailment Resistance %15Fire Element1Base Stability %70Reduce Dmg (Bowling) %35Attack Range (m)2",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Yatagarasu[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK194MaxHP %-40ATK %10Accuracy %30Aggro %-50Water Element1% stronger against Neutral35Base Stability %80Absolute Dodge %20Attack Range (m)2.5Ninjutsu Scroll only:CSPD %100Critical Rate %100",
+        "item_obtainfrom": "Pedrio(Lv 265)High Difficulty Boss Battle Event Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Abyss Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK213DEX %10MaxHP7500% stronger against Fire10Aggro %-75Water Element1Unsheathe Attack %10Invincible Aid (sec)2Absolute Dodge %20",
+        "item_obtainfrom": "Vatudo(Lv 255)Deep Sea: Deepest Zone",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Abyss Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK213DEX %10MaxHP10000% stronger against Fire10Aggro %-100Water Element1Base Stability %70Unsheathe Attack %10Invincible Aid (sec)1Absolute Dodge %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Abyss Katana[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK213Base Stability %70Potential58",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK220DEX %10ATK %11Physical Pierce %25CSPD1200Critical Rate40Base Stability %70ATK UP (AGI %)250Reduce Dmg (Bowling) %40",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Katana VI[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK220Base Stability %70Potential59",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Tsukikage-Sakuya[Katana]",
+        "item_basestat": "Stat/EffectAmountBase ATK226Physical Pierce %10% stronger against Dark25Light resistance %30Dark resistance %30Dark Element1Short Range Damage %10Motion Speed %10Heavy Armor only:ASPD900Guard Break %30",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell275 SpinaProcess137 Mana"
+    }
+]

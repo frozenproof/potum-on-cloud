@@ -1,0 +1,56 @@
+[
+    {
+        "card_title": "Metal Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountCritical Rate5",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Metal Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountCritical Rate5",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Metal Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountCritical Rate5",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Fire Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountMATK %1Staff only:Magic Pierce %5",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Lightning Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountStability %5Katana only:Accuracy %10",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Water Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountAilment Resistance %5Magic Device only:Aggro %-10",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Earth Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountMaxHP %101-Handed Sword only:Fractional Barrier %10",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Wind Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountASPD250Katana only:Critical Rate5",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    },
+    {
+        "card_title": "Dark Ninjutsu Scroll[Ninjutsu Scroll]",
+        "item_basestat": "Stat/EffectAmountAggro %-10",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell1 SpinaProcess2 Wood"
+    }
+]

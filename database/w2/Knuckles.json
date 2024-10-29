@@ -1,0 +1,1862 @@
+[
+    {
+        "card_title": "Anguish Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountKnuckle only:ATK %11Physical Pierce %20ASPD900% stronger against Light10Dark Element1Anticipate %30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell0 SpinaProcessBeast"
+    },
+    {
+        "card_title": "Anguish Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountKnuckle only:ATK %11Physical Pierce %20ASPD900% stronger against Light10Dark Element1Anticipate %30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell0 SpinaProcessBeast"
+    },
+    {
+        "card_title": "Anguish Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountKnuckle only:ATK %11Physical Pierce %20ASPD900% stronger against Light10Dark Element1Anticipate %30",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell0 SpinaProcessBeast"
+    },
+    {
+        "card_title": "Don Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase DEF361Base Stability %90Potential57",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Cat Paws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK1ATK %-50ASPD1000Base Stability %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessN/A"
+    },
+    {
+        "card_title": "Tiger Fists[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK1DEF %-25MDEF %-25ASPD1000Base Stability %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK7Base Stability %90",
+        "item_obtainfrom": "Piedra(Lv 3)Rakau Plains",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK7Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK7Base Stability %90Potential15",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Iron Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK11Dodge2Attack MP Recovery1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell10 SpinaProcess5 Metal"
+    },
+    {
+        "card_title": "Iron Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK11Base Stability %90Potential16",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell10 SpinaProcess5 Metal"
+    },
+    {
+        "card_title": "Knuckle Duster[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK17DEX1ASPD %2Attack MP Recovery1Base Stability %90",
+        "item_obtainfrom": "Little Boar(Lv 24)Nisel Mountain",
+        "item_prop": "Sell20 SpinaProcess10 Metal"
+    },
+    {
+        "card_title": "Knuckle Duster[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK17DEX2ASPD %3Attack MP Recovery1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell20 SpinaProcess10 Metal"
+    },
+    {
+        "card_title": "Knuckle Duster[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK17Base Stability %90Potential18",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell20 SpinaProcess10 Metal"
+    },
+    {
+        "card_title": "1st Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK20AGI %1MaxHP300Dodge %6Short Range Damage %1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "1st Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK20Base Stability %90Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK20AGI %1MaxHP300Dodge %6Short Range Damage %1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK20Base Stability %90Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK20AGI %1MaxHP300Dodge %6Short Range Damage %1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess12 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK20Base Stability %90Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess12 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK20AGI %1MaxHP300Dodge %6Short Range Damage %1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK20Base Stability %90Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Metal"
+    },
+    {
+        "card_title": "Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK23AGI %1Critical Damage %1Attack MP Recovery2Base Stability %90",
+        "item_obtainfrom": "Rutin(Lv 36)Land Of Chaos",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK23AGI %2Critical Damage %2Attack MP Recovery2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK23Base Stability %90Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell30 SpinaProcess15 Metal"
+    },
+    {
+        "card_title": "Minotaur Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK23Accuracy %-20Critical Rate10Fire Element1Base Stability %85",
+        "item_obtainfrom": "Minotaur(Lv 32)Ruined Temple: Forbidden hall",
+        "item_prop": "Sell30 SpinaProcess15 Beast"
+    },
+    {
+        "card_title": "Cone Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK25Physical Pierce %10Light Element1Attack MP Recovery5Base Stability %80Guard Break %2Reduce Dmg (Straight Line) %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell30 SpinaProcess15 Medicine"
+    },
+    {
+        "card_title": "Cone Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK25Base Stability %80Potential17",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell30 SpinaProcess15 Medicine"
+    },
+    {
+        "card_title": "Iron Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK30DEX2Critical Rate %30Attack MP Recovery1Base Stability %90",
+        "item_obtainfrom": "Pain Leaf(Lv 17)Isthmus Of Kaus",
+        "item_prop": "Sell10 SpinaProcess5 Metal"
+    },
+    {
+        "card_title": "Jamadhar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK30DEX2Critical Rate %30Attack MP Recovery2Base Stability %90",
+        "item_obtainfrom": "Turquoise Lionfish(Lv 39)Lutaros Cavern: B2",
+        "item_prop": "Sell40 SpinaProcess20 Metal"
+    },
+    {
+        "card_title": "Jamadhar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK30DEX3Critical Rate %40Attack MP Recovery2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell40 SpinaProcess20 Metal"
+    },
+    {
+        "card_title": "Jamadhar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK30Base Stability %90Potential21",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell40 SpinaProcess20 Metal"
+    },
+    {
+        "card_title": "Volcanic Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK30Dodge %3Evasion Recharge %4Attack MP Recovery1Motion Speed %2Base Stability %90",
+        "item_obtainfrom": "Flare Volg(Lv 50)Fiery Volcano: Boss Map",
+        "item_prop": "Sell40 SpinaProcess20 Beast"
+    },
+    {
+        "card_title": "Volcanic Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK30Dodge %2Evasion Recharge %2Attack MP Recovery2Motion Speed %2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell40 SpinaProcess20 Beast"
+    },
+    {
+        "card_title": "Volcanic Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK30Base Stability %90Potential21",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell40 SpinaProcess20 Beast"
+    },
+    {
+        "card_title": "Golem Arm[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK32ATK %1Physical Pierce %1Earth Element1Long Range Damage %1Base Stability %85",
+        "item_obtainfrom": "Ruin Golem(Lv 45)Zoktzda ruins : Reversed Hall",
+        "item_prop": "Sell40 SpinaProcess20 Metal"
+    },
+    {
+        "card_title": "Chocolate Gifts[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK37MaxMP200Light Element1Base Stability %80",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "1st Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38AGI %2MaxHP600Dodge %9Short Range Damage %2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "1st Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38Base Stability %90Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38AGI %2MaxHP600Dodge %9Short Range Damage %2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38Base Stability %90Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38AGI %2MaxHP600Dodge %9Short Range Damage %2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess25 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38Base Stability %90Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess25 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38AGI %2MaxHP600Dodge %9Short Range Damage %2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38Base Stability %90Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Lethal Silver Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38Critical Rate45Ailment Resistance %3Earth Element1Base Stability %90Anticipate %15Reduce Dmg (Player Epicenter) %5Reduce Dmg (Foe Epicenter) %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell21 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Lethal Silver Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK38Base Stability %90Potential22",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell48 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Sakura Gloves[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK46MaxMP100Critical Rate10Critical Damage1Light Element1Attack MP Recovery2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Sakura Gloves[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK46MaxMP200Critical Rate40Critical Damage2Light Element1Attack MP Recovery6Weapon ATK210Base Stability %90",
+        "item_obtainfrom": "Mimesia (Nightmare)(Lv 180)ABCSakura Castle Donjon: Top",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Iron Thorns[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK48ATK %3Accuracy %-6Critical Rate %50Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Iron Thorns[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK48Base Stability %90Potential24",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Iron Thorns[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK48ATK %3Accuracy %-4Critical Rate %40Base Stability %90",
+        "item_obtainfrom": "Duston(Lv 72)Magic Waste Site: Area 2",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Berserker Cestuses[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK51DEX6MaxHP %4ATK %2Dark Element1Motion Speed %3Base Stability %90",
+        "item_obtainfrom": "Masked Warrior(Lv 67)Land Under Cultivation: Hill",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Berserker Cestuses[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK51DEX4MaxHP %8ATK %2Dark Element1Motion Speed %1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Berserker Cestuses[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK51Base Stability %90Potential25",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Tri Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK56MaxMP250ATK %2Accuracy30Water Element1Base Stability %90",
+        "item_obtainfrom": "Hangged Mummy(Lv 78)Lunagent Mountain: Area 2",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "Tri Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK56Base Stability %90Potential26",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "Tri Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK56MaxMP300ATK %3Accuracy30Water Element1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell70 SpinaProcess35 Metal"
+    },
+    {
+        "card_title": "Hard Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK57ATK %1Physical Resistance %6Guard Power %5Guard Recharge %5Attack MP Recovery3Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Hard Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK57Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Hard Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK57ATK %1Physical Resistance %3Guard Power %4Guard Recharge %4Attack MP Recovery3Base Stability %70",
+        "item_obtainfrom": "Moss Mushroom(Lv 60)Vyshed the Tainted Land: Area 1",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "1st Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60AGI %3MaxHP900Dodge %12Short Range Damage %3Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "1st Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60Base Stability %90Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60AGI %3MaxHP900Dodge %12Short Range Damage %3Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60Base Stability %90Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60AGI %3MaxHP900Dodge %12Short Range Damage %3Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess37 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60Base Stability %90Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess37 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60AGI %3MaxHP900Dodge %312Short Range Damage %3Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60Base Stability %90Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60AGI %4MaxHP3000Dodge %12Short Range Damage %4Base Stability %90Absolute Dodge %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60Base Stability %90Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Metal"
+    },
+    {
+        "card_title": "Drills[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK60Critical Rate100Critical Damage-150Base Stability %90",
+        "item_obtainfrom": "Moonlight Potum(Lv 72)New Moon Palace: Innermost",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Emeldia[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK65STR %6ASPD %20Wind Element1Attack MP Recovery3Short Range Damage %3Base Stability %90",
+        "item_obtainfrom": "Jade Raptor(Lv 79)Gravel Terrace",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Emeldia[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK65STR %3ASPD %80Wind Element1Attack MP Recovery4Short Range Damage %2Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Emeldia[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK65Base Stability %90Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Emeldia[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK65STR %8ASPD %40Wind Element1Attack MP Recovery1Short Range Damage %5Base Stability %90",
+        "item_obtainfrom": "Jade Raptor (Megiston 2017)(Lv 120)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Katar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK65Physical Pierce %10DEF %-10MDEF %-10Evasion Recharge %7Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "Skeleton(Lv 81)Fort Solfini: Wall",
+        "item_prop": "Sell80 SpinaProcess40 Metal"
+    },
+    {
+        "card_title": "Katar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK65Physical Pierce %15DEF %-15MDEF %-15Evasion Recharge %10Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell80 SpinaProcess40 Metal"
+    },
+    {
+        "card_title": "Katar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK65Base Stability %90Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell80 SpinaProcess40 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK70AGI %4ATK %4Critical Rate10Evasion Recharge %30Base Stability %90Absolute Dodge %10Shield only:Dodge %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell85 SpinaProcess42 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Base Stability %90Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell85 SpinaProcess42 Metal"
+    },
+    {
+        "card_title": "Ghost Puppets[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Critical Rate15Critical Damage15% stronger against Neutral-75Base Stability %90Flinch Unavailable1Tumble Unavailable1Additional Melee %150",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Iceclaw Snow[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Critical Rate %3Critical Damage %1Water Element1Base Stability %90Additional Magic %100ATK UP (INT %)25ATK DOWN (DEX %)50",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell85 SpinaProcess42 Mana"
+    },
+    {
+        "card_title": "Iceclaw Snow[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Base Stability %90Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell85 SpinaProcess42 Mana"
+    },
+    {
+        "card_title": "Devil Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK76ASPD500Critical Rate %20Dark Element1Attack MP Recovery1Base Stability %90Anticipate %7",
+        "item_obtainfrom": "Corroded Brawler(Lv 93)Dark Manor: Area 1",
+        "item_prop": "Sell90 SpinaProcess45 Beast"
+    },
+    {
+        "card_title": "Devil Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK76ASPD500Critical Rate %30Dark Element1Attack MP Recovery2Base Stability %90Anticipate %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell90 SpinaProcess45 Beast"
+    },
+    {
+        "card_title": "Devil Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK76Base Stability %90Potential29",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell90 SpinaProcess45 Beast"
+    },
+    {
+        "card_title": "Cone Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK80Physical Pierce %20Light Element1Attack MP Recovery10Base Stability %80Guard Break %4Reduce Dmg (Straight Line) %8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell90 SpinaProcess45 Medicine"
+    },
+    {
+        "card_title": "Cone Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK80Base Stability %80Potential26",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell90 SpinaProcess45 Medicine"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK81AGI %4MaxHP1200Dodge %15Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK81Base Stability %90Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK81AGI %4MaxHP1200Dodge %15Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess47 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK81Base Stability %90Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess47 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK81AGI %4MaxHP1200Dodge %15Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK81Base Stability %90Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell95 SpinaProcess47 Metal"
+    },
+    {
+        "card_title": "Gardien[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK87MaxHP900Guard Power %9Guard Recharge %9Fire Element1Attack MP Recovery4Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "Cerberus(Lv 97)Spring of Rebirth: Top",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Gardien[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK87MaxHP300Guard Power %3Guard Recharge %3Fire Element1Attack MP Recovery4Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Gardien[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK87Base Stability %90Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Epetal[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK90ATK %4Critical Damage4% stronger against Neutral25Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "Epetal[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK90Base Stability %90Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "Epetal[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK90ATK %4Critical Damage4% stronger against Neutral20Base Stability %90",
+        "item_obtainfrom": "Fist Machina(Lv 107)Small Demi Machina Factory: Area 1",
+        "item_prop": "Sell100 SpinaProcess50 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99AGI %5MaxHP1500Dodge %18Short Range Damage %5Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "2nd Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99Base Stability %90Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99AGI %5MaxHP1500Dodge %18Short Range Damage %5Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess55 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99Base Stability %90Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess55 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99AGI %5MaxHP1500Dodge %18Short Range Damage %5Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99Base Stability %90Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99AGI %5MaxHP3000Dodge %15Short Range Damage %5Base Stability %90Absolute Dodge %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99Base Stability %90Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Lethal Silver Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99Critical Rate60Ailment Resistance %6Earth Element1Base Stability %90Anticipate %20Reduce Dmg (Player Epicenter) %10Reduce Dmg (Foe Epicenter) %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell22 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Lethal Silver Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK99Base Stability %90Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell49 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Iron Bear Claw[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK100Critical Rate %8Critical Damage %8Attack MP Recovery4Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Iron Bear Claw[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK100Base Stability %90Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Iron Bear Claw[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK100Critical Rate %6Critical Damage %8Attack MP Recovery3Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "Puppet Dragon(Lv 114)Lufenas Mansion: Entrance",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Zaif Sadik[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK100MaxMP200ATK %4Critical Rate16Earth Element1Base Stability %90Guard Break %24",
+        "item_obtainfrom": "Iconos(Lv 108)Artillery Defense Line",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Zaif Sadik[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK100MaxMP200ATK %4Critical Rate15Earth Element1Base Stability %90Guard Break %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "Zaif Sadik[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK100Base Stability %90Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK112AGI %5ATK %5Critical Rate10Evasion Recharge %30Base Stability %90Absolute Dodge %11Shield only:Dodge %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK112Base Stability %90Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK112AGI %4Physical Resistance %30ASPD %40Critical Rate30Short Range Damage %4Base Stability %90Absolute Dodge %10Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK112Base Stability %90Potential34Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Dia Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK112AGI %4Accuracy50Dark resistance %10Light Element1Attack MP Recovery5Short Range Damage %4Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Chakrums[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK115ATK %4Aggro %-16Wind Element1Long Range Damage %4Base Stability %90Anticipate %8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Chakrums[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK115Base Stability %90Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "Chakrums[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK115ATK %4Aggro %-8Wind Element1Long Range Damage %4Base Stability %90Anticipate %4",
+        "item_obtainfrom": "Mine Digger(Lv 128)Buried Tower: Collapsed Top",
+        "item_prop": "Sell120 SpinaProcess60 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK125AGI %6MaxHP1800Dodge %18Short Range Damage %6Base Stability %90Absolute Dodge %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess65 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK125Base Stability %90Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess65 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK125AGI %6MaxHP1800Dodge %18Short Range Damage %6Base Stability %90Absolute Dodge %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK125Base Stability %90Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Lupus Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK125ATK %5Accuracy20Critical Rate15Dark Element1Base Stability %90",
+        "item_obtainfrom": "Shark Wolf(Lv 135)Curonne Forest: North Area 2",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Lupus Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK125ATK %5Accuracy15Critical Rate20Dark Element1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Lupus Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK125Base Stability %90Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Metal"
+    },
+    {
+        "card_title": "Triple Ice Cream[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK125MaxMP300Accuracy %300Water Element1Base Stability %85Physical Barrier300Magic Barrier300",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Mad Palms[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Physical Pierce %1Accuracy100CSPD-1000Critical Damage %5Water Element1Short Range Damage %5Long Range Damage %-10Base Stability %80",
+        "item_obtainfrom": "Guignol(Lv 123)Brahe Laboratory: 4th Building",
+        "item_prop": "Sell130 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Mad Palms[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Physical Pierce %10Accuracy10CSPD-500Critical Damage %5Water Element1Short Range Damage %5Long Range Damage %-5Base Stability %80",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Mad Palms[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Base Stability %80Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Mad Palms[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Physical Pierce %20Accuracy1CSPD-750Critical Damage %6Wind Element1Short Range Damage %6Long Range Damage %-15Base Stability %80",
+        "item_obtainfrom": "Guignol (Megiston 2018)(Lv 150)Event",
+        "item_prop": "Sell130 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "White Bear Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK139MaxHP2000Water Element1Attack MP Recovery10Base Stability %90Reduce Dmg (Charge) %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "White Bear Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK139Base Stability %90Potential37",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "White Bear Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK139MaxHP1500Water Element1Attack MP Recovery10Base Stability %90Reduce Dmg (Charge) %10",
+        "item_obtainfrom": "Silveria(Lv 149)Elf Mountains: Area 1",
+        "item_prop": "Sell140 SpinaProcess70 Beast"
+    },
+    {
+        "card_title": "Chemical Ring[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK140Accuracy100ASPD1Attack MP Recovery10Base Stability %1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles VII[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK146AGI %6MaxHP2100Dodge %18Short Range Damage %6Base Stability %90Absolute Dodge %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess72 Metal"
+    },
+    {
+        "card_title": "3rd Anniv Knuckles VII[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %90Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess72 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles VII[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK146AGI %6MaxHP2100Dodge %18Short Range Damage %6Base Stability %90Absolute Dodge %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles VII[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %90Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK146AGI %6MaxHP3000Dodge %18Short Range Damage %6Base Stability %90Absolute Dodge %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK146Base Stability %90Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK154AGI %6ATK %6Critical Rate15Evasion Recharge %30Base Stability %90Reduce Dmg (Floor) %2Absolute Dodge %12Shield only:Dodge %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK154Base Stability %90Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK154AGI %6Physical Resistance %30ASPD %48Critical Rate30Short Range Damage %6Base Stability %90Absolute Dodge %11Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK154Base Stability %90Potential39Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK154AGI %6MaxMP250ATK %6Physical Resistance %35Critical Rate35Base Stability %90Guard Break %15Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK154Base Stability %90Potential39Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Sakura Lantern Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK154AGI %3MaxMP500Physical Resistance %20% stronger against Earth25Ailment Resistance %5Earth Element1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Katze Gloves[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK155ATK %6Dodge %10Earth Element1Base Stability %90Absolute Dodge %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Cloth"
+    },
+    {
+        "card_title": "Katze Gloves[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK155Base Stability %90Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Cloth"
+    },
+    {
+        "card_title": "Katze Gloves[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK155ATK %6Dodge %16Earth Element1Base Stability %90Absolute Dodge %2",
+        "item_obtainfrom": "Laurus(Lv 164)Labilans Sector: Area 1",
+        "item_prop": "Sell150 SpinaProcess75 Cloth"
+    },
+    {
+        "card_title": "Crab Pincers[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK158MaxHP5000ATK %6Physical Resistance %18Light resistance %15Dark Element1Base Stability %90Fractional Barrier %30",
+        "item_obtainfrom": "Giant Moon Crab(Lv 50)7310COtsukimi Event Venue: Crater Zone",
+        "item_prop": "Sell155 SpinaProcess77 Beast"
+    },
+    {
+        "card_title": "Dango & Dango[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK158Accuracy158Dodge158Critical Rate158Critical Damage-158Base Stability %90",
+        "item_obtainfrom": "Devil Dango(Lv 250)Otsukimi Event Venue: Crater Zone",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Cone Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK160Physical Pierce %30Light Element1Attack MP Recovery15Base Stability %80Guard Break %8Reduce Dmg (Straight Line) %12",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Medicine"
+    },
+    {
+        "card_title": "Cone Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK160Base Stability %80Potential35",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Medicine"
+    },
+    {
+        "card_title": "Lil Empress Knuckle[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK160ATK %6Critical Rate25Aggro %-15Fire Element1Base Stability %85Guard Break %10",
+        "item_obtainfrom": "Venena Coenubia (YK Wifey)(Lv 140)Ultimea Palace: Throne",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Knuckle[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK160ATK %6Critical Rate20Aggro %-10Fire Element1Base Stability %85Guard Break %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Knuckle[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK160Base Stability %85Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Sacred Ice Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK161ATK %6Critical Rate %60% stronger against Light-25% stronger against Dark10Ailment Resistance %5Water Element1Base Stability %95ATK UP (STR %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 141)Noeliel Castle: Hall (120-140)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sacred Ice Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK161ATK %2Critical Rate %20% stronger against Light-25% stronger against Dark10Ailment Resistance %1Water Element1Base Stability %95ATK UP (STR %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 102)Noeliel Castle: Hall (80-100)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sacred Ice Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK161ATK %4Critical Rate %40% stronger against Light-25% stronger against Dark10Ailment Resistance %3Water Element1Base Stability %95ATK UP (STR %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue(Lv 122)Noeliel Castle: Hall (100-120)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "4th Anniv Knuckles VIII[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK169AGI %6MaxHP2400Dodge %18Short Range Damage %6Base Stability %90Absolute Dodge %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles VIII[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Base Stability %90Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK169AGI %6MaxHP3000Dodge %21Short Range Damage %6Base Stability %90Absolute Dodge %8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Base Stability %90Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Vise Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Physical Resistance %15Fire Element1Short Range Damage %6Neutral Resistance %10Base Stability %90",
+        "item_obtainfrom": "Toxinaria(Lv 170)Recetacula Sector: Area 1",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Vise Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Physical Resistance %20Fire Element1Short Range Damage %6Neutral Resistance %20Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Vise Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK169Base Stability %90Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Metal"
+    },
+    {
+        "card_title": "Twin Eagles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK170Critical Rate100Attack MP Recovery3Base Stability %90Anticipate %5Guard Break %5",
+        "item_obtainfrom": "Hero Potum Party (13M DL)(Lv 240)Archfiend's Throne",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Beer Mugs[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK174Dodge %20ASPD %-100Critical Damage %10Short Range Damage %5Base Stability %80Anticipate %15",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Crystal Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185ATK %6Physical Resistance %-15Magic Resistance %20Accuracy %40Attack MP Recovery10% stronger against Neutral25Base Stability %80",
+        "item_obtainfrom": "Crystal Titan(Lv 138)Decaying Ruins",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Crystal Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185ATK %6Physical Resistance %-10Magic Resistance %15Accuracy %20Attack MP Recovery4% stronger against Neutral25Base Stability %80",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Crystal Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185Base Stability %80Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Crystal Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185ATK %7Physical Resistance %-5Magic Resistance %10Accuracy %30Attack MP Recovery5% stronger against Neutral25Base Stability %80",
+        "item_obtainfrom": "Crystal Titan (Megiston 2019)(Lv 175)46BCEvent",
+        "item_prop": "Sell150 SpinaProcess75 Metal"
+    },
+    {
+        "card_title": "Lethal Silver Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185Critical Rate75Ailment Resistance %9Earth Element1Base Stability %90Anticipate %25Reduce Dmg (Player Epicenter) %15Reduce Dmg (Foe Epicenter) %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell23 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Lethal Silver Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185Base Stability %90Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Wind Slayer Chakram[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185ATK %6ASPD %40Wind Element1Base Stability %90Additional Melee %30",
+        "item_obtainfrom": "Sumari(Lv 180)Arche Valley: Area 1",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "Wind Slayer Chakram[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185ATK %6ASPD %50Wind Element1Base Stability %90Additional Melee %40",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "Wind Slayer Chakram[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK185Base Stability %90Potential42",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles IX[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193AGI %7MaxHP2700Dodge %18Short Range Damage %7Base Stability %90Absolute Dodge %8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "4th Anniv Knuckles IX[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193Base Stability %90Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193AGI %7MaxHP3000Dodge %24Short Range Damage %7Base Stability %90Reduce Dmg (Floor) %2Absolute Dodge %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193Base Stability %90Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193AGI %7ATK %7Critical Rate15Evasion Recharge %30Base Stability %90Reduce Dmg (Floor) %4Absolute Dodge %13Shield only:Dodge %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193Base Stability %90Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193AGI %7Physical Resistance %30ASPD %56Critical Rate30Short Range Damage %7Base Stability %90Absolute Dodge %12Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193Base Stability %90Potential43Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193AGI %7MaxMP300ATK %7Physical Resistance %35Critical Rate35Base Stability %90Guard Break %17Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193Base Stability %90Potential43Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Metal"
+    },
+    {
+        "card_title": "9th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193AGI %6MaxMP300ATK %7Physical Resistance %40Critical Rate40Base Stability %90Guard Break %15Shield only:Ailment Resistance %5MaxMP-150",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK193Base Stability %90Potential43",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Chocolate Gifts II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK200MaxMP1000Light Element1Base Stability %90",
+        "item_obtainfrom": "Eidenliebe (Dark)(Lv 180)Maia Diela",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Holy Katar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK202MaxMP400Physical Resistance %15Magic Resistance %15Light Element1Base Stability %90",
+        "item_obtainfrom": "Walkastida(Lv 188)Nov Diela Area 1",
+        "item_prop": "Sell180 SpinaProcess180 Metal"
+    },
+    {
+        "card_title": "Holy Katar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK202MaxMP400Physical Resistance %20Magic Resistance %20Light Element1Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess180 Metal"
+    },
+    {
+        "card_title": "Holy Katar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK202Base Stability %90Potential44",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell180 SpinaProcess180 Metal"
+    },
+    {
+        "card_title": "Tonfa of Cold Serenity[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK202ATK %8Physical Pierce %15Accuracy100% stronger against Water25Light resistance %-30Water Element1Base Stability %90Additional Melee %90ATK UP (STR %)50",
+        "item_obtainfrom": "Yule Cat(Lv 197)Tomte Pavillion (170-190)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK205Accuracy100ASPD1000Critical Rate100Evasion Recharge %20Wind Element1Base Stability %90",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "5th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK210AGI %7MaxHP3000Dodge %27Short Range Damage %7Base Stability %90Reduce Dmg (Floor) %4Absolute Dodge %12",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell185 SpinaProcess92 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK210Base Stability %90Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell185 SpinaProcess92 Metal"
+    },
+    {
+        "card_title": "Quasar Arm[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK210STR %5MaxMP500ATK %7ASPD750Critical Rate10Short Range Damage %6Base Stability %90",
+        "item_obtainfrom": "Demonic Quasar(Lv 175)Morga Wasteland: Deepest Area",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Quasar Arm[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK210STR %5MaxMP500ATK %7ASPD250Critical Rate30Short Range Damage %6Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Quasar Arm[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK210Base Stability %90Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Piton Wristband[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK215MaxHP %10ATK %6Magic Resistance %10Fire resistance %10Water Element1Base Stability %80Magic Barrier1000ATK UP (STR %)100",
+        "item_obtainfrom": "King Piton(Lv 153)Elf Mountains: Shrine",
+        "item_prop": "Sell165 SpinaProcess82 Beast"
+    },
+    {
+        "card_title": "Piton Wristband[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK215MaxHP %5ATK %6Magic Resistance %10Fire resistance %15Water Element1Base Stability %80Magic Barrier1500ATK UP (STR %)75",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell165 SpinaProcess82 Beast"
+    },
+    {
+        "card_title": "Piton Wristband[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK215Base Stability %80Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell165 SpinaProcess82 Beast"
+    },
+    {
+        "card_title": "Douse Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK219Accuracy %12Water Element1Short Range Damage %7Base Stability %90Physical Barrier1500",
+        "item_obtainfrom": "Mycorina(Lv 202)Divido Valley: Area 1",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Douse Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK219Accuracy %14Water Element1Short Range Damage %7Base Stability %90Physical Barrier2100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Douse Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK219Base Stability %90Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Mortal Katar[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK222Critical Rate75Critical Damage25% stronger against Dark-50Neutral Resistance %15Base Stability %90Anticipate %15",
+        "item_obtainfrom": "Grimuckus(Lv 195)Wazeero Street",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "5th Anniv Knuckles VII[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228AGI %7MaxHP3000Dodge %30Short Range Damage %7Base Stability %90Reduce Dmg (Floor) %6Absolute Dodge %14",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "5th Anniv Knuckles VII[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228Base Stability %90Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228AGI %7ATK %7Critical Rate20Evasion Recharge %30Base Stability %90Reduce Dmg (Floor) %6Absolute Dodge %14Shield only:Dodge %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228Base Stability %90Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228AGI %7Physical Resistance %30ASPD %64Critical Rate30Short Range Damage %7Base Stability %90Absolute Dodge %13Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228Base Stability %90Potential46Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228AGI %7MaxMP350ATK %7Physical Resistance %35Critical Rate35Base Stability %90Guard Break %19Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228Base Stability %90Potential46Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Metal"
+    },
+    {
+        "card_title": "9th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228AGI %7MaxMP360ATK %7Physical Resistance %40Critical Rate40Base Stability %90Guard Break %18Shield only:Ailment Resistance %6MaxMP-180",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Knuckles II[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228Base Stability %90Potential46",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228ATK %7Critical Rate25Evasion Recharge %10Fire Element1% stronger against Neutral25Base Stability %90Shield only:Aggro %15",
+        "item_obtainfrom": "Venena Metacoenubia(Lv 185)Neo Plastida",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228ATK %7Critical Rate20Evasion Recharge %15Fire Element1% stronger against Neutral10Base Stability %90Shield only:Aggro %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Demon Empress Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK228Base Stability %90Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Arachnid Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238Critical Damage %16Aggro %-45Dark Element1Attack MP Recovery12Base Stability %85Guard Break %25Reduce Dmg (Bullet) %-15Reduce Dmg (Meteor) %-30",
+        "item_obtainfrom": "Arachnidemon(Lv 186)Arche Valley: Depths",
+        "item_prop": "Sell200 SpinaProcess100 Beast"
+    },
+    {
+        "card_title": "Arachnid Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238Critical Damage %8Aggro %-15Dark Element1Attack MP Recovery12Base Stability %85Guard Break %30Reduce Dmg (Bullet) %-5Reduce Dmg (Meteor) %-10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell200 SpinaProcess100 Beast"
+    },
+    {
+        "card_title": "Arachnid Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238Base Stability %85Potential47",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell200 SpinaProcess100 Beast"
+    },
+    {
+        "card_title": "Combat Tonfa[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238Physical Pierce %16ASPD500Critical Rate %90Evasion Recharge %20Base Stability %90Attack Range (m)1.5",
+        "item_obtainfrom": "Stonzard(Lv 202)Weredragon's Throat",
+        "item_prop": "Sell200 SpinaProcess100 Wood"
+    },
+    {
+        "card_title": "Combat Tonfa[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238Physical Pierce %16ASPD600Critical Rate %100Evasion Recharge %10Base Stability %90Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell200 SpinaProcess100 Wood"
+    },
+    {
+        "card_title": "Combat Tonfa[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238Base Stability %90Potential47Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell200 SpinaProcess100 Wood"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238ATK %8Water resistance %5Wind Element1Attack MP Recovery10Short Range Damage %2Base Stability %90Magic Barrier1000Reduce Dmg (Foe Epicenter) %5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238ATK %8Wind resistance %5Earth Element1Attack MP Recovery10Short Range Damage %2Base Stability %90Magic Barrier1000Reduce Dmg (Foe Epicenter) %5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238AGI %4ATK %8Wind resistance %10Earth Element1Attack MP Recovery7Base Stability %90Magic Barrier3000Reduce Dmg (Foe Epicenter) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238ATK %7Wind resistance %30Aggro %-40Earth Element1Attack MP Recovery4Base Stability %90Magic Barrier5000Reduce Dmg (Foe Epicenter) %30",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238ATK %7Water resistance %30Aggro %-40Wind Element1Attack MP Recovery4Base Stability %90Magic Barrier5000Reduce Dmg (Foe Epicenter) %30",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238AGI %4ATK %8Water resistance %10Wind Element1Attack MP Recovery7Base Stability %90Magic Barrier3000Reduce Dmg (Foe Epicenter) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Ski Gloves[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238MaxMP1000Accuracy %300Critical Rate %300Attack MP Recovery20Base Stability %100Reduce Dmg (Floor) %30Invincible Aid (sec)3",
+        "item_obtainfrom": "Snowball Event NPCSnowball Mini Game Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Yozakura Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK238AGI %2Accuracy300% stronger against Dark10Light Element1Attack MP Recovery6Short Range Damage %6Base Stability %90Reduce Dmg (Bowling) %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Toy Gun[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK240Physical Pierce %50Critical Rate %75% stronger against Neutral25Base Stability %70Additional Melee %5Additional Magic %5Stun Unavailable1",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell1 SpinaProcess2 Medicine"
+    },
+    {
+        "card_title": "Black Wing Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK247ATK %8ASPD %-15CSPD %-15Critical Rate60% stronger against Neutral35Base Stability %100",
+        "item_obtainfrom": "Neewollah (Easy)(Lv 150)Manor of Surprises: Grand Hall",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "6th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256AGI %8ATK %8Critical Rate20Evasion Recharge %30Base Stability %90Reduce Dmg (Floor) %8Absolute Dodge %15Shield only:Dodge %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "6th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %90Potential49",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256AGI %8Physical Resistance %30ASPD %72Critical Rate30Short Range Damage %8Base Stability %90Absolute Dodge %14Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %90Potential49Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256AGI %8MaxMP400ATK %8Physical Resistance %35Critical Rate35Base Stability %90Guard Break %21Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %90Potential49Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "9th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256AGI %8MaxMP420ATK %8Physical Resistance %40Critical Rate40Base Stability %90Guard Break %21Shield only:Ailment Resistance %7MaxMP-210",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Knuckles III[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %90Potential49",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Beastlord Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %90Potential48",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Rock Dragon Bracers[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256MaxHP6000ATK %8Magic Resistance %30Accuracy80% stronger against Wind10Earth Element1Base Stability %90Fractional Barrier %15",
+        "item_obtainfrom": "Ferzen the Rock Dragon(Lv 211)Guardian Forest: Giant Tree",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Rock Dragon Bracers[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256MaxHP4000ATK %8Magic Resistance %20Accuracy160% stronger against Wind10Earth Element1Base Stability %90Fractional Barrier %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Rock Dragon Bracers[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %90Potential49",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Thermal Fists[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256AGI %7ATK %8Fire resistance %30Fire Element1Base Stability %90Additional Melee %60Attack Range (m)1.5",
+        "item_obtainfrom": "Illuminator(Lv 217)Illuminare City: Route 1 (210-230)",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Thermal Fists[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256AGI %8ATK %8Fire resistance %30Fire Element1Base Stability %90Additional Melee %80Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Thermal Fists[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK256Base Stability %90Potential49Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Pearl Sakura Gloves[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK270MaxHP %30Critical Rate50Critical Rate %25% stronger against Earth10Fire Element1Base Stability %90Anticipate %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessWood"
+    },
+    {
+        "card_title": "Queen Bee-races[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK276Physical Pierce %30Accuracy150CSPD500Aggro %-10Wind Element1Short Range Damage %8Base Stability %90Attack Range (m)1.5",
+        "item_obtainfrom": "Mieli (Milk)(Lv 160)Rakau Plains",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Queen Bee-races[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK276Physical Pierce %40Accuracy200CSPD1000Aggro %-50Wind Element1Short Range Damage %8Base Stability %90Attack Range (m)1.5",
+        "item_obtainfrom": "Mieli (Bitter)(Lv 220)Rakau Plains",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Queen Bee-races[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK276Physical Pierce %35Accuracy175CSPD750Aggro %-30Wind Element1Short Range Damage %8Base Stability %90Attack Range (m)1.5",
+        "item_obtainfrom": "Mieli (Sweet)(Lv 190)Rakau Plains",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Sharp Baghnakhs[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK276MaxMP100ASPD %80Critical Rate %90% stronger against Wind5Earth Element1Base Stability %90Attack Range (m)1.5",
+        "item_obtainfrom": "Dakinia(Lv 235)Puerta Islands: Area 1",
+        "item_prop": "Sell220 SpinaProcess110 Metal"
+    },
+    {
+        "card_title": "Visphalanx (Knuckle)[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK276Physical Pierce %30ASPD %50Critical Rate %100Aggro %-30Light Element1Short Range Damage %10Base Stability %90Additional Melee %150Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Slayers: Collab Prize ExchangeSofya City",
+        "item_prop": "Sell1000 SpinaProcessN/A"
+    },
+    {
+        "card_title": "Oculasignio Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK286ATK %9Dodge %30Critical Rate20% stronger against Light10Ailment Resistance %10Dark Element1Base Stability %90Tumble Unavailable1",
+        "item_obtainfrom": "Oculasignio(Lv 216)Mt. Vulcani: Summit",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Oculasignio Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK286ATK %9Dodge %40Critical Rate25% stronger against Light10Ailment Resistance %5Dark Element1Base Stability %90Tumble Unavailable1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Oculasignio Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK286Base Stability %90Potential51",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Rescue Gloves[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK292ATK %5Light Element1Motion Speed %3Neutral Resistance %15Base Stability %70Anticipate %9",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Dignidad[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK294Critical Rate90Aggro %30Base Stability %90Anticipate %30Guard Break %30",
+        "item_obtainfrom": "[NPC]Mysterious Exchange (P. Avatar 2022)Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "7th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK296AGI %9Physical Resistance %30ASPD %80Critical Rate30Short Range Damage %9Base Stability %90Absolute Dodge %15Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "7th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK296Base Stability %90Potential52Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK296AGI %9MaxMP450ATK %9Physical Resistance %35Critical Rate35Base Stability %90Guard Break %23Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK296Base Stability %90Potential52Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "9th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK296AGI %9MaxMP480ATK %9Physical Resistance %40Critical Rate40Base Stability %90Guard Break %24Shield only:Ailment Resistance %8MaxMP-240",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Knuckles IV[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK296Base Stability %90Potential52",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Camaron Arms[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK296Magic Resistance %25Critical Rate30Evasion Recharge %20Dark Element1",
+        "item_obtainfrom": "Coelacans(Lv 244)Deep Sea: Zone 1",
+        "item_prop": "Sell230 SpinaProcess115 Beast"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK296Accuracy125ASPD1000Critical Rate125Evasion Recharge %25Wind Element1Base Stability %90Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Edgy Nova (Combat)[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK300Aggro %-75Light Element1Attack MP Recovery20% stronger against Neutral35Base Stability %90Additional Melee %200Reduce Dmg (Foe Epicenter) %25Dagger only:ASPD %100",
+        "item_obtainfrom": "Stellar Ooze(Lv 230)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Filrocas Arms[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK317MaxMP500Accuracy %30% stronger against Fire10Ailment Resistance %10Water Element1Short Range Damage %9Base Stability %90Attack Range (m)1.5Arrow only:Long Range Damage %9",
+        "item_obtainfrom": "Filrocas(Lv 231)Royal Dragon Cocoon Chamber",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Filrocas Arms[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK317MaxMP400Accuracy %20% stronger against Fire10Ailment Resistance %15Water Element1Short Range Damage %9Base Stability %90Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell240 SpinaProcess120 Beast"
+    },
+    {
+        "card_title": "Filrocas Arms[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK317Base Stability %90Potential54Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell240 SpinaProcess120 Beast"
+    },
+    {
+        "card_title": "Master's Tonfa[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK320ATK %6Critical Rate %-100Critical Damage24Base Stability %70Additional Melee %100",
+        "item_obtainfrom": "Amoeba Machina(Lv 158)Ultimea Sewer: Southeast",
+        "item_prop": "Sell155 SpinaProcess77 Wood"
+    },
+    {
+        "card_title": "8th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339AGI %10MaxMP500ATK %10Physical Resistance %35Critical Rate35Base Stability %90Guard Break %25Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell250 SpinaProcess125 Metal"
+    },
+    {
+        "card_title": "8th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339Base Stability %90Potential55Attack Range (m)1.5",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell250 SpinaProcess125 Metal"
+    },
+    {
+        "card_title": "9th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339AGI %10MaxMP540ATK %10Physical Resistance %40Critical Rate40Base Stability %90Guard Break %27Shield only:Ailment Resistance %9MaxMP-270",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Knuckles V[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339Base Stability %90Potential55",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Dignidad[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339Critical Rate90Aggro %30Base Stability %90Anticipate %30Guard Break %30",
+        "item_obtainfrom": "[NPC]Mysterious Exchange (P. Avatar 2023)Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339ATK %10Water resistance %10Wind Element1Attack MP Recovery10Short Range Damage %3Base Stability %90Magic Barrier2000Reduce Dmg (Foe Epicenter) %10Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339ATK %10Wind resistance %10Earth Element1Attack MP Recovery10Short Range Damage %3Base Stability %90Magic Barrier2000Reduce Dmg (Foe Epicenter) %10Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339ATK %9Wind resistance %35Aggro %-60Earth Element1Attack MP Recovery4Base Stability %90Magic Barrier6000Reduce Dmg (Foe Epicenter) %35Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339ATK %9Water resistance %35Aggro %-60Wind Element1Attack MP Recovery4Base Stability %90Magic Barrier6000Reduce Dmg (Foe Epicenter) %35Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339AGI %5ATK %10Wind resistance %15Earth Element1Attack MP Recovery7Base Stability %90Magic Barrier4000Reduce Dmg (Foe Epicenter) %15Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK339AGI %5ATK %10Water resistance %15Wind Element1Attack MP Recovery7Base Stability %90Magic Barrier4000Reduce Dmg (Foe Epicenter) %15Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK360MaxMP200ATK %8Stability %-20Physical Pierce %4Water resistance %20Wind Element1Base Stability %90Reduce Dmg (Foe Epicenter) %20",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK360MaxMP200ATK %8Stability %-20Physical Pierce %4Wind resistance %20Earth Element1Base Stability %90Reduce Dmg (Foe Epicenter) %20",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Don Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK361MaxHP10000ATK %10Physical Resistance %40Critical Rate45Critical Damage %10Light Element1Neutral Resistance %20Base Stability %90",
+        "item_obtainfrom": "Don Profundo(Lv 252)Abandoned District: Ruins Summit",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Don Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK361MaxHP5000ATK %10Physical Resistance %20Critical Rate90Critical Damage %5Light Element1Neutral Resistance %10Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Grudom Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK361Physical Pierce %4Magic Pierce %-25Magic Resistance %30Critical Rate45% stronger against Fire15Water resistance %-50Fire Element1Base Stability %90Additional Melee %150",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell260 SpinaProcess130 Metal"
+    },
+    {
+        "card_title": "Grudom Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK361Physical Pierce %8Magic Pierce %-25Magic Resistance %30Critical Rate60% stronger against Fire15Water resistance %-50Fire Element1Base Stability %90Additional Melee %150",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell260 SpinaProcess130 Metal"
+    },
+    {
+        "card_title": "Grudom Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK361Physical Pierce %12Magic Pierce %-25Magic Resistance %30Critical Rate75% stronger against Fire15Water resistance %-50Fire Element1Base Stability %90Additional Melee %150",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell260 SpinaProcess130 Metal"
+    },
+    {
+        "card_title": "Red Steel Tonfa[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK370Accuracy50ASPD-750% stronger against Neutral25Base Stability %70Attack Range (m)1.5",
+        "item_obtainfrom": "Red Steel Box-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK385AGI %10MaxMP600ATK %11Physical Resistance %40Critical Rate40Base Stability %90Guard Break %30Shield only:Ailment Resistance %10MaxMP-300",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Knuckles VI[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK385Base Stability %90Potential59",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "DX Bomber Blockers[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK435Physical Pierce %30ASPD %100Critical Rate75Base Stability %80Fractional Barrier %20Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]Pelulu (Eagle Talon Collab Event)Eagle Talon Collab Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Chestnut Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK500Earth Element1Short Range Damage %10Motion Speed %5Base Stability %0Reduce Dmg (Floor) %30Heavy Armor only:Stability %80Ailment Resistance %20ATK UP (STR %)200",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Salmon Jerky Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK508Physical Pierce %18ASPD %72Fire resistance %-30Guard Power %-60Attack MP Recovery36Short Range Damage %9Base Stability %70Attack Range (m)1.5",
+        "item_obtainfrom": "Baavgai (Nightmare)(Lv 260)Mt. Sakuraten: Summit",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK512MaxMP200ATK %10Stability %-15Physical Pierce %5Water resistance %25Wind Element1Base Stability %90Reduce Dmg (Foe Epicenter) %25Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Duplex Knuckles[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK512MaxMP200ATK %10Stability %-15Physical Pierce %5Wind resistance %25Earth Element1Base Stability %90Reduce Dmg (Foe Epicenter) %25Attack Range (m)1.5",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Ferocious Beast Claws[Knuckles]",
+        "item_basestat": "Stat/EffectAmountBase ATK512STR %9ATK %9Physical Pierce %9Aggro %-36Attack MP Recovery9Base Stability %70Attack Range (m)1.5Shield only:Stun Unavailable1",
+        "item_obtainfrom": "Bullamius(Lv 239)Storage Yard: Area 2",
+        "item_prop": "SellUnknownProcessunknown"
+    }
+]

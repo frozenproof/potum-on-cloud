@@ -1,0 +1,1496 @@
+[
+    {
+        "card_title": "Fighter Uniform[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF0Physical Pierce %10MDEF %-30Critical Rate10Critical Damage10",
+        "item_obtainfrom": "Goldoon (Fall 2017)(Lv 140)Gravel Terrace",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Fighter Uniform[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF0Physical Pierce %10MDEF %-30Critical Rate10Critical Damage10",
+        "item_obtainfrom": "Goldoon (Fall 2017)(Lv 140)Gravel Terrace",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Fighter Uniform[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF0Physical Pierce %10MDEF %-30Critical Rate10Critical Damage10",
+        "item_obtainfrom": "Goldoon (Fall 2017)(Lv 140)Gravel Terrace",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Potum Academy Tracksuit[Armor]",
+        "item_basestat": "Stat/EffectAmountATK %5MATK %5Short Range Damage %5Fractional Barrier %15Heavy Armor only:Critical Rate100Light Armor only:ASPD1000",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Sakura Kimono[Armor]",
+        "item_basestat": "empty",
+        "item_obtainfrom": "Crysmort(Lv 180)Celesa's Tree Garden",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Soda Swimsuit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF1Natural HP Regen %5Natural MP Regen %5Wind resistance %-15Aggro %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess100 Cloth"
+    },
+    {
+        "card_title": "Soda Swimsuit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF1Natural HP Regen %10Natural MP Regen %10Wind resistance %-10Aggro %10",
+        "item_obtainfrom": "Yuveria(Lv 175)6177CUnderwater Canyon: Depths",
+        "item_prop": "Sell1 SpinaProcess100 Cloth"
+    },
+    {
+        "card_title": "Adventurer's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF9MaxMP100",
+        "item_obtainfrom": "Grecia the Goddess of Courage(Lv 145)Anniversary Arena: 2nd Venue",
+        "item_prop": "Sell1 SpinaProcess1 Cloth"
+    },
+    {
+        "card_title": "Adventurer's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF9",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess1 Cloth"
+    },
+    {
+        "card_title": "Adventurer's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF9AGI %1",
+        "item_obtainfrom": "Masked Warrior(Lv 67)40BCLand Under Cultivation: Hill",
+        "item_prop": "Sell1 SpinaProcess1 Cloth"
+    },
+    {
+        "card_title": "Adventurer's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF9Potential15",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell1 SpinaProcess1 Cloth"
+    },
+    {
+        "card_title": "Adventurer's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF9MaxHP10",
+        "item_obtainfrom": "Viscum (Hanami 2016)(Lv 30)ABCEvent",
+        "item_prop": "Sell1 SpinaProcess1 Cloth"
+    },
+    {
+        "card_title": "Adventurer's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF9Weapon ATK %1",
+        "item_obtainfrom": "Golden Coryn (2016)(Lv 100)5BCRakau Plains",
+        "item_prop": "Sell1 SpinaProcess1 Cloth"
+    },
+    {
+        "card_title": "Adventurer's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF9",
+        "item_obtainfrom": "Golden Coryn (2017)(Lv 100)5BCWanderer's Plain",
+        "item_prop": "Sell1 SpinaProcess1 Cloth"
+    },
+    {
+        "card_title": "Santa Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF10MaxHP200% stronger against Dark2Light resistance %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess10 Mana"
+    },
+    {
+        "card_title": "B.B. Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF11Physical Resistance %-25Magic Resistance %-25Dodge %30Evasion Recharge %6Short Range Damage %9Neutral Resistance %-25",
+        "item_obtainfrom": "B.B. Goblin(Lv 70)Rinom Plains",
+        "item_prop": "Sell60 SpinaProcess30 Beast"
+    },
+    {
+        "card_title": "B.B. Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF11Physical Resistance %-20Magic Resistance %-15Dodge %3Evasion Recharge %3Short Range Damage %6Neutral Resistance %-10",
+        "item_obtainfrom": "B.B. Goblin (Megiston 2016)(Lv 80)Event",
+        "item_prop": "Sell60 SpinaProcess30 Beast"
+    },
+    {
+        "card_title": "Leather Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF11MaxHP50",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessN/A"
+    },
+    {
+        "card_title": "Leather Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF11Potential16",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell10 SpinaProcess5 Cloth"
+    },
+    {
+        "card_title": "Mage Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF15MaxMP70",
+        "item_obtainfrom": "Fire Ghost(Lv 28)Fiery Volcano: Area 1",
+        "item_prop": "Sell15 SpinaProcess7 Cloth"
+    },
+    {
+        "card_title": "Mage Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF15INT1MaxMP100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell15 SpinaProcess7 Cloth"
+    },
+    {
+        "card_title": "Mage Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF15Potential17",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell15 SpinaProcess7 Cloth"
+    },
+    {
+        "card_title": "Warrior Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF15MaxHP70",
+        "item_obtainfrom": "Boar(Lv 25)Nisel Mountain",
+        "item_prop": "Sell15 SpinaProcess7 Metal"
+    },
+    {
+        "card_title": "Warrior Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF15STR1MaxHP100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell15 SpinaProcess7 Metal"
+    },
+    {
+        "card_title": "Warrior Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF15Potential17",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell15 SpinaProcess7 Metal"
+    },
+    {
+        "card_title": "Gladiator Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF16Guard Recharge %10Evasion Recharge %10Weapon ATK %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Gladiator Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF16ATK %5MATK %5Physical Resistance %10Magic Resistance %10Guard Recharge %10Evasion Recharge %10Weapon ATK %10",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Gladiator Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF16ATK %6MATK %6Physical Resistance %12Magic Resistance %12Guard Recharge %12Evasion Recharge %12Weapon ATK %12",
+        "item_obtainfrom": "Megiston(Lv 225)Anniversary Arena: 5th Venue",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Hunter's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF18AGI2DEX2Long Range Damage %1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell20 SpinaProcess10 Beast"
+    },
+    {
+        "card_title": "Hunter's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF18AGI1DEX1Long Range Damage %1",
+        "item_obtainfrom": "Lime Potum(Lv 54)Land Under Cultivation: Area 2",
+        "item_prop": "Sell20 SpinaProcess10 Beast"
+    },
+    {
+        "card_title": "Hunter's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF18Potential18",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell20 SpinaProcess10 Beast"
+    },
+    {
+        "card_title": "Straye Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF18MaxHP100MaxMP100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessN/A"
+    },
+    {
+        "card_title": "Straye Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF18Potential18",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Straye Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF18MaxHP5000MaxMP1000",
+        "item_obtainfrom": "Super Vanilla Potum(Lv 195)Anniversary Arena: 5th Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Halloween Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF20Stability %1Physical Resistance %1Magic Resistance %1Attack MP Recovery1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sakura Kimono[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF20MaxHP700Fire resistance %3Water resistance %3Wind resistance %3Earth resistance %3Light resistance %3Dark resistance %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Sakura Kimono[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF20Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Santa Suit II[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF20MaxHP300% stronger against Dark3Light resistance %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess10 Mana"
+    },
+    {
+        "card_title": "Forest Wolf Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF21Dodge4ASPD200Critical Rate4",
+        "item_obtainfrom": "Forest Wolf(Lv 30)Marbaro Forest: Deepest Part",
+        "item_prop": "Sell25 SpinaProcess13 Cloth"
+    },
+    {
+        "card_title": "Forest Wolf Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF21Dodge3ASPD100Critical Rate3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess13 Cloth"
+    },
+    {
+        "card_title": "Forest Wolf Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF21Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess13 Cloth"
+    },
+    {
+        "card_title": "Magic Crystal Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF24Magic Resistance %2CSPD100Evasion Recharge %5",
+        "item_obtainfrom": "Eerie Crystal(Lv 24)Isthmus Of Kaus: Dragon's Den",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Magic Crystal Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF24Magic Resistance %1Evasion Recharge %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Magic Crystal Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF24Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Magic Crystal Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF24MaxMP750Physical Resistance %-25Magic Resistance %-25",
+        "item_obtainfrom": "Candela Soda (White Day 2018)(Lv 130)286347Douce Hamlet",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Fightwear[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF25Short Range Damage %2Knuckle only:Accuracy10",
+        "item_obtainfrom": "Ruin Golem(Lv 35)Zoktzda ruins : Reversed Hall",
+        "item_prop": "Sell30 SpinaProcess15 Cloth"
+    },
+    {
+        "card_title": "Fightwear[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF25ASPD100Short Range Damage %1Knuckle only:Accuracy10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell30 SpinaProcess15 Cloth"
+    },
+    {
+        "card_title": "Fightwear[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF25Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell30 SpinaProcess15 Cloth"
+    },
+    {
+        "card_title": "Fightwear[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF25ASPD300Short Range Damage %3Knuckle only:Accuracy30",
+        "item_obtainfrom": "Handmade Cookie (Plain)(Lv 100)24729El Scaro",
+        "item_prop": "Sell30 SpinaProcess15 Cloth"
+    },
+    {
+        "card_title": "Brutal Dragon Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF27MaxHP100Physical Resistance %2ASPD %10Critical Damage %2",
+        "item_obtainfrom": "Brutal Dragon Decel(Lv 40)Nisel Mountain: The Top",
+        "item_prop": "Sell35 SpinaProcess17 Beast"
+    },
+    {
+        "card_title": "Brutal Dragon Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF27MaxHP300Physical Resistance %1ASPD %5Critical Damage %1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell35 SpinaProcess17 Beast"
+    },
+    {
+        "card_title": "Brutal Dragon Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF27Potential20",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell35 SpinaProcess17 Beast"
+    },
+    {
+        "card_title": "Brutal Dragon Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF27MaxHP1000Physical Resistance %4ASPD %20Critical Damage %4",
+        "item_obtainfrom": "Brutal Dragon Decel (Megiston 2016)(Lv 90)Event",
+        "item_prop": "Sell35 SpinaProcess17 Beast"
+    },
+    {
+        "card_title": "Green Dragon Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30MATK %1Physical Resistance %-10Magic Resistance %5Aggro %-10",
+        "item_obtainfrom": "Forestia(Lv 49)Land Of Chaos",
+        "item_prop": "Sell40 SpinaProcess20 Cloth"
+    },
+    {
+        "card_title": "Green Dragon Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30MATK %1Physical Resistance %-5Magic Resistance %3Aggro %-5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell40 SpinaProcess20 Cloth"
+    },
+    {
+        "card_title": "Green Dragon Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30Potential21",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell40 SpinaProcess20 Cloth"
+    },
+    {
+        "card_title": "Otsukimi Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30MaxMP700MDEF150Critical Rate20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Cloth"
+    },
+    {
+        "card_title": "Plate Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30STR %6MaxHP %6Aggro %6",
+        "item_obtainfrom": "Flare Volg(Lv 40)Fiery Volcano: Boss Map",
+        "item_prop": "Sell35 SpinaProcess17 Metal"
+    },
+    {
+        "card_title": "Plate Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30MaxHP %10Aggro %10Motion Speed %-10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell35 SpinaProcess17 Metal"
+    },
+    {
+        "card_title": "Plate Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30Potential20",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell35 SpinaProcess17 Metal"
+    },
+    {
+        "card_title": "Plate Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30MaxHP7MaxMP7Attack MP Recovery7",
+        "item_obtainfrom": "Golden Iconos (2018)(Lv 75)4174CSofya City: Government Office",
+        "item_prop": "Sell35 SpinaProcess17 Metal"
+    },
+    {
+        "card_title": "Plate Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30ATK UP (VIT %)100Heavy Armor only:MaxHP5000",
+        "item_obtainfrom": "Silver Coryn (2021)(Lv 100)234Rakau Plains",
+        "item_prop": "Sell35 SpinaProcess17 Metal"
+    },
+    {
+        "card_title": "Santa Suit III[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF30MaxHP400% stronger against Dark4Light resistance %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess20 Mana"
+    },
+    {
+        "card_title": "Aqua Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF32MaxMP100ATK %1MATK %1Dodge %10",
+        "item_obtainfrom": "Astol(Lv 50)Aulada Ancient Tower",
+        "item_prop": "Sell45 SpinaProcess22 Mana"
+    },
+    {
+        "card_title": "Aqua Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF32MaxMP50ATK %1MATK %1Dodge %2",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell45 SpinaProcess22 Mana"
+    },
+    {
+        "card_title": "Aqua Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF32Potential22",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell45 SpinaProcess22 Mana"
+    },
+    {
+        "card_title": "Scale Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF34Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Beast"
+    },
+    {
+        "card_title": "Ooze Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF36DEX3Critical Damage %3Attack MP Recovery3Short Range Damage %3",
+        "item_obtainfrom": "Ooze(Lv 52)Lutaros Cavern: Deepest Part",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Ooze Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF36DEX %2Critical Damage %1Attack MP Recovery4Short Range Damage %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Ooze Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF36Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Ooze Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF36DEX %3Critical Damage %4Attack MP Recovery1Short Range Damage %2",
+        "item_obtainfrom": "Ooze (Megiston 2016)(Lv 100)Event",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Ooze Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF36MaxHP %75Physical Resistance %-25Magic Resistance %-25",
+        "item_obtainfrom": "Chocolate Ooze (Dark) (Valentine 2018)(Lv 150)717172Underground Channel",
+        "item_prop": "Sell50 SpinaProcess25 Metal"
+    },
+    {
+        "card_title": "Assassin Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF38Physical Pierce %15Dodge15Critical Rate15Evasion Recharge %15Aggro %-15Anticipate %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell100 SpinaProcess50 Cloth"
+    },
+    {
+        "card_title": "Assassin Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF38Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell100 SpinaProcess50 Cloth"
+    },
+    {
+        "card_title": "Oracle Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF39MaxMP200CSPD100Dark resistance %5Attack MP Recovery3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell55 SpinaProcess27 Cloth"
+    },
+    {
+        "card_title": "Oracle Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF39Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell55 SpinaProcess27 Cloth"
+    },
+    {
+        "card_title": "Oracle Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF39MaxMP50CSPD300Dark resistance %7Attack MP Recovery3",
+        "item_obtainfrom": "Outer World Wolf(Lv 70)ABCGate to Another World: Area 1",
+        "item_prop": "Sell55 SpinaProcess27 Cloth"
+    },
+    {
+        "card_title": "Oracle Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF39MaxMP100CSPD1Dark resistance %14Attack MP Recovery1",
+        "item_obtainfrom": "Zoe(Lv 75)828325Halloween Mansion Basement",
+        "item_prop": "Sell55 SpinaProcess27 Cloth"
+    },
+    {
+        "card_title": "Magic Swordsman's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF40STR %2INT %2ASPD200CSPD400Dark resistance %-10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Magic Swordsman's Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF40Potential24",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sakura Kimono II[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF40MaxHP %10Stability %5DEF %20Physical Resistance %30Accuracy %10Neutral Resistance %-75Physical Barrier500",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell90 SpinaProcess45 Cloth"
+    },
+    {
+        "card_title": "Sakura Kimono II[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF40Potential30",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell90 SpinaProcess45 Cloth"
+    },
+    {
+        "card_title": "Santa Suit IV[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF40MaxHP500% stronger against Dark5Light resistance %1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Killer Coat[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43MATK %2Stability %6Dodge %10ASPD %10Critical Rate10Dark resistance %4",
+        "item_obtainfrom": "Boss Roga(Lv 62)Saham Underground Cave - Deepest Part",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Killer Coat[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43MATK %1Stability %2Dodge %20ASPD %20Critical Rate5Dark resistance %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Killer Coat[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43Potential24",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Killer Coat[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43Physical Resistance %-50Critical Rate %10Wind resistance %-100",
+        "item_obtainfrom": "Zega(Lv 100)111Event",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Medic Coat[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43Natural MP Regen %15MaxMP300Ailment Resistance %15Aggro %-30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Medic Coat[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43Potential24",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Medic Coat[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43Natural HP Regen %15MaxMP300Ailment Resistance %15Aggro %30",
+        "item_obtainfrom": "Zarth(Lv 100)Zarth's Mansion: Back",
+        "item_prop": "Sell60 SpinaProcess30 Cloth"
+    },
+    {
+        "card_title": "Scale Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43DEF %5Critical Rate5Ailment Resistance %10Guard Power %5Neutral Resistance %10",
+        "item_obtainfrom": "Warmonger(Lv 60)AB1Haotas Ravine: Deepest Part",
+        "item_prop": "Sell50 SpinaProcess25 Beast"
+    },
+    {
+        "card_title": "Scale Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF43DEF %5Ailment Resistance %5Neutral Resistance %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Beast"
+    },
+    {
+        "card_title": "Reindeer Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF46MaxHP250ASPD250CSPD-150Unsheathe Attack25",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess10 Cloth"
+    },
+    {
+        "card_title": "Outerworld Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF47STR6INT6ATK %3MATK %3MDEF %12Magic Resistance %6Light resistance %3Dark resistance %3",
+        "item_obtainfrom": "Nurethoth(Lv 76)Gate to Another World: Front",
+        "item_prop": "Sell65 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Outerworld Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF47STR4INT4ATK %3MATK %3MDEF %24Magic Resistance %12Light resistance %3Dark resistance %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell65 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Outerworld Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF47Potential25",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell65 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Diomedea Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF48ATK %5MATK %5Critical Rate %5Unsheathe Attack %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Diomedea Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF48Potential33",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Knight Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF50MaxHP300Accuracy15Dark resistance %10MaxMP %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Knight Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF50Potential24",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Knight Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF50MaxHP600MaxHP %8Accuracy45Dark resistance %3",
+        "item_obtainfrom": "Pillar Golem (Megiston 2018)(Lv 140)Event",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Mad Doctor Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF50MaxMP400ATK %-25MATK %-25Attack MP Recovery6Physical Barrier666",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess10 Mana"
+    },
+    {
+        "card_title": "Santa Suit V[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF50MaxHP600% stronger against Water1% stronger against Dark5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess20 Mana"
+    },
+    {
+        "card_title": "Knight Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF52MaxHP300MaxHP %3Accuracy30Dark resistance %7",
+        "item_obtainfrom": "Pillar Golem(Lv 70)Lost Town: Magic Barrier",
+        "item_prop": "Sell60 SpinaProcess30 Metal"
+    },
+    {
+        "card_title": "Brigandine[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF60MaxHP1400Stability %-5Physical Resistance %20Magic Resistance %20Dodge %-20Light resistance %-75Dark resistance %-75",
+        "item_obtainfrom": "Scrader(Lv 85)Magic Waste Site: Deepest Part",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Brigandine[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF60MaxHP1000Stability %-10Physical Resistance %25Magic Resistance %25Dodge %-30Light resistance %-75Dark resistance %-75",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell80 SpinaProcess40 Metal"
+    },
+    {
+        "card_title": "Brigandine[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF60Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell80 SpinaProcess40 Metal"
+    },
+    {
+        "card_title": "Sakura Kimono III[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF60MaxMP500Stability %5MDEF %20Magic Resistance %30Accuracy %10Neutral Resistance %-75Magic Barrier500",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Sakura Kimono III[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF60Potential35",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Santa Suit VI[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF60MaxHP700% stronger against Water2% stronger against Dark5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Armigma[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF63MaxMP150ATK %4Accuracy30Water resistance %-50Motion Speed %2Weapon ATK %20Flinch Unavailable1",
+        "item_obtainfrom": "Evil Crystal Beast(Lv 91)Lunagent Mountain: Deepest Area",
+        "item_prop": "Sell37 SpinaProcess45 Mana"
+    },
+    {
+        "card_title": "Armigma[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF63MaxMP100ATK %4Accuracy40Water resistance %-50Motion Speed %3Weapon ATK %15Flinch Unavailable1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell37 SpinaProcess45 Mana"
+    },
+    {
+        "card_title": "Armigma[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF63Potential29",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell37 SpinaProcess45 Mana"
+    },
+    {
+        "card_title": "Armigma[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF63MaxMP200ATK %5Accuracy20Water resistance %-50Motion Speed %1Weapon ATK %25Flinch Unavailable1",
+        "item_obtainfrom": "Evil Crystal Beast (Megiston 2017)(Lv 130)14631Event",
+        "item_prop": "Sell37 SpinaProcess45 Mana"
+    },
+    {
+        "card_title": "Lil Devil Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF66MaxHP %-30ASPD1000CSPD1000Light resistance %-666Ailment Resistance %10Aggro %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Praetor Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF67MaxHP500MATK %3Dodge %10ASPD %30Neutral Resistance %-25Tumble Unavailable1",
+        "item_obtainfrom": "Inzanio the Dark Knight (Xmas Event 2016)(Lv 94)Fort Solfini: Roof",
+        "item_prop": "Sell90 SpinaProcess45 Cloth"
+    },
+    {
+        "card_title": "Praetor Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF67MaxHP300MATK %4Dodge %10ASPD %20Neutral Resistance %-25Tumble Unavailable1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell90 SpinaProcess45 Cloth"
+    },
+    {
+        "card_title": "Praetor Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF67Potential29",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell90 SpinaProcess45 Cloth"
+    },
+    {
+        "card_title": "Crow Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF70MaxMP300MATK %7Stability %3Critical Rate15Ailment Resistance %-15Motion Speed %1Reduce Dmg (Bowling) %30",
+        "item_obtainfrom": "Zarth(Lv 125)Zarth's Mansion: Back",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Twilight Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF70MaxMP500ASPD-500CSPD500Fire resistance %-50Light resistance %20Dark resistance %20Magic Barrier1000",
+        "item_obtainfrom": "Twilight Dragon(Lv 100)Fort Solfini: Roof",
+        "item_prop": "Sell95 SpinaProcess47 Cloth"
+    },
+    {
+        "card_title": "Twilight Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF70MaxMP500ASPD-250CSPD500Fire resistance %-50Light resistance %15Dark resistance %15Magic Barrier500",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell95 SpinaProcess47 Cloth"
+    },
+    {
+        "card_title": "Twilight Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF70Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell95 SpinaProcess47 Cloth"
+    },
+    {
+        "card_title": "Aubergine Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF74MaxHP %20Ailment Resistance %10Aggro %20Attack MP Recovery10Neutral Resistance %60",
+        "item_obtainfrom": "Aubergine Dragon Auvio(Lv 235)Rakau Plains",
+        "item_prop": "SellUnknownProcessMedicine"
+    },
+    {
+        "card_title": "Anniversary Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF75MaxHP900MaxMP300Physical Resistance %6Magic Resistance %6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell100 SpinaProcess50 Cloth"
+    },
+    {
+        "card_title": "Anniversary Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF75Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell100 SpinaProcess50 Cloth"
+    },
+    {
+        "card_title": "Erudite Uniform[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF75ATK %8MATK %8Critical Rate30Critical Rate %30Earth resistance %30Gem Dust Drop Amount %30",
+        "item_obtainfrom": "Demonic Quasar (Megiston 2021)(Lv 230)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Oriental Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF75MaxHP1000MaxMP100Stability %5Ailment Resistance %15Pet EXP %10",
+        "item_obtainfrom": "Golden Casket-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Ritual Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF75MaxHP5000Stability %4Neutral Resistance %10Fractional Barrier %20",
+        "item_obtainfrom": "Titeres(Lv 160)Event",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Sorcery Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF75MaxMP500MATK %6Stability %4Light resistance %-75Physical Barrier3000Tumble Unavailable1",
+        "item_obtainfrom": "Usasama the Necromancer(Lv 185)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Resort Swimsuit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF76Physical Pierce %10Critical Rate10Wind resistance %-15Attack MP Recovery10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Fortistra[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF80MaxMP400ATK %4MATK %4% stronger against Light-36Attack MP Recovery4Guard Break %20",
+        "item_obtainfrom": "Imitacia(Lv 109)Dark Castle: Grand Hall",
+        "item_prop": "Sell105 SpinaProcess52 Mana"
+    },
+    {
+        "card_title": "Fortistra[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF80MaxMP300ATK %4MATK %4% stronger against Light-36Attack MP Recovery3Guard Break %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell105 SpinaProcess52 Mana"
+    },
+    {
+        "card_title": "Fortistra[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF80ATK %4Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell105 SpinaProcess52 Mana"
+    },
+    {
+        "card_title": "Fortistra[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF80MaxMP5ATK %4MATK %4% stronger against Light-30Attack MP Recovery5Guard Break %20",
+        "item_obtainfrom": "Grecia the Goddess of Courage (7M DL)(Lv 150)Event",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Sakura Kimono IV[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF80MaxHP3000MaxMP300Physical Resistance %15Magic Resistance %15Revive Time %-30Invincible Aid (sec)1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess90 Cloth"
+    },
+    {
+        "card_title": "Sakura Kimono IV[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF80Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell180 SpinaProcess90 Cloth"
+    },
+    {
+        "card_title": "Stoodie's Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF80INT %10MaxMP300ASPD %-20CSPD %-20% stronger against Neutral10Pet EXP %20Gem Dust Drop Amount %50",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Stoodie's Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF80Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Ninja Costume[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF83MaxMP600ASPD500CSPD500Critical Rate %50Attack MP Recovery4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess90 Cloth"
+    },
+    {
+        "card_title": "Ninja Costume[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF83Potential44",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Holy Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF86Physical Resistance %10CSPD750Dark resistance %15Attack MP Recovery9MATK UP (VIT %)4",
+        "item_obtainfrom": "York(Lv 118)Huge Crysta Factory: Storage",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Holy Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF86Physical Resistance %20CSPD500Dark resistance %25Attack MP Recovery7MATK UP (VIT %)5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Holy Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF86Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Halloween Garb II[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF90MaxMP300Physical Barrier3000Magic Barrier3000",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1360 SpinaProcess700 Mana"
+    },
+    {
+        "card_title": "Phalanx (Armor)[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF90Natural HP Regen %30Earth resistance %-75Physical Barrier3000Fractional Barrier %20Magic Barrier3000",
+        "item_obtainfrom": "empty",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Valentine's Day Costume[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF90DEX %6Critical Rate25Earth resistance %-40Unsheathe Attack %6Guard Break %20Heavy Armor only:Long Range Damage %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Snowman Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF92MaxHP7000% stronger against Fire3Fire resistance %-70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess20 Mana"
+    },
+    {
+        "card_title": "Ocean Dancer[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF94Dodge %20ASPD1000Wind resistance %-70Evasion Recharge %30Attack MP Recovery10Absolute Dodge %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Jumpsuit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF97MaxMP400CSPD %30Aggro %-50Invincible Aid (sec)2Item Cooldown-1",
+        "item_obtainfrom": "Maton Sword(Lv 205)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Comfy Pom Knit Sweater[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxHP1000MaxMP100Accuracy10Dodge10ASPD %10CSPD %10Critical Rate10Attack MP Recovery10Neutral Resistance %10",
+        "item_obtainfrom": "Pom Knitted Outfit SetSnowball Mini Game Venue",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Cool Summer Yukata[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxHP1500MaxMP150% stronger against Fire3Fire resistance %9",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell1 SpinaProcess62 Cloth"
+    },
+    {
+        "card_title": "Empress Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100Stability %8MDEF %16Attack MP Recovery4",
+        "item_obtainfrom": "Ancient Empress Mezzaluna (Megiston 2016)(Lv 110)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Empress Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100Stability %10MDEF %20Attack MP Recovery5Neutral Resistance %-40",
+        "item_obtainfrom": "P. Avatar(Lv 800)1154Event",
+        "item_prop": "Sell1 SpinaProcess2 Metal"
+    },
+    {
+        "card_title": "Finpen Wet Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxHP %10Water resistance %30Wind resistance %-60Anticipate %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess100 Cloth"
+    },
+    {
+        "card_title": "Fortuita Vestibus[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxHP3000Accuracy50Light resistance %-40Dark resistance %20",
+        "item_obtainfrom": "Tapir(Lv 120)Blazing Graben: Surface",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Fortuita Vestibus[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxHP2000Accuracy100Light resistance %-30Dark resistance %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Fortuita Vestibus[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Fortuita Vestibus[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxHP4000Accuracy30Light resistance %-20Dark resistance %10",
+        "item_obtainfrom": "Mercy (Strawberry)(Lv 160)A21CDunkel Valley",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Fortuita Vestibus[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxHP5000Accuracy10Light resistance %-10Dark resistance %5",
+        "item_obtainfrom": "Mercy (Banana)(Lv 190)A26CDunkel Valley",
+        "item_prop": "Sell120 SpinaProcess60 Cloth"
+    },
+    {
+        "card_title": "Iris Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxHP %10MaxMP100Physical Resistance %10Magic Resistance %10Accuracy %10Dodge %10Weapon ATK %10",
+        "item_obtainfrom": "Golden Potum (12M DL)(Lv 100)Rakau Plains",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Palanquin Carrier Garment[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100Natural HP Regen %20MaxHP10000MaxHP %15DEF %-99MDEF %-99ASPD750CSPD250Revive Time %-25",
+        "item_obtainfrom": "Gigantic Octopus(Lv 140)Saltau's Beach: Beach House",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Summer Outfit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF100MaxMP300ATK100MATK100Magic Pierce %15Accuracy100Fire resistance %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess300 Cloth"
+    },
+    {
+        "card_title": "Mozt Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF102Natural MP Regen %10MaxHP2000ATK %5MATK %5Dark resistance %-40Ailment Resistance %5Neutral Resistance %20",
+        "item_obtainfrom": "Mozto Machina(Lv 114)Large Demi Machina Factory: Deepest Part",
+        "item_prop": "Sell125 SpinaProcess62 Beast"
+    },
+    {
+        "card_title": "Mozt Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF102Natural MP Regen %15MaxHP1000ATK %5MATK %5Dark resistance %-40Ailment Resistance %10Neutral Resistance %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell125 SpinaProcess62 Beast"
+    },
+    {
+        "card_title": "Mozt Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF102Potential35",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell125 SpinaProcess62 Beast"
+    },
+    {
+        "card_title": "Jeremiah Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF110MaxHP1000MaxMP100Physical Resistance %10Magic Resistance %10Ailment Resistance %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell140 SpinaProcess70 Cloth"
+    },
+    {
+        "card_title": "Jeremiah Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF110Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell140 SpinaProcess70 Cloth"
+    },
+    {
+        "card_title": "Mummy Bandage Outfit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF111MaxMP600Magic Resistance %40Fire resistance %-100Ailment Resistance %15Fractional Barrier %20Heavy Armor only:Fire resistance %75",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "†Dark Syndicate† Vilment[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF111MaxMP400MATK %4Critical Rate %50Dark resistance %20Ailment Resistance %5Long Range Damage %4Magic Device,Dagger only:ATK %8",
+        "item_obtainfrom": "Gift from the SyndicateEvent",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Savage Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF114ATK %5Physical Pierce %10Short Range Damage %5Additional Melee %100",
+        "item_obtainfrom": "Agelada(Lv 179)Ducia Coast: Area 1",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Savage Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF114MaxHP1000ATK %5Physical Pierce %10Critical Rate20Short Range Damage %5Physical Barrier1000Additional Melee %1",
+        "item_obtainfrom": "Ageladanios(Lv 218)Ducia Coast: Area 1",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Oni Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF117MaxHP %10Stability %-5Neutral Resistance %20Fractional Barrier %30ATK UP (VIT %)100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell32 SpinaProcess320 Beast"
+    },
+    {
+        "card_title": "Evil Garb of Death[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF120MDEF %-5Physical Resistance %15Magic Resistance %-10Accuracy30Critical Rate15Fractional Barrier %30",
+        "item_obtainfrom": "Gespenst(Lv 175)Event",
+        "item_prop": "Sell1 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Lil Empress Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF120MaxMP500Physical Resistance %25Magic Resistance %25Water resistance %-75Aggro %-15Attack MP Recovery10",
+        "item_obtainfrom": "Venena Coenubia (YK Wifey)(Lv 140)Ultimea Palace: Throne",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF120MaxMP400Physical Resistance %20Magic Resistance %20Water resistance %-30Aggro %-10Attack MP Recovery8",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF120Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Soldier Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF123Stability %5Dodge %10ASPD500CSPD500Evasion Recharge %4Anticipate %6Absolute Dodge %2",
+        "item_obtainfrom": "Maton Sword(Lv 200)High Difficulty Boss Battle Event Venue",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "Soldier Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF123Stability %5Dodge %5ASPD500CSPD500Evasion Recharge %3Anticipate %5Absolute Dodge %1",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "Soldier Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF123Potential37",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Metal"
+    },
+    {
+        "card_title": "Fluffy Kinaco Onesie[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF125MaxHP7500Motion Speed %1Fractional Barrier %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell2 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Steel Mail M[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF128INT %11MATK %10Physical Resistance %10Magic Resistance %50Wind resistance %-50Reduce Dmg (Bowling) %30Absolute Dodge %9Heavy Armor only:ASPD %50",
+        "item_obtainfrom": "Vintage Iron Box-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Steel Mail P[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF128STR %11ATK %10Physical Resistance %50Magic Resistance %10Wind resistance %-50Reduce Dmg (Floor) %30Absolute Accuracy %9Heavy Armor only:ASPD %50",
+        "item_obtainfrom": "Vintage Iron Box-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Clyde Luxen[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF130MaxHP %-25MaxMP500Accuracy %25Critical Damage10Tumble Unavailable1",
+        "item_obtainfrom": "York (Megiston 2017)(Lv 150)41421Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Cool Summer Yukata II[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF130MaxHP2000MaxMP200% stronger against Fire3Fire resistance %9",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell150 SpinaProcess75 Cloth"
+    },
+    {
+        "card_title": "Elfin Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF130ATK %6MATK %6Neutral Resistance %20Fractional Barrier %15Magic Barrier1000",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Cloth"
+    },
+    {
+        "card_title": "Elfin Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF130Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Cloth"
+    },
+    {
+        "card_title": "Seashell[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF130ATK %10MATK %10Physical Resistance %-200Magic Resistance %-100Accuracy100Dodge100Wind resistance %-300",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Magical Crimson Moon Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF135ATK %10MATK %10Accuracy %10Critical Rate %40Light resistance %-60Anticipate %10Guard Break %102-Handed Sword only:Stability %10",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell250 SpinaProcess125 Cloth"
+    },
+    {
+        "card_title": "Sacred Ice Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF135MaxMP300Accuracy50% stronger against Water-10% stronger against Light-5Fire resistance %15Dark resistance %10Additional Melee %100ATK UP (INT %)100",
+        "item_obtainfrom": "Noeliel the Ice Statue (raid)(Lv 112)Noeliel Castle: Hall (80-100)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Water Priest Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF140MaxHP %25Physical Resistance %25Magic Resistance %25CSPD600CSPD %40Water resistance %20Katana only:Critical Rate40",
+        "item_obtainfrom": "Zapo(Lv 246)Puerta Islands: Adit",
+        "item_prop": "Sell255 SpinaProcess127 Cloth"
+    },
+    {
+        "card_title": "Water Priest Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF140MaxHP %25Physical Resistance %25CSPD600CSPD %20Water resistance %40Magic Resistance %25Katana only:Critical Rate30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Water Priest Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF140Potential56",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Heaven Feather Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF141MaxHP4000MaxMP400ATK %6MATK %6Light resistance %30Dark resistance %20Neutral Resistance %10Revive Time %-30",
+        "item_obtainfrom": "Seele Zauga(Lv 150)Shrine of the Goddess of Species",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Heaven Feather Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF141MaxHP4000MaxMP300ATK %6MATK %6Light resistance %20Dark resistance %20Neutral Resistance %20Revive Time %-3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess80 Mana"
+    },
+    {
+        "card_title": "Heaven Feather Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF141Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess80 Mana"
+    },
+    {
+        "card_title": "Anniversary Festive Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF150MaxHP1500MaxMP500Physical Resistance %10Magic Resistance %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Anniversary Festive Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF150Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Blancanine Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF150ATK %7Stability %5ASPD750Critical Rate10Evasion Recharge %15% stronger against Neutral-10",
+        "item_obtainfrom": "Blancanine the White Fang (Megiston 2019)(Lv 195)Event",
+        "item_prop": "Sell195 SpinaProcess97 Beast"
+    },
+    {
+        "card_title": "Dress of Wish[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF150MaxMP400Accuracy %30CSPD %20Aggro %-40Attack MP Recovery10",
+        "item_obtainfrom": "Felien (Megiston 2018)(Lv 170)38670Event",
+        "item_prop": "Sell1 SpinaProcess2 Cloth"
+    },
+    {
+        "card_title": "Mulgoon Robe[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF150MaxHP15000ATK %11MATK %11Critical Rate %80Attack MP Recovery5Fractional Barrier %20Guard Break %40",
+        "item_obtainfrom": "Mulgoon(Lv 261)Menabra Plains",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Satan Armor[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF150MaxHP3000MaxMP-400MATK %4Stability %2Critical Damage8Dark resistance %20",
+        "item_obtainfrom": "Hero Potum (9M DL)(Lv 140)Sofya City: Government Office",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Lovely Bunny Hoodie[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF158Accuracy %100Critical Rate20Ailment Resistance %10Attack MP Recovery15Anticipate %5Knuckle only:Aggro %251-Handed Sword only:Aggro %25",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell240 SpinaProcess120 Cloth"
+    },
+    {
+        "card_title": "Sakura Kimono V[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF160MaxHP %20Ailment Resistance %10Revive Time %-10Fractional Barrier %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell200 SpinaProcess100 Cloth"
+    },
+    {
+        "card_title": "Snowwear[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF160MaxHP3000MaxMP300Accuracy %15Water resistance %20Wind resistance %20Anticipate %15",
+        "item_obtainfrom": "Snowball FightEvent",
+        "item_prop": "Sell1 SpinaProcess2 Cloth"
+    },
+    {
+        "card_title": "Bark Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF166MaxMP300ATK %7MATK %7Physical Resistance %10Magic Resistance %30Aggro %-20Additional Magic %100",
+        "item_obtainfrom": "Kuzto(Lv 168)Labilans Sector: Square",
+        "item_prop": "Sell180 SpinaProcess90 Wood"
+    },
+    {
+        "card_title": "Bark Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF166MaxMP300ATK %7MATK %7Physical Resistance %15Magic Resistance %15Aggro %-30Additional Magic %25",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess90 Wood"
+    },
+    {
+        "card_title": "Bark Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF166Potential44",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell180 SpinaProcess90 Wood"
+    },
+    {
+        "card_title": "Bark Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF166MaxHP2000MATK %8Physical Resistance %10Magic Resistance %10Aggro %-40Long Range Damage %4",
+        "item_obtainfrom": "Kuzto (Megiston 2020)(Lv 190)Event",
+        "item_prop": "Sell180 SpinaProcess90 Wood"
+    },
+    {
+        "card_title": "Curious Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF166MaxMP1000Critical Rate %100Critical Damage %1Ailment Resistance %10",
+        "item_obtainfrom": "Ancient Empress Mezzaluna (Hell)(Lv 180)A8319Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Khalyps Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF180Physical Pierce %7Magic Pierce %7Critical Rate14Critical Damage %7Attack MP Recovery14",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Khalyps Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF180Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Demon Empress Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF187MaxHP10000MaxMP1000Accuracy %30Dodge %30Neutral Resistance %20Fractional Barrier %20",
+        "item_obtainfrom": "Venena Metacoenubia(Lv 185)Neo Plastida",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF187MaxHP2500MaxMP250Accuracy %20Dodge %20Neutral Resistance %30Fractional Barrier %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Demon Empress Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF187Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Halloween Garb III[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF194MaxMP250ATK %8MATK %8CSPD750Aggro %-25Dagger only:Short Range Damage %2Arrow only:Long Range Damage %1",
+        "item_obtainfrom": "Neewollah (Very Hard)(Lv 225)Manor of Surprises: Grand Hall",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Anniversary Festive Garb II[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF200MaxHP2100MaxMP700Physical Resistance %14Magic Resistance %14",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell200 SpinaProcess100 Cloth"
+    },
+    {
+        "card_title": "Anniversary Festive Garb II[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF200Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell200 SpinaProcess100 Cloth"
+    },
+    {
+        "card_title": "Dragoon Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF200MaxHP2000MaxHP %10MaxMP-100Accuracy40ASPD %20Short Range Damage %4",
+        "item_obtainfrom": "Finstern the Dark Dragon (Megiston 2020)(Lv 200)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Tuxedo[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF200MaxHP10000Accuracy50Critical Rate25Light resistance %-25",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell300 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "Wedding Dress[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF200MaxMP1000Dodge50Critical Rate25Dark resistance %-25",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell300 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "Zega Onesie[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF200MaxMP400Physical Pierce %20Magic Pierce %20Water resistance %30Attack MP Recovery4Fractional Barrier %10",
+        "item_obtainfrom": "Zega (Megiston 2020)(Lv 220)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Maiden[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF208MaxHP %-20MATK %7Physical Pierce %20Magic Pierce %10ASPD700Critical Rate30Wind resistance %-70Aggro %-10Long Range Damage %3",
+        "item_obtainfrom": "Reliza(Lv 200)Manna Waterfront",
+        "item_prop": "Sell210 SpinaProcess105 Cloth"
+    },
+    {
+        "card_title": "Maiden[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF208MaxHP %-10MATK %7Physical Pierce %5Magic Pierce %10ASPD750Critical Rate25Wind resistance %-30Aggro %-20Long Range Damage %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Cloth"
+    },
+    {
+        "card_title": "Maiden[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF208Potential49",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Cloth"
+    },
+    {
+        "card_title": "Party Costume[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF215MaxHP800ATK %8Magic Resistance %24Attack MP Recovery16Tumble Unavailable1Guard Break %4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "†Dark Syndicate† Vilment[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF222MaxHP4000ATK %4Accuracy %50Dark resistance %20Ailment Resistance %5Short Range Damage %4Shield only:Aggro %30Dual Swords only:Stability %15",
+        "item_obtainfrom": "Gift from the SyndicateEvent",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Maple Coat[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF231MaxHP %30Critical Rate30Wind resistance %-15Fractional Barrier %30Reduce Dmg (Charge) %30",
+        "item_obtainfrom": "Patissia(Lv 225)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Winter Outfit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF231MaxMP500Physical Resistance %25Magic Resistance %25CSPD %25Reduce Dmg (Meteor) %25",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sakura Kimono VI[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF240MaxHP5000Stability %15Aggro %-25Attack MP Recovery10Tumble Unavailable1Anticipate %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell240 SpinaProcess120 Cloth"
+    },
+    {
+        "card_title": "Anniversary Festive Garb III[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF250MaxHP2700MaxMP900Physical Resistance %18Magic Resistance %18",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Cloth"
+    },
+    {
+        "card_title": "Anniversary Festive Garb III[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF250Potential49",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Cloth"
+    },
+    {
+        "card_title": "Scuba Ranger Suit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF250MaxHP4000Physical Resistance %40Fire resistance %-40Guard Power %20Guard Recharge %20Short Range Damage %7",
+        "item_obtainfrom": "Yuveria(Lv 175)Underwater Canyon: Depths",
+        "item_prop": "Sell185 SpinaProcess92 Cloth"
+    },
+    {
+        "card_title": "Trickster Costume[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF255Natural MP Regen %20MaxHP %-9MaxMP600ATK %9MATK %9Stability %9Light resistance %-18Aggro %-75Attack MP Recovery3",
+        "item_obtainfrom": "Trickster Dragon Mimyugon(Lv 228)Operation Zone: Cockpit Area",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Trickster Costume[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF255Natural MP Regen %20MaxHP %-9MaxMP300ATK %9MATK %9Stability %9Light resistance %-4Aggro %-25Attack MP Recovery6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Trickster Costume[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF255Potential54",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Stellar Fighter (LRA)[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF256MaxHP7500Physical Pierce %5Magic Pierce %5Critical Rate25Light resistance %30Long Range Damage %10Guard Break %20Arrow only:ASPD500",
+        "item_obtainfrom": "Mysterious Music Box-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Stellar Fighter (SRA)[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF256MaxHP7500Physical Pierce %5Magic Pierce %5Critical Rate25Dark resistance %30Short Range Damage %10Anticipate %202-Handed Sword only:MaxMP200",
+        "item_obtainfrom": "Mysterious Music Box-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Valentine's Day Apron[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF263AGI %6MaxMP200ASPD %40Long Range Damage %8% stronger against Neutral10Magic Device only:Magic Pierce %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Legendary Raven Garb[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF271MaxMP400ATK %10MATK %10Magic Resistance %30Attack MP Recovery20Motion Speed %5Ninjutsu Scroll only:Aggro %-50Tumble Unavailable1",
+        "item_obtainfrom": "Pedrio(Lv 265)High Difficulty Boss Battle Event Venue",
+        "item_prop": "Sell250 SpinaProcess125 Mana"
+    },
+    {
+        "card_title": "Ocean Explorer[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF279MaxHP4500MaxMP600Stability %15Accuracy %30ASPD600Water resistance %15Wind resistance %30Aggro %-45",
+        "item_obtainfrom": "Sea Ghost Wooden Box-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Dragoon Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF280MaxHP3000MaxHP %20MaxMP-100Accuracy20CSPD %10Ailment Resistance %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Laureate Outfit[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF280AGI %9Dodge %50Wind resistance %30Evasion Recharge %20Aggro %-40Short Range Damage %9Dagger only:Magic Pierce %10",
+        "item_obtainfrom": "Guard Golem (Megiston 2022)(Lv 250)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Anniversary Festive Garb IV[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF300MaxHP3300MaxMP1100Physical Resistance %22Magic Resistance %22",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell220 SpinaProcess110 Cloth"
+    },
+    {
+        "card_title": "Anniversary Festive Garb IV[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF300Potential54",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell220 SpinaProcess110 Cloth"
+    },
+    {
+        "card_title": "Antique Mail[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF300Physical Resistance %30Magic Resistance %30ASPD %20Critical Rate15Aggro %20Attack MP Recovery15Reduce Dmg (Bullet) %40",
+        "item_obtainfrom": "Bangrudom (Coffee)(Lv 290)El Scaro: Back Alley",
+        "item_prop": "Sell270 SpinaProcess135 Metal"
+    },
+    {
+        "card_title": "Stellar Fighter[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF306MaxHP15000Physical Resistance %20Magic Resistance %20Critical Rate25Light resistance %15Dark resistance %15Ailment Resistance %10",
+        "item_obtainfrom": "Mysterious Music Box-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Panda Costume[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF345MaxHP5000MaxMP500Dodge50EXP Gain %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Anniversary Festive Garb V[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF350MaxHP3900MaxMP1300Physical Resistance %26Magic Resistance %26",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell260 SpinaProcess130 Cloth"
+    },
+    {
+        "card_title": "Anniversary Festive Garb V[Armor]",
+        "item_basestat": "Stat/EffectAmountBase DEF350Potential57",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell260 SpinaProcess130 Cloth"
+    }
+]

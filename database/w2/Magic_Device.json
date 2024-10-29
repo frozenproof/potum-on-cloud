@@ -1,0 +1,1820 @@
+[
+    {
+        "card_title": "Magi Klug[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK5MaxMP100Water Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Magi Klug[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK5MaxMP100Water Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Magi Klug[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK5MaxMP100Water Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Magi Klug[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK5Base Stability %70Potential16",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Birdie Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK8CSPD500Base Stability %100Physical Barrier500Magic Barrier500Pet EXP %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Magic Feather[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK8MaxMP100ASPD %1Base Stability %70",
+        "item_obtainfrom": "Farfara(Lv 13)Ruined Temple Town",
+        "item_prop": "Sell10 SpinaProcess5 Mana"
+    },
+    {
+        "card_title": "Magic Feather[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK8MaxMP100ASPD %5Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell10 SpinaProcess5 Mana"
+    },
+    {
+        "card_title": "Magic Feather[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK8Base Stability %70Potential16",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell10 SpinaProcess5 Mana"
+    },
+    {
+        "card_title": "Watching Mom[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK10MaxHP %10% stronger against Fire10% stronger against Water10% stronger against Wind10% stronger against Earth10% stronger against Light10% stronger against Dark10Aggro %-10Base Stability %80",
+        "item_obtainfrom": "Yashiro Azuki's Mom (Lv30)(Lv 25)Event",
+        "item_prop": "Sell30 SpinaProcess15 Medicine"
+    },
+    {
+        "card_title": "Magi Vein[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK12MaxMP100CSPD3Evasion Recharge %1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell20 SpinaProcess10 Mana"
+    },
+    {
+        "card_title": "Magi Vein[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK12Base Stability %70Potential18",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell20 SpinaProcess10 Mana"
+    },
+    {
+        "card_title": "1st Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14INT %1MATK %1CSPD100Evasion Recharge %6Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "1st Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14INT %1MATK %1CSPD100Evasion Recharge %6Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14INT %1MATK %1CSPD100Evasion Recharge %6Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess12 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess12 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14INT %1MATK %1CSPD100Evasion Recharge %6Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell25 SpinaProcess12 Mana"
+    },
+    {
+        "card_title": "Irogeon[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK14MaxHP %-5MaxMP150Dark Element1Base Stability %70",
+        "item_obtainfrom": "Eerie Crystal(Lv 24)Isthmus Of Kaus: Dragon's Den",
+        "item_prop": "Sell20 SpinaProcess10 Mana"
+    },
+    {
+        "card_title": "Whirlwind[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK17MATK %1Wind Element1Base Stability %70",
+        "item_obtainfrom": "Devil's Book(Lv 34)Scaro Town: Area 2",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Whirlwind[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK17MATK %1Wind Element1Short Range Damage %1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Whirlwind[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK17Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Autumn Leaf Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK20MaxMP1000CSPD1000Critical Damage %-100Earth Element1Base Stability %35MATK UP (VIT %)400",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Elflame[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK20MaxMP100Magic Resistance %2Fire resistance %3Fire Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Elflame[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK20Base Stability %70Potential19",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell30 SpinaProcess15 Mana"
+    },
+    {
+        "card_title": "Halloween Bat[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK20Magic Pierce %1Wind Element1Attack MP Recovery2Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessN/A"
+    },
+    {
+        "card_title": "Ribbon Charm[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK20Natural MP Regen %30MaxMP300Attack MP Recovery3Base Stability %80",
+        "item_obtainfrom": "Cursed Clock(Lv 71)Magic Waste Site: Area 2",
+        "item_prop": "Sell70 SpinaProcess35 Mana"
+    },
+    {
+        "card_title": "Ribbon Charm[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK20Natural MP Regen %30MaxMP300Attack MP Recovery3Base Stability %80",
+        "item_obtainfrom": "Goleps(Lv 160)121951Yorl Highlands",
+        "item_prop": "Sell70 SpinaProcess35 Mana"
+    },
+    {
+        "card_title": "Crystal Wing[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK22Dodge %10ASPD300Light Element1Short Range Damage %3Base Stability %70",
+        "item_obtainfrom": "Astol(Lv 50)Aulada Ancient Tower",
+        "item_prop": "Sell40 SpinaProcess20 Mana"
+    },
+    {
+        "card_title": "Metal Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK24MaxMP200Critical Rate4Evasion Recharge %5Base Stability %70",
+        "item_obtainfrom": "Mage Marionette(Lv 40)New Moon Palace",
+        "item_prop": "Sell40 SpinaProcess20 Mana"
+    },
+    {
+        "card_title": "Metal Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK24MaxMP200Critical Rate8Evasion Recharge %10Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell40 SpinaProcess20 Mana"
+    },
+    {
+        "card_title": "Metal Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK24Base Stability %70Potential21",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell40 SpinaProcess20 Mana"
+    },
+    {
+        "card_title": "1st Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27INT %2MATK %2CSPD200Evasion Recharge %9Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "1st Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27INT %2MATK %2CSPD200Evasion Recharge %9Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27INT %2MATK %2CSPD200Evasion Recharge %9Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess25 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess25 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27INT %2MATK %2CSPD200Evasion Recharge %9Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "Infinity Cone[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27AGI %3ATK %6ASPD250% stronger against Neutral25Base Stability %70Reduce Dmg (Charge) %10Reduce Dmg (Straight Line) %10",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell18 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Infinity Cone[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27Base Stability %70Potential22",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell45 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Valentia[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27ASPD350Water resistance %-15Fire Element1Attack MP Recovery10Base Stability %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Vita Cores[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27MaxHP %10Stability %10DEF %10Physical Resistance %10Water Element1Base Stability %70",
+        "item_obtainfrom": "Mauez(Lv 55)New Moon Palace: Innermost",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "Vita Cores[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27MaxHP %5Stability %5DEF %5Physical Resistance %5Water Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "Vita Cores[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK27Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "Fairy Peace[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK29Magic Resistance %3Aggro %-10Attack MP Recovery2% stronger against Neutral10Base Stability %70",
+        "item_obtainfrom": "Cassy(Lv 47)Ancient Empress Tomb: Area 2",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "Fairy Peace[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK29Magic Resistance %4Aggro %-10Attack MP Recovery3% stronger against Neutral10Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "Fairy Peace[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK29Base Stability %70Potential23",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell50 SpinaProcess25 Mana"
+    },
+    {
+        "card_title": "Elsand[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK33MaxMP240Physical Resistance %5Earth resistance %10Earth Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Elsand[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK33Base Stability %70Potential24",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Elsand[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK33MaxMP120Physical Resistance %3Earth resistance %10Earth Element1Base Stability %70",
+        "item_obtainfrom": "Serpain(Lv 66)Teaus Hill",
+        "item_prop": "Sell60 SpinaProcess30 Mana"
+    },
+    {
+        "card_title": "Sakura Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK33MaxMP100ATK %1MATK %1Ailment Resistance %15Light Element1Attack MP Recovery1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell60 SpinaProcess30 Mana"
+    },
+    {
+        "card_title": "Sakura Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK33MaxMP200ATK %4MATK %4Ailment Resistance %30Light Element1Attack MP Recovery3Weapon ATK150Base Stability %70",
+        "item_obtainfrom": "Mimesia (Nightmare)(Lv 180)ABCSakura Castle Donjon: Top",
+        "item_prop": "Sell60 SpinaProcess30 Mana"
+    },
+    {
+        "card_title": "Empress Soul[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK36Magic Resistance %12ASPD %-50CSPD500% stronger against Fire10% stronger against Water10% stronger against Wind10% stronger against Earth10Base Stability %80",
+        "item_obtainfrom": "Ancient Empress Mezzaluna(Lv 64)Ancient Empress Tomb: Deepest Part",
+        "item_prop": "Sell65 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Empress Soul[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK36Magic Resistance %6ASPD %5CSPD50% stronger against Fire10% stronger against Water10% stronger against Wind10% stronger against Earth10Base Stability %80",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell65 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Empress Soul[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK36Base Stability %80Potential25",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell65 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Empress Soul[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK36Magic Resistance %6ASPD %-100CSPD250% stronger against Fire15% stronger against Water15% stronger against Wind15% stronger against Earth15Base Stability %80",
+        "item_obtainfrom": "Ancient Empress Mezzaluna (Megiston 2016)(Lv 110)Event",
+        "item_prop": "Sell65 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Magic Brooch[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK40DEF %8MDEF %8Physical Resistance %4Magic Resistance %4% stronger against Neutral20Base Stability %70",
+        "item_obtainfrom": "Targa(Lv 72)Abyss of No Return: Area 1",
+        "item_prop": "Sell70 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Magic Brooch[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK40Base Stability %70Potential26",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell70 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "Magic Brooch[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK40DEF %10MDEF %10Physical Resistance %5Magic Resistance %5% stronger against Neutral20Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell70 SpinaProcess32 Mana"
+    },
+    {
+        "card_title": "1st Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43INT %3MATK %3CSPD300Evasion Recharge %12Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Mana"
+    },
+    {
+        "card_title": "1st Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43Base Stability %70Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43INT %3MATK %3CSPD300Evasion Recharge %12Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43Base Stability %70Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43INT %3MATK %3CSPD300Evasion Recharge %12Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess37 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43Base Stability %70Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess37 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43INT %3MATK %3CSPD300Evasion Recharge %12Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43Base Stability %70Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43INT %4MATK %4Magic Pierce %8CSPD1000Base Stability %70Additional Magic %80",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell75 SpinaProcess37 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK43Base Stability %70Potential27",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell75 SpinaProcess37 Mana"
+    },
+    {
+        "card_title": "Watching Mom II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK45MaxHP %15% stronger against Fire15% stronger against Water15% stronger against Wind15% stronger against Earth15% stronger against Light15% stronger against Dark15Aggro %-15Base Stability %80",
+        "item_obtainfrom": "Yashiro Azuki's Mom (Lv60)(Lv 85)Event",
+        "item_prop": "Sell90 SpinaProcess45 Medicine"
+    },
+    {
+        "card_title": "Jade Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK47DEX %6MaxMP300CSPD20Wind Element1Long Range Damage %3Base Stability %60",
+        "item_obtainfrom": "Jade Raptor(Lv 79)Gravel Terrace",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Jade Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK47DEX %3MaxMP400CSPD %80Wind Element1Long Range Damage %2Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Jade Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK47Base Stability %60Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Jade Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK47DEX %8MaxMP100CSPD %40Wind Element1Long Range Damage %5Base Stability %60",
+        "item_obtainfrom": "Jade Raptor (Megiston 2017)(Lv 120)Event",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "La Lluvia[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK47MaxHP250Magic Resistance %3Water resistance %10Water Element1Base Stability %70",
+        "item_obtainfrom": "Frosti(Lv 79)Fort Solfini: Wall",
+        "item_prop": "Sell80 SpinaProcess40 Mana"
+    },
+    {
+        "card_title": "La Lluvia[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK47MaxHP500Magic Resistance %5Water resistance %10Water Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell80 SpinaProcess40 Mana"
+    },
+    {
+        "card_title": "La Lluvia[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK47Base Stability %70Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell80 SpinaProcess40 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK50INT %4MATK %4Magic Pierce %10CSPD1000Critical Rate %50Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell85 SpinaProcess42 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK50Base Stability %70Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell85 SpinaProcess42 Mana"
+    },
+    {
+        "card_title": "Icecrystal Icicle[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK50MATK %3Magic Pierce %5Water Element1Base Stability %70Physical Barrier500Additional Magic %150ATK DOWN (AGI %)200",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell85 SpinaProcess42 Mana"
+    },
+    {
+        "card_title": "Icecrystal Icicle[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK50Base Stability %70Potential28",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell85 SpinaProcess42 Mana"
+    },
+    {
+        "card_title": "Layered Magic System[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK54Base Stability %70Potential29",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell90 SpinaProcess45 Mana"
+    },
+    {
+        "card_title": "Layered Magic System[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK54MATK %-50CSPD1000Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell90 SpinaProcess45 Mana"
+    },
+    {
+        "card_title": "Layered Magic System[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK54MATK %-45CSPD750Base Stability %70",
+        "item_obtainfrom": "Blaze Ant(Lv 99)Blazing Graben: Upper",
+        "item_prop": "Sell90 SpinaProcess45 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK58INT %4MATK %4CSPD400Evasion Recharge %15Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell95 SpinaProcess47 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK58Base Stability %70Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell95 SpinaProcess47 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK58INT %4MATK %4CSPD400Evasion Recharge %15Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess47 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK58Base Stability %70Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess47 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK58INT %4MATK %4CSPD400Evasion Recharge %15Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell95 SpinaProcess47 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK58Base Stability %70Potential30",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell95 SpinaProcess47 Mana"
+    },
+    {
+        "card_title": "Aranea Ore[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK60AGI %14MaxMP500Fire resistance %9Guard Power %15Guard Recharge %20Earth Element1Base Stability %70",
+        "item_obtainfrom": "Aranea(Lv 100)Garden of Sublimation: Central Part",
+        "item_prop": "Sell100 SpinaProcess50 Mana"
+    },
+    {
+        "card_title": "Aranea Ore[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK60AGI %10MaxMP500Fire resistance %7Guard Power %15Guard Recharge %15Earth Element1Base Stability %76",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell100 SpinaProcess50 Mana"
+    },
+    {
+        "card_title": "Aranea Ore[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK60Base Stability %76Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell100 SpinaProcess50 Mana"
+    },
+    {
+        "card_title": "El Vento[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK60Base Stability %76Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell100 SpinaProcess50 Mana"
+    },
+    {
+        "card_title": "El Vento[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK62MaxMP300Dodge %20Wind resistance %10Evasion Recharge %5Wind Element1Base Stability %70",
+        "item_obtainfrom": "Octaray(Lv 102)Singolare Ruins: 2nd Floor",
+        "item_prop": "Sell100 SpinaProcess50 Mana"
+    },
+    {
+        "card_title": "El Vento[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK62MaxMP300Dodge %20Wind resistance %10Evasion Recharge %10Wind Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell100 SpinaProcess50 Mana"
+    },
+    {
+        "card_title": "Floral Light[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK68MaxMP600Dark resistance %10Aggro %-20Light Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "Floral Light[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK68Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "Floral Light[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK68MaxMP500Dark resistance %10Aggro %-15Light Element1Base Stability %70",
+        "item_obtainfrom": "Owlzard(Lv 112)Monster's Forest: Foggy Way",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "Frost Skirt[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK70MaxHP1000MATK %4Physical Resistance %10Magic Resistance %10Aggro %-10Water Element1Base Stability %80",
+        "item_obtainfrom": "Lyark Machine Soldier(Lv 121)Cuervo Jail: 1st Floor",
+        "item_prop": "Sell120 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "Frost Skirt[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK70MaxHP1000MATK %4Physical Resistance %15Magic Resistance %15Aggro %-15Water Element1Base Stability %80",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "Frost Skirt[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK70Base Stability %80Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71INT %5MATK %5CSPD500Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "2nd Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71INT %5MATK %5CSPD500Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess55 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess55 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71INT %5MATK %5CSPD500Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71INT %5MATK %5Magic Pierce %10CSPD1000Base Stability %70Additional Magic %90",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71Base Stability %70Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "Infinity Cone II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71AGI %6ATK %12ASPD500% stronger against Neutral25Base Stability %70Reduce Dmg (Charge) %15Reduce Dmg (Straight Line) %15",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell19 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Infinity Cone II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK71Base Stability %70Potential31",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell46 SpinaProcessunknown"
+    },
+    {
+        "card_title": "6th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK80INT %5MATK %5Magic Pierce %10CSPD1000Critical Rate %60Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK80Base Stability %70Potential34",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK80INT %4MATK %4CSPD500Critical Rate30Critical Rate %50Ailment Resistance %15Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK80Base Stability %70Potential34Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell120 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "Dia Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK80INT %4MaxMP300MATK %4CSPD500Dark resistance %10Light Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell120 SpinaProcess60 Mana"
+    },
+    {
+        "card_title": "Wrath of Vulcan[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK80MaxMP500Physical Resistance %12Fire resistance %6Earth resistance %16Fire Element1Base Stability %60",
+        "item_obtainfrom": "Ifrid(Lv 112)Blazing Graben: Deepest Part",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "Wrath of Vulcan[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK80MaxMP500Physical Resistance %24Fire resistance %12Earth resistance %8Fire Element1Base Stability %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "Wrath of Vulcan[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK80Base Stability %60Potential32",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell110 SpinaProcess55 Mana"
+    },
+    {
+        "card_title": "Float[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK84MATK %5CSPD1000Water Element1Base Stability %70Tumble Unavailable1MATK UP (VIT %)200",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell1 SpinaProcess2 Medicine"
+    },
+    {
+        "card_title": "3rd Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK89INT %6MATK %6Magic Pierce %4CSPD600Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess65 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK89Base Stability %70Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess65 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK89INT %6MATK %6Magic Pierce %4CSPD600Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK89Base Stability %70Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Plant Arm[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK90Accuracy20Earth Element1Base Stability %70Additional Melee %75Additional Magic %75",
+        "item_obtainfrom": "Comraby(Lv 131)Turnus Mine: Hall",
+        "item_prop": "Sell150 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Plant Arm[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK90Accuracy30Earth Element1Base Stability %70Additional Melee %100Additional Magic %50",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Plant Arm[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK90Base Stability %70Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Dark Fear[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK92DEX %5MATK %5Earth Element1Short Range Damage %5Base Stability %70Fractional Barrier %10Magic Barrier1000Reduce Dmg (Floor) %10",
+        "item_obtainfrom": "Gwaimol(Lv 126)Cuervo Jail: Roof",
+        "item_prop": "Sell130 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Dark Fear[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK92DEX %3MATK %5Earth Element1Short Range Damage %4Base Stability %70Fractional Barrier %5Magic Barrier2000Reduce Dmg (Floor) %5",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell130 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Dark Fear[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK92Base Stability %70Potential36",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell130 SpinaProcess65 Mana"
+    },
+    {
+        "card_title": "Prism Ring[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK99DEF %15MDEF %15Physical Resistance %30Magic Resistance %30CSPD %100Critical Rate100Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell141 SpinaProcess71 Mana"
+    },
+    {
+        "card_title": "Prism Ring[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK99Base Stability %70Potential37",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell141 SpinaProcess71 Mana"
+    },
+    {
+        "card_title": "Prism Ring (Dark)[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK99DEF %10MDEF %10Physical Resistance %20Magic Resistance %20CSPD %100Dark Element1Base Stability %70",
+        "item_obtainfrom": "Bubble Angel (Purple)(Lv 145)Shrine of the Gods: Area 4",
+        "item_prop": "Sell141 SpinaProcess71 Mana"
+    },
+    {
+        "card_title": "Prism Ring (Earth)[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK99DEF %10MDEF %10Physical Resistance %20Magic Resistance %20CSPD %100Earth Element1Base Stability %70",
+        "item_obtainfrom": "Bubble Angel (Yellow)(Lv 146)Hall of Construction Gods",
+        "item_prop": "Sell142 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Prism Ring (Fire)[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK99DEF %10MDEF %10Physical Resistance %20Magic Resistance %20CSPD %100Fire Element1Base Stability %70",
+        "item_obtainfrom": "Bubble Angel (Red)(Lv 145)Shrine of The Gods: Area 3",
+        "item_prop": "Sell140 SpinaProcess70 Mana"
+    },
+    {
+        "card_title": "Prism Ring (Light)[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK99DEF %10MDEF %10Physical Resistance %20Magic Resistance %20CSPD %100Light Element1Base Stability %70",
+        "item_obtainfrom": "Bubble Angel (White)(Lv 136)Heresy Corridor",
+        "item_prop": "Sell140 SpinaProcess70 Mana"
+    },
+    {
+        "card_title": "Prism Ring (Water)[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK99DEF %10MDEF %10Physical Resistance %20Magic Resistance %20CSPD %100Water Element1Base Stability %70",
+        "item_obtainfrom": "Bubble Angel (Blue)(Lv 145)Shrine of The Gods: Area 3",
+        "item_prop": "Sell140 SpinaProcess70 Mana"
+    },
+    {
+        "card_title": "Prism Ring (Wind)[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK99DEF %10MDEF %10Physical Resistance %20Magic Resistance %20CSPD %100Wind Element1Base Stability %70",
+        "item_obtainfrom": "Bubble Angel (Green)(Lv 145)Shrine of The Gods: Area 3",
+        "item_prop": "Sell140 SpinaProcess70 Mana"
+    },
+    {
+        "card_title": "Watching Mom III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK100MaxHP %20% stronger against Fire20% stronger against Water20% stronger against Wind20% stronger against Earth20% stronger against Light20% stronger against Dark20Aggro %-20Base Stability %80",
+        "item_obtainfrom": "Yashiro Azuki's Mom (Lv150)(Lv 145)Event",
+        "item_prop": "Sell150 SpinaProcess75 Medicine"
+    },
+    {
+        "card_title": "3rd Anniv Wings VII[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK104INT %6MATK %6Magic Pierce %8CSPD700Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcess72 Mana"
+    },
+    {
+        "card_title": "3rd Anniv Wings VII[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK104Base Stability %70Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcess72 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings VII[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK104INT %6MATK %6Magic Pierce %8CSPD700Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings VII[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK104Base Stability %70Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK104INT %6MATK %6Magic Pierce %12CSPD1000Base Stability %70Additional Magic %100",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK104Base Stability %70Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110INT %6MATK %6Magic Pierce %15CSPD1000Critical Rate %70Ailment Resistance %2Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110INT %6MATK %6CSPD650Critical Rate30Critical Rate %60Ailment Resistance %15Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential39Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110INT %6MATK %6CSPD650Critical Rate35Ailment Resistance %20Base Stability %70Fractional Barrier %15Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential39Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "Flugel[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110AGI %4MATK %6ASPD %12Evasion Recharge %8Wind Element1Base Stability %70",
+        "item_obtainfrom": "Corroded Floragonet(Lv 161)Fractum Sector: Area 1",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "Flugel[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110AGI %6MATK %6ASPD %12Evasion Recharge %12Wind Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "Flugel[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110Base Stability %70Potential39",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "Sakura Lantern Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK110ASPD1000CSPD250% stronger against Earth25Ailment Resistance %5Earth Element1Attack MP Recovery10Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell150 SpinaProcess75 Mana"
+    },
+    {
+        "card_title": "Lil Empress Magic Device[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK114MATK %6Critical Rate25Aggro %-15Fire Element1Base Stability %65Additional Magic %100",
+        "item_obtainfrom": "Venena Coenubia (YK Wifey)(Lv 140)Ultimea Palace: Throne",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Magic Device[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK114MATK %6Critical Rate20Aggro %-10Fire Element1Base Stability %65Additional Magic %300",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Lil Empress Magic Device[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK114Base Stability %65Potential38",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell145 SpinaProcess72 Mana"
+    },
+    {
+        "card_title": "Angel Halo[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK120Stability %90Dodge %15Evasion Recharge %20Light Element1% stronger against Neutral25Absolute Dodge %10",
+        "item_obtainfrom": "Seraph Machina(Lv 167)Buried Tower: Inside",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "4th Anniv Wings VIII[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK121INT %6MATK %6Magic Pierce %12CSPD800Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings VIII[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK121Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK121INT %6MATK %6Magic Pierce %14CSPD1000Base Stability %70Additional Magic %110",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK121Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Aquarator[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK121MaxHP500MaxMP100MATK100Evasion Recharge %5Water Element1Base Stability %70",
+        "item_obtainfrom": "Wandering Blood Crystal(Lv 166)Avant Plastida: Area 1",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Aquarator[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK121MaxHP1000MaxMP100MATK100Evasion Recharge %10Water Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Aquarator[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK121Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Bear Balloons[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK130MaxHP2000MaxMP200Water Element1% stronger against Neutral25Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Valentia II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK130MATK %2ASPD700Fire Element1Attack MP Recovery20Base Stability %90",
+        "item_obtainfrom": "Jeandoux (Dark)(Lv 210)Sweet Hades",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Glacial Icicle[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK132MaxMP200MATK %5Magic Pierce %10Fire resistance %10Water Element1Base Stability %70Reduce Dmg (Meteor) %5",
+        "item_obtainfrom": "Shawle(Lv 130)Joulu House: Hall (Lv 110)",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Glacial Icicle[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK132MaxMP250MATK %6Magic Pierce %15Fire resistance %10Water Element1Base Stability %70Reduce Dmg (Meteor) %10",
+        "item_obtainfrom": "Shawle(Lv 150)Joulu House: Hall (Lv130)",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Glacial Icicle[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK132MaxMP300MATK %6Magic Pierce %20Fire resistance %10Water Element1Base Stability %80Reduce Dmg (Meteor) %15",
+        "item_obtainfrom": "Shawle(Lv 170)Joulu House: Hall (Lv 150)",
+        "item_prop": "Sell165 SpinaProcess82 Mana"
+    },
+    {
+        "card_title": "Infinity Cone III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK132AGI %9ATK %18ASPD750% stronger against Neutral25Base Stability %70Reduce Dmg (Charge) %20Reduce Dmg (Straight Line) %20",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell20 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Infinity Cone III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK132Base Stability %70Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell47 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Shell Orb[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK132MaxMP400MATK %6Ailment Resistance %5Water Element1",
+        "item_obtainfrom": "Lutris(Lv 179)Ducia Coast: Area 3",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "Shell Orb[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK132MaxMP500MATK %6Ailment Resistance %10Water Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "Shell Orb[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK132Base Stability %70Potential42",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell170 SpinaProcess85 Metal"
+    },
+    {
+        "card_title": "4th Anniv Wings IX[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138INT %7MATK %7Magic Pierce %16CSPD900Evasion Recharge %18Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "4th Anniv Wings IX[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Base Stability %70Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138INT %7MATK %7Magic Pierce %16CSPD1000Ailment Resistance %2Base Stability %70Additional Magic %120",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Base Stability %70Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138INT %7MATK %7Magic Pierce %15CSPD1000Critical Rate %80Ailment Resistance %4Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Base Stability %70Potential43",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138INT %7MATK %7CSPD800Critical Rate30Critical Rate %70Ailment Resistance %15Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Base Stability %70Potential43Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138INT %7MATK %7CSPD800Critical Rate35Ailment Resistance %20Base Stability %70Fractional Barrier %16Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Base Stability %70Potential43Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell175 SpinaProcess87 Mana"
+    },
+    {
+        "card_title": "9th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138INT %6MaxHP5000MATK %7Critical Rate40Ailment Resistance %25Base Stability %70Fractional Barrier %15MATK UP (AGI %)100",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK138Base Stability %70Potential43",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Luminary Reaver Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK144MATK %7Dark Element1Attack MP Recovery14Short Range Damage %7Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess90 Metal"
+    },
+    {
+        "card_title": "Luminary Reaver Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK144Base Stability %70Potential44",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell180 SpinaProcess90 Metal"
+    },
+    {
+        "card_title": "Luminary Reaver Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK144MATK %7Dark Element1Attack MP Recovery8Short Range Damage %6Base Stability %70",
+        "item_obtainfrom": "Georaven(Lv 183)Country Road",
+        "item_prop": "Sell180 SpinaProcess90 Metal"
+    },
+    {
+        "card_title": "Rilevatore[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK144MaxMP600ATK %7MATK %7Critical Rate30Aggro %-30Dark Element1Attack MP Recovery6Base Stability %70",
+        "item_obtainfrom": "Pyxtica(Lv 165)Fractum Sector: Area 3",
+        "item_prop": "Sell180 SpinaProcess90 Mana"
+    },
+    {
+        "card_title": "Rilevatore[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK144MaxMP300ATK %7MATK %7Critical Rate60Aggro %-60Dark Element1Attack MP Recovery3Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell180 SpinaProcess90 Mana"
+    },
+    {
+        "card_title": "Rilevatore[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK144Base Stability %70Potential44",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell180 SpinaProcess90 Mana"
+    },
+    {
+        "card_title": "Warrior Angel Armor[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK145INT %3MaxHP3000MATK %6Magic Pierce %12CSPD100Light Element1Base Stability %60Magic Barrier3000",
+        "item_obtainfrom": "Mardula(Lv 147)Hall of Blessings Gods",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Warrior Angel Armor[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK145INT %3MaxHP300MATK %6Magic Pierce %12CSPD1000Light Element1Base Stability %60Magic Barrier300",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "Warrior Angel Armor[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK145Base Stability %60Potential41",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell160 SpinaProcess80 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK150INT %7MATK %7Magic Pierce %18CSPD1000Ailment Resistance %4Base Stability %70Additional Magic %130",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell185 SpinaProcess92 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK150Base Stability %70Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell185 SpinaProcess92 Mana"
+    },
+    {
+        "card_title": "Gravitar[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK150MATK %7Magic Pierce %40CSPD %30Evasion Recharge %20Neutral Resistance %10% stronger against Neutral25Base Stability %70",
+        "item_obtainfrom": "Repthon(Lv 177)Deltzon Research Zone: Deepest Area",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Gravitar[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK150MATK %7Magic Pierce %10CSPD %40Evasion Recharge %30Neutral Resistance %20% stronger against Neutral25Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Gravitar[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK150Base Stability %70Potential45",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sunlight Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK157MaxHP %20MATK %7Light Element1Base Stability %70Invincible Aid (sec)2Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sunlight Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK157Base Stability %70Potential45Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Sunlight Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK157MaxHP %20MATK %7Light Element1Base Stability %70Invincible Aid (sec)1Attack Range (m)6",
+        "item_obtainfrom": "Geomal(Lv 207)Mt. Vulcani: Area 1",
+        "item_prop": "Sell190 SpinaProcess95 Metal"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK160Stability %10CSPD1000Critical Rate100Evasion Recharge %20Wind Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings VII[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163INT %7MATK %7Magic Pierce %20CSPD1000Ailment Resistance %6Base Stability %70Additional Magic %140",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "5th Anniv Wings VII[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163Base Stability %70Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163INT %7MATK %7Magic Pierce %20CSPD1000Critical Rate %90Ailment Resistance %6Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163Base Stability %70Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163INT %7MATK %7CSPD950Critical Rate30Critical Rate %80Ailment Resistance %15Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163Base Stability %70Potential46Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163INT %7MATK %7CSPD950Critical Rate35Ailment Resistance %20Base Stability %70Fractional Barrier %17Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163Base Stability %70Potential46Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "9th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163INT %7MaxHP6000MATK %7Critical Rate40Ailment Resistance %25Base Stability %70Fractional Barrier %16MATK UP (AGI %)100",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Wings II[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163Base Stability %70Potential46",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Magic Device[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163MATK %7CSPD300Critical Rate25Fire Element1% stronger against Neutral25Base Stability %70Heavy Armor only:MaxHP5000",
+        "item_obtainfrom": "Venena Metacoenubia(Lv 185)Neo Plastida",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Demon Empress Magic Device[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163MATK %7CSPD350Critical Rate20Fire Element1% stronger against Neutral10Base Stability %70Heavy Armor only:MaxHP6000",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Demon Empress Magic Device[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK163Base Stability %70Potential46",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell195 SpinaProcess97 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170INT %4MATK %8Water resistance %10Wind Element1Attack MP Recovery7Base Stability %70Magic Barrier3000Reduce Dmg (Meteor) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170INT %4MATK %8Wind resistance %10Earth Element1Attack MP Recovery7Base Stability %70Magic Barrier3000Reduce Dmg (Meteor) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170MATK %8Magic Pierce %30Water resistance %10Wind Element1Attack MP Recovery10Base Stability %70Magic Barrier1000Reduce Dmg (Meteor) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170MATK %8Magic Pierce %30Wind resistance %10Earth Element1Attack MP Recovery10Base Stability %70Magic Barrier1000Reduce Dmg (Meteor) %10",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170MaxMP800CSPD %40Water resistance %20Wind Element1Base Stability %70Invincible Aid (sec)3Reduce Dmg (Meteor) %20Item Cooldown-1",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170MaxMP800CSPD %40Wind resistance %20Earth Element1Base Stability %70Invincible Aid (sec)3Reduce Dmg (Meteor) %20Item Cooldown-1",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170MATK %7Water resistance %30Aggro %-40Wind Element1Attack MP Recovery4Base Stability %70Magic Barrier5000Reduce Dmg (Meteor) %30",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170MATK %7Wind resistance %30Aggro %-40Earth Element1Attack MP Recovery4Base Stability %70Magic Barrier5000Reduce Dmg (Meteor) %30",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Pezvolador[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170Natural MP Regen %-25MaxMP750ASPD1500Evasion Recharge %60Water Element1Motion Speed %30Attack MP Recovery %-25",
+        "item_obtainfrom": "Sunken Treasure-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Storm Radar[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170Stability %10CSPD %20% stronger against Water5Wind resistance %15Wind Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Storm Radar[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170Base Stability %70Potential47",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Storm Radar[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170Stability %5CSPD %25% stronger against Water5Wind resistance %15Wind Element1Base Stability %70Attack Range (m)4",
+        "item_obtainfrom": "Smocky(Lv 218)Operation Zone: Power Control Area",
+        "item_prop": "Sell200 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Yozakura Magic Device[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170INT %2Accuracy300CSPD800% stronger against Dark10Light Element1Long Range Damage %6Base Stability %70Reduce Dmg (Bullet) %30",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell190 SpinaProcess100 Metal"
+    },
+    {
+        "card_title": "Yozakura Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK170MATK %8Accuracy100Water Element1% stronger against Neutral25Base Stability %70Additional Magic %100",
+        "item_obtainfrom": "Amalgam(Lv 200)Twilight Sakura Castle: Top",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Wanderflasche[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK180MaxHP3000% stronger against Fire5Water Element1Short Range Damage %8Base Stability %70Physical Barrier2000Magic Barrier500Anticipate %30",
+        "item_obtainfrom": "Irestida(Lv 195)Nov Diela Central",
+        "item_prop": "Sell205 SpinaProcess102 Mana"
+    },
+    {
+        "card_title": "Wanderflasche[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK180MaxHP4000% stronger against Fire5Water Element1Short Range Damage %8Base Stability %70Physical Barrier1000Magic Barrier1000Anticipate %3",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell205 SpinaProcess102 Mana"
+    },
+    {
+        "card_title": "Wanderflasche[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK180Base Stability %70Potential48",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell205 SpinaProcess102 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183INT %8MATK %8Magic Pierce %20CSPD1000Critical Rate %100Ailment Resistance %8Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "6th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183Base Stability %70Potential49",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183INT %8MATK %8CSPD1100Critical Rate30Critical Rate %90Ailment Resistance %15Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183Base Stability %70Potential49Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183INT %8MATK %8CSPD1100Critical Rate35Ailment Resistance %20Base Stability %70Fractional Barrier %18Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183Base Stability %70Potential49Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Mana"
+    },
+    {
+        "card_title": "9th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183INT %8MaxHP7000MATK %8Critical Rate40Ailment Resistance %25Fractional Barrier %17MATK UP (AGI %)100",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Wings III[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183Base Stability %70Potential49",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Beastlord Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183Base Stability %70Potential48",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Flammarem[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183AGI %7MATK %8ASPD %60% stronger against Earth5Fire Element1Base Stability %70Attack Range (m)4",
+        "item_obtainfrom": "Drail(Lv 228)Boma Konda: Underground Area",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Flammarem[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183AGI %8MATK %8ASPD %80% stronger against Earth5Fire Element1Base Stability %70Attack Range (m)4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Flammarem[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK183Base Stability %70Potential49Attack Range (m)4",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell210 SpinaProcess105 Metal"
+    },
+    {
+        "card_title": "Cruel Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK190MaxMP400Stability %20CSPD %60% stronger against Wind5Aggro %-40Earth Element1Long Range Damage %8Base Stability %70Attack Range (m)12",
+        "item_obtainfrom": "War Dragon Turba(Lv 207)Prime Ramus: Village",
+        "item_prop": "Sell215 SpinaProcess107 Beast"
+    },
+    {
+        "card_title": "Cruel Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK190MaxMP400Stability %2CSPD %50% stronger against Wind5Aggro %-30Earth Element1Long Range Damage %8Base Stability %70Attack Range (m)12",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell215 SpinaProcess107 Beast"
+    },
+    {
+        "card_title": "Cruel Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK190Base Stability %70Potential50Attack Range (m)12",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell215 SpinaProcess107 Beast"
+    },
+    {
+        "card_title": "Cruel Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK190MaxMP400MATK %9Stability %10CSPD %70Aggro %-50Earth Element1Base Stability %70Attack Range (m)12",
+        "item_obtainfrom": "War Dragon Turba (Megiston 2022)(Lv 240)Event",
+        "item_prop": "Sell215 SpinaProcess107 Beast"
+    },
+    {
+        "card_title": "Rime Wing[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK197MaxHP4000MaxMP400MATK %8Water Element1Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Rime Wing[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK197Base Stability %70Potential50Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Rime Wing[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK197MaxHP4000MaxMP300MATK %8Water Element1Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "Naticlaw(Lv 231)Seabed",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Visphalanx (Magic Device)[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK197Magic Pierce %30CSPD %50Critical Rate %100Aggro %-30Light Element1Short Range Damage %10Base Stability %70Additional Magic %150Attack Range (m)3.5",
+        "item_obtainfrom": "[NPC]Slayers: Collab Prize ExchangeSofya City",
+        "item_prop": "Sell1000 SpinaProcessN/A"
+    },
+    {
+        "card_title": "Falburrows Feelers[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK200MaxHP %40Magic Pierce %20CSPD %30Wind resistance %-30Water Element1% stronger against Neutral30Base Stability %80Attack Range (m)10Heavy Armor only:Guard Power %25Guard Recharge %25",
+        "item_obtainfrom": "Falburrows(Lv 205)Saltau's Beach (Night)",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Pearl Sakura Katashiro[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK200MaxHP %30MaxMP500Critical Rate50Critical Rate %25% stronger against Earth10Fire Element1Base Stability %70",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "SellUnknownProcessWood"
+    },
+    {
+        "card_title": "Temperament[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK210Physical Resistance %40Magic Resistance %40Evasion Recharge %80Base Stability %70",
+        "item_obtainfrom": "[NPC]Mysterious Exchange (P. Avatar 2022)Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212INT %9MATK %9CSPD1250Critical Rate30Critical Rate %100Ailment Resistance %15Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Mana"
+    },
+    {
+        "card_title": "7th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212Base Stability %70Potential52Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212INT %9MATK %9CSPD1250Critical Rate35Ailment Resistance %20Base Stability %70Fractional Barrier %19Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212Base Stability %70Potential52Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Mana"
+    },
+    {
+        "card_title": "9th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212INT %9MaxHP8000MATK %9Critical Rate40Ailment Resistance %25Base Stability %70Fractional Barrier %18MATK UP (AGI %)100",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Wings IV[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212Base Stability %70Potential52",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212Stability %12CSPD1000Critical Rate125Evasion Recharge %25Wind Element1Base Stability %70Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Orbital Mystic Spheres[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212ASPD %50CSPD400Earth resistance %30Earth Element1Base Stability %70Attack Range (m)4",
+        "item_obtainfrom": "Borior(Lv 253)Eumano Village Ruins: Area 1",
+        "item_prop": "Sell230 SpinaProcess115 Mana"
+    },
+    {
+        "card_title": "Orbital Mystic Spheres[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212ASPD %50CSPD500Earth resistance %50Earth Element1Base Stability %70Attack Range (m)4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Mana"
+    },
+    {
+        "card_title": "Orbital Mystic Spheres[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK212Base Stability %70Potential52",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Mana"
+    },
+    {
+        "card_title": "Super Costero[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK220ASPD500CSPD500% stronger against Dark25Aggro %100Dark Element1Base Stability %70",
+        "item_obtainfrom": "Super Death Mushroom(Lv 150)Monster's Forest: Animal Trail",
+        "item_prop": "SellUnknownProcessunknown"
+    },
+    {
+        "card_title": "Alfreon[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK225DEX %7MaxMP600MATK %8Light Element1Base Stability %60",
+        "item_obtainfrom": "Alfenix(Lv 230)El Scaro",
+        "item_prop": "Sell200 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242INT %10MATK %10CSPD1400Critical Rate35Ailment Resistance %20Base Stability %70Fractional Barrier %20Attack Range (m)6",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell250 SpinaProcess125 Mana"
+    },
+    {
+        "card_title": "8th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242Base Stability %70Potential55Attack Range (m)6",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell250 SpinaProcess125 Mana"
+    },
+    {
+        "card_title": "9th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242INT %10MaxHP9000MATK %10Critical Rate40Ailment Resistance %25Base Stability %70Fractional Barrier %19MATK UP (AGI %)100",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Wings V[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242Base Stability %70Potential55",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242INT %5MATK %10Water resistance %15Wind Element1Attack MP Recovery7Base Stability %70Magic Barrier4000Reduce Dmg (Meteor) %15Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242INT %5MATK %10Wind resistance %15Earth Element1Attack MP Recovery7Base Stability %70Magic Barrier4000Reduce Dmg (Meteor) %15Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242MATK %10Magic Pierce %30Water resistance %10Wind Element1Attack MP Recovery10Base Stability %70Magic Barrier2000Reduce Dmg (Meteor) %10Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242MATK %10Magic Pierce %30Wind resistance %10Earth Element1Attack MP Recovery10Base Stability %70Magic Barrier2000Reduce Dmg (Meteor) %10Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242MaxMP800CSPD %60Water resistance %25Wind Element1Base Stability %70Invincible Aid (sec)3Reduce Dmg (Meteor) %25Item Cooldown-1Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242MaxMP800CSPD %60Wind resistance %25Earth Element1Base Stability %70Invincible Aid (sec)3Reduce Dmg (Meteor) %25Item Cooldown-1Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242MATK %9Water resistance %35Aggro %-60Wind Element1Attack MP Recovery4Base Stability %70Magic Barrier6000Reduce Dmg (Meteor) %35Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Audio Console[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242MATK %9Wind resistance %35Aggro %-60Earth Element1Attack MP Recovery4Base Stability %70Magic Barrier6000Reduce Dmg (Meteor) %35Attack Range (m)6",
+        "item_obtainfrom": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "item_prop": "Sell1 SpinaProcess100 Mana"
+    },
+    {
+        "card_title": "Dominantrum[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242MATK %10Magic Pierce %20Physical Resistance %40Guard Power %40Dark Element1Attack MP Recovery30Base Stability %70Reduce Dmg (Floor) %40Attack Range (m)6",
+        "item_obtainfrom": "Dominaredor(Lv 243)Frozen Falls: Depths",
+        "item_prop": "Sell250 SpinaProcess125 Beast"
+    },
+    {
+        "card_title": "Dominantrum[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242MATK %10Magic Pierce %15Physical Resistance %40Guard Power %50Dark Element1Attack MP Recovery20Base Stability %70Reduce Dmg (Floor) %60",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Dominantrum[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242Base Stability %70Potential55",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Temperament[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK242Physical Resistance %40Magic Resistance %40Evasion Recharge %80Base Stability %70",
+        "item_obtainfrom": "[NPC]Mysterious Exchange (P. Avatar 2023)Event",
+        "item_prop": "Sell1 SpinaProcess1000 Mana"
+    },
+    {
+        "card_title": "Fireworks[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK250MaxMP1000Fire Element1Base Stability %35Additional Magic %100Recoil %0.01",
+        "item_obtainfrom": "[NPC]Lalun (Summer Event Exchange)Event",
+        "item_prop": "Sell1 SpinaProcess2 Mana"
+    },
+    {
+        "card_title": "Weeping Sakura Petals[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK266DEX %10MATK %10ASPD500CSPD %50% stronger against Water10Light resistance %25Ailment Resistance %25Wind Element1Attack Range (m)12",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK275INT %10MaxHP10000MATK %11Critical Rate40Ailment Resistance %25Base Stability %70Fractional Barrier %20MATK UP (AGI %)100",
+        "item_obtainfrom": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "9th Anniv Wings VI[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK275Base Stability %70Potential59",
+        "item_obtainfrom": "[Player]Smith Skill555-",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Humida Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK275MaxMP700MATK %9CSPD %99Light Element1Short Range Damage %-9Long Range Damage %9Attack Range (m)8Light Armor only:Guard Break %30",
+        "item_obtainfrom": "Humida(Lv 261)Marinatown: Giant Plastida",
+        "item_prop": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "card_title": "Pholidota Shield[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK318MaxMP1000MATK %9DEF %15MDEF %15Physical Resistance %30Magic Resistance %30Ailment Resistance %15Base Stability %60Physical Barrier2000Magic Barrier2000Attack Range (m)4",
+        "item_obtainfrom": "Gordel(Lv 219)Milcaska Falls: Weredragon's Mouth",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "Pholidota Shield[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK318MaxMP1000MATK %9DEF %20MDEF %20Physical Resistance %20Magic Resistance %20Ailment Resistance %20Base Stability %60Attack Range (m)4",
+        "item_obtainfrom": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "Pholidota Shield[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK318Base Stability %60Potential52Attack Range (m)4",
+        "item_obtainfrom": "[Player]Smith Skill-",
+        "item_prop": "Sell230 SpinaProcess115 Metal"
+    },
+    {
+        "card_title": "Queen Bee Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK394MaxMP200Magic Pierce %20Dodge %20Earth resistance %-30Wind Element1Long Range Damage %8Base Stability %50Attack Range (m)4",
+        "item_obtainfrom": "Mieli (Milk)(Lv 160)Rakau Plains",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Queen Bee Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK394MaxMP300Magic Pierce %30Dodge %30Earth resistance %-50Wind Element1Long Range Damage %8Base Stability %50Attack Range (m)4",
+        "item_obtainfrom": "Mieli (Bitter)(Lv 220)Rakau Plains",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Queen Bee Wings[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK394MaxMP250Magic Pierce %25Dodge %25Earth resistance %-40Wind Element1Long Range Damage %8Base Stability %50Attack Range (m)4",
+        "item_obtainfrom": "Mieli (Sweet)(Lv 190)Rakau Plains",
+        "item_prop": "Sell220 SpinaProcess110 Mana"
+    },
+    {
+        "card_title": "Viridian Magic Device[Magic Device]",
+        "item_basestat": "Stat/EffectAmountBase ATK462ATK %6MATK %12Physical Resistance %30Magic Resistance %30Critical Rate60Ailment Resistance %15Light Element1Motion Speed %15% stronger against Neutral25Anticipate %60",
+        "item_obtainfrom": "empty",
+        "item_prop": "Sell290 SpinaProcess870 Mana"
+    }
+]

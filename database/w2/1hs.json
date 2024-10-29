@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Anguish Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Stat/EffectAmountATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Recipe": "Fee150 SpinaSet1 pcsLevelN/ADifficulty0Materials- 25xBat Wing- 1xFour-leaf Clover- 50x Cloth- 25x Metal"
+    },
+    {
+        "Name": "Anguish Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Stat/EffectAmountATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Recipe": "Fee150 SpinaSet1 pcsLevelN/ADifficulty0Materials- 25xBat Wing- 1xFour-leaf Clover- 50x Cloth- 25x Metal"
+    },
+    {
+        "Name": "Anguish Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Stat/EffectAmountATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "MonsterDyeMap": "empty",
+        "Recipe": "Sell0 SpinaProcessunknown"
+    },
+    {
+        "Name": "Accordion-fold Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Stat/EffectAmountBase ATK\n1\nAggro %\n30\nAttack MP Recovery\n3\nBase Stability %40",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Recipe": "SellUnknownProcessN/A"
+    },
+    {
+        "Name": "Shortsword[1 Handed Sword]",
+        "StatEffect_Amount": "Stat/EffectAmountBase ATK\n10\nBase Stability %80",
+        "MonsterDyeMap": "Pico(Lv 1)Rakau Plains",
+        "Recipe": "Sell1 SpinaProcess2 Metal"
+    }
+]
