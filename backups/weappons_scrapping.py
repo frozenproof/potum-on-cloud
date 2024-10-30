@@ -6,7 +6,9 @@ import os
 import pandas as pd
 import re
 
-import re
+def starts_with_sell(text):
+    return text.startswith("sell") or text.startswith("Sell")
+
 
 # Function to format the `item_basestat` text
 def format_basestat(text):
@@ -89,8 +91,8 @@ os.makedirs("database/w2", exist_ok=True)
 
 
 for skill_category, urls in list_of_weapons["weapons"].items():
-    file_path_json = f"database/w2/{skill_category}.json"
-    file_path_excel = f"database/w2/{skill_category}.xlsx"
+    file_path_json = f"database/{skill_category}.json"
+    file_path_excel = f"database/{skill_category}.xlsx"
     data = []  # Initialize the data list once per skill_category
 
     for url in urls:
@@ -103,16 +105,29 @@ for skill_category, urls in list_of_weapons["weapons"].items():
             soup = BeautifulSoup(response.text, 'html.parser')
 
             # Find all relevant divs with the specified class
-            cards_big = soup.find_all("div", class_="card-container")
-            cards = soup.find_all("div")
+            cards_big_do_not_delete = soup.find_all("div", class_="card-container")
+            # Extract and store each big div (unnamed) with its inner content intact
+            for card in cards_big_do_not_delete:
+                # Initialize a list to store big divs without classes, preserving all nested content
+                divs_without_classes = []
+
+                # Find all immediate child divs in the card that do not have any class
+                for div in card.find_all("div", recursive=False):
+                    if not div.attrs.get("class"):  # Check if the div has no class
+                        divs_without_classes.append(div)
+
+                # Now divs_without_classes contains the big divs without classes, each with their nested content intact
+            # cards_do_not_delete = soup.find_all("div")
+            cards_do_not_delete = divs_without_classes
+
             # print(cards)
             with open("Output.txt", "w", encoding='cp932', errors='ignore') as text_file:
-                text_file.write("\n\n\n" + str(cards))
-            exit(0)
+                text_file.write("\n\n\n" + str(cards_do_not_delete))
+            # exit(0)
             # print("\n\n\n\n\ncard data\n\n\n\n",len(cards))
 
             # Extract and store the content for each card
-            for card in cards:
+            for card in cards_do_not_delete:
                 card_data = {
                     "Name": "empty",
                     "StatEffect_Amount": "empty",
@@ -139,12 +154,16 @@ for skill_category, urls in list_of_weapons["weapons"].items():
 
                 # Extract `item-prop`
                 prop_div = card.find_all("div", class_="item-prop mini")
-                if len(prop_div) > 2:
-                    card_data["Recipe"] = prop_div[2].get_text(strip=True)
-                elif prop_div:  # Check if prop_div has at least one element
-                    card_data["Recipe"] = prop_div[0].get_text(strip=True)
-                else:
-                    card_data["Recipe"] = "empty"
+                prop_mini = card.find("div", class_="item-prop mini")
+                # if len(prop_div) > 2:
+                #     card_data["Recipe"] = prop_div[2].get_text(strip=True)
+                # elif prop_div:  # Check if prop_div has at least one element
+                #     card_data["Recipe"] = prop_div[0].get_text(strip=True)
+                # else:
+                #     card_data["Recipe"] = "empty"
+
+                if prop_mini:  # Check if prop_div has at least one element
+                    card_data["Recipe"] = prop_mini.get_text(strip=True)
 
                 if(title_div is None or basestat_div is None and obtainfrom_div is None and prop_div is None):
                     continue
