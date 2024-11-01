@@ -35,6 +35,13 @@
         "Recipes": ""
     },
     {
+        "Name": "Ectopiezm[Additional]",
+        "StatEffect_Amount": "MaxMP\n500\nMotion Speed %\n4\nAnticipate %\n30\nHeavy Armor only:Guard Power %\n10\nGuard Recharge %\n10\nLight Armor only:Evasion Recharge %20",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell100 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
         "Name": "Fluffy Snow Hat[Additional]",
         "StatEffect_Amount": "MaxHP %\n30\nWind resistance %\n10\nAggro %-20",
         "MonsterDyeMap": "Snowball Event NPCSnowball Mini Game Venue",
@@ -2804,6 +2811,391 @@
         "StatEffect_Amount": "Base DEF\n36\nAdditional Melee %\n50\nAdditional Magic %\n50\nATK UP (INT %)\n25\nMATK UP (STR %)25",
         "MonsterDyeMap": "Zaman(Lv 144)Shrine of The Gods: Area 3Zaman(Lv 142)Shrine of The Gods: Area 1",
         "Processing": "Sell70 SpinaProcess35 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Small Fairy Wings[Additional]",
+        "StatEffect_Amount": "Base DEF\n36\nAdditional Melee %\n50\nAdditional Magic %\n50\nATK UP (INT %)\n50\nMATK UP (STR %)50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell70 SpinaProcess35 Cloth",
+        "Recipes": "700 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxMystic Gemstone- \n10\nxElemental Stone- \n200\nx Cloth- \n150\nx Mana"
+    },
+    {
+        "Name": "Big Ribbon[Additional]",
+        "StatEffect_Amount": "Base DEF\n37\nMagic Resistance %\n15\nDark resistance %\n15\nAggro %-15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Cloth",
+        "Recipes": "300 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n5\nxSnow Cookie"
+    },
+    {
+        "Name": "Hanami Lanterns[Additional]",
+        "StatEffect_Amount": "Base DEF\n37\nMATK %\n4\nStability %\n4\nMagic Pierce %4",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell90 SpinaProcess300 Mana",
+        "Recipes": "500 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxYozakura Gemstone- \n1\nxBroken Yozakura Branch- \n1\nxCerabes Fang- \n50\nx Medicine"
+    },
+    {
+        "Name": "Head Plop Coryn[Additional]",
+        "StatEffect_Amount": "Base DEF\n37\nMaxHP\n2000\nPhysical Resistance %\n10\nMagic Resistance %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess100 Cloth",
+        "Recipes": "10 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxMagic Yarn- \n1\nxGrass Dragon's Scale- \n1\nxCracked Face Stone- \n1\nxUnknown Part"
+    },
+    {
+        "Name": "Round Glasses[Additional]",
+        "StatEffect_Amount": "Base DEF\n37\nMaxMP\n300\nMATK %3",
+        "MonsterDyeMap": "empty",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Viola Horns[Additional]",
+        "StatEffect_Amount": "Base DEF\n37\nPhysical Resistance %-\n10\nMagic Resistance %-\n10\nAccuracy %\n10\nCritical Damage10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell45 SpinaProcess22 Beast",
+        "Recipes": "450 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n20\nxDark Page- \n20\nxStrange Essence- \n20\nxFloating Cloth- \n200\nx Mana"
+    },
+    {
+        "Name": "Big Boa Hood[Additional]",
+        "StatEffect_Amount": "Base DEF\n38\nDEF %\n20\nPhysical Resistance %\n20\nAggro %-\n15\nTumble Unavailable1",
+        "MonsterDyeMap": "Snowman(Lv 148)Elf Mountains: Area 1Snowman(Lv 150)Elf Mountains: Area 2",
+        "Processing": "Sell77 SpinaProcess38 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Flower Earrings[Additional]",
+        "StatEffect_Amount": "Base DEF\n38\nStability %\n10\nMagic Resistance %\n10\nLight resistance %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "750 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n5\nxRound Insect Cage- \n15\nxTorn Necklace- \n300\nx Wood- \n75\nx Metal"
+    },
+    {
+        "Name": "Fur Ten Gallon[Additional]",
+        "StatEffect_Amount": "Base DEF\n38\nASPD %\n25\nCritical Rate\n1\nLong Range Damage %2",
+        "MonsterDyeMap": "Noir Nemico(Lv 76)Lunagent Mountain: Area 1",
+        "Processing": "Sell37 SpinaProcess18 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Fur Ten Gallon[Additional]",
+        "StatEffect_Amount": "Base DEF\n38\nASPD %\n25\nCritical Rate\n3\nLong Range Damage %2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "375 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n32\nxFleecy Fur- \n20\nxThick Cloth- \n100\nx Cloth- \n90\nx Beast"
+    },
+    {
+        "Name": "Long-Tailed Tit[Additional]",
+        "StatEffect_Amount": "Base DEF\n38\nAggro %-\n6\nShort Range Damage %\n6\nATK UP (INT %)60",
+        "MonsterDyeMap": "Snowball Event NPCSnowball Mini Game Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Schmet Hairpin[Additional]",
+        "StatEffect_Amount": "Base DEF\n38\nINT %\n9\nMATK %\n9\nMagic Resistance %9",
+        "MonsterDyeMap": "Lettacia(Lv 220)Boma Konda: EntranceLettacia(Lv 222)Boma Konda: Entrance",
+        "Processing": "Sell112 SpinaProcess56 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Seer's Veil[Additional]",
+        "StatEffect_Amount": "Base DEF\n38\nStability %\n10\nCSPD\n500\nCSPD %\n25\nTumble Unavailable1",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "1125 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n15\nxCorroded Red Crystal- \n15\nxDragon Snake Shed- \n280\nx Cloth- \n280\nx Mana"
+    },
+    {
+        "Name": "Thunder Drums[Additional]",
+        "StatEffect_Amount": "Base DEF\n38\nCSPD %\n20\nCritical Rate\n15\n%\nstronger against Water\n10\nWind resistance %25",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxEin Wood- \n2\nxMinotaur Skin- \n300\nx Wood- \n150\nx Mana"
+    },
+    {
+        "Name": "Adel Cape[Additional]",
+        "StatEffect_Amount": "Base DEF\n39\nMaxHP %\n10\nGuard Recharge %\n10\nAggro %\n10\nFractional Barrier %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell47 SpinaProcess23 Cloth",
+        "Recipes": "475 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n40\nxEvil Beast Fur- \n30\nxFloating Cloth- \n20\nxCorroded Iron Arm- \n240\nx Cloth"
+    },
+    {
+        "Name": "Adel Cape[Additional]",
+        "StatEffect_Amount": "Base DEF\n39\nMaxHP %\n10\nGuard Recharge %\n8\nAggro %\n13\nFractional Barrier %9",
+        "MonsterDyeMap": "Wooly(Lv 96)Blazing Graben: Surface",
+        "Processing": "Sell47 SpinaProcess23 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Nightcap[Additional]",
+        "StatEffect_Amount": "Base DEF\n39\nMaxMP\n500\nCSPD\n500\nPhysical Barrier1000",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Cloth",
+        "Recipes": "500 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxEnigmatic Lithograph- \n1\nxTapir Fur- \n200\nx Cloth- \n50\nx Mana"
+    },
+    {
+        "Name": "Xmas Ribbon[Additional]",
+        "StatEffect_Amount": "Base DEF\n39\nStability %\n10\nCritical Rate %\n5\nWeapon ATK %15",
+        "MonsterDyeMap": "Santaby(Lv 142)Tomte Pavillion (130-150)",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Agios' Hat[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nFire resistance %-\n10\nDark resistance %\n15\nAggro %\n9\nShort Range Damage %3",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n30\nxSnow Doll- \n1\nxTwilight Gemstone- \n1\nxDark Knight Emblem"
+    },
+    {
+        "Name": "Beak Mask[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMATK %\n4\nCSPD\n300\nGuard Break %5",
+        "MonsterDyeMap": "Gajo(Lv 90)Site of SimcrackerGajo(Lv 93)Site of Simcracker",
+        "Processing": "Sell47 SpinaProcess23 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Beak Mask[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMATK %\n4\nCSPD\n300\nGuard Break %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell47 SpinaProcess23 Beast",
+        "Recipes": "475 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n20\nxTorn Black Coat- \n20\nxDirty Potum Hair- \n1\nxBrown Beak- \n240\nx Cloth"
+    },
+    {
+        "Name": "Brigan Helm[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nStability %\n2\nPhysical Resistance %\n5\nMagic Resistance %\n5\nAggro %\n12\nWeapon ATK %10",
+        "MonsterDyeMap": "Scrader(Lv 85)Magic Waste Site: Deepest PartScrader(Lv 75)Magic Waste Site: Deepest PartScrader(Lv 95)Magic Waste Site: Deepest PartScrader(Lv 105)Magic Waste Site: Deepest PartScrader(Lv 125)Magic Waste Site: Deepest Part",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bunny Beanie[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMaxMP\n300\nDodge %\n10\nEvasion Recharge %\n15\nAbsolute Dodge %5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "10 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n3\nxFluck Egg- \n15\nxKnit Fabric- \n30\nxCarrot- \n250\nx Cloth"
+    },
+    {
+        "Name": "Candy Ears[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMaxMP\n500\nPhysical Resistance %\n4\nMagic Resistance %\n4\n%\nstronger against Light\n2\n%\nstronger against Dark2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Medicine",
+        "Recipes": "40 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n9\nxCandy Fragment- \n3\nxMysterious Fruit- \n40\nx Mana"
+    },
+    {
+        "Name": "Crystal Cluster[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMaxMP\n500\nLight resistance %10",
+        "MonsterDyeMap": "Evil Ice Crystal(Lv 92)Navida City: Crossroad (80-100)Evil Ice Crystal(Lv 92)Navida City: West (80-100)Evil Ice Crystal(Lv 92)Navida City: East (80-100)Evil Ice Crystal(Lv 112)Navida City: Crossroad (100-120)Evil Ice Crystal(Lv 112)Navida City: East (100-120)Evil Ice Crystal(Lv 112)Navida City: West (100-120)Evil Ice Crystal(Lv 71)Navida City: Crossroad (60-80)Evil Ice Crystal(Lv 71)Navida City: West  (60-80)Evil Ice Crystal(Lv 71)Navida City: East (60-80)",
+        "Processing": "Sell1 SpinaProcess100 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Engagement Crown[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nSTR\n6\nMaxHP\n1200\nPhysical Resistance %\n20\nAggro %28",
+        "MonsterDyeMap": "Groom BoxEvent",
+        "Processing": "Sell300 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Engagement Tiara[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nINT\n6\nMaxMP\n600\nMagic Resistance %\n20\nAggro %-28",
+        "MonsterDyeMap": "Bride BoxEvent",
+        "Processing": "Sell300 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Frame Helmet[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nSTR %\n3\nATK %\n3\nAccuracy %3",
+        "MonsterDyeMap": "empty",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Fruit Cap[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMaxMP\n200\nMDEF\n80\nAilment Resistance %15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell77 SpinaProcess38 Cloth",
+        "Recipes": "775 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n15\nxAroma Herb- \n15\nxTasty Honey- \n15\nxForbidden Nut- \n390\nx Cloth"
+    },
+    {
+        "Name": "Fruit Cap[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMaxMP\n100\nMDEF %\n80\nAilment Resistance %15",
+        "MonsterDyeMap": "Tardigrande(Lv 159)Old Lufenas Mansion RuinsTardigrande(Lv 162)Old Lufenas Mansion Ruins",
+        "Processing": "Sell77 SpinaProcess38 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Jingle Bells[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nCritical Rate\n5\n%\nstronger against Dark\n5\nWater resistance %-10",
+        "MonsterDyeMap": "Santabby(Lv 112)Joulu House: Center (Lv 110)Santabby(Lv 115)Joulu House: Depot (Lv 100)Santabby(Lv 118)Joulu House: Gift Room (Lv 100)",
+        "Processing": "Sell1 SpinaProcess25 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Devil Horn[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMaxHP\n666\nMATK %\n5\nDodge %\n20\nMATK UP (AGI %)50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "666 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n20\nxPumpkin Diamond"
+    },
+    {
+        "Name": "Ninja Hat[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nCritical Rate %\n2\nCritical Damage %\n3\nLong Range Damage %\n3\nATK UP (AGI %)2",
+        "MonsterDyeMap": "Rat Scavenger(Lv 90)Klaspe SlumRat Scavenger(Lv 87)Klaspe Slum",
+        "Processing": "Sell50 SpinaProcess25 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ninja Hat[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nCritical Rate %\n3\nCritical Damage %\n3\nLong Range Damage %\n3\nATK UP (AGI %)30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess20 Cloth",
+        "Recipes": "500 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n20\nxTattered Loincloth- \n1\nxStun Mushroom- \n150\nx Cloth- \n100\nx Beast"
+    },
+    {
+        "Name": "Sakura School Cap[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nATK %\n7\nMATK %\n7\nASPD\n250\nCSPD250",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell180 SpinaProcess90 Cloth",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxTwilight Sakura Red Stone- \n1\nxCorroded Yozakura- \n1\nxSakura Eater Crystal- \n100\nx Cloth"
+    },
+    {
+        "Name": "Small Fox Mask[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMaxMP\n400\nUnsheathe Attack %\n5\nAnticipate %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "2500 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n30\nxSummer Shell II- \n1\nxBroken Kuzto Mask- \n10\nxAncient Scroll- \n200\nx Wood"
+    },
+    {
+        "Name": "Wing Egg Bag[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nMaxHP %-\n50\nCritical Rate %\n8\nEvasion Recharge %-\n25\nUnsheathe Attack\n100\nUnsheathe Attack %4",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": "10 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n20\nxHard Eggshell- \n1\nxJade Raptor Armor Fur- \n10\nxCharmed Cloth- \n300\nx Cloth"
+    },
+    {
+        "Name": "Wolf Mask[Additional]",
+        "StatEffect_Amount": "Base DEF\n40\nSTR %\n4\nATK %\n2\nMDEF %-\n40\nASPD500",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": "250 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxJack Orb"
+    },
+    {
+        "Name": "Hexa Glasses[Additional]",
+        "StatEffect_Amount": "Base DEF\n41\nAccuracy\n30\nAttack MP Recovery15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell77 SpinaProcess38 Metal",
+        "Recipes": "775 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n20\nxFlapping Hell Ears- \n10\nxGoblin Crystal- \n250\nx Metal- \n140\nx Mana"
+    },
+    {
+        "Name": "Hexa Glasses[Additional]",
+        "StatEffect_Amount": "Base DEF\n41\nAccuracy\n15\nAttack MP Recovery15",
+        "MonsterDyeMap": "Cadaverustica(Lv 156)Pupalov SectorCadaverustica(Lv 160)Pupalov Sector",
+        "Processing": "Sell77 SpinaProcess38 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Inzanio Helm[Additional]",
+        "StatEffect_Amount": "Base DEF\n41\nMaxHP\n500\nMaxMP\n300\nReflect %3",
+        "MonsterDyeMap": "Inzanio the Dark Knight (Xmas Event 2016)(Lv 94)Fort Solfini: RoofInzanio the Dark Knight(Lv 84)Fort Solfini: RoofInzanio the Dark Knight(Lv 104)Fort Solfini: RoofInzanio the Dark Knight(Lv 114)Fort Solfini: RoofInzanio the Dark Knight(Lv 134)Fort Solfini: RoofInzanio the Dark Knight(Lv 94)Fort Solfini: Roof",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Neckerchief[Additional]",
+        "StatEffect_Amount": "Base DEF\n41\nDEX %\n6\nAccuracy %\n12\nCSPD %24",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell77 SpinaProcess38 Cloth",
+        "Recipes": "775 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n30\nxMysterious Waist Sash- \n15\nxLarva Silk- \n300\nx Cloth- \n85\nx Beast"
+    },
+    {
+        "Name": "Neckerchief[Additional]",
+        "StatEffect_Amount": "Base DEF\n41\nDEX %\n5\nAccuracy %\n10\nCSPD %20",
+        "MonsterDyeMap": "Mobster Golem(Lv 148)Fabriska Sector",
+        "Processing": "Sell77 SpinaProcess38 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Waistlet[Additional]",
+        "StatEffect_Amount": "Base DEF\n41\nNatural MP Regen %\n9\nMagic Pierce %\n9\nCritical Damage %9",
+        "MonsterDyeMap": "Melkid(Lv 234)Puerta Islands: Area 1Melkid(Lv 235)Puerta Islands: Area 2Melkid(Lv 236)Puerta Islands: Area 3",
+        "Processing": "Sell117 SpinaProcess58 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Camouflage Scarf[Additional]",
+        "StatEffect_Amount": "Base DEF\n42\nAggro %-\n30\nLong Range Damage %\n2\nInvincible Aid (sec)3",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell67 SpinaProcess33 Cloth",
+        "Recipes": "675 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxForest Spirit Powder- \n20\nxTweed Fabric- \n240\nx Cloth- \n100\nx Beast"
+    },
+    {
+        "Name": "Camouflage Scarf[Additional]",
+        "StatEffect_Amount": "Base DEF\n42\nAggro %-\n30\nLong Range Damage %\n1\nInvincible Aid (sec)2",
+        "MonsterDyeMap": "Muddy Gnome(Lv 124)Mt. Mithurna: Entrance",
+        "Processing": "Sell67 SpinaProcess33 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Jiangshi Hat[Additional]",
+        "StatEffect_Amount": "Base DEF\n42\nMaxMP\n300\nPhysical Resistance %\n15\nMagic Resistance %\n15\nLong Range Damage %-30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell47 SpinaProcess23 Cloth",
+        "Recipes": "475 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxRemnant of Eternal Darkness- \n10\nxGrudge of Soldier- \n10\nxCracked Skull- \n240\nx Beast"
+    },
+    {
+        "Name": "Jiangshi Hat[Additional]",
+        "StatEffect_Amount": "Base DEF\n42\nMaxMP\n300\nPhysical Resistance %\n12\nMagic Resistance %\n12\nLong Range Damage %-24",
+        "MonsterDyeMap": "Muddy Gnome(Lv 94)Site of Simcracker",
+        "Processing": "Sell47 SpinaProcess23 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sandogasa[Additional]",
+        "StatEffect_Amount": "Base DEF\n42\nCritical Rate\n10\nAggro %-\n10\nGuard Break %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell90 SpinaProcess300 Mana",
+        "Recipes": "500 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxYozakura Gemstone- \n1\nxBroken Yozakura Branch- \n1\nxCerabes Fang- \n50\nx Wood"
+    },
+    {
+        "Name": "Snowman on the Head[Additional]",
+        "StatEffect_Amount": "Base DEF\n42\nMaxHP\n1500\nStability %\n10\nReduce Dmg (Charge) %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "500 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n5\nxNoel Diamond"
+    },
+    {
+        "Name": "Gladiator's Helm[Additional]",
+        "StatEffect_Amount": "Base DEF\n43\nPhysical Resistance %\n7\nMagic Resistance %-\n20\nGuard Power %\n10\nShort Range Damage %3",
+        "MonsterDyeMap": "Zega(Lv 100)Event",
+        "Processing": "SellUnknownProcessMetal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Gladiator's Helm[Additional]",
+        "StatEffect_Amount": "Base DEF\n43\nPhysical Resistance %\n10\nMagic Resistance %-\n10\nCritical Rate\n10\nShort Range Damage %5",
+        "MonsterDyeMap": "Zega (5th Anniv)(Lv 225)Anniversary Arena: 5th VenueZega (5th Anniv)(Lv 235)Anniversary Arena: 5th VenueZega (5th Anniv)(Lv 245)Anniversary Arena: 5th VenueZega (5th Anniv)(Lv 265)Anniversary Arena: 5th Venue",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Gladiator's Helm[Additional]",
+        "StatEffect_Amount": "Base DEF\n43\nPhysical Resistance %\n12\nMagic Resistance %-\n6\nGuard Power %\n12\nShort Range Damage %6",
+        "MonsterDyeMap": "Megiston(Lv 265)Anniversary Arena: 7th VenueMegiston(Lv 275)Anniversary Arena: 7th VenueMegiston(Lv 285)Anniversary Arena: 7th VenueMegiston(Lv 305)Anniversary Arena: 7th Venue",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ignis Horns[Additional]",
+        "StatEffect_Amount": "Base DEF\n43\nStability %\n5\n%\nstronger against Earth\n5\nFire resistance %\n12\nWater resistance %-6",
+        "MonsterDyeMap": "Baby Salamander(Lv 97)Blazing Graben: SurfaceBaby Salamander(Lv 97)Blazing Graben: UpperBaby Salamander(Lv 100)Blazing Graben: Lower",
+        "Processing": "Sell50 SpinaProcess25 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ignis Horns[Additional]",
+        "StatEffect_Amount": "Base DEF\n43\nStability %\n4\n%\nstronger against Earth\n6\nFire resistance %\n18\nWater resistance %-8",
+        "MonsterDyeMap": "Salamander(Lv 132)Blazing Graben: Upper",
+        "Processing": "Sell50 SpinaProcess25 Beast",
         "Recipes": ""
     }
 ]

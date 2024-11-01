@@ -117,7 +117,7 @@ for skill_category, urls in list_of_weapons["weapons"].items():
             # print("\n\n\n\n\ncard data\n\n\n\n",len(cards))
 
             # Extract and store the content for each card
-            for card in cards_do_not_delete[2:]:
+            for card in cards_do_not_delete[0:]:
                 card_data = {
                     "Name": "empty",
                     "StatEffect_Amount": "empty",
