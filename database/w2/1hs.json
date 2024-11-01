@@ -1,8 +1,0 @@
-[
-    {
-        "Name": "Anguish Sword[1 Handed Sword]",
-        "StatEffect_Amount": "Stat/EffectAmountATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
-        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
-        "Recipe": "Sell0 SpinaProcessunknown"
-    }
-]

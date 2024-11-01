@@ -1,8 +1,79 @@
 [
     {
         "Name": "Anguish Sword[1 Handed Sword]",
-        "StatEffect_Amount": "Stat/EffectAmountATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "StatEffect_Amount": "ATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
         "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
-        "Recipe": "Sell0 SpinaProcessunknown"
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anguish Sword[1 Handed Sword]",
+        "StatEffect_Amount": "ATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anguish Sword[1 Handed Sword]",
+        "StatEffect_Amount": "ATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Accordion-fold Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n1\nAggro %\n30\nAttack MP Recovery\n3\nBase Stability %40",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessN/A",
+        "Recipes": "Fee\n150\n SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxBat Wing- \n1\nxFour-leaf Clover- \n50\nx Cloth- \n25\nx Metal"
+    },
+    {
+        "Name": "Shortsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %80",
+        "MonsterDyeMap": "Pico(Lv 1)Rakau Plains",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shortsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": "Fee\n5\n SpinaSet\n1\n pcsLevel\n1\nDifficulty\n1\nMaterials- \n3\nx Metal"
+    },
+    {
+        "Name": "Shortsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %\n80\nPotential15",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": "Fee\n5\n SpinaSet\n1\n pcsLevel\n1\nDifficulty\n1\nMaterials- \n3\nx Metal"
+    },
+    {
+        "Name": "Wood Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %\n40\nPotential15",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Recipes": "FeeN/ASet\n1\n pcsLevel\n1\nDifficulty\n0\nMaterials- \n25\nx Wood"
+    },
+    {
+        "Name": "Longsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n17\nMaxHP\n50\nAccuracy\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell10 SpinaProcess5 Metal",
+        "Recipes": "Fee\n50\n SpinaSet\n1\n pcsLevel\n5\nDifficulty\n10\nMaterials- \n20\nxSmall Hilt- \n25\nx Metal"
+    },
+    {
+        "Name": "Longsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n17\nBase Stability %\n80\nPotential16",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell10 SpinaProcess5 Metal",
+        "Recipes": "Fee\n50\n SpinaSet\n1\n pcsLevel\n5\nDifficulty\n10\nMaterials- \n20\nxSmall Hilt- \n25\nx Metal"
+    },
+    {
+        "Name": "Gladius[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n25\nASPD %\n5\nCritical Rate\n1\nBase Stability %80",
+        "MonsterDyeMap": "Goblin(Lv 20)Ruined Temple: Area 1Goblin(Lv 20)Ruined Temple: Area 2",
+        "Processing": "Sell20 SpinaProcess10 Metal",
+        "Recipes": ""
     }
 ]

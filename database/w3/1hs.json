@@ -1,0 +1,2326 @@
+[
+    {
+        "Name": "Anguish Sword[1 Handed Sword]",
+        "StatEffect_Amount": "ATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anguish Sword[1 Handed Sword]",
+        "StatEffect_Amount": "ATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anguish Sword[1 Handed Sword]",
+        "StatEffect_Amount": "ATK %\n11\nStability %\n10\nPhysical Pierce %\n20\nASPD\n900\n%\nstronger against Light\n10\nDark Element\n0\nGuard Break %30",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Accordion-fold Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n1\nAggro %\n30\nAttack MP Recovery\n3\nBase Stability %40",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessN/A",
+        "Recipes": "150 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxBat Wing- \n1\nxFour-leaf Clover- \n50\nx Cloth- \n25\nx Metal"
+    },
+    {
+        "Name": "Shortsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %80",
+        "MonsterDyeMap": "Pico(Lv 1)Rakau Plains",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shortsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": "5 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n1\nMaterials- \n3\nx Metal"
+    },
+    {
+        "Name": "Shortsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %\n80\nPotential15",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": "5 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n1\nMaterials- \n3\nx Metal"
+    },
+    {
+        "Name": "Wood Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %\n40\nPotential15",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Recipes": "N/ASet\n1\n pcsLevel\n1\nDifficulty\n0\nMaterials- \n25\nx Wood"
+    },
+    {
+        "Name": "Longsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n17\nMaxHP\n50\nAccuracy\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell10 SpinaProcess5 Metal",
+        "Recipes": "50 SpinaSet\n1\n pcsLevel\n5\nDifficulty\n10\nMaterials- \n20\nxSmall Hilt- \n25\nx Metal"
+    },
+    {
+        "Name": "Longsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n17\nBase Stability %\n80\nPotential16",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell10 SpinaProcess5 Metal",
+        "Recipes": "50 SpinaSet\n1\n pcsLevel\n5\nDifficulty\n10\nMaterials- \n20\nxSmall Hilt- \n25\nx Metal"
+    },
+    {
+        "Name": "Gladius[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n25\nASPD %\n5\nCritical Rate\n1\nBase Stability %80",
+        "MonsterDyeMap": "Goblin(Lv 20)Ruined Temple: Area 1Goblin(Lv 20)Ruined Temple: Area 2",
+        "Processing": "Sell20 SpinaProcess10 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Gladius[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n25\nASPD %\n10\nCritical Rate\n3\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell20 SpinaProcess10 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n15\nDifficulty\n20\nMaterials- \n25\nxJagged Fang- \n25\nxNicked Blade- \n50\nx Metal"
+    },
+    {
+        "Name": "Gladius[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n25\nBase Stability %\n80\nPotential18",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell20 SpinaProcess10 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n15\nDifficulty\n20\nMaterials- \n25\nxJagged Fang- \n25\nxNicked Blade- \n50\nx Metal"
+    },
+    {
+        "Name": "Brutal Dragon Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n27\nASPD\n500\nCSPD\n500\nBase Stability %80",
+        "MonsterDyeMap": "Brutal Dragon Decel(Lv 40)Nisel Mountain: The TopBrutal Dragon Decel(Lv 30)Nisel Mountain: The TopBrutal Dragon Decel(Lv 50)Nisel Mountain: The TopBrutal Dragon Decel(Lv 60)Nisel Mountain: The Top",
+        "Processing": "Sell35 SpinaProcess17 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Brutal Dragon Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n27\nASPD\n500\nCSPD\n150\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell35 SpinaProcess17 Beast",
+        "Recipes": "175 SpinaSet\n1\n pcsLevel\n30\nDifficulty\n35\nMaterials- \n1\nxBrutal Dragon Tail- \n4\nxBrutal Dragon Claw- \n100\nx Metal- \n75\nx Beast"
+    },
+    {
+        "Name": "Brutal Dragon Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n27\nBase Stability %\n80\nPotential20",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell35 SpinaProcess17 Beast",
+        "Recipes": "175 SpinaSet\n1\n pcsLevel\n30\nDifficulty\n35\nMaterials- \n1\nxBrutal Dragon Tail- \n4\nxBrutal Dragon Claw- \n100\nx Metal- \n75\nx Beast"
+    },
+    {
+        "Name": "Brutal Dragon Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n27\nASPD\n250\nCSPD\n750\nBase Stability %80",
+        "MonsterDyeMap": "Brutal Dragon Decel (Megiston 2016)(Lv 90)Event",
+        "Processing": "Sell35 SpinaProcess17 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "1st Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n29\nSTR %\n1\nATK %\n1\nMagic Resistance %\n6\nAttack MP Recovery\n2\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box I-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxCopper \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "1st Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n29\nBase Stability %\n80\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxCopper \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n29\nSTR %\n1\nATK %\n1\nMagic Resistance %\n6\nAttack MP Recovery\n2\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box II-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n29\nBase Stability %\n80\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n29\nSTR %\n1\nATK %\n1\nMagic Resistance %\n6\nAttack MP Recovery\n2\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box III-",
+        "Processing": "SellUnknownProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n29\nBase Stability %\n80\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n29\nSTR %\n1\nATK %\n1\nMagic Resistance %\n6\nAttack MP Recovery\n2\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box IV-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "1 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n5\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n29\nBase Stability %\n80\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "1 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n5\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "Cone Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n30\nMaxHP\n1000\nAccuracy\n30\nBase Stability %\n80\nReduce Dmg (Player Epicenter) %\n4\nReduce Dmg (Foe Epicenter) %\n4\nReduce Dmg (Charge) %4",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell30 SpinaProcess15 Medicine",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n10\nMaterials- \n5\nxPlastic Fragment"
+    },
+    {
+        "Name": "Cone Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n30\nBase Stability %\n80\nPotential17",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell30 SpinaProcess15 Medicine",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n10\nMaterials- \n5\nxPlastic Fragment"
+    },
+    {
+        "Name": "Sabre[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n34\nATK %\n1\nAccuracy %\n2\nCritical Rate\n1\nBase Stability %80",
+        "MonsterDyeMap": "Stone Knight(Lv 29)Fiery Volcano: Area 1Stone Knight(Lv 30)Fiery Volcano: Area 2",
+        "Processing": "Sell30 SpinaProcess15 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sabre[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n34\nATK %\n1\nAccuracy\n4\nCritical Rate\n2\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell30 SpinaProcess15 Metal",
+        "Recipes": "150 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n30\nMaterials- \n20\nxFatigued Blade- \n30\nxSharp Fang- \n75\nx Metal"
+    },
+    {
+        "Name": "Sabre[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n34\nBase Stability %\n80\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell30 SpinaProcess15 Metal",
+        "Recipes": "150 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n30\nMaterials- \n20\nxFatigued Blade- \n30\nxSharp Fang- \n75\nx Metal"
+    },
+    {
+        "Name": "Chicken Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n38\nMaxHP\n250\nAttack MP Recovery\n1\n%\nstronger against Neutral\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": "10 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n1\nxChampagne- \n1\nxRoast Chicken"
+    },
+    {
+        "Name": "Adel Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n40\nMaxHP\n100\nATK %\n1\nShort Range Damage %\n1\nBase Stability %80",
+        "MonsterDyeMap": "Stone Soldier(Lv 37)Lutaros Cavern EntranceStone Soldier(Lv 36)Lutaros Cavern Entrance",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Adel Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n40\nMaxHP\n200\nATK %\n1\nShort Range Damage %\n2\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n35\nDifficulty\n40\nMaterials- \n25\nxGoblin Claw- \n15\nxPotum Fin- \n75\nx Metal- \n25\nx Wood"
+    },
+    {
+        "Name": "Adel Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n40\nBase Stability %\n80\nPotential21",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n35\nDifficulty\n40\nMaterials- \n25\nxGoblin Claw- \n15\nxPotum Fin- \n75\nx Metal- \n25\nx Wood"
+    },
+    {
+        "Name": "Jupiter Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n44\nWind Element\n1\nMotion Speed %\n2\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": "10 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n20\nxBlue Wrapping Ribbon- \n10\nxBead Fragment- \n30\nx Metal"
+    },
+    {
+        "Name": "Relic Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n44\nAccuracy\n5\nGuard Recharge %\n3\nEarth Element\n1\nShort Range Damage %\n1\nBase Stability %70",
+        "MonsterDyeMap": "Ruin Golem(Lv 45)Zoktzda ruins : Reversed HallRuin Golem(Lv 35)Zoktzda ruins : Reversed HallRuin Golem(Lv 55)Zoktzda ruins : Reversed HallRuin Golem(Lv 65)Zoktzda ruins : Reversed HallRuin Golem(Lv 85)Zoktzda ruins : Reversed Hall",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "1st Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nSTR %\n2\nATK %\n2\nMagic Resistance %\n9\nAttack MP Recovery\n4\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "1st Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nBase Stability %\n80\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nSTR %\n2\nATK %\n2\nMagic Resistance %\n9\nAttack MP Recovery\n4\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nBase Stability %\n80\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nSTR %\n2\nATK %\n2\nMagic Resistance %\n9\nAttack MP Recovery\n4\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nBase Stability %\n80\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nSTR %\n2\nATK %\n2\nMagic Resistance %\n9\nAttack MP Recovery\n4\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n10\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nBase Stability %\n80\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n10\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "Burning Cross Dagger[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nSTR %\n2\nAccuracy %\n6\nDodge %\n18\nASPD\n300\nCSPD\n300\nFire Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell3 SpinaProcessunknown",
+        "Recipes": "20 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n30\nMaterials- \n5\nxDark Note Paper"
+    },
+    {
+        "Name": "Burning Cross Dagger[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n55\nBase Stability %\n80\nPotential22",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell30 SpinaProcessunknown",
+        "Recipes": "20 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n30\nMaterials- \n5\nxDark Note Paper"
+    },
+    {
+        "Name": "Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n56\nATK %\n2\nPhysical Pierce %\n6\nASPD\n50\nEvasion Recharge %\n5\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n5\nxFine Sand- \n30\nxDragon Bone- \n100\nx Metal- \n25\nx Wood"
+    },
+    {
+        "Name": "Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n56\nBase Stability %\n80\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n5\nxFine Sand- \n30\nxDragon Bone- \n100\nx Metal- \n25\nx Wood"
+    },
+    {
+        "Name": "Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n56\nATK %\n2\nPhysical Pierce %\n4\nASPD %\n10\nEvasion Recharge %\n3\nBase Stability %80",
+        "MonsterDyeMap": "Wandering Shadow(Lv 56)Lost TownWandering Shadow(Lv 56)Lost Town: Square",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sword of Sin[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n61\nATK %\n2\nMATK %\n1\nAccuracy\n20\nAilment Resistance %\n2\nDark Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "Demon's Gate(Lv 60)Saham CraterDemon's Gate(Lv 50)Saham CraterDemon's Gate(Lv 70)Saham CraterDemon's Gate(Lv 80)Saham CraterDemon's Gate(Lv 100)Saham Crater",
+        "Processing": "Sell55 SpinaProcess27 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sword of Sin[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n61\nATK %\n2\nAccuracy\n15\nAilment Resistance %\n1\nDark Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell55 SpinaProcess27 Metal",
+        "Recipes": "550 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n55\nMaterials- \n1\nxNail of Demon's gate- \n25\nxLonogo Stone- \n350\nx Metal- \n200\nx Beast"
+    },
+    {
+        "Name": "Sword of Sin[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n61\nBase Stability %\n80\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell55 SpinaProcess27 Metal",
+        "Recipes": "550 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n55\nMaterials- \n1\nxNail of Demon's gate- \n25\nxLonogo Stone- \n350\nx Metal- \n200\nx Beast"
+    },
+    {
+        "Name": "Sakura Kodachi[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n67\nMaxMP\n100\nATK %\n1\nCritical Damage\n1\nGuard Recharge %\n5\nLight Element\n1\nAttack MP Recovery\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxSakura Gemstone- \n1\nxBroken Sakura Branch- \n1\nxSakura Crystal Fragment- \n30\nx Metal"
+    },
+    {
+        "Name": "Sakura Kodachi[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n67\nMaxMP\n200\nATK %\n4\nCritical Damage\n2\nGuard Recharge %\n5\nLight Element\n1\nAttack MP Recovery\n3\nWeapon ATK\n300\nBase Stability %80",
+        "MonsterDyeMap": "Mimesia (Nightmare)(Lv 180)2122CSakura Castle Donjon: Top",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Scimitar[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n70\nAGI %\n3\nATK %\n2\nDodge %\n4\nCritical Rate\n13\nBase Stability %80",
+        "MonsterDyeMap": "Rock Stinger(Lv 66)Gravel Terrace",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Scimitar[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n70\nAGI %\n4\nATK %\n2\nDodge %\n6\nCritical Rate\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n55\nDifficulty\n60\nMaterials- \n10\nxDamascus Ore- \n5\nxQuicksand Crystal- \n100\nx Metal- \n50\nx Beast"
+    },
+    {
+        "Name": "Scimitar[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n70\nBase Stability %\n80\nPotential24",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n55\nDifficulty\n60\nMaterials- \n10\nxDamascus Ore- \n5\nxQuicksand Crystal- \n100\nx Metal- \n50\nx Beast"
+    },
+    {
+        "Name": "Phyto Blade[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n74\nMATK\n70\nMagic Resistance %\n5\nCritical Damage %\n10\nEarth Element\n1\nBase Stability %90",
+        "MonsterDyeMap": "Grass Dragon Yelb(Lv 73)Albatif VillageGrass Dragon Yelb(Lv 63)Albatif VillageGrass Dragon Yelb(Lv 83)Albatif VillageGrass Dragon Yelb(Lv 93)Albatif VillageGrass Dragon Yelb(Lv 113)Albatif Village",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Phyto Blade[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n74\nMATK\n40\nMagic Resistance %\n10\nCritical Damage %\n9\nEarth Element\n1\nBase Stability %90",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n3\nxGrass Dragon's Scale- \n1\nxGrass Dragon's Petal- \n500\nx Metal- \n200\nx Wood"
+    },
+    {
+        "Name": "Phyto Blade[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n74\nBase Stability %\n90\nPotential26",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n3\nxGrass Dragon's Scale- \n1\nxGrass Dragon's Petal- \n500\nx Metal- \n200\nx Wood"
+    },
+    {
+        "Name": "Blitz Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n80\nWind Element\n1\nAttack MP Recovery\n3\nShort Range Damage %\n2\nBase Stability %80",
+        "MonsterDyeMap": "Soul Reaper(Lv 75)Lunagent Mountain: Area 1Soul Reaper(Lv 75)Lunagent Mountain: Area 3",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Blitz Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n80\nWind Element\n1\nAttack MP Recovery\n3\nShort Range Damage %\n3\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n30\nxBig Bolt- \n20\nxEvil Spirit Claw- \n125\nx Metal- \n50\nx Beast"
+    },
+    {
+        "Name": "Blitz Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n80\nBase Stability %\n80\nPotential26",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n30\nxBig Bolt- \n20\nxEvil Spirit Claw- \n125\nx Metal- \n50\nx Beast"
+    },
+    {
+        "Name": "1st Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nSTR %\n3\nATK %\n3\nMagic Resistance %\n12\nAttack MP Recovery\n6\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n70\nMaterials- \n20\nxGold \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "1st Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nBase Stability %\n80\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n70\nMaterials- \n20\nxGold \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nSTR %\n3\nATK %\n3\nMagic Resistance %\n12\nAttack MP Recovery\n6\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nBase Stability %\n80\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nSTR %\n3\nATK %\n3\nMagic Resistance %\n12\nAttack MP Recovery\n6\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nBase Stability %\n80\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nSTR %\n3\nATK %\n3\nMagic Resistance %\n12\nAttack MP Recovery\n6\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nBase Stability %\n80\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nSTR %\n4\nATK %\n4\nMagic Resistance %\n30\nCritical Rate\n3\nAttack MP Recovery\n9\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box V-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n75\nMaterials- \n20\nxBronze \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n87\nBase Stability %\n80\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n75\nMaterials- \n20\nxBronze \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Black Sword of Delusion[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n94\nMaxMP\n300\nATK %\n3\nCSPD\n500\n%\nstronger against Neutral\n25\nBase Stability %80",
+        "MonsterDyeMap": "Black Knight of Delusion(Lv 88)Abyss of No Return: Deepest AreaBlack Knight of Delusion(Lv 78)Abyss of No Return: Deepest AreaBlack Knight of Delusion(Lv 98)Abyss of No Return: Deepest AreaBlack Knight of Delusion(Lv 108)Abyss of No Return: Deepest AreaBlack Knight of Delusion(Lv 128)Abyss of No Return: Deepest Area",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Black Sword of Delusion[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n94\nMaxMP\n100\nATK %\n3\nCSPD\n250\n%\nstronger against Neutral\n25\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell80 SpinaProcess40 Mana",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n1\nxOminous Crystal- \n2\nxEvil Energy of Delusion- \n500\nx Metal- \n250\nx Beast"
+    },
+    {
+        "Name": "Black Sword of Delusion[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n94\nBase Stability %\n80\nPotential28",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell80 SpinaProcess40 Mana",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n1\nxOminous Crystal- \n2\nxEvil Energy of Delusion- \n500\nx Metal- \n250\nx Beast"
+    },
+    {
+        "Name": "Butcher's Knife[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n100\nPhysical Pierce %\n10\nCritical Damage %\n5\nAttack MP Recovery\n20\nBase Stability %\n80\nAnticipate %15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "100 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxPumpkin Diamond"
+    },
+    {
+        "Name": "Cone Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n100\nMaxHP\n2000\nAccuracy\n60\nBase Stability %\n80\nReduce Dmg (Player Epicenter) %\n8\nReduce Dmg (Foe Epicenter) %\n8\nReduce Dmg (Charge) %8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell90 SpinaProcess45 Medicine",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n70\nMaterials- \n5\nxPlastic Fragment- \n1\nxSacred Light Page"
+    },
+    {
+        "Name": "Cone Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n100\nBase Stability %\n80\nPotential26",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell90 SpinaProcess45 Medicine",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n70\nMaterials- \n5\nxPlastic Fragment- \n1\nxSacred Light Page"
+    },
+    {
+        "Name": "Ilwoon[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n100\nVIT %\n2\nMaxHP\n750\nATK %\n3\nDEF\n10\nBase Stability %\n70\nFractional Barrier %2",
+        "MonsterDyeMap": "Corroded Fighter(Lv 84)Garden of Sublimation: Area 1Corroded Fighter(Lv 88)Garden of Sublimation: Area 3Finpen(Lv 90)Navida City: Crossroad (80-100)Finpen(Lv 93)Navida City: West (80-100)Finpen(Lv 93)Navida City: East (80-100)",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ilwoon[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n100\nVIT %\n3\nMaxHP\n1000\nATK %\n3\nDEF\n20\nBase Stability %\n70\nFractional Barrier %4",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n5\nxMithril Ore- \n30\nxRusty Huge Axe- \n150\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Ilwoon[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n100\nBase Stability %\n70\nPotential28",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n5\nxMithril Ore- \n30\nxRusty Huge Axe- \n150\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Sacred Sword Xmas[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n100\nAccuracy\n30\nDark resistance %\n15\nLight Element\n1\nBase Stability %90",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n30\nxSnow Doll- \n1\nxTwilight Gemstone- \n1\nxDark Knight Emblem"
+    },
+    {
+        "Name": "6th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n101\nSTR %\n4\nMagic Resistance %\n30\nCritical Rate\n10\nAttack MP Recovery\n5\nShort Range Damage %\n4\nBase Stability %\n80\nShield only:Accuracy100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box VI-",
+        "Processing": "Sell85 SpinaProcess42 Metal",
+        "Recipes": "170 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n110\nMaterials- \n20\nxBronze \n6\nth Anniv Medal- \n110\nx Metal"
+    },
+    {
+        "Name": "6th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n101\nBase Stability %\n80\nPotential28",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell85 SpinaProcess42 Metal",
+        "Recipes": "170 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n110\nMaterials- \n20\nxBronze \n6\nth Anniv Medal- \n110\nx Metal"
+    },
+    {
+        "Name": "Icebrand Glacier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n101\nWater Element\n1\nAttack MP Recovery\n5\nShort Range Damage %\n1\nBase Stability %\n80\nAdditional Magic %\n100\nATK UP (INT %)\n150\nATK DOWN (STR %)200",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell85 SpinaProcess42 Mana",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n80\nDifficulty\n85\nMaterials- \n1\nxIce Rose- \n5\nxTwilight Dragon Wing- \n3\nxEvil Crystal Beast Claw- \n425\nx Mana"
+    },
+    {
+        "Name": "Icebrand Glacier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n101\nBase Stability %\n80\nPotential28",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell85 SpinaProcess42 Mana",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n80\nDifficulty\n85\nMaterials- \n1\nxIce Rose- \n5\nxTwilight Dragon Wing- \n3\nxEvil Crystal Beast Claw- \n425\nx Mana"
+    },
+    {
+        "Name": "Indigo Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n109\nSTR %\n3\nATK %\n3\nCritical Rate\n3\nCritical Damage\n3\nBase Stability %80",
+        "MonsterDyeMap": "Corroded Sentry Knight(Lv 95)Dark Castle: Area 2Corroded Sentry Knight(Lv 95)Dark Castle: Area 3Ice Evil Clock(Lv 97)Noeliel Castle: Entrance (80-100)Ice Evil Clock(Lv 100)Noeliel Castle: 2F (80-100)",
+        "Processing": "Sell90 SpinaProcess45 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Indigo Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n109\nSTR %\n3\nATK %\n3\nCritical Rate\n9\nCritical Damage\n3\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell90 SpinaProcess45 Metal",
+        "Recipes": "450 SpinaSet\n1\n pcsLevel\n85\nDifficulty\n90\nMaterials- \n20\nxHeated Sword Fin- \n5\nxDeformed Blade- \n125\nx Metal- \n100\nx Beast"
+    },
+    {
+        "Name": "Indigo Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n109\nBase Stability %\n80\nPotential29",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell90 SpinaProcess45 Metal",
+        "Recipes": "450 SpinaSet\n1\n pcsLevel\n85\nDifficulty\n90\nMaterials- \n20\nxHeated Sword Fin- \n5\nxDeformed Blade- \n125\nx Metal- \n100\nx Beast"
+    },
+    {
+        "Name": "2nd Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n117\nSTR %\n4\nATK %\n4\nMagic Resistance %\n15\nAttack MP Recovery\n8\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell95 SpinaProcess47 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilpom \n2\nnd Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "2nd Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n117\nBase Stability %\n80\nPotential30",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell95 SpinaProcess47 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilpom \n2\nnd Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n117\nSTR %\n4\nATK %\n4\nMagic Resistance %\n15\nAttack MP Recovery\n8\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess47 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxPom \n3\nrd Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n117\nBase Stability %\n80\nPotential30",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess47 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxPom \n3\nrd Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n117\nSTR %\n4\nATK %\n4\nMagic Resistance %\n15\nAttack MP Recovery\n8\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell95 SpinaProcess47 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilver \n4\nth Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n117\nBase Stability %\n80\nPotential30",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell95 SpinaProcess47 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilver \n4\nth Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "Tomahawk[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n120\nMagic Resistance %\n5\nCritical Rate\n6\nLong Range Damage %\n4\nBase Stability %40",
+        "MonsterDyeMap": "Gigant Knight(Lv 76)Saham Crater",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "HATSUNE MIKU's Hand Fan[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n125\nMaxHP\n3000\nMaxMP\n300\nATK %\n4\nPhysical Pierce %\n20\nASPD\n500\nCritical Rate\n25\nFire Element\n1\nBase Stability %90",
+        "MonsterDyeMap": "[Orb Shop]Avatar ChestsOrb Shop",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Soldier Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n125\nAccuracy\n8\nCritical Damage\n4\nEarth Element\n1\nBase Stability %\n80\nPhysical Barrier800",
+        "MonsterDyeMap": "Cursed Magic Sword(Lv 100)Singolare Ruins: 1st FloorCursed Magic Sword(Lv 100)Singolare Ruins: 2nd FloorCursed Magic Sword(Lv 103)Singolare Ruins: 3rd Floor",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Soldier Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n125\nAccuracy\n8\nCritical Damage\n4\nEarth Element\n1\nBase Stability %\n80\nPhysical Barrier1000",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n20\nxCurved Blade- \n20\nxCracked Stone Skin- \n150\nx Metal- \n100\nx Beast"
+    },
+    {
+        "Name": "Soldier Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n125\nBase Stability %\n80\nPotential31",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n20\nxCurved Blade- \n20\nxCracked Stone Skin- \n150\nx Metal- \n100\nx Beast"
+    },
+    {
+        "Name": "Toy Hammer[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n125\nCritical Rate\n100\nCritical Damage-150",
+        "MonsterDyeMap": "Nightmare Potum(Lv 120)Garden of Beginning",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark General's Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n130\nVIT %\n3\nATK %\n4\nGuard Recharge %\n6\nAggro %\n20\nDark Element\n1\nBase Stability %\n80\nMagic Barrier1000",
+        "MonsterDyeMap": "Imitator(Lv 106)Plastida: Deepest PartImitator(Lv 96)Plastida: Deepest PartImitator(Lv 116)Plastida: Deepest PartImitator(Lv 126)Plastida: Deepest PartImitator(Lv 146)Plastida: Deepest Part",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark General's Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n130\nVIT %\n2\nATK %\n4\nGuard Recharge %\n6\nAggro %\n30\nDark Element\n1\nBase Stability %\n80\nMagic Barrier500",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n2\nxBroken Dark Great Sword- \n1\nxHigh-Purity Magic Crystal- \n750\nx Metal- \n250\nx Beast"
+    },
+    {
+        "Name": "Dark General's Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n80\nPotential31",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n2\nxBroken Dark Great Sword- \n1\nxHigh-Purity Magic Crystal- \n750\nx Metal- \n250\nx Beast"
+    },
+    {
+        "Name": "Imperial Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n140\nDEX %\n4\nATK %\n4\nAccuracy %\n6\n%\nstronger against Neutral\n25\nBase Stability %\n80\nFractional Barrier %12",
+        "MonsterDyeMap": "Lyark Specialist(Lv 119)Brahe Laboratory: 2nd Building",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Imperial Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n140\nDEX %\n4\nATK %\n4\nAccuracy %\n8\n%\nstronger against Neutral\n25\nBase Stability %\n80\nFractional Barrier %16",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "550 SpinaSet\n1\n pcsLevel\n105\nDifficulty\n110\nMaterials- \n5\nxGreen Pearl- \n30\nxHard Claw- \n200\nx Metal- \n75\nx Wood"
+    },
+    {
+        "Name": "Imperial Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n140\nBase Stability %\n80\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "550 SpinaSet\n1\n pcsLevel\n105\nDifficulty\n110\nMaterials- \n5\nxGreen Pearl- \n30\nxHard Claw- \n200\nx Metal- \n75\nx Wood"
+    },
+    {
+        "Name": "2nd Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nSTR %\n5\nATK %\n5\nMagic Resistance %\n18\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n100\nDifficulty\n125\nMaterials- \n20\nxGolpom \n2\nnd Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "2nd Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nBase Stability %\n80\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n100\nDifficulty\n125\nMaterials- \n20\nxGolpom \n2\nnd Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nSTR %\n5\nATK %\n5\nMagic Resistance %\n18\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess55 Metal",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxBropom \n3\nrd Anniv Medal- \n150\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nBase Stability %\n80\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess55 Metal",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxBropom \n3\nrd Anniv Medal- \n150\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nSTR %\n5\nATK %\n5\nMagic Resistance %\n18\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxGold \n4\nth Anniv Medal- \n150\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nBase Stability %\n80\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxGold \n4\nth Anniv Medal- \n150\nx Metal"
+    },
+    {
+        "Name": "5th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nSTR %\n5\nATK %\n5\nMagic Resistance %\n30\nCritical Rate\n5\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "190 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n120\nMaterials- \n20\nxSilver \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nBase Stability %\n80\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "190 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n120\nMaterials- \n20\nxSilver \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Burning Cross Dagger II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nSTR %\n4\nAccuracy %\n9\nDodge %\n21\nASPD\n400\nCSPD\n400\nFire Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell4 SpinaProcessunknown",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n90\nMaterials- \n5\nxDark Note Paper- \n1\nxCutesy Cone"
+    },
+    {
+        "Name": "Burning Cross Dagger II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n142\nBase Stability %\n80\nPotential31",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell31 SpinaProcessunknown",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n90\nMaterials- \n5\nxDark Note Paper- \n1\nxCutesy Cone"
+    },
+    {
+        "Name": "Wind Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n145\nASPD\n500\nCritical Rate\n10\nWind Element\n1\nShort Range Damage %\n4\nBase Stability %90",
+        "MonsterDyeMap": "Stravos Machina(Lv 126)Ultimea Palace: Storage Area 1Stravos Machina(Lv 127)Ultimea Palace: Storage Area 2Stravos Machina(Lv 128)Ultimea Palace: Demi Machina Storage",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Wind Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n145\nASPD\n250\nCritical Rate\n20\nWind Element\n1\nShort Range Damage %\n4\nBase Stability %90",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n5\nxScattered Crystal- \n20\nxSpiky Fang- \n150\nx Metal- \n150\nx Beast"
+    },
+    {
+        "Name": "Wind Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n145\nBase Stability %\n90\nPotential34",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n5\nxScattered Crystal- \n20\nxSpiky Fang- \n150\nx Metal- \n150\nx Beast"
+    },
+    {
+        "Name": "Red Steel Slayer[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n150\nCritical Rate\n100\nBase Stability %\n100\nAdditional Melee %\n120\nAnticipate %30",
+        "MonsterDyeMap": "Red Steel Box-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Leve Fang[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n154\nMaxHP\n1600\nATK %\n4\nPhysical Pierce %\n8\nDEF %-\n30\nDodge %\n30\nShort Range Damage %4",
+        "MonsterDyeMap": "Proto Leon(Lv 115)Singolare Ruins: 3rd FloorProto Leon(Lv 105)Singolare Ruins: 3rd FloorProto Leon(Lv 125)Singolare Ruins: 3rd FloorProto Leon(Lv 135)Singolare Ruins: 3rd FloorProto Leon(Lv 155)Singolare Ruins: 3rd Floor",
+        "Processing": "Sell110 SpinaProcess55 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Leve Fang[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n154\nMaxHP\n800\nATK %\n4\nPhysical Pierce %\n4\nDEF %-\n15\nDodge %\n15\nShort Range Damage %\n4\nBase Stability %70",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Beast",
+        "Recipes": "1100 SpinaSet\n1\n pcsLevel\n105\nDifficulty\n110\nMaterials- \n2\nxProto Leon's Hammer Bit- \n4\nxCrystalized Huge Claw- \n900\nx Beast- \n200\nx Metal"
+    },
+    {
+        "Name": "Leve Fang[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n154\nBase Stability %\n70\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Beast",
+        "Recipes": "1100 SpinaSet\n1\n pcsLevel\n105\nDifficulty\n110\nMaterials- \n2\nxProto Leon's Hammer Bit- \n4\nxCrystalized Huge Claw- \n900\nx Beast- \n200\nx Metal"
+    },
+    {
+        "Name": "6th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n160\nSTR %\n5\nMagic Resistance %\n30\nCritical Rate\n12\nAttack MP Recovery\n5\nShort Range Damage %\n5\nBase Stability %\n80\nShield only:Accuracy100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n90\nDifficulty\n145\nMaterials- \n20\nxSilver \n6\nth Anniv Medal- \n145\nx Metal"
+    },
+    {
+        "Name": "6th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n160\nBase Stability %\n80\nPotential34",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n90\nDifficulty\n145\nMaterials- \n20\nxSilver \n6\nth Anniv Medal- \n145\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n160\nSTR %\n4\nATK %\n4\nMagic Resistance %\n30\nAccuracy %\n10\nCritical Rate\n30\nBase Stability %\n80\nFractional Barrier %\n10\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box VII-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n140\nMaterials- \n20\nxBronze \n7\nth Anniv Medal- \n31\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n160\nBase Stability %\n80\nPotential\n34\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n140\nMaterials- \n20\nxBronze \n7\nth Anniv Medal- \n31\nx Metal"
+    },
+    {
+        "Name": "Dia Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n160\nSTR %\n4\nATK %\n4\nPhysical Pierce %\n5\nDark resistance %\n10\nLight Element\n1\nAttack MP Recovery\n5\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxCherry Blossom Crystal- \n1\nxMoist Sakura Branch- \n1\nxSakura Eater Feather- \n90\nx Metal"
+    },
+    {
+        "Name": "Ski Pole Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n170\nMagic Pierce %\n50\nCSPD %\n75\n%\nstronger against Neutral\n30\nBase Stability %\n100\nReduce Dmg (Charge) %\n30\nMATK UP (DEX %)\n100\nDual Swords only:Critical Rate100",
+        "MonsterDyeMap": "Snowball Event NPCSnowball Mini Game Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n179\nSTR %\n6\nMaxHP %\n4\nATK %\n6\nMagic Resistance %\n21\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess65 Metal",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxSilpom \n3\nrd Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n179\nBase Stability %\n80\nPotential36",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess65 Metal",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxSilpom \n3\nrd Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n179\nSTR %\n6\nMaxHP %\n4\nATK %\n6\nMagic Resistance %\n21\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxPom \n4\nth Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n179\nBase Stability %\n80\nPotential36",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxPom \n4\nth Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "Cake Knife[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n179\nMagic Resistance %-\n15\nCritical Rate\n15\nCritical Rate %\n30\nLight Element\n1\n%\nstronger against Neutral\n25\nBase Stability %75",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": "80 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n3\nxMysterious Fruit- \n1\nxMagic Coarse Sugar- \n80\nx Mana"
+    },
+    {
+        "Name": "Elfin Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n179\nATK %\n4\nDodge %\n10\nWater Element\n1\nMotion Speed %\n1\nNeutral Resistance %\n5\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "650 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n20\nxWhite Wood- \n5\nxDragon Azul Sphere- \n200\nx Metal- \n125\nx Wood"
+    },
+    {
+        "Name": "Elfin Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n179\nBase Stability %\n80\nPotential36",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "650 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n20\nxWhite Wood- \n5\nxDragon Azul Sphere- \n200\nx Metal- \n125\nx Wood"
+    },
+    {
+        "Name": "Elfin Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n179\nATK %\n4\nDodge %\n5\nWater Element\n1\nMotion Speed %\n1\nNeutral Resistance %\n4\nBase Stability %80",
+        "MonsterDyeMap": "Frost Golem(Lv 138)Noeliel Castle Entrance (120-140)Frost Golem(Lv 141)Noeliel Castle 2F (120-140)Ardvan(Lv 140)Ruins of Mt. Mithurna: StylobateArdvan(Lv 139)Ruins of Mt. Mithurna: Long Stairs",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Zahhak Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n180\nDEX %\n2\nMaxHP %\n10\nATK %\n5\nCritical Rate\n10\nLight Element\n1\nBase Stability %\n80\nPhysical Barrier\n1000\nFractional Barrier %6",
+        "MonsterDyeMap": "Zahhak Machina(Lv 120)Lufenas Mansion: HallZahhak Machina(Lv 130)Lufenas Mansion: HallZahhak Machina(Lv 140)Lufenas Mansion: HallZahhak Machina(Lv 150)Lufenas Mansion: HallZahhak Machina(Lv 170)Lufenas Mansion: Hall",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Zahhak Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n180\nDEX %\n4\nMaxHP %\n10\nATK %\n5\nCritical Rate\n5\nLight Element\n1\nBase Stability %\n80\nPhysical Barrier\n1000\nFractional Barrier %2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "1300 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n1\nxTwin Head Dragon Heart- \n2\nxTwin Head Dragon Tail- \n1000\nx Metal- \n300\nx Beast"
+    },
+    {
+        "Name": "Zahhak Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n180\nBase Stability %\n80\nPotential36",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "1300 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n1\nxTwin Head Dragon Heart- \n2\nxTwin Head Dragon Tail- \n1000\nx Metal- \n300\nx Beast"
+    },
+    {
+        "Name": "Moonlight Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n184\nMaxMP\n400\nMATK %\n6\nMagic Pierce %\n20\nWater Element\n1\nBase Stability %90",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell155 SpinaProcess77 Mana",
+        "Recipes": "158 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n158\nMaterials- \n10\nxMoonlit Night Pyroxene- \n1\nxMoonlight Crab Butter- \n200\nx Metal- \n100\nx Mana"
+    },
+    {
+        "Name": "Moonlight Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n184\nBase Stability %\n90\nPotential40",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell155 SpinaProcess77 Mana",
+        "Recipes": "158 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n158\nMaterials- \n10\nxMoonlit Night Pyroxene- \n1\nxMoonlight Crab Butter- \n200\nx Metal- \n100\nx Mana"
+    },
+    {
+        "Name": "Zahhak Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n184\nDEX %\n3\nMaxHP %\n1\nATK %\n7\nCritical Rate\n20\nLight Element\n1\nBase Stability %\n80\nPhysical Barrier\n500\nFractional Barrier %12",
+        "MonsterDyeMap": "Zahhak Machina (Megiston 2019)(Lv 165)A67CEvent",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Clarity Rose[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n190\nMaxMP\n400\nMATK %\n3\nPhysical Pierce %\n50\nAttack MP Recovery\n10\nBase Stability %70",
+        "MonsterDyeMap": "Ornlarf(Lv 132)Ultimea Palace: CorridorOrnlarf(Lv 142)Ultimea Palace: CorridorOrnlarf(Lv 152)Ultimea Palace: CorridorOrnlarf(Lv 162)Ultimea Palace: CorridorOrnlarf(Lv 182)Ultimea Palace: Corridor",
+        "Processing": "Sell135 SpinaProcess67 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Clarity Rose[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n190\nMaxMP\n500\nMATK %\n2\nPhysical Pierce %\n25\nAttack MP Recovery\n15\nBase Stability %70",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell135 SpinaProcess67 Mana",
+        "Recipes": "1350 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n135\nMaterials- \n1\nxEther Metal- \n1\nxChief BK Emblem- \n10\nxMachina Blood- \n1350\nx Metal"
+    },
+    {
+        "Name": "Clarity Rose[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n190\nBase Stability %\n70\nPotential37",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell135 SpinaProcess67 Mana",
+        "Recipes": "1350 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n135\nMaterials- \n1\nxEther Metal- \n1\nxChief BK Emblem- \n10\nxMachina Blood- \n1350\nx Metal"
+    },
+    {
+        "Name": "Clarity Rose[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n190\nMaxMP\n250\nMATK %\n12\nPhysical Pierce %\n25\nAttack MP Recovery\n5\nBase Stability %70",
+        "MonsterDyeMap": "Felien (Megiston 2018)(Lv 170)Event",
+        "Processing": "Sell135 SpinaProcess67 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Calibur[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n199\nNatural HP Regen %\n5\nCritical Damage\n10\nEarth Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "Gods of Blessing's Guardian(Lv 143)Shrine of The Gods: Area 3Gods of Blessing's Guardian(Lv 142)Shrine of The Gods: Area 2",
+        "Processing": "Sell140 SpinaProcess70 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Calibur[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n199\nNatural HP Regen %\n20\nCritical Damage\n10\nEarth Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell140 SpinaProcess70 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n135\nDifficulty\n140\nMaterials- \n5\nxDivine Metal- \n20\nxGlossy Black Leather- \n200\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Calibur[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n199\nBase Stability %\n80\nPotential37",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell140 SpinaProcess70 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n135\nDifficulty\n140\nMaterials- \n5\nxDivine Metal- \n20\nxGlossy Black Leather- \n200\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Cone Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n200\nMaxHP\n3000\nAccuracy\n90\nBase Stability %\n80\nReduce Dmg (Player Epicenter) %\n12\nReduce Dmg (Foe Epicenter) %\n12\nReduce Dmg (Charge) %12",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Medicine",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n130\nMaterials- \n5\nxPlastic Fragment- \n1\nxDark Page"
+    },
+    {
+        "Name": "Cone Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n200\nBase Stability %\n80\nPotential35",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Medicine",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n130\nMaterials- \n5\nxPlastic Fragment- \n1\nxDark Page"
+    },
+    {
+        "Name": "Festival Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n200\nMaxMP\n500\nAccuracy\n30\nAilment Resistance %\n10\nFire Element\n1\nBase Stability %1",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": "21 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n50\nxSummer Shell- \n30\nxTorn Page- \n1\nxSharp Bear Claw- \n100\nx Wood"
+    },
+    {
+        "Name": "Maton Saber[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n200\nAGI %\n10\nATK %\n5\nDodge %\n5\nASPD\n1000\nBase Stability %\n80\nAbsolute Dodge %3",
+        "MonsterDyeMap": "Maton Sword(Lv 133)Buried Tower: EntranceMaton Sword(Lv 143)Buried Tower: EntranceMaton Sword(Lv 153)Buried Tower: EntranceMaton Sword(Lv 163)Buried Tower: EntranceMaton Sword(Lv 183)Buried Tower: Entrance",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Maton Saber[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n200\nAGI %\n5\nATK %\n5\nDodge %\n15\nASPD\n500\nBase Stability %\n80\nAbsolute Dodge %1",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxOld Type Blade Material- \n1\nxSlebinian Magic Torch- \n1200\nx Metal- \n250\nx Medicine"
+    },
+    {
+        "Name": "Maton Saber[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n200\nBase Stability %\n80\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxOld Type Blade Material- \n1\nxSlebinian Magic Torch- \n1200\nx Metal- \n250\nx Medicine"
+    },
+    {
+        "Name": "3rd Anniv Sword VII[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n209\nSTR %\n6\nMaxHP %\n8\nATK %\n6\nMagic Resistance %\n24\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess72 Metal",
+        "Recipes": "5000 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxGolpom \n3\nrd Anniv Medal- \n250\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Sword VII[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n209\nBase Stability %\n80\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess72 Metal",
+        "Recipes": "5000 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxGolpom \n3\nrd Anniv Medal- \n250\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword VII[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n209\nSTR %\n6\nMaxHP %\n24\nATK %\n6\nMagic Resistance %\n8\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxBropom \n4\nth Anniv Medal- \n250\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword VII[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n209\nBase Stability %\n80\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxBropom \n4\nth Anniv Medal- \n250\nx Metal"
+    },
+    {
+        "Name": "5th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n209\nSTR %\n6\nATK %\n6\nMagic Resistance %\n30\nCritical Rate\n7\nAttack MP Recovery\n11\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "260 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n155\nMaterials- \n20\nxGold \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n209\nBase Stability %\n80\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "260 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n155\nMaterials- \n20\nxGold \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nSTR %\n6\nMagic Resistance %\n30\nCritical Rate\n14\nAttack MP Recovery\n10\nShort Range Damage %\n6\nBase Stability %\n80\nReduce Dmg (Floor) %\n2\nShield only:Accuracy100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n175\nMaterials- \n20\nxGold \n6\nth Anniv Medal- \n175\nx Metal"
+    },
+    {
+        "Name": "6th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nBase Stability %\n80\nPotential39",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n175\nMaterials- \n20\nxGold \n6\nth Anniv Medal- \n175\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nSTR %\n6\nATK %\n6\nMagic Resistance %\n30\nAccuracy %\n15\nCritical Rate\n30\nBase Stability %\n80\nFractional Barrier %\n11\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n77\nDifficulty\n170\nMaterials- \n20\nxSilver \n7\nth Anniv Medal- \n107\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nBase Stability %\n80\nPotential\n39\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n77\nDifficulty\n170\nMaterials- \n20\nxSilver \n7\nth Anniv Medal- \n107\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nSTR %\n6\nATK %\n6\nMagic Resistance %\n35\nASPD\n650\nCritical Rate\n35\nBase Stability %\n80\nAnticipate %\n15\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "280 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n160\nMaterials- \n20\nxBronze \n8\nth Anniv Medal- \n30\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nBase Stability %\n80\nPotential\n39\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "280 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n160\nMaterials- \n20\nxBronze \n8\nth Anniv Medal- \n30\nx Metal"
+    },
+    {
+        "Name": "Fluck Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nATK %\n6\nAggro %-\n75\nBase Stability %\n80\nAdditional Melee %\n50\nReduce Dmg (Floor) %\n15\nReduce Dmg (Meteor) %15",
+        "MonsterDyeMap": "Mom Fluck(Lv 141)Forgotten CaveMom Fluck(Lv 151)Forgotten CaveMom Fluck(Lv 161)Forgotten CaveMom Fluck(Lv 171)Forgotten CaveMom Fluck(Lv 191)Forgotten Cave",
+        "Processing": "Sell150 SpinaProcess75 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Fluck Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nATK %\n6\nAggro %-\n25\nBase Stability %\n80\nAdditional Melee %\n100\nReduce Dmg (Floor) %\n15\nReduce Dmg (Meteor) %15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Beast",
+        "Recipes": "1500 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n1\nxBlue Rock Fragment- \n2\nxVivid Crest- \n1000\nx Beast- \n500\nx Metal"
+    },
+    {
+        "Name": "Fluck Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nBase Stability %\n80\nPotential39",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Beast",
+        "Recipes": "1500 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n1\nxBlue Rock Fragment- \n2\nxVivid Crest- \n1000\nx Beast- \n500\nx Metal"
+    },
+    {
+        "Name": "Sakura Lantern Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nDEX %\n3\nMaxMP\n500\nMagic Resistance %\n20\n%\nstronger against Earth\n25\nAilment Resistance %\n5\nEarth Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxSakura Cloud Pyroxene- \n1\nxDusky Sakura Branch- \n1\nxSakura Petal- \n60\nx Metal"
+    },
+    {
+        "Name": "Shotel[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nPhysical Pierce %\n5\nCritical Rate\n25\nWind Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "Wolfret(Lv 156)Eryldan Street: Area 2Wolfret(Lv 157)Eryldan Street: Area 3Puppet Dragon(Lv 163)Joulu House: Gift Room (Lv 150)",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shotel[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nPhysical Pierce %\n10\nCritical Rate\n20\nWind Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "750 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n5\nxBroken Stem- \n20\nxClimbing Claw- \n200\nx Metal- \n175\nx Beast"
+    },
+    {
+        "Name": "Shotel[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n220\nBase Stability %\n80\nPotential39",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "750 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n5\nxBroken Stem- \n20\nxClimbing Claw- \n200\nx Metal- \n175\nx Beast"
+    },
+    {
+        "Name": "Snow Bear Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n222\nMaxHP\n4000\nAccuracy %\n20\n%\nstronger against Wind\n25\nWater Element\n1\nBase Stability %\n80\nGuard Break %\n30\nReduce Dmg (Floor) %10",
+        "MonsterDyeMap": "Snow Bear BoxSnowball Mini Game Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Crescent Axe[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n225\nMaxHP %\n12\nATK %\n5\nMagic Resistance %\n3\nCritical Damage\n4\nWater Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell340 SpinaProcess175 Mana",
+        "Recipes": "300 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxJack Orb"
+    },
+    {
+        "Name": "Lil Empress Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n229\nMaxMP\n150\nATK %\n6\nCritical Rate\n25\nAggro %-\n15\nFire Element\n1\nBase Stability %75",
+        "MonsterDyeMap": "Venena Coenubia (YK Wifey)(Lv 140)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 150)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 160)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 170)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 190)Ultimea Palace: Throne",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Empress Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n229\nMaxMP\n450\nATK %\n6\nCritical Rate\n20\nAggro %-\n10\nFire Element\n1\nBase Stability %75",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxLil Accessory Chip- \n1\nxLil Empress Horn- \n1000\nx Metal- \n450\nx Mana"
+    },
+    {
+        "Name": "Lil Empress Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n229\nBase Stability %\n75\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxLil Accessory Chip- \n1\nxLil Empress Horn- \n1000\nx Metal- \n450\nx Mana"
+    },
+    {
+        "Name": "Hero Sword (Pom)[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n240\nMaxHP\n2000\nATK %\n10\nASPD-\n9999\nBase Stability %\n70\nATK DOWN (VIT %)\n100\nATK UP (STR %)100",
+        "MonsterDyeMap": "Hero Potum (10M DL)(Lv 150)Sofya City: Government OfficeHero Potum Party (12M DL)(Lv 180)Archfiend's ThroneHero Potum Party (12M DL)(Lv 190)Archfiend's ThroneHero Potum Party (12M DL)(Lv 200)Archfiend's ThroneHero Potum Party (12M DL)(Lv 220)Archfiend's ThroneHero Potum Party (13M DL)(Lv 190)Archfiend's ThroneHero Potum Party (13M DL)(Lv 200)Archfiend's ThroneHero Potum Party (13M DL)(Lv 210)Archfiend's ThroneHero Potum Party (13M DL)(Lv 220)Archfiend's ThroneHero Potum Party (12M DL)(Lv 170)Archfiend's ThroneHero Potum (11M DL)(Lv 220)Sofya City: Government OfficeHero Potum (10M DL)(Lv 160)Sofya City: Government OfficeHero Potum (10M DL)(Lv 170)Sofya City: Government OfficeHero Potum (10M DL)(Lv 180)Sofya City: Government OfficeHero Potum (10M DL)(Lv 200)Sofya City: Government OfficeHero Potum (11M DL)(Lv 160)Sofya City: Government OfficeHero Potum (11M DL)(Lv 170)Sofya City: Government OfficeHero Potum (11M DL)(Lv 180)Sofya City: Government OfficeHero Potum (11M DL)(Lv 190)Sofya City: Government OfficeHero Potum Party (13M DL)(Lv 240)Archfiend's Throne",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Sword VIII[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n242\nSTR %\n6\nMaxHP %\n12\nATK %\n6\nMagic Resistance %\n27\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxSilpom \n4\nth Anniv Medal- \n300\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword VIII[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n242\nBase Stability %\n80\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxSilpom \n4\nth Anniv Medal- \n300\nx Metal"
+    },
+    {
+        "Name": "5th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n242\nSTR %\n6\nATK %\n6\nMagic Resistance %\n30\nCritical Rate\n9\nAttack MP Recovery\n12\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "290 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxPom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n242\nBase Stability %\n80\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "290 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxPom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Holy Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n242\nATK %\n6\nMagic Resistance %\n10\nDark resistance %\n15\nLight Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "Bladefish(Lv 169)Recetacula Sector: Area 2Bladefish(Lv 171)Recetacula Sector: Area 3Confeito(Lv 177)Noeliel Castle: B1F (170-190)Confeito(Lv 179)Noeliel Castle: B1F (170-190)Confeito(Lv 179)Noeliel Castle: B2F (170-190)Confeito(Lv 179)Noeliel Castle: B3F (170-190)",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Holy Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n242\nATK %\n6\nMagic Resistance %\n15\nDark resistance %\n20\nLight Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n155\nDifficulty\n160\nMaterials- \n15\nxInanis Stone- \n20\nxIllegible Academic Book- \n250\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Holy Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n242\nBase Stability %\n80\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n155\nDifficulty\n160\nMaterials- \n15\nxInanis Stone- \n20\nxIllegible Academic Book- \n250\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Dark Dragon Fang Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n253\nMaxHP\n3000\nATK %\n6\nCritical Damage %\n3\nDark Element\n1\nBase Stability %\n80\nAbsolute Accuracy %\n5\nReduce Dmg (Straight Line) %20",
+        "MonsterDyeMap": "Finstern the Dark Dragon(Lv 156)Dark Dragon Shrine: Near the TopFinstern the Dark Dragon(Lv 166)Dark Dragon Shrine: Near the TopFinstern the Dark Dragon(Lv 176)Dark Dragon Shrine: Near the TopFinstern the Dark Dragon(Lv 186)Dark Dragon Shrine: Near the TopFinstern the Dark Dragon(Lv 206)Dark Dragon Shrine: Near the Top",
+        "Processing": "Sell165 SpinaProcess82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark Dragon Fang Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n253\nMaxHP\n1500\nATK %\n6\nCritical Damage %\n3\nDark Element\n1\nBase Stability %\n80\nAbsolute Accuracy %\n5\nReduce Dmg (Straight Line) %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell165 SpinaProcess82 Mana",
+        "Recipes": "1650 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n165\nMaterials- \n1\nxDark Gemstone- \n1\nxFinstern Horns- \n1200\nx Beast- \n450\nx Metal"
+    },
+    {
+        "Name": "Dark Dragon Fang Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n253\nBase Stability %\n80\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell165 SpinaProcess82 Mana",
+        "Recipes": "1650 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n165\nMaterials- \n1\nxDark Gemstone- \n1\nxFinstern Horns- \n1200\nx Beast- \n450\nx Metal"
+    },
+    {
+        "Name": "Dark Dragon Fang Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n253\nATK %\n8\nAccuracy\n160\nDark resistance %\n20\nDark Element\n1\nBase Stability %\n80\nATK UP (AGI %)\n200\nReduce Dmg (Straight Line) %20",
+        "MonsterDyeMap": "Finstern the Dark Dragon (Megiston 2020)(Lv 200)Event",
+        "Processing": "Sell165 SpinaProcess82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Firework Stick[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n253\nPhysical Pierce %\n45\nWater resistance %-\n40\nDark resistance %\n20\nFire Element\n1\nBase Stability %\n40\nUnsheathe Attack %5",
+        "MonsterDyeMap": "[NPC]Lalun (Summer Event Exchange)Event",
+        "Processing": "Sell1 SpinaProcess2 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sapphire Mace[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n260\nATK %\n7\nPhysical Pierce %\n30\nPhysical Resistance %\n20\nAccuracy %\n25\nWater Element\n1\nBase Stability %\n90\nGuard Break %5",
+        "MonsterDyeMap": "Sapphire Roga(Lv 171)Avant Plastida: Deepest AreaSapphire Roga(Lv 181)Avant Plastida: Deepest AreaSapphire Roga(Lv 191)Avant Plastida: Deepest AreaSapphire Roga(Lv 201)Avant Plastida: Deepest AreaSapphire Roga(Lv 221)Avant Plastida: Deepest Area",
+        "Processing": "Sell180 SpinaProcess90 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sapphire Mace[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n260\nATK %\n7\nPhysical Pierce %\n15\nPhysical Resistance %\n15\nAccuracy %\n30\nWater Element\n1\nBase Stability %\n90\nGuard Break %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell180 SpinaProcess90 Metal",
+        "Recipes": "1800 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n180\nMaterials- \n1\nxCore of Sapphire Roga- \n2\nxSapphire Roga Horns- \n1200\nx Metal- \n600\nx Beast"
+    },
+    {
+        "Name": "Sapphire Mace[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n260\nBase Stability %\n90\nPotential44",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell180 SpinaProcess90 Metal",
+        "Recipes": "1800 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n180\nMaterials- \n1\nxCore of Sapphire Roga- \n2\nxSapphire Roga Horns- \n1200\nx Metal- \n600\nx Beast"
+    },
+    {
+        "Name": "Burning Cross Dagger III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nSTR %\n6\nAccuracy %\n12\nDodge %\n24\nASPD\n500\nCSPD\n500\nFire Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell5 SpinaProcessunknown",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n150\nMaterials- \n5\nxDark Note Paper- \n1\nxKinaco's Photo"
+    },
+    {
+        "Name": "Burning Cross Dagger III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nBase Stability %\n80\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell32 SpinaProcessunknown",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n150\nMaterials- \n5\nxDark Note Paper- \n1\nxKinaco's Photo"
+    },
+    {
+        "Name": "Catafnia Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nMaxMP\n200\nFire Element\n1\nShort Range Damage %\n6\nBase Stability %80",
+        "MonsterDyeMap": "Fronymon(Lv 181)Arche Valley: Area 1Santaby(Lv 182)Tomte Pavillion (170-190)Fronymon(Lv 182)Arche Valley: Area 2Fronymon(Lv 183)Arche Valley: Area 3",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Catafnia Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nMaxMP\n300\nFire Element\n1\nShort Range Damage %\n6\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": "850 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n4\nxBlack Rock Crystal- \n4\nxSturdy Core- \n300\nx Metal- \n125\nx Beast"
+    },
+    {
+        "Name": "Catafnia Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nBase Stability %\n80\nPotential42",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": "850 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n4\nxBlack Rock Crystal- \n4\nxSturdy Core- \n300\nx Metal- \n125\nx Beast"
+    },
+    {
+        "Name": "Glacial Ice Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nATK %\n5\nMATK %\n5\nPhysical Pierce %\n5\nFire resistance %\n10\nWater Element\n1\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "Evil Shadow(Lv 137)Reindeer Forest",
+        "Processing": "Sell165 SpinaProcess82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Glacial Ice Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nATK %\n6\nMATK %\n6\nPhysical Pierce %\n10\nFire resistance %\n10\nWater Element\n1\nAttack MP Recovery\n15\nBase Stability %80",
+        "MonsterDyeMap": "Evil Shadow(Lv 157)Reindeer Forest",
+        "Processing": "Sell165 SpinaProcess82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Glacial Ice Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nATK %\n6\nMATK %\n6\nPhysical Pierce %\n15\nFire resistance %\n10\nWater Element\n1\nAttack MP Recovery\n20\nBase Stability %80",
+        "MonsterDyeMap": "Evil Shadow(Lv 177)Reindeer Forest",
+        "Processing": "Sell165 SpinaProcess82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Sword IX[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nSTR %\n7\nMaxHP %\n16\nATK %\n7\nMagic Resistance %\n30\nAttack MP Recovery\n10\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxGolpom \n4\nth Anniv Medal- \n350\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Sword IX[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nBase Stability %\n80\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxGolpom \n4\nth Anniv Medal- \n350\nx Metal"
+    },
+    {
+        "Name": "5th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nSTR %\n7\nATK %\n7\nMagic Resistance %\n30\nCritical Rate\n11\nAttack MP Recovery\n13\nBase Stability %\n80\nReduce Dmg (Floor) %2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "320 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxBropom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nBase Stability %\n80\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "320 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxBropom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nSTR %\n7\nMagic Resistance %\n30\nCritical Rate\n16\nAttack MP Recovery\n10\nShort Range Damage %\n7\nBase Stability %\n80\nReduce Dmg (Floor) %\n4\nShield only:Accuracy100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n200\nMaterials- \n20\nxBropom \n6\nth Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "6th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nBase Stability %\n80\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n200\nMaterials- \n20\nxBropom \n6\nth Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nSTR %\n7\nATK %\n7\nMagic Resistance %\n30\nAccuracy %\n20\nCritical Rate\n30\nBase Stability %\n80\nFractional Barrier %\n12\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n195\nMaterials- \n20\nxGold \n7\nth Anniv Medal- \n175\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nBase Stability %\n80\nPotential\n43\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n195\nMaterials- \n20\nxGold \n7\nth Anniv Medal- \n175\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nSTR %\n7\nATK %\n7\nMagic Resistance %\n35\nASPD\n800\nCritical Rate\n35\nBase Stability %\n80\nAnticipate %\n17\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "330 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n185\nMaterials- \n20\nxSilver \n8\nth Anniv Medal- \n140\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nBase Stability %\n80\nPotential\n43\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "330 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n185\nMaterials- \n20\nxSilver \n8\nth Anniv Medal- \n140\nx Metal"
+    },
+    {
+        "Name": "9th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nSTR %\n6\nMaxMP\n300\nATK %\n7\nMagic Resistance %\n40\nCritical Rate\n40\nBase Stability %\n80\nAnticipate %15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nBase Stability %\n80\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Choco Roll Hammer[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nSTR %\n4\nATK %\n6\nASPD %-\n30\nAggro %-\n15\nEarth Element\n1\nShort Range Damage %\n5\nBase Stability %75",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell180 SpinaProcess90 Mana",
+        "Recipes": "180 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n3\nxFragrant Choco Piece- \n5\nxHard Leaf- \n150\nx Wood- \n30\nx Metal"
+    },
+    {
+        "Name": "Seadevil Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nMATK %\n6\nFire resistance %\n20\nWater Element\n1\nBase Stability %\n80\nAdditional Magic %\n50\nMATK UP (DEX %)100",
+        "MonsterDyeMap": "Adaro(Lv 160)Underwater Ruins: DeepestAdaro(Lv 170)Underwater Ruins: DeepestAdaro(Lv 180)Underwater Ruins: DeepestAdaro(Lv 190)Underwater Ruins: DeepestAdaro(Lv 210)Underwater Ruins: Deepest",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Seadevil Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n277\nMATK %\n8\nASPD\n1000\nFire resistance %\n10\nWater Element\n1\nBase Stability %\n80\nAdditional Magic %\n100\nMATK UP (DEX %)100",
+        "MonsterDyeMap": "Adaro (High Difficulty)(Lv 200)Underwater Ruins: DeepestAdaro (High Difficulty)(Lv 210)Underwater Ruins: DeepestAdaro (High Difficulty)(Lv 220)Underwater Ruins: DeepestAdaro (High Difficulty)(Lv 230)Underwater Ruins: DeepestAdaro (High Difficulty)(Lv 250)Underwater Ruins: Deepest",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Proto Clarity Rose[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n285\nMaxMP\n40\nPhysical Pierce %\n70\nAccuracy %-\n45\nASPD %-\n10\nCritical Rate %\n140\nAttack MP Recovery\n1\nBase Stability %\n60\nAttack Range (m)\n2\n.5",
+        "MonsterDyeMap": "Felien (Megiston 2018)(Lv 170)A32Event",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Reptilian Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n289\nMaxHP\n2000\nATK %\n7\nAccuracy %\n3\nDark Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "Hippopo(Lv 191)Fugitive Lake Swamp: Area 1Hippopo(Lv 192)Fugitive Lake Swamp: Area 2",
+        "Processing": "Sell180 SpinaProcess90 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Reptilian Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n289\nMaxHP\n2000\nATK %\n7\nAccuracy %\n9\nDark Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell180 SpinaProcess90 Beast",
+        "Recipes": "900 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n180\nMaterials- \n10\nxSharp Monkey Horn- \n20\nxLong Mane- \n300\nx Metal- \n150\nx Beast"
+    },
+    {
+        "Name": "Reptilian Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n289\nBase Stability %\n80\nPotential44",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell180 SpinaProcess90 Beast",
+        "Recipes": "900 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n180\nMaterials- \n10\nxSharp Monkey Horn- \n20\nxLong Mane- \n300\nx Metal- \n150\nx Beast"
+    },
+    {
+        "Name": "Pom Pom Sword Mace[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n290\nASPD\n999\nAilment Resistance %\n14\nAggro %\n30\nLight Element\n1\n%\nstronger against Neutral\n30\nBase Stability %90",
+        "MonsterDyeMap": "Hero Potum Party (12M DL)(Lv 170)Archfiend's ThroneHero Potum Party (13M DL)(Lv 220)Archfiend's ThroneHero Potum Party (13M DL)(Lv 210)Archfiend's ThroneHero Potum Party (13M DL)(Lv 200)Archfiend's ThroneHero Potum Party (13M DL)(Lv 190)Archfiend's ThroneHero Potum Party (12M DL)(Lv 220)Archfiend's ThroneHero Potum Party (12M DL)(Lv 200)Archfiend's ThroneHero Potum Party (12M DL)(Lv 190)Archfiend's ThroneHero Potum Party (12M DL)(Lv 180)Archfiend's ThroneHero Potum Party (13M DL)(Lv 240)Archfiend's Throne",
+        "Processing": "Sell180 SpinaProcess90 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mischievous Candy[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n300\nMaxHP %\n25\nCritical Rate\n50\nAilment Resistance %\n10\nAggro %\n20\nDark Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell390 SpinaProcess190 Medicine",
+        "Recipes": "333 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n15\nxTrick Topaz"
+    },
+    {
+        "Name": "5th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n301\nSTR %\n7\nATK %\n7\nMagic Resistance %\n30\nCritical Rate\n13\nAttack MP Recovery\n14\nBase Stability %\n80\nReduce Dmg (Floor) %4",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell185 SpinaProcess92 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n200\nMaterials- \n20\nxSilpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n301\nBase Stability %\n80\nPotential45",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell185 SpinaProcess92 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n200\nMaterials- \n20\nxSilpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n305\nAccuracy\n100\nASPD\n1000\nCritical Rate\n100\nEvasion Recharge %\n20\nWater Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Jupiter Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n310\nWind Element\n1\nMotion Speed %\n3\nBase Stability %80",
+        "MonsterDyeMap": "Handmade Cookie (Coffee)(Lv 190)El Scaro",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Laguna Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n314\nMaxMP\n300\nCritical Rate\n14\nCritical Damage %\n7\nWater Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "Torturock(Lv 198)Prime Ramus: Area 1Torturock(Lv 199)Prime Ramus: Area 2Torturock(Lv 200)Prime Ramus: Area 3",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Laguna Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n314\nMaxMP\n400\nCritical Rate\n14\nCritical Damage %\n7\nWater Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": "950 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n190\nMaterials- \n15\nxThick Hippo Fang- \n15\nxGeometric Armor Bit- \n300\nx Metal- \n175\nx Wood"
+    },
+    {
+        "Name": "Laguna Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n314\nBase Stability %\n80\nPotential45",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": "950 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n190\nMaterials- \n15\nxThick Hippo Fang- \n15\nxGeometric Armor Bit- \n300\nx Metal- \n175\nx Wood"
+    },
+    {
+        "Name": "Golden Candy Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n319\nATK %\n7\nCritical Rate\n30\nWater resistance %\n30\nWind Element\n1\nBase Stability %\n70\nReduce Dmg (Straight Line) %30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell180 SpinaProcess90 Medicine",
+        "Recipes": "200 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxJapanese Caramel Candy- \n5\nxCute Ornament String- \n125\nx Metal- \n75\nx Medicine"
+    },
+    {
+        "Name": "5th Anniv Sword VII[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nSTR %\n7\nATK %\n7\nMagic Resistance %\n30\nCritical Rate\n15\nAttack MP Recovery\n15\nBase Stability %\n80\nReduce Dmg (Floor) %6",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n210\nMaterials- \n20\nxGolpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Sword VII[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nBase Stability %\n80\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n210\nMaterials- \n20\nxGolpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nSTR %\n7\nMagic Resistance %\n30\nCritical Rate\n18\nAttack MP Recovery\n15\nShort Range Damage %\n7\nBase Stability %\n80\nReduce Dmg (Floor) %\n6\nShield only:Accuracy100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n220\nMaterials- \n20\nxSilpom \n6\nth Anniv Medal- \n220\nx Metal"
+    },
+    {
+        "Name": "6th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nBase Stability %\n80\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n220\nMaterials- \n20\nxSilpom \n6\nth Anniv Medal- \n220\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nSTR %\n7\nATK %\n7\nMagic Resistance %\n30\nAccuracy %\n20\nCritical Rate\n30\nBase Stability %\n80\nFractional Barrier %\n13\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n215\nMaterials- \n20\nxBropom \n7\nth Anniv Medal- \n205\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nBase Stability %\n80\nPotential\n46\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n215\nMaterials- \n20\nxBropom \n7\nth Anniv Medal- \n205\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nSTR %\n7\nATK %\n7\nMagic Resistance %\n35\nASPD\n950\nCritical Rate\n35\nBase Stability %\n80\nAnticipate %\n19\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n170\nDifficulty\n205\nMaterials- \n20\nxGold \n8\nth Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nBase Stability %\n80\nPotential\n46\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n170\nDifficulty\n205\nMaterials- \n20\nxGold \n8\nth Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "9th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nSTR %\n7\nMaxMP\n360\nATK %\n7\nMagic Resistance %\n40\nCritical Rate\n40\nBase Stability %\n80\nAnticipate %\n18\nDual Swords only:Physical Pierce %\n3\nAnticipate %-3",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nBase Stability %\n80\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nATK %\n7\nCritical Rate\n25\nFire Element\n1\nAttack MP Recovery\n5\n%\nstronger against Neutral\n25\nBase Stability %\n80\nShield only:Aggro %15",
+        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)Neo PlastidaVenena Metacoenubia(Lv 195)Neo PlastidaVenena Metacoenubia(Lv 205)Neo PlastidaVenena Metacoenubia(Lv 215)Neo PlastidaVenena Metacoenubia(Lv 235)Neo Plastida",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nATK %\n7\nCritical Rate\n20\nFire Element\n1\nAttack MP Recovery\n10\n%\nstronger against Neutral\n10\nBase Stability %\n80\nShield only:Aggro %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Mana",
+        "Recipes": "1950 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n195\nMaterials- \n2\nxEmpress Ogre Accessory Chip- \n2\nxEmpress Ogre Fang- \n1400\nx Metal- \n550\nx Mana"
+    },
+    {
+        "Name": "Demon Empress Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n327\nBase Stability %\n80\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Mana",
+        "Recipes": "1950 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n195\nMaterials- \n2\nxEmpress Ogre Accessory Chip- \n2\nxEmpress Ogre Fang- \n1400\nx Metal- \n550\nx Mana"
+    },
+    {
+        "Name": "Thunder Axe[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n333\nMaxMP\n300\nAccuracy\n100\nCritical Rate\n75\nEarth resistance %-\n25\nAggro %\n40\nWind Element\n1\nBase Stability %\n80\nAdditional Magic %\n80\nGuard Break %25",
+        "MonsterDyeMap": "Volgagon(Lv 200)Event",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Arachnid Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMaxMP\n800\nCritical Damage %\n16\nAggro %-\n45\nDark Element\n1\nBase Stability %\n75\nAnticipate %\n25\nReduce Dmg (Floor) %-\n30\nReduce Dmg (Bowling) %-15",
+        "MonsterDyeMap": "Arachnidemon(Lv 186)Arche Valley: DepthsArachnidemon(Lv 196)Arche Valley: DepthsArachnidemon(Lv 206)Arche Valley: DepthsArachnidemon(Lv 216)Arche Valley: DepthsArachnidemon(Lv 236)Arche Valley: Depths",
+        "Processing": "Sell200 SpinaProcess100 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Arachnid Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMaxMP\n800\nCritical Damage %\n8\nAggro %-\n15\nDark Element\n1\nBase Stability %\n75\nAnticipate %\n30\nReduce Dmg (Floor) %-\n10\nReduce Dmg (Bowling) %-5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell200 SpinaProcess100 Beast",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n200\nMaterials- \n2\nxRadiant Miracle Water- \n1\nxEvil Spirit Crystal- \n1250\nx Metal- \n750\nx Beast"
+    },
+    {
+        "Name": "Arachnid Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nBase Stability %\n75\nPotential47",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell200 SpinaProcess100 Beast",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n200\nMaterials- \n2\nxRadiant Miracle Water- \n1\nxEvil Spirit Crystal- \n1250\nx Metal- \n750\nx Beast"
+    },
+    {
+        "Name": "Luster Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMaxMP\n400\nATK %\n8\n%\nstronger against Dark\n5\nLight Element\n1\nBase Stability %\n80\nAttack Range (m)2",
+        "MonsterDyeMap": "Ocello(Lv 201)Weredragon's Throat",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Luster Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMaxMP\n500\nATK %\n8\n%\nstronger against Dark\n5\nLight Element\n1\nBase Stability %\n80\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n200\nMaterials- \n20\nxWyvern Horn- \n20\nxDragon Hardstone- \n300\nx Metal- \n200\nx Wood"
+    },
+    {
+        "Name": "Luster Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nBase Stability %\n80\nPotential\n47\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n200\nMaterials- \n20\nxWyvern Horn- \n20\nxDragon Hardstone- \n300\nx Metal- \n200\nx Wood"
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nSTR %\n4\nATK %\n8\nASPD\n500\nFire resistance %\n10\nWater Element\n1\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n10\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nSTR %\n4\nATK %\n8\nASPD\n500\nWater resistance %\n10\nWind Element\n1\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n10\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMATK %\n8\nCSPD\n500\nFire resistance %\n30\nWater Element\n1\nAttack MP Recovery\n5\nBase Stability %\n80\nMATK UP (INT %)\n100\nReduce Dmg (Foe Epicenter) %30",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMATK %\n8\nCSPD\n500\nWater resistance %\n30\nWind Element\n1\nAttack MP Recovery\n5\nBase Stability %\n80\nMATK UP (INT %)\n100\nReduce Dmg (Foe Epicenter) %30",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMaxMP\n600\nATK %\n8\nASPD\n250\nFire resistance %\n5\nWater Element\n1\nShort Range Damage %\n2\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n5\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMaxMP\n600\nATK %\n8\nASPD\n250\nWater resistance %\n5\nWind Element\n1\nShort Range Damage %\n2\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n5\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMaxMP\n200\nATK %\n8\nStability %\n4\nASPD\n750\nFire resistance %\n20\nWater Element\n1\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n20\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nMaxMP\n200\nATK %\n8\nStability %\n4\nASPD\n750\nWater resistance %\n20\nWind Element\n1\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n20\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (1st Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Yozakura Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n340\nDEX %\n2\nMaxMP\n400\nAccuracy\n300\n%\nstronger against Dark\n10\nLight Element\n1\nShort Range Damage %\n6\nBase Stability %\n80\nReduce Dmg (Bowling) %\n30\nDual Swords only:Critical Rate30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxLush Sake Cup- \n3\nxBroken Yozakura Twig- \n5\nxAlcoholic Petal- \n120\nx Metal"
+    },
+    {
+        "Name": "Fruhschneid[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n353\nATK %\n8\n%\nstronger against Fire\n10\nWind resistance %-\n30\nWater Element\n1\nAttack MP Recovery\n16\nBase Stability %\n80\nDual Swords only:Motion Speed %5",
+        "MonsterDyeMap": "Zolban (Megiston 2020)(Lv 210)Event",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Gemma Spada[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n353\nATK %\n8\nPhysical Resistance %\n20\nCSPD\n750\nNeutral Resistance %\n20\n%\nstronger against Neutral\n30\nBase Stability %\n80\nPhysical Barrier\n2000\nDual Swords only:Critical Rate\n15\nAggro %-30",
+        "MonsterDyeMap": "Gemma(Lv 198)Fugitive Lake Swamp: DepthsGemma(Lv 208)Fugitive Lake Swamp: DepthsGemma(Lv 218)Fugitive Lake Swamp: DepthsGemma(Lv 228)Fugitive Lake Swamp: DepthsGemma(Lv 248)Fugitive Lake Swamp: Depths",
+        "Processing": "Sell180 SpinaProcess90 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Gemma Spada[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n353\nATK %\n8\nPhysical Resistance %\n20\nCSPD\n750\nNeutral Resistance %\n10\n%\nstronger against Neutral\n30\nBase Stability %\n80\nPhysical Barrier1500",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell180 SpinaProcess90 Mana",
+        "Recipes": "2050 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n205\nMaterials- \n1\nxGemma's Jewel- \n1\nxStarlight of Desire- \n1750\nx Metal- \n300\nx Mana"
+    },
+    {
+        "Name": "Gemma Spada[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n353\nBase Stability %\n80\nPotential48",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell180 SpinaProcess90 Mana",
+        "Recipes": "2050 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n205\nMaterials- \n1\nxGemma's Jewel- \n1\nxStarlight of Desire- \n1750\nx Metal- \n300\nx Mana"
+    },
+    {
+        "Name": "Queen Bee Needle[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n355\nATK %\n8\nPhysical Pierce %\n30\nPhysical Resistance %-\n30\nDodge\n150\nASPD\n500\nWind Element\n1\nBase Stability %\n90\nAttack Range (m)2",
+        "MonsterDyeMap": "Mieli (Milk)(Lv 160)Rakau Plains",
+        "Processing": "Sell220 SpinaProcess110 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Queen Bee Needle[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n355\nATK %\n8\nPhysical Pierce %\n40\nPhysical Resistance %-\n50\nDodge\n200\nASPD\n1000\nWind Element\n1\nBase Stability %\n90\nAttack Range (m)2",
+        "MonsterDyeMap": "Mieli (Bitter)(Lv 220)Rakau PlainsMieli (Dark)(Lv 250)Rakau Plains",
+        "Processing": "Sell220 SpinaProcess110 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Queen Bee Needle[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n355\nATK %\n8\nPhysical Pierce %\n35\nPhysical Resistance %-\n40\nDodge\n175\nASPD\n750\nWind Element\n1\nBase Stability %\n90\nAttack Range (m)2",
+        "MonsterDyeMap": "Mieli (Sweet)(Lv 190)Rakau Plains",
+        "Processing": "Sell220 SpinaProcess110 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nSTR %\n8\nMagic Resistance %\n30\nCritical Rate\n20\nAttack MP Recovery\n15\nShort Range Damage %\n8\nBase Stability %\n80\nReduce Dmg (Floor) %\n8\nShield only:Accuracy100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n235\nMaterials- \n20\nxGolpom \n6\nth Anniv Medal- \n235\nx Metal"
+    },
+    {
+        "Name": "6th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nBase Stability %\n80\nPotential49",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n235\nMaterials- \n20\nxGolpom \n6\nth Anniv Medal- \n235\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nSTR %\n8\nATK %\n8\nMagic Resistance %\n30\nAccuracy %\n25\nCritical Rate\n30\nBase Stability %\n80\nFractional Barrier %\n14\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n230\nMaterials- \n20\nxSilpom \n7\nth Anniv Medal- \n220\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nBase Stability %\n80\nPotential\n49\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n230\nMaterials- \n20\nxSilpom \n7\nth Anniv Medal- \n220\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nSTR %\n8\nATK %\n8\nMagic Resistance %\n35\nASPD\n1100\nCritical Rate\n35\nBase Stability %\n80\nAnticipate %\n21\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n220\nMaterials- \n20\nxBropom \n8\nth Anniv Medal- \n220\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nBase Stability %\n80\nPotential\n49\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n220\nMaterials- \n20\nxBropom \n8\nth Anniv Medal- \n220\nx Metal"
+    },
+    {
+        "Name": "9th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nSTR %\n8\nMaxMP\n420\nATK %\n8\nMagic Resistance %\n40\nCritical Rate\n40\nBase Stability %\n80\nAnticipate %\n21\nDual Swords only:Physical Pierce %\n6\nAnticipate %-6",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Sword III[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nBase Stability %\n80\nPotential49",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Aeria Spada[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nPhysical Pierce %\n15\nASPD %\n40\nCritical Rate\n45\nWind Element\n1\nBase Stability %\n80\nAttack Range (m)2",
+        "MonsterDyeMap": "Voluto(Lv 220)Weredragon's Vital Point: Area 1Voluto(Lv 222)Weredragon's Vital Point: Area 2",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Aeria Spada[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nPhysical Pierce %\n16\nASPD %\n50\nCritical Rate\n50\nWind Element\n1\nBase Stability %\n80\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "1050 SpinaSet\n1\n pcsLevel\n205\nDifficulty\n210\nMaterials- \n15\nxBoma Konda Ore- \n15\nxKiton's Wing- \n275\nx Metal- \n250\nx Wood"
+    },
+    {
+        "Name": "Aeria Spada[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nBase Stability %\n80\nPotential\n49\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "1050 SpinaSet\n1\n pcsLevel\n205\nDifficulty\n210\nMaterials- \n15\nxBoma Konda Ore- \n15\nxKiton's Wing- \n275\nx Metal- \n250\nx Wood"
+    },
+    {
+        "Name": "Beastlord Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n367\nBase Stability %\n80\nPotential48",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "N/ASet\n1\n pcsLevel\n200\nDifficulty\n203\nMaterials- \n1\nxZega VI- \n1\nxOrichalcum"
+    },
+    {
+        "Name": "Pearl Sakura Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n390\nMaxHP %\n30\nCSPD %\n50\nCritical Rate\n50\nCritical Rate %\n25\n%\nstronger against Earth\n10\nFire Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessWood",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxFine Sake (Pearl Sakura)- \n3\nxSinister Origami- \n5\nxTorn Paper Crane- \n240\nx Metal"
+    },
+    {
+        "Name": "Eradicator Bayonet[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n395\nATK %\n8\nCritical Rate\n25\n%\nstronger against Wind\n5\nEarth Element\n1\nAttack MP Recovery\n5\nBase Stability %\n80\nAdditional Melee %\n150\nGuard Break %\n20\nAttack Range (m)2",
+        "MonsterDyeMap": "Velum(Lv 213)Arstida: DepthVelum(Lv 223)Arstida: DepthVelum(Lv 233)Arstida: DepthVelum(Lv 243)Arstida: DepthVelum(Lv 263)Arstida: Depth",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Eradicator Bayonet[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n395\nATK %\n8\nCritical Rate\n25\n%\nstronger against Wind\n5\nEarth Element\n1\nAttack MP Recovery\n10\nBase Stability %\n80\nAdditional Melee %\n100\nGuard Break %\n15\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": "2200 SpinaSet\n1\n pcsLevel\n215\nDifficulty\n220\nMaterials- \n1\nxVelum's Crystal Reactor- \n2\nxSpherical Carapace- \n1500\nx Metal- \n700\nx Wood"
+    },
+    {
+        "Name": "Eradicator Bayonet[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n395\nBase Stability %\n80\nPotential\n50\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": "2200 SpinaSet\n1\n pcsLevel\n215\nDifficulty\n220\nMaterials- \n1\nxVelum's Crystal Reactor- \n2\nxSpherical Carapace- \n1500\nx Metal- \n700\nx Wood"
+    },
+    {
+        "Name": "Hakuro Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n395\nMaxHP\n6000\nMaxMP\n200\nCritical Rate\n40\n%\nstronger against Dark\n10\nLight Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": "896 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n1\nxRainbow Orb"
+    },
+    {
+        "Name": "Luxurie Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n395\nPhysical Resistance %\n35\nASPD\n500\nFire Element\n1\nShort Range Damage %\n8\nBase Stability %\n80\nAttack Range (m)2",
+        "MonsterDyeMap": "Mycelia(Lv 233)Frozen Falls: Area 1Mycelia(Lv 234)Frozen Falls: Area 2Mycelia(Lv 235)Frozen Falls: Area 3",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sword of Light (OHS)[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n395\nMaxHP\n3000\nMaxMP\n300\nATK %\n10\nPhysical Pierce %\n30\nASPD\n300\nCritical Rate\n100\nLight Element\n1\nBase Stability %\n80\nATK UP (INT %)\n150\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Slayers: Collab Prize ExchangeSofya City",
+        "Processing": "Sell1000 SpinaProcessN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ocean Phantom Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n400\nATK %\n10\nCritical Rate\n40\nEvasion Recharge %\n50\nWater Element\n1\nAttack MP Recovery\n20\nNeutral Resistance %-\n30\nBase Stability %\n90\nAttack Range (m)\n2\nDagger only:ASPD\n700\nNeutral Resistance %60",
+        "MonsterDyeMap": "Falburrows(Lv 205)Saltau's Beach (Night)Falburrows(Lv 215)Saltau's Beach (Night)Falburrows(Lv 225)Saltau's Beach (Night)Falburrows(Lv 235)Saltau's Beach (Night)Falburrows(Lv 255)Saltau's Beach (Night)",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ice Spirit Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n409\nMaxMP\n500\nATK %\n7\nCSPD %\n30\nAggro %-\n30\nWater Element\n1\nBase Stability %\n80\nMATK UP (DEX %)\n50\nAttack Range (m)\n2\n.5",
+        "MonsterDyeMap": "Dutannen (Weak)(Lv 179)Noeliel Castle: B4FDutannen (Medium)(Lv 199)Noeliel Castle: B4FDutannen (Strong)(Lv 219)Noeliel Castle: B4F",
+        "Processing": "Sell225 SpinaProcess112 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ice Spirit Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n409\nMaxMP\n500\nATK %\n9\nCSPD %\n50\nAggro %-\n50\nWater Element\n1\nBase Stability %\n80\nMATK UP (DEX %)\n100\nAttack Range (m)\n2\n.5",
+        "MonsterDyeMap": "Dutannen (Max)(Lv 239)Noeliel Castle: B4F",
+        "Processing": "Sell225 SpinaProcess112 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Moonlight Sword II[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n409\nMaxMP\n400\nMATK %\n9\nMagic Pierce %\n25\nCSPD\n1000\nWater Element\n1\nBase Stability %\n90\nAttack Range (m)\n2\nMagic Device only:Critical Rate\n10\nAttack MP Recovery5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithCrysmort(Lv 240)Celesa's Tree Garden",
+        "Processing": "Sell225 SpinaProcess112 Mana",
+        "Recipes": "158 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n30\nxOtsukimi Dango- \n15\nxLively Dango- \n400\nx Metal- \n200\nx Mana"
+    },
+    {
+        "Name": "Evgenis[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n420\nMaxMP\n1000\nAccuracy %\n100\nDodge\n50\nBase Stability %\n80\nShield only:Aggro %50",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2022)Event",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "7th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n424\nSTR %\n9\nATK %\n9\nMagic Resistance %\n30\nAccuracy %\n30\nCritical Rate\n30\nBase Stability %\n80\nFractional Barrier %\n15\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxGolpom \n7\nth Anniv Medal- \n240\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n424\nBase Stability %\n80\nPotential\n52\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxGolpom \n7\nth Anniv Medal- \n240\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n424\nSTR %\n9\nATK %\n9\nMagic Resistance %\n35\nASPD\n1250\nCritical Rate\n35\nBase Stability %\n80\nAnticipate %\n23\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxSilpom \n8\nth Anniv Medal- \n240\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n424\nBase Stability %\n80\nPotential\n52\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxSilpom \n8\nth Anniv Medal- \n240\nx Metal"
+    },
+    {
+        "Name": "9th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n424\nSTR %\n9\nMaxMP\n480\nATK %\n9\nMagic Resistance %\n40\nCritical Rate\n40\nBase Stability %\n80\nAnticipate %\n24\nDual Swords only:Physical Pierce %\n9\nAnticipate %-9",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Sword IV[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n424\nBase Stability %\n80\nPotential52",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Profound Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n424\n%\nstronger against Light\n10\nLight resistance %\n18\nDark Element\n1\nAttack MP Recovery14",
+        "MonsterDyeMap": "Helicina(Lv 245)Deep Sea: Zone 1Helicina(Lv 246)Deep Sea: Zone 2Helicina(Lv 247)Deep Sea: Zone 3",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n424\nAccuracy\n125\nASPD\n1000\nCritical Rate\n125\nWater Element\n1\nBase Stability %\n80\nAttack Range (m)\n2\nDual Swords only:Evasion Recharge %25",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Rolling Pin Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n444\nMaxHP\n8000\nATK %\n10\nPhysical Resistance %\n20\nMagic Resistance %\n25\nMotion Speed %\n5\n%\nstronger against Neutral\n35\nBase Stability %\n90\nAnticipate %15",
+        "MonsterDyeMap": "Mage Filecia (Plain)(Lv 190)El Scaro: Back AlleyMage Filecia (Cocoa)(Lv 220)El Scaro: Back AlleyMage Filecia (Choco)(Lv 250)El Scaro: Back AlleyMage Filecia (Coffee)(Lv 280)El Scaro: Back Alley",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Squash Mace[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n445\nCritical Rate\n75\nDark resistance %\n10\nAggro %\n40\nDark Element\n1\nAttack MP Recovery\n9\nBase Stability %\n70\nFractional Barrier %\n10\nReduce Dmg (Foe Epicenter) %\n10\nAttack Range (m)2",
+        "MonsterDyeMap": "Sibylares (Easy)(Lv 175)Phasma Forest: Area 3",
+        "Processing": "Sell230 SpinaProcess115 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Squash Mace[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n445\nCritical Rate\n75\nDark resistance %\n15\nAggro %\n40\nDark Element\n1\nAttack MP Recovery\n12\nBase Stability %\n70\nFractional Barrier %\n10\nReduce Dmg (Foe Epicenter) %\n15\nAttack Range (m)2",
+        "MonsterDyeMap": "Sibylares (Normal)(Lv 200)Phasma Forest: Area 3",
+        "Processing": "Sell230 SpinaProcess115 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Squash Mace[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n445\nCritical Rate\n75\nDark resistance %\n20\nAggro %\n40\nDark Element\n1\nAttack MP Recovery\n15\nBase Stability %\n70\nFractional Barrier %\n10\nReduce Dmg (Foe Epicenter) %\n20\nAttack Range (m)2",
+        "MonsterDyeMap": "Sibylares (Hard)(Lv 225)Phasma Forest: Area 3",
+        "Processing": "Sell230 SpinaProcess115 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Filrocas Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n454\nMaxMP\n600\nATK %\n9\nAccuracy %\n40\n%\nstronger against Fire\n10\nWater Element\n1\nBase Stability %\n80\nAnticipate %\n20\nAttack Range (m)\n2\nKnuckle only:ASPD1000",
+        "MonsterDyeMap": "Filrocas(Lv 231)Royal Dragon Cocoon ChamberFilrocas(Lv 241)Royal Dragon Cocoon ChamberFilrocas(Lv 251)Royal Dragon Cocoon ChamberFilrocas(Lv 261)Royal Dragon Cocoon ChamberFilrocas(Lv 281)Royal Dragon Cocoon Chamber",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Filrocas Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n454\nMaxMP\n700\nATK %\n9\nAccuracy %\n50\n%\nstronger against Fire\n10\nWater Element\n1\nBase Stability %\n80\nAnticipate %\n10\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell240 SpinaProcess120 Beast",
+        "Recipes": "2400 SpinaSet\n1\n pcsLevel\n235\nDifficulty\n240\nMaterials- \n1\nxFilrocas' Blue Eye- \n2\nxStrange Crystal Fang- \n1400\nx Beast- \n1000\nx Metal"
+    },
+    {
+        "Name": "Filrocas Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n454\nBase Stability %\n80\nPotential\n54\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell240 SpinaProcess120 Beast",
+        "Recipes": "2400 SpinaSet\n1\n pcsLevel\n235\nDifficulty\n240\nMaterials- \n1\nxFilrocas' Blue Eye- \n2\nxStrange Crystal Fang- \n1400\nx Beast- \n1000\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nSTR %\n10\nATK %\n10\nMagic Resistance %\n35\nASPD\n1400\nCritical Rate\n35\nBase Stability %\n80\nAnticipate %\n25\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell250 SpinaProcess125 Metal",
+        "Recipes": "480 SpinaSet\n1\n pcsLevel\n230\nDifficulty\n260\nMaterials- \n20\nxGolpom \n8\nth Anniv Medal- \n260\nx Metal"
+    },
+    {
+        "Name": "8th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nBase Stability %\n80\nPotential\n55\nAttack Range (m)2",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell250 SpinaProcess125 Metal",
+        "Recipes": "480 SpinaSet\n1\n pcsLevel\n230\nDifficulty\n260\nMaterials- \n20\nxGolpom \n8\nth Anniv Medal- \n260\nx Metal"
+    },
+    {
+        "Name": "9th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nSTR %\n10\nMaxMP\n540\nATK %\n10\nMagic Resistance %\n40\nCritical Rate\n40\nBase Stability %\n80\nAnticipate %\n27\nDual Swords only:Physical Pierce %\n12\nAnticipate %-12",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Sword V[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nBase Stability %\n80\nPotential55",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Evgenis[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nMaxMP\n1000\nAccuracy %\n100\nDodge\n50\nBase Stability %\n80\nShield only:Aggro %50",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2023)Event",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nSTR %\n5\nATK %\n10\nASPD\n750\nFire resistance %\n15\nWater Element\n1\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n15\nAttack Range (m)\n2\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nSTR %\n5\nATK %\n10\nASPD\n750\nWater resistance %\n15\nWind Element\n1\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n15\nAttack Range (m)\n2\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nMATK %\n10\nCSPD\n750\nFire resistance %\n35\nWater Element\n1\nAttack MP Recovery\n5\nBase Stability %\n80\nMATK UP (INT %)\n100\nReduce Dmg (Foe Epicenter) %\n35\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nMATK %\n10\nCSPD\n750\nWater resistance %\n35\nWind Element\n1\nAttack MP Recovery\n5\nBase Stability %\n80\nMATK UP (INT %)\n100\nReduce Dmg (Foe Epicenter) %\n35\nAttack Range (m)2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nMaxMP\n600\nATK %\n10\nASPD\n500\nFire resistance %\n10\nWater Element\n1\nShort Range Damage %\n3\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n10\nAttack Range (m)\n2\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nMaxMP\n600\nATK %\n10\nASPD\n500\nWater resistance %\n10\nWind Element\n1\nShort Range Damage %\n3\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n10\nAttack Range (m)\n2\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nMaxMP\n200\nATK %\n10\nStability %\n5\nASPD\n1000\nFire resistance %\n25\nWater Element\n1\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n25\nAttack Range (m)\n2\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n485\nMaxMP\n200\nATK %\n10\nStability %\n5\nASPD\n1000\nWater resistance %\n25\nWind Element\n1\nBase Stability %\n80\nReduce Dmg (Foe Epicenter) %\n25\nAttack Range (m)\n2\nDual Swords only:Tumble Unavailable1",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 1st Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Broken Greatsword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n510\nATK %\n8\nPhysical Pierce %\n8\nCritical Rate %\n88\nCritical Damage %\n8\nShort Range Damage %8",
+        "MonsterDyeMap": "Sunken Treasure-Sunken Treasure-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Amnis Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n517\nPhysical Pierce %\n40\nCritical Rate\n120\nAggro %-\n100\nWater Element\n1\nBase Stability %\n70\nShield only:Physical Resistance %\n30\nAilment Resistance %\n15\nAggro %100",
+        "MonsterDyeMap": "Red Ash Dragon Rudis(Lv 249)Espuma Dome: EntranceRed Ash Dragon Rudis(Lv 259)Espuma Dome: EntranceRed Ash Dragon Rudis(Lv 269)Espuma Dome: EntranceRed Ash Dragon Rudis(Lv 279)Espuma Dome: EntranceRed Ash Dragon Rudis(Lv 299)Espuma Dome: Entrance",
+        "Processing": "Sell260 SpinaProcess130 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Amnis Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n517\nPhysical Pierce %\n40\nCritical Rate\n80\nAggro %-\n20\nWater Element\n1\nBase Stability %\n70\nShield only:Physical Resistance %\n45\nAilment Resistance %\n15\nAggro %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": "2600 SpinaSet\n1\n pcsLevel\n255\nDifficulty\n260\nMaterials- \n1\nxThorny Hammer Tail- \n2\nxExtremely Scary Face- \n1800\nx Beast- \n800\nx Medicine"
+    },
+    {
+        "Name": "Amnis Rapier[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n517\nBase Stability %\n70\nPotential57",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": "N/ASet\n1\n pcsLevel\n255\nDifficulty\n260\nMaterials- \n1\nxThorny Hammer Tail- \n2\nxExtremely Scary Face- \n1800\nx Beast- \n800\nx Medicine"
+    },
+    {
+        "Name": "Sunlight Saber[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n533\nDEX %\n10\nMaxMP\n200\nATK %\n10\nMATK %\n10\n%\nstronger against Water\n10\nWind Element\n1\nAttack MP Recovery\n8\nFractional Barrier %20",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n550\nSTR %\n10\nMaxMP\n600\nATK %\n11\nMagic Resistance %\n40\nCritical Rate\n40\nBase Stability %\n80\nAnticipate %\n30\nDual Swords only:Physical Pierce %\n15\nAnticipate %-15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Sword VI[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n550\nBase Stability %\n80\nPotential59",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Meteor Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n550\nAGI %\n10\nDodge %\n10\nASPD %\n50\nLight resistance %-\n30\nEarth Element\n1\nShort Range Damage %\n10\nBase Stability %\n90\nTumble Unavailable\n1\nDual Swords only:Physical Pierce %\n25\nEvasion Recharge %100",
+        "MonsterDyeMap": "Meteora(Lv 302)Menabra Plains",
+        "Processing": "Sell270 SpinaProcess135 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mace Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n600\nAggro %\n100\nShort Range Damage %\n10\nBase Stability %\n60\nUnsheathe Attack %-\n50\nShield only:Physical Pierce %\n50\nPhysical Resistance %\n25\nHeavy Armor only:Magic Resistance %\n25\nCritical Rate50",
+        "MonsterDyeMap": "Capo Profundo(Lv 287)Abandoned District: Area 3",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    }
+]

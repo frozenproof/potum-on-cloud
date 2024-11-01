@@ -1,0 +1,2130 @@
+[
+    {
+        "Name": "Humida Barrel[Bowgun]",
+        "StatEffect_Amount": "MaxMP\n700\nATK %\n9\nAccuracy %\n99\nDark Element\n1\nShort Range Damage %-\n9\nLong Range Damage %\n9\nDagger only:Short Range Damage %14",
+        "MonsterDyeMap": "Humida(Lv 261)Marinatown: Giant PlastidaHumida(Lv 281)Marinatown: Giant PlastidaHumida(Lv 291)Marinatown: Giant PlastidaHumida(Lv 311)Marinatown: Giant Plastida",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Humida Barrel[Bowgun]",
+        "StatEffect_Amount": "MaxMP\n700\nATK %\n9\nAccuracy %\n99\nDark Element\n1\nShort Range Damage %-\n9\nLong Range Damage %\n9\nDagger only:Short Range Damage %14",
+        "MonsterDyeMap": "Humida(Lv 261)Marinatown: Giant PlastidaHumida(Lv 281)Marinatown: Giant PlastidaHumida(Lv 291)Marinatown: Giant PlastidaHumida(Lv 311)Marinatown: Giant Plastida",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Humida Barrel[Bowgun]",
+        "StatEffect_Amount": "MaxMP\n700\nATK %\n9\nAccuracy %\n99\nDark Element\n1\nShort Range Damage %-\n9\nLong Range Damage %\n9\nDagger only:Short Range Damage %14",
+        "MonsterDyeMap": "Humida(Lv 261)Marinatown: Giant PlastidaHumida(Lv 281)Marinatown: Giant PlastidaHumida(Lv 291)Marinatown: Giant PlastidaHumida(Lv 311)Marinatown: Giant Plastida",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n8\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Recipes": "5 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n1\nMaterials- \n5\nxDirty Nail- \n3\nx Wood"
+    },
+    {
+        "Name": "Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n8\nBase Stability %\n50\nPotential\n15\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Recipes": "5 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n1\nMaterials- \n5\nxDirty Nail- \n3\nx Wood"
+    },
+    {
+        "Name": "Sword Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n13\nAGI\n3\nLong Range Damage %\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Frosch(Lv 13)Icule LakeFrosch(Lv 14)Icule LakeFrosch(Lv 23)Ribisco Cave: Area 1Frosch(Lv 23)Ribisco Cave: Area 2",
+        "Processing": "Sell10 SpinaProcess5 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sword Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n13\nAGI\n3\nShort Range Damage %\n2\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell10 SpinaProcess5 Wood",
+        "Recipes": "50 SpinaSet\n1\n pcsLevel\n5\nDifficulty\n10\nMaterials- \n35\nxWolf Fur- \n20\nx Wood- \n3\nx Metal"
+    },
+    {
+        "Name": "Sword Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n13\nBase Stability %\n50\nPotential\n16\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell10 SpinaProcess5 Wood",
+        "Recipes": "50 SpinaSet\n1\n pcsLevel\n5\nDifficulty\n10\nMaterials- \n35\nxWolf Fur- \n20\nx Wood- \n3\nx Metal"
+    },
+    {
+        "Name": "Short Musket[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n18\nATK %-\n50\nASPD %\n25\nCritical Rate\n25\nBase Stability %\n60\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessN/A",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n20\nDifficulty\n25\nMaterials- \n3\nxForest Wolf Horn- \n1\nxOminous Horns- \n200\nx Mana- \n50\nx Metal"
+    },
+    {
+        "Name": "Short Musket[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n18\nBase Stability %\n60\nPotential\n19\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n20\nDifficulty\n25\nMaterials- \n3\nxForest Wolf Horn- \n1\nxOminous Horns- \n200\nx Mana- \n50\nx Metal"
+    },
+    {
+        "Name": "Iron Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n20\nMaxMP\n70\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Goblin (slingshot)(Lv 23)Rinom PlainsGoblin (slingshot)(Lv 25)Ribisco Cave: Area 1Goblin (slingshot)(Lv 25)Ribisco Cave: Area 2Goblin (slingshot)(Lv 25)Ribisco Cave: Area 3Goblin (slingshot)(Lv 27)Ribisco Cave: Area 3Goblin (slingshot)(Lv 26)Ribisco Cave: Deepest Part",
+        "Processing": "Sell20 SpinaProcess10 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Iron Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n20\nMaxMP\n100\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell20 SpinaProcess10 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n15\nDifficulty\n20\nMaterials- \n6\nxCoal- \n4\nxRibisco Crystal- \n30\nx Wood- \n20\nx Metal"
+    },
+    {
+        "Name": "Iron Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n20\nBase Stability %\n50\nPotential\n18\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell20 SpinaProcess10 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n15\nDifficulty\n20\nMaterials- \n6\nxCoal- \n4\nxRibisco Crystal- \n30\nx Wood- \n20\nx Metal"
+    },
+    {
+        "Name": "1st Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n23\nDEX %\n1\nATK %\n1\nPhysical Pierce %\n3\nASPD\n100\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box I-",
+        "Processing": "Sell25 SpinaProcess12 Wood",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxCopper \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "1st Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n23\nBase Stability %\n50\nPotential\n19\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Wood",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxCopper \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n23\nDEX %\n1\nATK %\n1\nPhysical Pierce %\n3\nASPD\n100\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box II-",
+        "Processing": "Sell25 SpinaProcess12 Wood",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n23\nBase Stability %\n50\nPotential\n19\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Wood",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n23\nDEX %\n1\nATK %\n1\nPhysical Pierce %\n3\nASPD\n100\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box III-",
+        "Processing": "SellUnknownProcess12 Wood",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n23\nBase Stability %\n50\nPotential\n19\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess12 Wood",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n23\nDEX %\n1\nATK %\n1\nPhysical Pierce %\n3\nASPD\n100\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box IV-",
+        "Processing": "Sell25 SpinaProcess12 Wood",
+        "Recipes": "1 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n5\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n23\nBase Stability %\n50\nPotential\n19\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Wood",
+        "Recipes": "1 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n5\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "Hunter Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n27\nASPD %-\n10\nCritical Rate\n6\nLong Range Damage %\n1\nBase Stability %\n60\nAttack Range (m)8",
+        "MonsterDyeMap": "Goblin(Lv 29)Zoktzda Ruins",
+        "Processing": "Sell30 SpinaProcess15 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hunter Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n27\nASPD %-\n20\nCritical Rate\n12\nLong Range Damage %\n1\nBase Stability %\n60\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell30 SpinaProcess15 Wood",
+        "Recipes": "150 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n30\nMaterials- \n5\nxBurnt Coal- \n20\nxZoktzda Stone- \n75\nx Wood"
+    },
+    {
+        "Name": "Hunter Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n27\nBase Stability %\n60\nPotential\n19\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell30 SpinaProcess15 Wood",
+        "Recipes": "150 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n30\nMaterials- \n5\nxBurnt Coal- \n20\nxZoktzda Stone- \n75\nx Wood"
+    },
+    {
+        "Name": "Cone Horn[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n30\nDEX %\n2\nMaxMP\n100\nCritical Rate\n25\nAggro %\n5\n%\nstronger against Neutral\n25\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell30 SpinaProcess15 Medicine",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n10\nMaterials- \n5\nxPlastic Fragment"
+    },
+    {
+        "Name": "Cone Horn[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n30\nBase Stability %\n50\nPotential\n17\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell30 SpinaProcess15 Medicine",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n10\nMaterials- \n5\nxPlastic Fragment"
+    },
+    {
+        "Name": "Delight Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n30\nMaxMP\n200\nAccuracy\n3\nWater Element\n1\nBase Stability %\n50\nAttack Range (m)7",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": "10 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n30\nxBlue Wrapping Ribbon"
+    },
+    {
+        "Name": "Axe Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n35\nATK %\n1\nPhysical Pierce %\n1\nShort Range Damage %\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Gob Roga(Lv 48)Saham Underground Cave: B2Gob Roga(Lv 48)Saham Underground Cave: B3",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Axe Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n35\nATK %\n2\nPhysical Pierce %\n3\nShort Range Damage %\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n35\nDifficulty\n40\nMaterials- \n30\nxCracked Stick- \n20\nxRat Fur- \n90\nx Wood- \n10\nx Beast"
+    },
+    {
+        "Name": "Axe Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n35\nBase Stability %\n50\nPotential\n21\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n35\nDifficulty\n40\nMaterials- \n30\nxCracked Stick- \n20\nxRat Fur- \n90\nx Wood- \n10\nx Beast"
+    },
+    {
+        "Name": "Goblin Rifle[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n36\nMaxMP-\n1000\nASPD\n1000\nMotion Speed %\n25\nBase Stability %\n70\nArrow only:Motion Speed %25",
+        "MonsterDyeMap": "Broker Goblin (Coffee)(Lv 270)El Scaro: Back Alley",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magic Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n40\nATK %\n2\nCSPD\n250\nAilment Resistance %\n10\nWater Element\n1\nAttack MP Recovery\n3\nBase Stability %\n55\nAttack Range (m)8",
+        "MonsterDyeMap": "Mauez(Lv 55)New Moon Palace: InnermostMauez(Lv 45)New Moon Palace: InnermostMauez(Lv 65)New Moon Palace: InnermostMauez(Lv 75)New Moon Palace: InnermostMauez(Lv 95)New Moon Palace: Innermost",
+        "Processing": "Sell50 SpinaProcess25 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magic Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n40\nATK %\n2\nCSPD\n150\nWater Element\n1\nAttack MP Recovery\n1\nBase Stability %\n55\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Mana",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n3\nxMauez's Broken Rod- \n1\nxRunestone- \n450\nx Wood- \n50\nx Mana"
+    },
+    {
+        "Name": "Magic Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n40\nBase Stability %\n55\nPotential\n23\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Mana",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n3\nxMauez's Broken Rod- \n1\nxRunestone- \n450\nx Wood- \n50\nx Mana"
+    },
+    {
+        "Name": "1st Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nDEX %\n2\nATK %\n2\nPhysical Pierce %\n6\nASPD\n200\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "1st Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nBase Stability %\n50\nPotential\n23\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nDEX %\n2\nATK %\n2\nPhysical Pierce %\n6\nASPD\n200\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nBase Stability %\n50\nPotential\n23\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nDEX %\n2\nATK %\n2\nPhysical Pierce %\n6\nASPD\n200\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess25 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nBase Stability %\n50\nPotential\n23\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess25 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nDEX %\n2\nATK %\n2\nPhysical Pierce %\n6\nASPD\n200\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n10\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nBase Stability %\n50\nPotential\n23\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n10\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "Arched Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nATK %\n2\nAccuracy %-\n20\nAggro %-\n5\nLong Range Damage %\n2\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n5\nxParasite Crystal- \n20\nxDark Gray Metal Plate- \n80\nx Metal- \n45\nx Wood"
+    },
+    {
+        "Name": "Arched Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nBase Stability %\n50\nPotential\n23\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n5\nxParasite Crystal- \n20\nxDark Gray Metal Plate- \n80\nx Metal- \n45\nx Wood"
+    },
+    {
+        "Name": "Arched Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nATK %\n2\nAccuracy %-\n10\nAggro %-\n5\nLong Range Damage %\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Death Hound(Lv 54)Lost TownDeath Hound(Lv 55)Lost Town",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Death Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nMaxMP\n400\nASPD %\n50\nDark Element\n1\nAttack MP Recovery\n6\nBase Stability %\n50\nAdditional Melee %\n100\nAdditional Magic %1",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell12 SpinaProcessunknown",
+        "Recipes": "20 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n30\nMaterials- \n5\nxDark Note Paper"
+    },
+    {
+        "Name": "Death Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nBase Stability %\n50\nPotential22",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell39 SpinaProcessunknown",
+        "Recipes": "20 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n30\nMaterials- \n5\nxDark Note Paper"
+    },
+    {
+        "Name": "War Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nCritical Rate\n12\nCritical Damage\n5\nAilment Resistance %-\n14\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Warmonger(Lv 60)Haotas Ravine: Deepest PartWarmonger(Lv 50)Haotas Ravine: Deepest PartWarmonger(Lv 70)Haotas Ravine: Deepest PartWarmonger(Lv 80)Haotas Ravine: Deepest PartWarmonger(Lv 100)Haotas Ravine: Deepest Part",
+        "Processing": "Sell50 SpinaProcess25 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "War Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nCritical Rate\n6\nCritical Damage\n3\nAilment Resistance %-\n7\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Beast",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n1\nxHuge Skull- \n4\nxThick Green Scale- \n20\nxStrong Vine- \n500\nx Wood"
+    },
+    {
+        "Name": "War Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n44\nBase Stability %\n50\nPotential\n23\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Beast",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n1\nxHuge Skull- \n4\nxThick Green Scale- \n20\nxStrong Vine- \n500\nx Wood"
+    },
+    {
+        "Name": "Sakura Matchlock[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n53\nMaxMP\n100\nATK %\n1\nMagic Resistance %\n10\nCritical Damage\n1\nLight Element\n1\nAttack MP Recovery\n1\nBase Stability %50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell60 SpinaProcess30 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxSakura Gemstone- \n1\nxBroken Sakura Branch- \n1\nxSakura Crystal Fragment- \n30\nx Wood"
+    },
+    {
+        "Name": "Sakura Matchlock[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n53\nMaxMP\n200\nATK %\n4\nMagic Resistance %\n10\nCritical Damage\n2\nLight Element\n1\nAttack MP Recovery\n3\nWeapon ATK\n240\nBase Stability %50",
+        "MonsterDyeMap": "Mimesia (Nightmare)(Lv 180)ABCSakura Castle Donjon: Top",
+        "Processing": "Sell60 SpinaProcess30 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Edged Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n55\nCritical Rate %\n8\nCritical Damage %\n4\nGuard Recharge %\n6\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n55\nDifficulty\n60\nMaterials- \n24\nxHard Scissor- \n16\nxTwisted Wood Stick- \n110\nx Metal- \n40\nx Wood"
+    },
+    {
+        "Name": "Edged Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n55\nBase Stability %\n50\nPotential\n24\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n55\nDifficulty\n60\nMaterials- \n24\nxHard Scissor- \n16\nxTwisted Wood Stick- \n110\nx Metal- \n40\nx Wood"
+    },
+    {
+        "Name": "Edged Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n55\nCritical Rate %\n7\nCritical Damage %\n4\nGuard Recharge %\n4\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Murin(Lv 70)Magic Waste Site: Area 1Murin(Lv 70)Magic Waste Site: Area 2Finpen(Lv 69)Navida City: Crossroad (60-80)Finpen(Lv 72)Navida City: West  (60-80)Finpen(Lv 72)Navida City: East (60-80)",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n58\nMaxMP\n200\nATK %\n2\nMagic Resistance %\n6\nShort Range Damage %\n1\nBase Stability %\n50\nAttack Range (m)6",
+        "MonsterDyeMap": "Ancient Empress Mezzaluna(Lv 64)Ancient Empress Tomb: Deepest PartAncient Empress Mezzaluna(Lv 54)Ancient Empress Tomb: Deepest PartAncient Empress Mezzaluna(Lv 74)Ancient Empress Tomb: Deepest PartAncient Empress Mezzaluna(Lv 84)Ancient Empress Tomb: Deepest PartAncient Empress Mezzaluna(Lv 104)Ancient Empress Tomb: Deepest Part",
+        "Processing": "Sell65 SpinaProcess32 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n58\nMaxMP\n150\nATK %\n2\nMagic Resistance %\n2\nLight Element\n1\nShort Range Damage %\n1\nBase Stability %\n50\nAttack Range (m)6",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell65 SpinaProcess32 Metal",
+        "Recipes": "650 SpinaSet\n1\n pcsLevel\n60\nDifficulty\n65\nMaterials- \n3\nxEmpress Medal- \n1\nxEmpress Aura- \n400\nx Wood- \n250\nx Metal"
+    },
+    {
+        "Name": "Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n58\nBase Stability %\n50\nPotential\n25\nAttack Range (m)6",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell65 SpinaProcess32 Metal",
+        "Recipes": "650 SpinaSet\n1\n pcsLevel\n60\nDifficulty\n65\nMaterials- \n3\nxEmpress Medal- \n1\nxEmpress Aura- \n400\nx Wood- \n250\nx Metal"
+    },
+    {
+        "Name": "Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n58\nMaxMP\n100\nATK %\n3\nMagic Resistance %\n4\nLight Element\n1\nShort Range Damage %\n1\nBase Stability %\n50\nAttack Range (m)6",
+        "MonsterDyeMap": "Ancient Empress Mezzaluna (Megiston 2016)(Lv 110)Event",
+        "Processing": "Sell65 SpinaProcess32 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Assault Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n64\nATK %\n2\nPhysical Pierce %\n1\nCritical Rate\n6\nShort Range Damage %\n1\nBase Stability %\n55\nAttack Range (m)7",
+        "MonsterDyeMap": "Phobos(Lv 77)Lunagent Mountain: Area 1Phobos(Lv 77)Lunagent Mountain: Area 2Phobos(Lv 77)Lunagent Mountain: Area 3",
+        "Processing": "Sell70 SpinaProcess35 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Assault Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n64\nBase Stability %\n55\nPotential\n26\nAttack Range (m)7",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell70 SpinaProcess35 Wood",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n1\nxBroken Spear- \n5\nxIron Hat Fragment- \n100\nx Wood- \n75\nx Metal"
+    },
+    {
+        "Name": "Assault Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n64\nATK %\n2\nPhysical Pierce %\n2\nCritical Rate\n6\nShort Range Damage %\n2\nBase Stability %\n55\nAttack Range (m)7",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell70 SpinaProcess35 Wood",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n1\nxBroken Spear- \n5\nxIron Hat Fragment- \n100\nx Wood- \n75\nx Metal"
+    },
+    {
+        "Name": "1st Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nDEX %\n3\nATK %\n3\nPhysical Pierce %\n9\nASPD\n300\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell75 SpinaProcess37 Wood",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n70\nMaterials- \n20\nxGold \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "1st Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nBase Stability %\n50\nPotential\n27\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Wood",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n70\nMaterials- \n20\nxGold \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nDEX %\n3\nATK %\n3\nPhysical Pierce %\n9\nASPD\n300\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell75 SpinaProcess37 Wood",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nBase Stability %\n50\nPotential\n27\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Wood",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nDEX %\n3\nATK %\n3\nPhysical Pierce %\n9\nASPD\n300\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess37 Wood",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nBase Stability %\n50\nPotential\n27\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess37 Wood",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nDEX %\n3\nATK %\n3\nPhysical Pierce %\n9\nASPD\n300\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell75 SpinaProcess37 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nBase Stability %\n50\nPotential\n27\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nDEX %\n4\nATK %\n4\nPhysical Pierce %\n8\nASPD\n1000\nBase Stability %\n50\nAbsolute Accuracy %\n2\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box V-",
+        "Processing": "Sell75 SpinaProcess37 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n75\nMaterials- \n20\nxBronze \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n69\nBase Stability %\n50\nPotential\n27\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Wood",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n75\nMaterials- \n20\nxBronze \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Scrader Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n75\nMaxMP\n200\nCritical Damage\n7\nLight resistance %-\n10\nDark Element\n1\nShort Range Damage %-\n2\nBase Stability %\n40\nAttack Range (m)8",
+        "MonsterDyeMap": "Scrader(Lv 85)Magic Waste Site: Deepest PartScrader(Lv 75)Magic Waste Site: Deepest PartScrader(Lv 95)Magic Waste Site: Deepest PartScrader(Lv 105)Magic Waste Site: Deepest PartScrader(Lv 125)Magic Waste Site: Deepest Part",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Scrader Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n75\nMaxMP\n300\nCritical Damage\n5\nLight resistance %-\n5\nDark Element\n1\nShort Range Damage %-\n1\nBase Stability %\n40\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n2\nxStrange Head Part- \n2\nxScrader Crystal- \n250\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Scrader Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n75\nBase Stability %\n40\nPotential\n28\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n2\nxStrange Head Part- \n2\nxScrader Crystal- \n250\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "6th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n80\nDEX %\n4\nPhysical Pierce %\n10\nASPD\n1000\nLong Range Damage %\n4\nBase Stability %\n50\nAbsolute Accuracy %\n8\nAttack Range (m)\n8\nMagic Device only:Stability %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box VI-",
+        "Processing": "Sell85 SpinaProcess42 Wood",
+        "Recipes": "170 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n110\nMaterials- \n20\nxBronze \n6\nth Anniv Medal- \n110\nx Wood"
+    },
+    {
+        "Name": "6th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n80\nBase Stability %\n50\nPotential\n28\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell85 SpinaProcess42 Wood",
+        "Recipes": "170 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n110\nMaterials- \n20\nxBronze \n6\nth Anniv Medal- \n110\nx Wood"
+    },
+    {
+        "Name": "Ice Gun Hail[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n80\nATK %\n3\nMATK %\n1\nWater Element\n1\nBase Stability %\n50\nAdditional Magic %\n75\nATK UP (INT %)\n50\nATK DOWN (DEX %)100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell85 SpinaProcess42 Mana",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n80\nDifficulty\n85\nMaterials- \n1\nxIce Rose- \n5\nxTwilight Dragon Wing- \n3\nxEvil Crystal Beast Claw- \n425\nx Mana"
+    },
+    {
+        "Name": "Ice Gun Hail[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n80\nBase Stability %\n50\nPotential28",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell85 SpinaProcess42 Mana",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n80\nDifficulty\n85\nMaterials- \n1\nxIce Rose- \n5\nxTwilight Dragon Wing- \n3\nxEvil Crystal Beast Claw- \n425\nx Mana"
+    },
+    {
+        "Name": "Plasma Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n82\nWind Element\n1\nLong Range Damage %\n3\nBase Stability %\n45\nMagic Barrier\n250\nAttack Range (m)8",
+        "MonsterDyeMap": "Jewel Eye(Lv 84)Spring of Rebirth: MiddleJewel Eye(Lv 84)Spring of Rebirth: Upper",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Plasma Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n82\nWind Element\n1\nLong Range Damage %\n3\nBase Stability %\n45\nMagic Barrier\n500\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n5\nxAurora Crystal- \n5\nxBlack Mushroom Crystal- \n175\nx Metal- \n25\nx Mana"
+    },
+    {
+        "Name": "Plasma Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n82\nBase Stability %\n45\nPotential\n28\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n5\nxAurora Crystal- \n5\nxBlack Mushroom Crystal- \n175\nx Metal- \n25\nx Mana"
+    },
+    {
+        "Name": "Double Strings[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n85\nATK %\n3\nFire Element\n1\nAttack MP Recovery\n4\nBase Stability %\n60\nAdditional Melee %\n50\nAttack Range (m)6",
+        "MonsterDyeMap": "Shadow Fly(Lv 94)Dark Castle: Area 1Shadow Fly(Lv 94)Dark Castle: Area 2Shadow Fly(Lv 94)Dark Castle: Area 3",
+        "Processing": "Sell90 SpinaProcess45 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Double Strings[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n85\nATK %\n3\nFire Element\n1\nAttack MP Recovery\n4\nBase Stability %\n60\nAdditional Melee %\n100\nAttack Range (m)6",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell90 SpinaProcess45 Wood",
+        "Recipes": "450 SpinaSet\n1\n pcsLevel\n85\nDifficulty\n90\nMaterials- \n4\nxGraben Crystal- \n30\nxCorroded Armor Fragment- \n150\nx Wood- \n75\nx Metal"
+    },
+    {
+        "Name": "Double Strings[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n85\nBase Stability %\n60\nPotential\n29\nAttack Range (m)6",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell90 SpinaProcess45 Wood",
+        "Recipes": "450 SpinaSet\n1\n pcsLevel\n85\nDifficulty\n90\nMaterials- \n4\nxGraben Crystal- \n30\nxCorroded Armor Fragment- \n150\nx Wood- \n75\nx Metal"
+    },
+    {
+        "Name": "Cone Horn II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n90\nDEX %\n4\nMaxMP\n200\nCritical Rate\n50\nAggro %\n10\n%\nstronger against Neutral\n25\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell90 SpinaProcess45 Medicine",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n70\nMaterials- \n5\nxPlastic Fragment- \n1\nxSacred Light Page"
+    },
+    {
+        "Name": "Cone Horn II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n90\nBase Stability %\n50\nPotential\n26\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell90 SpinaProcess45 Medicine",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n70\nMaterials- \n5\nxPlastic Fragment- \n1\nxSacred Light Page"
+    },
+    {
+        "Name": "2nd Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n93\nDEX %\n4\nATK %\n4\nPhysical Pierce %\n12\nASPD\n400\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell95 SpinaProcess47 Wood",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilpom \n2\nnd Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "2nd Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n93\nBase Stability %\n50\nPotential\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell95 SpinaProcess47 Wood",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilpom \n2\nnd Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n93\nDEX %\n4\nATK %\n4\nPhysical Pierce %\n12\nASPD\n400\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess47 Wood",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxPom \n3\nrd Anniv Medal- \n100\nx Wood"
+    },
+    {
+        "Name": "3rd Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n93\nBase Stability %\n50\nPotential\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess47 Wood",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxPom \n3\nrd Anniv Medal- \n100\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n93\nDEX %\n4\nATK %\n4\nPhysical Pierce %\n12\nASPD\n400\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell95 SpinaProcess47 Wood",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilver \n4\nth Anniv Medal- \n100\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n93\nBase Stability %\n50\nPotential\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell95 SpinaProcess47 Wood",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilver \n4\nth Anniv Medal- \n100\nx Wood"
+    },
+    {
+        "Name": "Bayonet[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n98\nCritical Rate\n10\nFire Element\n1\nShort Range Damage %\n4\nBase Stability %\n50\nAdditional Melee %\n40\nAttack Range (m)8",
+        "MonsterDyeMap": "Custos Demi Machima(Lv 105)Huge Crysta Factory: 2nd FloorCustos Demi Machima(Lv 105)Huge Crysta Factory: 3rd FloorFreeze Ant(Lv 111)Navida City: Crossroad (100-120)Freeze Ant(Lv 111)Navida City: West (100-120)",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bayonet[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n98\nCritical Rate\n12\nFire Element\n1\nShort Range Damage %\n4\nBase Stability %\n50\nAdditional Melee %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n20\nxBroken Magazine- \n20\nxTough Tentacle- \n200\nx Metal- \n50\nx Medicine"
+    },
+    {
+        "Name": "Bayonet[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n98\nBase Stability %\n50\nPotential\n31\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n20\nxBroken Magazine- \n20\nxTough Tentacle- \n200\nx Metal- \n50\nx Medicine"
+    },
+    {
+        "Name": "Bexiz Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n100\nATK %\n4\nAccuracy %-\n15\nCritical Damage\n8\n%\nstronger against Neutral\n25\nBase Stability %50",
+        "MonsterDyeMap": "Bexiz(Lv 103)Cradle of Soldier: Deepest PartBexiz(Lv 93)Cradle of Soldier: Deepest PartBexiz(Lv 113)Cradle of Soldier: Deepest PartBexiz(Lv 123)Cradle of Soldier: Deepest PartBexiz(Lv 143)Cradle of Soldier: Deepest Part",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bexiz Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n100\nATK %\n4\nAccuracy %-\n30\nCritical Damage\n8\n%\nstronger against Neutral\n25\nBase Stability %50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n4\nxBexiz Magic Cannon- \n1\nxMagic Energy Core- \n600\nx Metal- \n400\nx Wood"
+    },
+    {
+        "Name": "Bexiz Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n100\nBase Stability %\n50\nPotential31",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n4\nxBexiz Magic Cannon- \n1\nxMagic Energy Core- \n600\nx Metal- \n400\nx Wood"
+    },
+    {
+        "Name": "Bexiz Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n100\nATK %\n5\nAccuracy %-\n15\nCritical Damage\n10\n%\nstronger against Neutral\n25\nBase Stability %50",
+        "MonsterDyeMap": "Bexiz (Megiston 2017)(Lv 140)Event",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Diver's Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n100\nCritical Rate\n100\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Lalun (Summer Event Exchange)Event",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "2nd Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nDEX %\n5\nATK %\n5\nPhysical Pierce %\n15\nASPD\n500\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Wood",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n100\nDifficulty\n125\nMaterials- \n20\nxGolpom \n2\nnd Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "2nd Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nBase Stability %\n50\nPotential\n32\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Wood",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n100\nDifficulty\n125\nMaterials- \n20\nxGolpom \n2\nnd Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nDEX %\n5\nATK %\n5\nPhysical Pierce %\n15\nASPD\n500\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess55 Wood",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxBropom \n3\nrd Anniv Medal- \n150\nx Wood"
+    },
+    {
+        "Name": "3rd Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nBase Stability %\n50\nPotential\n32\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess55 Wood",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxBropom \n3\nrd Anniv Medal- \n150\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nDEX %\n5\nATK %\n5\nPhysical Pierce %\n15\nASPD\n500\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Wood",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxGold \n4\nth Anniv Medal- \n150\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nBase Stability %\n50\nPotential\n32\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Wood",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxGold \n4\nth Anniv Medal- \n150\nx Wood"
+    },
+    {
+        "Name": "5th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nDEX %\n5\nATK %\n5\nPhysical Pierce %\n10\nASPD\n1000\nBase Stability %\n50\nAbsolute Accuracy %\n4\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Wood",
+        "Recipes": "190 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n120\nMaterials- \n20\nxSilver \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nBase Stability %\n50\nPotential\n32\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Wood",
+        "Recipes": "190 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n120\nMaterials- \n20\nxSilver \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Death Gun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nMaxMP\n500\nASPD %\n75\nDark Element\n1\nAttack MP Recovery\n9\nBase Stability %\n50\nAdditional Melee %\n100\nAdditional Magic %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell13 SpinaProcessunknown",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n90\nMaterials- \n5\nxDark Note Paper- \n1\nxCutesy Cone"
+    },
+    {
+        "Name": "Death Gun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nBase Stability %\n50\nPotential31",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell40 SpinaProcessunknown",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n90\nMaterials- \n5\nxDark Note Paper- \n1\nxCutesy Cone"
+    },
+    {
+        "Name": "Metal Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nMaxHP\n500\nPhysical Resistance %\n10\nMagic Resistance %\n10\nLong Range Damage %\n4\nBase Stability %\n50\nFractional Barrier %\n10\nBarrier Cooldown %\n15\nAttack Range (m)8",
+        "MonsterDyeMap": "Assault Golem(Lv 116)Lufenas Mansion: EntranceAssault Golem(Lv 117)Lufenas Mansion: CorridorAssault Golem(Lv 118)Lufenas Mansion: LibraryCold Golem(Lv 118)Noeliel Castle: Entrance (100-120)Cold Golem(Lv 121)Noeliel Castle: 2F (100-120)",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Metal Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nMaxHP\n1500\nPhysical Resistance %\n5\nMagic Resistance %\n5\nLong Range Damage %\n4\nBase Stability %\n50\nFractional Barrier %\n10\nBarrier Cooldown %\n10\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "550 SpinaSet\n1\n pcsLevel\n105\nDifficulty\n110\nMaterials- \n20\nxStretchable Wire- \n30\nxTubular Part- \n175\nx Metal- \n100\nx Wood"
+    },
+    {
+        "Name": "Metal Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n113\nBase Stability %\n50\nPotential\n32\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "550 SpinaSet\n1\n pcsLevel\n105\nDifficulty\n110\nMaterials- \n20\nxStretchable Wire- \n30\nxTubular Part- \n175\nx Metal- \n100\nx Wood"
+    },
+    {
+        "Name": "Revolver[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n120\nASPD %-\n100\nCritical Rate\n25\nFire Element\n1\nShort Range Damage %\n4\nBase Stability %25",
+        "MonsterDyeMap": "Shining Gentleman(Lv 82)Lost Town: Square",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n128\nDEX %\n5\nPhysical Pierce %\n10\nASPD\n1000\nLong Range Damage %\n5\nBase Stability %\n50\nAbsolute Accuracy %\n10\nAttack Range (m)\n8\nMagic Device only:Stability %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Wood",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n90\nDifficulty\n145\nMaterials- \n20\nxSilver \n6\nth Anniv Medal- \n145\nx Wood"
+    },
+    {
+        "Name": "6th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n128\nBase Stability %\n50\nPotential\n34\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Wood",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n90\nDifficulty\n145\nMaterials- \n20\nxSilver \n6\nth Anniv Medal- \n145\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n128\nDEX %\n4\nATK %\n4\nStability %\n10\nPhysical Pierce %\n10\nCritical Rate\n30\nBase Stability %\n50\nReduce Dmg (Bowling) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box VII-",
+        "Processing": "Sell120 SpinaProcess60 Wood",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n140\nMaterials- \n20\nxBronze \n7\nth Anniv Medal- \n31\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n128\nBase Stability %\n50\nPotential\n34\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Wood",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n140\nMaterials- \n20\nxBronze \n7\nth Anniv Medal- \n31\nx Wood"
+    },
+    {
+        "Name": "Dia Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n128\nDEX %\n4\nMaxMP\n300\nCritical Damage\n4\nDark resistance %\n10\nLight Element\n1\nLong Range Damage %\n4\nBase Stability %50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Wood",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxCherry Blossom Crystal- \n1\nxMoist Sakura Branch- \n1\nxSakura Eater Feather- \n90\nx Wood"
+    },
+    {
+        "Name": "Cute Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n130\nAggro %-\n30\nLight Element\n1\nAttack MP Recovery\n10\nLong Range Damage %\n4\nBase Stability %50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": "80 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n3\nxMysterious Cacao- \n1\nxCacao Crystal- \n80\nx Mana"
+    },
+    {
+        "Name": "Fusee Trahison[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n130\nMaxMP\n500\nMDEF %-\n20\nCritical Rate %\n8\nCritical Damage %\n4\n%\nstronger against Earth-\n40\nWind Element\n1\nAttack MP Recovery\n3\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "York(Lv 118)Huge Crysta Factory: StorageYork(Lv 108)Huge Crysta Factory: StorageYork(Lv 128)Huge Crysta Factory: StorageYork(Lv 138)Huge Crysta Factory: StorageYork(Lv 158)Huge Crysta Factory: Storage",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Fusee Trahison[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n130\nMaxMP\n500\nMDEF %-\n20\nCritical Rate %\n8\nCritical Damage %\n4\n%\nstronger against Earth-\n40\nWind Element\n1\nAttack MP Recovery\n3\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "York (Megiston 2017)(Lv 150)AB1Event",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Fusee Trahison[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n130\nMaxMP\n300\nMDEF %-\n20\nCritical Rate %\n8\nCritical Damage %\n4\n%\nstronger against Earth-\n40\nWind Element\n1\nAttack MP Recovery\n5\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "1200 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n1\nxEnergy Core- \n4\nxMagic Cannon Part- \n1000\nx Metal- \n200\nx Medicine"
+    },
+    {
+        "Name": "Fusee Trahison[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n50\nPotential\n34\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "1200 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n1\nxEnergy Core- \n4\nxMagic Cannon Part- \n1000\nx Metal- \n200\nx Medicine"
+    },
+    {
+        "Name": "Rifled Musket[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n130\nDEX %\n4\nCritical Damage %\n4\n%\nstronger against Neutral\n25\nBase Stability %\n50\nAbsolute Accuracy %\n4\nAttack Range (m)9",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n20\nxCracked Heatproof Board- \n20\nxBroken Gun Barrel- \n270\nx Metal- \n30\nx Mana"
+    },
+    {
+        "Name": "Rifled Musket[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n50\nPotential\n34\nAttack Range (m)9",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n20\nxCracked Heatproof Board- \n20\nxBroken Gun Barrel- \n270\nx Metal- \n30\nx Mana"
+    },
+    {
+        "Name": "Rifled Musket[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n130\nDEX %\n3\nCritical Damage %\n4\n%\nstronger against Neutral\n25\nBase Stability %\n50\nAbsolute Accuracy %\n2\nAttack Range (m)9",
+        "MonsterDyeMap": "High Tigris(Lv 128)Ultimea Palace: Storage Area 1High Tigris(Lv 129)Ultimea Palace: Demi Machina Storage",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Aqua Shooter[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n135\nMATK %\n5\nAccuracy %-\n100\nCritical Rate\n100\nWater Element\n1\nShort Range Damage %\n5\nBase Stability %\n90\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Lalun (Summer Event Exchange)Event",
+        "Processing": "Sell1 SpinaProcess2 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n143\nDEX %\n6\nATK %\n6\nPhysical Pierce %\n15\nASPD\n600\nBase Stability %\n50\nAbsolute Accuracy %\n2\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess65 Wood",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxSilpom \n3\nrd Anniv Medal- \n200\nx Wood"
+    },
+    {
+        "Name": "3rd Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n143\nBase Stability %\n50\nPotential\n36\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess65 Wood",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxSilpom \n3\nrd Anniv Medal- \n200\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n143\nDEX %\n6\nATK %\n6\nPhysical Pierce %\n15\nASPD\n600\nBase Stability %\n50\nAbsolute Accuracy %\n2\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell130 SpinaProcess65 Wood",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxPom \n4\nth Anniv Medal- \n200\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n143\nBase Stability %\n50\nPotential\n36\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell130 SpinaProcess65 Wood",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxPom \n4\nth Anniv Medal- \n200\nx Wood"
+    },
+    {
+        "Name": "Rostrum Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n143\nASPD\n750\nCritical Damage %\n3\nWind Element\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "650 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n18\nxWolf Shark Fang- \n6\nxGolden Sting- \n175\nx Wood- \n150\nx Beast"
+    },
+    {
+        "Name": "Rostrum Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n143\nBase Stability %\n50\nPotential\n36\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "650 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n18\nxWolf Shark Fang- \n6\nxGolden Sting- \n175\nx Wood- \n150\nx Beast"
+    },
+    {
+        "Name": "Rostrum Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n143\nASPD\n500\nCritical Damage %\n3\nWind Element\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Haliabubo(Lv 139)Ruins of Mt. Mithurna: StylobateToy Bolg(Lv 115)Joulu House: Center (Lv 110)",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mad Sniper[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n157\nAccuracy\n100\nASPD-\n1000\nCritical Damage %\n5\nAggro %-\n1\nWater Element\n1\nShort Range Damage %-\n10\nLong Range Damage %\n5\nBase Stability %40",
+        "MonsterDyeMap": "Guignol(Lv 123)Brahe Laboratory: 4th BuildingGuignol(Lv 133)Brahe Laboratory: 4th BuildingGuignol(Lv 143)Brahe Laboratory: 4th BuildingGuignol(Lv 153)Brahe Laboratory: 4th BuildingGuignol(Lv 173)Brahe Laboratory: 4th Building",
+        "Processing": "Sell130 SpinaProcess65 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mad Sniper[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n157\nAccuracy\n10\nASPD-\n500\nCritical Damage %\n5\nAggro %-\n10\nWater Element\n1\nShort Range Damage %-\n5\nLong Range Damage %\n5\nBase Stability %40",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell130 SpinaProcess65 Mana",
+        "Recipes": "1300 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n2\nxBroken Guignol's Leg- \n1\nxSquashed Guignol's Eye- \n1000\nx Metal- \n300\nx Medicine"
+    },
+    {
+        "Name": "Mad Sniper[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n157\nBase Stability %\n40\nPotential36",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell130 SpinaProcess65 Mana",
+        "Recipes": "1300 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n2\nxBroken Guignol's Leg- \n1\nxSquashed Guignol's Eye- \n1000\nx Metal- \n300\nx Medicine"
+    },
+    {
+        "Name": "Mad Sniper[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n157\nAccuracy\n1\nASPD-\n750\nCritical Damage %\n6\nAggro %-\n20\nWind Element\n1\nShort Range Damage %-\n15\nLong Range Damage %\n6\nBase Stability %40",
+        "MonsterDyeMap": "Guignol (Megiston 2018)(Lv 150)Event",
+        "Processing": "Sell130 SpinaProcess65 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Achti Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n159\nMaxMP\n100\nATK %\n5\nCritical Rate\n25\nLight resistance %\n10\nDark Element\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n135\nDifficulty\n140\nMaterials- \n15\nxLithograph of Age of Gods- \n20\nxPurple Fin- \n250\nx Beast- \n100\nx Wood"
+    },
+    {
+        "Name": "Achti Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n159\nBase Stability %\n50\nPotential\n37\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n135\nDifficulty\n140\nMaterials- \n15\nxLithograph of Age of Gods- \n20\nxPurple Fin- \n250\nx Beast- \n100\nx Wood"
+    },
+    {
+        "Name": "Achti Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n159\nMaxMP\n200\nATK %\n5\nCritical Rate\n20\nLight resistance %\n5\nDark Element\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Death Hound(Lv 152)Dark Dragon Shrine: LowerDeath Hound(Lv 153)Dark Dragon Shrine: UpperIceberg(Lv 160)Noeliel Castle: B1F (150-170)Iceberg(Lv 160)Noeliel Castle: B2F (150-170)Iceberg(Lv 160)Noeliel Castle: B3F (150-170)Iceberg(Lv 162)Noeliel Castle: B2F (150-170)Iceberg(Lv 162)Noeliel Castle: B3F (150-170)",
+        "Processing": "Sell140 SpinaProcess70 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Maton Railgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n159\nSTR %\n10\nATK %\n5\nAccuracy %\n10\nCSPD\n500\nBase Stability %\n50\nAbsolute Accuracy %5",
+        "MonsterDyeMap": "Maton Sword(Lv 133)Buried Tower: EntranceMaton Sword(Lv 143)Buried Tower: EntranceMaton Sword(Lv 153)Buried Tower: EntranceMaton Sword(Lv 163)Buried Tower: EntranceMaton Sword(Lv 183)Buried Tower: Entrance",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Maton Railgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n159\nSTR %\n10\nATK %\n5\nAccuracy %\n20\nCSPD\n250\nBase Stability %\n50\nAbsolute Accuracy %3",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxBroken Booster- \n1\nxSlebinian Magic Torch- \n950\nx Metal- \n500\nx Medicine"
+    },
+    {
+        "Name": "Maton Railgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n159\nBase Stability %\n50\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxBroken Booster- \n1\nxSlebinian Magic Torch- \n950\nx Metal- \n500\nx Medicine"
+    },
+    {
+        "Name": "Golden Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n165\nMaxHP\n1000\nATK %\n6\nMDEF %\n20\nBase Stability %\n50\nMagic Barrier\n1000\nAdditional Melee %100",
+        "MonsterDyeMap": "Felicitoad(Lv 140)Sofya City: Government OfficeFelicitoad(Lv 150)Sofya City: Government OfficeFelicitoad(Lv 160)Sofya City: Government OfficeFelicitoad(Lv 170)Sofya City: Government OfficeFelicitoad(Lv 190)Sofya City: Government Office",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Bowgun VII[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n167\nDEX %\n6\nATK %\n6\nPhysical Pierce %\n15\nASPD\n700\nBase Stability %\n50\nAbsolute Accuracy %\n4\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess72 Wood",
+        "Recipes": "5000 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxGolpom \n3\nrd Anniv Medal- \n250\nx Wood"
+    },
+    {
+        "Name": "3rd Anniv Bowgun VII[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n167\nBase Stability %\n50\nPotential\n38\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess72 Wood",
+        "Recipes": "5000 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxGolpom \n3\nrd Anniv Medal- \n250\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun VII[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n167\nDEX %\n6\nATK %\n6\nPhysical Pierce %\n15\nASPD\n700\nBase Stability %\n50\nAbsolute Accuracy %\n4\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Wood",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxBropom \n4\nth Anniv Medal- \n250\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun VII[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n167\nBase Stability %\n50\nPotential\n38\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Wood",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxBropom \n4\nth Anniv Medal- \n250\nx Wood"
+    },
+    {
+        "Name": "5th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n167\nDEX %\n6\nATK %\n6\nPhysical Pierce %\n12\nASPD\n1000\nBase Stability %\n50\nAbsolute Accuracy %\n6\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Wood",
+        "Recipes": "260 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n155\nMaterials- \n20\nxGold \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n167\nBase Stability %\n50\nPotential\n38\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Wood",
+        "Recipes": "260 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n155\nMaterials- \n20\nxGold \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nDEX %\n6\nPhysical Pierce %\n15\nASPD\n1000\nLong Range Damage %\n6\nBase Stability %\n50\nAbsolute Accuracy %\n12\nReduce Dmg (Bowling) %\n2\nAttack Range (m)\n8\nMagic Device only:Stability %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n175\nMaterials- \n20\nxGold \n6\nth Anniv Medal- \n175\nx Wood"
+    },
+    {
+        "Name": "6th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nBase Stability %\n50\nPotential\n39\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n175\nMaterials- \n20\nxGold \n6\nth Anniv Medal- \n175\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nDEX %\n6\nATK %\n6\nStability %\n11\nPhysical Pierce %\n12\nCritical Rate\n30\nBase Stability %\n50\nReduce Dmg (Bowling) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n77\nDifficulty\n170\nMaterials- \n20\nxSilver \n7\nth Anniv Medal- \n107\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nBase Stability %\n50\nPotential\n39\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n77\nDifficulty\n170\nMaterials- \n20\nxSilver \n7\nth Anniv Medal- \n107\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nDEX %\n6\nATK %\n6\nPhysical Pierce %\n15\nDodge\n150\nCritical Rate\n35\nBase Stability %\n50\nReduce Dmg (Bowling) %\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "280 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n160\nMaterials- \n20\nxBronze \n8\nth Anniv Medal- \n30\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nBase Stability %\n50\nPotential\n39\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "280 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n160\nMaterials- \n20\nxBronze \n8\nth Anniv Medal- \n30\nx Wood"
+    },
+    {
+        "Name": "Fluck Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nPhysical Pierce %\n3\nCritical Damage\n9\nAggro %-\n75\nBase Stability %\n50\nReduce Dmg (Bullet) %\n15\nReduce Dmg (Bowling) %15",
+        "MonsterDyeMap": "Mom Fluck(Lv 141)Forgotten CaveMom Fluck(Lv 151)Forgotten CaveMom Fluck(Lv 161)Forgotten CaveMom Fluck(Lv 171)Forgotten CaveMom Fluck(Lv 191)Forgotten Cave",
+        "Processing": "Sell150 SpinaProcess75 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Fluck Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nPhysical Pierce %\n6\nCritical Damage\n12\nAggro %-\n25\nBase Stability %\n50\nReduce Dmg (Bullet) %\n15\nReduce Dmg (Bowling) %15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Beast",
+        "Recipes": "1500 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n2\nxMom Fluck Web- \n1\nxFluck Egg- \n1250\nx Beast- \n250\nx Wood"
+    },
+    {
+        "Name": "Fluck Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nBase Stability %\n50\nPotential39",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Beast",
+        "Recipes": "1500 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n2\nxMom Fluck Web- \n1\nxFluck Egg- \n1250\nx Beast- \n250\nx Wood"
+    },
+    {
+        "Name": "Natra Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nDEX %\n3\nASPD %-\n15\nEarth Element\n1\nLong Range Damage %\n6\nBase Stability %\n50\nAttack Range (m)10",
+        "MonsterDyeMap": "Nectivorider(Lv 156)Morthell Swell: Area 1Nectivorider(Lv 157)Morthell Swell: Area 2Nectivorider(Lv 158)Morthell Swell: Area 3Toy Bolg(Lv 160)Joulu House: Depot (Lv 150)",
+        "Processing": "Sell150 SpinaProcess65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Natra Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nDEX %\n4\nASPD %-\n20\nEarth Element\n1\nLong Range Damage %\n6\nBase Stability %\n50\nAttack Range (m)10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "750 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n20\nxOld Metal Part- \n15\nxBroken Flame Arrester- \n250\nx Wood- \n125\nx Metal"
+    },
+    {
+        "Name": "Natra Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nBase Stability %\n50\nPotential\n39\nAttack Range (m)10",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "750 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n20\nxOld Metal Part- \n15\nxBroken Flame Arrester- \n250\nx Wood- \n125\nx Metal"
+    },
+    {
+        "Name": "Sakura Lantern Rifle[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n176\nMaxMP\n500\nCritical Damage\n6\n%\nstronger against Earth\n25\nAilment Resistance %\n5\nEarth Element\n1\nBase Stability %\n50\nAdditional Melee %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Wood",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxSakura Cloud Pyroxene- \n1\nxDusky Sakura Branch- \n1\nxSakura Petal- \n60\nx Wood"
+    },
+    {
+        "Name": "Snow Bear Toy Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n177\nATK %\n5\n%\nstronger against Fire\n5\n%\nstronger against Wind\n5\nMotion Speed %\n5\nBase Stability %\n50\nMagic Device only:MATK %5",
+        "MonsterDyeMap": "Snow Bear BoxSnowball Mini Game Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cone Horn III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n180\nDEX %\n6\nMaxMP\n300\nCritical Rate\n75\nAggro %\n15\n%\nstronger against Neutral\n25\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Medicine",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n130\nMaterials- \n5\nxPlastic Fragment- \n1\nxDark Page"
+    },
+    {
+        "Name": "Cone Horn III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n180\nBase Stability %\n50\nPotential\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Medicine",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n130\nMaterials- \n5\nxPlastic Fragment- \n1\nxDark Page"
+    },
+    {
+        "Name": "Lil Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n183\nATK %\n6\nAccuracy\n100\nCritical Rate\n25\nAggro %-\n15\nFire Element\n1\nBase Stability %\n45\nAttack Range (m)9",
+        "MonsterDyeMap": "Venena Coenubia (YK Wifey)(Lv 140)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 150)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 160)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 170)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 190)Ultimea Palace: Throne",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n183\nATK %\n6\nAccuracy\n300\nCritical Rate\n20\nAggro %-\n10\nFire Element\n1\nBase Stability %\n45\nAttack Range (m)9",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxLil Accessory Chip- \n3\nxLil Empress Crystal- \n800\nx Metal- \n650\nx Mana"
+    },
+    {
+        "Name": "Lil Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n183\nBase Stability %\n45\nPotential\n38\nAttack Range (m)9",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxLil Accessory Chip- \n3\nxLil Empress Crystal- \n800\nx Metal- \n650\nx Mana"
+    },
+    {
+        "Name": "4th Anniv Bowgun VIII[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n193\nDEX %\n6\nATK %\n6\nPhysical Pierce %\n15\nASPD\n800\nBase Stability %\n50\nAbsolute Accuracy %\n6\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Wood",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxSilpom \n4\nth Anniv Medal- \n300\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun VIII[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n193\nBase Stability %\n50\nPotential\n41\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Wood",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxSilpom \n4\nth Anniv Medal- \n300\nx Wood"
+    },
+    {
+        "Name": "5th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n193\nDEX %\n6\nATK %\n6\nPhysical Pierce %\n14\nASPD\n1000\nBase Stability %\n50\nAbsolute Accuracy %\n8\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Wood",
+        "Recipes": "290 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxPom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n193\nBase Stability %\n50\nPotential\n41\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Wood",
+        "Recipes": "290 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxPom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Triangulum Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n193\nCSPD\n400\nCritical Damage\n6\nLight Element\n1\nAttack MP Recovery\n8\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Swirly Whirly(Lv 173)Deltzon Research Zone: Area 1Swirly Whirly(Lv 174)Deltzon Research Zone: Area 2Swirly Whirly(Lv 175)Deltzon Research Zone: Area 3",
+        "Processing": "Sell160 SpinaProcess80 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Triangulum Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n193\nCSPD\n500\nCritical Damage\n6\nLight Element\n1\nAttack MP Recovery\n10\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Wood",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n155\nDifficulty\n160\nMaterials- \n5\nxSpiky Shoulder Pads- \n5\nxFloating Sphere- \n300\nx Wood- \n100\nx Beast"
+    },
+    {
+        "Name": "Triangulum Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n193\nBase Stability %\n50\nPotential\n41\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Wood",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n155\nDifficulty\n160\nMaterials- \n5\nxSpiky Shoulder Pads- \n5\nxFloating Sphere- \n300\nx Wood- \n100\nx Beast"
+    },
+    {
+        "Name": "Death Gun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n212\nMaxMP\n600\nASPD %\n100\nDark Element\n1\nAttack MP Recovery\n12\nBase Stability %\n50\nAdditional Melee %\n100\nAdditional Magic %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell14 SpinaProcessunknown",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n150\nMaterials- \n5\nxDark Note Paper- \n1\nxKinaco's Photo"
+    },
+    {
+        "Name": "Death Gun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n212\nBase Stability %\n50\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell41 SpinaProcessunknown",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n150\nMaterials- \n5\nxDark Note Paper- \n1\nxKinaco's Photo"
+    },
+    {
+        "Name": "Porcupine Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n212\nMaxMP\n400\nATK %\n6\nFire resistance %-\n25\nEarth Element\n1\nAttack MP Recovery\n2\nBase Stability %\n60\nReflect %\n30\nAdditional Melee %\n40\nReduce Dmg (Floor) %\n50\nAttack Range (m)7",
+        "MonsterDyeMap": "Tuscog(Lv 159)Eryldan Street: Near the Forest of EinTuscog(Lv 169)Eryldan Street: Near the Forest of EinTuscog(Lv 179)Eryldan Street: Near the Forest of EinTuscog(Lv 189)Eryldan Street: Near the Forest of EinTuscog(Lv 209)Eryldan Street: Near the Forest of EinTuscog (Megiston 2021)(Lv 200)Event",
+        "Processing": "Sell170 SpinaProcess85 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Porcupine Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n212\nMaxMP\n400\nATK %\n6\nFire resistance %-\n25\nEarth Element\n1\nAttack MP Recovery\n2\nBase Stability %\n60\nReflect %\n50\nAdditional Melee %\n40\nReduce Dmg (Floor) %\n30\nAttack Range (m)7",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell170 SpinaProcess85 Beast",
+        "Recipes": "1700 SpinaSet\n1\n pcsLevel\n165\nDifficulty\n170\nMaterials- \n1\nxHeinous Gaze- \n1\nxMottled Quill- \n1200\nx Beast- \n500\nx Wood"
+    },
+    {
+        "Name": "Porcupine Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n212\nBase Stability %\n60\nPotential\n42\nAttack Range (m)7",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell170 SpinaProcess85 Beast",
+        "Recipes": "1700 SpinaSet\n1\n pcsLevel\n165\nDifficulty\n170\nMaterials- \n1\nxHeinous Gaze- \n1\nxMottled Quill- \n1200\nx Beast- \n500\nx Wood"
+    },
+    {
+        "Name": "Riverine Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n212\nATK %\n6\nFire resistance %\n10\nWater Element\n1\nBase Stability %\n50\nTumble Unavailable\n1\nAnticipate %\n20\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n165\nDifficulty\n170\nMaterials- \n5\nxFish Spirit Bone- \n15\nxEvil Spirit Horns- \n300\nx Wood- \n100\nx Beast"
+    },
+    {
+        "Name": "Riverine Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n212\nBase Stability %\n50\nPotential\n42\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n165\nDifficulty\n170\nMaterials- \n5\nxFish Spirit Bone- \n15\nxEvil Spirit Horns- \n300\nx Wood- \n100\nx Beast"
+    },
+    {
+        "Name": "Riverine Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n212\nATK %\n6\nFire resistance %\n10\nWater Element\n1\nBase Stability %\n50\nTumble Unavailable\n1\nAnticipate %\n10\nAttack Range (m)8",
+        "MonsterDyeMap": "Strider(Lv 174)Nezim Wetlands",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pepo Magnum[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n220\nDEX %\n7\nATK %\n7\nAccuracy %-\n20\nShort Range Damage %\n7\nBase Stability %\n75\nShield only:MaxHP4000",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell390 SpinaProcess190 Medicine",
+        "Recipes": "333 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n15\nxTrick Topaz"
+    },
+    {
+        "Name": "4th Anniv Bowgun IX[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nDEX %\n7\nATK %\n7\nPhysical Pierce %\n15\nASPD\n900\nBase Stability %\n50\nAbsolute Accuracy %\n8\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxGolpom \n4\nth Anniv Medal- \n350\nx Wood"
+    },
+    {
+        "Name": "4th Anniv Bowgun IX[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nBase Stability %\n50\nPotential\n43\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxGolpom \n4\nth Anniv Medal- \n350\nx Wood"
+    },
+    {
+        "Name": "5th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nDEX %\n7\nATK %\n7\nPhysical Pierce %\n16\nASPD\n1000\nBase Stability %\n50\nAbsolute Accuracy %\n10\nReduce Dmg (Bowling) %\n2\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "320 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxBropom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nBase Stability %\n50\nPotential\n43\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "320 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxBropom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nDEX %\n7\nPhysical Pierce %\n15\nASPD\n1000\nLong Range Damage %\n7\nBase Stability %\n50\nAbsolute Accuracy %\n14\nReduce Dmg (Bowling) %\n4\nAttack Range (m)\n8\nMagic Device only:Stability %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n200\nMaterials- \n20\nxBropom \n6\nth Anniv Medal- \n200\nx Wood"
+    },
+    {
+        "Name": "6th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nBase Stability %\n50\nPotential\n43\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n200\nMaterials- \n20\nxBropom \n6\nth Anniv Medal- \n200\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nDEX %\n7\nATK %\n7\nStability %\n12\nPhysical Pierce %\n14\nCritical Rate\n30\nBase Stability %\n50\nReduce Dmg (Bowling) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n195\nMaterials- \n20\nxGold \n7\nth Anniv Medal- \n175\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nBase Stability %\n50\nPotential\n43\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n195\nMaterials- \n20\nxGold \n7\nth Anniv Medal- \n175\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nDEX %\n7\nATK %\n7\nPhysical Pierce %\n15\nDodge\n175\nCritical Rate\n35\nBase Stability %\n50\nReduce Dmg (Bowling) %\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "330 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n185\nMaterials- \n20\nxSilver \n8\nth Anniv Medal- \n140\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nBase Stability %\n50\nPotential\n43\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Wood",
+        "Recipes": "330 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n185\nMaterials- \n20\nxSilver \n8\nth Anniv Medal- \n140\nx Wood"
+    },
+    {
+        "Name": "9th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nDEX %\n6\nATK %\n7\nASPD %\n50\nCritical Rate\n40\nBase Stability %\n50\nAdditional Melee %\n100\nReduce Dmg (Bowling) %\n40\nMagic Device only:CSPD %\n25\nASPD %-25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n221\nBase Stability %\n50\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Double Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n222\nASPD %-\n100\nCritical Damage\n10\nShort Range Damage %\n10\nBase Stability %\n75\nAdditional Melee %\n100\nAttack Range (m)4",
+        "MonsterDyeMap": "Altoblepas(Lv 174)Rokoko Plains",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Heat Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n231\nASPD\n100\n%\nstronger against Earth\n5\nLong Range Damage %\n7\nBase Stability %\n50\nATK UP (AGI %)\n90\nAttack Range (m)8",
+        "MonsterDyeMap": "Flystida(Lv 187)Nov Diela Area 1Flystida(Lv 188)Nov Diela Area 2Flystida(Lv 189)Nov Diela Area 3",
+        "Processing": "Sell180 SpinaProcess90 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Heat Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n231\nASPD %\n110\n%\nstronger against Earth\n5\nLong Range Damage %\n7\nBase Stability %\n50\nATK UP (AGI %)\n100\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell180 SpinaProcess90 Metal",
+        "Recipes": "900 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n180\nMaterials- \n5\nxBold Gaze- \n15\nxTurbid Particle- \n300\nx Metal- \n150\nx Beast"
+    },
+    {
+        "Name": "Heat Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n231\nBase Stability %\n50\nPotential\n44\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell180 SpinaProcess90 Metal",
+        "Recipes": "900 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n180\nMaterials- \n5\nxBold Gaze- \n15\nxTurbid Particle- \n300\nx Metal- \n150\nx Beast"
+    },
+    {
+        "Name": "5th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n240\nDEX %\n7\nATK %\n7\nPhysical Pierce %\n18\nASPD\n1000\nBase Stability %\n50\nAbsolute Accuracy %\n12\nReduce Dmg (Bowling) %\n4\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell185 SpinaProcess92 Wood",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n200\nMaterials- \n20\nxSilpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n240\nBase Stability %\n50\nPotential\n45\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell185 SpinaProcess92 Wood",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n200\nMaterials- \n20\nxSilpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Quasar Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n240\nSTR %\n5\nMaxMP\n500\nATK %\n7\nASPD\n750\nCritical Rate\n10\nLong Range Damage %\n6\nBase Stability %50",
+        "MonsterDyeMap": "Demonic Quasar(Lv 175)Morga Wasteland: Deepest Area",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Quasar Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n240\nSTR %\n5\nMaxMP\n500\nATK %\n7\nASPD\n250\nCritical Rate\n30\nLong Range Damage %\n6\nBase Stability %50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "1850 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n185\nMaterials- \n2\nxOtherworld Rubble- \n1\nxDemon Mask- \n1350\nx Metal- \n500\nx Mana"
+    },
+    {
+        "Name": "Quasar Barrel[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n240\nBase Stability %\n50\nPotential45",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "1850 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n185\nMaterials- \n2\nxOtherworld Rubble- \n1\nxDemon Mask- \n1350\nx Metal- \n500\nx Mana"
+    },
+    {
+        "Name": "Black Shadow Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n244\nPhysical Pierce %\n20\nAccuracy %\n40\nDark Element\n1\nAttack MP Recovery\n30\nBase Stability %\n50\nAdditional Melee %\n100\nAdditional Magic %\n50\nAttack Range (m)12",
+        "MonsterDyeMap": "Black Shadow(Lv 189)Rokoko City RuinsBlack Shadow(Lv 199)Rokoko City RuinsBlack Shadow(Lv 209)Rokoko City RuinsBlack Shadow(Lv 219)Rokoko City RuinsBlack Shadow(Lv 239)Rokoko City RuinsBlack Shadow (Megiston 2021)(Lv 210)Event",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Black Shadow Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n244\nPhysical Pierce %\n20\nAccuracy %\n20\nDark Element\n1\nAttack MP Recovery\n20\nBase Stability %\n50\nAdditional Melee %\n150\nAdditional Magic %\n100\nAttack Range (m)12",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n230\nMaterials- \n3\nxBlack Shadow Cape Fragment- \n1\nxBlack Shadow Crystal- \n1500\nx Metal- \n500\nx Wood"
+    },
+    {
+        "Name": "Black Shadow Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n244\nBase Stability %\n50\nPotential\n47\nAttack Range (m)12",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": "N/ASet\n1\n pcsLevel\n195\nDifficulty\n230\nMaterials- \n3\nxBlack Shadow Cape Fragment- \n1\nxBlack Shadow Crystal- \n1500\nx Metal- \n500\nx Wood"
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n245\nAccuracy\n100\nASPD\n1000\nCritical Rate\n100\nLight Element\n1\nBase Stability %\n50\nAnticipate %\n10\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Delight Gun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n250\nMaxMP\n1000\nAccuracy\n15\nWater Element\n1\nBase Stability %\n50\nAttack Range (m)7",
+        "MonsterDyeMap": "Handmade Cookie (Coffee)(Lv 190)El Scaro",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Repeating Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n250\nASPD %\n40\n%\nstronger against Neutral\n25\nBase Stability %\n50\nAdditional Melee %\n90\nAttack Range (m)\n8\nArrow only:Additional Melee %100",
+        "MonsterDyeMap": "Tackal(Lv 199)Prime Ramus: Area 1Tackal(Lv 200)Prime Ramus: Area 2Tackal(Lv 201)Prime Ramus: Area 3Illuminator(Lv 197)Illuminare City: Route 1 (190-210)Illuminator(Lv 199)Illuminare City: Route 1 (190-210)Illuminator(Lv 199)Illuminare City: Route 2 (190-210)Illuminator(Lv 199)Illuminare City: Route 3 (190-210)",
+        "Processing": "Sell190 SpinaProcess95 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Repeating Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n250\nASPD %\n50\n%\nstronger against Neutral\n25\nBase Stability %\n50\nAdditional Melee %\n100\nAttack Range (m)\n8\nArrow only:Additional Melee %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell190 SpinaProcess95 Wood",
+        "Recipes": "950 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n190\nMaterials- \n20\nxElectrified Tail- \n20\nxBloody Claw- \n300\nx Wood- \n175\nx Metal"
+    },
+    {
+        "Name": "Repeating Crossbow[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n250\nBase Stability %\n50\nPotential\n45\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell190 SpinaProcess95 Wood",
+        "Recipes": "950 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n190\nMaterials- \n20\nxElectrified Tail- \n20\nxBloody Claw- \n300\nx Wood- \n175\nx Metal"
+    },
+    {
+        "Name": "5th Anniv Bowgun VII[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nDEX %\n7\nATK %\n7\nPhysical Pierce %\n20\nASPD\n1000\nBase Stability %\n50\nAbsolute Accuracy %\n14\nReduce Dmg (Bowling) %\n6\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Wood",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n210\nMaterials- \n20\nxGolpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Bowgun VII[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nBase Stability %\n50\nPotential\n46\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Wood",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n210\nMaterials- \n20\nxGolpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nDEX %\n7\nPhysical Pierce %\n20\nASPD\n1000\nLong Range Damage %\n7\nBase Stability %\n50\nAbsolute Accuracy %\n14\nReduce Dmg (Bowling) %\n6\nAttack Range (m)\n8\nMagic Device only:Stability %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Wood",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n220\nMaterials- \n20\nxSilpom \n6\nth Anniv Medal- \n220\nx Wood"
+    },
+    {
+        "Name": "6th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nBase Stability %\n50\nPotential\n46\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Wood",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n220\nMaterials- \n20\nxSilpom \n6\nth Anniv Medal- \n220\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nDEX %\n7\nATK %\n7\nStability %\n13\nPhysical Pierce %\n16\nCritical Rate\n30\nBase Stability %\n50\nReduce Dmg (Bowling) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Wood",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n215\nMaterials- \n20\nxBropom \n7\nth Anniv Medal- \n205\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nBase Stability %\n50\nPotential\n46\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Wood",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n215\nMaterials- \n20\nxBropom \n7\nth Anniv Medal- \n205\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nDEX %\n7\nATK %\n7\nPhysical Pierce %\n20\nDodge\n195\nCritical Rate\n35\nBase Stability %\n50\nReduce Dmg (Bowling) %\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Wood",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n170\nDifficulty\n205\nMaterials- \n20\nxGold \n8\nth Anniv Medal- \n200\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nBase Stability %\n50\nPotential\n46\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Wood",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n170\nDifficulty\n205\nMaterials- \n20\nxGold \n8\nth Anniv Medal- \n200\nx Wood"
+    },
+    {
+        "Name": "9th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nDEX %\n7\nATK %\n7\nASPD %\n60\nCritical Rate\n40\nBase Stability %\n50\nAdditional Melee %\n120\nReduce Dmg (Bowling) %\n40\nMagic Device only:CSPD %\n30\nASPD %-30",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Bowgun II[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nBase Stability %\n50\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nATK %\n7\nCritical Rate\n25\nAggro %-\n30\nFire Element\n1\n%\nstronger against Neutral\n25\nBase Stability %\n45\nAttack Range (m)\n10\nMagic Device only:MATK %7",
+        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)Neo PlastidaVenena Metacoenubia(Lv 195)Neo PlastidaVenena Metacoenubia(Lv 205)Neo PlastidaVenena Metacoenubia(Lv 215)Neo PlastidaVenena Metacoenubia(Lv 235)Neo Plastida",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nATK %\n7\nCritical Rate\n20\nAggro %-\n40\nFire Element\n1\n%\nstronger against Neutral\n10\nBase Stability %\n45\nAttack Range (m)\n10\nMagic Device only:MATK %7",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Mana",
+        "Recipes": "1950 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n195\nMaterials- \n2\nxEmpress Ogre Accessory Chip- \n2\nxEmpress Ogre Crystal- \n1200\nx Wood- \n750\nx Mana"
+    },
+    {
+        "Name": "Demon Empress Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n261\nBase Stability %\n45\nPotential\n46\nAttack Range (m)10",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Mana",
+        "Recipes": "1950 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n195\nMaterials- \n2\nxEmpress Ogre Accessory Chip- \n2\nxEmpress Ogre Crystal- \n1200\nx Wood- \n750\nx Mana"
+    },
+    {
+        "Name": "Bayonette[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n272\nPhysical Pierce %\n30\nAccuracy %\n25\nCritical Rate %\n40\n%\nstronger against Neutral\n25\nBase Stability %\n50\nAdditional Melee %\n50\nBarrier Cooldown %\n25\nAttack Range (m)8",
+        "MonsterDyeMap": "Usasama the Necromancer(Lv 215)Event",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Klug Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n272\nMaxMP\n400\nATK %\n8\nCSPD %\n60\n%\nstronger against Dark\n5\nLight Element\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Catagon(Lv 214)Boma Moja: Area 1Catagon(Lv 216)Boma Moja: Area 2Catagon(Lv 217)Boma Moja: Area 3",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Klug Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n272\nMaxMP\n500\nATK %\n8\nCSPD %\n70\n%\nstronger against Dark\n5\nLight Element\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n200\nMaterials- \n5\nxNimble Tail- \n30\nxSimple Accessory Piece- \n250\nx Metal- \n250\nx Wood"
+    },
+    {
+        "Name": "Klug Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n272\nBase Stability %\n50\nPotential\n47\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n200\nMaterials- \n5\nxNimble Tail- \n30\nxSimple Accessory Piece- \n250\nx Metal- \n250\nx Wood"
+    },
+    {
+        "Name": "Mimic Axe[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n272\nPhysical Pierce %\n30\nShort Range Damage %\n20\nLong Range Damage %-\n90\n%\nstronger against Neutral40",
+        "MonsterDyeMap": "Sunken Treasure-Sunken Treasure-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Yozakura Handgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n272\nDEX %\n2\nMaxHP\n4000\nAccuracy\n300\n%\nstronger against Dark\n10\nLight Element\n1\nLong Range Damage %\n6\nBase Stability %\n50\nReduce Dmg (Meteor) %\n30\nDagger only:Stability %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxLush Sake Cup- \n3\nxBroken Yozakura Twig- \n5\nxAlcoholic Petal- \n120\nx Metal"
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n274\nMaxHP\n5000\nMaxMP\n100\nATK %\n7\nFire resistance %\n30\nWater Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n274\nMaxHP\n5000\nMaxMP\n100\nATK %\n7\nDark resistance %\n30\nLight Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n274\nMaxMP\n400\nATK %\n8\nMATK %\n8\nMagic Pierce %\n20\nFire resistance %\n20\nWater Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n20\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n274\nMaxMP\n400\nATK %\n8\nMATK %\n8\nMagic Pierce %\n20\nDark resistance %\n20\nLight Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n20\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n274\nMaxHP\n1000\nMaxMP\n300\nDark resistance %\n5\nLight Element\n1\nLong Range Damage %\n2\nBase Stability %\n50\nReduce Dmg (Bullet) %\n5\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n274\nMaxHP\n1000\nMaxMP\n300\nFire resistance %\n5\nWater Element\n1\nLong Range Damage %\n2\nBase Stability %\n50\nReduce Dmg (Bullet) %\n5\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n274\nDEX %\n4\nMaxHP\n3000\nMaxMP\n200\nATK %\n8\nDark resistance %\n10\nLight Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n10\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n274\nDEX %\n4\nMaxHP\n3000\nMaxMP\n200\nATK %\n8\nFire resistance %\n10\nWater Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n10\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dr. Leonardo's Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n277\nMaxHP\n3000\nMaxMP\n200\nASPD\n1000\nCritical Rate\n75\nBase Stability %\n75\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Pelulu (Eagle Talon Collab Event)Eagle Talon Collab Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nDEX %\n8\nPhysical Pierce %\n20\nASPD\n1000\nLong Range Damage %\n8\nBase Stability %\n50\nAbsolute Accuracy %\n16\nReduce Dmg (Bowling) %\n8\nAttack Range (m)\n8\nMagic Device only:Stability %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Wood",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n235\nMaterials- \n20\nxGolpom \n6\nth Anniv Medal- \n235\nx Wood"
+    },
+    {
+        "Name": "6th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nBase Stability %\n50\nPotential\n49\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Wood",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n235\nMaterials- \n20\nxGolpom \n6\nth Anniv Medal- \n235\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nDEX %\n8\nATK %\n8\nStability %\n14\nPhysical Pierce %\n18\nCritical Rate\n30\nBase Stability %\n50\nReduce Dmg (Bowling) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Wood",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n230\nMaterials- \n20\nxSilpom \n7\nth Anniv Medal- \n220\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nBase Stability %\n50\nPotential\n49\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Wood",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n230\nMaterials- \n20\nxSilpom \n7\nth Anniv Medal- \n220\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nDEX %\n8\nATK %\n8\nPhysical Pierce %\n20\nDodge\n210\nCritical Rate\n35\nBase Stability %\n50\nReduce Dmg (Bowling) %\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Wood",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n220\nMaterials- \n20\nxBropom \n8\nth Anniv Medal- \n220\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nBase Stability %\n50\nPotential\n49\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Wood",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n220\nMaterials- \n20\nxBropom \n8\nth Anniv Medal- \n220\nx Wood"
+    },
+    {
+        "Name": "9th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nDEX %\n8\nATK %\n8\nASPD %\n70\nCritical Rate\n40\nBase Stability %\n50\nAdditional Melee %\n140\nReduce Dmg (Bowling) %\n40\nMagic Device only:CSPD %\n35\nASPD %-35",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Bowgun III[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nBase Stability %\n50\nPotential49",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anchor Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nVIT %\n8\nMaxHP %\n25\nPhysical Resistance %\n15\nAggro %\n15\nWind Element\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "Disaur(Lv 230)Boma Konda: Underground Area",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anchor Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nVIT %\n8\nMaxHP %\n20\nPhysical Resistance %\n20\nAggro %\n20\nWind Element\n1\nBase Stability %\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "1050 SpinaSet\n1\n pcsLevel\n205\nDifficulty\n210\nMaterials- \n15\nxSharp Stem- \n10\nxSmall Wing- \n400\nx Metal- \n125\nx Wood"
+    },
+    {
+        "Name": "Anchor Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nBase Stability %\n50\nPotential\n49\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "1050 SpinaSet\n1\n pcsLevel\n205\nDifficulty\n210\nMaterials- \n15\nxSharp Stem- \n10\nxSmall Wing- \n400\nx Metal- \n125\nx Wood"
+    },
+    {
+        "Name": "Beastlord Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nBase Stability %\n50\nPotential48",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "N/ASet\n1\n pcsLevel\n200\nDifficulty\n203\nMaterials- \n1\nxZega VI- \n1\nxOrichalcum"
+    },
+    {
+        "Name": "Zyvio Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nMaxHP\n3000\nPhysical Pierce %\n16\nPhysical Resistance %\n15\nAccuracy\n160\nFire resistance %-\n20\nWater Element\n1\nBase Stability %\n50\nAnticipate %\n16\nAttack Range (m)\n8\nDagger only:Stability %\n5\nASPD500",
+        "MonsterDyeMap": "Junior Dragon Zyvio(Lv 214)Storage Yard: ArenaJunior Dragon Zyvio(Lv 224)Storage Yard: ArenaJunior Dragon Zyvio(Lv 234)Storage Yard: ArenaJunior Dragon Zyvio(Lv 254)Storage Yard: Arena",
+        "Processing": "Sell210 SpinaProcess105 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Zyvio Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nMaxHP\n4000\nPhysical Pierce %\n16\nPhysical Resistance %\n20\nAccuracy\n80\nFire resistance %-\n10\nWater Element\n1\nBase Stability %\n50\nAnticipate %\n8\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Beast",
+        "Recipes": "2100 SpinaSet\n1\n pcsLevel\n205\nDifficulty\n210\nMaterials- \n3\nxZyvimmon- \n1\nxJunior Dragon Horn- \n1200\nx Metal- \n900\nx Beast"
+    },
+    {
+        "Name": "Zyvio Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nBase Stability %\n50\nPotential\n49\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Beast",
+        "Recipes": "2100 SpinaSet\n1\n pcsLevel\n205\nDifficulty\n210\nMaterials- \n3\nxZyvimmon- \n1\nxJunior Dragon Horn- \n1200\nx Metal- \n900\nx Beast"
+    },
+    {
+        "Name": "Zyvio Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n293\nMaxHP\n2000\nPhysical Pierce %\n24\nPhysical Resistance %\n10\nAccuracy\n40\nFire resistance %-\n30\nWater Element\n1\nBase Stability %\n50\nAnticipate %\n4\nAttack Range (m)8",
+        "MonsterDyeMap": "Junior Dragon Zyvio (Megiston 2022)(Lv 220)Event",
+        "Processing": "Sell210 SpinaProcess105 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Acid Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n300\nPhysical Pierce %\n25\nCritical Rate\n25\n%\nstronger against Water-\n25\nBase Stability %\n40\nAdditional Magic %\n75\nGuard Break %\n25\nAttack Range (m)\n9\nMagic Device only:Stability %20",
+        "MonsterDyeMap": "Canemofish(Lv 210)Recetacula Sector: Area 1",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pearl Sakura Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n310\nMaxHP %\n30\nCritical Rate\n50\nCritical Rate %\n25\n%\nstronger against Earth\n10\nFire Element\n1\nBase Stability %\n50\nAdditional Melee %50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessWood",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxFine Sake (Pearl Sakura)- \n3\nxSinister Origami- \n5\nxTorn Paper Crane- \n240\nx Metal"
+    },
+    {
+        "Name": "Vegitos Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n316\nATK %\n8\nCritical Rate\n40\nEarth Element\n1\nBase Stability %\n50\nReduce Dmg (Charge) %\n40\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": "1100 SpinaSet\n1\n pcsLevel\n215\nDifficulty\n220\nMaterials- \n15\nxGeometric Petal- \n15\nxBoma Konda Ore- \n300\nx Metal- \n250\nx Wood"
+    },
+    {
+        "Name": "Vegitos Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n316\nBase Stability %\n50\nPotential\n50\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": "1100 SpinaSet\n1\n pcsLevel\n215\nDifficulty\n220\nMaterials- \n15\nxGeometric Petal- \n15\nxBoma Konda Ore- \n300\nx Metal- \n250\nx Wood"
+    },
+    {
+        "Name": "Vegitos Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n316\nATK %\n8\nCritical Rate\n35\nEarth Element\n1\nBase Stability %\n50\nReduce Dmg (Charge) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "Anglerfish(Lv 240)Abandoned District: Area 1Anglerfish(Lv 241)Abandoned District: Area 2Anglerfish(Lv 242)Abandoned District: Area 2Raging Dragon Bovinari(Lv 258)Little Shrine of Grace SanctuaryRaging Dragon Bovinari(Lv 278)Little Shrine of Grace SanctuaryRaging Dragon Bovinari(Lv 288)Little Shrine of Grace SanctuaryRaging Dragon Bovinari(Lv 308)Little Shrine of Grace Sanctuary",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ice Spirit Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n327\nMaxMP\n500\nATK %\n7\nCSPD %\n30\nAggro %-\n30\nWater Element\n1\nBase Stability %\n50\nMATK UP (DEX %)50",
+        "MonsterDyeMap": "Dutannen (Weak)(Lv 179)Noeliel Castle: B4FDutannen (Medium)(Lv 199)Noeliel Castle: B4FDutannen (Strong)(Lv 219)Noeliel Castle: B4F",
+        "Processing": "Sell225 SpinaProcess112 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ice Spirit Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n327\nMaxMP\n500\nATK %\n9\nCSPD %\n50\nAggro %-\n50\nWater Element\n1\nBase Stability %\n50\nMATK UP (DEX %)100",
+        "MonsterDyeMap": "Dutannen (Max)(Lv 239)Noeliel Castle: B4F",
+        "Processing": "Sell225 SpinaProcess112 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Generos[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n336\nStability %\n30\nAggro %-\n100\nBase Stability %50",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2022)Event",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n338\nDEX\n10\nATK %\n10\nASPD %\n90\nCritical Rate\n40\nBase Stability %\n50\nAdditional Melee %\n180\nReduce Dmg (Bowling) %\n40\nMagic Device only:CSPD %\n45\nASPD %-45",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "7th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nDEX %\n9\nATK %\n9\nStability %\n15\nPhysical Pierce %\n20\nCritical Rate\n30\nBase Stability %\n50\nReduce Dmg (Bowling) %\n30\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell230 SpinaProcess115 Wood",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxGolpom \n7\nth Anniv Medal- \n240\nx Wood"
+    },
+    {
+        "Name": "7th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nBase Stability %\n50\nPotential\n52\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell230 SpinaProcess115 Wood",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxGolpom \n7\nth Anniv Medal- \n240\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nDEX %\n9\nATK %\n9\nPhysical Pierce %\n25\nDodge\n230\nCritical Rate\n35\nBase Stability %\n50\nReduce Dmg (Bowling) %\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell230 SpinaProcess115 Wood",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxSilpom \n8\nth Anniv Medal- \n240\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nBase Stability %\n50\nPotential\n52\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell230 SpinaProcess115 Wood",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxSilpom \n8\nth Anniv Medal- \n240\nx Wood"
+    },
+    {
+        "Name": "9th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nDEX %\n9\nATK %\n9\nASPD %\n80\nCritical Rate\n40\nBase Stability %\n50\nAdditional Melee %\n160\nReduce Dmg (Bowling) %\n40\nMagic Device only:CSPD %\n40\nASPD %-40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Bowgun IV[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nBase Stability %\n50\nPotential52",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Holy Script gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nPhysical Resistance %\n15\nMagic Resistance %\n20\nCritical Rate\n90\nAilment Resistance %\n10\n%\nstronger against Neutral\n30\nBase Stability %\n50\nAttack Range (m)\n10\nDagger only:Stability %20",
+        "MonsterDyeMap": "Wolkissa(Lv 257)Weredragon's Throat",
+        "Processing": "Sell230 SpinaProcess115 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ocean Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nWater Element\n1\nLong Range Damage %\n9\nGuard Break %\n10\nReduce Dmg (Player Epicenter) %25",
+        "MonsterDyeMap": "Corroded Councilor(Lv 252)Marinatown: Area 3Corroded Councilor(Lv 251)Marinatown: Area 2Corroded Councilor(Lv 250)Marinatown: Area 1",
+        "Processing": "Sell230 SpinaProcess115 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n339\nAccuracy\n125\nASPD\n1000\nCritical Rate\n125\nLight Element\n1\nBase Stability %\n50\nAnticipate %\n15\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Burning Ember Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n351\nMaxMP\n400\nFire Element\n1\nLong Range Damage %\n9\nBase Stability %\n45\nFractional Barrier %\n15\nGuard Break %\n30\nReduce Dmg (Bullet) %\n25\nAttack Range (m)\n10\nMagic Device only:Stability %\n10\nCritical Rate20",
+        "MonsterDyeMap": "Burning Dragon Igneus(Lv 225)Boma Moja: Village CenterBurning Dragon Igneus(Lv 235)Boma Moja: Village CenterBurning Dragon Igneus(Lv 245)Boma Moja: Village CenterBurning Dragon Igneus(Lv 255)Boma Moja: Village CenterBurning Dragon Igneus(Lv 275)Boma Moja: Village Center",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Burning Ember Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n351\nMaxMP\n600\nFire Element\n1\nLong Range Damage %\n9\nBase Stability %\n45\nFractional Barrier %\n15\nGuard Break %\n15\nReduce Dmg (Bullet) %\n15\nAttack Range (m)\n10\nMagic Device only:Stability %\n20\nCritical Rate10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell235 SpinaProcess117 Wood",
+        "Recipes": "2350 SpinaSet\n1\n pcsLevel\n230\nDifficulty\n235\nMaterials- \n2\nxBurning Dragon Tail- \n1\nxFlowing Fiery Blood- \n1350\nx Metal- \n1000\nx Beast"
+    },
+    {
+        "Name": "Burning Ember Gun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n351\nBase Stability %\n45\nPotential\n53\nAttack Range (m)10",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell235 SpinaProcess117 Wood",
+        "Recipes": "2350 SpinaSet\n1\n pcsLevel\n230\nDifficulty\n235\nMaterials- \n2\nxBurning Dragon Tail- \n1\nxFlowing Fiery Blood- \n1350\nx Metal- \n1000\nx Beast"
+    },
+    {
+        "Name": "Holy Night Rifle[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n360\nPhysical Pierce %\n8\nDodge %-\n100\nCritical Damage\n9\nLong Range Damage %\n10\nBase Stability %\n50\nDagger only:Stability %\n10\nArrow only:Aggro %-36",
+        "MonsterDyeMap": "Black Velly (Very Hard)(Lv 250)Illuminare City: Central Square",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Potum Popper[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n363\nMaxMP\n400\nPhysical Pierce %\n20\nAccuracy %\n30\nShort Range Damage %\n10\nNeutral Resistance %\n50\nBase Stability %\n50\nShield only:Aggro %30",
+        "MonsterDyeMap": "Hero Potum Party (13M DL)(Lv 190)Archfiend's ThroneHero Potum Party (13M DL)(Lv 200)Archfiend's ThroneHero Potum Party (13M DL)(Lv 210)Archfiend's ThroneHero Potum Party (13M DL)(Lv 220)Archfiend's ThroneHero Potum Party (13M DL)(Lv 240)Archfiend's Throne",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "8th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nDEX %\n10\nATK %\n10\nPhysical Pierce %\n25\nDodge\n250\nCritical Rate\n35\nBase Stability %\n50\nReduce Dmg (Bowling) %\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell250 SpinaProcess125 Wood",
+        "Recipes": "480 SpinaSet\n1\n pcsLevel\n230\nDifficulty\n260\nMaterials- \n20\nxGolpom \n8\nth Anniv Medal- \n260\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nBase Stability %\n50\nPotential\n55\nAttack Range (m)8",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell250 SpinaProcess125 Wood",
+        "Recipes": "480 SpinaSet\n1\n pcsLevel\n230\nDifficulty\n260\nMaterials- \n20\nxGolpom \n8\nth Anniv Medal- \n260\nx Wood"
+    },
+    {
+        "Name": "9th Anniv Bowgun V[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nBase Stability %\n50\nPotential55",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Agradable[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nATK %\n10\nPhysical Pierce %\n15\nCSPD %\n20\nCritical Rate %\n200\nLight Element\n1\nBase Stability %\n50\nAdditional Melee %\n100\nReduce Dmg (Straight Line) %\n40\nAttack Range (m)8",
+        "MonsterDyeMap": "Brass Dragon Reguita(Lv 240)Boma Konda: Village CenterBrass Dragon Reguita(Lv 250)Boma Konda: Village CenterBrass Dragon Reguita(Lv 260)Boma Konda: Village CenterBrass Dragon Reguita(Lv 270)Boma Konda: Village CenterBrass Dragon Reguita(Lv 290)Boma Konda: Village Center",
+        "Processing": "Sell250 SpinaProcess125 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Agradable[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nATK %\n10\nPhysical Pierce %\n15\nCSPD %\n30\nCritical Rate %\n100\nLight Element\n1\nBase Stability %\n50\nAdditional Melee %\n100\nReduce Dmg (Straight Line) %\n10\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": "2500 SpinaSet\n1\n pcsLevel\n245\nDifficulty\n250\nMaterials- \n1\nxBrass Dragon Trumpet Horn- \n1\nxBrass Dragon Sharp Fang- \n2000\nx Beast- \n500\nx Metal"
+    },
+    {
+        "Name": "Agradable[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nBase Stability %\n50\nPotential55",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": "N/ASet\n1\n pcsLevel\n245\nDifficulty\n250\nMaterials- \n1\nxBrass Dragon Trumpet Horn- \n1\nxBrass Dragon Sharp Fang- \n2000\nx Beast- \n500\nx Metal"
+    },
+    {
+        "Name": "Generos[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nStability %\n30\nAggro %-\n100\nBase Stability %50",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2023)Event",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nMaxHP\n10000\nMaxMP\n100\nATK %\n9\nFire resistance %\n35\nAggro %-\n60\nWater Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nMaxHP\n10000\nMaxMP\n100\nATK %\n9\nDark resistance %\n35\nAggro %-\n60\nLight Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n35\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nMaxMP\n400\nATK %\n10\nMATK %\n10\nMagic Pierce %\n20\nFire resistance %\n25\nWater Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n25\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nMaxMP\n400\nATK %\n10\nMATK %\n10\nMagic Pierce %\n20\nDark resistance %\n25\nLight Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n25\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nMaxHP\n2000\nMaxMP\n300\nATK %\n10\nFire resistance %\n10\nWater Element\n1\nLong Range Damage %\n3\nBase Stability %\n50\nReduce Dmg (Bullet) %\n10\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nMaxHP\n2000\nMaxMP\n300\nATK %\n10\nDark resistance %\n10\nLight Element\n1\nLong Range Damage %\n3\nBase Stability %\n50\nReduce Dmg (Bullet) %\n10\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nDEX %\n5\nMaxHP\n5000\nMaxMP\n200\nATK %\n10\nFire resistance %\n15\nWater Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n15\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sonic Megaphone[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n388\nDEX %\n5\nMaxHP\n5000\nMaxMP\n200\nATK %\n10\nDark resistance %\n15\nLight Element\n1\nBase Stability %\n50\nReduce Dmg (Bullet) %\n15\nAttack Range (m)8",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Leo Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n413\nCritical Rate\n30\n%\nstronger against Fire\n15\nFire Element\n1\nBase Stability %\n50\nFractional Barrier %\n10\nHeavy Armor only:Aggro %\n75\nLight Armor only:Motion Speed %15",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell260 SpinaProcess130 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Leo Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n413\nCritical Rate\n35\n%\nstronger against Fire\n15\nFire Element\n1\nBase Stability %\n50\nFractional Barrier %\n15\nHeavy Armor only:Aggro %\n75\nLight Armor only:Motion Speed %15",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell260 SpinaProcess130 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Leo Bowgun[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n413\nCritical Rate\n40\n%\nstronger against Fire\n15\nFire Element\n1\nBase Stability %\n50\nFractional Barrier %\n20\nHeavy Armor only:Aggro %\n75\nLight Armor only:Motion Speed %15",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell260 SpinaProcess130 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n440\nDEX %\n10\nATK %\n11\nASPD %\n100\nCritical Rate\n40\nBase Stability %\n50\nAdditional Melee %\n200\nReduce Dmg (Bowling) %\n40\nMagic Device only:CSPD %-\n50\nASPD %-50",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Bowgun VI[Bowgun]",
+        "StatEffect_Amount": "Base ATK\n440\nBase Stability %\n50\nPotential59",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    }
+]

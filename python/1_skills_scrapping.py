@@ -78,19 +78,33 @@ list_of_skills= {
         ]
     },
     "Assist":{
-                "skill_assists": [
+        "Survival": [
             "https://coryn.club/skill.php?tree=Survival",
+            ],
+        "Support":  [
             "https://coryn.club/skill.php?tree=Support",
-            "https://coryn.club/skill.php?tree=Minstrel",
-            "https://coryn.club/skill.php?tree=Dancer",
-            "https://coryn.club/skill.php?tree=Battle"
         ],
+        "Minstrel":[
+            "https://coryn.club/skill.php?tree=Minstrel",
+        ],
+        "Dancer": [
+            "https://coryn.club/skill.php?tree=Dancer",
+        ],
+        "Battle": [
+            "https://coryn.club/skill.php?tree=Battle"
+        ]
     },
-
-        "skill_others": [
+    "Others": [
+        "Smith": [
             "https://coryn.club/skill.php?tree=Smith",
+        ],
+        "Alchemy": [
             "https://coryn.club/skill.php?tree=Alchemy",
+        ],
+        "Tamer": [
             "https://coryn.club/skill.php?tree=Tamer",
+        ],
+        "Scroll": [
             "https://coryn.club/skill.php?tree=Scroll"
         ]
 }
@@ -103,57 +117,56 @@ data = []
 input_choose = -1
 
 # Loop through each category and its URLs
-for skill_category, urls in list_of_skills["skills"].items():
-    file_path = "database/" + skill_category + ".json"
-    data = []
+# for skill_category in list_of_skills:
+print (keys_list,list_of_skills.values())
+    # file_path = "database/s2" + skill_category + ".json"
+    # data = []
 
 
-    for url in urls:
-        try:
-            if os.path.exists(file_path):
-                with open(file_path, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-            else:
-                data = []
-            # Send a GET request to fetch the page content
-            response = requests.get(url)
-            response.raise_for_status()  # Check for request errors
+    # for url in urls:
+    #     try:
+    #         if os.path.exists(file_path):
+    #             with open(file_path, "r", encoding="utf-8") as f:
+    #                 data = json.load(f)
+    #         else:
+    #             data = []
+    #         # Send a GET request to fetch the page content
+    #         response = requests.get(url)
+    #         response.raise_for_status()  # Check for request errors
 
-            # Parse the HTML content
-            soup = BeautifulSoup(response.text, 'html.parser')
+    #         # Parse the HTML content
+    #         soup = BeautifulSoup(response.text, 'html.parser')
 
-            # # Find all relevant divs with the specified class
-            # print("debug",soup,"\n\n")
+    #         # # Find all relevant divs with the specified class
+    #         # print("debug",soup,"\n\n")
 
-            # Find all relevant divs with the specified class
-            cards = soup.find_all("div", class_="card-container-1")
+    #         # Find all relevant divs with the specified class
+    #         cards = soup.find_all("div", class_="card-container-1")
 
-            # If the divs are found, extract and store the content
-            for card in cards:
-                nested_data = []
-                for nested_div in card.find_all("div"):
-                    text = nested_div.get_text(strip=True)
-                    if text:
-                        nested_data.append(text)
-                        nested_data.append("\nPOC\n")
+    #         # If the divs are found, extract and store the content
+    #         for card in cards:
+    #             nested_data = []
+    #             for nested_div in card.find_all("div"):
+    #                 text = nested_div.get_text(strip=True)
+    #                 if text:
+    #                     nested_data.append(text)
+    #                     nested_data.append("\nPOC\n")
 
-                card_data = {
-                    "category": skill_category,  # Store the category for context
-                    "url": url,
-                    "content": nested_data,
-                }
-                data.append(card_data)
+    #             card_data = {
+    #                 "category": skill_category,  # Store the category for context
+    #                 "url": url,
+    #                 "content": nested_data,
+    #             }
+    #             data.append(card_data)
             
-            time.sleep(3)
+    #         time.sleep(3)
 
-        except requests.RequestException as e:
-            print(f"Error fetching {url}: {e}")
+    #     except requests.RequestException as e:
+    #         print(f"Error fetching {url}: {e}")
 
-    # Write updated data back to the JSON file
-    with open(file_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
-
-            
+    # # Write updated data back to the JSON file
+    # with open(file_path, "w", encoding="utf-8") as f:
+    #     json.dump(data, f, ensure_ascii=False, indent=4)
 
 
 print("New data has been appended to cards_data.json")

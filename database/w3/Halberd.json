@@ -1,0 +1,2165 @@
+[
+    {
+        "Name": "Firefighter Flag[Halberd]",
+        "StatEffect_Amount": "Ailment Resistance %\n30\nAttack MP Recovery\n30\nFlinch Unavailable\n1\nTumble Unavailable\n1\nStun Unavailable\n1\nAbsolute Accuracy %30",
+        "MonsterDyeMap": "Water City Jewel Box-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Firefighter Flag[Halberd]",
+        "StatEffect_Amount": "Ailment Resistance %\n30\nAttack MP Recovery\n30\nFlinch Unavailable\n1\nTumble Unavailable\n1\nStun Unavailable\n1\nAbsolute Accuracy %30",
+        "MonsterDyeMap": "Water City Jewel Box-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Firefighter Flag[Halberd]",
+        "StatEffect_Amount": "empty",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pencil Halberd[Halberd]",
+        "StatEffect_Amount": "Ailment Resistance %\n30\nAttack MP Recovery\n30\nFlinch Unavailable\n1\nTumble Unavailable\n1\nStun Unavailable\n1\nAbsolute Accuracy %30",
+        "MonsterDyeMap": "Water City Jewel Box-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mop[Halberd]",
+        "StatEffect_Amount": "Base ATK\n1\nMaxMP\n1000\nAggro %-\n100\nMotion Speed %\n10\nEXP Gain %\n10\nBase Stability %\n60\nPet EXP %10",
+        "MonsterDyeMap": "Frilled Shark Potum(Lv 243)Deep Sea: Zone 1",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n16\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": "5 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n1\nMaterials- \n3\nx Metal"
+    },
+    {
+        "Name": "Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n16\nBase Stability %\n60\nPotential15",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell1 SpinaProcess2 Metal",
+        "Recipes": "5 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n1\nMaterials- \n3\nx Metal"
+    },
+    {
+        "Name": "Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n16\nBase Stability %60",
+        "MonsterDyeMap": "Pomum(Lv 3)Rakau Plains",
+        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n27\nMaxMP\n100\nAccuracy\n2\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "50 SpinaSet\n1\n pcsLevel\n5\nDifficulty\n10\nMaterials- \n20\nxCracked Stone- \n25\nx Metal"
+    },
+    {
+        "Name": "Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n27\nBase Stability %\n60\nPotential16",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "50 SpinaSet\n1\n pcsLevel\n5\nDifficulty\n10\nMaterials- \n20\nxCracked Stone- \n25\nx Metal"
+    },
+    {
+        "Name": "Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n27\nMaxMP\n50\nAccuracy\n1\nBase Stability %60",
+        "MonsterDyeMap": "Pain Leaf(Lv 17)Isthmus Of KausPain Leaf(Lv 14)Isthmus Of Kaus",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Heavy Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n40\nAccuracy-\n3\nCritical Rate\n6\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n15\nDifficulty\n20\nMaterials- \n20\nxOrange Crystal Fragment- \n30\nxWood Stick- \n50\nx Metal"
+    },
+    {
+        "Name": "Heavy Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n40\nBase Stability %\n60\nPotential18",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n15\nDifficulty\n20\nMaterials- \n20\nxOrange Crystal Fragment- \n30\nxWood Stick- \n50\nx Metal"
+    },
+    {
+        "Name": "Heavy Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n40\nAccuracy-\n1\nCritical Rate\n1\nBase Stability %60",
+        "MonsterDyeMap": "Guardian Statue(Lv 22)Ruined Temple: Area 2Guardian Statue(Lv 22)Ruined Temple: Area 3Guardian Statue(Lv 23)Ruined Temple: Area 3",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Golden Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n45\nINT\n3\nMaxHP\n100\nMaxMP\n100\nAccuracy\n10\nCritical Rate\n5\nGuard Recharge %\n5\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess10 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "2nd Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nAGI %\n1\nATK %\n1\nStability %\n1\nAttack MP Recovery\n2\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box II-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nBase Stability %\n60\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nAGI %\n1\nATK %\n1\nStability %\n1\nAttack MP Recovery\n2\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box III-",
+        "Processing": "SellUnknownProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nBase Stability %\n60\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess12 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n20\nxBronze \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nAGI %\n1\nATK %\n1\nStability %\n1\nAttack MP Recovery\n2\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box IV-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "1 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n5\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nBase Stability %\n60\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Metal",
+        "Recipes": "1 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n25\nMaterials- \n5\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "Magic Crystal Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nMaxMP\n50\nDodge %-\n5\nDark Element\n1\nAttack MP Recovery\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell25 SpinaProcess12 Mana",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n20\nDifficulty\n25\nMaterials- \n3\nxBlack Crystal Fragment- \n1\nxBlack Miasma- \n140\nx Metal- \n10\nx Mana"
+    },
+    {
+        "Name": "Magic Crystal Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nBase Stability %\n60\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell25 SpinaProcess12 Mana",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n20\nDifficulty\n25\nMaterials- \n3\nxBlack Crystal Fragment- \n1\nxBlack Miasma- \n140\nx Metal- \n10\nx Mana"
+    },
+    {
+        "Name": "Magic Crystal Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n46\nMaxMP\n100\nDodge %-\n10\nDark Element\n1\nAttack MP Recovery\n1\nBase Stability %60",
+        "MonsterDyeMap": "Eerie Crystal(Lv 24)Isthmus Of Kaus: Dragon's Den",
+        "Processing": "Sell25 SpinaProcess12 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bardiche[Halberd]",
+        "StatEffect_Amount": "Base ATK\n54\nMaxMP\n200\nATK %\n1\nCritical Damage\n2\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell30 SpinaProcess15 Metal",
+        "Recipes": "150 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n30\nMaterials- \n20\nxZoktzda Stone- \n30\nxLava Fragment- \n40\nx Metal- \n35\nx Wood"
+    },
+    {
+        "Name": "Bardiche[Halberd]",
+        "StatEffect_Amount": "Base ATK\n54\nBase Stability %\n60\nPotential19",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell30 SpinaProcess15 Metal",
+        "Recipes": "150 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n30\nMaterials- \n20\nxZoktzda Stone- \n30\nxLava Fragment- \n40\nx Metal- \n35\nx Wood"
+    },
+    {
+        "Name": "Bardiche[Halberd]",
+        "StatEffect_Amount": "Base ATK\n54\nMaxMP\n150\nATK %\n1\nCritical Damage\n2\nBase Stability %60",
+        "MonsterDyeMap": "Soldier Rat(Lv 30)Scaro Town: Area 1",
+        "Processing": "Sell30 SpinaProcess15 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Trident[Halberd]",
+        "StatEffect_Amount": "Base ATK\n70\nDodge %\n5\nEvasion Recharge %\n5\nWind Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n35\nDifficulty\n40\nMaterials- \n5\nxNew Moon Stone- \n20\nxLong Stone Stick- \n75\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Trident[Halberd]",
+        "StatEffect_Amount": "Base ATK\n70\nBase Stability %\n60\nPotential21",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n35\nDifficulty\n40\nMaterials- \n5\nxNew Moon Stone- \n20\nxLong Stone Stick- \n75\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Trident[Halberd]",
+        "StatEffect_Amount": "Base ATK\n70\nDodge %\n4\nEvasion Recharge %\n4\nWind Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Soda Potum(Lv 45)Korda Basin",
+        "Processing": "Sell40 SpinaProcess20 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mauez's Pole[Halberd]",
+        "StatEffect_Amount": "Base ATK\n80\nATK %\n1\nAccuracy-\n20\nCritical Rate\n10\n%\nstronger against Neutral\n25\nBase Stability %70",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n3\nxMauez's Broken Rod- \n1\nxRunestone- \n400\nx Wood- \n100\nx Mana"
+    },
+    {
+        "Name": "Mauez's Pole[Halberd]",
+        "StatEffect_Amount": "Base ATK\n80\nBase Stability %\n70\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n3\nxMauez's Broken Rod- \n1\nxRunestone- \n400\nx Wood- \n100\nx Mana"
+    },
+    {
+        "Name": "Mauez's Pole[Halberd]",
+        "StatEffect_Amount": "Base ATK\n80\nATK %\n1\nAccuracy-\n2\nCritical Rate\n10\n%\nstronger against Neutral\n25\nBase Stability %70",
+        "MonsterDyeMap": "Mauez(Lv 55)New Moon Palace: InnermostMauez(Lv 45)New Moon Palace: InnermostMauez(Lv 65)New Moon Palace: InnermostMauez(Lv 75)New Moon Palace: InnermostMauez(Lv 95)New Moon Palace: Innermost",
+        "Processing": "Sell50 SpinaProcess25 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "2nd Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nAGI %\n2\nATK %\n2\nStability %\n2\nAttack MP Recovery\n4\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n60\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nAGI %\n2\nATK %\n2\nStability %\n2\nAttack MP Recovery\n4\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n60\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess25 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n20\nxSilver \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nAGI %\n2\nATK %\n2\nStability %\n2\nAttack MP Recovery\n4\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n10\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n60\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": "10 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n50\nMaterials- \n10\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "Blade Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nAGI %\n3\nMaxMP\n200\nCritical Rate\n3\nAttack MP Recovery\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n30\nxLost Cane- \n20\nxDark Gray Metal Plate- \n75\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Blade Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n60\nPotential23",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "250 SpinaSet\n1\n pcsLevel\n45\nDifficulty\n50\nMaterials- \n30\nxLost Cane- \n20\nxDark Gray Metal Plate- \n75\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Blade Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nAGI %\n2\nMaxMP\n200\nCritical Rate\n1\nAttack MP Recovery\n1\nBase Stability %60",
+        "MonsterDyeMap": "Pojo(Lv 51)Land Under Cultivation: Area 1Pojo(Lv 53)Land Under Cultivation: Area 2",
+        "Processing": "Sell50 SpinaProcess25 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windblast Cone Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nStability %\n6\nCSPD\n300\nWater resistance %\n5\nWind Element\n1\nAttack MP Recovery\n14\nBase Stability %\n60\nReduce Dmg (Meteor) %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell24 SpinaProcessunknown",
+        "Recipes": "20 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n30\nMaterials- \n5\nxDark Note Paper"
+    },
+    {
+        "Name": "Windblast Cone Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n60\nPotential22",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell51 SpinaProcessunknown",
+        "Recipes": "20 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n30\nMaterials- \n5\nxDark Note Paper"
+    },
+    {
+        "Name": "BBQ Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n100\nMaxMP\n250\nPhysical Pierce %\n20\nCritical Damage\n10\nBase Stability %\n80\nGuard Break %15",
+        "MonsterDyeMap": "[NPC]Lalun (Summer Event Exchange)Event",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mezraq[Halberd]",
+        "StatEffect_Amount": "Base ATK\n107\nMagic Resistance %-\n6\nCritical Damage\n4\nBase Stability %\n60\nAdditional Melee %25",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n55\nDifficulty\n60\nMaterials- \n5\nxPliable Neck Bone- \n20\nxHard Scissor- \n120\nx Metal- \n30\nx Wood"
+    },
+    {
+        "Name": "Mezraq[Halberd]",
+        "StatEffect_Amount": "Base ATK\n107\nBase Stability %\n60\nPotential24",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n55\nDifficulty\n60\nMaterials- \n5\nxPliable Neck Bone- \n20\nxHard Scissor- \n120\nx Metal- \n30\nx Wood"
+    },
+    {
+        "Name": "Mezraq[Halberd]",
+        "StatEffect_Amount": "Base ATK\n107\nMagic Resistance %-\n3\nCritical Damage\n4\nBase Stability %\n60\nAdditional Melee %20",
+        "MonsterDyeMap": "Mewte(Lv 63)Gravel TerraceMewte(Lv 67)Gravel TerraceAvalan(Lv 68)Navida City: Crossroad (60-80)Avalan(Lv 70)Navida City: East (60-80)",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Naginata[Halberd]",
+        "StatEffect_Amount": "Base ATK\n107\nMaxMP\n100\nATK %\n1\nAccuracy\n20\nCritical Rate\n10\nLight Element\n1\nAttack MP Recovery\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxSakura Gemstone- \n1\nxBroken Sakura Branch- \n1\nxSakura Crystal Fragment- \n30\nx Metal"
+    },
+    {
+        "Name": "Sakura Naginata[Halberd]",
+        "StatEffect_Amount": "Base ATK\n107\nMaxMP\n200\nATK %\n4\nAccuracy\n20\nCritical Rate\n20\nLight Element\n1\nAttack MP Recovery\n3\nWeapon ATK\n480\nBase Stability %60",
+        "MonsterDyeMap": "Mimesia (Nightmare)(Lv 180)ABCSakura Castle Donjon: Top",
+        "Processing": "Sell60 SpinaProcess30 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Knight Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n128\nMaxMP\n300\nATK %\n1\nGuard Power %\n10\nGuard Recharge %\n20\nLight Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n30\nxHuge Scythe Helve- \n5\nxAncient Shell- \n125\nx Metal- \n40\nx Wood"
+    },
+    {
+        "Name": "Knight Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n128\nBase Stability %\n60\nPotential26",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n30\nxHuge Scythe Helve- \n5\nxAncient Shell- \n125\nx Metal- \n40\nx Wood"
+    },
+    {
+        "Name": "Knight Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n128\nMaxMP\n200\nATK %\n1\nGuard Power %\n8\nGuard Recharge %\n17\nLight Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Helmcoon(Lv 71)Magic Waste Site: Area 1Helmcoon(Lv 71)Magic Waste Site: Area 2",
+        "Processing": "Sell70 SpinaProcess35 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Floral Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n130\nMaxHP\n100\nATK %\n2\nMagic Resistance %\n5\nCritical Damage %\n1\nEarth Element\n1\nBase Stability %65",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell70 SpinaProcess35 Medicine",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n1\nxGrass Dragon's Petal- \n3\nxGrass Dragon's Scale- \n500\nx Wood- \n200\nx Medicine"
+    },
+    {
+        "Name": "Floral Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n65\nPotential26",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell70 SpinaProcess35 Medicine",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n65\nDifficulty\n70\nMaterials- \n1\nxGrass Dragon's Petal- \n3\nxGrass Dragon's Scale- \n500\nx Wood- \n200\nx Medicine"
+    },
+    {
+        "Name": "Floral Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n130\nMaxHP\n1000\nATK %\n2\nMagic Resistance %\n5\nCritical Damage %\n1\nEarth Element\n1\nBase Stability %65",
+        "MonsterDyeMap": "Grass Dragon Yelb(Lv 73)Albatif Village",
+        "Processing": "Sell70 SpinaProcess35 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "2nd Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n139\nAGI %\n3\nATK %\n3\nStability %\n3\nAttack MP Recovery\n6\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "2nd Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n139\nBase Stability %\n60\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n139\nAGI %\n3\nATK %\n3\nStability %\n3\nAttack MP Recovery\n6\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n139\nBase Stability %\n60\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess37 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxGold \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n139\nAGI %\n3\nATK %\n3\nStability %\n3\nAttack MP Recovery\n6\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n139\nBase Stability %\n60\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n50\nDifficulty\n75\nMaterials- \n20\nxBronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n139\nAGI %\n4\nATK %\n4\nStability %\n15\nAccuracy %\n9\nAttack MP Recovery\n8\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box V-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n75\nMaterials- \n20\nxBronze \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n139\nBase Stability %\n60\nPotential27",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell75 SpinaProcess37 Metal",
+        "Recipes": "100 SpinaSet\n1\n pcsLevel\n25\nDifficulty\n75\nMaterials- \n20\nxBronze \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Thunder Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n150\nDodge\n7\nCritical Damage\n3\nEvasion Recharge %\n5\nWind Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Corroded Knight(Lv 86)Garden of Sublimation: Area 1Corroded Knight(Lv 86)Garden of Sublimation: Area 3Corroded Knight(Lv 87)Garden of Sublimation: Area 1",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Thunder Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n150\nDodge\n9\nCritical Damage\n3\nEvasion Recharge %\n6\nWind Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n30\nxCorroded Spear- \n30\nxMysterious Metal Bit- \n100\nx Metal- \n100\nx Beast"
+    },
+    {
+        "Name": "Thunder Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n150\nBase Stability %\n60\nPotential28",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell80 SpinaProcess40 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n80\nMaterials- \n30\nxCorroded Spear- \n30\nxMysterious Metal Bit- \n100\nx Metal- \n100\nx Beast"
+    },
+    {
+        "Name": "Lil Devil Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n160\nMaxMP\n660\nGuard Recharge %-\n100\nDark Element\n1\nAttack MP Recovery\n6\nBase Stability %\n60\nTumble Unavailable\n1\nATK UP (INT %)100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "100 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxPumpkin Diamond"
+    },
+    {
+        "Name": "6th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n161\nAGI %\n4\nMaxMP\n100\nATK %\n4\nAccuracy %\n5\nAttack MP Recovery\n20\nBase Stability %\n60\nDagger only:Additional Melee %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box VI-",
+        "Processing": "Sell85 SpinaProcess42 Metal",
+        "Recipes": "170 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n110\nMaterials- \n20\nxBronze \n6\nth Anniv Medal- \n110\nx Beast"
+    },
+    {
+        "Name": "6th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n161\nBase Stability %\n60\nPotential28",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell85 SpinaProcess42 Metal",
+        "Recipes": "170 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n110\nMaterials- \n20\nxBronze \n6\nth Anniv Medal- \n110\nx Beast"
+    },
+    {
+        "Name": "Ice Spear Glaso[Halberd]",
+        "StatEffect_Amount": "Base ATK\n161\nGuard Power %\n25\nGuard Recharge %\n25\nWater Element\n1\nBase Stability %\n60\nAdditional Magic %\n125\nATK UP (INT %)\n100\nATK DOWN (AGI %)150",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell85 SpinaProcess42 Mana",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n80\nDifficulty\n85\nMaterials- \n1\nxIce Rose- \n5\nxTwilight Dragon Wing- \n3\nxEvil Crystal Beast Claw- \n425\nx Mana"
+    },
+    {
+        "Name": "Ice Spear Glaso[Halberd]",
+        "StatEffect_Amount": "Base ATK\n161\nBase Stability %\n60\nPotential28",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell85 SpinaProcess42 Mana",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n80\nDifficulty\n85\nMaterials- \n1\nxIce Rose- \n5\nxTwilight Dragon Wing- \n3\nxEvil Crystal Beast Claw- \n425\nx Mana"
+    },
+    {
+        "Name": "Pollaxe[Halberd]",
+        "StatEffect_Amount": "Base ATK\n174\nMaxHP\n400\nCritical Rate\n9\n%\nstronger against Neutral\n25\nBase Stability %60",
+        "MonsterDyeMap": "Corroded Sentry Fighter(Lv 97)Dark Castle: Area 2Corroded Sentry Fighter(Lv 97)Dark Castle: Area 3Freeze Ghost(Lv 98)Noeliel Castle: Entrance (80-100)Freeze Ghost(Lv 101)Noeliel Castle: 2F (80-100)",
+        "Processing": "Sell90 SpinaProcess45 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pollaxe[Halberd]",
+        "StatEffect_Amount": "Base ATK\n174\nMaxHP\n500\nCritical Rate\n12\n%\nstronger against Neutral\n25\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell90 SpinaProcess45 Metal",
+        "Recipes": "450 SpinaSet\n1\n pcsLevel\n85\nDifficulty\n90\nMaterials- \n20\nxHot Fang- \n10\nxDeformed Fist- \n175\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Pollaxe[Halberd]",
+        "StatEffect_Amount": "Base ATK\n174\nBase Stability %\n60\nPotential29",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell90 SpinaProcess45 Metal",
+        "Recipes": "450 SpinaSet\n1\n pcsLevel\n85\nDifficulty\n90\nMaterials- \n20\nxHot Fang- \n10\nxDeformed Fist- \n175\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Azure Rose[Halberd]",
+        "StatEffect_Amount": "Base ATK\n175\nAccuracy\n30\nDark Element\n1\nAttack MP Recovery\n2\nBase Stability %\n60\nAdditional Melee %50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": "40 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n9\nxCandy Fragment- \n3\nxMysterious Fruit- \n40\nx Mana"
+    },
+    {
+        "Name": "2nd Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n187\nAGI %\n4\nATK %\n4\nStability %\n4\nAttack MP Recovery\n8\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell95 SpinaProcess47 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilpom \n2\nnd Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "2nd Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n187\nBase Stability %\n60\nPotential30",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell95 SpinaProcess47 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilpom \n2\nnd Anniv Medal- \n100\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n187\nAGI %\n4\nATK %\n4\nStability %\n4\nAttack MP Recovery\n8\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess47 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxPom \n3\nrd Anniv Medal- \n100\nx Beast"
+    },
+    {
+        "Name": "3rd Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n187\nBase Stability %\n60\nPotential30",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess47 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxPom \n3\nrd Anniv Medal- \n100\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n187\nAGI %\n4\nATK %\n4\nStability %\n4\nAttack MP Recovery\n8\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell95 SpinaProcess47 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilver \n4\nth Anniv Medal- \n100\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n187\nBase Stability %\n60\nPotential30",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell95 SpinaProcess47 Metal",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n100\nMaterials- \n20\nxSilver \n4\nth Anniv Medal- \n100\nx Beast"
+    },
+    {
+        "Name": "Paladin Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n198\nATK %\n4\nStability %\n8\nMagic Resistance %\n16\nAilment Resistance %\n32\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n15\nxSilk Glove- \n5\nxEnigmatic Lithograph- \n200\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Paladin Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n198\nBase Stability %\n60\nPotential31",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n15\nxSilk Glove- \n5\nxEnigmatic Lithograph- \n200\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Paladin Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n198\nATK %\n4\nStability %\n7\nMagic Resistance %\n13\nAilment Resistance %\n25\nBase Stability %60",
+        "MonsterDyeMap": "Ledon Machina(Lv 108)Large Demi Machina Factory: Area 1Ledon Machina(Lv 111)Large Demi Machina Factory: Area 2Ledon Machina(Lv 111)Large Demi Machina Factory: Area 3Freeze Ant(Lv 111)Navida City: Crossroad (100-120)Freeze Ant(Lv 111)Navida City: West (100-120)",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Fisherman's Harpoon[Halberd]",
+        "StatEffect_Amount": "Base ATK\n200\nPhysical Resistance %\n10\nMagic Resistance %\n15\nWater resistance %\n20\nWind Element\n1\nBase Stability %70",
+        "MonsterDyeMap": "[NPC]Lalun (Summer Event Exchange)Event",
+        "Processing": "Sell100 SpinaProcess50 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Intruder[Halberd]",
+        "StatEffect_Amount": "Base ATK\n200\nATK %\n4\nDodge %\n20\nCSPD\n300\nCritical Rate\n2\nCritical Damage %3",
+        "MonsterDyeMap": "Aranea(Lv 100)Garden of Sublimation: Central PartAranea(Lv 90)Garden of Sublimation: Central PartAranea(Lv 110)Garden of Sublimation: Central PartAranea(Lv 120)Garden of Sublimation: Central PartAranea(Lv 140)Garden of Sublimation: Central Part",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Intruder[Halberd]",
+        "StatEffect_Amount": "Base ATK\n200\nATK %\n4\nDodge %\n20\nCSPD\n150\nCritical Rate\n1\nCritical Damage %\n2\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n2\nxCrystal Spider Leg Shell- \n1\nxCrystal Compound Eyes- \n700\nx Metal- \n300\nx Beast"
+    },
+    {
+        "Name": "Intruder[Halberd]",
+        "StatEffect_Amount": "Base ATK\n200\nBase Stability %\n60\nPotential31",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell100 SpinaProcess50 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n100\nMaterials- \n2\nxCrystal Spider Leg Shell- \n1\nxCrystal Compound Eyes- \n700\nx Metal- \n300\nx Beast"
+    },
+    {
+        "Name": "Reverdie Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n200\nMaxHP\n5000\nATK %\n10\nDEF\n100\nAilment Resistance %\n10\nBase Stability %1",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess2 Mana",
+        "Recipes": "2022 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n5\nxPurro- \n3\nxOsechi- \n10\nx Metal"
+    },
+    {
+        "Name": "New Moon Naginata[Halberd]",
+        "StatEffect_Amount": "Base ATK\n222\nATK %\n6\nAccuracy-\n20\nCritical Rate\n15\nWater Element\n1\n%\nstronger against Neutral\n25\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell155 SpinaProcess77 Mana",
+        "Recipes": "158 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n158\nMaterials- \n10\nxMoonlit Night Pyroxene- \n1\nxMoonlight Crab Butter- \n200\nx Metal- \n100\nx Mana"
+    },
+    {
+        "Name": "New Moon Naginata[Halberd]",
+        "StatEffect_Amount": "Base ATK\n222\nBase Stability %\n80\nPotential40",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell155 SpinaProcess77 Mana",
+        "Recipes": "158 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n158\nMaterials- \n10\nxMoonlit Night Pyroxene- \n1\nxMoonlight Crab Butter- \n200\nx Metal- \n100\nx Mana"
+    },
+    {
+        "Name": "2nd Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nAGI %\n5\nATK %\n5\nStability %\n5\nAttack MP Recovery\n10\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n100\nDifficulty\n125\nMaterials- \n20\nxGolpom \n2\nnd Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "2nd Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nBase Stability %\n60\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n100\nDifficulty\n125\nMaterials- \n20\nxGolpom \n2\nnd Anniv Medal- \n200\nx Metal"
+    },
+    {
+        "Name": "3rd Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nAGI %\n5\nATK %\n5\nStability %\n5\nAttack MP Recovery\n10\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess55 Metal",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxBropom \n3\nrd Anniv Medal- \n150\nx Beast"
+    },
+    {
+        "Name": "3rd Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nBase Stability %\n60\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess55 Metal",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxBropom \n3\nrd Anniv Medal- \n150\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nAGI %\n5\nATK %\n5\nStability %\n5\nAttack MP Recovery\n10\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxGold \n4\nth Anniv Medal- \n150\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nBase Stability %\n60\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n95\nDifficulty\n125\nMaterials- \n20\nxGold \n4\nth Anniv Medal- \n150\nx Beast"
+    },
+    {
+        "Name": "5th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nAGI %\n5\nATK %\n5\nStability %\n15\nAccuracy %\n10\nAttack MP Recovery\n10\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "190 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n120\nMaterials- \n20\nxSilver \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nBase Stability %\n60\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "190 SpinaSet\n1\n pcsLevel\n75\nDifficulty\n120\nMaterials- \n20\nxSilver \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Windblast Cone Spear II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nStability %\n9\nCSPD\n600\nWater resistance %\n10\nWind Element\n1\nAttack MP Recovery\n19\nBase Stability %\n60\nReduce Dmg (Meteor) %15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell25 SpinaProcessunknown",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n90\nMaterials- \n5\nxDark Note Paper- \n1\nxCutesy Cone"
+    },
+    {
+        "Name": "Windblast Cone Spear II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n227\nBase Stability %\n60\nPotential31",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell52 SpinaProcessunknown",
+        "Recipes": "200 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n90\nMaterials- \n5\nxDark Note Paper- \n1\nxCutesy Cone"
+    },
+    {
+        "Name": "Battle Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n229\nATK %\n4\nAccuracy\n80\nFire Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "550 SpinaSet\n1\n pcsLevel\n105\nDifficulty\n110\nMaterials- \n20\nxPlant Fang- \n5\nxFlame Gunpowder- \n200\nx Metal- \n75\nx Beast"
+    },
+    {
+        "Name": "Battle Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n229\nBase Stability %\n60\nPotential32",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": "550 SpinaSet\n1\n pcsLevel\n105\nDifficulty\n110\nMaterials- \n20\nxPlant Fang- \n5\nxFlame Gunpowder- \n200\nx Metal- \n75\nx Beast"
+    },
+    {
+        "Name": "Battle Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n229\nATK %\n4\nAccuracy\n60\nFire Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Lyark Vanguard(Lv 115)Lufenas Mansion: EntranceLyark Vanguard(Lv 116)Lufenas Mansion: CorridorLyark Vanguard(Lv 117)Lufenas Mansion: Library",
+        "Processing": "Sell110 SpinaProcess55 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Einsamkeit[Halberd]",
+        "StatEffect_Amount": "Base ATK\n254\nMaxMP\n600\nCSPD-\n300\n%\nstronger against Earth-\n40\nWind Element\n1\nAttack MP Recovery\n3\nBase Stability %\n60\nAdditional Melee %\n100\nGuard Break %10",
+        "MonsterDyeMap": "York(Lv 118)Huge Crysta Factory: StorageYork(Lv 108)Huge Crysta Factory: StorageYork(Lv 128)Huge Crysta Factory: StorageYork(Lv 138)Huge Crysta Factory: StorageYork(Lv 158)Huge Crysta Factory: Storage",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Einsamkeit[Halberd]",
+        "StatEffect_Amount": "Base ATK\n254\nMaxMP\n600\nCSPD-\n300\n%\nstronger against Earth-\n40\nWind Element\n1\nAttack MP Recovery\n3\nBase Stability %\n60\nAdditional Melee %\n100\nGuard Break %10",
+        "MonsterDyeMap": "York (Megiston 2017)(Lv 150)41241Event",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Einsamkeit[Halberd]",
+        "StatEffect_Amount": "Base ATK\n254\nMaxMP\n300\nCSPD-\n300\n%\nstronger against Earth-\n40\nWind Element\n1\nAttack MP Recovery\n6\nBase Stability %\n60\nAdditional Melee %\n50\nGuard Break %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "1200 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n1\nxEnergy Core- \n2\nxLauncher Arm- \n1000\nx Metal- \n200\nx Medicine"
+    },
+    {
+        "Name": "Einsamkeit[Halberd]",
+        "StatEffect_Amount": "Base ATK\n254\nBase Stability %\n60\nPotential34",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "1200 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n1\nxEnergy Core- \n2\nxLauncher Arm- \n1000\nx Metal- \n200\nx Medicine"
+    },
+    {
+        "Name": "6th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n256\nAGI %\n5\nMaxMP\n100\nATK %\n5\nAccuracy %\n10\nAttack MP Recovery\n20\nBase Stability %\n60\nDagger only:Additional Melee %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n90\nDifficulty\n145\nMaterials- \n20\nxSilver \n6\nth Anniv Medal- \n145\nx Beast"
+    },
+    {
+        "Name": "6th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n256\nBase Stability %\n60\nPotential34",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n90\nDifficulty\n145\nMaterials- \n20\nxSilver \n6\nth Anniv Medal- \n145\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n256\nAGI %\n4\nMaxMP\n300\nATK %\n4\nAccuracy\n120\nCritical Rate\n30\nBase Stability %\n60\nReduce Dmg (Floor) %\n30\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithAnniv Equipment Box VII-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n140\nMaterials- \n20\nxBronze \n7\nth Anniv Medal- \n31\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n256\nBase Stability %\n60\nPotential\n34\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "240 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n140\nMaterials- \n20\nxBronze \n7\nth Anniv Medal- \n31\nx Beast"
+    },
+    {
+        "Name": "Dia Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n256\nSTR %\n4\nATK %\n4\nCritical Rate %\n5\nDark resistance %\n10\nLight Element\n1\nAttack MP Recovery\n5\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxCherry Blossom Crystal- \n1\nxMoist Sakura Branch- \n1\nxSakura Eater Feather- \n90\nx Metal"
+    },
+    {
+        "Name": "Noble Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n264\nMaxMP\n400\nCritical Rate\n30\nBase Stability %\n55\nGuard Break %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithLyark Jailer(Lv 120)Cuervo Jail: 1st FloorLyark Jailer(Lv 121)Cuervo Jail: 2nd Floor",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n20\nxCrushed Long Lance- \n5\nxWater Repellent Oil- \n200\nx Metal- \n100\nx Wood"
+    },
+    {
+        "Name": "Noble Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n264\nMaxMP\n300\nCritical Rate\n30\nBase Stability %\n55\nGuard Break %15",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Noble Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n264\nBase Stability %\n55\nPotential34",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell120 SpinaProcess60 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n115\nDifficulty\n120\nMaterials- \n20\nxCrushed Long Lance- \n5\nxWater Repellent Oil- \n200\nx Metal- \n100\nx Wood"
+    },
+    {
+        "Name": "Grilled Squid[Halberd]",
+        "StatEffect_Amount": "Base ATK\n270\nMaxHP\n6000\nDEF\n40\nAccuracy\n10\nLight resistance %-\n20\nFire Element\n1\nAttack MP Recovery\n20\nBase Stability %\n60\nTumble Unavailable1",
+        "MonsterDyeMap": "[NPC]Lalun (Summer Event Exchange)Event",
+        "Processing": "Sell1 SpinaProcess2 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spada Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n280\nATK %\n6\nPhysical Pierce %\n12\nASPD\n1000\nWater Element\n1\nBase Stability %65",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "650 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n20\nxDark-Red Twin Horns- \n15\nxTough Jaw- \n175\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Spada Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n280\nBase Stability %\n65\nPotential36",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "650 SpinaSet\n1\n pcsLevel\n125\nDifficulty\n130\nMaterials- \n20\nxDark-Red Twin Horns- \n15\nxTough Jaw- \n175\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Spada Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n280\nATK %\n6\nPhysical Pierce %\n10\nASPD\n750\nWater Element\n1\nBase Stability %65",
+        "MonsterDyeMap": "Melon Soda Potum(Lv 138)Forgotten Cave",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n286\nAGI %\n6\nATK %\n6\nStability %\n5\nAccuracy %\n3\nAttack MP Recovery\n12\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess65 Metal",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxSilpom \n3\nrd Anniv Medal- \n200\nx Beast"
+    },
+    {
+        "Name": "3rd Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n286\nBase Stability %\n60\nPotential36",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess65 Metal",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxSilpom \n3\nrd Anniv Medal- \n200\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n286\nAGI %\n6\nATK %\n6\nStability %\n5\nAccuracy %\n3\nAttack MP Recovery\n13\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxPom \n4\nth Anniv Medal- \n200\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n286\nBase Stability %\n60\nPotential36",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell130 SpinaProcess65 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n140\nMaterials- \n20\nxPom \n4\nth Anniv Medal- \n200\nx Beast"
+    },
+    {
+        "Name": "Amcrie[Halberd]",
+        "StatEffect_Amount": "Base ATK\n300\nMaxHP %-\n30\nATK %\n5\nPhysical Pierce %\n5\nMagic Resistance %\n30\nCritical Damage\n5\nDark Element\n1\nAttack MP Recovery\n10\nBase Stability %60",
+        "MonsterDyeMap": "Ultimate Machina(Lv 129)Droma SquareUltimate Machina(Lv 139)Droma SquareUltimate Machina(Lv 149)Droma SquareUltimate Machina(Lv 159)Droma SquareUltimate Machina(Lv 179)Droma Square",
+        "Processing": "Sell135 SpinaProcess67 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Amcrie[Halberd]",
+        "StatEffect_Amount": "Base ATK\n300\nMaxHP %-\n15\nATK %\n5\nPhysical Pierce %\n3\nMagic Resistance %\n30\nCritical Damage\n4\nDark Element\n1\nAttack MP Recovery\n5\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell135 SpinaProcess67 Beast",
+        "Recipes": "1350 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n135\nMaterials- \n3\nxUltimate Machina Arm- \n1\nxSealed Eyeball- \n1000\nx Beast- \n350\nx Medicine"
+    },
+    {
+        "Name": "Amcrie[Halberd]",
+        "StatEffect_Amount": "Base ATK\n300\nBase Stability %\n60\nPotential37",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell135 SpinaProcess67 Beast",
+        "Recipes": "1350 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n135\nMaterials- \n3\nxUltimate Machina Arm- \n1\nxSealed Eyeball- \n1000\nx Beast- \n350\nx Medicine"
+    },
+    {
+        "Name": "Amcrie[Halberd]",
+        "StatEffect_Amount": "Base ATK\n300\nMaxHP %-\n30\nATK %\n6\nPhysical Pierce %\n1\nMagic Resistance %\n15\nCritical Damage\n6\nAttack MP Recovery\n15\n%\nstronger against Neutral\n25\nBase Stability %60",
+        "MonsterDyeMap": "Ultimate Machina (Megiston 2018)(Lv 160)Event",
+        "Processing": "Sell135 SpinaProcess67 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Gwai Reaper[Halberd]",
+        "StatEffect_Amount": "Base ATK\n304\nATK %\n4\nStability %\n1\nPhysical Pierce %\n2\nCritical Damage %\n3\nEarth Element\n1\nShort Range Damage %\n4\nBase Stability %\n60\nRecoil %\n0\n.01",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell135 SpinaProcess67 Mana",
+        "Recipes": "1350 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n135\nMaterials- \n1\nxEther Metal- \n1\nxChief BK Shoulder Armor- \n1\nxGwaimol's Huge Blade- \n1350\nx Metal"
+    },
+    {
+        "Name": "Gwai Reaper[Halberd]",
+        "StatEffect_Amount": "Base ATK\n304\nBase Stability %\n60\nPotential37",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell135 SpinaProcess67 Mana",
+        "Recipes": "1350 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n135\nMaterials- \n1\nxEther Metal- \n1\nxChief BK Shoulder Armor- \n1\nxGwaimol's Huge Blade- \n1350\nx Metal"
+    },
+    {
+        "Name": "Gwai Reaper[Halberd]",
+        "StatEffect_Amount": "Base ATK\n306\nATK %\n4\nStability %\n4\nPhysical Pierce %\n4\nCritical Damage %\n4\nEarth Element\n1\nShort Range Damage %\n4\nBase Stability %\n60\nRecoil %\n0\n.02",
+        "MonsterDyeMap": "Ornlarf(Lv 132)Ultimea Palace: CorridorOrnlarf(Lv 142)Ultimea Palace: CorridorOrnlarf(Lv 152)Ultimea Palace: CorridorOrnlarf(Lv 162)Ultimea Palace: CorridorOrnlarf(Lv 182)Ultimea Palace: Corridor",
+        "Processing": "Sell135 SpinaProcess67 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lightning Bolt Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n318\nAccuracy\n40\nASPD %\n30\nCritical Damage %\n5\nWind Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell140 SpinaProcess70 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n135\nDifficulty\n140\nMaterials- \n5\nxShining Stone Monument- \n20\nxCracked Halo- \n300\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Lightning Bolt Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n318\nBase Stability %\n60\nPotential37",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell140 SpinaProcess70 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n135\nDifficulty\n140\nMaterials- \n5\nxShining Stone Monument- \n20\nxCracked Halo- \n300\nx Metal- \n50\nx Wood"
+    },
+    {
+        "Name": "Lightning Bolt Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n318\nAccuracy\n30\nASPD %\n10\nCritical Damage %\n5\nWind Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Soul Reaper(Lv 151)Dark Dragon Shrine: LowerSoul Reaper(Lv 152)Dark Dragon Shrine: Middle",
+        "Processing": "Sell140 SpinaProcess70 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Festival Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n320\nAccuracy\n30\nCritical Rate\n1\nFire Element\n1\nAttack MP Recovery\n5\nBase Stability %1",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": "1040 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n50\nxSummer Shell- \n30\nxTorn Page- \n1\nxSpace Wolf Horn- \n100\nx Wood"
+    },
+    {
+        "Name": "3rd Anniv Halberd VII[Halberd]",
+        "StatEffect_Amount": "Base ATK\n334\nAGI %\n6\nATK %\n6\nStability %\n5\nAccuracy %\n6\nAttack MP Recovery\n14\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcess72 Metal",
+        "Recipes": "5000 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxGolpom \n3\nrd Anniv Medal- \n250\nx Beast"
+    },
+    {
+        "Name": "3rd Anniv Halberd VII[Halberd]",
+        "StatEffect_Amount": "Base ATK\n334\nBase Stability %\n60\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcess72 Metal",
+        "Recipes": "5000 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxGolpom \n3\nrd Anniv Medal- \n250\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd VII[Halberd]",
+        "StatEffect_Amount": "Base ATK\n334\nAGI %\n6\nATK %\n6\nStability %\n5\nAccuracy %\n6\nAttack MP Recovery\n14\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxBropom \n4\nth Anniv Medal- \n250\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd VII[Halberd]",
+        "StatEffect_Amount": "Base ATK\n334\nBase Stability %\n60\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "500 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n155\nMaterials- \n20\nxBropom \n4\nth Anniv Medal- \n250\nx Beast"
+    },
+    {
+        "Name": "5th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n334\nAGI %\n6\nATK %\n6\nStability %\n15\nAccuracy %\n11\nAttack MP Recovery\n12\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "260 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n155\nMaterials- \n20\nxGold \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n334\nBase Stability %\n60\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Metal",
+        "Recipes": "260 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n155\nMaterials- \n20\nxGold \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Raven Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n334\nMaxMP\n400\nATK %\n5\nMATK %\n5\nAccuracy\n20\nASPD\n800\nDark Element\n1\nBase Stability %70",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "200 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxHalloween Star"
+    },
+    {
+        "Name": "Warrior Angel Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n346\nMaxMP\n200\nATK %\n6\nCritical Damage\n6\n%\nstronger against Neutral\n25\nBase Stability %\n70\nAnticipate %\n20\nGuard Break %20",
+        "MonsterDyeMap": "Mardula(Lv 147)Hall of Blessings GodsMardula(Lv 157)Hall of Blessings GodsMardula(Lv 167)Hall of Blessings GodsMardula(Lv 177)Hall of Blessings GodsMardula(Lv 197)Hall of Blessings Gods",
+        "Processing": "Sell160 SpinaProcess80 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Warrior Angel Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n346\nMaxMP\n600\nATK %\n6\nCritical Damage\n6\n%\nstronger against Neutral\n25\nBase Stability %\n70\nAnticipate %\n2\nGuard Break %2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Mana",
+        "Recipes": "1600 SpinaSet\n1\n pcsLevel\n155\nDifficulty\n160\nMaterials- \n1\nxSacred Jewel- \n2\nxBroken Holy Scale- \n1200\nx Metal- \n400\nx Beast"
+    },
+    {
+        "Name": "Warrior Angel Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n346\nBase Stability %\n70\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Mana",
+        "Recipes": "1600 SpinaSet\n1\n pcsLevel\n155\nDifficulty\n160\nMaterials- \n1\nxSacred Jewel- \n2\nxBroken Holy Scale- \n1200\nx Metal- \n400\nx Beast"
+    },
+    {
+        "Name": "Crescent Blade[Halberd]",
+        "StatEffect_Amount": "Base ATK\n350\nAccuracy\n15\nCritical Damage\n5\nEarth Element\n1\nMotion Speed %\n3\nBase Stability %60",
+        "MonsterDyeMap": "Antbee(Lv 153)Eryldan Street: Area 1Antbee(Lv 154)Eryldan Street: Area 2Antbee(Lv 155)Eryldan Street: Area 3Puppet Dragon(Lv 160)Joulu House: Center (Lv 150)Minimyu(Lv 140)Tomte Pavillion (130-150)",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Crescent Blade[Halberd]",
+        "StatEffect_Amount": "Base ATK\n350\nAccuracy\n30\nCritical Damage\n6\nEarth Element\n1\nMotion Speed %\n3\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: BlacksmithToy Bolg(Lv 136)Joulu House: Center (Lv 130)",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "750 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n5\nxPetrified Wood- \n20\nxEryldan Wood- \n250\nx Metal- \n125\nx Wood"
+    },
+    {
+        "Name": "Crescent Blade[Halberd]",
+        "StatEffect_Amount": "Base ATK\n350\nBase Stability %\n60\nPotential39",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "750 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n150\nMaterials- \n5\nxPetrified Wood- \n20\nxEryldan Wood- \n250\nx Metal- \n125\nx Wood"
+    },
+    {
+        "Name": "6th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n352\nAGI %\n6\nMaxMP\n200\nATK %\n6\nAccuracy %\n15\nAttack MP Recovery\n20\nBase Stability %\n60\nReduce Dmg (Meteor) %\n2\nDagger only:Additional Melee %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n175\nMaterials- \n20\nxGold \n6\nth Anniv Medal- \n175\nx Beast"
+    },
+    {
+        "Name": "6th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n352\nBase Stability %\n60\nPotential39",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n130\nDifficulty\n175\nMaterials- \n20\nxGold \n6\nth Anniv Medal- \n175\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n352\nAGI %\n6\nMaxMP\n320\nATK %\n6\nAccuracy\n150\nCritical Rate\n30\nBase Stability %\n60\nReduce Dmg (Floor) %\n30\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n77\nDifficulty\n170\nMaterials- \n20\nxSilver \n7\nth Anniv Medal- \n107\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n352\nBase Stability %\n60\nPotential\n39\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "300 SpinaSet\n1\n pcsLevel\n77\nDifficulty\n170\nMaterials- \n20\nxSilver \n7\nth Anniv Medal- \n107\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n352\nAGI %\n6\nMaxHP\n5000\nATK %\n6\nAccuracy\n150\nCritical Rate\n35\nBase Stability %\n60\nReduce Dmg (Floor) %\n35\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "280 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n160\nMaterials- \n20\nxBronze \n8\nth Anniv Medal- \n30\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n352\nBase Stability %\n60\nPotential\n39\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "280 SpinaSet\n1\n pcsLevel\n1\nDifficulty\n160\nMaterials- \n20\nxBronze \n8\nth Anniv Medal- \n30\nx Beast"
+    },
+    {
+        "Name": "Sakura Lantern Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n352\nMaxMP\n500\nATK %\n6\nAccuracy\n20\n%\nstronger against Earth\n25\nAilment Resistance %\n5\nEarth Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell150 SpinaProcess75 Metal",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n25\nxSakura Cloud Pyroxene- \n1\nxDusky Sakura Branch- \n1\nxSakura Petal- \n60\nx Metal"
+    },
+    {
+        "Name": "Snow Bear Parasol[Halberd]",
+        "StatEffect_Amount": "Base ATK\n355\nMaxHP\n4000\nAccuracy %\n20\n%\nstronger against Wind\n25\nWater Element\n1\nBase Stability %\n60\nGuard Break %\n30\nReduce Dmg (Meteor) %10",
+        "MonsterDyeMap": "Snow Bear BoxSnowball Mini Game Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Empress Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n367\nATK %\n6\nDodge\n50\nCritical Rate\n25\nAggro %-\n15\nFire Element\n1\nBase Stability %55",
+        "MonsterDyeMap": "Venena Coenubia (YK Wifey)(Lv 140)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 150)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 160)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 170)Ultimea Palace: ThroneVenena Coenubia (YK Wifey)(Lv 190)Ultimea Palace: Throne",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Empress Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n367\nATK %\n6\nDodge\n150\nCritical Rate\n20\nAggro %-\n10\nFire Element\n1\nBase Stability %55",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxLil Accessory Chip- \n1\nxLil Empress Horn- \n900\nx Metal- \n550\nx Mana"
+    },
+    {
+        "Name": "Lil Empress Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n367\nBase Stability %\n55\nPotential38",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell145 SpinaProcess72 Mana",
+        "Recipes": "1450 SpinaSet\n1\n pcsLevel\n140\nDifficulty\n145\nMaterials- \n2\nxLil Accessory Chip- \n1\nxLil Empress Horn- \n900\nx Metal- \n550\nx Mana"
+    },
+    {
+        "Name": "Sacred Ice Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n369\nMaxHP\n3000\nATK %\n6\n%\nstronger against Light-\n25\n%\nstronger against Dark\n10\nAilment Resistance %\n5\nWater Element\n1\nBase Stability %\n65\nATK UP (INT %)100",
+        "MonsterDyeMap": "Noeliel the Ice Statue(Lv 141)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue (raid)(Lv 182)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue (raid)(Lv 172)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue (raid)(Lv 162)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue (raid)(Lv 152)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue(Lv 191)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue(Lv 171)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue(Lv 161)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue(Lv 151)Noeliel Castle: Hall (120-140)Noeliel the Ice Statue (raid)(Lv 202)Noeliel Castle: Hall (120-140)",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sacred Ice Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n369\nMaxHP\n1000\nATK %\n2\n%\nstronger against Light-\n25\n%\nstronger against Dark\n10\nAilment Resistance %\n1\nWater Element\n1\nBase Stability %\n65\nATK UP (INT %)100",
+        "MonsterDyeMap": "Noeliel the Ice Statue(Lv 102)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue (raid)(Lv 142)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue (raid)(Lv 132)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue (raid)(Lv 122)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue (raid)(Lv 112)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue(Lv 152)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue(Lv 132)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue(Lv 122)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue(Lv 112)Noeliel Castle: Hall (80-100)Noeliel the Ice Statue (raid)(Lv 162)Noeliel Castle: Hall (80-100)",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sacred Ice Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n369\nMaxHP\n2000\nATK %\n4\n%\nstronger against Light-\n25\n%\nstronger against Dark\n10\nAilment Resistance %\n3\nWater Element\n1\nBase Stability %\n65\nATK UP (INT %)100",
+        "MonsterDyeMap": "Noeliel the Ice Statue(Lv 122)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue (raid)(Lv 162)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue (raid)(Lv 152)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue (raid)(Lv 142)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue (raid)(Lv 132)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue(Lv 172)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue(Lv 152)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue(Lv 142)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue(Lv 132)Noeliel Castle: Hall (100-120)Noeliel the Ice Statue (raid)(Lv 182)Noeliel Castle: Hall (100-120)",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Halberd VIII[Halberd]",
+        "StatEffect_Amount": "Base ATK\n387\nAGI %\n6\nATK %\n6\nStability %\n5\nAccuracy %\n9\nAttack MP Recovery\n16\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxSilpom \n4\nth Anniv Medal- \n300\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd VIII[Halberd]",
+        "StatEffect_Amount": "Base ATK\n387\nBase Stability %\n60\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "600 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxSilpom \n4\nth Anniv Medal- \n300\nx Beast"
+    },
+    {
+        "Name": "5th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n387\nAGI %\n6\nATK %\n6\nStability %\n15\nAccuracy %\n12\nAttack MP Recovery\n14\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "290 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxPom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n387\nBase Stability %\n60\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "290 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n170\nMaterials- \n20\nxPom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Ignis Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n387\nMaxHP\n2000\nATK %\n6\nCritical Rate\n5\nFire Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n155\nDifficulty\n160\nMaterials- \n5\nxBloody Red Gemstone- \n25\nxChipped Foretooth- \n250\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Ignis Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n387\nBase Stability %\n60\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": "800 SpinaSet\n1\n pcsLevel\n155\nDifficulty\n160\nMaterials- \n5\nxBloody Red Gemstone- \n25\nxChipped Foretooth- \n250\nx Metal- \n150\nx Wood"
+    },
+    {
+        "Name": "Ignis Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n387\nMaxHP\n200\nATK %\n6\nCritical Rate\n10\nFire Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Sand Bandits Gan(Lv 176)Geist Desert: Area 2Sand Bandits Gan(Lv 178)Geist Desert: Area 3Iceberg(Lv 180)Noeliel Castle: B1F (170-190)Iceberg(Lv 180)Noeliel Castle: B2F (170-190)Iceberg(Lv 180)Noeliel Castle: B3F (170-190)Iceberg(Lv 182)Noeliel Castle: B2F (170-190)Iceberg(Lv 182)Noeliel Castle: B3F (170-190)",
+        "Processing": "Sell160 SpinaProcess80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Parasol Choco Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n387\nATK %\n6\nCritical Rate\n30\nLight Element\n1\nBase Stability %\n60\nReduce Dmg (Bullet) %30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": "160 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n3\nxLove Cacao- \n1\nxCovenant Cacao- \n160\nx Mana"
+    },
+    {
+        "Name": "Tolerancia (old)[Halberd]",
+        "StatEffect_Amount": "Base ATK\n390\nStability %\n10\nCSPD\n1000\nCritical Damage\n20\nBase Stability %60",
+        "MonsterDyeMap": "P. Avatar(Lv 800)15422Event",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Eroded Rebellion[Halberd]",
+        "StatEffect_Amount": "Base ATK\n402\nMaxMP\n300\nATK %\n7\nAccuracy %\n14\nLight Element\n1\nBase Stability %\n65\nReduce Dmg (Bowling) %30",
+        "MonsterDyeMap": "Eroded Pilz(Lv 162)Morthell Swell: Deep AreaEroded Pilz(Lv 172)Morthell Swell: Deep AreaEroded Pilz(Lv 182)Morthell Swell: Deep AreaEroded Pilz(Lv 192)Morthell Swell: Deep AreaEroded Pilz(Lv 212)Morthell Swell: Deep Area",
+        "Processing": "Sell170 SpinaProcess85 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Eroded Rebellion[Halberd]",
+        "StatEffect_Amount": "Base ATK\n402\nMaxMP\n500\nATK %\n7\nAccuracy %\n7\nLight Element\n1\nBase Stability %\n65\nReduce Dmg (Bowling) %15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell170 SpinaProcess85 Mana",
+        "Recipes": "1700 SpinaSet\n1\n pcsLevel\n165\nDifficulty\n170\nMaterials- \n2\nxGladiate Crystal- \n2\nxCorroded Mushroom Cap- \n1000\nx Medicine- \n700\nx Metal"
+    },
+    {
+        "Name": "Eroded Rebellion[Halberd]",
+        "StatEffect_Amount": "Base ATK\n402\nBase Stability %\n65\nPotential42",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell170 SpinaProcess85 Mana",
+        "Recipes": "1700 SpinaSet\n1\n pcsLevel\n165\nDifficulty\n170\nMaterials- \n2\nxGladiate Crystal- \n2\nxCorroded Mushroom Cap- \n1000\nx Medicine- \n700\nx Metal"
+    },
+    {
+        "Name": "Eroded Rebellion[Halberd]",
+        "StatEffect_Amount": "Base ATK\n402\nMaxMP\n300\nATK %\n8\nAccuracy %\n16\n%\nstronger against Dark\n5\nLight Element\n1\nBase Stability %\n65\nReduce Dmg (Bowling) %20",
+        "MonsterDyeMap": "Eroded Pilz (Megiston 2020)(Lv 180)Event",
+        "Processing": "Sell170 SpinaProcess85 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Jade Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n424\nMaxMP\n400\nAccuracy\n120\nWind Element\n1\nLong Range Damage %\n6\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n165\nDifficulty\n170\nMaterials- \n3\nxPale Blue Lantern- \n20\nxDriftwood- \n225\nx Metal- \n200\nx Beast"
+    },
+    {
+        "Name": "Jade Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n424\nBase Stability %\n60\nPotential42",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": "850 SpinaSet\n1\n pcsLevel\n165\nDifficulty\n170\nMaterials- \n3\nxPale Blue Lantern- \n20\nxDriftwood- \n225\nx Metal- \n200\nx Beast"
+    },
+    {
+        "Name": "Jade Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n424\nMaxMP\n300\nAccuracy\n100\nWind Element\n1\nLong Range Damage %\n6\nBase Stability %60",
+        "MonsterDyeMap": "Spirabol(Lv 176)Nezim Wetlands",
+        "Processing": "Sell170 SpinaProcess85 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windblast Cone Spear III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n424\nStability %\n12\nCSPD\n900\nWater resistance %\n15\nWind Element\n1\nAttack MP Recovery\n24\nBase Stability %\n60\nReduce Dmg (Meteor) %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell26 SpinaProcessunknown",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n150\nMaterials- \n5\nxDark Note Paper- \n1\nxKinaco's Photo"
+    },
+    {
+        "Name": "Windblast Cone Spear III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n424\nBase Stability %\n60\nPotential41",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell53 SpinaProcessunknown",
+        "Recipes": "2000 SpinaSet\n1\n pcsLevel\n31\nDifficulty\n150\nMaterials- \n5\nxDark Note Paper- \n1\nxKinaco's Photo"
+    },
+    {
+        "Name": "4th Anniv Halberd IX[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nAGI %\n7\nATK %\n7\nStability %\n5\nAccuracy %\n12\nAttack MP Recovery\n18\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxGolpom \n4\nth Anniv Medal- \n350\nx Beast"
+    },
+    {
+        "Name": "4th Anniv Halberd IX[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nBase Stability %\n60\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "700 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxGolpom \n4\nth Anniv Medal- \n350\nx Beast"
+    },
+    {
+        "Name": "5th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nAGI %\n7\nATK %\n7\nStability %\n15\nAccuracy %\n13\nAttack MP Recovery\n16\nBase Stability %\n60\nReduce Dmg (Meteor) %2",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "320 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxBropom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nBase Stability %\n60\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "320 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n185\nMaterials- \n20\nxBropom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nAGI %\n7\nMaxMP\n200\nATK %\n7\nAccuracy %\n20\nAttack MP Recovery\n20\nBase Stability %\n60\nReduce Dmg (Meteor) %\n4\nDagger only:Additional Melee %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n200\nMaterials- \n20\nxBropom \n6\nth Anniv Medal- \n200\nx Beast"
+    },
+    {
+        "Name": "6th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nBase Stability %\n60\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n160\nDifficulty\n200\nMaterials- \n20\nxBropom \n6\nth Anniv Medal- \n200\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nAGI %\n7\nMaxMP\n340\nATK %\n7\nAccuracy\n175\nCritical Rate\n30\nBase Stability %\n60\nReduce Dmg (Floor) %\n30\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n195\nMaterials- \n20\nxGold \n7\nth Anniv Medal- \n175\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nBase Stability %\n60\nPotential\n43\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n145\nDifficulty\n195\nMaterials- \n20\nxGold \n7\nth Anniv Medal- \n175\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nAGI %\n7\nMaxHP\n6000\nATK %\n7\nAccuracy\n175\nCritical Rate\n35\nBase Stability %\n60\nReduce Dmg (Floor) %\n35\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "330 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n185\nMaterials- \n20\nxSilver \n8\nth Anniv Medal- \n140\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nBase Stability %\n60\nPotential\n43\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell175 SpinaProcess87 Metal",
+        "Recipes": "330 SpinaSet\n1\n pcsLevel\n110\nDifficulty\n185\nMaterials- \n20\nxSilver \n8\nth Anniv Medal- \n140\nx Beast"
+    },
+    {
+        "Name": "9th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nAGI %\n6\nATK %\n7\nAccuracy\n170\nCritical Rate\n40\nBase Stability %\n60\nATK UP (INT %)\n100\nReduce Dmg (Floor) %\n40\nAbsolute Dodge %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n443\nBase Stability %\n60\nPotential43",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Antler Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n462\nATK %\n7\nCritical Damage\n6\nDark Element\n1\nBase Stability %\n60\nFractional Barrier %\n10\nGuard Break %10",
+        "MonsterDyeMap": "Rhinoceros(Lv 189)Fugitive Lake Swamp: Area 1Rhinoceros(Lv 190)Fugitive Lake Swamp: Area 2Rhinoceros(Lv 191)Fugitive Lake Swamp: Area 3",
+        "Processing": "Sell180 SpinaProcess90 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Antler Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n462\nATK %\n7\nCritical Damage\n7\nDark Element\n1\nBase Stability %\n60\nFractional Barrier %\n14\nGuard Break %10",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell180 SpinaProcess90 Beast",
+        "Recipes": "900 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n180\nMaterials- \n20\nxLong Mane- \n10\nxBlack Leather- \n350\nx Metal- \n100\nx Wood"
+    },
+    {
+        "Name": "Antler Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n462\nBase Stability %\n60\nPotential44",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell180 SpinaProcess90 Beast",
+        "Recipes": "900 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n180\nMaterials- \n20\nxLong Mane- \n10\nxBlack Leather- \n350\nx Metal- \n100\nx Wood"
+    },
+    {
+        "Name": "5th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n481\nAGI %\n7\nATK %\n7\nStability %\n15\nAccuracy %\n14\nAttack MP Recovery\n18\nBase Stability %\n60\nReduce Dmg (Meteor) %4",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell185 SpinaProcess92 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n200\nMaterials- \n20\nxSilpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n481\nBase Stability %\n60\nPotential45",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell185 SpinaProcess92 Metal",
+        "Recipes": "350 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n200\nMaterials- \n20\nxSilpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Graviton Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n481\nATK %\n7\nPhysical Pierce %\n40\nASPD %\n30\nDark resistance %\n10\nGuard Recharge %\n20\nDark Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Repthon(Lv 177)Deltzon Research Zone: Deepest AreaRepthon(Lv 187)Deltzon Research Zone: Deepest AreaRepthon(Lv 197)Deltzon Research Zone: Deepest AreaRepthon(Lv 207)Deltzon Research Zone: Deepest AreaRepthon(Lv 227)Deltzon Research Zone: Deepest Area",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Graviton Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n481\nATK %\n7\nPhysical Pierce %\n10\nASPD %\n40\nDark resistance %\n20\nGuard Recharge %\n30\nDark Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "900 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n185\nMaterials- \n1\nxCitric Essence- \n1\nxRepthon Crystal- \n1600\nx Metal- \n250\nx Mana"
+    },
+    {
+        "Name": "Graviton Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n481\nBase Stability %\n60\nPotential45",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "900 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n185\nMaterials- \n1\nxCitric Essence- \n1\nxRepthon Crystal- \n1600\nx Metal- \n250\nx Mana"
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n495\nASPD\n1000\nCritical Rate\n100\nGuard Power %\n25\nGuard Recharge %\n25\nDark Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Drill Shaft[Halberd]",
+        "StatEffect_Amount": "Base ATK\n500\nAccuracy-\n150\nCritical Rate\n100\n%\nstronger against Neutral\n30\nBase Stability %\n100\nTumble Unavailable\n1\nAdditional Melee %\n90\nReduce Dmg (Charge) %30",
+        "MonsterDyeMap": "Rhinosaur(Lv 233)Fugitive Lake Swamp: Area 3",
+        "Processing": "Sell225 SpinaProcess112 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Macaron Tower Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n500\nAccuracy\n10\nCSPD\n1000\nAggro %-\n100\nWater Element\n1\nBase Stability %80",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell190 SpinaProcess95 Medicine",
+        "Recipes": "190 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n3\nxFluffy Marshmallow- \n1\nxSuper Sweet Syrup- \n190\nx Mana"
+    },
+    {
+        "Name": "Temple Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n502\nMaxMP\n600\nPhysical Resistance %\n12\nMagic Resistance %\n18\nLight Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Pantarum(Lv 203)Divido Valley: Area 1Pantarum(Lv 204)Divido Valley: Area 2Pantarum(Lv 205)Divido Valley: Area 3",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Temple Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n502\nMaxMP\n700\nPhysical Resistance %\n14\nMagic Resistance %\n21\nLight Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": "950 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n190\nMaterials- \n20\nxStrange Claw- \n15\nxSerrated Beak- \n350\nx Metal- \n125\nx Wood"
+    },
+    {
+        "Name": "Temple Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n502\nBase Stability %\n60\nPotential45",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": "950 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n190\nMaterials- \n20\nxStrange Claw- \n15\nxSerrated Beak- \n350\nx Metal- \n125\nx Wood"
+    },
+    {
+        "Name": "5th Anniv Halberd VII[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nAGI %\n7\nATK %\n7\nStability %\n15\nAccuracy %\n15\nAttack MP Recovery\n20\nBase Stability %\n60\nReduce Dmg (Meteor) %6",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n210\nMaterials- \n20\nxGolpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "5th Anniv Halberd VII[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nBase Stability %\n60\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n185\nDifficulty\n210\nMaterials- \n20\nxGolpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nAGI %\n7\nMaxMP\n300\nATK %\n7\nAccuracy %\n25\nAttack MP Recovery\n20\nBase Stability %\n60\nReduce Dmg (Meteor) %\n6\nDagger only:Additional Melee %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n220\nMaterials- \n20\nxSilpom \n6\nth Anniv Medal- \n220\nx Beast"
+    },
+    {
+        "Name": "6th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nBase Stability %\n60\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n180\nDifficulty\n220\nMaterials- \n20\nxSilpom \n6\nth Anniv Medal- \n220\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nAGI %\n7\nMaxMP\n360\nATK %\n7\nAccuracy\n195\nCritical Rate\n30\nBase Stability %\n60\nReduce Dmg (Floor) %\n30\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n215\nMaterials- \n20\nxBropom \n7\nth Anniv Medal- \n205\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nBase Stability %\n60\nPotential\n46\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "390 SpinaSet\n1\n pcsLevel\n175\nDifficulty\n215\nMaterials- \n20\nxBropom \n7\nth Anniv Medal- \n205\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nAGI %\n7\nMaxHP\n7000\nATK %\n7\nAccuracy\n195\nCritical Rate\n35\nBase Stability %\n60\nReduce Dmg (Floor) %\n35\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n170\nDifficulty\n205\nMaterials- \n20\nxGold \n8\nth Anniv Medal- \n200\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nBase Stability %\n60\nPotential\n46\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Metal",
+        "Recipes": "370 SpinaSet\n1\n pcsLevel\n170\nDifficulty\n205\nMaterials- \n20\nxGold \n8\nth Anniv Medal- \n200\nx Beast"
+    },
+    {
+        "Name": "9th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nAGI %\n7\nATK %\n7\nAccuracy\n190\nCritical Rate\n40\nBase Stability %\n60\nATK UP (INT %)\n100\nReduce Dmg (Floor) %\n40\nAbsolute Dodge %12",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Halberd II[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nBase Stability %\n60\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nATK %\n7\nASPD\n300\nCritical Rate\n25\nFire Element\n1\n%\nstronger against Neutral\n25\nBase Stability %\n60\nDagger only:Aggro %-15",
+        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)Neo PlastidaVenena Metacoenubia(Lv 195)Neo PlastidaVenena Metacoenubia(Lv 205)Neo PlastidaVenena Metacoenubia(Lv 215)Neo PlastidaVenena Metacoenubia(Lv 235)Neo Plastida",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nATK %\n7\nASPD\n350\nCritical Rate\n20\nFire Element\n1\n%\nstronger against Neutral\n10\nBase Stability %\n60\nDagger only:Aggro %-20",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell195 SpinaProcess97 Mana",
+        "Recipes": "1950 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n195\nMaterials- \n2\nxEmpress Ogre Accessory Chip- \n2\nxEmpress Ogre Fang- \n1300\nx Beast- \n650\nx Mana"
+    },
+    {
+        "Name": "Demon Empress Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n523\nBase Stability %\n60\nPotential46",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell195 SpinaProcess97 Mana",
+        "Recipes": "1950 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n195\nMaterials- \n2\nxEmpress Ogre Accessory Chip- \n2\nxEmpress Ogre Fang- \n1300\nx Beast- \n650\nx Mana"
+    },
+    {
+        "Name": "Berg Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n544\nATK %\n8\nCritical Rate\n8\n%\nstronger against Wind\n5\nEarth Element\n1\nBase Stability %\n60\nFractional Barrier %8",
+        "MonsterDyeMap": "Coccus(Lv 211)Milcaska Falls: WaterfallCoccus(Lv 213)Milcaska Falls: Army Base",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Berg Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n544\nATK %\n8\nCritical Rate\n16\n%\nstronger against Wind\n5\nEarth Element\n1\nBase Stability %\n60\nFractional Barrier %\n8\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n200\nMaterials- \n20\nxDragon Hardstone- \n20\nxBeige Sail- \n400\nx Metal- \n100\nx Beast"
+    },
+    {
+        "Name": "Berg Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n544\nBase Stability %\n60\nPotential\n47\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell200 SpinaProcess100 Metal",
+        "Recipes": "1000 SpinaSet\n1\n pcsLevel\n195\nDifficulty\n200\nMaterials- \n20\nxDragon Hardstone- \n20\nxBeige Sail- \n400\nx Metal- \n100\nx Beast"
+    },
+    {
+        "Name": "Firefighter Flag[Halberd]",
+        "StatEffect_Amount": "Base ATK\n544\nPhysical Resistance %\n30\nMagic Resistance %\n30\nFire resistance %\n50\nDark resistance %\n25\nLight Element\n1\nInvincible Aid (sec)\n2\nItem Cooldown-1",
+        "MonsterDyeMap": "Sunken Treasure-Sunken Treasure-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hell Reaper (Halberd)[Halberd]",
+        "StatEffect_Amount": "Base ATK\n544\nCritical Rate\n66\nCritical Damage\n6\nLight resistance %\n10\nAggro %-\n40\nDark Element\n1\nBase Stability %\n60\nReduce Dmg (Straight Line) %20",
+        "MonsterDyeMap": "Gespenst(Lv 190)EventGespenst High Difficulty ExchangeHigh Difficulty Boss Battle Event Venue",
+        "Processing": "Sell2 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shovel Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n544\nSTR %\n4\nPhysical Pierce %\n15\nShort Range Damage %\n8\n%\nstronger against Neutral\n30\nBase Stability %\n70\nGuard Break %\n15\nDagger only:Dodge\n100\nArrow only:Accuracy100",
+        "MonsterDyeMap": "Snowball Event NPCSnowball Mini Game Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Yozakura Naginata[Halberd]",
+        "StatEffect_Amount": "Base ATK\n544\nSTR %\n2\nAccuracy\n300\nASPD\n600\n%\nstronger against Dark\n10\nLight Element\n1\nShort Range Damage %\n6\nBase Stability %\n60\nReduce Dmg (Floor) %30",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell190 SpinaProcess95 Metal",
+        "Recipes": "3000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxLush Sake Cup- \n3\nxBroken Yozakura Twig- \n5\nxAlcoholic Petal- \n120\nx Metal"
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n555\nMaxMP\n600\nEarth resistance %\n20\nFire Element\n1\nShort Range Damage %\n2\nBase Stability %\n60\nPhysical Barrier\n1000\nReduce Dmg (Floor) %5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n555\nMaxMP\n600\nLight resistance %\n20\nDark Element\n1\nShort Range Damage %\n2\nBase Stability %\n60\nPhysical Barrier\n1000\nReduce Dmg (Floor) %5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n555\nMaxMP\n600\nEarth resistance %\n5\nFire Element\n1\nLong Range Damage %\n2\nBase Stability %\n60\nPhysical Barrier\n1000\nReduce Dmg (Floor) %20",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n555\nMaxMP\n600\nLight resistance %\n5\nDark Element\n1\nLong Range Damage %\n2\nBase Stability %\n60\nPhysical Barrier\n1000\nReduce Dmg (Floor) %20",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n555\nSTR %\n4\nMaxMP\n400\nATK %\n8\nEarth resistance %\n10\nFire Element\n1\nBase Stability %\n60\nPhysical Barrier\n3000\nReduce Dmg (Floor) %10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n555\nSTR %\n4\nMaxMP\n400\nATK %\n8\nLight resistance %\n10\nDark Element\n1\nBase Stability %\n60\nPhysical Barrier\n3000\nReduce Dmg (Floor) %10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n555\nMaxMP\n200\nATK %\n8\nEarth resistance %\n20\nFire Element\n1\nBase Stability %\n60\nPhysical Barrier\n2000\nATK UP (INT %)\n150\nReduce Dmg (Floor) %20",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n555\nMaxMP\n200\nATK %\n8\nLight resistance %\n20\nDark Element\n1\nBase Stability %\n60\nPhysical Barrier\n2000\nATK UP (INT %)\n150\nReduce Dmg (Floor) %20",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cosmic Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n564\nATK %\n6\nASPD\n777\nCritical Rate %\n100\nDark resistance %\n25\nLight Element\n1\nBase Stability %\n65\nFractional Barrier %\n5\nGuard Break %10",
+        "MonsterDyeMap": "Devil Dango(Lv 120)Otsukimi Event Venue: Crater Zone",
+        "Processing": "Sell205 SpinaProcess105 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cosmic Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n564\nATK %\n7\nASPD\n777\nCritical Rate %\n100\nDark resistance %\n25\nLight Element\n1\nBase Stability %\n65\nFractional Barrier %\n10\nGuard Break %20",
+        "MonsterDyeMap": "Devil Dango(Lv 170)Otsukimi Event Venue: Crater Zone",
+        "Processing": "Sell205 SpinaProcess105 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cosmic Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n564\nATK %\n8\nASPD\n777\nCritical Rate %\n100\nDark resistance %\n25\nLight Element\n1\nBase Stability %\n65\nFractional Barrier %\n20\nGuard Break %30",
+        "MonsterDyeMap": "Devil Dango(Lv 220)Otsukimi Event Venue: Crater Zone",
+        "Processing": "Sell205 SpinaProcess105 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Wanderer's Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n564\nMaxMP\n500\nATK %\n8\nPhysical Resistance %\n10\n%\nstronger against Fire\n5\nWater resistance %-\n30\nAggro %-\n20\nWater Element\n1\nAttack MP Recovery\n10\nBase Stability %60",
+        "MonsterDyeMap": "Irestida(Lv 195)Nov Diela CentralIrestida(Lv 205)Nov Diela CentralIrestida(Lv 215)Nov Diela CentralIrestida(Lv 225)Nov Diela CentralIrestida(Lv 245)Nov Diela CentralIrestida (Megiston 2021)(Lv 220)Event",
+        "Processing": "Sell205 SpinaProcess102 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Wanderer's Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n564\nMaxMP\n400\nATK %\n8\nPhysical Resistance %\n15\n%\nstronger against Fire\n5\nWater resistance %-\n15\nAggro %-\n30\nWater Element\n1\nAttack MP Recovery\n8\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell205 SpinaProcess102 Mana",
+        "Recipes": "2050 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n205\nMaterials- \n1\nxStrange Whirpool- \n2\nxIrestida's Tail- \n1500\nx Beast- \n550\nx Medicine"
+    },
+    {
+        "Name": "Wanderer's Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n564\nBase Stability %\n60\nPotential48",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell205 SpinaProcess102 Mana",
+        "Recipes": "2050 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n205\nMaterials- \n1\nxStrange Whirpool- \n2\nxIrestida's Tail- \n1500\nx Beast- \n550\nx Medicine"
+    },
+    {
+        "Name": "Tolerancia (old)[Halberd]",
+        "StatEffect_Amount": "Base ATK\n585\nStability %\n10\nCSPD\n1500\nCritical Damage\n30\nBase Stability %60",
+        "MonsterDyeMap": "P. Avatar (2021)(Lv 400)15422Event",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nAGI %\n8\nMaxMP\n300\nATK %\n8\nAccuracy %\n30\nAttack MP Recovery\n20\nBase Stability %\n60\nReduce Dmg (Meteor) %\n8\nDagger only:Additional Melee %100",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n235\nMaterials- \n20\nxGolpom \n6\nth Anniv Medal- \n235\nx Beast"
+    },
+    {
+        "Name": "6th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nBase Stability %\n60\nPotential49",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n200\nDifficulty\n235\nMaterials- \n20\nxGolpom \n6\nth Anniv Medal- \n235\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nAGI %\n8\nMaxMP\n380\nATK %\n8\nAccuracy\n210\nCritical Rate\n30\nBase Stability %\n60\nReduce Dmg (Floor) %\n30\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n230\nMaterials- \n20\nxSilpom \n7\nth Anniv Medal- \n220\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nBase Stability %\n60\nPotential\n49\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "420 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n230\nMaterials- \n20\nxSilpom \n7\nth Anniv Medal- \n220\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nAGI %\n8\nMaxHP\n8000\nATK %\n8\nAccuracy\n210\nCritical Rate\n35\nBase Stability %\n60\nReduce Dmg (Floor) %\n35\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n220\nMaterials- \n20\nxBropom \n8\nth Anniv Medal- \n220\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nBase Stability %\n60\nPotential\n49\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Metal",
+        "Recipes": "400 SpinaSet\n1\n pcsLevel\n190\nDifficulty\n220\nMaterials- \n20\nxBropom \n8\nth Anniv Medal- \n220\nx Beast"
+    },
+    {
+        "Name": "9th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nAGI %\n8\nATK %\n8\nAccuracy\n210\nCritical Rate\n40\nBase Stability %\n60\nATK UP (INT %)\n100\nReduce Dmg (Floor) %\n40\nAbsolute Dodge %14",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Halberd III[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nBase Stability %\n60\nPotential49",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Azure Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nCritical Rate\n75\n%\nstronger against Fire\n5\nWater Element\n1\nBase Stability %\n60\nAnticipate %\n25\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell210 SpinaProcess105 Beast",
+        "Recipes": "1050 SpinaSet\n1\n pcsLevel\n205\nDifficulty\n210\nMaterials- \n5\nxCrooked Horn- \n20\nxIron Pipe- \n300\nx Beast- \n230\nx Metal"
+    },
+    {
+        "Name": "Azure Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nBase Stability %\n60\nPotential\n49\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell210 SpinaProcess105 Beast",
+        "Recipes": "1050 SpinaSet\n1\n pcsLevel\n205\nDifficulty\n210\nMaterials- \n5\nxCrooked Horn- \n20\nxIron Pipe- \n300\nx Beast- \n230\nx Metal"
+    },
+    {
+        "Name": "Azure Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nCritical Rate\n70\n%\nstronger against Fire\n5\nWater Element\n1\nBase Stability %\n60\nAnticipate %\n20\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Snorm(Lv 218)Illuminare City: Route 1 (210-230)Snorm(Lv 218)Illuminare City: Route 2 (210-230)Snorm(Lv 221)Illuminare City: Route 2 (210-230)Snorm(Lv 221)Illuminare City: Route 3 (210-230)Kiton(Lv 227)Jabali Kubwa: Area 1Kiton(Lv 228)Jabali Kubwa: Area 2Kiton(Lv 229)Jabali Kubwa: Area 3",
+        "Processing": "Sell210 SpinaProcess105 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Beastlord Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n587\nBase Stability %\n60\nPotential48",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "N/ASet\n1\n pcsLevel\n200\nDifficulty\n203\nMaterials- \n1\nxZega VI- \n1\nxOrichalcum"
+    },
+    {
+        "Name": "Pearl Sakura Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n620\nMaxHP %\n30\nCritical Rate\n50\nCritical Rate %\n25\n%\nstronger against Earth\n10\nFire Element\n1\nBase Stability %\n60\nAdditional Melee %50",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessWood",
+        "Recipes": "4000 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n10\nxFine Sake (Pearl Sakura)- \n3\nxSinister Origami- \n5\nxTorn Paper Crane- \n240\nx Metal"
+    },
+    {
+        "Name": "Aquila Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n632\nATK %\n8\nAccuracy\n80\nWater resistance %\n40\nEvasion Recharge %\n40\nWind Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "1100 SpinaSet\n1\n pcsLevel\n215\nDifficulty\n220\nMaterials- \n15\nxIce Crystal Tail- \n15\nxPuerta Stone- \n350\nx Beast- \n200\nx Metal"
+    },
+    {
+        "Name": "Aquila Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n632\nBase Stability %\n60\nPotential50",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "1100 SpinaSet\n1\n pcsLevel\n215\nDifficulty\n220\nMaterials- \n15\nxIce Crystal Tail- \n15\nxPuerta Stone- \n350\nx Beast- \n200\nx Metal"
+    },
+    {
+        "Name": "Aquila Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n632\nATK %\n8\nAccuracy\n75\nWater resistance %\n20\nEvasion Recharge %\n30\nWind Element\n1\nBase Stability %\n60\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Gronio(Lv 237)Espuma Dome: Area 1Gronio(Lv 238)Espuma Dome: Area 2Gronio(Lv 239)Espuma Dome: Area 3",
+        "Processing": "Sell220 SpinaProcess110 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Poison Flame Dragon Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n632\nMaxHP %\n20\nATK %\n8\nMagic Resistance %\n20\nAccuracy\n100\nCritical Rate %\n60\n%\nstronger against Earth\n30\nDark Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Vlam the Flame Dragon(Lv 210)Divido SpringVlam the Flame Dragon(Lv 220)Divido SpringVlam the Flame Dragon(Lv 230)Divido SpringVlam the Flame Dragon(Lv 240)Divido SpringVlam the Flame Dragon(Lv 260)Divido Spring",
+        "Processing": "Sell220 SpinaProcess110 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Poison Flame Dragon Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n632\nMaxHP %\n10\nATK %\n8\nMagic Resistance %\n15\nAccuracy\n100\nCritical Rate %\n45\n%\nstronger against Earth\n30\nDark Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell220 SpinaProcess110 Beast",
+        "Recipes": "2200 SpinaSet\n1\n pcsLevel\n215\nDifficulty\n220\nMaterials- \n1\nxToxic Dragon Caudal Claw- \n1\nxHot Poison Gland- \n1250\nx Beast- \n950\nx Metal"
+    },
+    {
+        "Name": "Poison Flame Dragon Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n632\nBase Stability %\n60\nPotential50",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell220 SpinaProcess110 Beast",
+        "Recipes": "2200 SpinaSet\n1\n pcsLevel\n215\nDifficulty\n220\nMaterials- \n1\nxToxic Dragon Caudal Claw- \n1\nxHot Poison Gland- \n1250\nx Beast- \n950\nx Metal"
+    },
+    {
+        "Name": "Poison Flame Dragon Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n632\nMaxHP\n4000\nMaxHP %\n20\nMagic Resistance %\n20\nAccuracy\n50\nCritical Rate\n120\nAggro %\n30\nFire Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Vlam the Flame Dragon (Megiston 2022)(Lv 230)Event",
+        "Processing": "Sell220 SpinaProcess110 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Queen of Hearts[Halberd]",
+        "StatEffect_Amount": "Base ATK\n632\nMaxHP\n2000\nMaxMP\n400\nASPD\n1200\nCSPD\n600\n%\nstronger against Light\n10\nDark Element1",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell220 SpinaProcess110 Metal",
+        "Recipes": "908 SpinaSet\n1\n pcsLevelN/ADifficulty\n0\nMaterials- \n1\nxRainbow Orb"
+    },
+    {
+        "Name": "Ice Spirit Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n654\nATK %\n7\nASPD %\n70\nAggro %-\n30\nWater Element\n1\nAttack MP Recovery\n25\nBase Stability %\n60\nMATK UP (AGI %)50",
+        "MonsterDyeMap": "Dutannen (Weak)(Lv 179)Noeliel Castle: B4FDutannen (Medium)(Lv 199)Noeliel Castle: B4FDutannen (Strong)(Lv 219)Noeliel Castle: B4F",
+        "Processing": "Sell225 SpinaProcess112 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ice Spirit Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n654\nATK %\n9\nASPD %\n100\nAggro %-\n50\nWater Element\n1\nAttack MP Recovery\n25\nBase Stability %\n60\nMATK UP (AGI %)100",
+        "MonsterDyeMap": "Dutannen (Max)(Lv 239)Noeliel Castle: B4F",
+        "Processing": "Sell225 SpinaProcess112 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lolliodd Magic Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n654\nATK %\n6\nPhysical Pierce %\n6\nCSPD %-\n50\nCritical Rate\n75\nEvasion Recharge %-\n10\nShort Range Damage %\n6\nLong Range Damage %-\n1\nBase Stability %\n55\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Evil Lefina (Plain)(Lv 170)El Scaro",
+        "Processing": "Sell220 SpinaProcess110 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lolliodd Magic Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n654\nATK %\n7\nPhysical Pierce %\n7\nCSPD %-\n75\nCritical Rate\n75\nEvasion Recharge %-\n30\nShort Range Damage %\n7\nLong Range Damage %-\n5\nBase Stability %\n55\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Evil Lefina (Cocoa)(Lv 200)El Scaro",
+        "Processing": "Sell220 SpinaProcess110 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lolliodd Magic Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n654\nATK %\n8\nPhysical Pierce %\n8\nCSPD %-\n100\nCritical Rate\n75\nEvasion Recharge %-\n50\nShort Range Damage %\n8\nLong Range Damage %-\n10\nBase Stability %\n55\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Evil Lefina (Choco)(Lv 230)El ScaroEvil Lefina (Coffee)(Lv 260)El Scaro",
+        "Processing": "Sell220 SpinaProcess110 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Tolerancia[Halberd]",
+        "StatEffect_Amount": "Base ATK\n672\nStability %\n10\nCSPD\n1500\nCritical Damage\n30\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2022)Event",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "7th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nAGI %\n9\nMaxMP\n400\nATK %\n9\nAccuracy\n230\nCritical Rate\n30\nBase Stability %\n60\nReduce Dmg (Floor) %\n30\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxGolpom \n7\nth Anniv Medal- \n240\nx Beast"
+    },
+    {
+        "Name": "7th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nBase Stability %\n60\nPotential\n52\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxGolpom \n7\nth Anniv Medal- \n240\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nAGI %\n9\nMaxHP\n9000\nATK %\n9\nAccuracy\n230\nCritical Rate\n35\nBase Stability %\n60\nReduce Dmg (Floor) %\n35\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxSilpom \n8\nth Anniv Medal- \n240\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nBase Stability %\n60\nPotential\n52\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": "440 SpinaSet\n1\n pcsLevel\n210\nDifficulty\n240\nMaterials- \n20\nxSilpom \n8\nth Anniv Medal- \n240\nx Beast"
+    },
+    {
+        "Name": "9th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nAGI %\n9\nATK %\n9\nAccuracy\n230\nCritical Rate\n40\nBase Stability %\n60\nATK UP (INT %)\n100\nReduce Dmg (Floor) %\n40\nAbsolute Dodge %16",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Halberd IV[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nBase Stability %\n60\nPotential52",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Guard Bone Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nMaxHP\n5000\nPhysical Resistance %\n25\n%\nstronger against Wind\n10\nEarth Element\n1\nShort Range Damage %\n9\nBase Stability %\n65\nPhysical Barrier\n2500\nReduce Dmg (Charge) %25",
+        "MonsterDyeMap": "Guard Golem(Lv 222)Weredragon's ThroatGuard Golem(Lv 232)Weredragon's ThroatGuard Golem(Lv 242)Weredragon's ThroatGuard Golem(Lv 252)Weredragon's ThroatGuard Golem(Lv 272)Weredragon's Throat",
+        "Processing": "Sell230 SpinaProcess115 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Guard Bone Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nMaxHP\n3000\nATK %\n9\nMATK %\n9\nPhysical Resistance %\n20\n%\nstronger against Neutral\n25\nBase Stability %\n65\nReduce Dmg (Charge) %35",
+        "MonsterDyeMap": "Guard Golem (Megiston 2022)(Lv 250)Event",
+        "Processing": "Sell230 SpinaProcess115 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Guard Bone Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nMaxHP\n5000\nPhysical Resistance %\n25\n%\nstronger against Wind\n10\nEarth Element\n1\nShort Range Damage %\n9\nBase Stability %\n65\nPhysical Barrier\n2000\nReduce Dmg (Charge) %15",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell230 SpinaProcess115 Beast",
+        "Recipes": "2300 SpinaSet\n1\n pcsLevel\n225\nDifficulty\n230\nMaterials- \n1\nxWeredragon Golem Core- \n2\nxGiant Rock Shield Bit- \n1300\nx Beast- \n1000\nx Metal"
+    },
+    {
+        "Name": "Guard Bone Lance[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nBase Stability %\n65\nPotential52",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell230 SpinaProcess115 Beast",
+        "Recipes": "2300 SpinaSet\n1\n pcsLevel\n225\nDifficulty\n230\nMaterials- \n1\nxWeredragon Golem Core- \n2\nxGiant Rock Shield Bit- \n1300\nx Beast- \n1000\nx Metal"
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nAccuracy\n125\nASPD\n1000\nCritical Rate\n125\nGuard Power %\n35\nGuard Recharge %\n35\nDark Element\n1\nBase Stability %\n60\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Light Trident[Halberd]",
+        "StatEffect_Amount": "Base ATK\n678\nATK %\n9\nPhysical Pierce %\n25\nMagic Pierce %\n20\nDodge %\n40\nLight Element1",
+        "MonsterDyeMap": "Corroded Rana(Lv 251)Marinatown: Area 3Corroded Rana(Lv 250)Marinatown: Area 2Corroded Rana(Lv 249)Marinatown: Area 1",
+        "Processing": "Sell230 SpinaProcess115 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Holy Night Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n720\nSTR %\n5\nATK %\n10\nPhysical Pierce %\n20\nMagic Pierce %\n30\nMagic Resistance %\n30\nLight resistance %\n30\nLight Element\n1\nBase Stability %60",
+        "MonsterDyeMap": "Black Velly (Very Hard)(Lv 250)Illuminare City: Central Square",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Warrior Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n726\nATK %\n7\nPhysical Resistance %\n20\nMagic Resistance %\n20\nAilment Resistance %\n20\nAttack MP Recovery\n30\n%\nstronger against Neutral\n20\nBase Stability %\n60\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Baavgai (Easy)(Lv 200)Mt. Sakuraten: Summit",
+        "Processing": "Sell240 SpinaProcess120 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Warrior Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n726\nATK %\n8\nPhysical Resistance %\n25\nMagic Resistance %\n25\nAilment Resistance %\n25\nAttack MP Recovery\n30\n%\nstronger against Neutral\n25\nBase Stability %\n60\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Baavgai (Normal)(Lv 220)Mt. Sakuraten: Summit",
+        "Processing": "Sell240 SpinaProcess120 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Warrior Halberd[Halberd]",
+        "StatEffect_Amount": "Base ATK\n726\nATK %\n9\nPhysical Resistance %\n30\nMagic Resistance %\n30\nAilment Resistance %\n30\nAttack MP Recovery\n30\n%\nstronger against Neutral\n30\nBase Stability %\n60\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Baavgai (Hard)(Lv 240)Mt. Sakuraten: Summit",
+        "Processing": "Sell240 SpinaProcess120 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "8th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nAGI %\n10\nMaxHP\n10000\nATK %\n10\nAccuracy\n250\nCritical Rate\n35\nBase Stability %\n60\nReduce Dmg (Floor) %\n35\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell250 SpinaProcess125 Metal",
+        "Recipes": "480 SpinaSet\n1\n pcsLevel\n230\nDifficulty\n260\nMaterials- \n20\nxGolpom \n8\nth Anniv Medal- \n260\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nBase Stability %\n60\nPotential\n55\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell250 SpinaProcess125 Metal",
+        "Recipes": "480 SpinaSet\n1\n pcsLevel\n230\nDifficulty\n260\nMaterials- \n20\nxGolpom \n8\nth Anniv Medal- \n260\nx Beast"
+    },
+    {
+        "Name": "9th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nAGI %\n10\nATK %\n10\nAccuracy\n250\nCritical Rate\n40\nBase Stability %\n60\nATK UP (INT %)\n100\nReduce Dmg (Floor) %\n40\nAbsolute Dodge %18",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Halberd V[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nBase Stability %\n60\nPotential55",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dominant Scythespear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nMaxHP %\n30\nATK %\n10\nStability %\n20\nCritical Rate\n40\nFire Element\n1\nBase Stability %\n60\nTumble Unavailable\n1\nReduce Dmg (Bowling) %\n40\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "Dominaredor(Lv 243)Frozen Falls: DepthsDominaredor(Lv 253)Frozen Falls: DepthsDominaredor(Lv 263)Frozen Falls: DepthsDominaredor(Lv 273)Frozen Falls: DepthsDominaredor(Lv 293)Frozen Falls: Depths",
+        "Processing": "Sell250 SpinaProcess125 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dominant Scythespear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nMaxHP %\n20\nATK %\n10\nStability %\n15\nCritical Rate\n60\nFire Element\n1\nBase Stability %\n60\nTumble Unavailable\n1\nReduce Dmg (Bowling) %\n50\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]Blacksmith : ZaldoSofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": "2500 SpinaSet\n1\n pcsLevel\n245\nDifficulty\n250\nMaterials- \n1\nxCorroded Dragon Horns- \n2\nxCorroded Dragon Heart- \n1250\nx Beast- \n1250\nx Metal"
+    },
+    {
+        "Name": "Dominant Scythespear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nBase Stability %\n60\nPotential55",
+        "MonsterDyeMap": "[Player]Smith Skill-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": "N/ASet\n1\n pcsLevel\n245\nDifficulty\n260\nMaterials- \n1\nxCorroded Dragon Horns- \n2\nxCorroded Dragon Heart- \n1250\nx Beast- \n1250\nx Metal"
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nMaxMP\n600\nATK %\n10\nEarth resistance %\n25\nFire Element\n1\nShort Range Damage %\n3\nBase Stability %\n60\nPhysical Barrier\n2000\nReduce Dmg (Floor) %\n10\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nMaxMP\n600\nATK %\n10\nLight resistance %\n25\nDark Element\n1\nShort Range Damage %\n3\nBase Stability %\n60\nPhysical Barrier\n2000\nReduce Dmg (Floor) %\n10\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nMaxMP\n600\nATK %\n10\nEarth resistance %\n10\nFire Element\n1\nLong Range Damage %\n3\nBase Stability %\n60\nPhysical Barrier\n2000\nReduce Dmg (Floor) %\n25\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nMaxMP\n600\nATK %\n10\nLight resistance %\n10\nDark Element\n1\nLong Range Damage %\n3\nBase Stability %\n60\nPhysical Barrier\n2000\nReduce Dmg (Floor) %\n25\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nSTR %\n5\nMaxMP\n400\nATK %\n10\nEarth resistance %\n15\nFire Element\n1\nBase Stability %\n60\nPhysical Barrier\n4000\nReduce Dmg (Floor) %\n15\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nSTR %\n5\nMaxMP\n400\nATK %\n10\nLight resistance %\n15\nDark Element\n1\nBase Stability %\n60\nPhysical Barrier\n4000\nReduce Dmg (Floor) %\n15\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nMaxMP\n200\nATK %\n10\nEarth resistance %\n25\nFire Element\n1\nBase Stability %\n60\nPhysical Barrier\n3000\nATK UP (INT %)\n150\nReduce Dmg (Floor) %\n25\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Infini Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nMaxMP\n200\nATK %\n10\nLight resistance %\n25\nDark Element\n1\nBase Stability %\n60\nPhysical Barrier\n3000\nATK UP (INT %)\n150\nReduce Dmg (Floor) %\n25\nAttack Range (m)\n3\n.5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)HATSUNE MIKU Collab Venue",
+        "Processing": "Sell1 SpinaProcess100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Tolerancia[Halberd]",
+        "StatEffect_Amount": "Base ATK\n776\nStability %\n10\nCSPD\n1500\nCritical Damage\n30\nBase Stability %60",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2023)Event",
+        "Processing": "Sell1 SpinaProcess1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Leodom Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n827\nMaxMP\n300\nATK %\n10\nPhysical Resistance %\n20\nASPD %\n30\nBase Stability %\n60\nGuard Break %\n20\nReduce Dmg (Straight Line) %\n10\n%\nstronger against Neutral35",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell260 SpinaProcess130 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Leodom Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n827\nMaxMP\n200\nATK %\n10\nPhysical Resistance %\n30\nASPD %\n40\n%\nstronger against Neutral\n35\nBase Stability %\n60\nGuard Break %\n20\nReduce Dmg (Straight Line) %20",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell260 SpinaProcess130 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Leodom Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n827\nMaxMP\n100\nATK %\n10\nPhysical Resistance %\n40\nASPD %\n50\n%\nstronger against Neutral\n35\nBase Stability %\n60\nFractional Barrier %\n20\nGuard Break %\n20\nReduce Dmg (Straight Line) %30",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell260 SpinaProcess130 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mystic Star Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n842\nMaxHP\n10000\nATK %\n10\nMagic Pierce %\n100\nMagic Resistance %\n50\nCritical Rate %\n200\nLight Element\n1\nBase Stability %\n60\nMATK UP (STR %)\n100\nReduce Dmg (Meteor) %50",
+        "MonsterDyeMap": "Etoise(Lv 285)High Difficulty Boss Battle Event Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Avid Glaive[Halberd]",
+        "StatEffect_Amount": "Base ATK\n852\nATK %\n10\nCritical Rate\n50\n%\nstronger against Water\n10\nEvasion Recharge %\n100\nWind Element\n1\nAttack MP Recovery\n20\nBase Stability %\n60\nAnticipate %40",
+        "MonsterDyeMap": "Raging Dragon Bovinari(Lv 258)Little Shrine of Grace SanctuaryRaging Dragon Bovinari(Lv 278)Little Shrine of Grace SanctuaryRaging Dragon Bovinari(Lv 288)Little Shrine of Grace SanctuaryRaging Dragon Bovinari(Lv 308)Little Shrine of Grace Sanctuary",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Crimson Moon Mystic Spear[Halberd]",
+        "StatEffect_Amount": "Base ATK\n852\nMaxMP\n400\nFire Element\n1\nAttack MP Recovery\n10\nShort Range Damage %\n11\nBase Stability %\n60\nTumble Unavailable\n1\nFractional Barrier %\n20\nArrow only:Long Range Damage %11",
+        "MonsterDyeMap": "Eripmav (Very Hard)(Lv 275)Risus Valley: Depths",
+        "Processing": "Sell275 SpinaProcess137 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n880\nAGI %\n10\nATK %\n11\nAccuracy\n270\nCritical Rate\n40\nBase Stability %\n60\nATK UP (INT %)\n100\nReduce Dmg (Floor) %\n40\nAbsolute Dodge %20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo555Sofya City: Blacksmith",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Halberd VI[Halberd]",
+        "StatEffect_Amount": "Base ATK\n880\nBase Stability %\n60\nPotential59",
+        "MonsterDyeMap": "[Player]Smith Skill555-",
+        "Processing": "Sell0 SpinaProcessunknown",
+        "Recipes": ""
+    }
+]
