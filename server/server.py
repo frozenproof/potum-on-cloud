@@ -5,7 +5,7 @@ import os
 app = Flask(__name__, template_folder='../templates')
 
 # Set the absolute path for the metadata file
-metadata_path = os.path.abspath("D:/8_POC/database/metadata.xlsx")
+metadata_path = os.path.abspath("./database/metadata.xlsx")
 
 # Load metadata for filenames, display names, and paths
 try:
