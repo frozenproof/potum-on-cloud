@@ -40,4 +40,6 @@ def view_file():
     return render_template('table_view.html', file_mapping=file_mapping, table=table_html)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Use the port set by Render, or default to 5000
+    app.run(host="0.0.0.0", port=port)  #
+    # app.run(debug=True)
