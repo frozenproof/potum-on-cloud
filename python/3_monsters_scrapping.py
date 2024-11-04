@@ -29,17 +29,17 @@ def format_basestat(text):
 list_of_weapons = [
     {
         "NormalMonsters": [
-            "https://coryn.club/monster.php?&show=9&type=N&order=level&p=0"
+            "https://coryn.club/monster.php?&show=3999&type=N&order=level&p=0"
         ], 
     },
     {
         "Miniboss": [
-            "https://coryn.club/monster.php?&show=9&type=M&order=level&p=0",
+            "https://coryn.club/monster.php?&show=999&type=M&order=level&p=0",
         ],
     },
     {
         "Boss": [
-            "https://coryn.club/monster.php?&show=9&type=B&order=level&p=0",
+            "https://coryn.club/monster.php?&show=299&type=B&order=level&p=0",
         ],
     }
 ]
