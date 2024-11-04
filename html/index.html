@@ -3,58 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON Data Table</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Data Display</title>
 </head>
 <body>
-
-<h2>JSON Data Table</h2>
-<table id="dataTable">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Stat Effect Amount</th>
-            <th>Monster Dye Map</th>
-            <th>Processing</th>
-            <th>Recipes</th>
-        </tr>
-    </thead>
-    <tbody></tbody>
-</table>
-
-<script>
-    fetch('../database/w3/1hs.json')
-        .then(response => response.json())
-        .then(data => {
-            const tableBody = document.querySelector("#dataTable tbody");
-            
-            data.forEach(item => {
-                const row = document.createElement("tr");
-                
-                Object.values(item).forEach(value => {
-                    const cell = document.createElement("td");
-                    cell.textContent = value;
-                    row.appendChild(cell);
-                });
-                
-                tableBody.appendChild(row);
-            });
-        })
-        .catch(error => console.error('Error loading JSON data:', error));
-</script>
-
+    <h1>Data Display</h1>
+    <ul>
+        {% for item in data %}
+        <li>
+            <h2>{{ item.title }}</h2>
+            <img src="{{ item.image_url }}" alt="{{ item.title }}" style="max-width: 200px;" />
+            <p>{{ item.description }}</p>
+        </li>
+        {% endfor %}
+    </ul>
 </body>
 </html>

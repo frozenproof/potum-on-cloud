@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "Sea Ghost Wooden Box",
+        "Stats": "Lv\n0\nType-HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "-",
+        "Drops": "\n[Arrow]Dragon Palace Arrow\n[Armor]Ocean \nlorer\n[Material]Octopus Tentacle\n[Material]Sand-Covered Coin\n[Special]Ghost Telescope\n[Special]Cursed Gold Coin\n[Special]Sea Fog Compass"
+    },
+    {
+        "Name": "Bride Box",
+        "Stats": "Lv\n0\nType-HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Dark Truffle\n[Usable]Sauteed Lonogo Shrimp\n[Usable]Wedding Wine\n[Additional]Marriage Tiara\n[Additional]Jewelry Tiara\n[Additional]Darling Tiara\n[Additional]Cara Tiara\n[Additional]Engagement Tiara\n[Additional]Unity Tiara\n[Material]Toss Bouquet"
+    },
+    {
+        "Name": "Rainy Season Event Reception",
+        "Stats": "Lv\n0\nType-HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Weather Doll"
+    },
+    {
+        "Name": "Golden Pom Treasure Box",
+        "Stats": "Lv\n0\nType-HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Material]Magic Yarn"
+    },
+    {
+        "Name": "Gespenst High Difficulty Exchange",
+        "Stats": "Lv\n0\nType-HPUnknownElementNeutralExpUnknownTamableNo",
+        "SpawnAt": "High Difficulty Boss Battle Event Venue",
+        "Drops": "\n[Usable]\n[Book of Ninja]\n[Refinement Support]Anti-Degradation\n[2 Handed Sword]Hell Reaper (Sword)\n[Additional Crysta]Gespenst II\n[Special Crysta]Specter of Death\n[Halberd]Hell Reaper (Halberd)"
+    },
+    {
+        "Name": "Patissia High Difficulty Exchange",
+        "Stats": "Lv\n0\nType-HPUnknownElementNeutralExpUnknownTamableNo",
+        "SpawnAt": "High Difficulty Boss Battle Event Venue",
+        "Drops": "\n[Enhancer Crysta (Purple)]Patissia"
+    },
+    {
+        "Name": "Zodiac Tiger Box",
+        "Stats": "Lv\n0\nType-HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "-",
+        "Drops": "\n[Usable]Osechi\n[Additional]Zodiac Hat: Tiger\n[Material]Otoshidama\n[Material]Otoshidama\n[Material]Otoshidama\n[Material]Otoshidama\n[Material]Otoshidama"
+    },
+    {
+        "Name": "Neo Maton High Difficulty Exchange",
+        "Stats": "Lv\n0\nType-HPUnknownElementNeutralExpUnknownTamableNo",
+        "SpawnAt": "High Difficulty Boss Battle Event Venue",
+        "Drops": "\n[Weapon Crysta]Neo Maton Sword"
+    },
+    {
+        "Name": "Groom Box",
+        "Stats": "Lv\n0\nType-HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Wedding Wine\n[Usable]Dragon Steak\n[Usable]Glow Ray Soup\n[Additional]Marriage Crown\n[Additional]Caro Crown\n[Additional]Jewelry Crown\n[Additional]Darling Crown\n[Additional]Interesse Crown\n[Additional]Engagement Crown\n[Additional]Unity Crown\n[Additional]Interesse Tiara\n[Material]Marriage Gift"
+    }
+]

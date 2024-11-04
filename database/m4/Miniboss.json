@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "Colon Commander",
+        "Stats": "Lv\n33\nType-HP\n22000\nElementFireExp\n440\nTamableNo",
+        "SpawnAt": "Strum Road",
+        "Drops": "\n[Usable]Revita I\n[Additional]Colon Met\n[Armor]Adventurer's Garb2BC\n[Material]Bundled Leaves\n[Material]Split Wooden Helm\n[Material]Colon Skin\n[Armor Crysta]Colon Commander"
+    },
+    {
+        "Name": "June Bride Event (all mini boss)",
+        "Stats": "Lv\n0\nType-HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Bride Box\n[Usable]Groom Box"
+    },
+    {
+        "Name": "Silver Roar",
+        "Stats": "Lv\n42\nType-HP\n14570\nElementWaterExp\n590\nTamableNo",
+        "SpawnAt": "Debakcy Channel: B1",
+        "Drops": "\n[Additional]Crystal Earrings\n[Armor]Adventurer's GarbAB1\n[Material]Bead Fragment\n[Material]Fairy Feather\n[Normal Crysta]Silver Roar"
+    },
+    {
+        "Name": "Miracle Potum",
+        "Stats": "Lv\n42\nType-HP\n29000\nElementLightExp\n600\nTamableNo",
+        "SpawnAt": "Ruined Temple: Area 2",
+        "Drops": "\n[Usable]Save Point\n[Usable]Hard Apple\n[Armor]Adventurer's GarbABC\n[Material]Potum Nail\n[Staff]Morning Star\n[Weapon Crysta]Miracle Potum"
+    },
+    {
+        "Name": "King Potum",
+        "Stats": "Lv\n50\nType-HP\n8000\nElementNeutralExp\n320\nTamableNo",
+        "SpawnAt": "Athema Ruins: Area 1",
+        "Drops": "\n[Usable]Hard Apple\n[Additional]Hair Band\n[Material]Bead Fragment\n[Material]Potum Nail\n[Normal Crysta]King Potum"
+    },
+    {
+        "Name": "Crimsosh",
+        "Stats": "Lv\n37\nType-HP\n22500\nElementFireExp\n500\nTamableNo",
+        "SpawnAt": "Athema Ruins: Area 2",
+        "Drops": "\n[Additional]Dawn Hat\n[Armor]Adventurer's GarbABC\n[Normal Crysta]Crimsosch"
+    },
+    {
+        "Name": "Persimmon Coryn",
+        "Stats": "Lv\n25\nType-HPUnknownElementLightExpUnknownTamableNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
+    },
+    {
+        "Name": "Tortuga",
+        "Stats": "Lv\n40\nType-HP\n13500\nElementWaterExp\n560\nTamableNo",
+        "SpawnAt": "Icule Lake",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Lizard Skin\n[Material]Turtle Shell\n[Ore]Damascus Ore\n[Shield]Shell Shield\n[Armor Crysta]Tortuga"
+    },
+    {
+        "Name": "Dark Mushroom",
+        "Stats": "Lv\n30\nType-HP\n17500\nElementDarkExp\n440\nTamableNo",
+        "SpawnAt": "Isthmus Of Kaus",
+        "Drops": "\n[Usable]Poisonous Mushroom\n[Additional]Scholar's Glasses\n[Armor]Adventurer's GarbA54C\n[Material]Mushroom Spore\n[Material]Turbid Crystal\n[Special Crysta]Dark Mushroom"
+    }
+]

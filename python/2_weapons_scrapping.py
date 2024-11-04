@@ -93,7 +93,8 @@ os.makedirs(file_path_main, exist_ok=True)
 for skill_category, urls in list_of_weapons["weapons"].items():
     file_path_json = file_path_main+f"{skill_category}.json"
     file_path_excel = file_path_main+f"{skill_category}.xlsx"
-    data = []  # Initialize the data list once per skill_category
+    # data = []  # Initialize the data list o87nce per skill_category
+    data = set()  # Initialize the data list once per skill_category
     words_to_remove = ["Stat/Effect", "Amount","Recipe","Obtained FromMonsterDyeMap","Fee"]
     for url in urls:
         try:
@@ -178,26 +179,31 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                     card_data["Recipes"] = raw_recipe
                     print(raw_recipe)
                     print("-----\n")
-                if(title_div is None or basestat_div is None and obtainfrom_div is None and prop_div is None):
-                    continue
-                # print(title_div)
-                
-                # Append the card's data to the main list
-                data.append(card_data)
+
+                if (title_div and basestat_div):
+                    # Serialize card_data to a JSON string to ensure order and add to the set
+                    card_data_json = json.dumps(card_data, ensure_ascii=False)
+                    data.add(card_data_json)
                 
             time.sleep(9)
-
 
         except requests.RequestException as e:
             print(f"Error fetching {url}: {e}")
 
-    # Save data to JSON
-    with open(file_path_json, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
 
-    # Convert data to a DataFrame for Excel output
-    df = pd.DataFrame(data)
-    df.to_excel(file_path_excel, index=False)
+    # Convert set of JSON strings back to a list of dicts
+    data_list = [json.loads(item) for item in data]
+    try: 
+        # Save data to JSON
+        with open(file_path_json, "w", encoding="utf-8") as f:
+            json.dump(data_list, f, ensure_ascii=False, indent=4)
 
+        # Convert data to a DataFrame for Excel output
+        df = pd.DataFrame(data_list)
+        df.to_excel(file_path_excel, index=False)
+    
+    except requests.RequestException as e:
+        print(f"Error insertion {url}: {e}")
+        exit(0)
 
 print("Data has been saved to JSON and Excel.")

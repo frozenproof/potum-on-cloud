@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Display</title>
+</head>
+<body>
+    <h1>Data Display</h1>
+    <ul>
+        {% for item in data %}
+        <li>
+            <h2>{{ item.title }}</h2> <!-- Change 'title' to the appropriate key -->
+            <img src="{{ item.image_url }}" alt="{{ item.title }}" style="max-width: 200px;" /> <!-- Change 'image_url' to the appropriate key -->
+            <p>{{ item.description }}</p> <!-- Change 'description' to the appropriate key -->
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

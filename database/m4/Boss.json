@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "2nd Anniversary Event (all boss)",
+        "Stats": "Lv\n0\nType(Normal)HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]2nd Anniv Box"
+    },
+    {
+        "Name": "Omochi",
+        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
+    },
+    {
+        "Name": "Pillow Kitagawa",
+        "Stats": "Lv\n0\nType(Normal)HP\n1000000\nElementFireExp\n8000\nTamableNo",
+        "SpawnAt": "Kitagawa Dream Center",
+        "Drops": "\n[Usable]Revita (Gift)\n[Additional]Pillow Kitagawa's Hat\n[Additional Crysta]Ox King\n[Enhancer Crysta (Yellow)]Royal Ox King\n[Enhancer Crysta (Yellow)]Pillow Kitagawa"
+    },
+    {
+        "Name": "3rd Anniv Event (all boss)",
+        "Stats": "Lv\n0\nType(Normal)HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]3rd Anniv Box"
+    },
+    {
+        "Name": "4th Anniv Event (all boss)",
+        "Stats": "Lv\n0\nType(Normal)HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]4th Anniversary Box"
+    },
+    {
+        "Name": "Lunadore",
+        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
+    },
+    {
+        "Name": "Perro",
+        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
+    },
+    {
+        "Name": "June Bride Event (all boss)",
+        "Stats": "Lv\n0\nType(Normal)HP\n0\nElementNeutralExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Bride Box\n[Usable]Groom Box"
+    },
+    {
+        "Name": "Purro",
+        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
+    }
+]
