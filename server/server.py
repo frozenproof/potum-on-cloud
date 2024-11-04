@@ -1,11 +1,18 @@
 from flask import Flask, render_template, request, redirect, url_for
 import pandas as pd
 import os
+import platform
 
 app = Flask(__name__, template_folder='../templates')
 
+# Determine the correct metadata file based on the operating system
+if platform.system() == "Windows":
+    metadata_file = "metadata_windows.xlsx"
+else:
+    metadata_file = "metadata_linux.xlsx"
+
 # Set the absolute path for the metadata file
-metadata_path = os.path.abspath("./database/metadata.xlsx")
+metadata_path = os.path.abspath(os.path.join("database", metadata_file))
 
 # Load metadata for filenames, display names, and paths
 try:
@@ -36,10 +43,10 @@ def view_file():
     df = df.applymap(lambda x: str(x).replace('\n', '<br>') if isinstance(x, str) else x)
 
     # Convert DataFrame to HTML
-    table_html = df.to_html(classes="table table-bordered center,", index=False, escape=False)
+    table_html = df.to_html(classes="table table-bordered center", index=False, escape=False)
     return render_template('table_view.html', file_mapping=file_mapping, table=table_html)
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))  # Use the port set by Render, or default to 5000
-    app.run(host="0.0.0.0", port=port)  #
+    app.run(host="0.0.0.0", port=port)
     # app.run(debug=True)
