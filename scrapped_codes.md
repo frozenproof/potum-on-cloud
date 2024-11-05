@@ -33,3 +33,5 @@
 
 #     except requests.RequestException as e:
 #         print(f"Error fetching {url}: {e}")
+
+    <!-- <link rel="shortcut icon" href="{{ url_for('', filename='favicon.ico') }}"> -->

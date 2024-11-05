@@ -3,15 +3,18 @@ import pandas as pd
 import os
 import platform
 
-app = Flask(__name__, template_folder='../templates')
+# Custom Flask class with static folder set to "images"
+class CustomFlask(Flask):
+    def __init__(self, import_name, template_folder=None, static_folder=None, static_url_path=None):
+        super().__init__(import_name, template_folder=template_folder, static_folder=static_folder, static_url_path=static_url_path)
+        print("CustomFlask initialized with template folder:", template_folder)
+        print("CustomFlask initialized with static_url_path:", static_url_path)
 
-# Determine the correct metadata file based on the operating system
-if platform.system() == "Windows":
-    metadata_file = "metadata_windows.xlsx"
-else:
-    metadata_file = "metadata_linux.xlsx"
+# Initialize app with static folder set to "images"
+app = CustomFlask(__name__, template_folder='../templates', static_folder='../images', static_url_path='/images')
 
-# Set the absolute path for the metadata file
+# Determine metadata file based on OS
+metadata_file = "metadata_windows.xlsx" if platform.system() == "Windows" else "metadata_linux.xlsx"
 metadata_path = os.path.abspath(os.path.join("database", metadata_file))
 
 # Load metadata for filenames, display names, and paths
@@ -31,11 +34,14 @@ def view_file():
     relative_file_path = request.form['file']
     search_query = request.form.get('search', '')
 
-    # Construct the full path to the selected Excel file
+    # Construct full path to the selected Excel file
     file_path = os.path.join(os.path.abspath("./database"), relative_file_path)
+    if not os.path.exists(file_path):
+        return render_template('table_view.html', file_mapping=file_mapping, table="<p>Error: File not found</p>")
+
     df = pd.read_excel(file_path)
 
-    # Search functionality
+    # Apply search query filter
     if search_query:
         df = df[df.apply(lambda row: row.astype(str).str.contains(search_query, case=False).any(), axis=1)]
 
@@ -46,7 +52,11 @@ def view_file():
     table_html = df.to_html(classes="table table-bordered center", index=False, escape=False)
     return render_template('table_view.html', file_mapping=file_mapping, table=table_html)
 
+@app.route('/favicon.ico')
+def favicon():
+    return redirect(url_for('static', filename='favicon.ico'))
+
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))  # Use the port set by Render, or default to 5000
+    port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
-    # app.run(debug=True)
+    app.debug = True 
