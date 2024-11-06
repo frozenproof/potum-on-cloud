@@ -93,6 +93,9 @@ for category_dict in list_of_weapons:
                         raw_basestat = basestat_div[0].get_text(strip=True)
                         for word in words_to_remove:
                             raw_basestat = raw_basestat.replace(word, "")
+                            raw_basestat = raw_basestat.replace("Element", "Element\n")
+                            raw_basestat = raw_basestat.replace("Exp", "\nExp\n")
+                            raw_basestat = raw_basestat.replace("HP", "\nHP")
                         card_data["Stats"] = format_basestat(raw_basestat)
 
                     # Get the second element (index 1)
@@ -110,8 +113,6 @@ for category_dict in list_of_weapons:
                         for word in words_to_remove:
                             raw_recipe = raw_recipe.replace(word, "")
                         raw_recipe = raw_recipe.replace("[", "\n[")
-                        raw_recipe = raw_recipe.replace("Element", "\n")
-                        raw_recipe = raw_recipe.replace("Exp", "\n")
                         card_data["Drops"] = raw_recipe
                         
                     if title_div and basestat_div and obtainfrom_div and prop_div:

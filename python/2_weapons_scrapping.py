@@ -158,6 +158,7 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                     raw_recipe = raw_recipe.replace(raw_basestat,"")
                     raw_recipe = raw_recipe.replace(raw_md_map,"")
                     raw_recipe = raw_recipe.replace("Spina","Spina\n")
+                    raw_recipe = raw_recipe.replace("pcsLevel","Level\n")
                     raw_recipe = format_basestat(raw_recipe)
                     card_data["Recipes"] = raw_recipe
                     print(raw_recipe)

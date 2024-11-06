@@ -7,6 +7,13 @@
         "Recipes": ""
     },
     {
+        "Name": "Fire Ninjutsu Scroll[Ninjutsu Scroll]",
+        "StatEffect_Amount": "MATK %\n1\nStaff only:Magic Pierce %5",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Recipes": ""
+    },
+    {
         "Name": "Earth Ninjutsu Scroll[Ninjutsu Scroll]",
         "StatEffect_Amount": "MaxHP %\n101\n-Handed Sword only:Fractional Barrier %10",
         "MonsterDyeMap": "empty",
@@ -21,13 +28,6 @@
         "Recipes": ""
     },
     {
-        "Name": "Metal Ninjutsu Scroll[Ninjutsu Scroll]",
-        "StatEffect_Amount": "Critical Rate5",
-        "MonsterDyeMap": "empty",
-        "Processing": "Sell1 SpinaProcess2 Wood",
-        "Recipes": ""
-    },
-    {
         "Name": "Lightning Ninjutsu Scroll[Ninjutsu Scroll]",
         "StatEffect_Amount": "Stability %\n5\nKatana only:Accuracy %10",
         "MonsterDyeMap": "empty",
@@ -35,15 +35,15 @@
         "Recipes": ""
     },
     {
-        "Name": "Fire Ninjutsu Scroll[Ninjutsu Scroll]",
-        "StatEffect_Amount": "MATK %\n1\nStaff only:Magic Pierce %5",
+        "Name": "Dark Ninjutsu Scroll[Ninjutsu Scroll]",
+        "StatEffect_Amount": "Aggro %-10",
         "MonsterDyeMap": "empty",
         "Processing": "Sell1 SpinaProcess2 Wood",
         "Recipes": ""
     },
     {
-        "Name": "Dark Ninjutsu Scroll[Ninjutsu Scroll]",
-        "StatEffect_Amount": "Aggro %-10",
+        "Name": "Metal Ninjutsu Scroll[Ninjutsu Scroll]",
+        "StatEffect_Amount": "Critical Rate5",
         "MonsterDyeMap": "empty",
         "Processing": "Sell1 SpinaProcess2 Wood",
         "Recipes": ""

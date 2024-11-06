@@ -1,1790 +1,1790 @@
 [
     {
+        "Name": "Gespenst",
+        "Stats": "Lv\n20\nType(Normal)\nHP\n8544\nElement\nDark\nExp\n240\nTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth\n[Normal Crysta]Gespenst"
+    },
+    {
+        "Name": "Boss Goblin",
+        "Stats": "Lv\n40\nType(Normal)\nHP\n26758\nElement\nFire\nExp\n560\nTamableNo",
+        "SpawnAt": "Ribisco Cave: Deepest Part",
+        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal\n[Normal Crysta]Boss Goblin"
+    },
+    {
         "Name": "Mochelo",
-        "Stats": "Lv\n43\nType(Normal)HP\n60000\nElementWindExp\n620\nTamableNo",
+        "Stats": "Lv\n63\nType(Nightmare)\nHP\n300000\nElement\nWind\nExp\n3100\nTamableNo",
         "SpawnAt": "Fiery Volcano: Area 3",
         "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur\n[Normal Crysta]Mochelo"
     },
     {
-        "Name": "Festival Golem B",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementWaterExp\n640\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Forestia",
-        "Stats": "Lv\n49\nType(Normal)HP\n135000\nElementWindExp\n1480\nTamableNo",
-        "SpawnAt": "Land Of Chaos",
-        "Drops": "\n[Arrow]Tempest Arrow\n[Armor]Green Dragon Garb\n[Dagger]Storm Dagger\n[Material]Green Dragon Claw\n[Material]Rainbow Stone\n[Material]Green Dragon Fur\n[Armor Crysta]Forestia"
-    },
-    {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementLightExp\n1200\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd II\n[Usable]Revita II\n[Additional]HeadbandA14C\n[Additional]War Helmet141C\n[Material]Silver 2nd Anniv Medal"
-    },
-    {
-        "Name": "Usami (Crescent Moon Lv60+)",
-        "Stats": "Lv\n70\nType(Hard)HP\n300000\nElementWaterExp\n4000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "Yashiro Azuki (Lv30)",
-        "Stats": "Lv\n70\nType(Ultimate)HP\n240000\nElementDarkExp\n4000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
-    },
-    {
-        "Name": "Kohaku Lil Boar",
-        "Stats": "Lv\n10\nType(Normal)HP\n40000\nElementLightExp\n300\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
-    },
-    {
-        "Name": "Ruin Golem",
-        "Stats": "Lv\n45\nType(Normal)HP\n41200\nElementEarthExp\n660\nTamableNo",
-        "SpawnAt": "Zoktzda ruins : Reversed Hall",
-        "Drops": "\n[1 Handed Sword]Relic Sword\n[Armor]Fightwear24C\n[Knuckles]Golem Arm\n[Material]Ancient Stone Slab\n[Material]Zoktzda Stone\n[Material]Broken Magic Lantern\n[Shield]Relic Shield\n[Normal Crysta]Ruin Golem"
-    },
-    {
-        "Name": "Outerworld Soldier",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementEarthExp\n2700\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita III\n[Usable]Regera III\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementWaterExp\n6000\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Silver 3rd Anniv Medal"
-    },
-    {
-        "Name": "Boss Colon",
-        "Stats": "Lv\n30\nType(Nightmare)HP\n5000\nElementEarthExp\n150\nTamableNo",
-        "SpawnAt": "Land Under Development",
-        "Drops": "\n[Usable]Sofya City\n[Additional]Colon Met\n[Material]Boss Colon Skin\n[Material]Colon Leaf\n[Normal Crysta]Boss Colon"
-    },
-    {
-        "Name": "Excavated Golem",
-        "Stats": "Lv\n26\nType(Hard)HP\n6300\nElementNeutralExp\n180\nTamableNo",
-        "SpawnAt": "Underground Ruins: Deepest Part",
-        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield\n[Weapon Crysta]Excavated Golem"
-    },
-    {
-        "Name": "Festival Golem C",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementWindExp\n640\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Forehead Protector\n[Additional]Ribbon59BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Goovua",
-        "Stats": "Lv\n82\nType(Normal)HP\n400000\nElementNeutralExp\n5000\nTamableNo",
-        "SpawnAt": "Akaku Desert: Hill",
-        "Drops": "\n[2 Handed Sword]Desert Anfel\n[Armor]Adventurer's GarbABC\n[Bow]Desert Mentum\n[Material]Broken Dual Edge\n[Material]Torn Cloak\n[Material]Goovua's Shoulder Pad\n[Material]Goovua's Mask Fragment\n[Special Crysta]Goovua"
-    },
-    {
-        "Name": "False God",
-        "Stats": "Lv\n75\nType(Normal)HPUnknownElementEarthExp\n2700\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Vita Plus III\n[Usable]Revita III\n[Usable]Regera III\n[Usable]Magiadd III\n[Additional]Forehead ProtectorAB1\n[Material]Gold 1st Anniv Medal"
-    },
-    {
-        "Name": "Mochelo",
-        "Stats": "Lv\n33\nType(Easy)HP\n6000\nElementWindExp\n62\nTamableNo",
-        "SpawnAt": "Fiery Volcano: Area 3",
-        "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur"
-    },
-    {
-        "Name": "Pumpking",
-        "Stats": "Lv\n50\nType(Normal)HP\n82000\nElementFireExp\n2300\nTamableNo",
-        "SpawnAt": "Tir Na Nog Square",
-        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Straye Garb\n[Ore]Damascus Ore\n[Additional Crysta]Pumpking"
-    },
-    {
-        "Name": "Boss Roga",
-        "Stats": "Lv\n52\nType(Easy)HP\n25000\nElementNeutralExp\n300\nTamableNo",
-        "SpawnAt": "Saham Underground Cave - Deepest Part",
-        "Drops": "\n[Armor]Killer Coat\n[Material]Boss Roga's Belt\n[Material]Ore from Another World\n[Material]Broken Huge Mace\n[Staff]Mace of Destruction"
-    },
-    {
-        "Name": "Festival Golem Type A",
-        "Stats": "Lv\n25\nType(Normal)HPUnknownElementFireExp\n320\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb40BC\n[Material]Copper 1st Anniv Medal"
-    },
-    {
         "Name": "Fighter Mochelo",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementWindExp\n1200\nTamableNo",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nWind\nExp\n1200\nTamableNo",
         "SpawnAt": "Anniversary Arena: 1st Venue",
         "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Bronze 4th Anniv Medal"
     },
     {
-        "Name": "Boss Goblin",
-        "Stats": "Lv\n30\nType(Easy)HP\n2675\nElementFireExp\n56\nTamableNo",
-        "SpawnAt": "Ribisco Cave: Deepest Part",
-        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal"
-    },
-    {
-        "Name": "Marchitar (Hanami 2017)",
-        "Stats": "Lv\n60\nType(Normal)HP\n59000\nElementDarkExp\n480\nTamableNo",
-        "SpawnAt": "Hanami Venue: Summit",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Material]Mana Clod\n[Weapon Crysta]Marchitar"
-    },
-    {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementWaterExp\n1200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Silver 3rd Anniv Medal"
-    },
-    {
-        "Name": "Ancient Empress Mezzaluna",
-        "Stats": "Lv\n54\nType(Easy)HP\n130000\nElementLightExp\n312\nTamableNo",
-        "SpawnAt": "Ancient Empress Tomb: Deepest Part",
-        "Drops": "\n[Armor]Adventurer's Garb54B22\n[Bowgun]Empress Bowgun\n[Material]Empress Aura\n[Material]Empress Medal\n[Material]Empress Hair Accessory\n[Magic Device]Empress Soul"
-    },
-    {
-        "Name": "Flare Volg",
-        "Stats": "Lv\n40\nType(Easy)HP\n12000\nElementFireExp\n150\nTamableNo",
-        "SpawnAt": "Fiery Volcano: Boss Map",
-        "Drops": "\n[2 Handed Sword]Volcanic Sword\n[Armor]Plate Armor\n[Knuckles]Volcanic Claws\n[Material]Fiery Gemstone\n[Material]Flare Volg Horn\n[Material]Flare Volg Flesh\n[Material]Flare Volg Claw"
-    },
-    {
-        "Name": "Cerabes (Hanami 2017)",
-        "Stats": "Lv\n60\nType(Normal)HP\n120000\nElementDarkExp\n1440\nTamableNo",
-        "SpawnAt": "Hanami Venue: Summit",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Cerabes Fang\n[Material]Broken Yozakura Branch\n[Special]Yozakura Bangle\n[Armor Crysta]Cerabes"
-    },
-    {
-        "Name": "Purro",
-        "Stats": "Lv\n20\nType(Hard)HP\n80000\nElementLightExp\n600\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
-    },
-    {
-        "Name": "Yashiro Azuki (Lv30)",
-        "Stats": "Lv\n40\nType(Hard)HP\n48000\nElementDarkExp\n800\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
-    },
-    {
-        "Name": "Narumi Hina (Lv 50 Raid)",
-        "Stats": "Lv\n50\nType(Normal)HP\n82000\nElementLightExp\n1140\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Dark Note Paper\n[Additional Crysta]Yashiro Azuki's Dad\n[Additional Crysta]Narumi Hina"
-    },
-    {
-        "Name": "Jeila",
-        "Stats": "Lv\n75\nType(Normal)HP\n185000\nElementDarkExp\n4200\nTamableNo",
-        "SpawnAt": "Halloween Castle",
-        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Mage Robe414085\n[Ore]Damascus Ore\n[Enhancer Crysta (Yellow)]Jeila"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementEarthExp\n1200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Viscum (Hanami 2016)",
-        "Stats": "Lv\n30\nType(Normal)HPUnknownElementDarkExpUnknownTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbAB35\n[Armor]Adventurer's GarbA15C\n[Material]Broken Sakura Branch\n[Material]Sakura Crystal Fragment\n[Special Crysta]Viscum"
-    },
-    {
-        "Name": "Lunadore",
-        "Stats": "Lv\n20\nType(Hard)HP\n80000\nElementLightExp\n600\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
-    },
-    {
-        "Name": "Boss Colon",
-        "Stats": "Lv\n4\nType(Easy)HP\n100\nElementEarthExp\n3\nTamableNo",
-        "SpawnAt": "Land Under Development",
-        "Drops": "\n[Usable]Sofya City\n[Additional]Colon Met\n[Material]Boss Colon Skin\n[Material]Colon Leaf"
-    },
-    {
-        "Name": "Omochi",
-        "Stats": "Lv\n10\nType(Normal)HP\n40000\nElementLightExp\n300\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
-    },
-    {
-        "Name": "Festival Golem C",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementWindExp\n1600\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Masked Warrior",
-        "Stats": "Lv\n57\nType(Easy)HP\n27600\nElementFireExp\n430\nTamableNo",
-        "SpawnAt": "Land Under Cultivation: Hill",
-        "Drops": "\n[2 Handed Sword]Berserker Blade\n[Additional]Berserker Mask\n[Armor]Adventurer's Garb40BC\n[Knuckles]Berserker Cestuses\n[Material]Heavy Tough Chain\n[Material]Broken Mask\n[Material]Great Sword Fragment\n[Ore]Mithril"
-    },
-    {
-        "Name": "Usakichi (New Moon Lv30+)",
-        "Stats": "Lv\n40\nType(Hard)HP\n64000\nElementEarthExp\n1600\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
-    },
-    {
-        "Name": "Festival Golem A",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementFireExp\n3200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]Golemet40BC\n[Additional]HeadbandA40C\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Boss Roga",
-        "Stats": "Lv\n72\nType(Hard)HP\n500000\nElementNeutralExp\n6000\nTamableNo",
-        "SpawnAt": "Saham Underground Cave - Deepest Part",
-        "Drops": "\n[Armor]Killer Coat\n[Material]Boss Roga's Belt\n[Material]Ore from Another World\n[Material]Broken Huge Mace\n[Staff]Mace of Destruction\n[Armor Crysta]Boss Roga"
-    },
-    {
-        "Name": "Faithful Guardian",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementFireExp\n2700\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita III\n[Usable]Magiadd III\n[Material]Gold 3rd Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem Type A",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementFireExp\n1600\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementEarthExp\n6000\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem C",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementWindExp\n320\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Forehead Protector\n[Additional]Ribbon59BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Purro",
-        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
-    },
-    {
-        "Name": "Faithful Guardian",
-        "Stats": "Lv\n75\nType(Normal)HPUnknownElementFireExpUnknownTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita III\n[Armor]Adventurer's GarbAB38\n[Material]Gold 1st Anniv Medal"
-    },
-    {
-        "Name": "Minotaur",
-        "Stats": "Lv\n42\nType(Hard)HP\n36000\nElementWindExp\n840\nTamableNo",
-        "SpawnAt": "Ruined Temple: Forbidden hall",
-        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Normal Crysta]Minotaur\n[Katana]Minotaur's Katana"
-    },
-    {
-        "Name": "Purro",
-        "Stats": "Lv\n10\nType(Normal)HP\n40000\nElementLightExp\n300\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
-    },
-    {
-        "Name": "Gespenst",
-        "Stats": "Lv\n30\nType(Hard)HP\n17088\nElementDarkExp\n480\nTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth\n[Normal Crysta]Gespenst"
-    },
-    {
-        "Name": "Usakichi (New Moon Lv30+)",
-        "Stats": "Lv\n70\nType(Ultimate)HP\n320000\nElementEarthExp\n8000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
-    },
-    {
-        "Name": "Usakichi (Crescent Moon Lv60+)",
-        "Stats": "Lv\n70\nType(Hard)HP\n300000\nElementEarthExp\n4000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
-    },
-    {
-        "Name": "Super Night Mushroom (Hanami 2017)",
-        "Stats": "Lv\n80\nType(Normal)HP\n640000\nElementDarkExp\n1500\nTamableNo",
-        "SpawnAt": "Hanami Venue: Summit",
-        "Drops": "\n[Additional]Night Mushroom Mask\n[Material]Mana Clod\n[Normal Crysta]Super Night Mushroom"
-    },
-    {
-        "Name": "Dr. Leonardo (Master)",
-        "Stats": "Lv\n80\nType(Normal)HP\n220000\nElementFireExp\n2900\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita III\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
-    },
-    {
-        "Name": "Usami (Otsukimi 2019)",
-        "Stats": "Lv\n60\nType(Hard)HP\n150000\nElementWaterExp\n2000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue: Crater Zone",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "Kohaku Lil Boar",
-        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
-    },
-    {
-        "Name": "Kohaku Lil Boar",
-        "Stats": "Lv\n30\nType(Nightmare)HP\n200000\nElementLightExp\n1500\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
-    },
-    {
-        "Name": "Perro",
-        "Stats": "Lv\n50\nType(Ultimate)HP\n400000\nElementLightExp\n3000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
-    },
-    {
-        "Name": "Forest Wolf",
-        "Stats": "Lv\n70\nType(Ultimate)HP\n160380\nElementWindExp\n3000\nTamableNo",
-        "SpawnAt": "Marbaro Forest: Deepest Part",
-        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover\n[Normal Crysta]Forest Wolf"
-    },
-    {
-        "Name": "Ganglef",
-        "Stats": "Lv\n68\nType(Hard)HP\n215600\nElementEarthExp\n2300\nTamableNo",
-        "SpawnAt": "Scaro Town: Deepest Part",
-        "Drops": "\n[Usable]Rich Crab Butter\n[Usable]Tough Crab Meat\n[2 Handed Sword]Iron Exoskeleton Sword\n[Bow]Iron Exoskeleton Bow\n[Material]Crustacean Steel\n[Material]Mineral Scissor\n[Weapon Crysta]Ganglef"
-    },
-    {
-        "Name": "Chocolate Ooze (White) (Valentine 2018)",
-        "Stats": "Lv\n30\nType(Normal)HP\n32000\nElementWaterExp\n1600\nTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Usable]Roasted Fruit\n[Usable]Bitter Nut\n[Ore]Hematite\n[Additional Crysta]Chocolate Ooze"
-    },
-    {
-        "Name": "Festival Golem Type A",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementFireExp\n3200\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Forest Wolf",
-        "Stats": "Lv\n40\nType(Hard)HP\n32076\nElementWindExp\n600\nTamableNo",
-        "SpawnAt": "Marbaro Forest: Deepest Part",
-        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover\n[Normal Crysta]Forest Wolf"
-    },
-    {
-        "Name": "Cerabes (Hanami 2017)",
-        "Stats": "Lv\n80\nType(Normal)HP\n430000\nElementDarkExp\n3600\nTamableNo",
-        "SpawnAt": "Hanami Venue: Summit",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Cerabes Fang\n[Material]Broken Yozakura Branch\n[Special]Yozakura Bangle\n[Armor Crysta]Cerabes"
-    },
-    {
-        "Name": "Boss Goblin (Megiston 2016)",
-        "Stats": "Lv\n80\nType(Normal)HP\n54000\nElementFireExp\n1500\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Normal Crysta]Boss Goblin"
-    },
-    {
         "Name": "DX Fighter (Anthony)",
-        "Stats": "Lv\n40\nType(Normal)HP\n32000\nElementLightExp\n620\nTamableNo",
+        "Stats": "Lv\n40\nType(Normal)\nHP\n32000\nElement\nLight\nExp\n620\nTamableNo",
         "SpawnAt": "Eagle Talon Collab Venue",
         "Drops": "\n[Usable]Revita III\n[Material]Hero's Rag\n[Ore]Hematite\n[Armor Crysta]DX Fighter"
     },
     {
-        "Name": "Mauez",
-        "Stats": "Lv\n65\nType(Hard)HP\n172000\nElementWaterExp\n2580\nTamableNo",
-        "SpawnAt": "New Moon Palace: Innermost",
-        "Drops": "\n[Bowgun]Magic Bowgun\n[Material]Magic Armor Fragment\n[Material]Runestone\n[Material]Mauez's Broken Rod\n[Magic Device]Vita Cores\n[Normal Crysta]Mauez\n[Halberd]Mauez's Pole"
-    },
-    {
-        "Name": "Festival Golem A",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementFireExp\n1600\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]HeadbandA40C\n[Additional]Golemet40B39\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Demon's Gate",
-        "Stats": "Lv\n60\nType(Normal)HP\n18000\nElementDarkExp\n1440\nTamableNo",
-        "SpawnAt": "Saham Crater",
-        "Drops": "\n[1 Handed Sword]Sword of Sin\n[Material]Eerie Stone\n[Material]Nail of Demon's gate\n[Material]Goddess Sculpture\n[Shield]Relief Shield\n[Weapon Crysta]Demon's Gate"
-    },
-    {
-        "Name": "Boss Goblin",
-        "Stats": "Lv\n50\nType(Hard)HP\n53516\nElementFireExp\n1120\nTamableNo",
-        "SpawnAt": "Ribisco Cave: Deepest Part",
-        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal\n[Normal Crysta]Boss Goblin"
-    },
-    {
-        "Name": "Ancient Empress Mezzaluna",
-        "Stats": "Lv\n74\nType(Hard)HP\n260000\nElementLightExp\n6240\nTamableNo",
-        "SpawnAt": "Ancient Empress Tomb: Deepest Part",
-        "Drops": "\n[Armor]Adventurer's Garb54B22\n[Bowgun]Empress Bowgun\n[Material]Empress Aura\n[Material]Empress Medal\n[Material]Empress Hair Accessory\n[Magic Device]Empress Soul\n[Additional Crysta]Ancient Empress"
-    },
-    {
-        "Name": "Demon's Gate",
-        "Stats": "Lv\n80\nType(Nightmare)HP\n900000\nElementDarkExp\n7200\nTamableNo",
-        "SpawnAt": "Saham Crater",
-        "Drops": "\n[1 Handed Sword]Sword of Sin\n[Material]Eerie Stone\n[Material]Nail of Demon's gate\n[Material]Goddess Sculpture\n[Shield]Relief Shield\n[Weapon Crysta]Demon's Gate"
-    },
-    {
-        "Name": "3rd Anniv Event (all boss)",
-        "Stats": "Lv\n0\nType(Normal)HP\n0\nElementNeutralExp\n0\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]3rd Anniv Box"
-    },
-    {
-        "Name": "Yashiro Azuki's Dad (Lv 50 Raid)",
-        "Stats": "Lv\n45\nType(Easy)HPUnknownElementWindExpUnknownTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Azuki's Dad's Mask"
-    },
-    {
-        "Name": "Eerie Crystal",
-        "Stats": "Lv\n64\nType(Ultimate)HP\n63000\nElementDarkExp\n2250\nTamableNo",
-        "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
-        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite\n[Special Crysta]Eerie Crystal"
-    },
-    {
-        "Name": "Perro",
-        "Stats": "Lv\n20\nType(Hard)HP\n80000\nElementLightExp\n600\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
-    },
-    {
-        "Name": "Forestia",
-        "Stats": "Lv\n69\nType(Nightmare)HP\n675000\nElementWindExp\n7400\nTamableNo",
-        "SpawnAt": "Land Of Chaos",
-        "Drops": "\n[Arrow]Tempest Arrow\n[Armor]Green Dragon Garb\n[Dagger]Storm Dagger\n[Material]Green Dragon Claw\n[Material]Rainbow Stone\n[Material]Green Dragon Fur\n[Armor Crysta]Forestia"
-    },
-    {
-        "Name": "Boss Roga",
-        "Stats": "Lv\n82\nType(Nightmare)HP\n1250000\nElementNeutralExp\n15000\nTamableNo",
-        "SpawnAt": "Saham Underground Cave - Deepest Part",
-        "Drops": "\n[Armor]Killer Coat\n[Material]Boss Roga's Belt\n[Material]Ore from Another World\n[Material]Broken Huge Mace\n[Staff]Mace of Destruction\n[Armor Crysta]Boss Roga"
-    },
-    {
-        "Name": "Fighter Mochelo",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementWindExp\n1200\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Additional]Mochelo Hat6055C\n[Material]Silver 2nd Anniv Medal"
-    },
-    {
-        "Name": "Boss Goblin",
-        "Stats": "Lv\n40\nType(Normal)HP\n26758\nElementFireExp\n560\nTamableNo",
-        "SpawnAt": "Ribisco Cave: Deepest Part",
-        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal\n[Normal Crysta]Boss Goblin"
-    },
-    {
-        "Name": "B.B. Goblin (Megiston 2016)",
-        "Stats": "Lv\n80\nType(Normal)HPUnknownElementFireExpUnknownTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Armor]B.B. Garb\n[Normal Crysta]B.B. Goblin"
-    },
-    {
         "Name": "DX Fighter (Anthony)",
-        "Stats": "Lv\n60\nType(Nightmare)HP\n160000\nElementLightExp\n3100\nTamableNo",
+        "Stats": "Lv\n60\nType(Nightmare)\nHP\n160000\nElement\nLight\nExp\n3100\nTamableNo",
         "SpawnAt": "Eagle Talon Collab Venue",
         "Drops": "\n[Usable]Revita III\n[Material]Hero's Rag\n[Ore]Hematite\n[Armor Crysta]DX Fighter"
-    },
-    {
-        "Name": "Festival Golem A",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementFireExp\n320\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]HeadbandA40C\n[Additional]Golemet40B39\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Boss Colon",
-        "Stats": "Lv\n50\nType(Ultimate)HP\n10000\nElementEarthExp\n300\nTamableNo",
-        "SpawnAt": "Land Under Development",
-        "Drops": "\n[Usable]Sofya City\n[Additional]Colon Met\n[Material]Boss Colon Skin\n[Material]Colon Leaf\n[Normal Crysta]Boss Colon"
-    },
-    {
-        "Name": "Black Knight of Delusion",
-        "Stats": "Lv\n78\nType(Easy)HP\n54000\nElementDarkExp\n660\nTamableNo",
-        "SpawnAt": "Abyss of No Return: Deepest Area",
-        "Drops": "\n[1 Handed Sword]Black Sword of Delusion\n[Armor]Adventurer's Garb35BC\n[Material]Magic Sword Fragment\n[Material]Evil Energy of Delusion\n[Material]Fractured Magic Armor\n[Material]Ominous Crystal\n[Shield]Black Shield of Delusion"
-    },
-    {
-        "Name": "Eerie Crystal",
-        "Stats": "Lv\n34\nType(Hard)HP\n12600\nElementDarkExp\n450\nTamableNo",
-        "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
-        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite\n[Special Crysta]Eerie Crystal"
-    },
-    {
-        "Name": "Festival Golem Type C",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementWindExp\n1600\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem C",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementWindExp\n320\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Warmonger",
-        "Stats": "Lv\n80\nType(Nightmare)HP\n738450\nElementEarthExp\n4800\nTamableNo",
-        "SpawnAt": "Haotas Ravine: Deepest Part",
-        "Drops": "\n[Additional]War Helmet\n[Armor]Scale ArmorAB1\n[Bowgun]War Bowgun\n[Material]Dark Gray Claw\n[Material]Thick Green Scale\n[Material]Huge Skull\n[Additional Crysta]Warmonger"
-    },
-    {
-        "Name": "Forest Wolf",
-        "Stats": "Lv\n50\nType(Nightmare)HP\n80190\nElementWindExp\n1500\nTamableNo",
-        "SpawnAt": "Marbaro Forest: Deepest Part",
-        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover\n[Normal Crysta]Forest Wolf"
-    },
-    {
-        "Name": "Ganglef",
-        "Stats": "Lv\n58\nType(Normal)HP\n107800\nElementEarthExp\n1150\nTamableNo",
-        "SpawnAt": "Scaro Town: Deepest Part",
-        "Drops": "\n[Usable]Rich Crab Butter\n[Usable]Tough Crab Meat\n[2 Handed Sword]Iron Exoskeleton Sword\n[Bow]Iron Exoskeleton Bow\n[Material]Crustacean Steel\n[Material]Mineral Scissor\n[Weapon Crysta]Ganglef"
-    },
-    {
-        "Name": "Lunadore",
-        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
-    },
-    {
-        "Name": "Fighter Mochelo",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementWindExp\n2400\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem Type C",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementWindExp\n3200\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Ooze",
-        "Stats": "Lv\n72\nType(Nightmare)HP\n220000\nElementWaterExp\n7000\nTamableNo",
-        "SpawnAt": "Lutaros Cavern: Deepest Part",
-        "Drops": "\n[Additional]Ooze Helmet\n[Armor]Ooze Armor\n[Material]Emerald Stone\n[Material]Luminous Magic Water\n[Material]Gluey Skin\n[Shield]Ooze Shield\n[Staff]Ooze Staff\n[Special Crysta]Ooze\n[Katana]Ooze Lamina"
-    },
-    {
-        "Name": "Dr. Leonardo (Bachelor)",
-        "Stats": "Lv\n50\nType(Nightmare)HP\n80000\nElementFireExp\n2000\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
-    },
-    {
-        "Name": "Excavated Golem",
-        "Stats": "Lv\n36\nType(Nightmare)HP\n15750\nElementNeutralExp\n450\nTamableNo",
-        "SpawnAt": "Underground Ruins: Deepest Part",
-        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield\n[Weapon Crysta]Excavated Golem"
     },
     {
         "Name": "Usakichi (New Moon Lv30+)",
-        "Stats": "Lv\n20\nType(Easy)HP\n3200\nElementEarthExp\n80\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder"
-    },
-    {
-        "Name": "Ooze",
-        "Stats": "Lv\n62\nType(Hard)HP\n88000\nElementWaterExp\n2800\nTamableNo",
-        "SpawnAt": "Lutaros Cavern: Deepest Part",
-        "Drops": "\n[Additional]Ooze Helmet\n[Armor]Ooze Armor\n[Material]Emerald Stone\n[Material]Luminous Magic Water\n[Material]Gluey Skin\n[Shield]Ooze Shield\n[Staff]Ooze Staff\n[Special Crysta]Ooze\n[Katana]Ooze Lamina"
-    },
-    {
-        "Name": "Gespenst",
-        "Stats": "Lv\n60\nType(Ultimate)HP\n85440\nElementDarkExp\n2400\nTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth\n[Normal Crysta]Gespenst"
-    },
-    {
-        "Name": "False God",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementLightExp\n2700\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita III\n[Usable]Vita Plus III\n[Material]Gold 3rd Anniv Medal"
-    },
-    {
-        "Name": "Boss Goblin",
-        "Stats": "Lv\n80\nType(Ultimate)HP\n267580\nElementFireExp\n5600\nTamableNo",
-        "SpawnAt": "Ribisco Cave: Deepest Part",
-        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal\n[Normal Crysta]Boss Goblin"
-    },
-    {
-        "Name": "Yashiro Azuki's Dad (Lv 50 Raid)",
-        "Stats": "Lv\n55\nType(Normal)HPUnknownElementWindExpUnknownTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Azuki's Dad's Mask"
-    },
-    {
-        "Name": "Lunadore",
-        "Stats": "Lv\n30\nType(Nightmare)HP\n200000\nElementLightExp\n1500\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
-    },
-    {
-        "Name": "Minotaur",
-        "Stats": "Lv\n32\nType(Normal)HP\n18000\nElementWindExp\n420\nTamableNo",
-        "SpawnAt": "Ruined Temple: Forbidden hall",
-        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Normal Crysta]Minotaur\n[Katana]Minotaur's Katana"
-    },
-    {
-        "Name": "Mochelo",
-        "Stats": "Lv\n63\nType(Nightmare)HP\n300000\nElementWindExp\n3100\nTamableNo",
-        "SpawnAt": "Fiery Volcano: Area 3",
-        "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur\n[Normal Crysta]Mochelo"
-    },
-    {
-        "Name": "Viscum (Hanami 2017)",
-        "Stats": "Lv\n80\nType(Normal)HP\n320000\nElementDarkExp\n2900\nTamableNo",
-        "SpawnAt": "Hanami Venue: Summit",
-        "Drops": "\n[Material]Broken Sakura Branch\n[Material]Sakura Crystal Fragment\n[Special Crysta]Viscum"
-    },
-    {
-        "Name": "Yashiro Azuki (Lv30)",
-        "Stats": "Lv\n50\nType(Nightmare)HP\n120000\nElementDarkExp\n2000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
-    },
-    {
-        "Name": "Grass Dragon Yelb",
-        "Stats": "Lv\n83\nType(Hard)HP\n878380\nElementEarthExp\n10080\nTamableNo",
-        "SpawnAt": "Albatif Village",
-        "Drops": "\n[1 Handed Sword]Phyto Blade\n[Material]Grass Dragon's Scale\n[Material]Grass Dragon's Skin\n[Material]Grass Dragon's Petal\n[Ore]Mithril Ore\n[Staff]Folium Staff\n[Additional Crysta]Grass Dragon Yelb"
-    },
-    {
-        "Name": "4th Anniv Event (all boss)",
-        "Stats": "Lv\n0\nType(Normal)HP\n0\nElementNeutralExp\n0\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]4th Anniversary Box"
-    },
-    {
-        "Name": "Brutal Dragon Decel",
-        "Stats": "Lv\n60\nType(Nightmare)HP\n265000\nElementEarthExp\n2800\nTamableNo",
-        "SpawnAt": "Nisel Mountain: The Top",
-        "Drops": "\n[1 Handed Sword]Brutal Dragon Sword\n[Additional]Brutal Dragon Crown\n[Armor]Brutal Dragon Armor\n[Material]Black Crystal Fragment\n[Material]Brutal Dragon Horn\n[Material]Brutal Dragon Tail\n[Material]Brutal Dragon Claw\n[Material]Brutal Dragon Skin\n[Normal Crysta]Brutal Dragon Decel"
-    },
-    {
-        "Name": "Fighter Mochelo",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementWindExp\n2400\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Silver 3rd Anniv Medal"
-    },
-    {
-        "Name": "Warmonger",
-        "Stats": "Lv\n70\nType(Hard)HP\n295380\nElementEarthExp\n1920\nTamableNo",
-        "SpawnAt": "Haotas Ravine: Deepest Part",
-        "Drops": "\n[Additional]War Helmet\n[Armor]Scale ArmorAB1\n[Bowgun]War Bowgun\n[Material]Dark Gray Claw\n[Material]Thick Green Scale\n[Material]Huge Skull\n[Additional Crysta]Warmonger"
-    },
-    {
-        "Name": "DX Fighter (Anthony)",
-        "Stats": "Lv\n80\nType(Ultimate)HP\n320000\nElementLightExp\n6200\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita III\n[Material]Hero's Rag\n[Ore]Hematite\n[Armor Crysta]DX Fighter"
-    },
-    {
-        "Name": "Outer World Soldier",
-        "Stats": "Lv\n75\nType(Normal)HPUnknownElementLightExp\n2700\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita III\n[Armor]Adventurer's GarbA57C\n[Material]Gold 1st Anniv Medal"
-    },
-    {
-        "Name": "Mauez",
-        "Stats": "Lv\n75\nType(Nightmare)HP\n430000\nElementWaterExp\n6450\nTamableNo",
-        "SpawnAt": "New Moon Palace: Innermost",
-        "Drops": "\n[Bowgun]Magic Bowgun\n[Material]Magic Armor Fragment\n[Material]Runestone\n[Material]Mauez's Broken Rod\n[Magic Device]Vita Cores\n[Normal Crysta]Mauez\n[Halberd]Mauez's Pole"
-    },
-    {
-        "Name": "Gespenst",
-        "Stats": "Lv\n40\nType(Nightmare)HP\n42720\nElementDarkExp\n1200\nTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth\n[Normal Crysta]Gespenst"
-    },
-    {
-        "Name": "Warmonger",
-        "Stats": "Lv\n60\nType(Normal)HP\n147690\nElementEarthExp\n960\nTamableNo",
-        "SpawnAt": "Haotas Ravine: Deepest Part",
-        "Drops": "\n[Additional]War Helmet\n[Armor]Scale ArmorAB1\n[Bowgun]War Bowgun\n[Material]Dark Gray Claw\n[Material]Thick Green Scale\n[Material]Huge Skull\n[Additional Crysta]Warmonger"
-    },
-    {
-        "Name": "Usakichi (Otsukimi 2019)",
-        "Stats": "Lv\n30\nType(Normal)HP\n32000\nElementEarthExp\n800\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue: Crater Zone",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
-    },
-    {
-        "Name": "Bonivio (New Year Event 2021)",
-        "Stats": "Lv\n10\nType(Normal)HP\n40000\nElementLightExp\n300\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Ox Tongue Bento\n[Usable]Zodiac Ox Box\n[Additional Crysta]Bonivio"
-    },
-    {
-        "Name": "Usami (New Moon Lv30+)",
-        "Stats": "Lv\n70\nType(Ultimate)HP\n320000\nElementWaterExp\n8000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "DX Fighter (Anthony)",
-        "Stats": "Lv\n50\nType(Hard)HP\n64000\nElementLightExp\n1240\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita III\n[Material]Hero's Rag\n[Ore]Hematite\n[Armor Crysta]DX Fighter"
-    },
-    {
-        "Name": "Yashiro Azuki's Mom (Lv30)",
-        "Stats": "Lv\n75\nType(Ultimate)HP\n100000\nElementFireExp\n4120\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom\n[Additional Crysta]Yashiro Azuki's Mom"
-    },
-    {
-        "Name": "Pillow Kitagawa",
-        "Stats": "Lv\n0\nType(Normal)HP\n1000000\nElementFireExp\n8000\nTamableNo",
-        "SpawnAt": "Kitagawa Dream Center",
-        "Drops": "\n[Usable]Revita (Gift)\n[Additional]Pillow Kitagawa's Hat\n[Additional Crysta]Ox King\n[Enhancer Crysta (Yellow)]Royal Ox King\n[Enhancer Crysta (Yellow)]Pillow Kitagawa"
-    },
-    {
-        "Name": "Omochi",
-        "Stats": "Lv\n20\nType(Hard)HP\n80000\nElementLightExp\n600\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
-    },
-    {
-        "Name": "Festival Golem B",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementWaterExp\n1600\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Narumi Hina (Lv 50 Raid)",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n410000\nElementLightExp\n5700\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Dark Note Paper\n[Additional Crysta]Yashiro Azuki's Dad\n[Additional Crysta]Narumi Hina"
-    },
-    {
-        "Name": "Omochi",
-        "Stats": "Lv\n30\nType(Nightmare)HP\n200000\nElementLightExp\n1500\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
-    },
-    {
-        "Name": "Pillar Golem",
-        "Stats": "Lv\n70\nType(Normal)HP\n324000\nElementEarthExp\n3600\nTamableNo",
-        "SpawnAt": "Lost Town: Magic Barrier",
-        "Drops": "\n[Armor]Knight Armor\n[Bow]Blaster Bow\n[Material]Shining Copper Ore\n[Material]Pillar Golem Stake\n[Material]Pillar Golem Fragment\n[Material]Pillar Golem Magic Lantern\n[Shield]Marble Shield\n[Weapon Crysta]Pillar Golem"
-    },
-    {
-        "Name": "Festival Golem C",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementWindExp\n640\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n50\nType(Normal)HPUnknownElementLightExp\n1200\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]War Helmet141C\n[Armor]Adventurer's GarbA46C\n[Material]Silver 1st Anniv Medal"
-    },
-    {
-        "Name": "Kohaku Lil Boar",
-        "Stats": "Lv\n50\nType(Ultimate)HP\n400000\nElementLightExp\n3000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
-    },
-    {
-        "Name": "Brutal Dragon Decel",
-        "Stats": "Lv\n40\nType(Normal)HP\n53000\nElementEarthExp\n560\nTamableNo",
-        "SpawnAt": "Nisel Mountain: The Top",
-        "Drops": "\n[1 Handed Sword]Brutal Dragon Sword\n[Additional]Brutal Dragon Crown\n[Armor]Brutal Dragon Armor\n[Material]Black Crystal Fragment\n[Material]Brutal Dragon Horn\n[Material]Brutal Dragon Tail\n[Material]Brutal Dragon Claw\n[Material]Brutal Dragon Skin\n[Normal Crysta]Brutal Dragon Decel"
-    },
-    {
-        "Name": "Festival Golem A",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementFireExp\n3200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]HeadbandA40C\n[Additional]Golemet40B39\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Mauez",
-        "Stats": "Lv\n55\nType(Normal)HP\n86000\nElementWaterExp\n1290\nTamableNo",
-        "SpawnAt": "New Moon Palace: Innermost",
-        "Drops": "\n[Bowgun]Magic Bowgun\n[Material]Magic Armor Fragment\n[Material]Runestone\n[Material]Mauez's Broken Rod\n[Magic Device]Vita Cores\n[Normal Crysta]Mauez\n[Halberd]Mauez's Pole"
-    },
-    {
-        "Name": "Perro",
-        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
-    },
-    {
-        "Name": "Yashiro Azuki's Mom (Lv30)",
-        "Stats": "Lv\n45\nType(Hard)HP\n20000\nElementFireExp\n824\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom\n[Additional Crysta]Yashiro Azuki's Mom"
-    },
-    {
-        "Name": "Ruin Golem",
-        "Stats": "Lv\n65\nType(Nightmare)HP\n206000\nElementEarthExp\n3300\nTamableNo",
-        "SpawnAt": "Zoktzda ruins : Reversed Hall",
-        "Drops": "\n[1 Handed Sword]Relic Sword\n[Armor]Fightwear\n[Knuckles]Golem Arm\n[Material]Ancient Stone Slab\n[Material]Zoktzda Stone\n[Material]Broken Magic Lantern\n[Shield]Relic Shield\n[Normal Crysta]Ruin Golem"
-    },
-    {
-        "Name": "Nurethoth",
-        "Stats": "Lv\n66\nType(Easy)HP\n50000\nElementDarkExp\n536\nTamableNo",
-        "SpawnAt": "Gate to Another World: Front",
-        "Drops": "\n[Additional]Nurethoth Mask\n[Arrow]Shooting Star Arrow\n[Armor]Outerworld Armor\n[Dagger]Odd-Shaped Knife\n[Material]Outer World Pebble\n[Material]Cracked Face Stone\n[Material]Outer World Universe\n[Material]Shining Soul Stone\n[Material]Nurethoth's Hard Claw\n[Katana]Faldios"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementEarthExp\n6000\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Silver 3rd Anniv Medal"
-    },
-    {
-        "Name": "Astol",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n410200\nElementWindExp\n3800\nTamableNo",
-        "SpawnAt": "Aulada Ancient Tower",
-        "Drops": "\n[Armor]Aqua Garb\n[Material]Heaven Bird Claw\n[Material]Heaven Bird Tail Feather\n[Material]Heaven Bird Crest\n[Material]Heaven Bird Tear\n[Magic Device]Crystal Wing\n[Normal Crysta]Astol"
-    },
-    {
-        "Name": "2nd Anniversary Event (all boss)",
-        "Stats": "Lv\n0\nType(Normal)HP\n0\nElementNeutralExp\n0\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]2nd Anniv Box"
-    },
-    {
-        "Name": "Festival Golem C",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementWindExp\n1600\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Forehead Protector\n[Additional]Ribbon59BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Chocolate Ooze (Milk) (Valentine 2018)",
-        "Stats": "Lv\n60\nType(Normal)HP\n180000\nElementWaterExp\n4800\nTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Material]Magic Marionette Heart\n[Material]Chocolate Chip\n[Ore]Damascus Ore\n[Additional Crysta]Chocolate Ooze"
-    },
-    {
-        "Name": "Festival Golem B",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementWaterExp\n3200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Fighter Mochelo",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementWindExp\n6000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Additional]Mochelo Hat\n[Material]Silver 2nd Anniv Medal"
-    },
-    {
-        "Name": "Usami (Otsukimi 2019)",
-        "Stats": "Lv\n30\nType(Normal)HP\n32000\nElementWaterExp\n800\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue: Crater Zone",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "Faithful Guardian",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementFireExp\n2700\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita III\n[Usable]Magiadd III\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Mochelo",
-        "Stats": "Lv\n53\nType(Hard)HP\n120000\nElementWindExp\n1240\nTamableNo",
-        "SpawnAt": "Fiery Volcano: Area 3",
-        "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur\n[Normal Crysta]Mochelo"
-    },
-    {
-        "Name": "Gespenst",
-        "Stats": "Lv\n10\nType(Easy)HP\n854\nElementDarkExp\n24\nTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth"
-    },
-    {
-        "Name": "Scrader",
-        "Stats": "Lv\n75\nType(Easy)HP\n66000\nElementDarkExp\n790\nTamableNo",
-        "SpawnAt": "Magic Waste Site: Deepest Part",
-        "Drops": "\n[Additional]Brigan Helm\n[Armor]Brigandine\n[Bowgun]Scrader Barrel\n[Material]Big Scrap\n[Material]Strange Head Part\n[Material]Unknown Part\n[Material]Scrader Crystal\n[Staff]Scrader Mace"
-    },
-    {
-        "Name": "Ganglef",
-        "Stats": "Lv\n78\nType(Nightmare)HP\n539000\nElementEarthExp\n5750\nTamableNo",
-        "SpawnAt": "Scaro Town: Deepest Part",
-        "Drops": "\n[Usable]Rich Crab Butter\n[Usable]Tough Crab Meat\n[2 Handed Sword]Iron Exoskeleton Sword\n[Bow]Iron Exoskeleton Bow\n[Material]Crustacean Steel\n[Material]Mineral Scissor\n[Weapon Crysta]Ganglef"
-    },
-    {
-        "Name": "Grand Pojo",
-        "Stats": "Lv\n10\nType(Normal)HPUnknownElementWindExpUnknownTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Otoshidama\n[Additional]Zodiac Hat: Rooster\n[Additional Crysta]Grand Pojo"
-    },
-    {
-        "Name": "Masked Warrior",
-        "Stats": "Lv\n77\nType(Hard)HP\n522000\nElementFireExp\n8600\nTamableNo",
-        "SpawnAt": "Land Under Cultivation: Hill",
-        "Drops": "\n[2 Handed Sword]Berserker Blade\n[Additional]Berserker Mask\n[Armor]Adventurer's Garb40BC\n[Knuckles]Berserker Cestuses\n[Material]Broken Mask\n[Material]Great Sword Fragment\n[Material]Heavy Tough Chain\n[Ore]Mithril\n[Normal Crysta]Masked Warrior"
-    },
-    {
-        "Name": "Usami (New Moon Lv30+)",
-        "Stats": "Lv\n40\nType(Hard)HP\n64000\nElementWaterExp\n1600\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "Astol",
-        "Stats": "Lv\n60\nType(Hard)HP\n164080\nElementWindExp\n1520\nTamableNo",
-        "SpawnAt": "Aulada Ancient Tower",
-        "Drops": "\n[Armor]Aqua Garb\n[Material]Heaven Bird Claw\n[Material]Heaven Bird Tail Feather\n[Material]Heaven Bird Crest\n[Material]Heaven Bird Tear\n[Magic Device]Crystal Wing\n[Normal Crysta]Astol"
-    },
-    {
-        "Name": "False God",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementLightExp\n2700\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita III\n[Usable]Vita Plus III\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Ancient Empress Mezzaluna",
-        "Stats": "Lv\n84\nType(Nightmare)HP\n650000\nElementLightExp\n15600\nTamableNo",
-        "SpawnAt": "Ancient Empress Tomb: Deepest Part",
-        "Drops": "\n[Armor]Adventurer's Garb54B22\n[Bowgun]Empress Bowgun\n[Material]Empress Aura\n[Material]Empress Medal\n[Material]Empress Hair Accessory\n[Magic Device]Empress Soul\n[Additional Crysta]Ancient Empress"
-    },
-    {
-        "Name": "Festival Golem C",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementWindExp\n3200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Ruin Golem",
-        "Stats": "Lv\n35\nType(Easy)HP\n4120\nElementEarthExp\n66\nTamableNo",
-        "SpawnAt": "Zoktzda ruins : Reversed Hall",
-        "Drops": "\n[1 Handed Sword]Relic Sword\n[Armor]Fightwear\n[Knuckles]Golem Arm\n[Material]Ancient Stone Slab\n[Material]Zoktzda Stone\n[Material]Broken Magic Lantern\n[Shield]Relic Shield"
-    },
-    {
-        "Name": "Festival Golem B",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementWaterExp\n640\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Forest Wolf",
-        "Stats": "Lv\n20\nType(Easy)HP\n1603\nElementWindExp\n30\nTamableNo",
-        "SpawnAt": "Marbaro Forest: Deepest Part",
-        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover"
-    },
-    {
-        "Name": "Yashiro Azuki's Mom (Lv30)",
-        "Stats": "Lv\n35\nType(Normal)HP\n10000\nElementFireExp\n412\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom\n[Additional Crysta]Yashiro Azuki's Mom"
-    },
-    {
-        "Name": "Festival Golem A",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementFireExp\n1600\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]Golemet40BC\n[Additional]HeadbandA40C\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Usakichi (New Moon Lv30+)",
-        "Stats": "Lv\n50\nType(Nightmare)HP\n160000\nElementEarthExp\n4000\nTamableNo",
+        "Stats": "Lv\n40\nType(Hard)\nHP\n64000\nElement\nEarth\nExp\n1600\nTamableNo",
         "SpawnAt": "Otsukimi Event Venue",
         "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
-    },
-    {
-        "Name": "Pillar Golem",
-        "Stats": "Lv\n60\nType(Easy)HP\n32400\nElementEarthExp\n360\nTamableNo",
-        "SpawnAt": "Lost Town: Magic Barrier",
-        "Drops": "\n[Armor]Knight Armor\n[Bow]Blaster Bow\n[Material]Pillar Golem Fragment\n[Material]Pillar Golem Magic Lantern\n[Material]Shining Copper Ore\n[Material]Pillar Golem Stake\n[Shield]Marble Shield"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n50\nType(Normal)HPUnknownElementEarthExp\n1200\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]RibbonABC\n[Material]Silver 1st Anniv Medal"
-    },
-    {
-        "Name": "Minotaur",
-        "Stats": "Lv\n52\nType(Nightmare)HP\n90000\nElementWindExp\n2100\nTamableNo",
-        "SpawnAt": "Ruined Temple: Forbidden hall",
-        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Normal Crysta]Minotaur\n[Katana]Minotaur's Katana"
-    },
-    {
-        "Name": "Omochi",
-        "Stats": "Lv\n1\nType(Easy)HP\n4000\nElementLightExp\n30\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
-    },
-    {
-        "Name": "June Bride Event (all boss)",
-        "Stats": "Lv\n0\nType(Normal)HP\n0\nElementNeutralExp\n0\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Bride Box\n[Usable]Groom Box"
-    },
-    {
-        "Name": "Perro",
-        "Stats": "Lv\n30\nType(Nightmare)HP\n200000\nElementLightExp\n1500\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
-    },
-    {
-        "Name": "Ooze",
-        "Stats": "Lv\n42\nType(Easy)HP\n4400\nElementWaterExp\n140\nTamableNo",
-        "SpawnAt": "Lutaros Cavern: Deepest Part",
-        "Drops": "\n[Additional]Ooze Helmet\n[Armor]Ooze Armor\n[Material]Emerald Stone\n[Material]Luminous Magic Water\n[Material]Gluey Skin\n[Shield]Ooze Shield\n[Staff]Ooze Staff\n[Katana]Ooze Lamina"
-    },
-    {
-        "Name": "Dr. Leonardo (Bachelor)",
-        "Stats": "Lv\n40\nType(Hard)HP\n32000\nElementFireExp\n800\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
-    },
-    {
-        "Name": "Flare Volg",
-        "Stats": "Lv\n50\nType(Normal)HP\n120000\nElementFireExp\n1500\nTamableNo",
-        "SpawnAt": "Fiery Volcano: Boss Map",
-        "Drops": "\n[2 Handed Sword]Volcanic Sword\n[Armor]Plate ArmorABC\n[Knuckles]Volcanic Claws\n[Material]Fiery Gemstone\n[Material]Flare Volg Horn\n[Material]Flare Volg Claw\n[Material]Flare Volg Flesh\n[Normal Crysta]Flare Volg"
-    },
-    {
-        "Name": "Pumpking",
-        "Stats": "Lv\n75\nType(Hard)HP\n280000\nElementFireExp\n5300\nTamableNo",
-        "SpawnAt": "Tir Na Nog Square",
-        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Straye Garb\n[Ore]Mithril Ore\n[Additional Crysta]Pumpking"
-    },
-    {
-        "Name": "Demon's Gate",
-        "Stats": "Lv\n50\nType(Easy)HP\n180000\nElementDarkExp\n144\nTamableNo",
-        "SpawnAt": "Saham Crater",
-        "Drops": "\n[1 Handed Sword]Sword of Sin\n[Material]Eerie Stone\n[Material]Nail of Demon's gate\n[Material]Goddess Sculpture\n[Shield]Relief Shield"
-    },
-    {
-        "Name": "Yashiro Azuki's Mom (Lv30)",
-        "Stats": "Lv\n55\nType(Nightmare)HP\n50000\nElementFireExp\n2060\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom\n[Additional Crysta]Yashiro Azuki's Mom"
-    },
-    {
-        "Name": "Marchitar (Hanami 2017)",
-        "Stats": "Lv\n80\nType(Normal)HP\n215000\nElementDarkExp\n1500\nTamableNo",
-        "SpawnAt": "Hanami Venue: Summit",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Material]Mana Clod\n[Weapon Crysta]Marchitar"
-    },
-    {
-        "Name": "Candela (Lemon)",
-        "Stats": "Lv\n70\nType(Normal)HP\n325000\nElementWindExp\n7200\nTamableNo",
-        "SpawnAt": "Douce Hamlet",
-        "Drops": "\n[Usable]Flower Nectar\n[Material]Huge Iron Ball\n[Material]Nightmare Crystal\n[Material]Candy Fragment\n[Ore]Damascus Ore\n[Additional Crysta]Candela"
-    },
-    {
-        "Name": "Yashiro Azuki's Mom (Lv30)",
-        "Stats": "Lv\n25\nType(Easy)HP\n1000\nElementFireExp\n41\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom"
-    },
-    {
-        "Name": "Festival Golem B",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementWaterExp\n3200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Usami (Crescent Moon Lv60+)",
-        "Stats": "Lv\n80\nType(Nightmare)HP\n750000\nElementWaterExp\n10000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "Forest Wolf",
-        "Stats": "Lv\n30\nType(Normal)HP\n16038\nElementWindExp\n300\nTamableNo",
-        "SpawnAt": "Marbaro Forest: Deepest Part",
-        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover\n[Normal Crysta]Forest Wolf"
-    },
-    {
-        "Name": "Eerie Crystal",
-        "Stats": "Lv\n14\nType(Easy)HP\n630\nElementDarkExp\n22\nTamableNo",
-        "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
-        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite"
-    },
-    {
-        "Name": "Narumi Hina (Lv 50 Raid)",
-        "Stats": "Lv\n60\nType(Hard)HP\n164000\nElementLightExp\n2280\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Dark Note Paper\n[Additional Crysta]Yashiro Azuki's Dad\n[Additional Crysta]Narumi Hina"
-    },
-    {
-        "Name": "Usakichi (Crescent Moon Lv60+)",
-        "Stats": "Lv\n80\nType(Nightmare)HP\n750000\nElementEarthExp\n10000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementEarthExp\n1200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Silver 3rd Anniv Medal"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementEarthExp\n2400\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Outer World Soldier",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementEarthExp\n2700\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita III\n[Usable]Vita Plus III\n[Material]Gold 2nd Anniv Medal"
-    },
-    {
-        "Name": "Forestia",
-        "Stats": "Lv\n39\nType(Easy)HP\n13500\nElementWindExp\n148\nTamableNo",
-        "SpawnAt": "Land Of Chaos",
-        "Drops": "\n[Arrow]Tempest Arrow\n[Armor]Green Dragon Garb\n[Dagger]Storm Dagger\n[Material]Green Dragon Claw\n[Material]Rainbow Stone\n[Material]Green Dragon Fur"
-    },
-    {
-        "Name": "Forestia",
-        "Stats": "Lv\n59\nType(Hard)HP\n270000\nElementWindExp\n2960\nTamableNo",
-        "SpawnAt": "Land Of Chaos",
-        "Drops": "\n[Arrow]Tempest Arrow\n[Armor]Green Dragon Garb\n[Dagger]Storm Dagger\n[Material]Green Dragon Claw\n[Material]Rainbow Stone\n[Material]Green Dragon Fur\n[Armor Crysta]Forestia"
-    },
-    {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementWaterExp\n6000\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem B",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementWaterExp\n320\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Mauez",
-        "Stats": "Lv\n45\nType(Easy)HP\n8600\nElementWaterExp\n129\nTamableNo",
-        "SpawnAt": "New Moon Palace: Innermost",
-        "Drops": "\n[Bowgun]Magic Bowgun\n[Material]Magic Armor Fragment\n[Material]Runestone\n[Material]Mauez's Broken Rod\n[Magic Device]Vita Cores\n[Halberd]Mauez's Pole"
-    },
-    {
-        "Name": "Brutal Dragon Decel",
-        "Stats": "Lv\n50\nType(Hard)HP\n106000\nElementEarthExp\n1120\nTamableNo",
-        "SpawnAt": "Nisel Mountain: The Top",
-        "Drops": "\n[1 Handed Sword]Brutal Dragon Sword\n[Additional]Brutal Dragon Crown\n[Armor]Brutal Dragon Armor\n[Material]Black Crystal Fragment\n[Material]Brutal Dragon Horn\n[Material]Brutal Dragon Tail\n[Material]Brutal Dragon Claw\n[Material]Brutal Dragon Skin\n[Normal Crysta]Brutal Dragon Decel"
-    },
-    {
-        "Name": "Goovua",
-        "Stats": "Lv\n72\nType(Easy)HP\n40000\nElementNeutralExp\n500\nTamableNo",
-        "SpawnAt": "Akaku Desert: Hill",
-        "Drops": "\n[2 Handed Sword]Desert Anfel\n[Armor]Adventurer's GarbABC\n[Bow]Desert Mentum\n[Material]Broken Dual Edge\n[Material]Torn Cloak\n[Material]Goovua's Shoulder Pad\n[Material]Goovua's Mask Fragment"
-    },
-    {
-        "Name": "Festival Golem Type B",
-        "Stats": "Lv\n25\nType(Normal)HPUnknownElementWaterExp\n320\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita I\n[Additional]Forehead ProtectorAB44\n[Material]Copper 1st Anniv Medal"
-    },
-    {
-        "Name": "Ancient Empress Mezzaluna",
-        "Stats": "Lv\n64\nType(Normal)HP\n130000\nElementLightExp\n3120\nTamableNo",
-        "SpawnAt": "Ancient Empress Tomb: Deepest Part",
-        "Drops": "\n[Armor]Adventurer's Garb54B22\n[Bowgun]Empress Bowgun\n[Material]Empress Aura\n[Material]Empress Medal\n[Material]Empress Hair Accessory\n[Magic Device]Empress Soul\n[Additional Crysta]Ancient Empress"
-    },
-    {
-        "Name": "Festival Golem A",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementFireExp\n320\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]Golemet40BC\n[Additional]HeadbandA40C\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Giant Moon Crab",
-        "Stats": "Lv\n50\nType(Normal)HP\n100000\nElementLightExp\n1520\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue: Crater Zone",
-        "Drops": "\n[Usable]Soft Crabmeat\n[Usable]Rich Crab Butter\n[Usable]Otsukimi Dango\n[Armor]Adventurer's Garb8B74\n[Knuckles]Crab Pincers7310C\n[Ore]Hematite\n[Enhancer Crysta (Red)]Giant Moon Crab"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementEarthExp\n2400\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]HeadbandA54C\n[Material]Silver 2nd Anniv Medal"
-    },
-    {
-        "Name": "Yashiro Azuki's Dad (Lv 50 Raid)",
-        "Stats": "Lv\n75\nType(Nightmare)HPUnknownElementWindExpUnknownTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Azuki's Dad's Mask"
-    },
-    {
-        "Name": "Yashiro Azuki (Lv30)",
-        "Stats": "Lv\n20\nType(Easy)HP\n2400\nElementDarkExp\n40\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
-    },
-    {
-        "Name": "Brutal Dragon Decel",
-        "Stats": "Lv\n30\nType(Easy)HP\n5300\nElementEarthExp\n56\nTamableNo",
-        "SpawnAt": "Nisel Mountain: The Top",
-        "Drops": "\n[1 Handed Sword]Brutal Dragon Sword\n[Additional]Brutal Dragon Crown\n[Armor]Brutal Dragon Armor\n[Material]Black Crystal Fragment\n[Material]Brutal Dragon Horn\n[Material]Brutal Dragon Tail\n[Material]Brutal Dragon Claw\n[Material]Brutal Dragon Skin"
-    },
-    {
-        "Name": "Fighter Mochelo",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementWindExp\n6000\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Jade Raptor",
-        "Stats": "Lv\n79\nType(Normal)HP\n620000\nElementWindExp\n8400\nTamableNo",
-        "SpawnAt": "Gravel Terrace",
-        "Drops": "\n[Armor]Adventurer's Garb62BC\n[Knuckles]Emeldia\n[Material]Jade Raptor Beak\n[Material]Jade Raptor Armor Fur\n[Material]Jade Raptor Horn\n[Magic Device]Jade Wings\n[Armor Crysta]Jade Raptor"
-    },
-    {
-        "Name": "Festival Golem Type C",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementWindExp\n640\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementEarthExp\n1200\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]HeadbandA54C\n[Material]Silver 2nd Anniv Medal"
-    },
-    {
-        "Name": "Boss Roga",
-        "Stats": "Lv\n62\nType(Normal)HP\n250000\nElementNeutralExp\n3000\nTamableNo",
-        "SpawnAt": "Saham Underground Cave - Deepest Part",
-        "Drops": "\n[Armor]Killer Coat\n[Material]Boss Roga's Belt\n[Material]Ore from Another World\n[Material]Broken Huge Mace\n[Staff]Mace of Destruction\n[Armor Crysta]Boss Roga"
-    },
-    {
-        "Name": "Pillar Golem",
-        "Stats": "Lv\n80\nType(Hard)HP\n648000\nElementEarthExp\n7200\nTamableNo",
-        "SpawnAt": "Lost Town: Magic Barrier",
-        "Drops": "\n[Armor]Knight Armor\n[Bow]Blaster Bow\n[Material]Shining Copper Ore\n[Material]Pillar Golem Stake\n[Material]Pillar Golem Fragment\n[Material]Pillar Golem Magic Lantern\n[Shield]Marble Shield\n[Weapon Crysta]Pillar Golem"
-    },
-    {
-        "Name": "Usami (New Moon Lv30+)",
-        "Stats": "Lv\n50\nType(Nightmare)HP\n160000\nElementWaterExp\n4000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "Festival Golem Type B",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementWaterExp\n1600\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Lunadore",
-        "Stats": "Lv\n10\nType(Normal)HP\n40000\nElementLightExp\n300\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
-    },
-    {
-        "Name": "Excavated Golem",
-        "Stats": "Lv\n6\nType(Easy)HP\n315\nElementNeutralExp\n9\nTamableNo",
-        "SpawnAt": "Underground Ruins: Deepest Part",
-        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield"
-    },
-    {
-        "Name": "Kohaku Lil Boar",
-        "Stats": "Lv\n20\nType(Hard)HP\n80000\nElementLightExp\n600\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
-    },
-    {
-        "Name": "Boss Colon",
-        "Stats": "Lv\n20\nType(Hard)HP\n2000\nElementEarthExp\n60\nTamableNo",
-        "SpawnAt": "Land Under Development",
-        "Drops": "\n[Usable]Sofya City\n[Additional]Colon Met\n[Material]Boss Colon Skin\n[Material]Colon Leaf\n[Normal Crysta]Boss Colon"
-    },
-    {
-        "Name": "Omochi",
-        "Stats": "Lv\n50\nType(Ultimate)HP\n400000\nElementLightExp\n3000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
-    },
-    {
-        "Name": "Usami (Crescent Moon Lv60+)",
-        "Stats": "Lv\n60\nType(Normal)HP\n150000\nElementWaterExp\n2000\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "B.B. Goblin",
-        "Stats": "Lv\n80\nType(Hard)HPUnknownElementUnknownExp\n4800\nTamableNo",
-        "SpawnAt": "Rinom Plains",
-        "Drops": "\n[Armor]B.B. Garb\n[Material]Fairy Nose\n[Material]Broken Bone Accessory\n[Material]Dyed Reinforced Cloth\n[Normal Crysta]B.B. Goblin"
-    },
-    {
-        "Name": "False God",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementEarthExp\n2700\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita III\n[Usable]Magiadd III\n[Material]Gold 2nd Anniv Medal"
-    },
-    {
-        "Name": "Usami (New Moon Lv30+)",
-        "Stats": "Lv\n30\nType(Normal)HP\n32000\nElementWaterExp\n800\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
-    },
-    {
-        "Name": "Boss Goblin",
-        "Stats": "Lv\n60\nType(Nightmare)HP\n133790\nElementFireExp\n2800\nTamableNo",
-        "SpawnAt": "Ribisco Cave: Deepest Part",
-        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal\n[Normal Crysta]Boss Goblin"
-    },
-    {
-        "Name": "Jeila",
-        "Stats": "Lv\n50\nType(Easy)HP\n41000\nElementDarkExp\n1700\nTamableNo",
-        "SpawnAt": "Halloween Castle",
-        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Mage Robe414085\n[Ore]Hematite\n[Enhancer Crysta (Yellow)]Jeila"
-    },
-    {
-        "Name": "Jade Raptor",
-        "Stats": "Lv\n69\nType(Easy)HP\n62000\nElementWindExp\n840\nTamableNo",
-        "SpawnAt": "Gravel Terrace",
-        "Drops": "\n[Armor]Adventurer's Garb62BC\n[Knuckles]Emeldia\n[Material]Jade Raptor Beak\n[Material]Jade Raptor Armor Fur\n[Material]Jade Raptor Horn\n[Magic Device]Jade Wings"
-    },
-    {
-        "Name": "Zoe",
-        "Stats": "Lv\n75\nType(Easy)HP\n93000\nElementDarkExp\n3100\nTamableNo",
-        "SpawnAt": "Halloween Mansion Basement",
-        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Oracle Robe828325\n[Ore]Hematite\n[Enhancer Crysta (Yellow)]Zoe"
-    },
-    {
-        "Name": "Gespenst",
-        "Stats": "Lv\n20\nType(Normal)HP\n8544\nElementDarkExp\n240\nTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth\n[Normal Crysta]Gespenst"
-    },
-    {
-        "Name": "Festival Golem A",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementFireExp\n640\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]Golemet40BC\n[Additional]HeadbandA40C\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Ooze",
-        "Stats": "Lv\n52\nType(Normal)HP\n44000\nElementWaterExp\n1400\nTamableNo",
-        "SpawnAt": "Lutaros Cavern: Deepest Part",
-        "Drops": "\n[Additional]Ooze Helmet\n[Armor]Ooze Armor\n[Material]Emerald Stone\n[Material]Luminous Magic Water\n[Material]Gluey Skin\n[Shield]Ooze Shield\n[Staff]Ooze Staff\n[Special Crysta]Ooze\n[Katana]Ooze Lamina"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementEarthExp\n2400\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Silver 3rd Anniv Medal"
-    },
-    {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementWaterExp\n2400\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Flare Volg",
-        "Stats": "Lv\n60\nType(Hard)HP\n240000\nElementFireExp\n3000\nTamableNo",
-        "SpawnAt": "Fiery Volcano: Boss Map",
-        "Drops": "\n[2 Handed Sword]Volcanic Sword\n[Armor]Plate Armor\n[Knuckles]Volcanic Claws\n[Material]Fiery Gemstone\n[Material]Flare Volg Horn\n[Material]Flare Volg Claw\n[Material]Flare Volg Flesh\n[Normal Crysta]Flare Volg"
-    },
-    {
-        "Name": "Yashiro Azuki (Lv60)",
-        "Stats": "Lv\n80\nType(Easy)HP\n48000\nElementDarkExp\n345\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita IV\n[Refinement Support]Super Anti-Degradation\n[Material]Plastic Fragment\n[Material]Sacred Light Page\n[Normal Crysta]Yashiro Azuki"
-    },
-    {
-        "Name": "Chocolate Ooze (Sweet) (Valentine 2017)",
-        "Stats": "Lv\n30\nType(Normal)HPUnknownElementWaterExpUnknownTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Usable]Roasted Fruit\n[Usable]Bitter Nut\n[Ore]Hematite\n[Additional Crysta]Chocolate Ooze"
-    },
-    {
-        "Name": "Golden Iconos (2018)",
-        "Stats": "Lv\n75\nType(Normal)HP\n1849269\nElementNeutralExp\n2640\nTamableNo",
-        "SpawnAt": "Sofya City: Government Office",
-        "Drops": "\n[Additional]Wind Up Key\n[Armor]Plate Armor4174C\n[Material]Gold Ingot\n[Additional Crysta]G. Iconos"
     },
     {
         "Name": "Evil Crystal Beast",
-        "Stats": "Lv\n81\nType(Easy)HP\n53000\nElementDarkExp\n630\nTamableNo",
+        "Stats": "Lv\n81\nType(Easy)\nHP\n53000\nElement\nDark\nExp\n630\nTamableNo",
         "SpawnAt": "Lunagent Mountain: Deepest Area",
         "Drops": "\n[Additional]Aunigma\n[Armor]Armigma\n[Armor]Adventurer's GarbA68C\n[Material]Crystalized Skin\n[Material]Evil Crystal Beast Claw\n[Material]Core of Magic Crystal Beast\n[Material]Evil Crystal Beast Horns"
     },
     {
-        "Name": "Fighter Mochelo",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementWindExp\n2400\nTamableNo",
+        "Name": "Yashiro Azuki's Mom (Lv30)",
+        "Stats": "Lv\n55\nType(Nightmare)\nHP\n50000\nElement\nFire\nExp\n2060\nTamableNo",
         "SpawnAt": "Event",
-        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Additional]Mochelo Hat\n[Material]Silver 2nd Anniv Medal"
-    },
-    {
-        "Name": "Grass Dragon Yelb",
-        "Stats": "Lv\n73\nType(Normal)HP\n439190\nElementEarthExp\n5040\nTamableNo",
-        "SpawnAt": "Albatif Village",
-        "Drops": "\n[1 Handed Sword]Phyto Blade\n[Material]Grass Dragon's Scale\n[Material]Grass Dragon's Skin\n[Material]Grass Dragon's Petal\n[Ore]Mithril Ore\n[Staff]Folium Staff\n[Additional Crysta]Grass Dragon Yelb\n[Halberd]Floral Lance"
-    },
-    {
-        "Name": "Nurethoth",
-        "Stats": "Lv\n76\nType(Normal)HP\n500000\nElementDarkExp\n5360\nTamableNo",
-        "SpawnAt": "Gate to Another World: Front",
-        "Drops": "\n[Additional]Nurethoth Mask\n[Arrow]Shooting Star Arrow\n[Armor]Outerworld Armor\n[Dagger]Odd-Shaped Knife\n[Material]Outer World Pebble\n[Material]Cracked Face Stone\n[Material]Outer World Universe\n[Material]Shining Soul Stone\n[Material]Nurethoth's Hard Claw\n[Normal Crysta]Nurethoth\n[Katana]Faldios"
-    },
-    {
-        "Name": "Mochelo",
-        "Stats": "Lv\n83\nType(Ultimate)HP\n600000\nElementWindExp\n6200\nTamableNo",
-        "SpawnAt": "Fiery Volcano: Area 3",
-        "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur\n[Normal Crysta]Mochelo"
-    },
-    {
-        "Name": "Dr. Leonardo (Bachelor)",
-        "Stats": "Lv\n20\nType(Easy)HP\n1600\nElementFireExp\n40\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck"
+        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom\n[Additional Crysta]Yashiro Azuki's Mom"
     },
     {
         "Name": "Festival Golem Type C",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementWindExp\n320\nTamableNo",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nWind\nExp\n3200\nTamableNo",
         "SpawnAt": "Event",
         "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 2nd Anniv Medal"
     },
     {
-        "Name": "Excavated Golem",
-        "Stats": "Lv\n56\nType(Ultimate)HP\n31500\nElementNeutralExp\n900\nTamableNo",
-        "SpawnAt": "Underground Ruins: Deepest Part",
-        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield\n[Weapon Crysta]Excavated Golem"
+        "Name": "Festival Golem B",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nWater\nExp\n320\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Brutal Dragon Decel",
+        "Stats": "Lv\n40\nType(Normal)\nHP\n53000\nElement\nEarth\nExp\n560\nTamableNo",
+        "SpawnAt": "Nisel Mountain: The Top",
+        "Drops": "\n[1 Handed Sword]Brutal Dragon Sword\n[Additional]Brutal Dragon Crown\n[Armor]Brutal Dragon Armor\n[Material]Black Crystal Fragment\n[Material]Brutal Dragon Horn\n[Material]Brutal Dragon Tail\n[Material]Brutal Dragon Claw\n[Material]Brutal Dragon Skin\n[Normal Crysta]Brutal Dragon Decel"
+    },
+    {
+        "Name": "Faithful Guardian",
+        "Stats": "Lv\n75\nType(Normal)\nHPUnknownElement\nFire\nExp\nUnknownTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita III\n[Armor]Adventurer's GarbAB38\n[Material]Gold 1st Anniv Medal"
+    },
+    {
+        "Name": "Yashiro Azuki's Mom (Lv30)",
+        "Stats": "Lv\n35\nType(Normal)\nHP\n10000\nElement\nFire\nExp\n412\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom\n[Additional Crysta]Yashiro Azuki's Mom"
+    },
+    {
+        "Name": "Cerabes (Hanami 2017)",
+        "Stats": "Lv\n80\nType(Normal)\nHP\n430000\nElement\nDark\nExp\n3600\nTamableNo",
+        "SpawnAt": "Hanami Venue: Summit",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Cerabes Fang\n[Material]Broken Yozakura Branch\n[Special]Yozakura Bangle\n[Armor Crysta]Cerabes"
+    },
+    {
+        "Name": "Kohaku Lil Boar",
+        "Stats": "Lv\n20\nType(Hard)\nHP\n80000\nElement\nLight\nExp\n600\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
+    },
+    {
+        "Name": "Pumpking",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n82000\nElement\nFire\nExp\n2300\nTamableNo",
+        "SpawnAt": "Tir Na Nog Square",
+        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Straye Garb\n[Ore]Damascus Ore\n[Additional Crysta]Pumpking"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nEarth\nExp\n1200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Black Knight of Delusion",
+        "Stats": "Lv\n78\nType(Easy)\nHP\n54000\nElement\nDark\nExp\n660\nTamableNo",
+        "SpawnAt": "Abyss of No Return: Deepest Area",
+        "Drops": "\n[1 Handed Sword]Black Sword of Delusion\n[Armor]Adventurer's Garb35BC\n[Material]Magic Sword Fragment\n[Material]Evil Energy of Delusion\n[Material]Fractured Magic Armor\n[Material]Ominous Crystal\n[Shield]Black Shield of Delusion"
+    },
+    {
+        "Name": "Yashiro Azuki's Mom (Lv30)",
+        "Stats": "Lv\n25\nType(Easy)\nHP\n1000\nElement\nFire\nExp\n41\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom"
+    },
+    {
+        "Name": "Pillar Golem",
+        "Stats": "Lv\n60\nType(Easy)\nHP\n32400\nElement\nEarth\nExp\n360\nTamableNo",
+        "SpawnAt": "Lost Town: Magic Barrier",
+        "Drops": "\n[Armor]Knight Armor\n[Bow]Blaster Bow\n[Material]Pillar Golem Fragment\n[Material]Pillar Golem Magic Lantern\n[Material]Shining Copper Ore\n[Material]Pillar Golem Stake\n[Shield]Marble Shield"
+    },
+    {
+        "Name": "Warmonger",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n147690\nElement\nEarth\nExp\n960\nTamableNo",
+        "SpawnAt": "Haotas Ravine: Deepest Part",
+        "Drops": "\n[Additional]War Helmet\n[Armor]Scale ArmorAB1\n[Bowgun]War Bowgun\n[Material]Dark Gray Claw\n[Material]Thick Green Scale\n[Material]Huge Skull\n[Additional Crysta]Warmonger"
+    },
+    {
+        "Name": "Ganglef",
+        "Stats": "Lv\n48\nType(Easy)\nHP\n10780\nElement\nEarth\nExp\n115\nTamableNo",
+        "SpawnAt": "Scaro Town: Deepest Part",
+        "Drops": "\n[Usable]Rich Crab Butter\n[Usable]Tough Crab Meat\n[2 Handed Sword]Iron Exoskeleton Sword\n[Bow]Iron Exoskeleton Bow\n[Material]Crustacean Steel\n[Material]Mineral Scissor"
+    },
+    {
+        "Name": "Forest Wolf",
+        "Stats": "Lv\n50\nType(Nightmare)\nHP\n80190\nElement\nWind\nExp\n1500\nTamableNo",
+        "SpawnAt": "Marbaro Forest: Deepest Part",
+        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover\n[Normal Crysta]Forest Wolf"
+    },
+    {
+        "Name": "Yashiro Azuki's Dad (Lv 50 Raid)",
+        "Stats": "Lv\n55\nType(Normal)\nHPUnknownElement\nWind\nExp\nUnknownTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Yashiro Azuki's Dad's Mask"
+    },
+    {
+        "Name": "Dr. Leonardo (Bachelor)",
+        "Stats": "Lv\n30\nType(Normal)\nHP\n16000\nElement\nFire\nExp\n400\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
+    },
+    {
+        "Name": "Minotaur",
+        "Stats": "Lv\n72\nType(Ultimate)\nHP\n180000\nElement\nWind\nExp\n4200\nTamableNo",
+        "SpawnAt": "Ruined Temple: Forbidden hall",
+        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Normal Crysta]Minotaur\n[Katana]Minotaur's Katana"
+    },
+    {
+        "Name": "Grass Dragon Yelb",
+        "Stats": "Lv\n73\nType(Normal)\nHP\n439190\nElement\nEarth\nExp\n5040\nTamableNo",
+        "SpawnAt": "Albatif Village",
+        "Drops": "\n[1 Handed Sword]Phyto Blade\n[Material]Grass Dragon's Scale\n[Material]Grass Dragon's Skin\n[Material]Grass Dragon's Petal\n[Ore]Mithril Ore\n[Staff]Folium Staff\n[Additional Crysta]Grass Dragon Yelb\n[Halberd]Floral Lance"
+    },
+    {
+        "Name": "Faithful Guardian",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nFire\nExp\n2700\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Regera III\n[Usable]Revita III\n[Additional]HeadbandA54C\n[Material]Gold 2nd Anniv Medal"
+    },
+    {
+        "Name": "Boss Roga",
+        "Stats": "Lv\n82\nType(Nightmare)\nHP\n1250000\nElement\nNeutral\nExp\n15000\nTamableNo",
+        "SpawnAt": "Saham Underground Cave - Deepest Part",
+        "Drops": "\n[Armor]Killer Coat\n[Material]Boss Roga's Belt\n[Material]Ore from Another World\n[Material]Broken Huge Mace\n[Staff]Mace of Destruction\n[Armor Crysta]Boss Roga"
+    },
+    {
+        "Name": "Kohaku Lil Boar",
+        "Stats": "Lv\n30\nType(Nightmare)\nHP\n200000\nElement\nLight\nExp\n1500\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
+    },
+    {
+        "Name": "Ancient Empress Mezzaluna",
+        "Stats": "Lv\n64\nType(Normal)\nHP\n130000\nElement\nLight\nExp\n3120\nTamableNo",
+        "SpawnAt": "Ancient Empress Tomb: Deepest Part",
+        "Drops": "\n[Armor]Adventurer's Garb54B22\n[Bowgun]Empress Bowgun\n[Material]Empress Aura\n[Material]Empress Medal\n[Material]Empress Hair Accessory\n[Magic Device]Empress Soul\n[Additional Crysta]Ancient Empress"
+    },
+    {
+        "Name": "Viscum (Hanami 2017)",
+        "Stats": "Lv\n80\nType(Normal)\nHP\n320000\nElement\nDark\nExp\n2900\nTamableNo",
+        "SpawnAt": "Hanami Venue: Summit",
+        "Drops": "\n[Material]Broken Sakura Branch\n[Material]Sakura Crystal Fragment\n[Special Crysta]Viscum"
+    },
+    {
+        "Name": "Festival Golem A",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nFire\nExp\n320\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]Golemet40BC\n[Additional]HeadbandA40C\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nWater\nExp\n1200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Grass Dragon Yelb",
+        "Stats": "Lv\n83\nType(Hard)\nHP\n878380\nElement\nEarth\nExp\n10080\nTamableNo",
+        "SpawnAt": "Albatif Village",
+        "Drops": "\n[1 Handed Sword]Phyto Blade\n[Material]Grass Dragon's Scale\n[Material]Grass Dragon's Skin\n[Material]Grass Dragon's Petal\n[Ore]Mithril Ore\n[Staff]Folium Staff\n[Additional Crysta]Grass Dragon Yelb"
+    },
+    {
+        "Name": "Festival Golem B",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nWater\nExp\n3200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Gespenst",
+        "Stats": "Lv\n10\nType(Easy)\nHP\n854\nElement\nDark\nExp\n24\nTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth"
+    },
+    {
+        "Name": "Forest Wolf",
+        "Stats": "Lv\n30\nType(Normal)\nHP\n16038\nElement\nWind\nExp\n300\nTamableNo",
+        "SpawnAt": "Marbaro Forest: Deepest Part",
+        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover\n[Normal Crysta]Forest Wolf"
+    },
+    {
+        "Name": "Jeila",
+        "Stats": "Lv\n50\nType(Easy)\nHP\n41000\nElement\nDark\nExp\n1700\nTamableNo",
+        "SpawnAt": "Halloween Castle",
+        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Mage Robe414085\n[Ore]Hematite\n[Enhancer Crysta (Yellow)]Jeila"
+    },
+    {
+        "Name": "Eerie Crystal",
+        "Stats": "Lv\n34\nType(Hard)\nHP\n12600\nElement\nDark\nExp\n450\nTamableNo",
+        "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
+        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite\n[Special Crysta]Eerie Crystal"
+    },
+    {
+        "Name": "Faithful Guardian",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nFire\nExp\n2700\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita III\n[Usable]Magiadd III\n[Material]Gold 3rd Anniv Medal"
+    },
+    {
+        "Name": "Omochi",
+        "Stats": "Lv\n1\nType(Easy)\nHP\n4000\nElement\nLight\nExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
+    },
+    {
+        "Name": "Festival Golem C",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nWind\nExp\n640\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Forehead Protector\n[Additional]Ribbon59BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nEarth\nExp\n1200\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]HeadbandA54C\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Outer World Soldier",
+        "Stats": "Lv\n75\nType(Normal)\nHPUnknownElement\nLight\nExp\n2700\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita III\n[Armor]Adventurer's GarbA57C\n[Material]Gold 1st Anniv Medal"
+    },
+    {
+        "Name": "Festival Golem Type B",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nWater\nExp\n640\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Dr. Leonardo (Bachelor)",
+        "Stats": "Lv\n40\nType(Hard)\nHP\n32000\nElement\nFire\nExp\n800\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
+    },
+    {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nLight\nExp\n2400\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd II\n[Usable]Revita II\n[Additional]HeadbandA14C\n[Additional]War Helmet141C\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Purro",
+        "Stats": "Lv\n1\nType(Easy)\nHP\n4000\nElement\nLight\nExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
+    },
+    {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nWater\nExp\n2400\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Boss Goblin",
+        "Stats": "Lv\n60\nType(Nightmare)\nHP\n133790\nElement\nFire\nExp\n2800\nTamableNo",
+        "SpawnAt": "Ribisco Cave: Deepest Part",
+        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal\n[Normal Crysta]Boss Goblin"
+    },
+    {
+        "Name": "Super Night Mushroom (Hanami 2017)",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n180000\nElement\nDark\nExp\n480\nTamableNo",
+        "SpawnAt": "Hanami Venue: Summit",
+        "Drops": "\n[Additional]Night Mushroom Mask\n[Material]Mana Clod\n[Normal Crysta]Super Night Mushroom"
+    },
+    {
+        "Name": "DX Fighter (Anthony)",
+        "Stats": "Lv\n80\nType(Ultimate)\nHP\n320000\nElement\nLight\nExp\n6200\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita III\n[Material]Hero's Rag\n[Ore]Hematite\n[Armor Crysta]DX Fighter"
+    },
+    {
+        "Name": "Pumpking",
+        "Stats": "Lv\n25\nType(Easy)\nHP\n12000\nElement\nFire\nExp\n640\nTamableNo",
+        "SpawnAt": "Tir Na Nog Square",
+        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Straye Garb\n[Ore]Hematite\n[Additional Crysta]Pumpking"
+    },
+    {
+        "Name": "Fighter Mochelo",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nWind\nExp\n6000\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Yashiro Azuki (Lv30)",
+        "Stats": "Lv\n40\nType(Hard)\nHP\n48000\nElement\nDark\nExp\n800\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
+    },
+    {
+        "Name": "Lunadore",
+        "Stats": "Lv\n20\nType(Hard)\nHP\n80000\nElement\nLight\nExp\n600\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
+    },
+    {
+        "Name": "Ruin Golem",
+        "Stats": "Lv\n35\nType(Easy)\nHP\n4120\nElement\nEarth\nExp\n66\nTamableNo",
+        "SpawnAt": "Zoktzda ruins : Reversed Hall",
+        "Drops": "\n[1 Handed Sword]Relic Sword\n[Armor]Fightwear\n[Knuckles]Golem Arm\n[Material]Ancient Stone Slab\n[Material]Zoktzda Stone\n[Material]Broken Magic Lantern\n[Shield]Relic Shield"
+    },
+    {
+        "Name": "DX Fighter (Anthony)",
+        "Stats": "Lv\n30\nType(Easy)\nHP\n3200\nElement\nLight\nExp\n62\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita III\n[Material]Hero's Rag\n[Ore]Hematite"
+    },
+    {
+        "Name": "Fighter Mochelo",
+        "Stats": "Lv\n50\nType(Normal)\nHPUnknownElement\nWind\nExp\n1200\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Regera II\n[Usable]Vita Plus II\n[Usable]Magiadd II\n[Usable]Revita II\n[Additional]Mochelo Hat6055C\n[Material]Silver 1st Anniv Medal"
+    },
+    {
+        "Name": "Forestia",
+        "Stats": "Lv\n59\nType(Hard)\nHP\n270000\nElement\nWind\nExp\n2960\nTamableNo",
+        "SpawnAt": "Land Of Chaos",
+        "Drops": "\n[Arrow]Tempest Arrow\n[Armor]Green Dragon Garb\n[Dagger]Storm Dagger\n[Material]Green Dragon Claw\n[Material]Rainbow Stone\n[Material]Green Dragon Fur\n[Armor Crysta]Forestia"
+    },
+    {
+        "Name": "Dr. Leonardo (Bachelor)",
+        "Stats": "Lv\n20\nType(Easy)\nHP\n1600\nElement\nFire\nExp\n40\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck"
+    },
+    {
+        "Name": "Ancient Empress Mezzaluna",
+        "Stats": "Lv\n84\nType(Nightmare)\nHP\n650000\nElement\nLight\nExp\n15600\nTamableNo",
+        "SpawnAt": "Ancient Empress Tomb: Deepest Part",
+        "Drops": "\n[Armor]Adventurer's Garb54B22\n[Bowgun]Empress Bowgun\n[Material]Empress Aura\n[Material]Empress Medal\n[Material]Empress Hair Accessory\n[Magic Device]Empress Soul\n[Additional Crysta]Ancient Empress"
+    },
+    {
+        "Name": "Chocolate Ooze (Bitter) (Valentine 2017)",
+        "Stats": "Lv\n60\nType(Normal)\nHPUnknownElement\nWater\nExp\nUnknownTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Material]Magic Marionette Heart\n[Material]Chocolate Chip\n[Ore]Damascus Ore\n[Additional Crysta]Chocolate Ooze"
+    },
+    {
+        "Name": "Mauez",
+        "Stats": "Lv\n45\nType(Easy)\nHP\n8600\nElement\nWater\nExp\n129\nTamableNo",
+        "SpawnAt": "New Moon Palace: Innermost",
+        "Drops": "\n[Bowgun]Magic Bowgun\n[Material]Magic Armor Fragment\n[Material]Runestone\n[Material]Mauez's Broken Rod\n[Magic Device]Vita Cores\n[Halberd]Mauez's Pole"
+    },
+    {
+        "Name": "Boss Roga",
+        "Stats": "Lv\n72\nType(Hard)\nHP\n500000\nElement\nNeutral\nExp\n6000\nTamableNo",
+        "SpawnAt": "Saham Underground Cave - Deepest Part",
+        "Drops": "\n[Armor]Killer Coat\n[Material]Boss Roga's Belt\n[Material]Ore from Another World\n[Material]Broken Huge Mace\n[Staff]Mace of Destruction\n[Armor Crysta]Boss Roga"
+    },
+    {
+        "Name": "Festival Golem A",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nFire\nExp\n640\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]HeadbandA40C\n[Additional]Golemet40B39\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Minotaur",
+        "Stats": "Lv\n42\nType(Hard)\nHP\n36000\nElement\nWind\nExp\n840\nTamableNo",
+        "SpawnAt": "Ruined Temple: Forbidden hall",
+        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Normal Crysta]Minotaur\n[Katana]Minotaur's Katana"
+    },
+    {
+        "Name": "Purro",
+        "Stats": "Lv\n50\nType(Ultimate)\nHP\n400000\nElement\nLight\nExp\n3000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
+    },
+    {
+        "Name": "Usakichi (New Moon Lv30+)",
+        "Stats": "Lv\n20\nType(Easy)\nHP\n3200\nElement\nEarth\nExp\n80\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder"
+    },
+    {
+        "Name": "Festival Golem Type A",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nFire\nExp\n3200\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Narumi Hina (Lv 50 Raid)",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n82000\nElement\nLight\nExp\n1140\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Dark Note Paper\n[Additional Crysta]Yashiro Azuki's Dad\n[Additional Crysta]Narumi Hina"
+    },
+    {
+        "Name": "Bonivio (New Year Event 2021)",
+        "Stats": "Lv\n10\nType(Normal)\nHP\n40000\nElement\nLight\nExp\n300\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Ox Tongue Bento\n[Usable]Zodiac Ox Box\n[Additional Crysta]Bonivio"
+    },
+    {
+        "Name": "Festival Golem Type C",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nWind\nExp\n1600\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Ruin Golem",
+        "Stats": "Lv\n65\nType(Nightmare)\nHP\n206000\nElement\nEarth\nExp\n3300\nTamableNo",
+        "SpawnAt": "Zoktzda ruins : Reversed Hall",
+        "Drops": "\n[1 Handed Sword]Relic Sword\n[Armor]Fightwear\n[Knuckles]Golem Arm\n[Material]Ancient Stone Slab\n[Material]Zoktzda Stone\n[Material]Broken Magic Lantern\n[Shield]Relic Shield\n[Normal Crysta]Ruin Golem"
+    },
+    {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nLight\nExp\n6000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd II\n[Usable]Revita II\n[Additional]HeadbandA14C\n[Additional]War Helmet141C\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Festival Golem A",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nFire\nExp\n1600\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]Golemet40BC\n[Additional]HeadbandA40C\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Forest Wolf",
+        "Stats": "Lv\n40\nType(Hard)\nHP\n32076\nElement\nWind\nExp\n600\nTamableNo",
+        "SpawnAt": "Marbaro Forest: Deepest Part",
+        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover\n[Normal Crysta]Forest Wolf"
+    },
+    {
+        "Name": "Minotaur",
+        "Stats": "Lv\n52\nType(Nightmare)\nHP\n90000\nElement\nWind\nExp\n2100\nTamableNo",
+        "SpawnAt": "Ruined Temple: Forbidden hall",
+        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Normal Crysta]Minotaur\n[Katana]Minotaur's Katana"
+    },
+    {
+        "Name": "Demon's Gate",
+        "Stats": "Lv\n70\nType(Hard)\nHP\n360000\nElement\nDark\nExp\n2880\nTamableNo",
+        "SpawnAt": "Saham Crater",
+        "Drops": "\n[1 Handed Sword]Sword of Sin\n[Material]Eerie Stone\n[Material]Nail of Demon's gate\n[Material]Goddess Sculpture\n[Shield]Relief Shield\n[Weapon Crysta]Demon's Gate"
+    },
+    {
+        "Name": "Chocolate Ooze (Sweet) (Valentine 2017)",
+        "Stats": "Lv\n30\nType(Normal)\nHPUnknownElement\nWater\nExp\nUnknownTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Usable]Roasted Fruit\n[Usable]Bitter Nut\n[Ore]Hematite\n[Additional Crysta]Chocolate Ooze"
+    },
+    {
+        "Name": "False God",
+        "Stats": "Lv\n75\nType(Normal)\nHPUnknownElement\nEarth\nExp\n2700\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Vita Plus III\n[Usable]Revita III\n[Usable]Regera III\n[Usable]Magiadd III\n[Additional]Forehead ProtectorAB1\n[Material]Gold 1st Anniv Medal"
+    },
+    {
+        "Name": "Omochi",
+        "Stats": "Lv\n30\nType(Nightmare)\nHP\n200000\nElement\nLight\nExp\n1500\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
+    },
+    {
+        "Name": "Omochi",
+        "Stats": "Lv\n20\nType(Hard)\nHP\n80000\nElement\nLight\nExp\n600\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
+    },
+    {
+        "Name": "Yashiro Azuki's Mom (Lv30)",
+        "Stats": "Lv\n45\nType(Hard)\nHP\n20000\nElement\nFire\nExp\n824\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom\n[Additional Crysta]Yashiro Azuki's Mom"
+    },
+    {
+        "Name": "Lunadore",
+        "Stats": "Lv\n50\nType(Ultimate)\nHP\n400000\nElement\nLight\nExp\n3000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
+    },
+    {
+        "Name": "False God",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nLight\nExp\n2700\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita III\n[Usable]Vita Plus III\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Demon's Gate",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n18000\nElement\nDark\nExp\n1440\nTamableNo",
+        "SpawnAt": "Saham Crater",
+        "Drops": "\n[1 Handed Sword]Sword of Sin\n[Material]Eerie Stone\n[Material]Nail of Demon's gate\n[Material]Goddess Sculpture\n[Shield]Relief Shield\n[Weapon Crysta]Demon's Gate"
+    },
+    {
+        "Name": "Minotaur",
+        "Stats": "Lv\n22\nType(Easy)\nHP\n1800\nElement\nWind\nExp\n42\nTamableNo",
+        "SpawnAt": "Ruined Temple: Forbidden hall",
+        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Katana]Minotaur's Katana"
+    },
+    {
+        "Name": "Festival Golem A",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nFire\nExp\n640\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]Golemet40BC\n[Additional]HeadbandA40C\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Brutal Dragon Decel",
+        "Stats": "Lv\n50\nType(Hard)\nHP\n106000\nElement\nEarth\nExp\n1120\nTamableNo",
+        "SpawnAt": "Nisel Mountain: The Top",
+        "Drops": "\n[1 Handed Sword]Brutal Dragon Sword\n[Additional]Brutal Dragon Crown\n[Armor]Brutal Dragon Armor\n[Material]Black Crystal Fragment\n[Material]Brutal Dragon Horn\n[Material]Brutal Dragon Tail\n[Material]Brutal Dragon Claw\n[Material]Brutal Dragon Skin\n[Normal Crysta]Brutal Dragon Decel"
+    },
+    {
+        "Name": "Fighter Mochelo",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nWind\nExp\n2400\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nLight\nExp\n1200\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd II\n[Usable]Revita II\n[Additional]HeadbandA14C\n[Additional]War Helmet141C\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Fighter Mochelo",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nWind\nExp\n6000\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Marchitar (Hanami 2017)",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n59000\nElement\nDark\nExp\n480\nTamableNo",
+        "SpawnAt": "Hanami Venue: Summit",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Material]Mana Clod\n[Weapon Crysta]Marchitar"
+    },
+    {
+        "Name": "Festival Golem Type A",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nFire\nExp\n640\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Perro",
+        "Stats": "Lv\n30\nType(Nightmare)\nHP\n200000\nElement\nLight\nExp\n1500\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
+    },
+    {
+        "Name": "Mochelo",
+        "Stats": "Lv\n33\nType(Easy)\nHP\n6000\nElement\nWind\nExp\n62\nTamableNo",
+        "SpawnAt": "Fiery Volcano: Area 3",
+        "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur"
+    },
+    {
+        "Name": "Chocolate Ooze (Milk) (Valentine 2018)",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n180000\nElement\nWater\nExp\n4800\nTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Material]Magic Marionette Heart\n[Material]Chocolate Chip\n[Ore]Damascus Ore\n[Additional Crysta]Chocolate Ooze"
+    },
+    {
+        "Name": "Grass Dragon Yelb",
+        "Stats": "Lv\n63\nType(Easy)\nHP\n43919\nElement\nEarth\nExp\n504\nTamableNo",
+        "SpawnAt": "Albatif Village",
+        "Drops": "\n[1 Handed Sword]Phyto Blade\n[Material]Grass Dragon's Scale\n[Material]Grass Dragon's Skin\n[Material]Grass Dragon's Petal\n[Ore]Mithril Ore\n[Staff]Folium Staff\n[Additional Crysta]Grass Dragon Yelb"
+    },
+    {
+        "Name": "DX Fighter (Anthony)",
+        "Stats": "Lv\n50\nType(Hard)\nHP\n64000\nElement\nLight\nExp\n1240\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita III\n[Material]Hero's Rag\n[Ore]Hematite\n[Armor Crysta]DX Fighter"
+    },
+    {
+        "Name": "Usami (New Moon Lv30+)",
+        "Stats": "Lv\n70\nType(Ultimate)\nHP\n320000\nElement\nWater\nExp\n8000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "Cerabes (Hanami 2017)",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n120000\nElement\nDark\nExp\n1440\nTamableNo",
+        "SpawnAt": "Hanami Venue: Summit",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Cerabes Fang\n[Material]Broken Yozakura Branch\n[Special]Yozakura Bangle\n[Armor Crysta]Cerabes"
+    },
+    {
+        "Name": "Yashiro Azuki (Lv30)",
+        "Stats": "Lv\n70\nType(Ultimate)\nHP\n240000\nElement\nDark\nExp\n4000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
+    },
+    {
+        "Name": "Ooze",
+        "Stats": "Lv\n52\nType(Normal)\nHP\n44000\nElement\nWater\nExp\n1400\nTamableNo",
+        "SpawnAt": "Lutaros Cavern: Deepest Part",
+        "Drops": "\n[Additional]Ooze Helmet\n[Armor]Ooze Armor\n[Material]Emerald Stone\n[Material]Luminous Magic Water\n[Material]Gluey Skin\n[Shield]Ooze Shield\n[Staff]Ooze Staff\n[Special Crysta]Ooze\n[Katana]Ooze Lamina"
+    },
+    {
+        "Name": "Festival Golem Type A",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nFire\nExp\n1600\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nEarth\nExp\n1200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Gespenst",
+        "Stats": "Lv\n40\nType(Nightmare)\nHP\n42720\nElement\nDark\nExp\n1200\nTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth\n[Normal Crysta]Gespenst"
+    },
+    {
+        "Name": "Forest Wolf",
+        "Stats": "Lv\n70\nType(Ultimate)\nHP\n160380\nElement\nWind\nExp\n3000\nTamableNo",
+        "SpawnAt": "Marbaro Forest: Deepest Part",
+        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover\n[Normal Crysta]Forest Wolf"
+    },
+    {
+        "Name": "Usami (Otsukimi 2019)",
+        "Stats": "Lv\n30\nType(Normal)\nHP\n32000\nElement\nWater\nExp\n800\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue: Crater Zone",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "Pillow Kitagawa",
+        "Stats": "Lv\n0\nType(Normal)\nHP\n1000000\nElement\nFire\nExp\n8000\nTamableNo",
+        "SpawnAt": "Kitagawa Dream Center",
+        "Drops": "\n[Usable]Revita (Gift)\n[Additional]Pillow Kitagawa's Hat\n[Additional Crysta]Ox King\n[Enhancer Crysta (Yellow)]Royal Ox King\n[Enhancer Crysta (Yellow)]Pillow Kitagawa"
+    },
+    {
+        "Name": "Festival Golem Type C",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nWind\nExp\n320\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Ruin Golem",
+        "Stats": "Lv\n55\nType(Hard)\nHP\n82400\nElement\nEarth\nExp\n1320\nTamableNo",
+        "SpawnAt": "Zoktzda ruins : Reversed Hall",
+        "Drops": "\n[1 Handed Sword]Relic Sword\n[Armor]Fightwear\n[Knuckles]Golem Arm\n[Material]Ancient Stone Slab\n[Material]Zoktzda Stone\n[Material]Broken Magic Lantern\n[Shield]Relic Shield\n[Normal Crysta]Ruin Golem"
+    },
+    {
+        "Name": "Boss Roga",
+        "Stats": "Lv\n62\nType(Normal)\nHP\n250000\nElement\nNeutral\nExp\n3000\nTamableNo",
+        "SpawnAt": "Saham Underground Cave - Deepest Part",
+        "Drops": "\n[Armor]Killer Coat\n[Material]Boss Roga's Belt\n[Material]Ore from Another World\n[Material]Broken Huge Mace\n[Staff]Mace of Destruction\n[Armor Crysta]Boss Roga"
+    },
+    {
+        "Name": "Mochelo",
+        "Stats": "Lv\n43\nType(Normal)\nHP\n60000\nElement\nWind\nExp\n620\nTamableNo",
+        "SpawnAt": "Fiery Volcano: Area 3",
+        "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur\n[Normal Crysta]Mochelo"
+    },
+    {
+        "Name": "Festival Golem B",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nWater\nExp\n3200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Masked Warrior",
+        "Stats": "Lv\n67\nType(Normal)\nHP\n276000\nElement\nFire\nExp\n4300\nTamableNo",
+        "SpawnAt": "Land Under Cultivation: Hill",
+        "Drops": "\n[2 Handed Sword]Berserker Blade\n[Additional]Berserker Mask\n[Armor]Adventurer's Garb40BC\n[Knuckles]Berserker Cestuses\n[Material]Broken Mask\n[Material]Great Sword Fragment\n[Material]Heavy Tough Chain\n[Ore]Mithril Ore\n[Normal Crysta]Masked Warrior"
+    },
+    {
+        "Name": "Dr. Leonardo (Master)",
+        "Stats": "Lv\n80\nType(Normal)\nHP\n220000\nElement\nFire\nExp\n2900\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita III\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
+    },
+    {
+        "Name": "Scrader",
+        "Stats": "Lv\n75\nType(Easy)\nHP\n66000\nElement\nDark\nExp\n790\nTamableNo",
+        "SpawnAt": "Magic Waste Site: Deepest Part",
+        "Drops": "\n[Additional]Brigan Helm\n[Armor]Brigandine\n[Bowgun]Scrader Barrel\n[Material]Big Scrap\n[Material]Strange Head Part\n[Material]Unknown Part\n[Material]Scrader Crystal\n[Staff]Scrader Mace"
+    },
+    {
+        "Name": "Dr. Leonardo (Bachelor)",
+        "Stats": "Lv\n70\nType(Ultimate)\nHP\n160000\nElement\nFire\nExp\n4000\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
     },
     {
         "Name": "Usakichi (Crescent Moon Lv60+)",
-        "Stats": "Lv\n60\nType(Normal)HP\n150000\nElementEarthExp\n2000\nTamableNo",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n150000\nElement\nEarth\nExp\n2000\nTamableNo",
         "SpawnAt": "Otsukimi Event Venue",
         "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
     },
     {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nWater\nExp\n1200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Festival Golem Type A",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nFire\nExp\n320\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Usami (New Moon Lv30+)",
+        "Stats": "Lv\n20\nType(Easy)\nHP\n3200\nElement\nWater\nExp\n80\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder"
+    },
+    {
+        "Name": "Super Night Mushroom (Hanami 2017)",
+        "Stats": "Lv\n80\nType(Normal)\nHP\n640000\nElement\nDark\nExp\n1500\nTamableNo",
+        "SpawnAt": "Hanami Venue: Summit",
+        "Drops": "\n[Additional]Night Mushroom Mask\n[Material]Mana Clod\n[Normal Crysta]Super Night Mushroom"
+    },
+    {
+        "Name": "Mauez",
+        "Stats": "Lv\n65\nType(Hard)\nHP\n172000\nElement\nWater\nExp\n2580\nTamableNo",
+        "SpawnAt": "New Moon Palace: Innermost",
+        "Drops": "\n[Bowgun]Magic Bowgun\n[Material]Magic Armor Fragment\n[Material]Runestone\n[Material]Mauez's Broken Rod\n[Magic Device]Vita Cores\n[Normal Crysta]Mauez\n[Halberd]Mauez's Pole"
+    },
+    {
+        "Name": "Festival Golem B",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nWater\nExp\n640\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Boss Roga",
+        "Stats": "Lv\n52\nType(Easy)\nHP\n25000\nElement\nNeutral\nExp\n300\nTamableNo",
+        "SpawnAt": "Saham Underground Cave - Deepest Part",
+        "Drops": "\n[Armor]Killer Coat\n[Material]Boss Roga's Belt\n[Material]Ore from Another World\n[Material]Broken Huge Mace\n[Staff]Mace of Destruction"
+    },
+    {
+        "Name": "Purro",
+        "Stats": "Lv\n10\nType(Normal)\nHP\n40000\nElement\nLight\nExp\n300\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
+    },
+    {
+        "Name": "Grand Pojo",
+        "Stats": "Lv\n10\nType(Normal)\nHPUnknownElement\nWind\nExp\nUnknownTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Otoshidama\n[Additional]Zodiac Hat: Rooster\n[Additional Crysta]Grand Pojo"
+    },
+    {
+        "Name": "Eerie Crystal",
+        "Stats": "Lv\n14\nType(Easy)\nHP\n630\nElement\nDark\nExp\n22\nTamableNo",
+        "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
+        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite"
+    },
+    {
+        "Name": "Lunadore",
+        "Stats": "Lv\n30\nType(Nightmare)\nHP\n200000\nElement\nLight\nExp\n1500\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
+    },
+    {
+        "Name": "B.B. Goblin",
+        "Stats": "Lv\n70\nType(Normal)\nHP\n24331\nElement\nFire\nExp\n2400\nTamableNo",
+        "SpawnAt": "Rinom Plains",
+        "Drops": "\n[Armor]B.B. Garb\n[Material]Fairy Nose\n[Material]Broken Bone Accessory\n[Material]Dyed Reinforced Cloth\n[Normal Crysta]B.B. Goblin"
+    },
+    {
+        "Name": "Narumi Hina (Lv 50 Raid)",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n410000\nElement\nLight\nExp\n5700\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Dark Note Paper\n[Additional Crysta]Yashiro Azuki's Dad\n[Additional Crysta]Narumi Hina"
+    },
+    {
+        "Name": "False God",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nEarth\nExp\n2700\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita III\n[Usable]Magiadd III\n[Material]Gold 2nd Anniv Medal"
+    },
+    {
+        "Name": "Yashiro Azuki's Mom (Lv30)",
+        "Stats": "Lv\n75\nType(Ultimate)\nHP\n100000\nElement\nFire\nExp\n4120\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Yashiro Mom Mask\n[Magic Device]Watching Mom\n[Additional Crysta]Yashiro Azuki's Mom"
+    },
+    {
+        "Name": "Excavated Golem",
+        "Stats": "Lv\n16\nType(Normal)\nHP\n3150\nElement\nNeutral\nExp\n90\nTamableNo",
+        "SpawnAt": "Underground Ruins: Deepest Part",
+        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield\n[Weapon Crysta]Excavated Golem"
+    },
+    {
+        "Name": "False God",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nLight\nExp\n2700\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita III\n[Usable]Vita Plus III\n[Material]Gold 3rd Anniv Medal"
+    },
+    {
+        "Name": "Usami (Crescent Moon Lv60+)",
+        "Stats": "Lv\n80\nType(Nightmare)\nHP\n750000\nElement\nWater\nExp\n10000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "B.B. Goblin (Megiston 2016)",
+        "Stats": "Lv\n80\nType(Normal)\nHPUnknownElement\nFire\nExp\nUnknownTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Armor]B.B. Garb\n[Normal Crysta]B.B. Goblin"
+    },
+    {
+        "Name": "Forestia",
+        "Stats": "Lv\n69\nType(Nightmare)\nHP\n675000\nElement\nWind\nExp\n7400\nTamableNo",
+        "SpawnAt": "Land Of Chaos",
+        "Drops": "\n[Arrow]Tempest Arrow\n[Armor]Green Dragon Garb\n[Dagger]Storm Dagger\n[Material]Green Dragon Claw\n[Material]Rainbow Stone\n[Material]Green Dragon Fur\n[Armor Crysta]Forestia"
+    },
+    {
+        "Name": "Masked Warrior",
+        "Stats": "Lv\n57\nType(Easy)\nHP\n27600\nElement\nFire\nExp\n430\nTamableNo",
+        "SpawnAt": "Land Under Cultivation: Hill",
+        "Drops": "\n[2 Handed Sword]Berserker Blade\n[Additional]Berserker Mask\n[Armor]Adventurer's Garb40BC\n[Knuckles]Berserker Cestuses\n[Material]Heavy Tough Chain\n[Material]Broken Mask\n[Material]Great Sword Fragment\n[Ore]Mithril"
+    },
+    {
+        "Name": "Ruin Golem",
+        "Stats": "Lv\n45\nType(Normal)\nHP\n41200\nElement\nEarth\nExp\n660\nTamableNo",
+        "SpawnAt": "Zoktzda ruins : Reversed Hall",
+        "Drops": "\n[1 Handed Sword]Relic Sword\n[Armor]Fightwear24C\n[Knuckles]Golem Arm\n[Material]Ancient Stone Slab\n[Material]Zoktzda Stone\n[Material]Broken Magic Lantern\n[Shield]Relic Shield\n[Normal Crysta]Ruin Golem"
+    },
+    {
+        "Name": "Festival Golem A",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nFire\nExp\n320\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]HeadbandA40C\n[Additional]Golemet40B39\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Usami (Crescent Moon Lv60+)",
+        "Stats": "Lv\n70\nType(Hard)\nHP\n300000\nElement\nWater\nExp\n4000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nWater\nExp\n6000\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Boss Goblin",
+        "Stats": "Lv\n50\nType(Hard)\nHP\n53516\nElement\nFire\nExp\n1120\nTamableNo",
+        "SpawnAt": "Ribisco Cave: Deepest Part",
+        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal\n[Normal Crysta]Boss Goblin"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nEarth\nExp\n6000\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Festival Golem B",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nWater\nExp\n640\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Boss Goblin",
+        "Stats": "Lv\n80\nType(Ultimate)\nHP\n267580\nElement\nFire\nExp\n5600\nTamableNo",
+        "SpawnAt": "Ribisco Cave: Deepest Part",
+        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal\n[Normal Crysta]Boss Goblin"
+    },
+    {
+        "Name": "Perro",
+        "Stats": "Lv\n10\nType(Normal)\nHP\n40000\nElement\nLight\nExp\n300\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
+    },
+    {
+        "Name": "Excavated Golem",
+        "Stats": "Lv\n56\nType(Ultimate)\nHP\n31500\nElement\nNeutral\nExp\n900\nTamableNo",
+        "SpawnAt": "Underground Ruins: Deepest Part",
+        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield\n[Weapon Crysta]Excavated Golem"
+    },
+    {
+        "Name": "Yashiro Azuki (Lv30)",
+        "Stats": "Lv\n20\nType(Easy)\nHP\n2400\nElement\nDark\nExp\n40\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
+    },
+    {
+        "Name": "Astol",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n410200\nElement\nWind\nExp\n3800\nTamableNo",
+        "SpawnAt": "Aulada Ancient Tower",
+        "Drops": "\n[Armor]Aqua Garb\n[Material]Heaven Bird Claw\n[Material]Heaven Bird Tail Feather\n[Material]Heaven Bird Crest\n[Material]Heaven Bird Tear\n[Magic Device]Crystal Wing\n[Normal Crysta]Astol"
+    },
+    {
+        "Name": "Gespenst",
+        "Stats": "Lv\n60\nType(Ultimate)\nHP\n85440\nElement\nDark\nExp\n2400\nTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth\n[Normal Crysta]Gespenst"
+    },
+    {
+        "Name": "Kohaku Lil Boar",
+        "Stats": "Lv\n50\nType(Ultimate)\nHP\n400000\nElement\nLight\nExp\n3000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nEarth\nExp\n2400\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Omochi",
+        "Stats": "Lv\n50\nType(Ultimate)\nHP\n400000\nElement\nLight\nExp\n3000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
+    },
+    {
+        "Name": "Mochelo",
+        "Stats": "Lv\n53\nType(Hard)\nHP\n120000\nElement\nWind\nExp\n1240\nTamableNo",
+        "SpawnAt": "Fiery Volcano: Area 3",
+        "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur\n[Normal Crysta]Mochelo"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nEarth\nExp\n6000\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nEarth\nExp\n2400\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]HeadbandA54C\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Boss Colon",
+        "Stats": "Lv\n50\nType(Ultimate)\nHP\n10000\nElement\nEarth\nExp\n300\nTamableNo",
+        "SpawnAt": "Land Under Development",
+        "Drops": "\n[Usable]Sofya City\n[Additional]Colon Met\n[Material]Boss Colon Skin\n[Material]Colon Leaf\n[Normal Crysta]Boss Colon"
+    },
+    {
+        "Name": "Candela Melon (White Day 2018)",
+        "Stats": "Lv\n40\nType(Normal)\nHP\n54000\nElement\nWater\nExp\n2300\nTamableNo",
+        "SpawnAt": "Douce Hamlet",
+        "Drops": "\n[Usable]Flower Nectar\n[Usable]Revita II\n[Material]Magic Marionette Heart\n[Material]Huge Iron Ball\n[Ore]Hematite\n[Additional Crysta]Candela"
+    },
+    {
+        "Name": "Pillar Golem",
+        "Stats": "Lv\n70\nType(Normal)\nHP\n324000\nElement\nEarth\nExp\n3600\nTamableNo",
+        "SpawnAt": "Lost Town: Magic Barrier",
+        "Drops": "\n[Armor]Knight Armor\n[Bow]Blaster Bow\n[Material]Shining Copper Ore\n[Material]Pillar Golem Stake\n[Material]Pillar Golem Fragment\n[Material]Pillar Golem Magic Lantern\n[Shield]Marble Shield\n[Weapon Crysta]Pillar Golem"
+    },
+    {
+        "Name": "Boss Colon",
+        "Stats": "Lv\n4\nType(Easy)\nHP\n100\nElement\nEarth\nExp\n3\nTamableNo",
+        "SpawnAt": "Land Under Development",
+        "Drops": "\n[Usable]Sofya City\n[Additional]Colon Met\n[Material]Boss Colon Skin\n[Material]Colon Leaf"
+    },
+    {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nWater\nExp\n2400\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Ancient Empress Mezzaluna",
+        "Stats": "Lv\n74\nType(Hard)\nHP\n260000\nElement\nLight\nExp\n6240\nTamableNo",
+        "SpawnAt": "Ancient Empress Tomb: Deepest Part",
+        "Drops": "\n[Armor]Adventurer's Garb54B22\n[Bowgun]Empress Bowgun\n[Material]Empress Aura\n[Material]Empress Medal\n[Material]Empress Hair Accessory\n[Magic Device]Empress Soul\n[Additional Crysta]Ancient Empress"
+    },
+    {
+        "Name": "Minotaur",
+        "Stats": "Lv\n32\nType(Normal)\nHP\n18000\nElement\nWind\nExp\n420\nTamableNo",
+        "SpawnAt": "Ruined Temple: Forbidden hall",
+        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Normal Crysta]Minotaur\n[Katana]Minotaur's Katana"
+    },
+    {
+        "Name": "Warmonger",
+        "Stats": "Lv\n80\nType(Nightmare)\nHP\n738450\nElement\nEarth\nExp\n4800\nTamableNo",
+        "SpawnAt": "Haotas Ravine: Deepest Part",
+        "Drops": "\n[Additional]War Helmet\n[Armor]Scale ArmorAB1\n[Bowgun]War Bowgun\n[Material]Dark Gray Claw\n[Material]Thick Green Scale\n[Material]Huge Skull\n[Additional Crysta]Warmonger"
+    },
+    {
+        "Name": "Yashiro Azuki (Lv60)",
+        "Stats": "Lv\n80\nType(Easy)\nHP\n48000\nElement\nDark\nExp\n345\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita IV\n[Refinement Support]Super Anti-Degradation\n[Material]Plastic Fragment\n[Material]Sacred Light Page\n[Normal Crysta]Yashiro Azuki"
+    },
+    {
+        "Name": "Eerie Crystal",
+        "Stats": "Lv\n64\nType(Ultimate)\nHP\n63000\nElement\nDark\nExp\n2250\nTamableNo",
+        "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
+        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite\n[Special Crysta]Eerie Crystal"
+    },
+    {
+        "Name": "Perro",
+        "Stats": "Lv\n1\nType(Easy)\nHP\n4000\nElement\nLight\nExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
+    },
+    {
+        "Name": "Excavated Golem",
+        "Stats": "Lv\n6\nType(Easy)\nHP\n315\nElement\nNeutral\nExp\n9\nTamableNo",
+        "SpawnAt": "Underground Ruins: Deepest Part",
+        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield"
+    },
+    {
+        "Name": "Purro",
+        "Stats": "Lv\n30\nType(Nightmare)\nHP\n200000\nElement\nLight\nExp\n1500\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
+    },
+    {
+        "Name": "Pumpking",
+        "Stats": "Lv\n75\nType(Hard)\nHP\n280000\nElement\nFire\nExp\n5300\nTamableNo",
+        "SpawnAt": "Tir Na Nog Square",
+        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Straye Garb\n[Ore]Mithril Ore\n[Additional Crysta]Pumpking"
+    },
+    {
+        "Name": "Pillar Golem",
+        "Stats": "Lv\n80\nType(Hard)\nHP\n648000\nElement\nEarth\nExp\n7200\nTamableNo",
+        "SpawnAt": "Lost Town: Magic Barrier",
+        "Drops": "\n[Armor]Knight Armor\n[Bow]Blaster Bow\n[Material]Shining Copper Ore\n[Material]Pillar Golem Stake\n[Material]Pillar Golem Fragment\n[Material]Pillar Golem Magic Lantern\n[Shield]Marble Shield\n[Weapon Crysta]Pillar Golem"
+    },
+    {
+        "Name": "Festival Golem C",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nWind\nExp\n1600\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Forehead Protector\n[Additional]Ribbon59BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Astol",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n82040\nElement\nWind\nExp\n760\nTamableNo",
+        "SpawnAt": "Aulada Ancient Tower",
+        "Drops": "\n[Armor]Aqua Garb\n[Material]Heaven Bird Claw\n[Material]Heaven Bird Tail Feather\n[Material]Heaven Bird Crest\n[Material]Heaven Bird Tear\n[Magic Device]Crystal Wing\n[Normal Crysta]Astol"
+    },
+    {
+        "Name": "Fighter Mochelo",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nWind\nExp\n2400\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Usami (New Moon Lv30+)",
+        "Stats": "Lv\n40\nType(Hard)\nHP\n64000\nElement\nWater\nExp\n1600\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "Perro",
+        "Stats": "Lv\n20\nType(Hard)\nHP\n80000\nElement\nLight\nExp\n600\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
+    },
+    {
+        "Name": "Flare Volg",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n120000\nElement\nFire\nExp\n1500\nTamableNo",
+        "SpawnAt": "Fiery Volcano: Boss Map",
+        "Drops": "\n[2 Handed Sword]Volcanic Sword\n[Armor]Plate ArmorABC\n[Knuckles]Volcanic Claws\n[Material]Fiery Gemstone\n[Material]Flare Volg Horn\n[Material]Flare Volg Claw\n[Material]Flare Volg Flesh\n[Normal Crysta]Flare Volg"
+    },
+    {
+        "Name": "Yashiro Azuki's Dad (Lv 50 Raid)",
+        "Stats": "Lv\n65\nType(Hard)\nHPUnknownElement\nWind\nExp\nUnknownTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Yashiro Azuki's Dad's Mask"
+    },
+    {
+        "Name": "Forest Wolf",
+        "Stats": "Lv\n20\nType(Easy)\nHP\n1603\nElement\nWind\nExp\n30\nTamableNo",
+        "SpawnAt": "Marbaro Forest: Deepest Part",
+        "Drops": "\n[Armor]Forest Wolf Garb\n[Bow]Forest Wolf Bow\n[Material]Forest Wolf Claw\n[Material]Forest Wolf Skin\n[Material]Forest Wolf Horn\n[Material]Four-leaf Clover"
+    },
+    {
+        "Name": "Excavated Golem",
+        "Stats": "Lv\n36\nType(Nightmare)\nHP\n15750\nElement\nNeutral\nExp\n450\nTamableNo",
+        "SpawnAt": "Underground Ruins: Deepest Part",
+        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield\n[Weapon Crysta]Excavated Golem"
+    },
+    {
+        "Name": "Zoe",
+        "Stats": "Lv\n75\nType(Easy)\nHP\n93000\nElement\nDark\nExp\n3100\nTamableNo",
+        "SpawnAt": "Halloween Mansion Basement",
+        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Oracle Robe828325\n[Ore]Hematite\n[Enhancer Crysta (Yellow)]Zoe"
+    },
+    {
+        "Name": "Ooze",
+        "Stats": "Lv\n62\nType(Hard)\nHP\n88000\nElement\nWater\nExp\n2800\nTamableNo",
+        "SpawnAt": "Lutaros Cavern: Deepest Part",
+        "Drops": "\n[Additional]Ooze Helmet\n[Armor]Ooze Armor\n[Material]Emerald Stone\n[Material]Luminous Magic Water\n[Material]Gluey Skin\n[Shield]Ooze Shield\n[Staff]Ooze Staff\n[Special Crysta]Ooze\n[Katana]Ooze Lamina"
+    },
+    {
         "Name": "Usakichi (Otsukimi 2019)",
-        "Stats": "Lv\n60\nType(Hard)HP\n150000\nElementEarthExp\n2000\nTamableNo",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n150000\nElement\nEarth\nExp\n2000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue: Crater Zone",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
+    },
+    {
+        "Name": "Goovua",
+        "Stats": "Lv\n72\nType(Easy)\nHP\n40000\nElement\nNeutral\nExp\n500\nTamableNo",
+        "SpawnAt": "Akaku Desert: Hill",
+        "Drops": "\n[2 Handed Sword]Desert Anfel\n[Armor]Adventurer's GarbABC\n[Bow]Desert Mentum\n[Material]Broken Dual Edge\n[Material]Torn Cloak\n[Material]Goovua's Shoulder Pad\n[Material]Goovua's Mask Fragment"
+    },
+    {
+        "Name": "Mauez",
+        "Stats": "Lv\n75\nType(Nightmare)\nHP\n430000\nElement\nWater\nExp\n6450\nTamableNo",
+        "SpawnAt": "New Moon Palace: Innermost",
+        "Drops": "\n[Bowgun]Magic Bowgun\n[Material]Magic Armor Fragment\n[Material]Runestone\n[Material]Mauez's Broken Rod\n[Magic Device]Vita Cores\n[Normal Crysta]Mauez\n[Halberd]Mauez's Pole"
+    },
+    {
+        "Name": "Usami (Crescent Moon Lv60+)",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n150000\nElement\nWater\nExp\n2000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nEarth\nExp\n6000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]HeadbandA54C\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Festival Golem A",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nFire\nExp\n3200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]HeadbandA40C\n[Additional]Golemet40B39\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nEarth\nExp\n2400\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Armor]Adventurer's GarbA57C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Chocolate Ooze (White) (Valentine 2018)",
+        "Stats": "Lv\n30\nType(Normal)\nHP\n32000\nElement\nWater\nExp\n1600\nTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Usable]Roasted Fruit\n[Usable]Bitter Nut\n[Ore]Hematite\n[Additional Crysta]Chocolate Ooze"
+    },
+    {
+        "Name": "Festival Golem C",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nWind\nExp\n1600\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Warmonger",
+        "Stats": "Lv\n50\nType(Easy)\nHP\n14769\nElement\nEarth\nExp\n96\nTamableNo",
+        "SpawnAt": "Haotas Ravine: Deepest Part",
+        "Drops": "\n[Additional]War Helmet\n[Armor]Scale ArmorAB1\n[Bowgun]War Bowgun\n[Material]Dark Gray Claw\n[Material]Thick Green Scale\n[Material]Huge Skull"
+    },
+    {
+        "Name": "Festival Golem A",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nFire\nExp\n3200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]Golemet40BC\n[Additional]HeadbandA40C\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Demon's Gate",
+        "Stats": "Lv\n80\nType(Nightmare)\nHP\n900000\nElement\nDark\nExp\n7200\nTamableNo",
+        "SpawnAt": "Saham Crater",
+        "Drops": "\n[1 Handed Sword]Sword of Sin\n[Material]Eerie Stone\n[Material]Nail of Demon's gate\n[Material]Goddess Sculpture\n[Shield]Relief Shield\n[Weapon Crysta]Demon's Gate"
+    },
+    {
+        "Name": "Viscum (Hanami 2017)",
+        "Stats": "Lv\n60\nType(Normal)\nHP\n89000\nElement\nDark\nExp\n960\nTamableNo",
+        "SpawnAt": "Hanami Venue: Summit",
+        "Drops": "\n[Usable]Toram Liquor\n[Material]Sakura Crystal Fragment\n[Material]Broken Sakura Branch\n[Special Crysta]Viscum"
+    },
+    {
+        "Name": "Festival Golem C",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nWind\nExp\n3200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Forehead Protector\n[Additional]Ribbon59BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Gespenst",
+        "Stats": "Lv\n30\nType(Hard)\nHP\n17088\nElement\nDark\nExp\n480\nTamableNo",
+        "SpawnAt": "Underground Channel",
+        "Drops": "\n[Additional]Old Cloak\n[Material]Ominous Horns\n[Material]Scythe Blade\n[Material]Remnant of Ghost\n[Material]Thick Black Cloth\n[Normal Crysta]Gespenst"
+    },
+    {
+        "Name": "Festival Golem Type C",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nWind\nExp\n640\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Warmonger",
+        "Stats": "Lv\n70\nType(Hard)\nHP\n295380\nElement\nEarth\nExp\n1920\nTamableNo",
+        "SpawnAt": "Haotas Ravine: Deepest Part",
+        "Drops": "\n[Additional]War Helmet\n[Armor]Scale ArmorAB1\n[Bowgun]War Bowgun\n[Material]Dark Gray Claw\n[Material]Thick Green Scale\n[Material]Huge Skull\n[Additional Crysta]Warmonger"
+    },
+    {
+        "Name": "Flare Volg",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n600000\nElement\nFire\nExp\n7500\nTamableNo",
+        "SpawnAt": "Fiery Volcano: Boss Map",
+        "Drops": "\n[2 Handed Sword]Volcanic Sword\n[Armor]Plate Armor\n[Knuckles]Volcanic Claws\n[Material]Fiery Gemstone\n[Material]Flare Volg Horn\n[Material]Flare Volg Claw\n[Material]Flare Volg Flesh\n[Normal Crysta]Flare Volg"
+    },
+    {
+        "Name": "Boss Colon",
+        "Stats": "Lv\n20\nType(Hard)\nHP\n2000\nElement\nEarth\nExp\n60\nTamableNo",
+        "SpawnAt": "Land Under Development",
+        "Drops": "\n[Usable]Sofya City\n[Additional]Colon Met\n[Material]Boss Colon Skin\n[Material]Colon Leaf\n[Normal Crysta]Boss Colon"
+    },
+    {
+        "Name": "Usami (New Moon Lv30+)",
+        "Stats": "Lv\n30\nType(Normal)\nHP\n32000\nElement\nWater\nExp\n800\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "Yashiro Azuki's Dad (Lv 50 Raid)",
+        "Stats": "Lv\n45\nType(Easy)\nHPUnknownElement\nWind\nExp\nUnknownTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Yashiro Azuki's Dad's Mask"
+    },
+    {
+        "Name": "June Bride Event (all boss)",
+        "Stats": "Lv\n0\nType(Normal)\nHP\n0\nElement\nNeutral\nExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Bride Box\n[Usable]Groom Box"
+    },
+    {
+        "Name": "Usakichi (Crescent Moon Lv60+)",
+        "Stats": "Lv\n70\nType(Hard)\nHP\n300000\nElement\nEarth\nExp\n4000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
+    },
+    {
+        "Name": "2nd Anniversary Event (all boss)",
+        "Stats": "Lv\n0\nType(Normal)\nHP\n0\nElement\nNeutral\nExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]2nd Anniv Box"
+    },
+    {
+        "Name": "Lunadore",
+        "Stats": "Lv\n1\nType(Easy)\nHP\n4000\nElement\nLight\nExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
+    },
+    {
+        "Name": "Ganglef",
+        "Stats": "Lv\n78\nType(Nightmare)\nHP\n539000\nElement\nEarth\nExp\n5750\nTamableNo",
+        "SpawnAt": "Scaro Town: Deepest Part",
+        "Drops": "\n[Usable]Rich Crab Butter\n[Usable]Tough Crab Meat\n[2 Handed Sword]Iron Exoskeleton Sword\n[Bow]Iron Exoskeleton Bow\n[Material]Crustacean Steel\n[Material]Mineral Scissor\n[Weapon Crysta]Ganglef"
+    },
+    {
+        "Name": "Brutal Dragon Decel",
+        "Stats": "Lv\n60\nType(Nightmare)\nHP\n265000\nElement\nEarth\nExp\n2800\nTamableNo",
+        "SpawnAt": "Nisel Mountain: The Top",
+        "Drops": "\n[1 Handed Sword]Brutal Dragon Sword\n[Additional]Brutal Dragon Crown\n[Armor]Brutal Dragon Armor\n[Material]Black Crystal Fragment\n[Material]Brutal Dragon Horn\n[Material]Brutal Dragon Tail\n[Material]Brutal Dragon Claw\n[Material]Brutal Dragon Skin\n[Normal Crysta]Brutal Dragon Decel"
+    },
+    {
+        "Name": "Forestia",
+        "Stats": "Lv\n39\nType(Easy)\nHP\n13500\nElement\nWind\nExp\n148\nTamableNo",
+        "SpawnAt": "Land Of Chaos",
+        "Drops": "\n[Arrow]Tempest Arrow\n[Armor]Green Dragon Garb\n[Dagger]Storm Dagger\n[Material]Green Dragon Claw\n[Material]Rainbow Stone\n[Material]Green Dragon Fur"
+    },
+    {
+        "Name": "Purro",
+        "Stats": "Lv\n20\nType(Hard)\nHP\n80000\nElement\nLight\nExp\n600\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
+    },
+    {
+        "Name": "Masked Warrior",
+        "Stats": "Lv\n77\nType(Hard)\nHP\n522000\nElement\nFire\nExp\n8600\nTamableNo",
+        "SpawnAt": "Land Under Cultivation: Hill",
+        "Drops": "\n[2 Handed Sword]Berserker Blade\n[Additional]Berserker Mask\n[Armor]Adventurer's Garb40BC\n[Knuckles]Berserker Cestuses\n[Material]Broken Mask\n[Material]Great Sword Fragment\n[Material]Heavy Tough Chain\n[Ore]Mithril\n[Normal Crysta]Masked Warrior"
+    },
+    {
+        "Name": "Usakichi (Otsukimi 2019)",
+        "Stats": "Lv\n30\nType(Normal)\nHP\n32000\nElement\nEarth\nExp\n800\nTamableNo",
         "SpawnAt": "Otsukimi Event Venue: Crater Zone",
         "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
     },
     {
         "Name": "Priest Warmonger",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementWaterExp\n2400\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Silver 3rd Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem C",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementWindExp\n3200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Forehead Protector\n[Additional]Ribbon59BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Minotaur",
-        "Stats": "Lv\n22\nType(Easy)HP\n1800\nElementWindExp\n42\nTamableNo",
-        "SpawnAt": "Ruined Temple: Forbidden hall",
-        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Katana]Minotaur's Katana"
-    },
-    {
-        "Name": "Excavated Golem",
-        "Stats": "Lv\n16\nType(Normal)HP\n3150\nElementNeutralExp\n90\nTamableNo",
-        "SpawnAt": "Underground Ruins: Deepest Part",
-        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield\n[Weapon Crysta]Excavated Golem"
-    },
-    {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementWaterExp\n1200\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem Type C",
-        "Stats": "Lv\n25\nType(Normal)HPUnknownElementWindExp\n320\nTamableNo",
+        "Stats": "Lv\n50\nType(Normal)\nHPUnknownElement\nLight\nExp\n1200\nTamableNo",
         "SpawnAt": "Event",
-        "Drops": "\n[Additional]Ribbon7126C\n[Material]Copper 1st Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem Type A",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementFireExp\n320\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "B.B. Goblin",
-        "Stats": "Lv\n60\nType(Easy)HP\n243312\nElementFireExp\n240\nTamableNo",
-        "SpawnAt": "Rinom Plains",
-        "Drops": "\n[Armor]B.B. Garb\n[Material]Fairy Nose\n[Material]Dyed Reinforced Cloth\n[Material]Broken Bone Accessory"
-    },
-    {
-        "Name": "Purro",
-        "Stats": "Lv\n50\nType(Ultimate)HP\n400000\nElementLightExp\n3000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
-    },
-    {
-        "Name": "Candela (Melon)",
-        "Stats": "Lv\n40\nType(Normal)HP\n54000\nElementWaterExp\n4300\nTamableNo",
-        "SpawnAt": "Douce Hamlet",
-        "Drops": "\n[Usable]Flower Nectar\n[Usable]Revita II\n[Material]Magic Marionette Heart\n[Material]Huge Iron Ball\n[Ore]Hematite"
-    },
-    {
-        "Name": "DX Fighter (Anthony)",
-        "Stats": "Lv\n30\nType(Easy)HP\n3200\nElementLightExp\n62\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita III\n[Material]Hero's Rag\n[Ore]Hematite"
-    },
-    {
-        "Name": "Dr. Leonardo (Bachelor)",
-        "Stats": "Lv\n70\nType(Ultimate)HP\n160000\nElementFireExp\n4000\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
-    },
-    {
-        "Name": "Festival Golem B",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementWaterExp\n320\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Masked Warrior",
-        "Stats": "Lv\n67\nType(Normal)HP\n276000\nElementFireExp\n4300\nTamableNo",
-        "SpawnAt": "Land Under Cultivation: Hill",
-        "Drops": "\n[2 Handed Sword]Berserker Blade\n[Additional]Berserker Mask\n[Armor]Adventurer's Garb40BC\n[Knuckles]Berserker Cestuses\n[Material]Broken Mask\n[Material]Great Sword Fragment\n[Material]Heavy Tough Chain\n[Ore]Mithril Ore\n[Normal Crysta]Masked Warrior"
-    },
-    {
-        "Name": "Eerie Crystal",
-        "Stats": "Lv\n44\nType(Nightmare)HP\n31500\nElementDarkExp\n1125\nTamableNo",
-        "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
-        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite\n[Special Crysta]Eerie Crystal"
+        "Drops": "\n[Additional]War Helmet141C\n[Armor]Adventurer's GarbA46C\n[Material]Silver 1st Anniv Medal"
     },
     {
         "Name": "Yashiro Azuki (Lv30)",
-        "Stats": "Lv\n30\nType(Normal)HP\n24000\nElementDarkExp\n400\nTamableNo",
+        "Stats": "Lv\n30\nType(Normal)\nHP\n24000\nElement\nDark\nExp\n400\nTamableNo",
         "SpawnAt": "Event",
         "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
     },
     {
-        "Name": "Candela Lemon (White Day 2018)",
-        "Stats": "Lv\n70\nType(Normal)HP\n325000\nElementWindExp\n7200\nTamableNo",
-        "SpawnAt": "Douce Hamlet",
-        "Drops": "\n[Usable]Flower Nectar\n[Material]Huge Iron Ball\n[Material]Nightmare Crystal\n[Material]Candy Fragment\n[Ore]Damascus Ore\n[Additional Crysta]Candela"
-    },
-    {
-        "Name": "Festival Golem B",
-        "Stats": "Lv\n45\nType(Nightmare)HP\n60000\nElementWaterExp\n1600\nTamableNo",
-        "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem Type B",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementWaterExp\n640\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Narumi Hina (Lv 50 Raid)",
-        "Stats": "Lv\n40\nType(Easy)HP\n8200\nElementLightExp\n114\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Dark Note Paper"
-    },
-    {
-        "Name": "Warrior Minotaur",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementEarthExp\n6000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]HeadbandA54C\n[Material]Silver 2nd Anniv Medal"
-    },
-    {
         "Name": "Eerie Crystal",
-        "Stats": "Lv\n24\nType(Normal)HP\n6300\nElementDarkExp\n225\nTamableNo",
+        "Stats": "Lv\n44\nType(Nightmare)\nHP\n31500\nElement\nDark\nExp\n1125\nTamableNo",
         "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
-        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite\n[Special Crysta]Eerie Crystal\n[Halberd]Magic Crystal Spear"
+        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite\n[Special Crysta]Eerie Crystal"
     },
     {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementLightExp\n6000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd II\n[Usable]Revita II\n[Additional]HeadbandA14C\n[Additional]War Helmet141C\n[Material]Silver 2nd Anniv Medal"
+        "Name": "Boss Goblin",
+        "Stats": "Lv\n30\nType(Easy)\nHP\n2675\nElement\nFire\nExp\n56\nTamableNo",
+        "SpawnAt": "Ribisco Cave: Deepest Part",
+        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Material]Broken Boss Gob Sword\n[Material]Goblin Medal\n[Material]Fairy Nose\n[Material]Ribisco Crystal"
     },
     {
-        "Name": "Astol",
-        "Stats": "Lv\n50\nType(Normal)HP\n82040\nElementWindExp\n760\nTamableNo",
-        "SpawnAt": "Aulada Ancient Tower",
-        "Drops": "\n[Armor]Aqua Garb\n[Material]Heaven Bird Claw\n[Material]Heaven Bird Tail Feather\n[Material]Heaven Bird Crest\n[Material]Heaven Bird Tear\n[Magic Device]Crystal Wing\n[Normal Crysta]Astol"
-    },
-    {
-        "Name": "Lunadore",
-        "Stats": "Lv\n50\nType(Ultimate)HP\n400000\nElementLightExp\n3000\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
-    },
-    {
-        "Name": "Candela Melon (White Day 2018)",
-        "Stats": "Lv\n40\nType(Normal)HP\n54000\nElementWaterExp\n2300\nTamableNo",
-        "SpawnAt": "Douce Hamlet",
-        "Drops": "\n[Usable]Flower Nectar\n[Usable]Revita II\n[Material]Magic Marionette Heart\n[Material]Huge Iron Ball\n[Ore]Hematite\n[Additional Crysta]Candela"
-    },
-    {
-        "Name": "B.B. Goblin",
-        "Stats": "Lv\n70\nType(Normal)HP\n24331\nElementFireExp\n2400\nTamableNo",
-        "SpawnAt": "Rinom Plains",
-        "Drops": "\n[Armor]B.B. Garb\n[Material]Fairy Nose\n[Material]Broken Bone Accessory\n[Material]Dyed Reinforced Cloth\n[Normal Crysta]B.B. Goblin"
-    },
-    {
-        "Name": "Usami (New Moon Lv30+)",
-        "Stats": "Lv\n20\nType(Easy)HP\n3200\nElementWaterExp\n80\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder"
-    },
-    {
-        "Name": "Festival Golem A",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementFireExp\n640\nTamableNo",
+        "Name": "Festival Golem C",
+        "Stats": "Lv\n35\nType(Hard)\nHP\n24000\nElement\nWind\nExp\n640\nTamableNo",
         "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]HeadbandA40C\n[Additional]Golemet40B39\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "Priest Warmonger",
-        "Stats": "Lv\n60\nType(Hard)HP\n120000\nElementLightExp\n2400\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd II\n[Usable]Revita II\n[Additional]HeadbandA14C\n[Additional]War Helmet141C\n[Material]Silver 2nd Anniv Medal"
-    },
-    {
-        "Name": "Festival Golem Type A",
-        "Stats": "Lv\n35\nType(Hard)HP\n24000\nElementFireExp\n640\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Regera I\n[Usable]Vita Plus I\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Yashiro Azuki's Dad (Lv 50 Raid)",
-        "Stats": "Lv\n65\nType(Hard)HPUnknownElementWindExpUnknownTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Yashiro Azuki's Dad's Mask"
-    },
-    {
-        "Name": "Minotaur",
-        "Stats": "Lv\n72\nType(Ultimate)HP\n180000\nElementWindExp\n4200\nTamableNo",
-        "SpawnAt": "Ruined Temple: Forbidden hall",
-        "Drops": "\n[Knuckles]Minotaur Knuckles\n[Material]Minotaur Hoof\n[Material]Minotaur Skin\n[Material]Minotaur Horn\n[Ore]Damascus Ore\n[Staff]Minotaur Staff\n[Normal Crysta]Minotaur\n[Katana]Minotaur's Katana"
-    },
-    {
-        "Name": "Festival Golem Type B",
-        "Stats": "Lv\n25\nType(Normal)HP\n12000\nElementWaterExp\n320\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Flare Volg",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n600000\nElementFireExp\n7500\nTamableNo",
-        "SpawnAt": "Fiery Volcano: Boss Map",
-        "Drops": "\n[2 Handed Sword]Volcanic Sword\n[Armor]Plate Armor\n[Knuckles]Volcanic Claws\n[Material]Fiery Gemstone\n[Material]Flare Volg Horn\n[Material]Flare Volg Claw\n[Material]Flare Volg Flesh\n[Normal Crysta]Flare Volg"
-    },
-    {
-        "Name": "Faithful Guardian",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementFireExp\n2700\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Regera III\n[Usable]Revita III\n[Additional]HeadbandA54C\n[Material]Gold 2nd Anniv Medal"
-    },
-    {
-        "Name": "Usakichi (New Moon Lv30+)",
-        "Stats": "Lv\n30\nType(Normal)HP\n32000\nElementEarthExp\n800\nTamableNo",
-        "SpawnAt": "Otsukimi Event Venue",
-        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
-    },
-    {
-        "Name": "Festival Golem Type B",
-        "Stats": "Lv\n65\nType(Ultimate)HP\n120000\nElementWaterExp\n3200\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 2nd Anniv Medal"
+        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 3rd Anniv Medal"
     },
     {
         "Name": "Astol",
-        "Stats": "Lv\n40\nType(Easy)HP\n8204\nElementWindExp\n76\nTamableNo",
+        "Stats": "Lv\n40\nType(Easy)\nHP\n8204\nElement\nWind\nExp\n76\nTamableNo",
         "SpawnAt": "Aulada Ancient Tower",
         "Drops": "\n[Armor]Aqua Garb\n[Material]Heaven Bird Claw\n[Material]Heaven Bird Tail Feather\n[Material]Heaven Bird Crest\n[Material]Heaven Bird Tear\n[Magic Device]Crystal Wing"
     },
     {
-        "Name": "Perro",
-        "Stats": "Lv\n10\nType(Normal)HP\n40000\nElementLightExp\n300\nTamableNo",
+        "Name": "B.B. Goblin",
+        "Stats": "Lv\n60\nType(Easy)\nHP\n243312\nElement\nFire\nExp\n240\nTamableNo",
+        "SpawnAt": "Rinom Plains",
+        "Drops": "\n[Armor]B.B. Garb\n[Material]Fairy Nose\n[Material]Dyed Reinforced Cloth\n[Material]Broken Bone Accessory"
+    },
+    {
+        "Name": "Kohaku Lil Boar",
+        "Stats": "Lv\n10\nType(Normal)\nHP\n40000\nElement\nLight\nExp\n300\nTamableNo",
         "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
+        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
     },
     {
-        "Name": "Ganglef",
-        "Stats": "Lv\n48\nType(Easy)HP\n10780\nElementEarthExp\n115\nTamableNo",
-        "SpawnAt": "Scaro Town: Deepest Part",
-        "Drops": "\n[Usable]Rich Crab Butter\n[Usable]Tough Crab Meat\n[2 Handed Sword]Iron Exoskeleton Sword\n[Bow]Iron Exoskeleton Bow\n[Material]Crustacean Steel\n[Material]Mineral Scissor"
-    },
-    {
-        "Name": "Ruin Golem",
-        "Stats": "Lv\n55\nType(Hard)HP\n82400\nElementEarthExp\n1320\nTamableNo",
-        "SpawnAt": "Zoktzda ruins : Reversed Hall",
-        "Drops": "\n[1 Handed Sword]Relic Sword\n[Armor]Fightwear\n[Knuckles]Golem Arm\n[Material]Ancient Stone Slab\n[Material]Zoktzda Stone\n[Material]Broken Magic Lantern\n[Shield]Relic Shield\n[Normal Crysta]Ruin Golem"
-    },
-    {
-        "Name": "Viscum (Hanami 2017)",
-        "Stats": "Lv\n60\nType(Normal)HP\n89000\nElementDarkExp\n960\nTamableNo",
-        "SpawnAt": "Hanami Venue: Summit",
-        "Drops": "\n[Usable]Toram Liquor\n[Material]Sakura Crystal Fragment\n[Material]Broken Sakura Branch\n[Special Crysta]Viscum"
-    },
-    {
-        "Name": "Warmonger",
-        "Stats": "Lv\n50\nType(Easy)HP\n14769\nElementEarthExp\n96\nTamableNo",
-        "SpawnAt": "Haotas Ravine: Deepest Part",
-        "Drops": "\n[Additional]War Helmet\n[Armor]Scale ArmorAB1\n[Bowgun]War Bowgun\n[Material]Dark Gray Claw\n[Material]Thick Green Scale\n[Material]Huge Skull"
-    },
-    {
-        "Name": "Demon's Gate",
-        "Stats": "Lv\n70\nType(Hard)HP\n360000\nElementDarkExp\n2880\nTamableNo",
-        "SpawnAt": "Saham Crater",
-        "Drops": "\n[1 Handed Sword]Sword of Sin\n[Material]Eerie Stone\n[Material]Nail of Demon's gate\n[Material]Goddess Sculpture\n[Shield]Relief Shield\n[Weapon Crysta]Demon's Gate"
-    },
-    {
-        "Name": "Fighter Mochelo",
-        "Stats": "Lv\n50\nType(Normal)HP\n60000\nElementWindExp\n1200\nTamableNo",
+        "Name": "Festival Golem C",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nWind\nExp\n3200\nTamableNo",
         "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Silver 3rd Anniv Medal"
+        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 3rd Anniv Medal"
     },
     {
-        "Name": "Fighter Mochelo",
-        "Stats": "Lv\n70\nType(Nightmare)HP\n300000\nElementWindExp\n6000\nTamableNo",
+        "Name": "Mauez",
+        "Stats": "Lv\n55\nType(Normal)\nHP\n86000\nElement\nWater\nExp\n1290\nTamableNo",
+        "SpawnAt": "New Moon Palace: Innermost",
+        "Drops": "\n[Bowgun]Magic Bowgun\n[Material]Magic Armor Fragment\n[Material]Runestone\n[Material]Mauez's Broken Rod\n[Magic Device]Vita Cores\n[Normal Crysta]Mauez\n[Halberd]Mauez's Pole"
+    },
+    {
+        "Name": "Eerie Crystal",
+        "Stats": "Lv\n24\nType(Normal)\nHP\n6300\nElement\nDark\nExp\n225\nTamableNo",
+        "SpawnAt": "Isthmus Of Kaus: Dragon's Den",
+        "Drops": "\n[Armor]Magic Crystal Armor\n[Material]Black Crystal Fragment\n[Material]Turbid Crystal\n[Material]Black Miasma\n[Magic Device]Irogeon\n[Ore]Hematite\n[Special Crysta]Eerie Crystal\n[Halberd]Magic Crystal Spear"
+    },
+    {
+        "Name": "Festival Golem B",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nWater\nExp\n1600\nTamableNo",
         "SpawnAt": "Anniversary Arena: 1st Venue",
-        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Silver 3rd Anniv Medal"
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 4th Anniv Medal"
     },
     {
-        "Name": "Dr. Leonardo (Bachelor)",
-        "Stats": "Lv\n30\nType(Normal)HP\n16000\nElementFireExp\n400\nTamableNo",
-        "SpawnAt": "Eagle Talon Collab Venue",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
-    },
-    {
-        "Name": "Purro",
-        "Stats": "Lv\n30\nType(Nightmare)HP\n200000\nElementLightExp\n1500\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Zodiac Tiger Box\n[Additional Crysta]Purro"
-    },
-    {
-        "Name": "Chocolate Ooze (Bitter) (Valentine 2017)",
-        "Stats": "Lv\n60\nType(Normal)HPUnknownElementWaterExpUnknownTamableNo",
-        "SpawnAt": "Underground Channel",
-        "Drops": "\n[Material]Magic Marionette Heart\n[Material]Chocolate Chip\n[Ore]Damascus Ore\n[Additional Crysta]Chocolate Ooze"
-    },
-    {
-        "Name": "Super Night Mushroom (Hanami 2017)",
-        "Stats": "Lv\n60\nType(Normal)HP\n180000\nElementDarkExp\n480\nTamableNo",
-        "SpawnAt": "Hanami Venue: Summit",
-        "Drops": "\n[Additional]Night Mushroom Mask\n[Material]Mana Clod\n[Normal Crysta]Super Night Mushroom"
-    },
-    {
-        "Name": "Pumpking",
-        "Stats": "Lv\n25\nType(Easy)HP\n12000\nElementFireExp\n640\nTamableNo",
-        "SpawnAt": "Tir Na Nog Square",
-        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Straye Garb\n[Ore]Hematite\n[Additional Crysta]Pumpking"
+        "Name": "Nurethoth",
+        "Stats": "Lv\n76\nType(Normal)\nHP\n500000\nElement\nDark\nExp\n5360\nTamableNo",
+        "SpawnAt": "Gate to Another World: Front",
+        "Drops": "\n[Additional]Nurethoth Mask\n[Arrow]Shooting Star Arrow\n[Armor]Outerworld Armor\n[Dagger]Odd-Shaped Knife\n[Material]Outer World Pebble\n[Material]Cracked Face Stone\n[Material]Outer World Universe\n[Material]Shining Soul Stone\n[Material]Nurethoth's Hard Claw\n[Normal Crysta]Nurethoth\n[Katana]Faldios"
     },
     {
         "Name": "Outerworld Soldier",
-        "Stats": "Lv\n75\nType(Normal)HP\n180000\nElementEarthExp\n2700\nTamableNo",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nEarth\nExp\n2700\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita III\n[Usable]Regera III\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Kohaku Lil Boar",
+        "Stats": "Lv\n1\nType(Easy)\nHP\n4000\nElement\nLight\nExp\n30\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Boar Box\n[Additional]Zodiac Hat: Boar"
+    },
+    {
+        "Name": "Yashiro Azuki (Lv30)",
+        "Stats": "Lv\n50\nType(Nightmare)\nHP\n120000\nElement\nDark\nExp\n2000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Plastic Fragment\n[Normal Crysta]Yashiro Azuki"
+    },
+    {
+        "Name": "Flare Volg",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n240000\nElement\nFire\nExp\n3000\nTamableNo",
+        "SpawnAt": "Fiery Volcano: Boss Map",
+        "Drops": "\n[2 Handed Sword]Volcanic Sword\n[Armor]Plate Armor\n[Knuckles]Volcanic Claws\n[Material]Fiery Gemstone\n[Material]Flare Volg Horn\n[Material]Flare Volg Claw\n[Material]Flare Volg Flesh\n[Normal Crysta]Flare Volg"
+    },
+    {
+        "Name": "Narumi Hina (Lv 50 Raid)",
+        "Stats": "Lv\n40\nType(Easy)\nHP\n8200\nElement\nLight\nExp\n114\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Dark Note Paper"
+    },
+    {
+        "Name": "Nurethoth",
+        "Stats": "Lv\n66\nType(Easy)\nHP\n50000\nElement\nDark\nExp\n536\nTamableNo",
+        "SpawnAt": "Gate to Another World: Front",
+        "Drops": "\n[Additional]Nurethoth Mask\n[Arrow]Shooting Star Arrow\n[Armor]Outerworld Armor\n[Dagger]Odd-Shaped Knife\n[Material]Outer World Pebble\n[Material]Cracked Face Stone\n[Material]Outer World Universe\n[Material]Shining Soul Stone\n[Material]Nurethoth's Hard Claw\n[Katana]Faldios"
+    },
+    {
+        "Name": "Mochelo",
+        "Stats": "Lv\n83\nType(Ultimate)\nHP\n600000\nElement\nWind\nExp\n6200\nTamableNo",
+        "SpawnAt": "Fiery Volcano: Area 3",
+        "Drops": "\n[Usable]Sweet Apple\n[Additional]Mochelo Hat\n[Material]Mochelo Claw\n[Material]Mochelo Pelt\n[Material]Mochelo Fur\n[Normal Crysta]Mochelo"
+    },
+    {
+        "Name": "Outerworld Soldier",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nEarth\nExp\n2700\nTamableNo",
         "SpawnAt": "Anniversary Arena: 1st Venue",
         "Drops": "\n[Usable]Revita III\n[Usable]Regera III\n[Material]Gold 3rd Anniv Medal"
     },
     {
-        "Name": "Grass Dragon Yelb",
-        "Stats": "Lv\n63\nType(Easy)HP\n43919\nElementEarthExp\n504\nTamableNo",
-        "SpawnAt": "Albatif Village",
-        "Drops": "\n[1 Handed Sword]Phyto Blade\n[Material]Grass Dragon's Scale\n[Material]Grass Dragon's Skin\n[Material]Grass Dragon's Petal\n[Ore]Mithril Ore\n[Staff]Folium Staff\n[Additional Crysta]Grass Dragon Yelb"
+        "Name": "Festival Golem C",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nWind\nExp\n320\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Ribbon59BC\n[Additional]Forehead ProtectorAB28\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Candela (Melon)",
+        "Stats": "Lv\n40\nType(Normal)\nHP\n54000\nElement\nWater\nExp\n4300\nTamableNo",
+        "SpawnAt": "Douce Hamlet",
+        "Drops": "\n[Usable]Flower Nectar\n[Usable]Revita II\n[Material]Magic Marionette Heart\n[Material]Huge Iron Ball\n[Ore]Hematite"
+    },
+    {
+        "Name": "Ancient Empress Mezzaluna",
+        "Stats": "Lv\n54\nType(Easy)\nHP\n130000\nElement\nLight\nExp\n312\nTamableNo",
+        "SpawnAt": "Ancient Empress Tomb: Deepest Part",
+        "Drops": "\n[Armor]Adventurer's Garb54B22\n[Bowgun]Empress Bowgun\n[Material]Empress Aura\n[Material]Empress Medal\n[Material]Empress Hair Accessory\n[Magic Device]Empress Soul"
+    },
+    {
+        "Name": "Marchitar (Hanami 2017)",
+        "Stats": "Lv\n80\nType(Normal)\nHP\n215000\nElement\nDark\nExp\n1500\nTamableNo",
+        "SpawnAt": "Hanami Venue: Summit",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Material]Mana Clod\n[Weapon Crysta]Marchitar"
+    },
+    {
+        "Name": "Usami (Otsukimi 2019)",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n150000\nElement\nWater\nExp\n2000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue: Crater Zone",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "Perro",
+        "Stats": "Lv\n50\nType(Ultimate)\nHP\n400000\nElement\nLight\nExp\n3000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Dog Box\n[Additional Crysta]Perro"
+    },
+    {
+        "Name": "4th Anniv Event (all boss)",
+        "Stats": "Lv\n0\nType(Normal)\nHP\n0\nElement\nNeutral\nExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]4th Anniversary Box"
     },
     {
         "Name": "Fighter Mochelo",
-        "Stats": "Lv\n50\nType(Normal)HPUnknownElementWindExp\n1200\nTamableNo",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nWind\nExp\n1200\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Regera II\n[Additional]Mochelo Hat6055C\n[Material]Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "Fighter Mochelo",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n60000\nElement\nWind\nExp\n1200\nTamableNo",
         "SpawnAt": "Event",
-        "Drops": "\n[Usable]Regera II\n[Usable]Vita Plus II\n[Usable]Magiadd II\n[Usable]Revita II\n[Additional]Mochelo Hat6055C\n[Material]Silver 1st Anniv Medal"
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Additional]Mochelo Hat6055C\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Priest Warmonger",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nWater\nExp\n6000\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita II\n[Usable]Magiadd II\n[Additional]HeadbandA14C\n[Additional]Ribbon1BC\n[Additional]War Helmet141C\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Boss Goblin (Megiston 2016)",
+        "Stats": "Lv\n80\nType(Normal)\nHP\n54000\nElement\nFire\nExp\n1500\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[2 Handed Sword]Boss Gob Sword\n[Normal Crysta]Boss Goblin"
+    },
+    {
+        "Name": "Festival Golem B",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nWater\nExp\n1600\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Candela (Lemon)",
+        "Stats": "Lv\n70\nType(Normal)\nHP\n325000\nElement\nWind\nExp\n7200\nTamableNo",
+        "SpawnAt": "Douce Hamlet",
+        "Drops": "\n[Usable]Flower Nectar\n[Material]Huge Iron Ball\n[Material]Nightmare Crystal\n[Material]Candy Fragment\n[Ore]Damascus Ore\n[Additional Crysta]Candela"
+    },
+    {
+        "Name": "Usami (New Moon Lv30+)",
+        "Stats": "Lv\n50\nType(Nightmare)\nHP\n160000\nElement\nWater\nExp\n4000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Enhancer Crysta (Green)]Usami"
+    },
+    {
+        "Name": "Fighter Mochelo",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n120000\nElement\nWind\nExp\n2400\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Additional]Mochelo Hat\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Brutal Dragon Decel",
+        "Stats": "Lv\n30\nType(Easy)\nHP\n5300\nElement\nEarth\nExp\n56\nTamableNo",
+        "SpawnAt": "Nisel Mountain: The Top",
+        "Drops": "\n[1 Handed Sword]Brutal Dragon Sword\n[Additional]Brutal Dragon Crown\n[Armor]Brutal Dragon Armor\n[Material]Black Crystal Fragment\n[Material]Brutal Dragon Horn\n[Material]Brutal Dragon Tail\n[Material]Brutal Dragon Claw\n[Material]Brutal Dragon Skin"
+    },
+    {
+        "Name": "Festival Golem Type B",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nWater\nExp\n320\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Boss Colon",
+        "Stats": "Lv\n30\nType(Nightmare)\nHP\n5000\nElement\nEarth\nExp\n150\nTamableNo",
+        "SpawnAt": "Land Under Development",
+        "Drops": "\n[Usable]Sofya City\n[Additional]Colon Met\n[Material]Boss Colon Skin\n[Material]Colon Leaf\n[Normal Crysta]Boss Colon"
+    },
+    {
+        "Name": "Ooze",
+        "Stats": "Lv\n42\nType(Easy)\nHP\n4400\nElement\nWater\nExp\n140\nTamableNo",
+        "SpawnAt": "Lutaros Cavern: Deepest Part",
+        "Drops": "\n[Additional]Ooze Helmet\n[Armor]Ooze Armor\n[Material]Emerald Stone\n[Material]Luminous Magic Water\n[Material]Gluey Skin\n[Shield]Ooze Shield\n[Staff]Ooze Staff\n[Katana]Ooze Lamina"
+    },
+    {
+        "Name": "Festival Golem A",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nFire\nExp\n1600\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Regera I\n[Usable]Revita I\n[Additional]HeadbandA40C\n[Additional]Golemet40B39\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Demon's Gate",
+        "Stats": "Lv\n50\nType(Easy)\nHP\n180000\nElement\nDark\nExp\n144\nTamableNo",
+        "SpawnAt": "Saham Crater",
+        "Drops": "\n[1 Handed Sword]Sword of Sin\n[Material]Eerie Stone\n[Material]Nail of Demon's gate\n[Material]Goddess Sculpture\n[Shield]Relief Shield"
+    },
+    {
+        "Name": "Festival Golem Type B",
+        "Stats": "Lv\n65\nType(Ultimate)\nHP\n120000\nElement\nWater\nExp\n3200\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Viscum (Hanami 2016)",
+        "Stats": "Lv\n30\nType(Normal)\nHPUnknownElement\nDark\nExp\nUnknownTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbAB35\n[Armor]Adventurer's GarbA15C\n[Material]Broken Sakura Branch\n[Material]Sakura Crystal Fragment\n[Special Crysta]Viscum"
+    },
+    {
+        "Name": "Goovua",
+        "Stats": "Lv\n82\nType(Normal)\nHP\n400000\nElement\nNeutral\nExp\n5000\nTamableNo",
+        "SpawnAt": "Akaku Desert: Hill",
+        "Drops": "\n[2 Handed Sword]Desert Anfel\n[Armor]Adventurer's GarbABC\n[Bow]Desert Mentum\n[Material]Broken Dual Edge\n[Material]Torn Cloak\n[Material]Goovua's Shoulder Pad\n[Material]Goovua's Mask Fragment\n[Special Crysta]Goovua"
+    },
+    {
+        "Name": "Astol",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n164080\nElement\nWind\nExp\n1520\nTamableNo",
+        "SpawnAt": "Aulada Ancient Tower",
+        "Drops": "\n[Armor]Aqua Garb\n[Material]Heaven Bird Claw\n[Material]Heaven Bird Tail Feather\n[Material]Heaven Bird Crest\n[Material]Heaven Bird Tear\n[Magic Device]Crystal Wing\n[Normal Crysta]Astol"
+    },
+    {
+        "Name": "Ganglef",
+        "Stats": "Lv\n68\nType(Hard)\nHP\n215600\nElement\nEarth\nExp\n2300\nTamableNo",
+        "SpawnAt": "Scaro Town: Deepest Part",
+        "Drops": "\n[Usable]Rich Crab Butter\n[Usable]Tough Crab Meat\n[2 Handed Sword]Iron Exoskeleton Sword\n[Bow]Iron Exoskeleton Bow\n[Material]Crustacean Steel\n[Material]Mineral Scissor\n[Weapon Crysta]Ganglef"
+    },
+    {
+        "Name": "Giant Moon Crab",
+        "Stats": "Lv\n50\nType(Normal)\nHP\n100000\nElement\nLight\nExp\n1520\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue: Crater Zone",
+        "Drops": "\n[Usable]Soft Crabmeat\n[Usable]Rich Crab Butter\n[Usable]Otsukimi Dango\n[Armor]Adventurer's Garb8B74\n[Knuckles]Crab Pincers7310C\n[Ore]Hematite\n[Enhancer Crysta (Red)]Giant Moon Crab"
+    },
+    {
+        "Name": "Usakichi (Crescent Moon Lv60+)",
+        "Stats": "Lv\n80\nType(Nightmare)\nHP\n750000\nElement\nEarth\nExp\n10000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
+    },
+    {
+        "Name": "Excavated Golem",
+        "Stats": "Lv\n26\nType(Hard)\nHP\n6300\nElement\nNeutral\nExp\n180\nTamableNo",
+        "SpawnAt": "Underground Ruins: Deepest Part",
+        "Drops": "\n[Additional]Golemet\n[Bow]Alto Ruin Bow\n[Material]Golem's Fragment\n[Material]Pale Gemstone\n[Material]Old Metal\n[Shield]Huge Heavy Shield\n[Weapon Crysta]Excavated Golem"
+    },
+    {
+        "Name": "Lunadore",
+        "Stats": "Lv\n10\nType(Normal)\nHP\n40000\nElement\nLight\nExp\n300\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rabbit Box\n[Additional Crysta]Lunadore"
+    },
+    {
+        "Name": "Ooze",
+        "Stats": "Lv\n72\nType(Nightmare)\nHP\n220000\nElement\nWater\nExp\n7000\nTamableNo",
+        "SpawnAt": "Lutaros Cavern: Deepest Part",
+        "Drops": "\n[Additional]Ooze Helmet\n[Armor]Ooze Armor\n[Material]Emerald Stone\n[Material]Luminous Magic Water\n[Material]Gluey Skin\n[Shield]Ooze Shield\n[Staff]Ooze Staff\n[Special Crysta]Ooze\n[Katana]Ooze Lamina"
+    },
+    {
+        "Name": "Narumi Hina (Lv 50 Raid)",
+        "Stats": "Lv\n60\nType(Hard)\nHP\n164000\nElement\nLight\nExp\n2280\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Dark Note Paper\n[Additional Crysta]Yashiro Azuki's Dad\n[Additional Crysta]Narumi Hina"
+    },
+    {
+        "Name": "Yashiro Azuki's Dad (Lv 50 Raid)",
+        "Stats": "Lv\n75\nType(Nightmare)\nHPUnknownElement\nWind\nExp\nUnknownTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Yashiro Azuki's Dad's Mask"
+    },
+    {
+        "Name": "Ganglef",
+        "Stats": "Lv\n58\nType(Normal)\nHP\n107800\nElement\nEarth\nExp\n1150\nTamableNo",
+        "SpawnAt": "Scaro Town: Deepest Part",
+        "Drops": "\n[Usable]Rich Crab Butter\n[Usable]Tough Crab Meat\n[2 Handed Sword]Iron Exoskeleton Sword\n[Bow]Iron Exoskeleton Bow\n[Material]Crustacean Steel\n[Material]Mineral Scissor\n[Weapon Crysta]Ganglef"
+    },
+    {
+        "Name": "Jade Raptor",
+        "Stats": "Lv\n69\nType(Easy)\nHP\n62000\nElement\nWind\nExp\n840\nTamableNo",
+        "SpawnAt": "Gravel Terrace",
+        "Drops": "\n[Armor]Adventurer's Garb62BC\n[Knuckles]Emeldia\n[Material]Jade Raptor Beak\n[Material]Jade Raptor Armor Fur\n[Material]Jade Raptor Horn\n[Magic Device]Jade Wings"
+    },
+    {
+        "Name": "Usakichi (New Moon Lv30+)",
+        "Stats": "Lv\n70\nType(Ultimate)\nHP\n320000\nElement\nEarth\nExp\n8000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
+    },
+    {
+        "Name": "Fighter Mochelo",
+        "Stats": "Lv\n70\nType(Nightmare)\nHP\n300000\nElement\nWind\nExp\n6000\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Vita Plus II\n[Usable]Revita II\n[Additional]Mochelo Hat\n[Material]Silver 2nd Anniv Medal"
+    },
+    {
+        "Name": "Outer World Soldier",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nEarth\nExp\n2700\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita III\n[Usable]Vita Plus III\n[Material]Gold 2nd Anniv Medal"
+    },
+    {
+        "Name": "Dr. Leonardo (Bachelor)",
+        "Stats": "Lv\n50\nType(Nightmare)\nHP\n80000\nElement\nFire\nExp\n2000\nTamableNo",
+        "SpawnAt": "Eagle Talon Collab Venue",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Anti-Degradation\n[Material]Vanquisher Mecha Wreck\n[Armor Crysta]Dr. Leonardo"
+    },
+    {
+        "Name": "Usakichi (New Moon Lv30+)",
+        "Stats": "Lv\n30\nType(Normal)\nHP\n32000\nElement\nEarth\nExp\n800\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
+    },
+    {
+        "Name": "Warrior Minotaur",
+        "Stats": "Lv\n50\nType(Normal)\nHPUnknownElement\nEarth\nExp\n1200\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]RibbonABC\n[Material]Silver 1st Anniv Medal"
+    },
+    {
+        "Name": "Golden Iconos (2018)",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n1849269\nElement\nNeutral\nExp\n2640\nTamableNo",
+        "SpawnAt": "Sofya City: Government Office",
+        "Drops": "\n[Additional]Wind Up Key\n[Armor]Plate Armor4174C\n[Material]Gold Ingot\n[Additional Crysta]G. Iconos"
+    },
+    {
+        "Name": "Festival Golem C",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nWind\nExp\n320\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita I\n[Usable]Vita Plus I\n[Additional]Forehead Protector\n[Additional]Ribbon59BC\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Festival Golem Type A",
+        "Stats": "Lv\n25\nType(Normal)\nHPUnknownElement\nFire\nExp\n320\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb40BC\n[Material]Copper 1st Anniv Medal"
+    },
+    {
+        "Name": "Festival Golem Type B",
+        "Stats": "Lv\n25\nType(Normal)\nHPUnknownElement\nWater\nExp\n320\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Revita I\n[Additional]Forehead ProtectorAB44\n[Material]Copper 1st Anniv Medal"
+    },
+    {
+        "Name": "Omochi",
+        "Stats": "Lv\n10\nType(Normal)\nHP\n40000\nElement\nLight\nExp\n300\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Zodiac Rat Box\n[Additional Crysta]Omochi"
+    },
+    {
+        "Name": "B.B. Goblin",
+        "Stats": "Lv\n80\nType(Hard)\nHPUnknownElement\nUnknown\nExp\n4800\nTamableNo",
+        "SpawnAt": "Rinom Plains",
+        "Drops": "\n[Armor]B.B. Garb\n[Material]Fairy Nose\n[Material]Broken Bone Accessory\n[Material]Dyed Reinforced Cloth\n[Normal Crysta]B.B. Goblin"
+    },
+    {
+        "Name": "Flare Volg",
+        "Stats": "Lv\n40\nType(Easy)\nHP\n12000\nElement\nFire\nExp\n150\nTamableNo",
+        "SpawnAt": "Fiery Volcano: Boss Map",
+        "Drops": "\n[2 Handed Sword]Volcanic Sword\n[Armor]Plate Armor\n[Knuckles]Volcanic Claws\n[Material]Fiery Gemstone\n[Material]Flare Volg Horn\n[Material]Flare Volg Flesh\n[Material]Flare Volg Claw"
+    },
+    {
+        "Name": "Festival Golem Type C",
+        "Stats": "Lv\n25\nType(Normal)\nHPUnknownElement\nWind\nExp\n320\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Ribbon7126C\n[Material]Copper 1st Anniv Medal"
+    },
+    {
+        "Name": "Festival Golem Type B",
+        "Stats": "Lv\n45\nType(Nightmare)\nHP\n60000\nElement\nWater\nExp\n1600\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Usable]Vita Plus I\n[Usable]Regera I\n[Armor]Adventurer's Garb14BC\n[Material]Bronze 2nd Anniv Medal"
+    },
+    {
+        "Name": "Forestia",
+        "Stats": "Lv\n49\nType(Normal)\nHP\n135000\nElement\nWind\nExp\n1480\nTamableNo",
+        "SpawnAt": "Land Of Chaos",
+        "Drops": "\n[Arrow]Tempest Arrow\n[Armor]Green Dragon Garb\n[Dagger]Storm Dagger\n[Material]Green Dragon Claw\n[Material]Rainbow Stone\n[Material]Green Dragon Fur\n[Armor Crysta]Forestia"
+    },
+    {
+        "Name": "Usakichi (New Moon Lv30+)",
+        "Stats": "Lv\n50\nType(Nightmare)\nHP\n160000\nElement\nEarth\nExp\n4000\nTamableNo",
+        "SpawnAt": "Otsukimi Event Venue",
+        "Drops": "\n[Usable]Otsukimi Dango\n[Material]Joshin Powder\n[Armor Crysta]Usakichi"
+    },
+    {
+        "Name": "Jeila",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n185000\nElement\nDark\nExp\n4200\nTamableNo",
+        "SpawnAt": "Halloween Castle",
+        "Drops": "\n[Usable]Sweets Box\n[Additional]Pumpkin Mask\n[Armor]Mage Robe414085\n[Ore]Damascus Ore\n[Enhancer Crysta (Yellow)]Jeila"
+    },
+    {
+        "Name": "Festival Golem B",
+        "Stats": "Lv\n25\nType(Normal)\nHP\n12000\nElement\nWater\nExp\n320\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Magiadd I\n[Usable]Revita I\n[Additional]Ribbon14BC\n[Material]Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Faithful Guardian",
+        "Stats": "Lv\n75\nType(Normal)\nHP\n180000\nElement\nFire\nExp\n2700\nTamableNo",
+        "SpawnAt": "Anniversary Arena: 1st Venue",
+        "Drops": "\n[Usable]Revita III\n[Usable]Magiadd III\n[Material]Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Jade Raptor",
+        "Stats": "Lv\n79\nType(Normal)\nHP\n620000\nElement\nWind\nExp\n8400\nTamableNo",
+        "SpawnAt": "Gravel Terrace",
+        "Drops": "\n[Armor]Adventurer's Garb62BC\n[Knuckles]Emeldia\n[Material]Jade Raptor Beak\n[Material]Jade Raptor Armor Fur\n[Material]Jade Raptor Horn\n[Magic Device]Jade Wings\n[Armor Crysta]Jade Raptor"
+    },
+    {
+        "Name": "Candela Lemon (White Day 2018)",
+        "Stats": "Lv\n70\nType(Normal)\nHP\n325000\nElement\nWind\nExp\n7200\nTamableNo",
+        "SpawnAt": "Douce Hamlet",
+        "Drops": "\n[Usable]Flower Nectar\n[Material]Huge Iron Ball\n[Material]Nightmare Crystal\n[Material]Candy Fragment\n[Ore]Damascus Ore\n[Additional Crysta]Candela"
+    },
+    {
+        "Name": "3rd Anniv Event (all boss)",
+        "Stats": "Lv\n0\nType(Normal)\nHP\n0\nElement\nNeutral\nExp\n0\nTamableNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]3rd Anniv Box"
     }
 ]
