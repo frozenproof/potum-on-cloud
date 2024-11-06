@@ -10,12 +10,12 @@ Scrapped from Coryn, delays of 9 seconds per website load to avoid DDOS.
 # How to run
 Run command
 ```
-python3 server/server.py
+python3 ./server/server.py
 ```
 Node version
 ```
-node server/server.js
-
+node ./server/server.js
+```
 
 # How to use
 class="card-container" or "class="card-container-1" was how we scrape the data from the website, we used to use these names for the python scripts.
@@ -26,5 +26,17 @@ Run all scrapping python scripts, and run 0_find_import, then use pip list and c
 
 On js, do the same thing by asking chatgpt what imports are used and reinstall the libraries.
 
+On deployment, use
+```
+pip install -r requirements.txt
+```
+Node version
+```
+npm install
+```
 # Explanation
 The metadata files inside of the database folder tells the server what to find inside of the database, generated from 4_auto_metadata.py.
+
+# Debug lines
+
+    <!-- <% console.log(table) %> -->
