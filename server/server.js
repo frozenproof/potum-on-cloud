@@ -50,7 +50,6 @@ try {
 // Set a default file to load
 const defaultFile = Object.keys(fileMapping)[0];  // Get the first file in fileMapping
 
-// Load and display the default file
 app.get('/', (req, res) => {
     console.log('GET request to "/"');
     const filePath = path.join(__dirname, '../database', defaultFile);
@@ -61,34 +60,19 @@ app.get('/', (req, res) => {
         const sheet = workbook.Sheets[sheetName];
         let df = xlsx.utils.sheet_to_json(sheet);
 
-        // Format the table data to replace \n with <br> in strings
-        df = formatTableData(df);
-
-        // Extract headers
-        const headers = Object.keys(df[0]);
-
-        // Convert data to HTML table
-        const tableHtml = generateTableHtml(df);
-
-        res.render('table_view', { fileMapping, table: tableHtml, headers });
+        if (df.length > 0) {
+            // Format the table data to replace \n with <br> in strings
+            df = formatTableData(df);
+            const headers = Object.keys(df[0]);
+            const tableHtml = generateTableHtml(df);
+            res.render('table_view', { fileMapping, table: tableHtml, headers });
+        } else {
+            res.render('table_view', { fileMapping, table: "<p>No data available in the default file</p>", headers: [] });
+        }
     } else {
         res.render('table_view', { fileMapping, table: "<p>Error: Default file not found</p>", headers: [] });
     }
 });
-
-// Apply <br> for newlines in string values
-function formatTableData(df) {
-    return df.map(row => {
-        return Object.fromEntries(
-            Object.entries(row).map(([key, value]) => {
-                if (typeof value === 'string') {
-                    return [key, value.replace(/\n/g, '<br>')];
-                }
-                return [key, value];
-            })
-        );
-    });
-}
 
 app.post('/view', (req, res) => {
     const { file, search = '' } = req.body;
@@ -103,21 +87,18 @@ app.post('/view', (req, res) => {
     const sheet = workbook.Sheets[sheetName];
     let df = xlsx.utils.sheet_to_json(sheet);
 
-    // Apply search query if provided
     if (search) {
         df = df.filter(row => Object.values(row).some(value => value.toString().toLowerCase().includes(search.toLowerCase())));
     }
 
-    // Format the table data to replace \n with <br> in strings
-    df = formatTableData(df);
-
-    // Extract headers
-    const headers = Object.keys(df[0]);
-
-    // Convert data to HTML table
-    const tableHtml = generateTableHtml(df);
-
-    res.render('table_view', { fileMapping, table: tableHtml, headers });
+    if (df.length > 0) {
+        df = formatTableData(df);
+        const headers = Object.keys(df[0]);
+        const tableHtml = generateTableHtml(df);
+        res.render('table_view', { fileMapping, table: tableHtml, headers });
+    } else {
+        res.render('table_view', { fileMapping, table: "<p>No matching data found</p>", headers: [] });
+    }
 });
 
 // Function to generate HTML table from data
@@ -131,6 +112,20 @@ function generateTableHtml(data) {
         table += '</tr>';
     });
     return table;
+}
+
+// Apply <br> for newlines in string values
+function formatTableData(df) {
+    return df.map(row => {
+        return Object.fromEntries(
+            Object.entries(row).map(([key, value]) => {
+                if (typeof value === 'string') {
+                    return [key, value.replace(/\n/g, '<br>')];
+                }
+                return [key, value];
+            })
+        );
+    });
 }
 
 // Start server
