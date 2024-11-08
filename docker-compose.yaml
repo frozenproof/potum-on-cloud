@@ -1,0 +1,12 @@
+docker services:
+  server:
+    build:
+      container-name: poc
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./images:/app/images           # Mount images folder
+      - ./database:/app/database       # Mount database folder
+      - ./templates:/app/templates     # Mount templates folder
