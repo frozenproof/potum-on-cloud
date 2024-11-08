@@ -10,3 +10,8 @@ docker run -p 5000:5000 poc
 docker compose -f docker-compose.yml
 
 docker compose up
+
+FROM --platform=linux/amd64 node:18
+FROM node:18
+
+docker build --platform=linux/amd64

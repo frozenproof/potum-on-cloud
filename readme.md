@@ -3,6 +3,8 @@ The unofficial mirror of Coryn Club, since Coryn Club can't handle too much band
 
 # Codes 
 Made manually, I would have scrapped if it wasn't illegal.
+# Code warning
+Compile flag for dockerfile for render will probably break your build if you are not careful, so remove it, it is only used in deployment on render.com.
 
 # Datbase
 Scrapped from Coryn, delays of 9 seconds per website load to avoid DDOS.
