@@ -101,6 +101,34 @@ app.post('/view', (req, res) => {
     }
 });
 
+app.get('/files', (req, res) => {
+    const filesDir = path.join(__dirname, '../database');
+    const files = fs.readdirSync(filesDir).filter(file => file.endsWith('.xlsx'));
+    
+    // Map files to include both file path and display name from fileMapping
+    const downloadableFiles = files.map(file => ({
+        name: file,
+        displayName: fileMapping[file] || file // Use display name if available, or fallback to filename
+    }));
+    
+    res.render('file_list', { downloadableFiles });
+});
+
+app.get('/download/:file', (req, res) => {
+    const file = req.params.file;
+    const filePath = path.join(__dirname, '../database', file);
+
+    if (fs.existsSync(filePath)) {
+        res.download(filePath, file, (err) => {
+            if (err) {
+                console.error("Error downloading file:", err);
+            }
+        });
+    } else {
+        res.status(404).send("<p>Error: File not found</p>");
+    }
+});
+
 // Function to generate HTML table from data
 function generateTableHtml(data) {
     let table = '';

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Files</title>
+</head>
+<body>
+    <h1>Available Excel Files</h1>
+    <ul>
+        <% downloadableFiles.forEach(file => { %>
+            <li>
+                <a href="/download/<%= file.name %>" download><%= file.displayName %></a>
+            </li>
+        <% }); %>
+    </ul>
+    
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/files">Download Files</a> |
+    </nav>
+</body>
+</html>
