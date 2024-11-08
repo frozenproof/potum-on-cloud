@@ -129,6 +129,11 @@ app.get('/download/:file', (req, res) => {
     }
 });
 
+// Health check API route
+app.get('/poc/health', (req, res) => {
+    res.status(200).json({ message: 'API is healthy' });
+});
+
 // Function to generate HTML table from data
 function generateTableHtml(data) {
     let table = '';
