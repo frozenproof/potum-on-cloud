@@ -103,14 +103,32 @@ app.post('/view', (req, res) => {
 
 app.get('/files', (req, res) => {
     const filesDir = path.join(__dirname, '../database');
-    const files = fs.readdirSync(filesDir).filter(file => file.endsWith('.xlsx'));
-    
-    // Map files to include both file path and display name from fileMapping
-    const downloadableFiles = files.map(file => ({
-        name: file,
-        displayName: fileMapping[file] || file // Use display name if available, or fallback to filename
-    }));
-    
+    const downloadableFiles = [];
+
+    // Recursive function to gather all .xlsx files from subdirectories
+    function findFilesRecursively(directory) {
+        console.log(`Searching in directory: ${directory}`);
+        const items = fs.readdirSync(directory, { withFileTypes: true });
+        items.forEach(item => {
+            const fullPath = path.join(directory, item.name);
+            if (item.isDirectory()) {
+                findFilesRecursively(fullPath); // Recurse into subdirectory
+            } else if (item.isFile() && item.name.endsWith('.xlsx')) {
+                console.log(`Found file: ${fullPath}`);
+                downloadableFiles.push({
+                    name: path.relative(filesDir, fullPath), // Relative path for URL
+                    displayName: fileMapping[item.name] || item.name // Display name or filename fallback
+                });
+            }
+        });
+    }
+
+    // Start the recursive search
+    findFilesRecursively(filesDir);
+
+    // Debug output to check what files were added
+    console.log("Files found for download:", downloadableFiles);
+
     res.render('file_list', { downloadableFiles });
 });
 
@@ -146,6 +164,10 @@ function generateTableHtml(data) {
     });
     return table;
 }
+
+app.get('/maintenance-info', (req, res) => {
+    res.json({ message: 'Website will be under maintenance on November 30 from 10 PM to 1 AM. GMT+7.' });
+});
 
 // Apply <br> for newlines in string values
 function formatTableData(df) {

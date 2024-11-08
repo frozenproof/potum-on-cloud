@@ -1,50 +1,116 @@
 <!doctype html>
 <html>
 <head>
-    <title>Potum on cloud</title>
+    <title>Potum on Cloud</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     <style>
+        /* Add background image to body */
+        body {
+            background-image: url('../images/appbackground.png'); /* Replace with your actual background image path */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333; /* Set text color for better contrast */
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Style content containers */
+        div, form, table {
+            background-color: rgba(255, 255, 255, 0.95); /* White background with slight transparency */
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 8px; /* Rounded corners */
+            max-width: 80%; /* Center and limit content width */
+        }
+
+        /* Table styles */
         table {
             width: 100%;
             border-collapse: collapse;
         }
         th, td {
-            text-align: center;  /* Center-align text in table headers and cells */
-            border: 1px solid #dddddd; /* Add borders to table cells */
-            padding: 8px; /* Add padding for better appearance */
+            text-align: center;
+            border: 1px solid #dddddd;
+            padding: 8px;
         }
-        h1, h2, h3, h4, h5, nav, button, a {
-            text-align: center; /* Center-align headings */
+
+        /* Center align headers, nav, buttons, and links */
+        h1, h2, h3, h4, h5, nav, button, a, div {
+            text-align: center;
+        }
+
+        /* Style the button */
+        button {
+            background-color: #0073e6; /* Light blue button */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+        /* Style links within buttons */
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Style navigation links */
+        nav a {
+            color: #0073e6; /* Different shade for links */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div>
-        <button>
-            <a href="https://github.com/frozenproof/potum-on-cloud"> Go to Potum on Cloud's Github Repo </a>
-        </button>
-        <h1>Website is in maintainence mode during 30th of every month, and 28th or 29th of February</h1>
+    <button>
+        <a href="https://github.com/frozenproof/potum-on-cloud"> Go to Potum on Cloud's Github Repo </a>
+    </button>
+    <div
+        class="poc-update"
+    >
+        <h1>Website is in maintenance mode during the 30th of every month, and on the 28th or 29th of February</h1>
+        <script>
+            // Fetch the latest maintenance info
+            fetch('/maintenance-info')
+                .then(response => response.json())
+                .then(data => {
+                    document.querySelector('.poc-update h1').textContent = data.message;
+                })
+                .catch(error => console.error('Error fetching maintenance info:', error));
+        </script>
     </div>
-    <h1>Potum on cloud</h1>
-    <h2>The second most intensive database of toram</h2>
-    <h3>Born from the pain of coryn dying</h3>
-    <h4>Load will search for database in the drop down if pressed, and it will query for texts and drop down option.</h4>
-    <h4>No it's not broken, it doesn't maintain the drop down item display that you chose when you pressed load.</h4>
-    <nav>
-        <a href="/">Home</a> |
-        <a href="/files">Download Files</a> |
-    </nav>
+    <div>
+        <h1>Potum on Cloud</h1>
+        <h2>The second most intensive database of Toram</h2>
+        <h3>Born from the pain of Coryn dying</h3>
+        <h4>Click "Load" to search the database using the dropdown selection or text search.</h4>
+        <h4>Dropdown selection doesn’t maintain chosen display when "Load" is pressed.</h4>
+        
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/files">Download Files</a> |
+        </nav>
+           
+    </div>
     
-    <form method="post" action="/view" style="text-align: center;"> <!-- Center align the form -->
-        <label>Select file:</label>
-        <select name="file">
-            <% for (let file in fileMapping) { %>
-            <option value="<%= file %>"><%= fileMapping[file] %></option>
-            <% } %>
-        </select>
-        <input type="text" name="search" placeholder="Search">
-        <button type="submit">Load</button>
-    </form>
+    <div>
+        <form method="post" action="/view"> 
+            <label>Select file:</label>
+            <select name="file">
+                <% for (let file in fileMapping) { %>
+                <option value="<%= file %>"><%= fileMapping[file] %></option>
+                <% } %>
+            </select>
+            <input type="text" name="search" placeholder="Search">
+            <button type="submit">Load</button>
+        </form>
+    </div>
+   
     <% if (headers && headers.length > 0) { %>
     <table>
         <thead>
@@ -55,7 +121,7 @@
             </tr>
         </thead>
         <tbody>
-            <%- table %> <!-- Insert the table rows directly here -->
+            <%- table %>
         </tbody>
     </table>
     <% } %>
