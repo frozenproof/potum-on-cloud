@@ -15,7 +15,7 @@ COPY images/ ./images/
 COPY database/ ./database/
 
 # Set environment variable for the port
-ENV PORT 5000
+ENV PORT=5000
 
 # Expose the port the app runs on
 EXPOSE 5000
