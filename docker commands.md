@@ -11,7 +11,7 @@ docker push truclinhgm/cattus-nginx:deploy-ready
 docker push truclinhgm/poc:deploy-ready
 docker login -u truclinhgm
 docker tag cattus-nginx truclinhgm/cattus-nginx:deploy-ready
-docker tag poc-server truclinhgm/poc:deploy-ready
+docker tag poc truclinhgm/poc:deploy-ready
 docker builder prune
 
 docker compose up
