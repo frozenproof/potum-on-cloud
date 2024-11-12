@@ -1,0 +1,59 @@
+        /* Background image for body */
+        body {
+            background-image: url('../images/appbackground.png'); /* Replace with your actual background image path */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Center content containers with distinct background color */
+        div, nav, ul {
+            background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+
+        /* List styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* Center and style the headers */
+        h1, h2, h3, h4, nav {
+            text-align: center;
+        }
+
+        /* Style navigation links */
+        nav a {
+            color: #0073e6;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button styling */
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Link inside button */
+        button a {
+            color: white;
+            text-decoration: none;
+        }

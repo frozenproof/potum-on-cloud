@@ -3,68 +3,7 @@
 <head> 
     <title>Potum on Cloud</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-    <style>
-        /* Add background image to body */
-        body {
-            background-image: url('../images/appbackground.png'); /* Replace with your actual background image path */
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            color: #333; /* Set text color for better contrast */
-            font-family: Arial, sans-serif;
-        }
-        
-        /* Style content containers */
-        div, form, table {
-            background-color: rgba(255, 255, 255, 0.95); /* White background with slight transparency */
-            padding: 15px;
-            margin: 15px auto;
-            border-radius: 8px; /* Rounded corners */
-            max-width: 80%; /* Center and limit content width */
-        }
-
-        /* Table styles */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            text-align: center;
-            border: 1px solid #dddddd;
-            padding: 8px;
-        }
-
-        /* Center align headers, nav, buttons, and links */
-        h1, h2, h3, h4, h5, nav, button, a, div {
-            text-align: center;
-        }
-
-        /* Style the button */
-        button {
-            background-color: #0073e6; /* Light blue button */
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        
-        /* Style links within buttons */
-        button a {
-            color: white;
-            text-decoration: none;
-        }
-
-        /* Style navigation links */
-        nav a {
-            color: #0073e6; /* Different shade for links */
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
     <button>
@@ -87,7 +26,9 @@
                 .catch(error => console.error('Error fetching maintenance info:', error));
         </script>
     </div> -->
-    <div>
+    <div
+        class="poc-guide"
+    >
         <h1>Potum on Cloud</h1>
         <h2>The second most intensive database of Toram</h2>
         <h3>Born from the pain of Coryn dying</h3>
