@@ -1,10 +1,10 @@
-version: '3.8'
-
+name: "poc"
 services:
   server:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: poc    # Custom container name, remove if needed to do anything else, this locks the container as per the document
     ports:
       - "5000:5000"
     volumes:
