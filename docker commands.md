@@ -13,7 +13,7 @@ docker login -u truclinhgm
 docker tag cattus-nginx truclinhgm/cattus-nginx:deploy-ready
 docker tag poc truclinhgm/poc:deploy-ready
 docker builder prune
-
+docker builder prune -a
 docker compose up
 
 FROM --platform=linux/amd64 node:18

@@ -9,7 +9,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy only the necessary files and folders
-COPY server/server.js ./server
+COPY server/server.js ./server/
 COPY templates/ ./templates/
 COPY images/ ./images/
 COPY database/ ./database/

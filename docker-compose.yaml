@@ -10,6 +10,5 @@ services:
       - "5000:5000"
     volumes:
       - ./images:/app/images           # Mount images folder
-      - ./styles:/app/styles           # Mount images folder
       - ./database:/app/database       # Mount database folder
       - ./templates:/app/templates     # Mount templates folder
