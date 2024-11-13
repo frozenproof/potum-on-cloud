@@ -9,18 +9,16 @@ COPY package*.json ./
 RUN npm install
 
 # Copy only the necessary files and folders
-COPY server/ ./server/
+COPY server/server.js ./server/
 COPY templates/ ./templates/
 COPY images/ ./images/
 COPY database/ ./database/
 
 # Set environment variable for the port
-ENV PORT=4000
-ENV PORT2=5000
+ENV PORT=5000
 
-# Expose ports 4000 for the proxy server and 5000 for the target server
-EXPOSE 4000
+# Expose the port the app runs on
 EXPOSE 5000
 
-# Start the proxy server (it will internally reach the server on port 5000)
-CMD ["node", "server/proxyServer.js"]
+# Start the application
+CMD ["node", "server/server.js"]

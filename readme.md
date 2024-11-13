@@ -12,7 +12,7 @@ const childProcess = spawn('node', ['server/server.js'], { stdio: 'inherit' });
 app.use('/images', express.static(path.join(__dirname, '../images')));
 // The reason why we can run the excels as normal are because the resource itself is found by the child server, which then got rendered into raw html then sent to the proxy server
 # The proxy server allow you to control rate limit better and still allow the original server as a standalone, this helps with debugging and understanding the mechanisms of a standard network service.
-
+# The docker image support is being moved to proxy server, it doesn't consume much more resources anyways, but it allows additional servers.
 # Datbase
 Scrapped from Coryn, delays of 9 seconds per website load to avoid DDOS.
 

@@ -4,12 +4,26 @@ const axios = require('axios');
 const app = express();
 const path = require('path');
 const rateLimit = require('express-rate-limit');
+const helmet = require('helmet');
+// const { Pool } = require('pg');
+
+// Use Helmet for basic security headers
+app.use(helmet());
+
+// Set up PostgreSQL logging
+// const pool = new Pool({
+//   user: 'your_user',
+//   host: 'localhost',
+//   database: 'your_database',
+//   password: 'your_password',
+//   port: 5432,
+// });
 
 // Rate limiter: each IP can only make a request every 2 seconds
 const limiter = rateLimit({
-  windowMs: 2000, // 2 seconds
-  max: 29, // Limit each IP to 1 request per windowMs
-  message: 'Too many requests, please wait a moment.',
+  windowMs: 900, // 2 seconds
+  max: 2, // Limit each IP to 1 request per windowMs
+  message: 'Too many requests, please wait a moment. Yeah fuck you and your free uses.',
 });
 
 app.use(limiter); // Apply rate limiting to all routes
@@ -33,6 +47,7 @@ app.use(async (req, res) => {
       headers: req.headers,
       data: req.body,
     });
+    // console.log(req.method, req.originalUrl, req.headers, req.body, targetUrl)
     res.status(response.status).send(response.data);
   } catch (error) {
     if (error.response) {
@@ -43,9 +58,11 @@ app.use(async (req, res) => {
   }
 });
 
-// Proxy server listens on port 4000
-app.listen(4000, () => {
-  console.log('Proxy server running on http://localhost:4000');
+// Proxy server listens on port 6000
+// Use port 4000 for the proxy server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Proxy server running on ${PORT}`);
 });
 
 // Clean up on exit

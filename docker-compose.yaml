@@ -1,14 +1,14 @@
-name: "poc"
+name: "poc2"
 services:
-  server:
+  poc2:
     build:
-      context: .
-      dockerfile: Dockerfile
-    image: poc
-    container_name: poc    # Custom container name, remove if needed to do anything else, this locks the container as per the document
+      context: .                 # The context is the root directory, adjust if necessary
+      dockerfile: Dockerfile      # The Dockerfile to build the image
+    image: poc2                    # Name of the image
+    container_name: poc2           # Custom container name, remove if you don't want a fixed name
     ports:
-      - "5000:5000"
+      - "4000:4000"               # Exposing port 4000 from container to host
     volumes:
-      - ./images:/app/images           # Mount images folder
-      - ./database:/app/database       # Mount database folder
-      - ./templates:/app/templates     # Mount templates folder
+      - ./images:/app/images      # Mount the images folder to the container
+      - ./database:/app/database  # Mount the database folder to the container
+      - ./templates:/app/templates # Mount the templates folder to the container
