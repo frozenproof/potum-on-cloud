@@ -6,8 +6,29 @@ Made manually, I would have scrapped if it wasn't illegal.
 # Code warning
 Compile flag for dockerfile for render will probably break your build if you are not careful, so remove it, it is only used in deployment on render.com.
 
+# Start server.js as a child process or a standalone, see below
+const childProcess = spawn('node', ['server/server.js'], { stdio: 'inherit' });
+// The proxy server need this because the proxy server is now the one serving static files
+app.use('/images', express.static(path.join(__dirname, '../images')));
+// The reason why we can run the excels as normal are because the resource itself is found by the child server, which then got rendered into raw html then sent to the proxy server
+# The proxy server allow you to control rate limit better and still allow the original server as a standalone, this helps with debugging and understanding the mechanisms of a standard network service.
+
 # Datbase
 Scrapped from Coryn, delays of 9 seconds per website load to avoid DDOS.
+
+# How to build your own
+Run all scrapping python scripts, and run 0_find_import, then use pip list and chatgpt to make requirements.txt if you want to deploy your own version on python.
+
+On js, do the same thing by asking chatgpt what imports are used and reinstall the libraries.
+
+On deployment, use
+```
+pip install -r requirements.txt
+```
+Node version
+```
+npm install
+```
 
 # How to run
 Run command
@@ -23,19 +44,6 @@ node ./server/server.js
 class="card-container" or "class="card-container-1" was how we scrape the data from the website, we used to use these names for the python scripts.
 now we crawl properly through each document
 
-# How to build your own
-Run all scrapping python scripts, and run 0_find_import, then use pip list and chatgpt to make requirements.txt if you want to deploy your own version on python.
-
-On js, do the same thing by asking chatgpt what imports are used and reinstall the libraries.
-
-On deployment, use
-```
-pip install -r requirements.txt
-```
-Node version
-```
-npm install
-```
 # Explanation
 The metadata files inside of the database folder tells the server what to find inside of the database, generated from 4_auto_metadata.py.
 

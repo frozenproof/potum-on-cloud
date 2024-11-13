@@ -16,6 +16,8 @@ app.use('/images', express.static(path.join(__dirname, '../images')));
 // Body parser middleware to handle POST data
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Log incoming requests for debugging
 app.use((req, res, next) => {

@@ -15,7 +15,7 @@ docker tag poc truclinhgm/poc:deploy-ready
 docker builder prune
 docker builder prune -a
 docker compose up
-
+truclinhgm/poc:deploy-ready
 FROM --platform=linux/amd64 node:18
 FROM node:18
 
