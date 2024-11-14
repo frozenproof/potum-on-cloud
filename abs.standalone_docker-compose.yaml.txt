@@ -1,6 +1,6 @@
 name: "poc"
 services:
-  server:
+  poc:
     build:
       context: .
       dockerfile: Dockerfile
