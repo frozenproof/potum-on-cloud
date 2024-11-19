@@ -32,6 +32,15 @@ truclinhgm/poc2:deploy-ready
 FROM --platform=linux/amd64 node:18
 FROM node:18
 
+<!-- this one will break the names and make it unusable lmao -->
+docker save poc:latest > poctar:latest.tar
+<!-- this one is too heavy -->
+docker save poc:latest > poctar_latest.tar
+<!-- use this one u fucking idiot -->
+docker save poc:latest | gzip > poctar_latest.tar.gz
+
+docker load < poctar_latest.tar.gz 
+
 docker build --platform=linux/amd64
 
 docker compose build
