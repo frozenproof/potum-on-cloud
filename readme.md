@@ -1,6 +1,7 @@
 # Potum on cloud
 The unofficial mirror of Coryn Club, since Coryn Club can't handle too much bandwidth. Only for searching items, information on each item are as close to Coryn as it can get, but no visual display so we can add that once we have more time.
 
+The profect is temporarily on suspension because im having 2 tests soon.
 # Codes 
 Made manually, I would have scrapped if it wasn't illegal.
 # Code warning
