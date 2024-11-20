@@ -1,66 +1,70 @@
-import requests
-from bs4 import BeautifulSoup
-import json
-import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import os
-import pandas as pd
-import re
+import json
 
-# List of URLs to scrape
-list_of_skills= {
-    "Extra": {
-        "smith" : [
-            "https://coryn.club/guide.php?key=smith",
-            # Add more URLs as needed
-        ],
-    }
-}
+# Set up Selenium WebDriver (Headless mode for faster scraping)
+chrome_options = Options()
+# chrome_options.add_argument("--headless")  # Run in headless mode (no browser UI)
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--no-sandbox")
+service = Service("D:\8_POC\python\chromedriver.exe")  # Update with the path to your WebDriver
 
-keys_list = list(list_of_skills.keys())
-values_list = list(list_of_skills.values())
-# print (keys_list,"\n\n\n\n\n",values_list)
-final_list = list_of_skills.items()
-# Load existing data if the JSON file exists
-data = []
-input_choose = -1
-file_path_main = "database/s2/"
+# Output folder for scraped data
+OUTPUT_FOLDER = "database/s2/"
+os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# Loop through the nested dictionary to access each URL
-for main_category, subcategories in final_list:
-    data = []
-    for subcategory, urls in subcategories.items():
-        os.makedirs(file_path_main, exist_ok=True)
-        file_path_json = file_path_main + main_category + f"{subcategory}" + ".json"
-        print(file_path_json)
+def scrape_dynamic_content(url):
+    """Scrape dynamic content loaded via JavaScript."""
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    wait = WebDriverWait(driver, 29)  # Wait up to 10 seconds for elements to load
 
-        for url in urls:
-            print(f"Category: {main_category}, Subcategory: {subcategory}, URL: {url}")
+    try:
+        # Navigate to the URL
+        driver.get(url)
+        print(f"Accessing {url}")
+
+        # Find the menu items
+        menu_items = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".menu-root li a")))
+        print(f"Found {len(menu_items)} menu items.")
+
+        data = []
+
+        # Loop through each menu item
+        for item in menu_items:
             try:
-                # Send a GET request to fetch the page content
-                response = requests.get(url)
-                response.raise_for_status()  # Check for request errors
+                # Click the menu item to load the content dynamically
+                item_text = item.text.strip()
+                print(f"Clicking menu item: {item_text}")
+                item.click()
 
-                # Parse the HTML content
-                soup = BeautifulSoup(response.text, 'html.parser')
+                # Wait for the dynamic content to load in the #article element
+                article_content = wait.until(EC.presence_of_element_located((By.ID, "article")))
+                content_text = article_content.text.strip()
+                print(f"Extracted content for {item_text} (truncated): {content_text[:100]}")
 
-                # # Find all relevant divs with the specified class
-                # print("debug",soup,"\n\n")
+                # Append the data
+                data.append({
+                    "menu_item": item_text,
+                    "content": content_text
+                })
 
-                # Find all relevant divs with the specified class
-                cards_do_not_delete = soup.find_all("div",{"id": "articlebody"})
+            except Exception as e:
+                print(f"Error processing menu item {item_text}: {e}")
 
-                data.append(cards_do_not_delete)
-                # print(cards_do_not_delete)
-
-                
-
-            except requests.RequestException as e:
-                print(f"Error fetching {url}: {e}")
-
-        # # Write updated data back to the JSON file
-        with open(file_path_json, "w", encoding="utf-8") as f:
+        # Save the data to a JSON file
+        output_file = os.path.join(OUTPUT_FOLDER, "scraped_data.json")
+        with open(output_file, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
+        print(f"Data saved to {output_file}")
 
+    finally:
+        driver.quit()
 
-print("New data has been appended to cards_data.json")
-
+# URL of the page with dynamic content
+target_url = "https://coryn.club/guide.php?key=smith"  # Replace with your target URL
+scrape_dynamic_content(target_url)
