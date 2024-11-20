@@ -1,1004 +1,1004 @@
 [
     {
-        "Name": "Canemofish",
-        "Stats": "Lv\n210\nType-\nHPUnknownElement\nLight\nExp\n39845\nTamableNo",
-        "SpawnAt": "Recetacula Sector: Area 1",
-        "Drops": "\n[Bowgun]Acid Gun\n[Material]Strong Copper Scale\n[Material]Crystal Pouch\n[Material]Sharp Fish Fang\n[Armor Crysta]Canemofish"
-    },
-    {
-        "Name": "Seraph Machina",
-        "Stats": "Lv\n167\nType-\nHPUnknownElement\nLight\nExp\n21073\nTamableNo",
-        "SpawnAt": "Buried Tower: Inside",
-        "Drops": "\n[Material]Broken Magic Device\n[Material]Angel Heart\n[Material]Light Emitting Cloth\n[Magic Device]Angel Halo\n[Enhancer Crysta (Blue)]Seraph Machina"
-    },
-    {
-        "Name": "Golden Potum (12M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Armor]Iris Armor"
-    },
-    {
-        "Name": "June Bride Event (all mini boss)",
-        "Stats": "Lv\n0\nType-\nHP\n0\nElement\nNeutral\nExp\n0\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Usable]Bride Box\n[Usable]Groom Box"
-    },
-    {
-        "Name": "Shining Gentleman",
-        "Stats": "Lv\n82\nType-\nHPUnknownElement\nLight\nExp\n6000\nTamableNo",
-        "SpawnAt": "Lost Town: Square",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Bowgun]Revolver\n[Material]Lost Footstep\n[Material]Polyester Cloth\n[Special Crysta]Shining Gentleman"
-    },
-    {
-        "Name": "Wiltileaf",
-        "Stats": "Lv\n305\nType-\nHP\n0\nElement\nFire\nExp\n6538\nTamableNo",
-        "SpawnAt": "Eumano Village Ruins: Area 2",
-        "Drops": "\n[Bow]Lyre Bow\n[Material]Tangled Roots\n[Material]Old Tree Sap\n[Material]Spiral Tree Bark\n[Enhancer Crysta (Blue)]Wiltileaf"
-    },
-    {
-        "Name": "Silver Roar",
-        "Stats": "Lv\n42\nType-\nHP\n14570\nElement\nWater\nExp\n590\nTamableNo",
-        "SpawnAt": "Debakcy Channel: B1",
-        "Drops": "\n[Additional]Crystal Earrings\n[Armor]Adventurer's GarbAB1\n[Material]Bead Fragment\n[Material]Fairy Feather\n[Normal Crysta]Silver Roar"
-    },
-    {
-        "Name": "Golden Potum (12M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Tolbas GrassLand",
-        "Drops": "\n[Armor]Iris Armor"
-    },
-    {
-        "Name": "Golden Coryn (2020)",
-        "Stats": "Lv\n107\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB5\n[Additional]Ribbon28BC\n[Additional]HeadbandA25C\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's Garb1BC\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Daddy Finpen",
-        "Stats": "Lv\n123\nType-\nHPUnknownElement\nWater\nExp\n8000\nTamableNo",
-        "SpawnAt": "Spring of Rebirth: Middle",
-        "Drops": "\n[Armor]Adventurer's Garb1229C\n[Material]Clean Water\n[Material]Daddy Soul\n[Material]Yellow Beak\n[Enhancer Crysta (Green)]Daddy Finpen"
-    },
-    {
-        "Name": "Don Yeti",
-        "Stats": "Lv\n103\nType-\nHPUnknownElement\nEarth\nExp\n9482\nTamableNo",
-        "SpawnAt": "Polde Ice Valley",
-        "Drops": "\n[Additional]Ear Muff\n[Armor]Adventurer's GarbABC\n[Material]Thick Fur\n[Material]Cold Wood Stick\n[Material]Cracked Big Axe\n[Special Crysta]Don Yeti"
-    },
-    {
-        "Name": "Golden Potum (10M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Additional]Potum HatA62C\n[Additional]Potum HatA84C\n[Additional]Potum Hat54BC\n[Additional]Potum HatAB54\n[Additional]Potum HatA11C\n[Additional]Potum HatAB38\n[Additional]Potum Hat53BC\n[Additional]Potum HatAB20\n[Additional]Potum Hat1BC\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's Garb48BC\n[Armor]Adventurer's GarbA16C\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's Garb6BC\n[Armor]Adventurer's GarbAB20\n[Armor]Adventurer's Garb1BC\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Mithurna Lynx",
-        "Stats": "Lv\n177\nType-\nHPUnknownElement\nLight\nExp\n25725\nTamableNo",
-        "SpawnAt": "Ruins of Mt. Mithurna: Stylobate",
-        "Drops": "\n[Additional]White Eyepatch\n[Material]Lucid White Fur\n[Material]Cat Claw\n[Material]Lucid White Spirit Stone\n[Normal Crysta]Mithurna Lynx"
-    },
-    {
-        "Name": "Blazingur",
-        "Stats": "Lv\n245\nType-\nHPUnknownElement\nFire\nExp\n43740\nTamableNo",
-        "SpawnAt": "Divido Valley: Area 3",
-        "Drops": "\n[Additional]Fire Bandana\n[Material]Red Claw\n[Material]Bloody Stone\n[Material]Blazing Mane\n[Enhancer Crysta (Blue)]Blazingur"
-    },
-    {
-        "Name": "Golden Coryn (2019)",
-        "Stats": "Lv\n101\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Usable]Apple\n[Additional]Ribbon5BC\n[Additional]HeadbandA28C\n[Additional]Mage HatAB21\n[Armor]Adventurer's GarbAB61\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA1C\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Builder Golem",
-        "Stats": "Lv\n138\nType-\nHPUnknownElement\nNeutral\nExp\n17564\nTamableNo",
-        "SpawnAt": "Huge Crysta Factory: 3rd Floor",
-        "Drops": "\n[Usable]Strange Tool Box\n[Material]Rusted Iron Plate\n[Material]Cracked Lense\n[Material]Mysterious Magic Lantern\n[Enhancer Crysta (Red)]Builder Golem"
-    },
-    {
-        "Name": "Dark Mushroom",
-        "Stats": "Lv\n30\nType-\nHP\n17500\nElement\nDark\nExp\n440\nTamableNo",
-        "SpawnAt": "Isthmus Of Kaus",
-        "Drops": "\n[Usable]Poisonous Mushroom\n[Additional]Scholar's Glasses\n[Armor]Adventurer's GarbA54C\n[Material]Mushroom Spore\n[Material]Turbid Crystal\n[Special Crysta]Dark Mushroom"
-    },
-    {
-        "Name": "Golden Potum (9M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Additional]Potum HatA80C\n[Additional]Potum HatA54C\n[Additional]Potum HatAB18\n[Additional]Potum Hat38BC\n[Additional]Potum HatA40C\n[Additional]Potum HatAB1\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbAB82\n[Armor]Adventurer's GarbAB4\n[Armor]Adventurer's Garb51BC\n[Armor]Adventurer's Garb36BC\n[Armor]Adventurer's GarbA1C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Seltirios",
-        "Stats": "Lv\n60\nType-\nHP\n60000\nElement\nDark\nExp\n960\nTamableNo",
-        "SpawnAt": "Aulada Ancient Tower",
-        "Drops": "\n[Additional]Vampire Cape\n[Material]Crimson Claw\n[Material]Red Crystal Stone Fragment\n[Material]Little Wyvern Wing\n[Additional Crysta]Seltirios"
-    },
-    {
-        "Name": "Persimmon Coryn",
-        "Stats": "Lv\n125\nType-\nHP\n5000\nElement\nUnknown\nExp\n1410\nTamableNo",
-        "SpawnAt": "Tolbas GrassLand",
-        "Drops": "\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Additional]Market Hat38BC\n[Additional]Market HatAB38\n[Additional]Market Hat39BC\n[Additional]Market HatA39C\n[Additional]Market HatA40C\n[Additional]Market HatAB40\n[Additional]Market Hat41BC\n[Additional]Market HatA42C\n[Material]Fallen in Fall"
-    },
-    {
-        "Name": "Tappler",
-        "Stats": "Lv\n218\nType-\nHPUnknownElement\nDark\nExp\n37400\nTamableNo",
-        "SpawnAt": "Ruins of Urban Elban",
-        "Drops": "\n[Material]Strange Dust\n[Material]Glow Pebble\n[Material]Geometric Metal Bit\n[Enhancer Crysta (Blue)]Tappler"
-    },
-    {
-        "Name": "Colon Commander",
-        "Stats": "Lv\n33\nType-\nHP\n22000\nElement\nFire\nExp\n440\nTamableNo",
-        "SpawnAt": "Strum Road",
-        "Drops": "\n[Usable]Revita I\n[Additional]Colon Met\n[Armor]Adventurer's Garb2BC\n[Material]Bundled Leaves\n[Material]Split Wooden Helm\n[Material]Colon Skin\n[Armor Crysta]Colon Commander"
-    },
-    {
-        "Name": "Golden Potum (6M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Additional]Potum Hat54BC\n[Additional]Potum HatA54C\n[Additional]Potum HatAB2\n[Additional]Potum HatA53C\n[Armor]Adventurer's GarbA50C\n[Armor]Adventurer's GarbAB50\n[Armor]Adventurer's GarbAB51\n[Armor]Adventurer's Garb3BC\n[Armor]Adventurer's GarbA54C\n[Armor]Adventurer's Garb20BC\n[Armor]Adventurer's GarbAB20\n[Armor]Adventurer's GarbAB42\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Golden Potum (11M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Usable]Revita V\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat484684\n[Additional]Potum Hat493418\n[Additional]Potum Hat388338\n[Additional]Potum Hat6541\n[Armor]Adventurer's Garb846751\n[Armor]Adventurer's Garb388182\n[Armor]Adventurer's Garb55353\n[Armor]Adventurer's Garb5136\n[Material]Potum Silver Coin\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Fabric Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Rampion",
-        "Stats": "Lv\n254\nType-\nHPUnknownElement\nDark\nExp\n45540\nTamableNo",
-        "SpawnAt": "Milcaska Falls: Army Base",
-        "Drops": "\n[Material]Bone Scissors\n[Material]Devil's Skull\n[Material]Poison Crystal Tail\n[Normal Crysta]Rampion"
-    },
-    {
-        "Name": "Bubble Bogey",
-        "Stats": "Lv\n177\nType-\nHPUnknownElement\nFire\nExp\n26754\nTamableNo",
-        "SpawnAt": "Barbaros Corridor",
-        "Drops": "\n[Dagger]Fallen Angel Dagger\n[Material]Cracked Halo\n[Material]Red Fallen Angel Halo\n[Material]Mysterious Shiny Cloth\n[Enhancer Crysta (Red)]Bubble Bogey"
-    },
-    {
-        "Name": "Golden Potum (10M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Additional]Potum Hat5BC\n[Additional]Potum Hat64BC\n[Additional]Potum HatA63C\n[Additional]Potum HatA48C\n[Additional]Potum HatAB48\n[Additional]Potum HatAB18\n[Additional]Potum HatA20C\n[Additional]Potum Hat42BC\n[Additional]Potum HatAB1\n[Armor]Adventurer's GarbA64C\n[Armor]Adventurer's GarbAB64\n[Armor]Adventurer's GarbAB48\n[Armor]Adventurer's Garb47BC\n[Armor]Adventurer's Garb54BC\n[Armor]Adventurer's Garb18BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB1\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Golden Potum (5M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Additional]Potum Hat5BC\n[Additional]Potum HatA44C\n[Additional]Potum HatA28C\n[Additional]Potum Hat21BC\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbA47C\n[Armor]Adventurer's Garb71BC\n[Armor]Adventurer's GarbAB35\n[Armor]Straye GarbABC\n[Armor]Adventurer's Garb37BC\n[Armor]Adventurer's Garb21BC\n[Armor]Adventurer's Garb9BC\n[Armor]Adventurer's Garb1BC\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Golden Coryn (2019)",
-        "Stats": "Lv\n102\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB5\n[Additional]Ribbon28BC\n[Additional]HeadbandA25C\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's Garb1BC\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Silver Coryn (2021)",
-        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Apple\n[Additional]Warrior Helm67BC\n[Additional]Mage HatA67C\n[Additional]Scholar's GlassesAB67\n[Additional]Warrior Helm21BC\n[Additional]Mage HatA21C\n[Additional]Scholar's GlassesAB21\n[Armor]Plate Armor234\n[Material]Silver Apple"
-    },
-    {
-        "Name": "Golden Coryn (2019)",
-        "Stats": "Lv\n104\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Tolbas GrassLand",
-        "Drops": "\n[Usable]Apple\n[Additional]HeadbandA5C\n[Additional]Ribbon21BC\n[Additional]Mage HatAB1\n[Armor]Adventurer's Garb61BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB1\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Death Colon",
-        "Stats": "Lv\n84\nType-\nHPUnknownElement\nDark\nExp\n4620\nTamableNo",
-        "SpawnAt": "Vyshed the Tainted Land: Area 2",
-        "Drops": "\n[Additional]Afro Wig\n[Armor]Adventurer's GarbAB54\n[Material]Decayed Branch\n[Material]Withered Leaf\n[Material]Rotten Colon Skin\n[Ore]Mithril Ore\n[Weapon Crysta]Death Colon"
-    },
-    {
-        "Name": "Violacoon",
-        "Stats": "Lv\n80\nType-\nHP\n450000\nElement\nEarth\nExp\n5472\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Flower Nectar\n[Additional]Hero Scarf\n[Material]Bear Fur\n[Material]Sharp Bear Claw\n[Special Crysta]Violaccoon"
-    },
-    {
-        "Name": "Silver Coryn (2021)",
-        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Usable]Apple\n[Additional]Scholar's GlassesAB82\n[Additional]Mage HatA83C\n[Additional]Warrior Helm73BC\n[Additional]Mage HatA73C\n[Additional]Scholar's GlassesAB73\n[Additional]Warrior Helm20BC\n[Armor]Plate Armor234\n[Material]Silver Apple"
-    },
-    {
-        "Name": "Golden Potum (7M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Revita IV\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum HatA5C\n[Additional]Potum HatA54C\n[Additional]Potum HatAB54\n[Additional]Potum Hat37BC\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbAB80\n[Armor]Adventurer's GarbA64C\n[Armor]Adventurer's GarbA54C\n[Armor]Adventurer's GarbA2C\n[Armor]Adventurer's GarbAB2\n[Armor]Adventurer's GarbAB6\n[Armor]Adventurer's GarbAB21\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Golden Potum (7M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Usable]Revita III\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum HatAB5\n[Additional]Potum Hat82BC\n[Additional]Potum Hat71BC\n[Additional]Potum Hat1BC\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbAB64\n[Armor]Adventurer's GarbA84C\n[Armor]Adventurer's GarbAB54\n[Armor]Adventurer's Garb18BC\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbA1C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Goldenia",
-        "Stats": "Lv\n187\nType-\nHPUnknownElement\nWind\nExp\n27930\nTamableNo",
-        "SpawnAt": "Elf Mountains: Area 3",
-        "Drops": "\n[Material]Glossy Black Leather\n[Material]Golden Stinging Hair\n[Material]Spiky Horns\n[Additional Crysta]Goldenia"
-    },
-    {
-        "Name": "Giant Boar",
-        "Stats": "Lv\n52\nType-\nHPUnknownElement\nEarth\nExp\n800\nTamableNo",
-        "SpawnAt": "Nisel Mountain",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Animal Skin\n[Material]Sturdy Fur\n[Additional Crysta]Giant Boar"
-    },
-    {
-        "Name": "Golden Potum (5M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Additional]Potum HatA5C\n[Additional]Potum Hat71BC\n[Additional]Potum HatA19C\n[Additional]Potum HatA21C\n[Armor]Adventurer's Garb49BC\n[Armor]Adventurer's GarbA71C\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbA20C\n[Armor]Adventurer's GarbA9C\n[Armor]Adventurer's GarbA1C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Golden Potum (11M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat505183\n[Additional]Potum Hat24948\n[Additional]Potum Hat191619\n[Additional]Potum Hat5356\n[Armor]Adventurer's Garb485049\n[Armor]Adventurer's Garb67664\n[Armor]Adventurer's Garb6484\n[Armor]Adventurer's Garb5415\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)"
-    },
-    {
-        "Name": "Nightmare Potum",
-        "Stats": "Lv\n120\nType-\nHP\n1500000\nElement\nDark\nExp\n15800\nTamableNo",
-        "SpawnAt": "Garden of Beginning",
-        "Drops": "\n[1 Handed Sword]Toy Hammer\n[Armor]Adventurer's GarbABC\n[Material]Filthy Bandage\n[Material]Purification Salt\n[Material]Potum's Soul\n[Ore]Mithril Ore"
-    },
-    {
-        "Name": "Silver Coryn (2021)",
-        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamableNo",
-        "SpawnAt": "Tolbas GrassLand",
-        "Drops": "\n[Usable]Apple\n[Additional]Warrior Helm5BC\n[Additional]Mage HatA5C\n[Additional]Scholar's GlassesAB5\n[Additional]Warrior Helm74BC\n[Additional]Mage HatA74C\n[Additional]Scholar's GlassesAB74\n[Armor]Plate Armor234\n[Material]Silver Apple"
-    },
-    {
-        "Name": "Espectro",
-        "Stats": "Lv\n221\nType-\nHPUnknownElement\nDark\nExp\n33600\nTamableNo",
-        "SpawnAt": "Arche Valley: Area 1",
-        "Drops": "\n[Material]Metal Shackles\n[Material]Vengeful Soul\n[Material]Skull Mask Fragment\n[Enhancer Crysta (Purple)]Espectro"
-    },
-    {
-        "Name": "Golden Potum (8M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Additional]Potum HatA48C\n[Additional]Potum HatAB46\n[Additional]Potum HatA84C\n[Armor]Adventurer's GarbAB65\n[Armor]Adventurer's Garb51BC\n[Armor]Adventurer's GarbA51C\n[Armor]Adventurer's GarbAB56\n[Armor]Adventurer's GarbA58C\n[Armor]Adventurer's Garb11BC\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Wandering Wheel",
-        "Stats": "Lv\n163\nType-\nHPUnknownElement\nWind\nExp\n20223\nTamableNo",
-        "SpawnAt": "Ultimea Palace: Demi Machina Storage",
-        "Drops": "\n[Armor]Adventurer's Garb83B69\n[Material]Sticky Wax\n[Material]Heavy Wheel\n[Material]Magic Engine\n[Enhancer Crysta (Yellow)]Wandering Wheel"
-    },
-    {
-        "Name": "Golden Potum (9M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Additional]Potum Hat5BC\n[Additional]Potum Hat82BC\n[Additional]Potum HatA4C\n[Additional]Potum HatA38C\n[Armor]Adventurer's Garb44BC\n[Armor]Adventurer's GarbA4C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's GarbA36C\n[Armor]Adventurer's GarbAB1\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Bloodie Crystal",
-        "Stats": "Lv\n207\nType-\nHPUnknownElement\nDark\nExp\n34280\nTamableNo",
-        "SpawnAt": "Avant Plastida: Area 1",
-        "Drops": "\n[Material]Perilous Essence\n[Material]Blood Crystal\n[Material]Blood Red Gemstone\n[Enhancer Crysta (Red)]Blood Smeared Crystal"
-    },
-    {
-        "Name": "Golden Potum (8M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Additional]Potum HatA81C\n[Additional]Potum HatAB78\n[Additional]Potum Hat47BC\n[Additional]Potum HatAB75\n[Armor]Adventurer's GarbA67C\n[Armor]Adventurer's GarbAB59\n[Armor]Adventurer's GarbA3C\n[Armor]Adventurer's Garb55BC\n[Armor]Adventurer's Garb20BC\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Silver Coryn (2021)",
-        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Usable]Apple\n[Additional]Warrior Helm72BC\n[Additional]Mage HatA72C\n[Additional]Scholar's GlassesAB72\n[Additional]Mage HatA38C\n[Additional]Warrior Helm42BC\n[Additional]Scholar's GlassesAB42\n[Armor]Plate Armor234\n[Material]Silver Apple"
-    },
-    {
-        "Name": "Golden Potum (11M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Tolbas GrassLand",
-        "Drops": "\n[Usable]Revita VI\n[Refinement Support]Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Additional]Potum Hat844834\n[Additional]Potum Hat528137\n[Additional]Potum Hat35654\n[Additional]Potum Hat215121\n[Armor]Adventurer's Garb504881\n[Armor]Adventurer's Garb48467\n[Armor]Adventurer's Garb526434\n[Armor]Adventurer's Garb1548\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Metal Pack (M)"
-    },
-    {
-        "Name": "Teertocrit",
-        "Stats": "Lv\n200\nType-\nHP\n7050000\nElement\nFire\nExp\n46200\nTamableNo",
-        "SpawnAt": "Manor of Surprises",
-        "Drops": "\n[Usable]Flower Nectar (Bouquet)\n[Usable]Ginger Cake\n[Usable]Barmbrack\n[Usable]Zombie Cake\n[Usable]Pumpkin Cookie\n[Usable]Jack Pudding\n[Usable]Pumpkin Candy\n[Usable]Pumpkin Soup\n[Additional]Potum Ghost Behind U\n[Enhancer Crysta (Purple)]Teertocrit"
-    },
-    {
-        "Name": "Salamander",
-        "Stats": "Lv\n132\nType-\nHP\n2000000\nElement\nFire\nExp\n20242\nTamableNo",
-        "SpawnAt": "Blazing Graben: Upper",
-        "Drops": "\n[Usable]Scorching Orange\n[Additional]Ignis Horns\n[Material]Heated Sword Fin\n[Material]Scorching Scale\n[Enhancer Crysta (Blue)]Salamander"
-    },
-    {
-        "Name": "Gopherga",
-        "Stats": "Lv\n207\nType-\nHPUnknownElement\nWater\nExp\n70000\nTamableNo",
-        "SpawnAt": "Underwater Ruins",
-        "Drops": "\n[Usable]Mysterious Clam\n[Material]Super Heavy Shell\n[Ore]Orichalcum Ore\n[Armor Crysta]Gopherga"
-    },
-    {
-        "Name": "Grim Reaper Scarecrow",
-        "Stats": "Lv\n224\nType-\nHPUnknownElement\nWind\nExp\n35140\nTamableNo",
-        "SpawnAt": "Witch's Woods Area 2",
-        "Drops": "\n[Additional]Tattered Cloak\n[Material]Sturdy Core\n[Material]Crow Feather\n[Material]Scarecrow's Emotion\n[Armor Crysta]Grim Reaper Scarecrow"
-    },
-    {
-        "Name": "Persimmon Coryn",
-        "Stats": "Lv\n75\nType-\nHPUnknownElement\nLight\nExp\nUnknown\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
-    },
-    {
-        "Name": "Armasite",
-        "Stats": "Lv\n201\nType-\nHPUnknownElement\nFire\nExp\n33330\nTamableNo",
-        "SpawnAt": "Fractum Sector: Area 1",
-        "Drops": "\n[Material]Mutated Plant Thorn\n[Material]Amethyst Flower\n[Material]Corroded Stem\n[Weapon Crysta]Armasite"
-    },
-    {
-        "Name": "Silver Coryn (2015)",
-        "Stats": "Lv\n100\nType-\nHPUnknownElement\nLight\nExp\nUnknown\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Ribbon\n[Additional]RibbonABC\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's Garb49BC\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's Garb1BC"
-    },
-    {
-        "Name": "Golden Potum (11M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Revita IV\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat34182\n[Additional]Potum Hat463749\n[Additional]Potum Hat213850\n[Additional]Potum Hat115\n[Armor]Adventurer's Garb465146\n[Armor]Adventurer's Garb38335\n[Armor]Adventurer's Garb818238\n[Armor]Adventurer's Garb534954\n[Material]Potum Silver Coin\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Golden Skeleton",
-        "Stats": "Lv\n54\nType-\nHPUnknownElement\nNeutral\nExp\n840\nTamableNo",
-        "SpawnAt": "Zoktzda Ruins",
-        "Drops": "\n[Armor]Adventurer's Garb26BC\n[Material]Ancient Gold Coin\n[Material]Wandering Spirit\n[Material]Skeleton Bone\n[Additional Crysta]Golden Skeleton"
-    },
-    {
-        "Name": "Lyark Master Specialist",
-        "Stats": "Lv\n157\nType-\nHPUnknownElement\nWind\nExp\n19089\nTamableNo",
-        "SpawnAt": "Brahe Laboratory: 2nd Building",
-        "Drops": "\n[Usable]Lyark Tranquilizer\n[Material]Ox Fabric\n[Material]Soldier Leader's Badge\n[Enhancer Crysta (Blue)]Lyark Master Specialist"
-    },
-    {
-        "Name": "Frenzy Viola",
-        "Stats": "Lv\n198\nType-\nHPUnknownElement\nEarth\nExp\n42126\nTamableNo",
-        "SpawnAt": "Morthell Swell: Area 3",
-        "Drops": "\n[Material]Mysterious Skull\n[Material]Temptation Flower\n[Material]Dark Red Fluid\n[Special Crysta]Frenzy Viola"
-    },
-    {
-        "Name": "Golden Coryn (2018)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Usable]Apple\n[Additional]Ribbon5BC\n[Additional]Ribbon38BC\n[Additional]RibbonAB1\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA50C\n[Armor]Adventurer's Garb1BC\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Golden Potum (9M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Additional]Potum HatA5C\n[Additional]Potum HatA82C\n[Additional]Potum HatAB82\n[Additional]Potum HatAB81\n[Additional]Potum Hat4BC\n[Additional]Potum Hat18BC\n[Additional]Potum Hat1BC\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA82C\n[Armor]Adventurer's Garb4BC\n[Armor]Adventurer's GarbAB51\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB36\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Golden Coryn (2018)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Usable]Apple\n[Additional]RibbonAB42\n[Additional]Ribbon1BC\n[Additional]RibbonA1C\n[Armor]Adventurer's Garb50BC\n[Armor]Adventurer's GarbAB50\n[Armor]Adventurer's GarbA1C\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Sand Bandits Leader",
-        "Stats": "Lv\n215\nType-\nHPUnknownElement\nEarth\nExp\n48500\nTamableNo",
-        "SpawnAt": "Geist Desert: Area 3",
-        "Drops": "\n[Additional]Sand Bandit Mask\n[Material]Sand Bandits Bandage\n[Material]Leader's Hair Accessory\n[Material]Blood Stained Billhook\n[Enhancer Crysta (Purple)]Sand Bandits Leader"
-    },
-    {
-        "Name": "Metal Stinger",
-        "Stats": "Lv\n82\nType-\nHPUnknownElement\nEarth\nExp\n4050\nTamableNo",
-        "SpawnAt": "Akaku Desert: Area 2",
-        "Drops": "\n[Material]Scorpion Tail\n[Material]Hard Scissor\n[Material]Sand Pyroxene\n[Normal Crysta]Metal Stinger"
-    },
-    {
-        "Name": "Big Coryn",
-        "Stats": "Lv\n60\nType-\nHPUnknownElement\nLight\nExp\n1730\nTamableNo",
-        "SpawnAt": "Douce Hamlet",
-        "Drops": "\n[Usable]Apple\n[Refinement Support]Magic Hammer\n[Additional]Flower Headband\n[Armor]Adventurer's GarbABC\n[Material]Young Branch\n[Material]Plant Skin\n[Normal Crysta]Big Coryn"
-    },
-    {
-        "Name": "Granny",
-        "Stats": "Lv\n88\nType-\nHPUnknownElement\nEarth\nExp\n3818\nTamableNo",
-        "SpawnAt": "Abyss of No Return: Area 3",
-        "Drops": "\n[Material]Magic Charged Branch\n[Material]Ancient Big Tree\n[Material]Tree Spirit Soul\n[Staff]Bloom of Peace\n[Special Crysta]Granny"
-    },
-    {
-        "Name": "Exdocus",
-        "Stats": "Lv\n266\nType-\nHPUnknownElement\nDark\nExp\n50286\nTamableNo",
-        "SpawnAt": "Stairway to Vital Point",
-        "Drops": "\n[Material]Solid Vertebra\n[Material]Strange Eye\n[Material]Stairway Pebble\n[Enhancer Crysta (Yellow)]Exdocus"
-    },
-    {
-        "Name": "Corroded Knight Captain",
-        "Stats": "Lv\n128\nType-\nHPUnknownElement\nDark\nExp\n8738\nTamableNo",
-        "SpawnAt": "Dark Manor: Area 1",
-        "Drops": "\n[Usable]Stimulant\n[Additional]Half Face Mask\n[Material]Sharp Shield Bit\n[Material]Torn Captain Crest\n[Additional Crysta]Corroded Knight Captain"
-    },
-    {
-        "Name": "Golden Potum (6M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Additional]Potum HatA3C\n[Additional]Potum HatAB54\n[Additional]Potum Hat38BC\n[Additional]Potum HatA38C\n[Armor]Adventurer's Garb51BC\n[Armor]Adventurer's GarbA3C\n[Armor]Adventurer's GarbAB3\n[Armor]Adventurer's GarbAB54\n[Armor]Adventurer's GarbA2C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb52BC\n[Armor]Adventurer's GarbA52C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Gordo",
-        "Stats": "Lv\n242\nType-\nHPUnknownElement\nLight\nExp\n43700\nTamableNo",
-        "SpawnAt": "Eumano Glade",
-        "Drops": "\n[Material]Cracked Acorn Hat\n[Material]Huge Acorn\n[Material]Dream Fragment\n[Enhancer Crysta (Yellow)]Gordo"
-    },
-    {
-        "Name": "Golden Coryn (2016)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Apple\n[Additional]RibbonABC\n[Additional]Mage HatAB1\n[Armor]Adventurer's GarbABC"
-    },
-    {
-        "Name": "Golden Coryn (2020)",
-        "Stats": "Lv\n108\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB28\n[Additional]Ribbon25BC\n[Additional]HeadbandA1C\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbAB41\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Golden Potum (7M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Usable]Revita II\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat5BC\n[Additional]Potum Hat21BC\n[Additional]Potum HatA21C\n[Additional]Potum HatAB1\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbAB84\n[Armor]Adventurer's Garb54BC\n[Armor]Adventurer's GarbA18C\n[Armor]Adventurer's GarbAB18\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbA6C\n[Armor]Adventurer's Garb1BC\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Metal Stinger",
-        "Stats": "Lv\n82\nType-\nHPUnknownElement\nEarth\nExp\n4050\nTamableNo",
-        "SpawnAt": "Akaku Desert: Area 1",
-        "Drops": "\n[Material]Scorpion Tail\n[Material]Hard Scissor\n[Material]Sand Pyroxene\n[Normal Crysta]Metal Stinger"
-    },
-    {
-        "Name": "Demonic Eye",
-        "Stats": "Lv\n212\nType-\nHP\n10000000\nElement\nWind\nExp\n75834\nTamableNo",
-        "SpawnAt": "Dea Ruinea",
-        "Drops": "\n[Material]Bizarre Skin\n[Material]Demon Serum\n[Material]Cursed Evil Eye\n[Enhancer Crysta (Green)]Demonic Eye"
-    },
-    {
-        "Name": "Persimmon Coryn",
-        "Stats": "Lv\n100\nType-\nHPUnknownElement\nLight\nExp\nUnknown\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
-    },
-    {
-        "Name": "Bullamius",
-        "Stats": "Lv\n239\nType-\nHPUnknownElement\nEarth\nExp\n42800\nTamableNo",
-        "SpawnAt": "Storage Yard: Area 2",
-        "Drops": "\n[Usable]Monkey Energy\n[Knuckles]Ferocious Beast Claws\n[Material]Sharp Monkey Horn\n[Material]Monkey Fang\n[Enhancer Crysta (Blue)]Bullamius"
-    },
-    {
-        "Name": "Golden Potum (5M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Additional]Potum HatAB5\n[Additional]Potum Hat19BC\n[Additional]Potum HatA38C\n[Additional]Potum Hat1BC\n[Armor]Adventurer's GarbA49C\n[Armor]Adventurer's GarbAB47\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbAB12\n[Armor]Adventurer's GarbAB2\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb6BC\n[Armor]Adventurer's GarbAB21\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Fantica",
-        "Stats": "Lv\n284\nType-\nHP\n14777385\nElement\nWater\nExp\n55153\nTamableNo",
-        "SpawnAt": "Espuma Dome: Area 2",
-        "Drops": "\n[Material]Seahorse Herbal Medicine\n[Material]Circular Plate\n[Material]Coral Rock\n[Enhancer Crysta (Yellow)]Fantica"
-    },
-    {
-        "Name": "Golden Coryn (2019)",
-        "Stats": "Lv\n103\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB28\n[Additional]Ribbon25BC\n[Additional]HeadbandA1C\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbAB41\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Golden Potum (6M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Additional]Potum HatA4C\n[Additional]Potum Hat3BC\n[Additional]Potum Hat2BC\n[Additional]Potum HatA2C\n[Armor]Adventurer's Garb82BC\n[Armor]Adventurer's GarbA82C\n[Armor]Adventurer's Garb4BC\n[Armor]Adventurer's GarbAB19\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA20C\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Limacina",
-        "Stats": "Lv\n290\nType-\nHP\n0\nElement\nFire\nExp\n71600\nTamableNo",
-        "SpawnAt": "Deep Sea: Zone 2",
-        "Drops": "\n[Material]Luminous Bacteria\n[Material]Cute Marine Wing\n[Material]Seabed Serenity\n[Enhancer Crysta (Blue)]Limacina"
-    },
-    {
-        "Name": "Caspy",
-        "Stats": "Lv\n77\nType-\nHPUnknownElement\nDark\nExp\n2720\nTamableNo",
-        "SpawnAt": "Ancient Empress Tomb: Area 2",
-        "Drops": "\n[Additional]Cat-Ear Hood1BC\n[Armor]Adventurer's GarbA495\n[Normal Crysta]Caspy"
-    },
-    {
-        "Name": "Charugon",
-        "Stats": "Lv\n275\nType-\nHP\n19100000\nElement\nFire\nExp\n76600\nTamableNo",
-        "SpawnAt": "Boma Konda: Underground Area",
-        "Drops": "\n[2 Handed Sword]Dragon Slasher\n[Material]Hot Dragon Scale\n[Material]Inferno Sac\n[Material]Burnt Wood Board\n[Enhancer Crysta (Blue)]Charugon"
-    },
-    {
-        "Name": "Orictoceras",
-        "Stats": "Lv\n272\nType-\nHP\n13500000\nElement\nEarth\nExp\n51200\nTamableNo",
-        "SpawnAt": "Kabla Jabali",
-        "Drops": "\n[Material]Growing Ore\n[Material]Stone Sternal Bone\n[Material]Deadly Claw\n[Enhancer Crysta (Blue)]Orictoceras"
-    },
-    {
-        "Name": "Carbuncle",
-        "Stats": "Lv\n183\nType-\nHPUnknownElement\nFire\nExp\n27200\nTamableNo",
-        "SpawnAt": "Hall of Construction Gods",
-        "Drops": "\n[2 Handed Sword]Carbuncle Edge\n[Material]Carbuncle Fur\n[Material]Shining Mirror\n[Material]Carbuncle Claw\n[Normal Crysta]Carbuncle"
-    },
-    {
-        "Name": "Golden Coryn (2020)",
-        "Stats": "Lv\n109\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Tolbas GrassLand",
-        "Drops": "\n[Usable]Apple\n[Additional]HeadbandA5C\n[Additional]Ribbon21BC\n[Additional]Mage HatAB1\n[Armor]Adventurer's Garb61BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB1\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Arcoiris",
-        "Stats": "Lv\n70\nType-\nHPUnknownElement\nNeutral\nExp\n2400\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Additional]Feather Cape\n[Armor]Adventurer's Garb222746\n[Material]Bead Fragment\n[Material]Rainbow Feather\n[Material]Bird Wing\n[Armor Crysta]Arcoiris"
-    },
-    {
-        "Name": "Golden Potum (10M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Tolbas GrassLand",
-        "Drops": "\n[Additional]Potum HatA5C\n[Additional]Potum HatA64C\n[Additional]Potum HatAB64\n[Additional]Potum Hat63BC\n[Additional]Potum Hat46BC\n[Additional]Potum HatA46C\n[Additional]Potum HatAB46\n[Additional]Potum HatAB53\n[Additional]Potum Hat21BC\n[Armor]Adventurer's GarbA47C\n[Armor]Adventurer's Garb46BC\n[Armor]Adventurer's GarbA46C\n[Armor]Adventurer's GarbA18C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb37BC\n[Armor]Adventurer's GarbAB6\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Golden Potum (10M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Additional]Potum HatA50C\n[Additional]Potum HatAB50\n[Additional]Potum HatAB62\n[Additional]Potum HatA47C\n[Additional]Potum HatAB47\n[Additional]Potum Hat85BC\n[Additional]Potum Hat38BC\n[Additional]Potum Hat6BC\n[Additional]Potum HatA1C\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbA32C\n[Armor]Adventurer's GarbAB16\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA6C\n[Armor]Adventurer's Garb20BC\n[Armor]Adventurer's GarbA1C\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Golden Coryn (2017)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbA1C"
-    },
-    {
-        "Name": "Solopy",
-        "Stats": "Lv\n169\nType-\nHPUnknownElement\nEarth\nExp\n23835\nTamableNo",
-        "SpawnAt": "Turnus Mine: Area 3",
-        "Drops": "\n[Material]Tasty Mushroom\n[Material]Tweed Fabric\n[Material]Turnus Crystal\n[Special]Hallucination Spore\n[Enhancer Crysta (Yellow)]Solopy"
-    },
-    {
-        "Name": "Vodre",
-        "Stats": "Lv\n281\nType-\nHPUnknownElement\nWater\nExp\n67680\nTamableNo",
-        "SpawnAt": "Puerta Islands: Area 2",
-        "Drops": "\n[Material]Moist Thin Fin\n[Material]Aquamarine Pearl\n[Material]Moist Thin Wing\n[Special Crysta]Vodre"
-    },
-    {
-        "Name": "Golden Potum (9M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Additional]Potum HatAB5\n[Additional]Potum HatA81C\n[Additional]Potum HatAB38\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbA44C\n[Armor]Adventurer's GarbA21C\n[Armor]Adventurer's Garb1BC\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Volotur",
-        "Stats": "Lv\n160\nType-\nHPUnknownElement\nDark\nExp\n24024\nTamableNo",
-        "SpawnAt": "Suburb of Droma Square: Area 3",
-        "Drops": "\n[Additional]Devil Circlet\n[Material]Spiky Fang\n[Material]Cursed Secret Soul\n[Material]Biting Head\n[Enhancer Crysta (Blue)]Volotur"
-    },
-    {
-        "Name": "Melancia",
-        "Stats": "Lv\n225\nType-\nHPUnknownElement\nEarth\nExp\n55307\nTamableNo",
-        "SpawnAt": "Phasma Forest: Area 2",
-        "Drops": "\n[Usable]Flower Nectar (Bouquet)\n[Usable]Grilled Eggplant\n[Material]Salad Dressing\n[Enhancer Crysta (Blue)]Melancia"
-    },
-    {
-        "Name": "Concert Potum",
-        "Stats": "Lv\n180\nType-\nHPUnknownElement\nNeutral\nExp\n269\nTamableYes",
-        "SpawnAt": "Pom Taming Land",
-        "Drops": "\n[Usable]Apple\n[Usable]Sweet Apple\n[Usable]Yellow Apple\n[Usable]Hard Apple\n[Material]Green Apple"
-    },
-    {
-        "Name": "Golden Coryn (2017)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC"
-    },
-    {
-        "Name": "Golden Potum (12M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Armor]Iris Armor"
-    },
-    {
-        "Name": "Golden Potum (11M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Usable]Revita III\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat835051\n[Additional]Potum Hat54535\n[Additional]Potum Hat18246\n[Additional]Potum Hat378482\n[Armor]Adventurer's Garb34464\n[Armor]Adventurer's Garb823850\n[Armor]Adventurer's Garb833421\n[Armor]Adventurer's Garb49541\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Wood Pack (M)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Thug Golem",
-        "Stats": "Lv\n191\nType-\nHPUnknownElement\nWater\nExp\n29190\nTamableNo",
-        "SpawnAt": "Dark Dragon Shrine: Middle",
-        "Drops": "\n[Material]Ancient Ingot\n[Material]Pancake Ice Flower\n[Material]Shining Monoeye\n[Armor Crysta]Thug Golem"
-    },
-    {
-        "Name": "Meteora",
-        "Stats": "Lv\n302\nType-\nHP\n0\nElement\nFire\nExp\n74656\nTamableNo",
-        "SpawnAt": "Menabra Plains",
-        "Drops": "\n[1 Handed Sword]Meteor Sword\n[Material]Tektite\n[Material]Meteoric Iron\n[Material]Abyssal Light\n[Enhancer Crysta (Green)]Meteora"
-    },
-    {
-        "Name": "Golden Coryn (2019)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Usable]Apple\n[Additional]HeadbandA21C\n[Additional]Mage HatAB25\n[Additional]Ribbon1BC\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbA61C\n[Armor]Adventurer's Garb37BC\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Dandolion",
-        "Stats": "Lv\n308\nType-\nHP\n0\nElement\nWater\nExp\n83000\nTamableNo",
-        "SpawnAt": "Umidus Valley: Cliff Path",
-        "Drops": "\n[Usable]Dandelion Coffee\n[Material]Dandelion Fluff\n[Material]Dandelion Tooth\n[Enhancer Crysta (Green)]Dandolion"
-    },
-    {
-        "Name": "Amoeba Machina",
-        "Stats": "Lv\n158\nType-\nHPUnknownElement\nWater\nExp\n29000\nTamableNo",
-        "SpawnAt": "Ultimea Sewer: Southeast",
-        "Drops": "\n[Knuckles]Master's Tonfa\n[Material]Soft Swollen Nail\n[Material]Crooked Nucleic Acid\n[Material]Mysterious Cube\n[Enhancer Crysta (Blue)]Amoeba Machina"
-    },
-    {
-        "Name": "Rhinosaur",
-        "Stats": "Lv\n233\nType-\nHPUnknownElement\nEarth\nExp\n41000\nTamableNo",
-        "SpawnAt": "Fugitive Lake Swamp: Area 3",
-        "Drops": "\n[Material]Hard Armor Skin\n[Material]Adamantite Horn\n[Material]Bold Gaze\n[Halberd]Drill Shaft\n[Enhancer Crysta (Blue)]Rhinosaur"
-    },
-    {
-        "Name": "Golden Potum (8M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Additional]Potum Hat82BC\n[Additional]Potum Hat48BC\n[Additional]Potum HatA83C\n[Additional]Potum HatAB84\n[Armor]Adventurer's GarbAB63\n[Armor]Adventurer's GarbAB55\n[Armor]Adventurer's GarbA56C\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's Garb36BC\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Gigant Knight",
-        "Stats": "Lv\n76\nType-\nHPUnknownElement\nEarth\nExp\n2680\nTamableNo",
-        "SpawnAt": "Saham Crater",
-        "Drops": "\n[1 Handed Sword]Tomahawk\n[Armor]Adventurer's GarbABC\n[Material]Hard Stone\n[Ore]Damascus Ore\n[Normal Crysta]Gigant Knight"
-    },
-    {
-        "Name": "Golden Potum (7M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Usable]Revita V\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum HatA46C\n[Additional]Potum Hat54BC\n[Additional]Potum HatAB21\n[Additional]Potum HatA1C\n[Armor]Adventurer's GarbAB83\n[Armor]Adventurer's GarbAB2\n[Armor]Adventurer's Garb37BC\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's Garb6BC\n[Armor]Adventurer's Garb21BC\n[Armor]Adventurer's GarbA21C\n[Armor]Adventurer's GarbAB1\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Outer World Wolf",
-        "Stats": "Lv\n70\nType-\nHPUnknownElement\nLight\nExp\n4800\nTamableNo",
-        "SpawnAt": "Gate to Another World: Area 1",
-        "Drops": "\n[Armor]Oracle RobeABC\n[Material]Space Wolf Horn\n[Material]Space Wolf Fur\n[Material]Space Wolf Claw"
-    },
-    {
-        "Name": "Brassozard",
-        "Stats": "Lv\n263\nType-\nHPUnknownElement\nEarth\nExp\n42200\nTamableNo",
-        "SpawnAt": "Operation Zone: Climate Control Area",
-        "Drops": "\n[Bow]Red-Winged Dragon Bow\n[Material]Brassozard Claw\n[Material]Wyvern Horn\n[Ore]Damascus Ore\n[Enhancer Crysta (Blue)]Brassozard"
-    },
-    {
-        "Name": "Golden Potum (8M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Additional]Potum Hat81BC\n[Additional]Potum HatAB47\n[Additional]Potum Hat75BC\n[Additional]Potum HatA37C\n[Armor]Adventurer's Garb65BC\n[Armor]Adventurer's GarbA70C\n[Armor]Adventurer's GarbAB67\n[Armor]Adventurer's Garb56BC\n[Armor]Adventurer's GarbAB19\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
-    },
-    {
-        "Name": "Golden Potum (6M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Additional]Potum Hat4BC\n[Additional]Potum HatAB4\n[Additional]Potum HatAB3\n[Additional]Potum HatAB38\n[Armor]Adventurer's Garb50BC\n[Armor]Adventurer's GarbAB4\n[Armor]Adventurer's GarbA51C\n[Armor]Adventurer's Garb54BC\n[Armor]Adventurer's Garb2BC\n[Armor]Adventurer's GarbAB2\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB52\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Golden Coryn (2016)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Usable]Apple\n[Additional]HeadbandABC\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbABC"
-    },
-    {
-        "Name": "Miracle Potum",
-        "Stats": "Lv\n42\nType-\nHP\n29000\nElement\nLight\nExp\n600\nTamableNo",
-        "SpawnAt": "Ruined Temple: Area 2",
-        "Drops": "\n[Usable]Save Point\n[Usable]Hard Apple\n[Armor]Adventurer's GarbABC\n[Material]Potum Nail\n[Staff]Morning Star\n[Weapon Crysta]Miracle Potum"
-    },
-    {
-        "Name": "Golden Potum (3M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Event",
-        "Drops": "\n[Additional]Ribbon5BC\n[Additional]RibbonA50C\n[Additional]RibbonAB50\n[Additional]RibbonA1C\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA50C\n[Armor]Adventurer's GarbAB50\n[Armor]Adventurer's GarbAB4\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA1C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Trus",
-        "Stats": "Lv\n269\nType-\nHP\n12800000\nElement\nFire\nExp\n98000\nTamableNo",
-        "SpawnAt": "Propulsion System Zone: Power Tank",
-        "Drops": "\n[Material]Small Wing\n[Material]Scorching Core\n[Material]Hot Glass\n[Special Crysta]Trus"
-    },
-    {
-        "Name": "Super Death Mushroom",
-        "Stats": "Lv\n150\nType-\nHPUnknownElement\nDark\nExp\n24871\nTamableNo",
-        "SpawnAt": "Monster's Forest: Animal Trail",
-        "Drops": "\n[Usable]Mysterious Mushroom\n[Usable]Death Truffle\n[Armor]Adventurer's GarbA69C\n[Material]Mushroom Venom\n[Magic Device]Super Costero\n[Enhancer Crysta (Green)]Super Death Mushroom"
-    },
-    {
-        "Name": "Ageladanios",
-        "Stats": "Lv\n218\nType-\nHP\n7000000\nElement\nFire\nExp\n34350\nTamableNo",
-        "SpawnAt": "Ducia Coast: Area 1",
-        "Drops": "\n[Armor]Savage Mail\n[Material]Evil Spirit Horns\n[Material]Flame of Misfortune\n[Material]Raging Soul\n[Enhancer Crysta (Blue)]Ageladanios"
-    },
-    {
-        "Name": "Golden Coryn (2018)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Usable]Apple\n[Additional]RibbonA5C\n[Additional]RibbonA38C\n[Additional]Ribbon42BC\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbAB1\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Grimuckus",
-        "Stats": "Lv\n195\nType-\nHPUnknownElement\nWater\nExp\n30240\nTamableNo",
-        "SpawnAt": "Wazeero Street",
-        "Drops": "\n[Knuckles]Mortal Katar\n[Material]Wazeero Stone\n[Material]Weird Blob\n[Ore]Mithril Ore\n[Special Crysta]Grimuckus"
-    },
-    {
-        "Name": "Lapin The Necromancer",
-        "Stats": "Lv\n124\nType-\nHPUnknownElement\nNeutral\nExp\n17222\nTamableNo",
-        "SpawnAt": "Trace of Dark River",
-        "Drops": "\n[Additional]Necromancer Hood\n[Armor]Adventurer's Garb77BC\n[Material]Soft Paw\n[Material]Torn Robe\n[Material]Cracked Skull\n[Material]Lapin's Soul\n[Weapon Crysta]Lapin The Necromancer"
-    },
-    {
-        "Name": "Trocostida",
-        "Stats": "Lv\n230\nType-\nHPUnknownElement\nDark\nExp\n40000\nTamableNo",
-        "SpawnAt": "Nov Diela Area 1",
-        "Drops": "\n[Usable]Energy Bottle EX\n[Material]Glowing Liposome\n[Material]Wriggling Latebra\n[Enhancer Crysta (Yellow)]Trocostida"
-    },
-    {
-        "Name": "Kuffania",
-        "Stats": "Lv\n250\nType-\nHPUnknownElement\nDark\nExp\n55900\nTamableNo",
-        "SpawnAt": "Risus Valley: Area 2",
-        "Drops": "\n[Usable]Bat Candy\n[Usable]Battie Scone\n[Material]Poison Blood\n[Enhancer Crysta (Blue)]Kuffania"
-    },
-    {
-        "Name": "Golden Potum (12M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Armor]Iris Armor"
-    },
-    {
-        "Name": "Tortuga",
-        "Stats": "Lv\n40\nType-\nHP\n13500\nElement\nWater\nExp\n560\nTamableNo",
-        "SpawnAt": "Icule Lake",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Lizard Skin\n[Material]Turtle Shell\n[Ore]Damascus Ore\n[Shield]Shell Shield\n[Armor Crysta]Tortuga"
-    },
-    {
-        "Name": "Big Mask",
-        "Stats": "Lv\n70\nType-\nHPUnknownElement\nWind\nExp\n2400\nTamableNo",
-        "SpawnAt": "Haotas Ravine",
-        "Drops": "\n[Additional]Stier\n[Material]Ravine Dew\n[Material]Strong Vine\n[Material]Steel Seed Coat"
-    },
-    {
-        "Name": "Golden Coryn (2020)",
-        "Stats": "Lv\n106\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Usable]Apple\n[Additional]Ribbon5BC\n[Additional]HeadbandA28C\n[Additional]Mage HatAB21\n[Armor]Adventurer's GarbAB61\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA1C\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Golden Potum (5M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Additional]Potum HatABC\n[Additional]Potum HatABC\n[Additional]Potum HatABC\n[Additional]Potum HatAB1\n[Armor]Adventurer's Garb63BC\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbA29C\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbA14C\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Grylle",
-        "Stats": "Lv\n90\nType-\nHP\n150000\nElement\nDark\nExp\n1720\nTamableNo",
-        "SpawnAt": "Wanderer's Plain",
-        "Drops": "\n[Additional]Eyepatch (Cat)\n[Material]Strengthened Armor\n[Additional Crysta]Grylle"
-    },
-    {
-        "Name": "Sand Mole",
-        "Stats": "Lv\n50\nType-\nHP\n20000\nElement\nEarth\nExp\n380\nTamableNo",
-        "SpawnAt": "Centerio Highlands",
-        "Drops": "\n[Usable]Sand Mole Meat\n[Additional]Mole Eyes\n[Material]Sand Crystal\n[Material]Sand Mole Skin"
-    },
-    {
-        "Name": "Altoblepas",
-        "Stats": "Lv\n174\nType-\nHPUnknownElement\nNeutral\nExp\n27500\nTamableNo",
-        "SpawnAt": "Rokoko Plains",
-        "Drops": "\n[Bowgun]Double Barrel\n[Material]Vocal Sac\n[Material]Squawker Horn\n[Material]Cracked Hunting Horn\n[Additional Crysta]Altoblepas"
-    },
-    {
-        "Name": "King Potum",
-        "Stats": "Lv\n50\nType-\nHP\n8000\nElement\nNeutral\nExp\n320\nTamableNo",
-        "SpawnAt": "Athema Ruins: Area 1",
-        "Drops": "\n[Usable]Hard Apple\n[Additional]Hair Band\n[Material]Bead Fragment\n[Material]Potum Nail\n[Normal Crysta]King Potum"
-    },
-    {
-        "Name": "Commander Golem",
-        "Stats": "Lv\n154\nType-\nHP\n2400000\nElement\nDark\nExp\n20580\nTamableNo",
-        "SpawnAt": "Lufenas Mansion: Entrance",
-        "Drops": "\n[Armor]Adventurer's GarbA2238\n[Material]Hard Glass\n[Material]Crimson Loincloth\n[Material]Command Radar\n[Weapon Crysta]Commander Golem"
-    },
-    {
-        "Name": "Golden Coryn (2020)",
-        "Stats": "Lv\n105\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Usable]Apple\n[Additional]HeadbandA21C\n[Additional]Mage HatAB25\n[Additional]Ribbon1BC\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbA61C\n[Armor]Adventurer's Garb37BC\n[Material]Golden Apple"
-    },
-    {
-        "Name": "Radibat",
-        "Stats": "Lv\n200\nType-\nHPUnknownElement\nEarth\nExp\n44880\nTamableNo",
-        "SpawnAt": "Zarth's Mansion: Study",
-        "Drops": "\n[Usable]Flower Nectar (Bouquet)\n[Usable]Ginger Cake\n[Usable]Barmbrack\n[Usable]Zombie Cake\n[Usable]Pumpkin Cookie\n[Usable]Jack Pudding\n[Usable]Pumpkin Candy\n[Usable]Pumpkin Soup\n[Additional]Magical Skirt\n[Normal Crysta]Radibat"
-    },
-    {
-        "Name": "Persimmon Coryn",
-        "Stats": "Lv\n25\nType-\nHPUnknownElement\nLight\nExp\nUnknown\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
-    },
-    {
-        "Name": "Golden Coryn (2016)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB5\n[Additional]RibbonABC\n[Armor]Adventurer's Garb1BC"
-    },
-    {
-        "Name": "Golden Potum (10M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Additional]Potum HatAB5\n[Additional]Potum HatAB63\n[Additional]Potum Hat62BC\n[Additional]Potum Hat47BC\n[Additional]Potum HatA85C\n[Additional]Potum Hat28BC\n[Additional]Potum HatA54C\n[Additional]Potum HatA38C\n[Additional]Potum HatAB8\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbAB47\n[Armor]Adventurer's GarbAB46\n[Armor]Adventurer's Garb16BC\n[Armor]Adventurer's GarbA14C\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbAB21\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
-    },
-    {
-        "Name": "Dusk Machina",
-        "Stats": "Lv\n142\nType-\nHPUnknownElement\nDark\nExp\n17338\nTamableNo",
-        "SpawnAt": "Small Demi Machina Factory: Area 2",
-        "Drops": "\n[Material]Monster's Big Arm\n[Material]Crimson Huge Bone\n[Material]Giant Hand Print\n[Additional Crysta]Dusk Machina"
-    },
-    {
-        "Name": "Mega Alpoca",
-        "Stats": "Lv\n204\nType-\nHPUnknownElement\nNeutral\nExp\n34100\nTamableNo",
-        "SpawnAt": "Labilans Sector: Area 3",
-        "Drops": "\n[Additional]Fur Collar\n[Material]Alpoca Fur\n[Material]Smooth Fine Hair\n[Ore]Mithril Ore\n[Enhancer Crysta (Yellow)]Mega Alpoca"
-    },
-    {
-        "Name": "Fanadon",
-        "Stats": "Lv\n171\nType-\nHPUnknownElement\nNeutral\nExp\n24360\nTamableNo",
-        "SpawnAt": "Curonne Forest: North Area 2",
-        "Drops": "\n[Usable]Lizard Dango\n[Material]Split Mask\n[Material]Lizard Spirit Stone\n[Normal Crysta]Fanadon"
-    },
-    {
-        "Name": "Tardigrademon",
-        "Stats": "Lv\n213\nType-\nHPUnknownElement\nFire\nExp\n38157\nTamableNo",
-        "SpawnAt": "Old Lufenas Mansion Ruins",
-        "Drops": "\n[Material]Tardigrande Skin\n[Material]Chitinous Crimson Sphere\n[Material]Corroded Tail Thorn\n[Enhancer Crysta (Yellow)]Tardigrandemon"
-    },
-    {
-        "Name": "Golden Coryn (2017)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's Garb1BC"
-    },
-    {
-        "Name": "Capten Amiya",
-        "Stats": "Lv\n227\nType-\nHPUnknownElement\nLight\nExp\n65300\nTamableNo",
-        "SpawnAt": "Underwater Canyon: Area 3",
-        "Drops": "\n[Usable]Sweet Shrimp\n[Material]Seabed Crystal Stone\n[Material]Lovely Bubble\n[Special Crysta]Captain Amiya"
-    },
-    {
-        "Name": "Galegon",
-        "Stats": "Lv\n260\nType-\nHPUnknownElement\nWind\nExp\n42627\nTamableNo",
-        "SpawnAt": "Boma Moja: Area 3",
-        "Drops": "\n[Material]Flying Dragon Wing\n[Material]Endless Storm\n[Material]Flying Dragon Heart\n[Enhancer Crysta (Green)]Galegon"
-    },
-    {
-        "Name": "Persimmon Coryn",
-        "Stats": "Lv\n50\nType-\nHPUnknownElement\nLight\nExp\nUnknown\nTamableNo",
-        "SpawnAt": "Yorl Highlands",
-        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
-    },
-    {
-        "Name": "Golden Potum (12M DL)",
-        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Armor]Iris Armor\n[Armor]Iris Armor777"
-    },
-    {
         "Name": "Stone Mercenary",
-        "Stats": "Lv\n60\nType-\nHPUnknownElement\nEarth\nExp\n960\nTamableNo",
+        "Stats": "Lv\n60\nType-\nHPUnknownElement\nEarth\nExp\n960\nTamable\nNo",
         "SpawnAt": "Zoktzda Ruins : Abnormal Space",
         "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Pebble\n[Material]Zoktzda Stone\n[Shield]Mirror Shield\n[Special Crysta]Stone Mercenary"
     },
     {
-        "Name": "Moonlight Potum",
-        "Stats": "Lv\n72\nType-\nHPUnknownElement\nDark\nExp\n1860\nTamableNo",
-        "SpawnAt": "New Moon Palace: Innermost",
-        "Drops": "\n[Usable]Apple\n[Armor]Adventurer's GarbABC\n[Knuckles]Drills\n[Material]Moonlight Flower\n[Material]Potum Nail\n[Weapon Crysta]Moonlight Potum"
+        "Name": "Dandolion",
+        "Stats": "Lv\n308\nType-\nHP\n0\nElement\nWater\nExp\n83000\nTamable\nNo",
+        "SpawnAt": "Umidus Valley: Cliff Path",
+        "Drops": "\n[Usable]Dandelion Coffee\n[Material]Dandelion Fluff\n[Material]Dandelion Tooth\n[Enhancer Crysta (Green)]Dandolion"
     },
     {
-        "Name": "Ignitrus",
-        "Stats": "Lv\n251\nType-\nHPUnknownElement\nFire\nExp\n49022\nTamableNo",
-        "SpawnAt": "Vulcani Crater Base",
-        "Drops": "\n[Material]Vulcani Stone\n[Material]Burning Desire\n[Material]Rhyolite\n[Special Crysta]Ignitrus\n[Katana]Combat Knife"
+        "Name": "Blazingur",
+        "Stats": "Lv\n245\nType-\nHPUnknownElement\nFire\nExp\n43740\nTamable\nNo",
+        "SpawnAt": "Divido Valley: Area 3",
+        "Drops": "\n[Additional]Fire Bandana\n[Material]Red Claw\n[Material]Bloody Stone\n[Material]Blazing Mane\n[Enhancer Crysta (Blue)]Blazingur"
     },
     {
-        "Name": "Lord of Nezim",
-        "Stats": "Lv\n227\nType-\nHPUnknownElement\nWater\nExp\n39200\nTamableNo",
-        "SpawnAt": "Nezim Wetlands",
-        "Drops": "\n[Additional]Crystal Horns\n[Material]Powerful Jagged Tooth\n[Material]Slimy Hide\n[Material]Charred Salamander Meat\n[Additional Crysta]Lord of Nezim"
+        "Name": "Golden Potum (8M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Additional]Potum HatA48C\n[Additional]Potum HatAB46\n[Additional]Potum HatA84C\n[Armor]Adventurer's GarbAB65\n[Armor]Adventurer's Garb51BC\n[Armor]Adventurer's GarbA51C\n[Armor]Adventurer's GarbAB56\n[Armor]Adventurer's GarbA58C\n[Armor]Adventurer's Garb11BC\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
     },
     {
-        "Name": "Arbogazella",
-        "Stats": "Lv\n236\nType-\nHPUnknownElement\nWind\nExp\n41820\nTamableNo",
-        "SpawnAt": "Guardian Forest: Lost Woods",
-        "Drops": "\n[Usable]Star Fruit\n[Arrow]Guardian Forest Arrow\n[Material]Sharp Wooden Horn\n[Material]Sacred Forest Sound\n[Weapon Crysta]Arbogazella"
+        "Name": "Silver Coryn (2015)",
+        "Stats": "Lv\n100\nType-\nHPUnknownElement\nLight\nExp\nUnknownTamable\nNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Ribbon\n[Additional]RibbonABC\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's Garb49BC\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's Garb1BC"
     },
     {
-        "Name": "Wolkissa",
-        "Stats": "Lv\n257\nType-\nHPUnknownElement\nWater\nExp\n40800\nTamableNo",
-        "SpawnAt": "Weredragon's Throat",
-        "Drops": "\n[Bowgun]Holy Script gun\n[Material]Cloud Cat Horn\n[Material]Cloudbow Light\n[Material]Fleecy Cloud\n[Special Crysta]Wolkissa"
-    },
-    {
-        "Name": "Illuminitor",
-        "Stats": "Lv\n250\nType-\nHPUnknownElement\nWater\nExp\n45300\nTamableNo",
-        "SpawnAt": "Illuminare City: Route 1 (210-230)",
-        "Drops": "\n[Material]Silver Star Ornament\n[Material]Cold Scrap\n[Ore]Mithril Ore\n[Normal Crysta]Illuminitor"
-    },
-    {
-        "Name": "Outer World Wolf",
-        "Stats": "Lv\n70\nType-\nHPUnknownElement\nLight\nExp\n4800\nTamableNo",
-        "SpawnAt": "Gate to Another World: Area 2",
-        "Drops": "\n[Armor]Oracle RobeABC\n[Material]Space Wolf Horn\n[Material]Space Wolf Fur\n[Material]Space Wolf Claw"
-    },
-    {
-        "Name": "Glaucius",
-        "Stats": "Lv\n248\nType-\nHPUnknownElement\nDark\nExp\n44670\nTamableNo",
-        "SpawnAt": "Arstida: Area 2",
-        "Drops": "\n[Material]Strange Claw\n[Material]Mutated Sphere Core\n[Material]Dangerous Cnidoblast\n[Enhancer Crysta (Green)]Glaucius"
+        "Name": "Golden Coryn (2020)",
+        "Stats": "Lv\n108\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB28\n[Additional]Ribbon25BC\n[Additional]HeadbandA1C\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbAB41\n[Material]Golden Apple"
     },
     {
         "Name": "Lilicarolla",
-        "Stats": "Lv\n278\nType-\nHP\n14480000\nElement\nDark\nExp\n57750\nTamableNo",
+        "Stats": "Lv\n278\nType-\nHP\n14480000\nElement\nDark\nExp\n57750\nTamable\nNo",
         "SpawnAt": "Frozen Falls: Area 1",
         "Drops": "\n[Material]Geometric Petal\n[Material]Hexagonal Crystal\n[Material]Strange Needle Arm\n[Enhancer Crysta (Blue)]Lilicarolla"
     },
     {
-        "Name": "Golden Coryn (2018)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Darkanon Plain",
-        "Drops": "\n[Usable]Apple\n[Additional]RibbonAB5\n[Additional]RibbonAB38\n[Additional]RibbonA42C\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's Garb54BC\n[Armor]Adventurer's GarbAB54\n[Material]Golden Apple"
+        "Name": "Illuminitor",
+        "Stats": "Lv\n250\nType-\nHPUnknownElement\nWater\nExp\n45300\nTamable\nNo",
+        "SpawnAt": "Illuminare City: Route 1 (210-230)",
+        "Drops": "\n[Material]Silver Star Ornament\n[Material]Cold Scrap\n[Ore]Mithril Ore\n[Normal Crysta]Illuminitor"
     },
     {
-        "Name": "Golden Coryn (2017)",
-        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamableNo",
-        "SpawnAt": "Rakau Plains",
-        "Drops": "\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbAB1"
-    },
-    {
-        "Name": "Evil Magic Sword",
-        "Stats": "Lv\n134\nType-\nHP\n30\nElement\nDark\nExp\n19123\nTamableNo",
-        "SpawnAt": "Singolare Ruins: 2nd Floor",
-        "Drops": "\n[Material]Crooked Blade\n[Material]Evil Blade\n[Material]Greatly Evil Blade\n[Weapon Crysta]Evil Magic Sword"
-    },
-    {
-        "Name": "Capo Profundo",
-        "Stats": "Lv\n287\nType-\nHP\n15800000\nElement\nWater\nExp\n60500\nTamableNo",
-        "SpawnAt": "Abandoned District: Area 3",
-        "Drops": "\n[1 Handed Sword]Mace Sword\n[Material]Sharp Caudal Fin\n[Material]Abyssal Creature Fang\n[Material]Abyssal Kelp\n[Enhancer Crysta (Green)]Capo Profundo"
-    },
-    {
-        "Name": "Odelon Machina",
-        "Stats": "Lv\n146\nType-\nHPUnknownElement\nLight\nExp\n21357\nTamableNo",
-        "SpawnAt": "Large Demi Machina Factory: Area 2",
-        "Drops": "\n[2 Handed Sword]Lezvie\n[Material]Strange Skin\n[Material]Huge Eyeball\n[Material]Magic Lens\n[Material]Tough Tentacle\n[Normal Crysta]Odelon Machina"
+        "Name": "Super Death Mushroom",
+        "Stats": "Lv\n150\nType-\nHPUnknownElement\nDark\nExp\n24871\nTamable\nNo",
+        "SpawnAt": "Monster's Forest: Animal Trail",
+        "Drops": "\n[Usable]Mysterious Mushroom\n[Usable]Death Truffle\n[Armor]Adventurer's GarbA69C\n[Material]Mushroom Venom\n[Magic Device]Super Costero\n[Enhancer Crysta (Green)]Super Death Mushroom"
     },
     {
         "Name": "Silver Coryn (2021)",
-        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamableNo",
+        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamable\nNo",
         "SpawnAt": "Wanderer's Plain",
         "Drops": "\n[Usable]Apple\n[Additional]Warrior Helm54BC\n[Additional]Mage HatA54C\n[Additional]Scholar's GlassesAB54\n[Additional]Warrior Helm1BC\n[Additional]Mage HatA1C\n[Additional]Scholar's GlassesAB1\n[Armor]Plate Armor234\n[Material]Silver Apple"
     },
     {
+        "Name": "Arcoiris",
+        "Stats": "Lv\n70\nType-\nHPUnknownElement\nNeutral\nExp\n2400\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Additional]Feather Cape\n[Armor]Adventurer's Garb222746\n[Material]Bead Fragment\n[Material]Rainbow Feather\n[Material]Bird Wing\n[Armor Crysta]Arcoiris"
+    },
+    {
+        "Name": "Volotur",
+        "Stats": "Lv\n160\nType-\nHPUnknownElement\nDark\nExp\n24024\nTamable\nNo",
+        "SpawnAt": "Suburb of Droma Square: Area 3",
+        "Drops": "\n[Additional]Devil Circlet\n[Material]Spiky Fang\n[Material]Cursed Secret Soul\n[Material]Biting Head\n[Enhancer Crysta (Blue)]Volotur"
+    },
+    {
+        "Name": "Golden Coryn (2016)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Apple\n[Additional]RibbonABC\n[Additional]Mage HatAB1\n[Armor]Adventurer's GarbABC"
+    },
+    {
+        "Name": "Lord of Nezim",
+        "Stats": "Lv\n227\nType-\nHPUnknownElement\nWater\nExp\n39200\nTamable\nNo",
+        "SpawnAt": "Nezim Wetlands",
+        "Drops": "\n[Additional]Crystal Horns\n[Material]Powerful Jagged Tooth\n[Material]Slimy Hide\n[Material]Charred Salamander Meat\n[Additional Crysta]Lord of Nezim"
+    },
+    {
+        "Name": "Gopherga",
+        "Stats": "Lv\n207\nType-\nHPUnknownElement\nWater\nExp\n70000\nTamable\nNo",
+        "SpawnAt": "Underwater Ruins",
+        "Drops": "\n[Usable]Mysterious Clam\n[Material]Super Heavy Shell\n[Ore]Orichalcum Ore\n[Armor Crysta]Gopherga"
+    },
+    {
+        "Name": "Wiltileaf",
+        "Stats": "Lv\n305\nType-\nHP\n0\nElement\nFire\nExp\n6538\nTamable\nNo",
+        "SpawnAt": "Eumano Village Ruins: Area 2",
+        "Drops": "\n[Bow]Lyre Bow\n[Material]Tangled Roots\n[Material]Old Tree Sap\n[Material]Spiral Tree Bark\n[Enhancer Crysta (Blue)]Wiltileaf"
+    },
+    {
+        "Name": "Golden Potum (9M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Additional]Potum HatA80C\n[Additional]Potum HatA54C\n[Additional]Potum HatAB18\n[Additional]Potum Hat38BC\n[Additional]Potum HatA40C\n[Additional]Potum HatAB1\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbAB82\n[Armor]Adventurer's GarbAB4\n[Armor]Adventurer's Garb51BC\n[Armor]Adventurer's Garb36BC\n[Armor]Adventurer's GarbA1C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Golden Coryn (2019)",
+        "Stats": "Lv\n104\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Tolbas GrassLand",
+        "Drops": "\n[Usable]Apple\n[Additional]HeadbandA5C\n[Additional]Ribbon21BC\n[Additional]Mage HatAB1\n[Armor]Adventurer's Garb61BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB1\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Charugon",
+        "Stats": "Lv\n275\nType-\nHP\n19100000\nElement\nFire\nExp\n76600\nTamable\nNo",
+        "SpawnAt": "Boma Konda: Underground Area",
+        "Drops": "\n[2 Handed Sword]Dragon Slasher\n[Material]Hot Dragon Scale\n[Material]Inferno Sac\n[Material]Burnt Wood Board\n[Enhancer Crysta (Blue)]Charugon"
+    },
+    {
+        "Name": "Silver Coryn (2021)",
+        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Apple\n[Additional]Warrior Helm67BC\n[Additional]Mage HatA67C\n[Additional]Scholar's GlassesAB67\n[Additional]Warrior Helm21BC\n[Additional]Mage HatA21C\n[Additional]Scholar's GlassesAB21\n[Armor]Plate Armor234\n[Material]Silver Apple"
+    },
+    {
+        "Name": "Goldenia",
+        "Stats": "Lv\n187\nType-\nHPUnknownElement\nWind\nExp\n27930\nTamable\nNo",
+        "SpawnAt": "Elf Mountains: Area 3",
+        "Drops": "\n[Material]Glossy Black Leather\n[Material]Golden Stinging Hair\n[Material]Spiky Horns\n[Additional Crysta]Goldenia"
+    },
+    {
+        "Name": "Golden Potum (12M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Armor]Iris Armor"
+    },
+    {
+        "Name": "Seraph Machina",
+        "Stats": "Lv\n167\nType-\nHPUnknownElement\nLight\nExp\n21073\nTamable\nNo",
+        "SpawnAt": "Buried Tower: Inside",
+        "Drops": "\n[Material]Broken Magic Device\n[Material]Angel Heart\n[Material]Light Emitting Cloth\n[Magic Device]Angel Halo\n[Enhancer Crysta (Blue)]Seraph Machina"
+    },
+    {
+        "Name": "Gigant Knight",
+        "Stats": "Lv\n76\nType-\nHPUnknownElement\nEarth\nExp\n2680\nTamable\nNo",
+        "SpawnAt": "Saham Crater",
+        "Drops": "\n[1 Handed Sword]Tomahawk\n[Armor]Adventurer's GarbABC\n[Material]Hard Stone\n[Ore]Damascus Ore\n[Normal Crysta]Gigant Knight"
+    },
+    {
+        "Name": "Silver Coryn (2021)",
+        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Apple\n[Additional]Scholar's GlassesAB82\n[Additional]Mage HatA83C\n[Additional]Warrior Helm73BC\n[Additional]Mage HatA73C\n[Additional]Scholar's GlassesAB73\n[Additional]Warrior Helm20BC\n[Armor]Plate Armor234\n[Material]Silver Apple"
+    },
+    {
+        "Name": "Violacoon",
+        "Stats": "Lv\n80\nType-\nHP\n450000\nElement\nEarth\nExp\n5472\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Flower Nectar\n[Additional]Hero Scarf\n[Material]Bear Fur\n[Material]Sharp Bear Claw\n[Special Crysta]Violaccoon"
+    },
+    {
+        "Name": "Altoblepas",
+        "Stats": "Lv\n174\nType-\nHPUnknownElement\nNeutral\nExp\n27500\nTamable\nNo",
+        "SpawnAt": "Rokoko Plains",
+        "Drops": "\n[Bowgun]Double Barrel\n[Material]Vocal Sac\n[Material]Squawker Horn\n[Material]Cracked Hunting Horn\n[Additional Crysta]Altoblepas"
+    },
+    {
+        "Name": "Golden Potum (6M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Additional]Potum Hat4BC\n[Additional]Potum HatAB4\n[Additional]Potum HatAB3\n[Additional]Potum HatAB38\n[Armor]Adventurer's Garb50BC\n[Armor]Adventurer's GarbAB4\n[Armor]Adventurer's GarbA51C\n[Armor]Adventurer's Garb54BC\n[Armor]Adventurer's Garb2BC\n[Armor]Adventurer's GarbAB2\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB52\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Melancia",
+        "Stats": "Lv\n225\nType-\nHPUnknownElement\nEarth\nExp\n55307\nTamable\nNo",
+        "SpawnAt": "Phasma Forest: Area 2",
+        "Drops": "\n[Usable]Flower Nectar (Bouquet)\n[Usable]Grilled Eggplant\n[Material]Salad Dressing\n[Enhancer Crysta (Blue)]Melancia"
+    },
+    {
+        "Name": "Metal Stinger",
+        "Stats": "Lv\n82\nType-\nHPUnknownElement\nEarth\nExp\n4050\nTamable\nNo",
+        "SpawnAt": "Akaku Desert: Area 2",
+        "Drops": "\n[Material]Scorpion Tail\n[Material]Hard Scissor\n[Material]Sand Pyroxene\n[Normal Crysta]Metal Stinger"
+    },
+    {
+        "Name": "Golden Potum (12M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Armor]Iris Armor"
+    },
+    {
+        "Name": "Demonic Eye",
+        "Stats": "Lv\n212\nType-\nHP\n10000000\nElement\nWind\nExp\n75834\nTamable\nNo",
+        "SpawnAt": "Dea Ruinea",
+        "Drops": "\n[Material]Bizarre Skin\n[Material]Demon Serum\n[Material]Cursed Evil Eye\n[Enhancer Crysta (Green)]Demonic Eye"
+    },
+    {
+        "Name": "Grim Reaper Scarecrow",
+        "Stats": "Lv\n224\nType-\nHPUnknownElement\nWind\nExp\n35140\nTamable\nNo",
+        "SpawnAt": "Witch's Woods Area 2",
+        "Drops": "\n[Additional]Tattered Cloak\n[Material]Sturdy Core\n[Material]Crow Feather\n[Material]Scarecrow's Emotion\n[Armor Crysta]Grim Reaper Scarecrow"
+    },
+    {
+        "Name": "Tortuga",
+        "Stats": "Lv\n40\nType-\nHP\n13500\nElement\nWater\nExp\n560\nTamable\nNo",
+        "SpawnAt": "Icule Lake",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Lizard Skin\n[Material]Turtle Shell\n[Ore]Damascus Ore\n[Shield]Shell Shield\n[Armor Crysta]Tortuga"
+    },
+    {
+        "Name": "Golden Coryn (2019)",
+        "Stats": "Lv\n102\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB5\n[Additional]Ribbon28BC\n[Additional]HeadbandA25C\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's Garb1BC\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Concert Potum",
+        "Stats": "Lv\n180\nType-\nHPUnknownElement\nNeutral\nExp\n269\nTamable\nYes",
+        "SpawnAt": "Pom Taming Land",
+        "Drops": "\n[Usable]Apple\n[Usable]Sweet Apple\n[Usable]Yellow Apple\n[Usable]Hard Apple\n[Material]Green Apple"
+    },
+    {
+        "Name": "Canemofish",
+        "Stats": "Lv\n210\nType-\nHPUnknownElement\nLight\nExp\n39845\nTamable\nNo",
+        "SpawnAt": "Recetacula Sector: Area 1",
+        "Drops": "\n[Bowgun]Acid Gun\n[Material]Strong Copper Scale\n[Material]Crystal Pouch\n[Material]Sharp Fish Fang\n[Armor Crysta]Canemofish"
+    },
+    {
+        "Name": "Golden Coryn (2017)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's Garb1BC"
+    },
+    {
+        "Name": "Meteora",
+        "Stats": "Lv\n302\nType-\nHP\n0\nElement\nFire\nExp\n74656\nTamable\nNo",
+        "SpawnAt": "Menabra Plains",
+        "Drops": "\n[1 Handed Sword]Meteor Sword\n[Material]Tektite\n[Material]Meteoric Iron\n[Material]Abyssal Light\n[Enhancer Crysta (Green)]Meteora"
+    },
+    {
+        "Name": "Golden Potum (9M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Additional]Potum Hat5BC\n[Additional]Potum Hat82BC\n[Additional]Potum HatA4C\n[Additional]Potum HatA38C\n[Armor]Adventurer's Garb44BC\n[Armor]Adventurer's GarbA4C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's GarbA36C\n[Armor]Adventurer's GarbAB1\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Armasite",
+        "Stats": "Lv\n201\nType-\nHPUnknownElement\nFire\nExp\n33330\nTamable\nNo",
+        "SpawnAt": "Fractum Sector: Area 1",
+        "Drops": "\n[Material]Mutated Plant Thorn\n[Material]Amethyst Flower\n[Material]Corroded Stem\n[Weapon Crysta]Armasite"
+    },
+    {
+        "Name": "Limacina",
+        "Stats": "Lv\n290\nType-\nHP\n0\nElement\nFire\nExp\n71600\nTamable\nNo",
+        "SpawnAt": "Deep Sea: Zone 2",
+        "Drops": "\n[Material]Luminous Bacteria\n[Material]Cute Marine Wing\n[Material]Seabed Serenity\n[Enhancer Crysta (Blue)]Limacina"
+    },
+    {
+        "Name": "Lyark Master Specialist",
+        "Stats": "Lv\n157\nType-\nHPUnknownElement\nWind\nExp\n19089\nTamable\nNo",
+        "SpawnAt": "Brahe Laboratory: 2nd Building",
+        "Drops": "\n[Usable]Lyark Tranquilizer\n[Material]Ox Fabric\n[Material]Soldier Leader's Badge\n[Enhancer Crysta (Blue)]Lyark Master Specialist"
+    },
+    {
+        "Name": "Capten Amiya",
+        "Stats": "Lv\n227\nType-\nHPUnknownElement\nLight\nExp\n65300\nTamable\nNo",
+        "SpawnAt": "Underwater Canyon: Area 3",
+        "Drops": "\n[Usable]Sweet Shrimp\n[Material]Seabed Crystal Stone\n[Material]Lovely Bubble\n[Special Crysta]Captain Amiya"
+    },
+    {
+        "Name": "Amoeba Machina",
+        "Stats": "Lv\n158\nType-\nHPUnknownElement\nWater\nExp\n29000\nTamable\nNo",
+        "SpawnAt": "Ultimea Sewer: Southeast",
+        "Drops": "\n[Knuckles]Master's Tonfa\n[Material]Soft Swollen Nail\n[Material]Crooked Nucleic Acid\n[Material]Mysterious Cube\n[Enhancer Crysta (Blue)]Amoeba Machina"
+    },
+    {
+        "Name": "Ageladanios",
+        "Stats": "Lv\n218\nType-\nHP\n7000000\nElement\nFire\nExp\n34350\nTamable\nNo",
+        "SpawnAt": "Ducia Coast: Area 1",
+        "Drops": "\n[Armor]Savage Mail\n[Material]Evil Spirit Horns\n[Material]Flame of Misfortune\n[Material]Raging Soul\n[Enhancer Crysta (Blue)]Ageladanios"
+    },
+    {
+        "Name": "Daddy Finpen",
+        "Stats": "Lv\n123\nType-\nHPUnknownElement\nWater\nExp\n8000\nTamable\nNo",
+        "SpawnAt": "Spring of Rebirth: Middle",
+        "Drops": "\n[Armor]Adventurer's Garb1229C\n[Material]Clean Water\n[Material]Daddy Soul\n[Material]Yellow Beak\n[Enhancer Crysta (Green)]Daddy Finpen"
+    },
+    {
+        "Name": "Thug Golem",
+        "Stats": "Lv\n191\nType-\nHPUnknownElement\nWater\nExp\n29190\nTamable\nNo",
+        "SpawnAt": "Dark Dragon Shrine: Middle",
+        "Drops": "\n[Material]Ancient Ingot\n[Material]Pancake Ice Flower\n[Material]Shining Monoeye\n[Armor Crysta]Thug Golem"
+    },
+    {
+        "Name": "Bubble Bogey",
+        "Stats": "Lv\n177\nType-\nHPUnknownElement\nFire\nExp\n26754\nTamable\nNo",
+        "SpawnAt": "Barbaros Corridor",
+        "Drops": "\n[Dagger]Fallen Angel Dagger\n[Material]Cracked Halo\n[Material]Red Fallen Angel Halo\n[Material]Mysterious Shiny Cloth\n[Enhancer Crysta (Red)]Bubble Bogey"
+    },
+    {
+        "Name": "Death Colon",
+        "Stats": "Lv\n84\nType-\nHPUnknownElement\nDark\nExp\n4620\nTamable\nNo",
+        "SpawnAt": "Vyshed the Tainted Land: Area 2",
+        "Drops": "\n[Additional]Afro Wig\n[Armor]Adventurer's GarbAB54\n[Material]Decayed Branch\n[Material]Withered Leaf\n[Material]Rotten Colon Skin\n[Ore]Mithril Ore\n[Weapon Crysta]Death Colon"
+    },
+    {
+        "Name": "Trocostida",
+        "Stats": "Lv\n230\nType-\nHPUnknownElement\nDark\nExp\n40000\nTamable\nNo",
+        "SpawnAt": "Nov Diela Area 1",
+        "Drops": "\n[Usable]Energy Bottle EX\n[Material]Glowing Liposome\n[Material]Wriggling Latebra\n[Enhancer Crysta (Yellow)]Trocostida"
+    },
+    {
+        "Name": "Golden Potum (5M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Additional]Potum HatA5C\n[Additional]Potum Hat71BC\n[Additional]Potum HatA19C\n[Additional]Potum HatA21C\n[Armor]Adventurer's Garb49BC\n[Armor]Adventurer's GarbA71C\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbA20C\n[Armor]Adventurer's GarbA9C\n[Armor]Adventurer's GarbA1C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Golden Potum (10M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Tolbas GrassLand",
+        "Drops": "\n[Additional]Potum HatA5C\n[Additional]Potum HatA64C\n[Additional]Potum HatAB64\n[Additional]Potum Hat63BC\n[Additional]Potum Hat46BC\n[Additional]Potum HatA46C\n[Additional]Potum HatAB46\n[Additional]Potum HatAB53\n[Additional]Potum Hat21BC\n[Armor]Adventurer's GarbA47C\n[Armor]Adventurer's Garb46BC\n[Armor]Adventurer's GarbA46C\n[Armor]Adventurer's GarbA18C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb37BC\n[Armor]Adventurer's GarbAB6\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Golden Coryn (2018)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Usable]Apple\n[Additional]RibbonA5C\n[Additional]RibbonA38C\n[Additional]Ribbon42BC\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbAB1\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Dark Mushroom",
+        "Stats": "Lv\n30\nType-\nHP\n17500\nElement\nDark\nExp\n440\nTamable\nNo",
+        "SpawnAt": "Isthmus Of Kaus",
+        "Drops": "\n[Usable]Poisonous Mushroom\n[Additional]Scholar's Glasses\n[Armor]Adventurer's GarbA54C\n[Material]Mushroom Spore\n[Material]Turbid Crystal\n[Special Crysta]Dark Mushroom"
+    },
+    {
+        "Name": "Golden Coryn (2020)",
+        "Stats": "Lv\n105\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Apple\n[Additional]HeadbandA21C\n[Additional]Mage HatAB25\n[Additional]Ribbon1BC\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbA61C\n[Armor]Adventurer's Garb37BC\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Persimmon Coryn",
+        "Stats": "Lv\n75\nType-\nHPUnknownElement\nLight\nExp\nUnknownTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
+    },
+    {
+        "Name": "Golden Potum (6M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Additional]Potum Hat54BC\n[Additional]Potum HatA54C\n[Additional]Potum HatAB2\n[Additional]Potum HatA53C\n[Armor]Adventurer's GarbA50C\n[Armor]Adventurer's GarbAB50\n[Armor]Adventurer's GarbAB51\n[Armor]Adventurer's Garb3BC\n[Armor]Adventurer's GarbA54C\n[Armor]Adventurer's Garb20BC\n[Armor]Adventurer's GarbAB20\n[Armor]Adventurer's GarbAB42\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Orictoceras",
+        "Stats": "Lv\n272\nType-\nHP\n13500000\nElement\nEarth\nExp\n51200\nTamable\nNo",
+        "SpawnAt": "Kabla Jabali",
+        "Drops": "\n[Material]Growing Ore\n[Material]Stone Sternal Bone\n[Material]Deadly Claw\n[Enhancer Crysta (Blue)]Orictoceras"
+    },
+    {
+        "Name": "Rampion",
+        "Stats": "Lv\n254\nType-\nHPUnknownElement\nDark\nExp\n45540\nTamable\nNo",
+        "SpawnAt": "Milcaska Falls: Army Base",
+        "Drops": "\n[Material]Bone Scissors\n[Material]Devil's Skull\n[Material]Poison Crystal Tail\n[Normal Crysta]Rampion"
+    },
+    {
+        "Name": "Golden Potum (8M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Additional]Potum Hat81BC\n[Additional]Potum HatAB47\n[Additional]Potum Hat75BC\n[Additional]Potum HatA37C\n[Armor]Adventurer's Garb65BC\n[Armor]Adventurer's GarbA70C\n[Armor]Adventurer's GarbAB67\n[Armor]Adventurer's Garb56BC\n[Armor]Adventurer's GarbAB19\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
+    },
+    {
         "Name": "Crimsosh",
-        "Stats": "Lv\n37\nType-\nHP\n22500\nElement\nFire\nExp\n500\nTamableNo",
+        "Stats": "Lv\n37\nType-\nHP\n22500\nElement\nFire\nExp\n500\nTamable\nNo",
         "SpawnAt": "Athema Ruins: Area 2",
         "Drops": "\n[Additional]Dawn Hat\n[Armor]Adventurer's GarbABC\n[Normal Crysta]Crimsosch"
+    },
+    {
+        "Name": "Golden Potum (3M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Additional]Ribbon5BC\n[Additional]RibbonA50C\n[Additional]RibbonAB50\n[Additional]RibbonA1C\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA50C\n[Armor]Adventurer's GarbAB50\n[Armor]Adventurer's GarbAB4\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA1C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Golden Potum (10M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Additional]Potum HatA50C\n[Additional]Potum HatAB50\n[Additional]Potum HatAB62\n[Additional]Potum HatA47C\n[Additional]Potum HatAB47\n[Additional]Potum Hat85BC\n[Additional]Potum Hat38BC\n[Additional]Potum Hat6BC\n[Additional]Potum HatA1C\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbA32C\n[Armor]Adventurer's GarbAB16\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA6C\n[Armor]Adventurer's Garb20BC\n[Armor]Adventurer's GarbA1C\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Big Coryn",
+        "Stats": "Lv\n60\nType-\nHPUnknownElement\nLight\nExp\n1730\nTamable\nNo",
+        "SpawnAt": "Douce Hamlet",
+        "Drops": "\n[Usable]Apple\n[Refinement Support]Magic Hammer\n[Additional]Flower Headband\n[Armor]Adventurer's GarbABC\n[Material]Young Branch\n[Material]Plant Skin\n[Normal Crysta]Big Coryn"
+    },
+    {
+        "Name": "Golden Potum (7M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat5BC\n[Additional]Potum Hat21BC\n[Additional]Potum HatA21C\n[Additional]Potum HatAB1\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbAB84\n[Armor]Adventurer's Garb54BC\n[Armor]Adventurer's GarbA18C\n[Armor]Adventurer's GarbAB18\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbA6C\n[Armor]Adventurer's Garb1BC\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Silver Coryn (2021)",
+        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamable\nNo",
+        "SpawnAt": "Tolbas GrassLand",
+        "Drops": "\n[Usable]Apple\n[Additional]Warrior Helm5BC\n[Additional]Mage HatA5C\n[Additional]Scholar's GlassesAB5\n[Additional]Warrior Helm74BC\n[Additional]Mage HatA74C\n[Additional]Scholar's GlassesAB74\n[Armor]Plate Armor234\n[Material]Silver Apple"
+    },
+    {
+        "Name": "Golden Potum (11M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Revita II\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat505183\n[Additional]Potum Hat24948\n[Additional]Potum Hat191619\n[Additional]Potum Hat5356\n[Armor]Adventurer's Garb485049\n[Armor]Adventurer's Garb67664\n[Armor]Adventurer's Garb6484\n[Armor]Adventurer's Garb5415\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)"
+    },
+    {
+        "Name": "Golden Potum (10M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Additional]Potum Hat5BC\n[Additional]Potum Hat64BC\n[Additional]Potum HatA63C\n[Additional]Potum HatA48C\n[Additional]Potum HatAB48\n[Additional]Potum HatAB18\n[Additional]Potum HatA20C\n[Additional]Potum Hat42BC\n[Additional]Potum HatAB1\n[Armor]Adventurer's GarbA64C\n[Armor]Adventurer's GarbAB64\n[Armor]Adventurer's GarbAB48\n[Armor]Adventurer's Garb47BC\n[Armor]Adventurer's Garb54BC\n[Armor]Adventurer's Garb18BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB1\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Wolkissa",
+        "Stats": "Lv\n257\nType-\nHPUnknownElement\nWater\nExp\n40800\nTamable\nNo",
+        "SpawnAt": "Weredragon's Throat",
+        "Drops": "\n[Bowgun]Holy Script gun\n[Material]Cloud Cat Horn\n[Material]Cloudbow Light\n[Material]Fleecy Cloud\n[Special Crysta]Wolkissa"
+    },
+    {
+        "Name": "Golden Coryn (2017)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC"
+    },
+    {
+        "Name": "Odelon Machina",
+        "Stats": "Lv\n146\nType-\nHPUnknownElement\nLight\nExp\n21357\nTamable\nNo",
+        "SpawnAt": "Large Demi Machina Factory: Area 2",
+        "Drops": "\n[2 Handed Sword]Lezvie\n[Material]Strange Skin\n[Material]Huge Eyeball\n[Material]Magic Lens\n[Material]Tough Tentacle\n[Normal Crysta]Odelon Machina"
+    },
+    {
+        "Name": "Capo Profundo",
+        "Stats": "Lv\n287\nType-\nHP\n15800000\nElement\nWater\nExp\n60500\nTamable\nNo",
+        "SpawnAt": "Abandoned District: Area 3",
+        "Drops": "\n[1 Handed Sword]Mace Sword\n[Material]Sharp Caudal Fin\n[Material]Abyssal Creature Fang\n[Material]Abyssal Kelp\n[Enhancer Crysta (Green)]Capo Profundo"
+    },
+    {
+        "Name": "Golden Potum (9M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Additional]Potum HatA5C\n[Additional]Potum HatA82C\n[Additional]Potum HatAB82\n[Additional]Potum HatAB81\n[Additional]Potum Hat4BC\n[Additional]Potum Hat18BC\n[Additional]Potum Hat1BC\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA82C\n[Armor]Adventurer's Garb4BC\n[Armor]Adventurer's GarbAB51\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB36\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Builder Golem",
+        "Stats": "Lv\n138\nType-\nHPUnknownElement\nNeutral\nExp\n17564\nTamable\nNo",
+        "SpawnAt": "Huge Crysta Factory: 3rd Floor",
+        "Drops": "\n[Usable]Strange Tool Box\n[Material]Rusted Iron Plate\n[Material]Cracked Lense\n[Material]Mysterious Magic Lantern\n[Enhancer Crysta (Red)]Builder Golem"
+    },
+    {
+        "Name": "Golden Potum (6M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Additional]Potum HatA4C\n[Additional]Potum Hat3BC\n[Additional]Potum Hat2BC\n[Additional]Potum HatA2C\n[Armor]Adventurer's Garb82BC\n[Armor]Adventurer's GarbA82C\n[Armor]Adventurer's Garb4BC\n[Armor]Adventurer's GarbAB19\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA20C\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Evil Magic Sword",
+        "Stats": "Lv\n134\nType-\nHP\n30\nElement\nDark\nExp\n19123\nTamable\nNo",
+        "SpawnAt": "Singolare Ruins: 2nd Floor",
+        "Drops": "\n[Material]Crooked Blade\n[Material]Evil Blade\n[Material]Greatly Evil Blade\n[Weapon Crysta]Evil Magic Sword"
+    },
+    {
+        "Name": "Tappler",
+        "Stats": "Lv\n218\nType-\nHPUnknownElement\nDark\nExp\n37400\nTamable\nNo",
+        "SpawnAt": "Ruins of Urban Elban",
+        "Drops": "\n[Material]Strange Dust\n[Material]Glow Pebble\n[Material]Geometric Metal Bit\n[Enhancer Crysta (Blue)]Tappler"
+    },
+    {
+        "Name": "Wandering Wheel",
+        "Stats": "Lv\n163\nType-\nHPUnknownElement\nWind\nExp\n20223\nTamable\nNo",
+        "SpawnAt": "Ultimea Palace: Demi Machina Storage",
+        "Drops": "\n[Armor]Adventurer's Garb83B69\n[Material]Sticky Wax\n[Material]Heavy Wheel\n[Material]Magic Engine\n[Enhancer Crysta (Yellow)]Wandering Wheel"
+    },
+    {
+        "Name": "Gordo",
+        "Stats": "Lv\n242\nType-\nHPUnknownElement\nLight\nExp\n43700\nTamable\nNo",
+        "SpawnAt": "Eumano Glade",
+        "Drops": "\n[Material]Cracked Acorn Hat\n[Material]Huge Acorn\n[Material]Dream Fragment\n[Enhancer Crysta (Yellow)]Gordo"
+    },
+    {
+        "Name": "Golden Coryn (2020)",
+        "Stats": "Lv\n106\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Usable]Apple\n[Additional]Ribbon5BC\n[Additional]HeadbandA28C\n[Additional]Mage HatAB21\n[Armor]Adventurer's GarbAB61\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA1C\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Grylle",
+        "Stats": "Lv\n90\nType-\nHP\n150000\nElement\nDark\nExp\n1720\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Additional]Eyepatch (Cat)\n[Material]Strengthened Armor\n[Additional Crysta]Grylle"
+    },
+    {
+        "Name": "Miracle Potum",
+        "Stats": "Lv\n42\nType-\nHP\n29000\nElement\nLight\nExp\n600\nTamable\nNo",
+        "SpawnAt": "Ruined Temple: Area 2",
+        "Drops": "\n[Usable]Save Point\n[Usable]Hard Apple\n[Armor]Adventurer's GarbABC\n[Material]Potum Nail\n[Staff]Morning Star\n[Weapon Crysta]Miracle Potum"
+    },
+    {
+        "Name": "Golden Potum (10M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Additional]Potum HatA62C\n[Additional]Potum HatA84C\n[Additional]Potum Hat54BC\n[Additional]Potum HatAB54\n[Additional]Potum HatA11C\n[Additional]Potum HatAB38\n[Additional]Potum Hat53BC\n[Additional]Potum HatAB20\n[Additional]Potum Hat1BC\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's Garb48BC\n[Armor]Adventurer's GarbA16C\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's Garb6BC\n[Armor]Adventurer's GarbAB20\n[Armor]Adventurer's Garb1BC\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Golden Coryn (2020)",
+        "Stats": "Lv\n109\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Tolbas GrassLand",
+        "Drops": "\n[Usable]Apple\n[Additional]HeadbandA5C\n[Additional]Ribbon21BC\n[Additional]Mage HatAB1\n[Armor]Adventurer's Garb61BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB1\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Vodre",
+        "Stats": "Lv\n281\nType-\nHPUnknownElement\nWater\nExp\n67680\nTamable\nNo",
+        "SpawnAt": "Puerta Islands: Area 2",
+        "Drops": "\n[Material]Moist Thin Fin\n[Material]Aquamarine Pearl\n[Material]Moist Thin Wing\n[Special Crysta]Vodre"
+    },
+    {
+        "Name": "Mega Alpoca",
+        "Stats": "Lv\n204\nType-\nHPUnknownElement\nNeutral\nExp\n34100\nTamable\nNo",
+        "SpawnAt": "Labilans Sector: Area 3",
+        "Drops": "\n[Additional]Fur Collar\n[Material]Alpoca Fur\n[Material]Smooth Fine Hair\n[Ore]Mithril Ore\n[Enhancer Crysta (Yellow)]Mega Alpoca"
+    },
+    {
+        "Name": "Golden Coryn (2016)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Apple\n[Additional]HeadbandABC\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbABC"
+    },
+    {
+        "Name": "Outer World Wolf",
+        "Stats": "Lv\n70\nType-\nHPUnknownElement\nLight\nExp\n4800\nTamable\nNo",
+        "SpawnAt": "Gate to Another World: Area 1",
+        "Drops": "\n[Armor]Oracle RobeABC\n[Material]Space Wolf Horn\n[Material]Space Wolf Fur\n[Material]Space Wolf Claw"
+    },
+    {
+        "Name": "Kuffania",
+        "Stats": "Lv\n250\nType-\nHPUnknownElement\nDark\nExp\n55900\nTamable\nNo",
+        "SpawnAt": "Risus Valley: Area 2",
+        "Drops": "\n[Usable]Bat Candy\n[Usable]Battie Scone\n[Material]Poison Blood\n[Enhancer Crysta (Blue)]Kuffania"
+    },
+    {
+        "Name": "Commander Golem",
+        "Stats": "Lv\n154\nType-\nHP\n2400000\nElement\nDark\nExp\n20580\nTamable\nNo",
+        "SpawnAt": "Lufenas Mansion: Entrance",
+        "Drops": "\n[Armor]Adventurer's GarbA2238\n[Material]Hard Glass\n[Material]Crimson Loincloth\n[Material]Command Radar\n[Weapon Crysta]Commander Golem"
+    },
+    {
+        "Name": "Espectro",
+        "Stats": "Lv\n221\nType-\nHPUnknownElement\nDark\nExp\n33600\nTamable\nNo",
+        "SpawnAt": "Arche Valley: Area 1",
+        "Drops": "\n[Material]Metal Shackles\n[Material]Vengeful Soul\n[Material]Skull Mask Fragment\n[Enhancer Crysta (Purple)]Espectro"
+    },
+    {
+        "Name": "Fanadon",
+        "Stats": "Lv\n171\nType-\nHPUnknownElement\nNeutral\nExp\n24360\nTamable\nNo",
+        "SpawnAt": "Curonne Forest: North Area 2",
+        "Drops": "\n[Usable]Lizard Dango\n[Material]Split Mask\n[Material]Lizard Spirit Stone\n[Normal Crysta]Fanadon"
+    },
+    {
+        "Name": "Golden Potum (12M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Armor]Iris Armor"
+    },
+    {
+        "Name": "Ignitrus",
+        "Stats": "Lv\n251\nType-\nHPUnknownElement\nFire\nExp\n49022\nTamable\nNo",
+        "SpawnAt": "Vulcani Crater Base",
+        "Drops": "\n[Material]Vulcani Stone\n[Material]Burning Desire\n[Material]Rhyolite\n[Special Crysta]Ignitrus\n[Katana]Combat Knife"
+    },
+    {
+        "Name": "Golden Potum (5M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Additional]Potum Hat5BC\n[Additional]Potum HatA44C\n[Additional]Potum HatA28C\n[Additional]Potum Hat21BC\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbA47C\n[Armor]Adventurer's Garb71BC\n[Armor]Adventurer's GarbAB35\n[Armor]Straye GarbABC\n[Armor]Adventurer's Garb37BC\n[Armor]Adventurer's Garb21BC\n[Armor]Adventurer's Garb9BC\n[Armor]Adventurer's Garb1BC\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Outer World Wolf",
+        "Stats": "Lv\n70\nType-\nHPUnknownElement\nLight\nExp\n4800\nTamable\nNo",
+        "SpawnAt": "Gate to Another World: Area 2",
+        "Drops": "\n[Armor]Oracle RobeABC\n[Material]Space Wolf Horn\n[Material]Space Wolf Fur\n[Material]Space Wolf Claw"
+    },
+    {
+        "Name": "Golden Coryn (2020)",
+        "Stats": "Lv\n107\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB5\n[Additional]Ribbon28BC\n[Additional]HeadbandA25C\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's Garb1BC\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Moonlight Potum",
+        "Stats": "Lv\n72\nType-\nHPUnknownElement\nDark\nExp\n1860\nTamable\nNo",
+        "SpawnAt": "New Moon Palace: Innermost",
+        "Drops": "\n[Usable]Apple\n[Armor]Adventurer's GarbABC\n[Knuckles]Drills\n[Material]Moonlight Flower\n[Material]Potum Nail\n[Weapon Crysta]Moonlight Potum"
+    },
+    {
+        "Name": "Seltirios",
+        "Stats": "Lv\n60\nType-\nHP\n60000\nElement\nDark\nExp\n960\nTamable\nNo",
+        "SpawnAt": "Aulada Ancient Tower",
+        "Drops": "\n[Additional]Vampire Cape\n[Material]Crimson Claw\n[Material]Red Crystal Stone Fragment\n[Material]Little Wyvern Wing\n[Additional Crysta]Seltirios"
+    },
+    {
+        "Name": "Glaucius",
+        "Stats": "Lv\n248\nType-\nHPUnknownElement\nDark\nExp\n44670\nTamable\nNo",
+        "SpawnAt": "Arstida: Area 2",
+        "Drops": "\n[Material]Strange Claw\n[Material]Mutated Sphere Core\n[Material]Dangerous Cnidoblast\n[Enhancer Crysta (Green)]Glaucius"
+    },
+    {
+        "Name": "Solopy",
+        "Stats": "Lv\n169\nType-\nHPUnknownElement\nEarth\nExp\n23835\nTamable\nNo",
+        "SpawnAt": "Turnus Mine: Area 3",
+        "Drops": "\n[Material]Tasty Mushroom\n[Material]Tweed Fabric\n[Material]Turnus Crystal\n[Special]Hallucination Spore\n[Enhancer Crysta (Yellow)]Solopy"
+    },
+    {
+        "Name": "Golden Potum (5M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Additional]Potum HatABC\n[Additional]Potum HatABC\n[Additional]Potum HatABC\n[Additional]Potum HatAB1\n[Armor]Adventurer's Garb63BC\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbA29C\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbA14C\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbABC\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Arbogazella",
+        "Stats": "Lv\n236\nType-\nHPUnknownElement\nWind\nExp\n41820\nTamable\nNo",
+        "SpawnAt": "Guardian Forest: Lost Woods",
+        "Drops": "\n[Usable]Star Fruit\n[Arrow]Guardian Forest Arrow\n[Material]Sharp Wooden Horn\n[Material]Sacred Forest Sound\n[Weapon Crysta]Arbogazella"
+    },
+    {
+        "Name": "Fantica",
+        "Stats": "Lv\n284\nType-\nHP\n14777385\nElement\nWater\nExp\n55153\nTamable\nNo",
+        "SpawnAt": "Espuma Dome: Area 2",
+        "Drops": "\n[Material]Seahorse Herbal Medicine\n[Material]Circular Plate\n[Material]Coral Rock\n[Enhancer Crysta (Yellow)]Fantica"
+    },
+    {
+        "Name": "Golden Potum (6M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Additional]Potum HatA3C\n[Additional]Potum HatAB54\n[Additional]Potum Hat38BC\n[Additional]Potum HatA38C\n[Armor]Adventurer's Garb51BC\n[Armor]Adventurer's GarbA3C\n[Armor]Adventurer's GarbAB3\n[Armor]Adventurer's GarbAB54\n[Armor]Adventurer's GarbA2C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb52BC\n[Armor]Adventurer's GarbA52C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Tardigrademon",
+        "Stats": "Lv\n213\nType-\nHPUnknownElement\nFire\nExp\n38157\nTamable\nNo",
+        "SpawnAt": "Old Lufenas Mansion Ruins",
+        "Drops": "\n[Material]Tardigrande Skin\n[Material]Chitinous Crimson Sphere\n[Material]Corroded Tail Thorn\n[Enhancer Crysta (Yellow)]Tardigrandemon"
+    },
+    {
+        "Name": "Dusk Machina",
+        "Stats": "Lv\n142\nType-\nHPUnknownElement\nDark\nExp\n17338\nTamable\nNo",
+        "SpawnAt": "Small Demi Machina Factory: Area 2",
+        "Drops": "\n[Material]Monster's Big Arm\n[Material]Crimson Huge Bone\n[Material]Giant Hand Print\n[Additional Crysta]Dusk Machina"
+    },
+    {
+        "Name": "Golden Potum (7M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Usable]Revita V\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum HatA46C\n[Additional]Potum Hat54BC\n[Additional]Potum HatAB21\n[Additional]Potum HatA1C\n[Armor]Adventurer's GarbAB83\n[Armor]Adventurer's GarbAB2\n[Armor]Adventurer's Garb37BC\n[Armor]Adventurer's GarbAB37\n[Armor]Adventurer's Garb6BC\n[Armor]Adventurer's Garb21BC\n[Armor]Adventurer's GarbA21C\n[Armor]Adventurer's GarbAB1\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Frenzy Viola",
+        "Stats": "Lv\n198\nType-\nHPUnknownElement\nEarth\nExp\n42126\nTamable\nNo",
+        "SpawnAt": "Morthell Swell: Area 3",
+        "Drops": "\n[Material]Mysterious Skull\n[Material]Temptation Flower\n[Material]Dark Red Fluid\n[Special Crysta]Frenzy Viola"
+    },
+    {
+        "Name": "Rhinosaur",
+        "Stats": "Lv\n233\nType-\nHPUnknownElement\nEarth\nExp\n41000\nTamable\nNo",
+        "SpawnAt": "Fugitive Lake Swamp: Area 3",
+        "Drops": "\n[Material]Hard Armor Skin\n[Material]Adamantite Horn\n[Material]Bold Gaze\n[Halberd]Drill Shaft\n[Enhancer Crysta (Blue)]Rhinosaur"
+    },
+    {
+        "Name": "Lapin The Necromancer",
+        "Stats": "Lv\n124\nType-\nHPUnknownElement\nNeutral\nExp\n17222\nTamable\nNo",
+        "SpawnAt": "Trace of Dark River",
+        "Drops": "\n[Additional]Necromancer Hood\n[Armor]Adventurer's Garb77BC\n[Material]Soft Paw\n[Material]Torn Robe\n[Material]Cracked Skull\n[Material]Lapin's Soul\n[Weapon Crysta]Lapin The Necromancer"
+    },
+    {
+        "Name": "Sand Bandits Leader",
+        "Stats": "Lv\n215\nType-\nHPUnknownElement\nEarth\nExp\n48500\nTamable\nNo",
+        "SpawnAt": "Geist Desert: Area 3",
+        "Drops": "\n[Additional]Sand Bandit Mask\n[Material]Sand Bandits Bandage\n[Material]Leader's Hair Accessory\n[Material]Blood Stained Billhook\n[Enhancer Crysta (Purple)]Sand Bandits Leader"
+    },
+    {
+        "Name": "Carbuncle",
+        "Stats": "Lv\n183\nType-\nHPUnknownElement\nFire\nExp\n27200\nTamable\nNo",
+        "SpawnAt": "Hall of Construction Gods",
+        "Drops": "\n[2 Handed Sword]Carbuncle Edge\n[Material]Carbuncle Fur\n[Material]Shining Mirror\n[Material]Carbuncle Claw\n[Normal Crysta]Carbuncle"
+    },
+    {
+        "Name": "Golden Coryn (2019)",
+        "Stats": "Lv\n101\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Usable]Apple\n[Additional]Ribbon5BC\n[Additional]HeadbandA28C\n[Additional]Mage HatAB21\n[Armor]Adventurer's GarbAB61\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA1C\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Golden Coryn (2019)",
+        "Stats": "Lv\n103\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB28\n[Additional]Ribbon25BC\n[Additional]HeadbandA1C\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbAB41\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Golden Potum (12M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Armor]Iris Armor\n[Armor]Iris Armor777"
+    },
+    {
+        "Name": "Granny",
+        "Stats": "Lv\n88\nType-\nHPUnknownElement\nEarth\nExp\n3818\nTamable\nNo",
+        "SpawnAt": "Abyss of No Return: Area 3",
+        "Drops": "\n[Material]Magic Charged Branch\n[Material]Ancient Big Tree\n[Material]Tree Spirit Soul\n[Staff]Bloom of Peace\n[Special Crysta]Granny"
+    },
+    {
+        "Name": "Persimmon Coryn",
+        "Stats": "Lv\n50\nType-\nHPUnknownElement\nLight\nExp\nUnknownTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
+    },
+    {
+        "Name": "Persimmon Coryn",
+        "Stats": "Lv\n25\nType-\nHPUnknownElement\nLight\nExp\nUnknownTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
+    },
+    {
+        "Name": "June Bride Event (all mini boss)",
+        "Stats": "Lv\n0\nType-\nHP\n0\nElement\nNeutral\nExp\n0\nTamable\nNo",
+        "SpawnAt": "Event",
+        "Drops": "\n[Usable]Bride Box\n[Usable]Groom Box"
+    },
+    {
+        "Name": "Giant Boar",
+        "Stats": "Lv\n52\nType-\nHPUnknownElement\nEarth\nExp\n800\nTamable\nNo",
+        "SpawnAt": "Nisel Mountain",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Material]Animal Skin\n[Material]Sturdy Fur\n[Additional Crysta]Giant Boar"
+    },
+    {
+        "Name": "Golden Coryn (2017)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbA1C"
+    },
+    {
+        "Name": "Golden Potum (10M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Additional]Potum HatAB5\n[Additional]Potum HatAB63\n[Additional]Potum Hat62BC\n[Additional]Potum Hat47BC\n[Additional]Potum HatA85C\n[Additional]Potum Hat28BC\n[Additional]Potum HatA54C\n[Additional]Potum HatA38C\n[Additional]Potum HatAB8\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbAB47\n[Armor]Adventurer's GarbAB46\n[Armor]Adventurer's Garb16BC\n[Armor]Adventurer's GarbA14C\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbAB21\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Caspy",
+        "Stats": "Lv\n77\nType-\nHPUnknownElement\nDark\nExp\n2720\nTamable\nNo",
+        "SpawnAt": "Ancient Empress Tomb: Area 2",
+        "Drops": "\n[Additional]Cat-Ear Hood1BC\n[Armor]Adventurer's GarbA495\n[Normal Crysta]Caspy"
+    },
+    {
+        "Name": "Golden Potum (7M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Usable]Revita III\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum HatAB5\n[Additional]Potum Hat82BC\n[Additional]Potum Hat71BC\n[Additional]Potum Hat1BC\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbAB64\n[Armor]Adventurer's GarbA84C\n[Armor]Adventurer's GarbAB54\n[Armor]Adventurer's Garb18BC\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's GarbA1C\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Golden Potum (7M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Revita IV\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum HatA5C\n[Additional]Potum HatA54C\n[Additional]Potum HatAB54\n[Additional]Potum Hat37BC\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbAB80\n[Armor]Adventurer's GarbA64C\n[Armor]Adventurer's GarbA54C\n[Armor]Adventurer's GarbA2C\n[Armor]Adventurer's GarbAB2\n[Armor]Adventurer's GarbAB6\n[Armor]Adventurer's GarbAB21\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Colon Commander",
+        "Stats": "Lv\n33\nType-\nHP\n22000\nElement\nFire\nExp\n440\nTamable\nNo",
+        "SpawnAt": "Strum Road",
+        "Drops": "\n[Usable]Revita I\n[Additional]Colon Met\n[Armor]Adventurer's Garb2BC\n[Material]Bundled Leaves\n[Material]Split Wooden Helm\n[Material]Colon Skin\n[Armor Crysta]Colon Commander"
+    },
+    {
+        "Name": "Bloodie Crystal",
+        "Stats": "Lv\n207\nType-\nHPUnknownElement\nDark\nExp\n34280\nTamable\nNo",
+        "SpawnAt": "Avant Plastida: Area 1",
+        "Drops": "\n[Material]Perilous Essence\n[Material]Blood Crystal\n[Material]Blood Red Gemstone\n[Enhancer Crysta (Red)]Blood Smeared Crystal"
+    },
+    {
+        "Name": "Golden Coryn (2016)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Usable]Apple\n[Additional]Mage HatAB5\n[Additional]RibbonABC\n[Armor]Adventurer's Garb1BC"
+    },
+    {
+        "Name": "Nightmare Potum",
+        "Stats": "Lv\n120\nType-\nHP\n1500000\nElement\nDark\nExp\n15800\nTamable\nNo",
+        "SpawnAt": "Garden of Beginning",
+        "Drops": "\n[1 Handed Sword]Toy Hammer\n[Armor]Adventurer's GarbABC\n[Material]Filthy Bandage\n[Material]Purification Salt\n[Material]Potum's Soul\n[Ore]Mithril Ore"
+    },
+    {
+        "Name": "Golden Potum (8M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Additional]Potum Hat82BC\n[Additional]Potum Hat48BC\n[Additional]Potum HatA83C\n[Additional]Potum HatAB84\n[Armor]Adventurer's GarbAB63\n[Armor]Adventurer's GarbAB55\n[Armor]Adventurer's GarbA56C\n[Armor]Adventurer's GarbA37C\n[Armor]Adventurer's Garb36BC\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Shining Gentleman",
+        "Stats": "Lv\n82\nType-\nHPUnknownElement\nLight\nExp\n6000\nTamable\nNo",
+        "SpawnAt": "Lost Town: Square",
+        "Drops": "\n[Armor]Adventurer's GarbABC\n[Bowgun]Revolver\n[Material]Lost Footstep\n[Material]Polyester Cloth\n[Special Crysta]Shining Gentleman"
+    },
+    {
+        "Name": "Golden Potum (9M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Additional]Potum HatAB5\n[Additional]Potum HatA81C\n[Additional]Potum HatAB38\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's GarbA44C\n[Armor]Adventurer's GarbA21C\n[Armor]Adventurer's Garb1BC\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Corroded Knight Captain",
+        "Stats": "Lv\n128\nType-\nHPUnknownElement\nDark\nExp\n8738\nTamable\nNo",
+        "SpawnAt": "Dark Manor: Area 1",
+        "Drops": "\n[Usable]Stimulant\n[Additional]Half Face Mask\n[Material]Sharp Shield Bit\n[Material]Torn Captain Crest\n[Additional Crysta]Corroded Knight Captain"
+    },
+    {
+        "Name": "Exdocus",
+        "Stats": "Lv\n266\nType-\nHPUnknownElement\nDark\nExp\n50286\nTamable\nNo",
+        "SpawnAt": "Stairway to Vital Point",
+        "Drops": "\n[Material]Solid Vertebra\n[Material]Strange Eye\n[Material]Stairway Pebble\n[Enhancer Crysta (Yellow)]Exdocus"
+    },
+    {
+        "Name": "Persimmon Coryn",
+        "Stats": "Lv\n100\nType-\nHPUnknownElement\nLight\nExp\nUnknownTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbA38C\n[Armor]Adventurer's GarbAB38\n[Armor]Adventurer's Garb39BC\n[Armor]Adventurer's GarbA39C\n[Armor]Adventurer's GarbAB39\n[Armor]Adventurer's Garb40BC\n[Armor]Adventurer's GarbA40C\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb41BC\n[Armor]Adventurer's GarbA41C\n[Armor]Adventurer's GarbAB41\n[Armor]Adventurer's Garb42BC\n[Armor]Adventurer's GarbA42C\n[Armor]Adventurer's GarbAB42\n[Material]Fallen in Fall"
+    },
+    {
+        "Name": "Golden Potum (11M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Revita IV\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat34182\n[Additional]Potum Hat463749\n[Additional]Potum Hat213850\n[Additional]Potum Hat115\n[Armor]Adventurer's Garb465146\n[Armor]Adventurer's Garb38335\n[Armor]Adventurer's Garb818238\n[Armor]Adventurer's Garb534954\n[Material]Potum Silver Coin\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Golden Coryn (2019)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Apple\n[Additional]HeadbandA21C\n[Additional]Mage HatAB25\n[Additional]Ribbon1BC\n[Armor]Adventurer's GarbAB5\n[Armor]Adventurer's GarbA61C\n[Armor]Adventurer's Garb37BC\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Golden Coryn (2017)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's Garb38BC\n[Armor]Adventurer's GarbAB1"
+    },
+    {
+        "Name": "Mithurna Lynx",
+        "Stats": "Lv\n177\nType-\nHPUnknownElement\nLight\nExp\n25725\nTamable\nNo",
+        "SpawnAt": "Ruins of Mt. Mithurna: Stylobate",
+        "Drops": "\n[Additional]White Eyepatch\n[Material]Lucid White Fur\n[Material]Cat Claw\n[Material]Lucid White Spirit Stone\n[Normal Crysta]Mithurna Lynx"
+    },
+    {
+        "Name": "Persimmon Coryn",
+        "Stats": "Lv\n125\nType-\nHP\n5000\nElement\nUnknown\nExp\n1410\nTamable\nNo",
+        "SpawnAt": "Tolbas GrassLand",
+        "Drops": "\n[Usable]Dried Persimon\n[Usable]Salt-Grilled Saury\n[Usable]Matsutake Soup\n[Usable]Baked Sweet Potato\n[Usable]Mashed Sweet Potato\n[Usable]Ginkgo Nut Rice\n[Additional]Market Hat38BC\n[Additional]Market HatAB38\n[Additional]Market Hat39BC\n[Additional]Market HatA39C\n[Additional]Market HatA40C\n[Additional]Market HatAB40\n[Additional]Market Hat41BC\n[Additional]Market HatA42C\n[Material]Fallen in Fall"
+    },
+    {
+        "Name": "Trus",
+        "Stats": "Lv\n269\nType-\nHP\n12800000\nElement\nFire\nExp\n98000\nTamable\nNo",
+        "SpawnAt": "Propulsion System Zone: Power Tank",
+        "Drops": "\n[Material]Small Wing\n[Material]Scorching Core\n[Material]Hot Glass\n[Special Crysta]Trus"
+    },
+    {
+        "Name": "King Potum",
+        "Stats": "Lv\n50\nType-\nHP\n8000\nElement\nNeutral\nExp\n320\nTamable\nNo",
+        "SpawnAt": "Athema Ruins: Area 1",
+        "Drops": "\n[Usable]Hard Apple\n[Additional]Hair Band\n[Material]Bead Fragment\n[Material]Potum Nail\n[Normal Crysta]King Potum"
+    },
+    {
+        "Name": "Galegon",
+        "Stats": "Lv\n260\nType-\nHPUnknownElement\nWind\nExp\n42627\nTamable\nNo",
+        "SpawnAt": "Boma Moja: Area 3",
+        "Drops": "\n[Material]Flying Dragon Wing\n[Material]Endless Storm\n[Material]Flying Dragon Heart\n[Enhancer Crysta (Green)]Galegon"
+    },
+    {
+        "Name": "Bullamius",
+        "Stats": "Lv\n239\nType-\nHPUnknownElement\nEarth\nExp\n42800\nTamable\nNo",
+        "SpawnAt": "Storage Yard: Area 2",
+        "Drops": "\n[Usable]Monkey Energy\n[Knuckles]Ferocious Beast Claws\n[Material]Sharp Monkey Horn\n[Material]Monkey Fang\n[Enhancer Crysta (Blue)]Bullamius"
+    },
+    {
+        "Name": "Brassozard",
+        "Stats": "Lv\n263\nType-\nHPUnknownElement\nEarth\nExp\n42200\nTamable\nNo",
+        "SpawnAt": "Operation Zone: Climate Control Area",
+        "Drops": "\n[Bow]Red-Winged Dragon Bow\n[Material]Brassozard Claw\n[Material]Wyvern Horn\n[Ore]Damascus Ore\n[Enhancer Crysta (Blue)]Brassozard"
+    },
+    {
+        "Name": "Metal Stinger",
+        "Stats": "Lv\n82\nType-\nHPUnknownElement\nEarth\nExp\n4050\nTamable\nNo",
+        "SpawnAt": "Akaku Desert: Area 1",
+        "Drops": "\n[Material]Scorpion Tail\n[Material]Hard Scissor\n[Material]Sand Pyroxene\n[Normal Crysta]Metal Stinger"
+    },
+    {
+        "Name": "Silver Coryn (2021)",
+        "Stats": "Lv\n100\nType-\nHP\n100\nElement\nNeutral\nExp\n1\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Usable]Apple\n[Additional]Warrior Helm72BC\n[Additional]Mage HatA72C\n[Additional]Scholar's GlassesAB72\n[Additional]Mage HatA38C\n[Additional]Warrior Helm42BC\n[Additional]Scholar's GlassesAB42\n[Armor]Plate Armor234\n[Material]Silver Apple"
+    },
+    {
+        "Name": "Big Mask",
+        "Stats": "Lv\n70\nType-\nHPUnknownElement\nWind\nExp\n2400\nTamable\nNo",
+        "SpawnAt": "Haotas Ravine",
+        "Drops": "\n[Additional]Stier\n[Material]Ravine Dew\n[Material]Strong Vine\n[Material]Steel Seed Coat"
+    },
+    {
+        "Name": "Golden Potum (5M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Additional]Potum HatAB5\n[Additional]Potum Hat19BC\n[Additional]Potum HatA38C\n[Additional]Potum Hat1BC\n[Armor]Adventurer's GarbA49C\n[Armor]Adventurer's GarbAB47\n[Armor]Adventurer's GarbABC\n[Armor]Adventurer's GarbAB12\n[Armor]Adventurer's GarbAB2\n[Armor]Adventurer's GarbAB40\n[Armor]Adventurer's Garb6BC\n[Armor]Adventurer's GarbAB21\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Golden Coryn (2018)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Usable]Apple\n[Additional]RibbonAB5\n[Additional]RibbonAB38\n[Additional]RibbonA42C\n[Armor]Adventurer's GarbA5C\n[Armor]Adventurer's Garb54BC\n[Armor]Adventurer's GarbAB54\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Golden Coryn (2018)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Rakau Plains",
+        "Drops": "\n[Usable]Apple\n[Additional]Ribbon5BC\n[Additional]Ribbon38BC\n[Additional]RibbonAB1\n[Armor]Adventurer's Garb5BC\n[Armor]Adventurer's GarbA50C\n[Armor]Adventurer's Garb1BC\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Silver Roar",
+        "Stats": "Lv\n42\nType-\nHP\n14570\nElement\nWater\nExp\n590\nTamable\nNo",
+        "SpawnAt": "Debakcy Channel: B1",
+        "Drops": "\n[Additional]Crystal Earrings\n[Armor]Adventurer's GarbAB1\n[Material]Bead Fragment\n[Material]Fairy Feather\n[Normal Crysta]Silver Roar"
+    },
+    {
+        "Name": "Golden Skeleton",
+        "Stats": "Lv\n54\nType-\nHPUnknownElement\nNeutral\nExp\n840\nTamable\nNo",
+        "SpawnAt": "Zoktzda Ruins",
+        "Drops": "\n[Armor]Adventurer's Garb26BC\n[Material]Ancient Gold Coin\n[Material]Wandering Spirit\n[Material]Skeleton Bone\n[Additional Crysta]Golden Skeleton"
+    },
+    {
+        "Name": "Radibat",
+        "Stats": "Lv\n200\nType-\nHPUnknownElement\nEarth\nExp\n44880\nTamable\nNo",
+        "SpawnAt": "Zarth's Mansion: Study",
+        "Drops": "\n[Usable]Flower Nectar (Bouquet)\n[Usable]Ginger Cake\n[Usable]Barmbrack\n[Usable]Zombie Cake\n[Usable]Pumpkin Cookie\n[Usable]Jack Pudding\n[Usable]Pumpkin Candy\n[Usable]Pumpkin Soup\n[Additional]Magical Skirt\n[Normal Crysta]Radibat"
+    },
+    {
+        "Name": "Golden Potum (8M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Darkanon Plain",
+        "Drops": "\n[Additional]Potum HatA81C\n[Additional]Potum HatAB78\n[Additional]Potum Hat47BC\n[Additional]Potum HatAB75\n[Armor]Adventurer's GarbA67C\n[Armor]Adventurer's GarbAB59\n[Armor]Adventurer's GarbA3C\n[Armor]Adventurer's Garb55BC\n[Armor]Adventurer's Garb20BC\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Wood Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Golden Potum (11M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Tolbas GrassLand",
+        "Drops": "\n[Usable]Revita VI\n[Refinement Support]Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Additional]Potum Hat844834\n[Additional]Potum Hat528137\n[Additional]Potum Hat35654\n[Additional]Potum Hat215121\n[Armor]Adventurer's Garb504881\n[Armor]Adventurer's Garb48467\n[Armor]Adventurer's Garb526434\n[Armor]Adventurer's Garb1548\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Fabric Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Metal Pack (M)"
+    },
+    {
+        "Name": "Sand Mole",
+        "Stats": "Lv\n50\nType-\nHP\n20000\nElement\nEarth\nExp\n380\nTamable\nNo",
+        "SpawnAt": "Centerio Highlands",
+        "Drops": "\n[Usable]Sand Mole Meat\n[Additional]Mole Eyes\n[Material]Sand Crystal\n[Material]Sand Mole Skin"
+    },
+    {
+        "Name": "Golden Potum (12M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Tolbas GrassLand",
+        "Drops": "\n[Armor]Iris Armor"
+    },
+    {
+        "Name": "Grimuckus",
+        "Stats": "Lv\n195\nType-\nHPUnknownElement\nWater\nExp\n30240\nTamable\nNo",
+        "SpawnAt": "Wazeero Street",
+        "Drops": "\n[Knuckles]Mortal Katar\n[Material]Wazeero Stone\n[Material]Weird Blob\n[Ore]Mithril Ore\n[Special Crysta]Grimuckus"
+    },
+    {
+        "Name": "Teertocrit",
+        "Stats": "Lv\n200\nType-\nHP\n7050000\nElement\nFire\nExp\n46200\nTamable\nNo",
+        "SpawnAt": "Manor of Surprises",
+        "Drops": "\n[Usable]Flower Nectar (Bouquet)\n[Usable]Ginger Cake\n[Usable]Barmbrack\n[Usable]Zombie Cake\n[Usable]Pumpkin Cookie\n[Usable]Jack Pudding\n[Usable]Pumpkin Candy\n[Usable]Pumpkin Soup\n[Additional]Potum Ghost Behind U\n[Enhancer Crysta (Purple)]Teertocrit"
+    },
+    {
+        "Name": "Golden Coryn (2018)",
+        "Stats": "Lv\n100\nType-\nHP\n10000\nElement\nNeutral\nExp\n20\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Usable]Apple\n[Additional]RibbonAB42\n[Additional]Ribbon1BC\n[Additional]RibbonA1C\n[Armor]Adventurer's Garb50BC\n[Armor]Adventurer's GarbAB50\n[Armor]Adventurer's GarbA1C\n[Material]Golden Apple"
+    },
+    {
+        "Name": "Golden Potum (11M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Wanderer's Plain",
+        "Drops": "\n[Usable]Revita V\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat484684\n[Additional]Potum Hat493418\n[Additional]Potum Hat388338\n[Additional]Potum Hat6541\n[Armor]Adventurer's Garb846751\n[Armor]Adventurer's Garb388182\n[Armor]Adventurer's Garb55353\n[Armor]Adventurer's Garb5136\n[Material]Potum Silver Coin\n[Material]Fabric Pack (S)\n[Material]Fabric Pack (L)\n[Material]Metal Pack (M)\n[Material]Beast Pack (M)\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Fabric Pack (M)\n[Material]Metal Pack (S)\n[Material]Metal Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)"
+    },
+    {
+        "Name": "Salamander",
+        "Stats": "Lv\n132\nType-\nHP\n2000000\nElement\nFire\nExp\n20242\nTamable\nNo",
+        "SpawnAt": "Blazing Graben: Upper",
+        "Drops": "\n[Usable]Scorching Orange\n[Additional]Ignis Horns\n[Material]Heated Sword Fin\n[Material]Scorching Scale\n[Enhancer Crysta (Blue)]Salamander"
+    },
+    {
+        "Name": "Golden Potum (11M DL)",
+        "Stats": "Lv\n100\nType-\nHP\n30\nElement\nLight\nExp\n100\nTamable\nNo",
+        "SpawnAt": "Yorl Highlands",
+        "Drops": "\n[Usable]Revita III\n[Refinement Support]Refinement Powder\n[Refinement Support]Super Refinement Powder\n[Refinement Support]Hyper Refinement Powder\n[Additional]Potum Hat835051\n[Additional]Potum Hat54535\n[Additional]Potum Hat18246\n[Additional]Potum Hat378482\n[Armor]Adventurer's Garb34464\n[Armor]Adventurer's Garb823850\n[Armor]Adventurer's Garb833421\n[Armor]Adventurer's Garb49541\n[Material]Potum Bronze Coin\n[Material]Potum Gold Coin\n[Material]Medicine Pack (M)\n[Material]Wood Pack (S)\n[Material]Wood Pack (L)\n[Material]Beast Pack (S)\n[Material]Beast Pack (L)\n[Material]Potum Silver Coin\n[Material]Medicine Pack (S)\n[Material]Medicine Pack (L)\n[Material]Wood Pack (M)\n[Material]Beast Pack (M)"
+    },
+    {
+        "Name": "Don Yeti",
+        "Stats": "Lv\n103\nType-\nHPUnknownElement\nEarth\nExp\n9482\nTamable\nNo",
+        "SpawnAt": "Polde Ice Valley",
+        "Drops": "\n[Additional]Ear Muff\n[Armor]Adventurer's GarbABC\n[Material]Thick Fur\n[Material]Cold Wood Stick\n[Material]Cracked Big Axe\n[Special Crysta]Don Yeti"
     }
 ]

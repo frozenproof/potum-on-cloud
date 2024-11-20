@@ -8,6 +8,8 @@
         /* styles.css */
         body {
             background-image: url('../images/appbackground.png');
+            background-color: rgba(255,255,255,0.6);
+            background-blend-mode: lighten;
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
@@ -174,18 +176,20 @@
     </div>
 
     <% if (headers && headers.length > 0) { %>
-    <table>
-        <thead>
-            <tr>
-                <% headers.forEach(header => { %>
-                    <th><%= header %></th>
-                <% }); %>
-            </tr>
-        </thead>
-        <tbody>
-            <%- table %>
-        </tbody>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <% headers.forEach(header => { %>
+                        <th><%= header %></th>
+                    <% }); %>
+                </tr>
+            </thead>
+            <tbody>
+                <%- table %>
+            </tbody>
+        </table>
+    <% } else { %>
+        <p>No data available to display.</p>
     <% } %>
 </body>
 </html>

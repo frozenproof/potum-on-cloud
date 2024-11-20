@@ -96,7 +96,7 @@ for category_dict in list_of_weapons:
                             raw_basestat = raw_basestat.replace("Element", "Element\n")
                             raw_basestat = raw_basestat.replace("Exp", "\nExp\n")
                             raw_basestat = raw_basestat.replace("HP", "\nHP")
-                            raw_basestat = raw_basestat.replace("Tamable", "\nTamable")
+                            raw_basestat = raw_basestat.replace("Tamable", "Tamable\n")
                         card_data["Stats"] = format_basestat(raw_basestat)
 
                     # Get the second element (index 1)

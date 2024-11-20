@@ -77,31 +77,52 @@ app.get('/', (req, res) => {
 });
 
 app.post('/view', (req, res) => {
-    const { file, search = '' } = req.body;
-    const filePath = path.join(__dirname, '../database', file);
+    const { file, search = '' } = req.body; // Extract file name and search query from request body
+    const filePath = path.join(__dirname, '../database', file); // Construct the file path
 
+    console.debug(`Requested file: ${filePath}`);
+    console.debug(`Search query: "${search}"`);
+
+    // Check if the file exists
     if (!fs.existsSync(filePath)) {
+        console.error(`File not found: ${filePath}`);
         return res.render('table_view', { fileMapping, table: "<p>Error: File not found</p>", headers: [] });
     }
 
-    const workbook = xlsx.readFile(filePath);
-    const sheetName = workbook.SheetNames[0];
-    const sheet = workbook.Sheets[sheetName];
-    let df = xlsx.utils.sheet_to_json(sheet);
+    try {
+        const workbook = xlsx.readFile(filePath); // Read the Excel file
+        const sheetName = workbook.SheetNames[0]; // Get the first sheet name
+        const sheet = workbook.Sheets[sheetName]; // Get the sheet data
+        let df = xlsx.utils.sheet_to_json(sheet); // Convert the sheet to JSON
 
-    if (search) {
-        df = df.filter(row => Object.values(row).some(value => value.toString().toLowerCase().includes(search.toLowerCase())));
-    }
+        console.debug(`Loaded ${df.length} rows from sheet: ${sheetName}`);
 
-    if (df.length > 0) {
-        df = formatTableData(df);
-        const headers = Object.keys(df[0]);
-        const tableHtml = generateTableHtml(df);
-        res.render('table_view', { fileMapping, table: tableHtml, headers });
-    } else {
-        res.render('table_view', { fileMapping, table: "<p>No matching data found</p>", headers: [] });
+        // Filter rows based on the search query
+        if (search) {
+            const lowerSearch = search.toLowerCase(); // Lowercase search for case-insensitive match
+            df = df.filter(row =>
+                Object.values(row).some(value =>
+                    value.toString().toLowerCase().includes(lowerSearch)
+                )
+            );
+            console.debug(`Rows after search filter: ${df.length}`);
+        }
+
+        if (df.length > 0) {
+            df = formatTableData(df); // Format data (implement your function as needed)
+            const headers = Object.keys(df[0]); // Get column headers
+            const tableHtml = generateTableHtml(df); // Generate HTML table (implement as needed)
+            res.render('table_view', { fileMapping, table: tableHtml, headers });
+        } else {
+            console.warn("No matching data found");
+            res.render('table_view', { fileMapping, table: "<p>No matching data found</p>", headers: [] });
+        }
+    } catch (error) {
+        console.error(`Error processing file: ${error.message}`);
+        res.render('table_view', { fileMapping, table: "<p>Error processing the file</p>", headers: [] });
     }
 });
+
 
 app.get('/files', (req, res) => {
     const filesDir = path.join(__dirname, '../database');
@@ -154,16 +175,38 @@ app.get('/poc/health', (req, res) => {
     res.status(200).json({ message: 'API is healthy' });
 });
 
-// Function to generate HTML table from data
 function generateTableHtml(data) {
+    if (data.length === 0) {
+        console.debug("No data to generate table.");
+        return '<table><tr><td>No data available</td></tr></table>';
+    }
+
+    // console.debug("Generating HTML table from data...");
+    // const headers = Object.keys(data[0]); // Extract headers from the first row
+    // let table = '<table border="1" style="border-collapse: collapse; width: 100%;">';
     let table = '';
-    data.forEach(row => {
+
+    // // Generate table header row, dont use this because we have a different plan
+    // table += '<thead><tr>';
+    // headers.forEach(header => {
+    //     table += `<th style="padding: 8px; text-align: left; background-color: #f2f2f2;">${header}</th>`;
+    // });
+    // table += '</tr></thead>';
+
+    // Generate table data rows
+    // table += '<tbody>';
+    data.forEach((row, rowIndex) => {
         table += '<tr>';
-        Object.values(row).forEach(value => {
-            table += `<td>${value}</td>`;
+        Object.values(row).forEach((value, colIndex) => {
+            table += `<td>${value || ''}</td>`;
+            // table += `<td>${value}</td>`;
+            // console.debug(`Row ${rowIndex}, Column ${colIndex}: ${value}`);
         });
         table += '</tr>';
     });
+    // table += '</tbody>';
+
+    // table += '</table>';
     return table;
 }
 
@@ -173,17 +216,22 @@ app.get('/maintenance-info', (req, res) => {
 
 // Apply <br> for newlines in string values
 function formatTableData(df) {
-    return df.map(row => {
-        return Object.fromEntries(
+    // console.debug("Formatting table data to replace newlines with <br>...");
+    return df.map((row, rowIndex) => {
+        const formattedRow = Object.fromEntries(
             Object.entries(row).map(([key, value]) => {
                 if (typeof value === 'string') {
-                    return [key, value.replace(/\n/g, '<br>')];
+                    const newValue = value.replace(/\n/g, '<br>');
+                    // console.debug(`Row ${rowIndex}, Column ${key}: Replaced newlines in value.`);
+                    return [key, newValue];
                 }
                 return [key, value];
             })
         );
+        return formattedRow;
     });
 }
+
 
 // Start server
 const port = process.env.PORT2 || 5000;
