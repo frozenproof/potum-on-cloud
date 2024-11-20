@@ -96,6 +96,7 @@ for category_dict in list_of_weapons:
                             raw_basestat = raw_basestat.replace("Element", "Element\n")
                             raw_basestat = raw_basestat.replace("Exp", "\nExp\n")
                             raw_basestat = raw_basestat.replace("HP", "\nHP")
+                            raw_basestat = raw_basestat.replace("Tamable", "\nTamable")
                         card_data["Stats"] = format_basestat(raw_basestat)
 
                     # Get the second element (index 1)
@@ -120,8 +121,6 @@ for category_dict in list_of_weapons:
                         card_data_json = json.dumps(card_data, ensure_ascii=False)
                         data.add(card_data_json)
 
-                time.sleep(9)
-
             except requests.RequestException as e:
                 print(f"Error fetching {url}: {e}")
 
@@ -135,5 +134,10 @@ for category_dict in list_of_weapons:
         # Convert data to a DataFrame for Excel output
         df = pd.DataFrame(data_list)
         df.to_excel(file_path_excel, index=False)
+
+        # i keep forgetting to comment here, but this is to prevent ddos
+        # we are adding extra delays today because there is a uat
+        time.sleep(19)
+
 
 print("Data has been saved to JSON and Excel.")

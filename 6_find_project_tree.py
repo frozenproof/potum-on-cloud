@@ -24,4 +24,4 @@ if __name__ == "__main__":
         write_folder_structure(current_dir, file, ignored_folders)
         file.write("\n")  # Add a newline for separation between runs
 
-    print(f"Folder structure saved to {output_file}, ignoring folders: {ignored_folders}")
+    print(f"Folder structure saved to {output_file}, ignoring folders: {ignored_folders}\n")

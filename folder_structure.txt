@@ -1,10 +1,12 @@
-Folder Structure for: D:\8_POC
+Folder Structure for: /mnt/d/8_POC
 - .dockerignore -> File
 - .gitignore -> File
 - 0_find_import.py -> File
 - 4_auto_metadata.py -> File
 - 6_find_project_tree.py -> File
+- 8_find_js_import.py -> File
 - Output.txt -> File
+- README.md -> File
 /database/ -> Contains subfolders or files
   /m4/ -> Contains subfolders or files
     - Boss.json -> File
@@ -53,12 +55,12 @@ Folder Structure for: D:\8_POC
 - docker-compose.yaml -> File
 - dockerfile -> File
 - folder_structure.txt -> File
+- found_js_imports.txt -> File
 /images/ -> Contains subfolders or files
   - appbackground.png -> File
   - favicon.ico -> File
 - package-lock.json -> File
 - package.json -> File
-- readme.md -> File
 - requirements.txt -> File
 - scraped_codes.md -> File
 /server/ -> Contains subfolders or files
