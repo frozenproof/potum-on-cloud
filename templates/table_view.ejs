@@ -38,7 +38,10 @@
             height: auto;
             cursor: pointer;
         }
-
+        .toggle-button {
+            display: flex;
+            flex-direction: column;
+        }
         .view {
             width: 90%;
             margin: 15px auto;
@@ -119,6 +122,8 @@
         <div class="toggle-button" id="align2cat" onclick="toggleView()">
             <img src="../images/appbackground.png" alt="Switch View" >
             <div id="glorious-fucking">See maintenance time</div>
+            <br/>
+            <div id="ui tips">Click here to see stuffs by the way</div>
         </div>
         <!-- Maintenance page (hidden by default) -->
         <div class="view poc-update">

@@ -80,9 +80,6 @@ app.post('/view', (req, res) => {
     const { file, search = '' } = req.body; // Extract file name and search query from request body
     const filePath = path.join(__dirname, '../database', file); // Construct the file path
 
-    console.debug(`Requested file: ${filePath}`);
-    console.debug(`Search query: "${search}"`);
-
     // Check if the file exists
     if (!fs.existsSync(filePath)) {
         console.error(`File not found: ${filePath}`);
@@ -181,32 +178,17 @@ function generateTableHtml(data) {
         return '<table><tr><td>No data available</td></tr></table>';
     }
 
-    // console.debug("Generating HTML table from data...");
-    // const headers = Object.keys(data[0]); // Extract headers from the first row
-    // let table = '<table border="1" style="border-collapse: collapse; width: 100%;">';
     let table = '';
 
-    // // Generate table header row, dont use this because we have a different plan
-    // table += '<thead><tr>';
-    // headers.forEach(header => {
-    //     table += `<th style="padding: 8px; text-align: left; background-color: #f2f2f2;">${header}</th>`;
-    // });
-    // table += '</tr></thead>';
-
     // Generate table data rows
-    // table += '<tbody>';
     data.forEach((row, rowIndex) => {
         table += '<tr>';
         Object.values(row).forEach((value, colIndex) => {
             table += `<td>${value || ''}</td>`;
-            // table += `<td>${value}</td>`;
-            // console.debug(`Row ${rowIndex}, Column ${colIndex}: ${value}`);
         });
         table += '</tr>';
     });
-    // table += '</tbody>';
 
-    // table += '</table>';
     return table;
 }
 
@@ -216,13 +198,11 @@ app.get('/maintenance-info', (req, res) => {
 
 // Apply <br> for newlines in string values
 function formatTableData(df) {
-    // console.debug("Formatting table data to replace newlines with <br>...");
     return df.map((row, rowIndex) => {
         const formattedRow = Object.fromEntries(
             Object.entries(row).map(([key, value]) => {
                 if (typeof value === 'string') {
                     const newValue = value.replace(/\n/g, '<br>');
-                    // console.debug(`Row ${rowIndex}, Column ${key}: Replaced newlines in value.`);
                     return [key, newValue];
                 }
                 return [key, value];
