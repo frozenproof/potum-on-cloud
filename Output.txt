@@ -2889,9 +2889,120 @@
 <a href="map.php?id=548">Risus Valley: Area 3</a>
 </div>
 </div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3244">
+										Calabari																					<span class="avoidwrap text-blue">(Lv 178)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=546">Risus Valley: Area 1</a>
+</div>
+</div>
 </div> <!-- end of pagination items -->
 </div> <!-- end of js-pagination -->
 <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7379"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Booster Cast <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>61 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>122 Medicine</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	Physical Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Magic Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Motion Speed %                        </div>
+<div>
+                                                            -10                                                    </div>
+</div>
+<div>
+<div>
+                        	EXP Gain %                        </div>
+<div>
+                                                            10                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Heavy Armor only:</b><br/><div class="ml-10">Motion Speed %</div> </div>
+<div>
+                                                            -10                                                    </div>
+</div>
+<div>
+<div>
+<div class="ml-10">EXP Gain %</div> </div>
+<div>
+                                                            10                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-7942"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-7942" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7942">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3249">
+										Momia																					<span class="avoidwrap text-blue">(Lv 225)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=611">Deusania's Lab</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7942"></div>
 </div> <!-- end of Obtained From content -->
 </li>
 </ul>
@@ -10229,6 +10340,87 @@
 </div>
 </div>
 </div>
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Pyroxene Nugget <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>127 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>63 Metal</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>
+<div>
+<div>
+                        	% stronger against Dark                        </div>
+<div>
+                                                            5                                                    </div>
+</div>
+<div>
+<div>
+                        	Aggro %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-7957"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-7957" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7957">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3256">
+										Pojo																					<span class="avoidwrap text-blue">(Lv 249)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=602">Siccus Plains</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7957"></div>
+</div> <!-- end of Obtained From content -->
 </li>
 </ul>
 </div>
@@ -18897,9 +19089,120 @@
 <a href="map.php?id=548">Risus Valley: Area 3</a>
 </div>
 </div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3244">
+										Calabari																					<span class="avoidwrap text-blue">(Lv 178)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=546">Risus Valley: Area 1</a>
+</div>
+</div>
 </div> <!-- end of pagination items -->
 </div> <!-- end of js-pagination -->
 <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7379"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Booster Cast <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>61 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>122 Medicine</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	Physical Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Magic Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Motion Speed %                        </div>
+<div>
+                                                            -10                                                    </div>
+</div>
+<div>
+<div>
+                        	EXP Gain %                        </div>
+<div>
+                                                            10                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Heavy Armor only:</b><br/><div class="ml-10">Motion Speed %</div> </div>
+<div>
+                                                            -10                                                    </div>
+</div>
+<div>
+<div>
+<div class="ml-10">EXP Gain %</div> </div>
+<div>
+                                                            10                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-7942"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-7942" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7942">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3249">
+										Momia																					<span class="avoidwrap text-blue">(Lv 225)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=611">Deusania's Lab</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7942"></div>
 </div> <!-- end of Obtained From content -->
 </li>
 </ul>
@@ -26237,6 +26540,87 @@
 </div>
 </div>
 </div>
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Pyroxene Nugget <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>127 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>63 Metal</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>
+<div>
+<div>
+                        	% stronger against Dark                        </div>
+<div>
+                                                            5                                                    </div>
+</div>
+<div>
+<div>
+                        	Aggro %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-7957"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-7957" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7957">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3256">
+										Pojo																					<span class="avoidwrap text-blue">(Lv 249)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=602">Siccus Plains</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7957"></div>
+</div> <!-- end of Obtained From content -->
 </li>
 </ul>
 </div>
@@ -36676,6 +37060,18 @@
 <a href="map.php?id=548">Risus Valley: Area 3</a>
 </div>
 </div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3244">
+										Calabari																					<span class="avoidwrap text-blue">(Lv 178)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=546">Risus Valley: Area 1</a>
+</div>
+</div>
 </div> <!-- end of pagination items -->
 </div> <!-- end of js-pagination -->
 <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7379"></div>
@@ -36805,6 +37201,18 @@
 <a href="map.php?id=548">Risus Valley: Area 3</a>
 </div>
 </div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3244">
+										Calabari																					<span class="avoidwrap text-blue">(Lv 178)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=546">Risus Valley: Area 1</a>
+</div>
+</div>
 </div> <!-- end of pagination items -->
 </div> <!-- end of js-pagination -->
 <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7379"></div>
@@ -36832,6 +37240,18 @@
 <a href="map.php?id=548">Risus Valley: Area 3</a>
 </div>
 </div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3244">
+										Calabari																					<span class="avoidwrap text-blue">(Lv 178)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=546">Risus Valley: Area 1</a>
+</div>
+</div>
 </div> <!-- end of pagination items -->
 </div>, <div class="table-grid no-head item-obtainfrom pagination-js-items">
 <div class="pagination-js-item">
@@ -36844,6 +37264,18 @@
 </div>
 <div>
 <a href="map.php?id=548">Risus Valley: Area 3</a>
+</div>
+</div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3244">
+										Calabari																					<span class="avoidwrap text-blue">(Lv 178)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=546">Risus Valley: Area 1</a>
 </div>
 </div>
 </div>, <div class="pagination-js-item">
@@ -36864,7 +37296,331 @@
 </div>, <div>
 </div>, <div>
 <a href="map.php?id=548">Risus Valley: Area 3</a>
+</div>, <div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3244">
+										Calabari																					<span class="avoidwrap text-blue">(Lv 178)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=546">Risus Valley: Area 1</a>
+</div>
+</div>, <div>
+<a href="monster.php?id=3244">
+										Calabari																					<span class="avoidwrap text-blue">(Lv 178)</span>
+</a>
+</div>, <div>
+</div>, <div>
+<a href="map.php?id=546">Risus Valley: Area 1</a>
 </div>, <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7379"></div>, <div>
+<div class="card-title">
+        Booster Cast <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>61 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>122 Medicine</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	Physical Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Magic Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Motion Speed %                        </div>
+<div>
+                                                            -10                                                    </div>
+</div>
+<div>
+<div>
+                        	EXP Gain %                        </div>
+<div>
+                                                            10                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Heavy Armor only:</b><br/><div class="ml-10">Motion Speed %</div> </div>
+<div>
+                                                            -10                                                    </div>
+</div>
+<div>
+<div>
+<div class="ml-10">EXP Gain %</div> </div>
+<div>
+                                                            10                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-7942"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-7942" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7942">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3249">
+										Momia																					<span class="avoidwrap text-blue">(Lv 225)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=611">Deusania's Lab</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7942"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>, <div class="card-title">
+        Booster Cast <font color="#CE8505">[Special]</font> </div>, <div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>61 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>122 Medicine</p></div>
+</div>
+</div>
+</div>, <div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>61 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>122 Medicine</p></div>
+</div>
+</div>, <div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>61 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>122 Medicine</p></div>
+</div>, <div><p class="accent-bold">Sell</p><p>61 Spina</p></div>, <div><p class="accent-bold">Process</p><p>122 Medicine</p></div>, <div>Stat/Effect</div>, <div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	Physical Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Magic Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Motion Speed %                        </div>
+<div>
+                                                            -10                                                    </div>
+</div>
+<div>
+<div>
+                        	EXP Gain %                        </div>
+<div>
+                                                            10                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Heavy Armor only:</b><br/><div class="ml-10">Motion Speed %</div> </div>
+<div>
+                                                            -10                                                    </div>
+</div>
+<div>
+<div>
+<div class="ml-10">EXP Gain %</div> </div>
+<div>
+                                                            10                                                    </div>
+</div>
+</div>, <div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>, <div>
+                        Stat/Effect
+                    </div>, <div>
+                        Amount
+                    </div>, <div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>, <div>
+                        	Base DEF                        </div>, <div>
+                                                            0                                                    </div>, <div>
+<div>
+                        	Physical Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>, <div>
+                        	Physical Resistance %                        </div>, <div>
+                                                            20                                                    </div>, <div>
+<div>
+                        	Magic Resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>, <div>
+                        	Magic Resistance %                        </div>, <div>
+                                                            20                                                    </div>, <div>
+<div>
+                        	Motion Speed %                        </div>
+<div>
+                                                            -10                                                    </div>
+</div>, <div>
+                        	Motion Speed %                        </div>, <div>
+                                                            -10                                                    </div>, <div>
+<div>
+                        	EXP Gain %                        </div>
+<div>
+                                                            10                                                    </div>
+</div>, <div>
+                        	EXP Gain %                        </div>, <div>
+                                                            10                                                    </div>, <div>
+<div>
+<b class="text-light">Heavy Armor only:</b><br/><div class="ml-10">Motion Speed %</div> </div>
+<div>
+                                                            -10                                                    </div>
+</div>, <div>
+<b class="text-light">Heavy Armor only:</b><br/><div class="ml-10">Motion Speed %</div> </div>, <div class="ml-10">Motion Speed %</div>, <div>
+                                                            -10                                                    </div>, <div>
+<div>
+<div class="ml-10">EXP Gain %</div> </div>
+<div>
+                                                            10                                                    </div>
+</div>, <div>
+<div class="ml-10">EXP Gain %</div> </div>, <div class="ml-10">EXP Gain %</div>, <div>
+                                                            10                                                    </div>, <div><div>Obtained From</div></div>, <div>Obtained From</div>, <div id="obtain-7942"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-7942" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7942">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3249">
+										Momia																					<span class="avoidwrap text-blue">(Lv 225)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=611">Deusania's Lab</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7942"></div>
+</div>, <div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>, <div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>, <div>Monster</div>, <div>Dye</div>, <div>Map</div>, <div class="js-pagination" data-accord="#obtain-7942" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7942">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3249">
+										Momia																					<span class="avoidwrap text-blue">(Lv 225)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=611">Deusania's Lab</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div>, <div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3249">
+										Momia																					<span class="avoidwrap text-blue">(Lv 225)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=611">Deusania's Lab</a>
+</div>
+</div>
+</div>, <div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3249">
+										Momia																					<span class="avoidwrap text-blue">(Lv 225)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=611">Deusania's Lab</a>
+</div>
+</div>, <div>
+<a href="monster.php?id=3249">
+										Momia																					<span class="avoidwrap text-blue">(Lv 225)</span>
+</a>
+</div>, <div>
+</div>, <div>
+<a href="map.php?id=611">Deusania's Lab</a>
+</div>, <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7942"></div>, <div>
 <div class="card-title">
         Bow Thimble <font color="#CE8505">[Special]</font> </div>
 <hr class="separator"/>
@@ -58925,6 +59681,255 @@
 <li>- 10x <a href="item.php?id=2369">Pumpkin Diamond</a></li>
 </ul>
 </div>, <div>
+<div class="card-title">
+        Pyroxene Nugget <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>127 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>63 Metal</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>
+<div>
+<div>
+                        	% stronger against Dark                        </div>
+<div>
+                                                            5                                                    </div>
+</div>
+<div>
+<div>
+                        	Aggro %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-7957"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-7957" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7957">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3256">
+										Pojo																					<span class="avoidwrap text-blue">(Lv 249)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=602">Siccus Plains</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7957"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>, <div class="card-title">
+        Pyroxene Nugget <font color="#CE8505">[Special]</font> </div>, <div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>127 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>63 Metal</p></div>
+</div>
+</div>
+</div>, <div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>127 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>63 Metal</p></div>
+</div>
+</div>, <div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>127 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>63 Metal</p></div>
+</div>, <div><p class="accent-bold">Sell</p><p>127 Spina</p></div>, <div><p class="accent-bold">Process</p><p>63 Metal</p></div>, <div>Stat/Effect</div>, <div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>
+<div>
+<div>
+                        	% stronger against Dark                        </div>
+<div>
+                                                            5                                                    </div>
+</div>
+<div>
+<div>
+                        	Aggro %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>
+</div>, <div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>, <div>
+                        Stat/Effect
+                    </div>, <div>
+                        Amount
+                    </div>, <div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>, <div>
+                        	Base DEF                        </div>, <div>
+                                                            0                                                    </div>, <div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>, <div>
+                        	MaxMP                        </div>, <div>
+                                                            400                                                    </div>, <div>
+<div>
+                        	% stronger against Dark                        </div>
+<div>
+                                                            5                                                    </div>
+</div>, <div>
+                        	% stronger against Dark                        </div>, <div>
+                                                            5                                                    </div>, <div>
+<div>
+                        	Aggro %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>, <div>
+                        	Aggro %                        </div>, <div>
+                                                            -25                                                    </div>, <div><div>Obtained From</div></div>, <div>Obtained From</div>, <div id="obtain-7957"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-7957" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7957">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3256">
+										Pojo																					<span class="avoidwrap text-blue">(Lv 249)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=602">Siccus Plains</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7957"></div>
+</div>, <div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>, <div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>, <div>Monster</div>, <div>Dye</div>, <div>Map</div>, <div class="js-pagination" data-accord="#obtain-7957" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-7957">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3256">
+										Pojo																					<span class="avoidwrap text-blue">(Lv 249)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=602">Siccus Plains</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div>, <div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3256">
+										Pojo																					<span class="avoidwrap text-blue">(Lv 249)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=602">Siccus Plains</a>
+</div>
+</div>
+</div>, <div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3256">
+										Pojo																					<span class="avoidwrap text-blue">(Lv 249)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=602">Siccus Plains</a>
+</div>
+</div>, <div>
+<a href="monster.php?id=3256">
+										Pojo																					<span class="avoidwrap text-blue">(Lv 249)</span>
+</a>
+</div>, <div>
+</div>, <div>
+<a href="map.php?id=602">Siccus Plains</a>
+</div>, <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-7957"></div>, <div>
 <div class="card-title">
         Ring of Greed <font color="#CE8505">[Special]</font> </div>
 <hr class="separator"/>

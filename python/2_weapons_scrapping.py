@@ -5,23 +5,34 @@ import time
 import os
 import pandas as pd
 import re
-def starts_with_sell(text):
-    return text.startswith("sell") or text.startswith("Sell")
+
 # Function to format the `item_basestat` text
 def format_basestat(text):
-    # Insert a newline only between a number and the following word if they are directly adjacent
-    formatted_text = re.sub(r'(\d)([A-Za-z])', r'\1\n\2', text)
+    # Step 1: Insert a newline between a number and the following word if directly adjacent
+    formatted_text = re.sub(r'(\d+)([A-Za-z])', r'\1\n\2', text)
     
-    # Ensure numbers next to words like "Element" and stats are separated properly
-    formatted_text = re.sub(r'(\D)(\d+)(?=\D)', r'\1\n\2\n', formatted_text)
+    # Step 2: Insert a newline between a word and a number if directly adjacent
+    formatted_text = re.sub(r'([A-Za-z])(\d)', r'\1\n\2', formatted_text)
     
-    # Ensure % signs are handled and newlines are consistently applied
-    formatted_text = re.sub(r'(?<=%)\s*(?=[A-Za-z])', '\n', formatted_text)
-    
-    # Clean up extra newlines if any were added
+    # Step 3: Replace spaces in front of numbers with a newline
+    formatted_text = re.sub(r'\s+(\d)', r'\n\1', formatted_text)
+
+    # Step 4: Insert a newline after a closing parenthesis if followed by text
+    formatted_text = re.sub(r'\)([A-Za-z])', r')\n\1', formatted_text)
+
+    # Step 5: Insert a newline after a colon if followed by text
+    formatted_text = re.sub(r':\s*([A-Za-z])', r':\n\1', formatted_text)
+
+    # Step 6: Split compound words with two capital letters inside (e.g., "ThroatGuard" to "Throat\nGuard")
+    formatted_text = re.sub(r'([a-z])([A-Z])', r'\1\n\2', formatted_text)
+
+    # Step 7: Replace multiple newlines with a single newline
     formatted_text = re.sub(r'\n{2,}', '\n', formatted_text)
-    
+
+    # Return the final formatted text
     return formatted_text.strip()
+
+
 # # Example usage
 # input_text = "Stat/EffectAmountATK %11Stability %10Physical Pierce %20ASPD900% stronger against Light10Dark Element0Guard Break %30"
 # result = format_basestat(input_text)
@@ -125,16 +136,35 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                 basestat_div = card.find("div", class_="table-grid item-basestat")
                 if basestat_div:
                     raw_basestat = basestat_div.get_text(strip=True)
-                    len_stat_effect = len(raw_basestat)
                     for word in words_to_remove:
                         raw_basestat = raw_basestat.replace(word,"")
-                    card_data["StatEffect_Amount"] = format_basestat(raw_basestat)  # Apply formatting function
+                    
+                    final_basestat = format_basestat(raw_basestat)
+                    final_basestat = raw_basestat.replace("%","%\n")
+                    final_basestat = final_basestat.replace("Critical Rate","\nCritical Rate\n")
+                    final_basestat = final_basestat.replace("Dodge","Dodge\n")
+                    final_basestat = final_basestat.replace(")",")\n")
+                    final_basestat = final_basestat.replace("Barrier","\nBarrier")
+                    final_basestat = final_basestat.replace("TK","TK\n")
+                    final_basestat = final_basestat.replace("ASPD","\nASPD")
+                    final_basestat = final_basestat.replace("MSPD","\nMSPD")
+                    final_basestat = final_basestat.replace("DEF","\nDEF")
+                    final_basestat = final_basestat.replace("MDEF","\nMDEF")
+                    final_basestat = final_basestat.replace("MaxHP","\nMaxHP")
+                    final_basestat = final_basestat.replace("MaxMP","\nMaxMP")
+                    final_basestat = final_basestat.replace("Potential","\nPotential\n")
+                    final_basestat = final_basestat.replace("Critical Damage","\nCritical Damage\n")
+                    final_basestat = final_basestat.replace("Attack MP Recovery","\nAttack MP Recovery\n")
+                    final_basestat = final_basestat.replace("Base Stability","\nBase Stability")
+                    final_basestat = final_basestat.replace("Aggro","\nAggro")
+                    final_basestat = final_basestat.replace("\n\n","\n")
+                    card_data["StatEffect_Amount"] = final_basestat  # Apply formatting function
                 # Extract `item-obtainfrom`
                 obtainfrom_div = card.find("div", class_="table-grid no-head item-obtainfrom pagination-js-items")
                 if obtainfrom_div:
                     raw_md_map = obtainfrom_div.get_text(strip=True)
-                    len_md_map = len(raw_md_map)
-                    card_data["MonsterDyeMap"] = raw_md_map
+                    final_md_map = format_basestat(raw_md_map)
+                    card_data["MonsterDyeMap"] = final_md_map
                 # Extract `item-prop`
                 prop_div = card.find("ul", class_="accordion card-attach-bottom")
                 prop_mini = card.find("div", class_="item-prop mini")
@@ -148,18 +178,28 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                     card_data["Processing"] = prop_mini.get_text(strip=True)
                 
                 if prop_div:
-                    len_final_cut = 0
-                    # len_final_cut += len_stat_effect + len_md_map
                     raw_recipe = prop_div.get_text(strip=True).strip()
                     print(raw_recipe)
                     for word in words_to_remove:
                         raw_recipe = raw_recipe.replace(word,"")
                 
+                    # print("this is debug line for scrapping \n\n\n\n",raw_basestat,"  \n\n\n")
                     raw_recipe = raw_recipe.replace(raw_basestat,"")
                     raw_recipe = raw_recipe.replace(raw_md_map,"")
-                    raw_recipe = raw_recipe.replace("Spina","Spina\n")
-                    raw_recipe = raw_recipe.replace("pcsLevel","Level\n")
                     raw_recipe = format_basestat(raw_recipe)
+                    print(raw_recipe)
+                    raw_recipe = raw_recipe.replace(" SpinaSet","\nSpina\nSet")
+                    raw_recipe = raw_recipe.replace(" pcsLevel","Level")
+                    raw_recipe = raw_recipe.replace("Fall \n","Fall ")
+                    raw_recipe = raw_recipe.replace("Summer \n","Summer ")
+                    raw_recipe = raw_recipe.replace("Winter \n","Winter ")
+                    raw_recipe = raw_recipe.replace("Fall \n","Fall ")
+                    raw_recipe = raw_recipe.replace("Spring \n","Spring ")
+                    raw_recipe = raw_recipe.replace("Lv\n","Lv ")
+                    raw_recipe = raw_recipe.replace("\n)",") ")
+                    raw_recipe = raw_recipe.replace(")\n(",")(")
+                    raw_recipe = raw_recipe.replace("\n\n","\n")
+
                     card_data["Recipes"] = raw_recipe
                     print(raw_recipe)
                     print("-----\n")
