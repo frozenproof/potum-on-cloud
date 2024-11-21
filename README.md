@@ -28,6 +28,7 @@ app.use('/images', express.static(path.join(__dirname, '../images')));
 # Database
 Scrapped from Coryn, delays of 9 seconds per website load to avoid DDOS.
 
+Scripts used are in python folder.
 # How to build your own
 Run all scrapping python scripts, and run 0_find_import, then use pip list and chatgpt to make requirements.txt if you want to deploy your own version on python.
 
