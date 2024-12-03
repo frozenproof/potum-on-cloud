@@ -44,6 +44,9 @@ npm install
 ```
 
 # How to run
+
+Important: Node version need linux, you can choose
+
 Run command
 ```
 python3 ./server/server.py

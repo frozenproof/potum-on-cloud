@@ -212,6 +212,28 @@ function formatTableData(df) {
     });
 }
 
+// Serve the sitemap
+app.get('/sitemaps', (req, res) => {
+    console.log('GET request to "/sitemaps"');
+
+    // Construct the path to the sitemap file
+    const filePath = path.join(__dirname, '../database', 'sitemap.xml');
+    console.log('Looking for sitemap at:', filePath);
+
+    if (fs.existsSync(filePath)) {
+        console.log('Sitemap found, serving the file');
+        res.type('application/xml');
+        res.sendFile(filePath, (err) => {
+            if (err) {
+                console.error('Error serving sitemap:', err);
+                res.status(500).json({ message: 'Error loading sitemap' });
+            }
+        });
+    } else {
+        console.warn('Sitemap not found');
+        res.status(404).json({ message: 'Sitemap not found' });
+    }
+});
 
 // Start server
 const port = process.env.PORT2 || 5000;
