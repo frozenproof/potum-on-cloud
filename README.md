@@ -60,6 +60,8 @@ now we crawl properly through each document
 # Explanation
 The metadata files inside of the database folder tells the server what to find inside of the database, generated from 4_auto_metadata.py.
 
+We can also add google search index to allow others to visit our websites.
+
 # Debug lines
 
     <!-- <% console.log(table) %> -->
