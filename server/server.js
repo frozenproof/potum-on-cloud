@@ -8,10 +8,10 @@ const bodyParser = require('body-parser');
 
 // Use EJS for templating
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, '../templates'));
+app.set('views', path.join(__dirname, '..', 'templates'));
 
 // Static folder for images
-app.use('/images', express.static(path.join(__dirname, '../images')));
+app.use('/images', express.static(path.join(__dirname, '..', 'images')));
 
 // Body parser middleware to handle POST data
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 
 // Determine metadata file based on OS
 const metadataFile = platform === 'win32' ? 'metadata_windows.xlsx' : 'metadata_linux.xlsx';
-const metadataPath = path.join(__dirname, '../database', metadataFile);
+const metadataPath = path.join(__dirname, '..', 'database', metadataFile);
 
 console.log(`Metadata file: ${metadataFile}`);
 console.log(`Metadata path: ${metadataPath}`);
@@ -54,7 +54,7 @@ const defaultFile = Object.keys(fileMapping)[0];  // Get the first file in fileM
 
 app.get('/', (req, res) => {
     console.log('GET request to "/"');
-    const filePath = path.join(__dirname, '../database', defaultFile);
+    const filePath = path.join(__dirname, '..', 'database', defaultFile);
 
     if (fs.existsSync(filePath)) {
         const workbook = xlsx.readFile(filePath);
@@ -78,7 +78,7 @@ app.get('/', (req, res) => {
 
 app.post('/view', (req, res) => {
     const { file, search = '' } = req.body; // Extract file name and search query from request body
-    const filePath = path.join(__dirname, '../database', file); // Construct the file path
+    const filePath = path.join(__dirname, '..', 'database', file); // Construct the file path
 
     // Check if the file exists
     if (!fs.existsSync(filePath)) {
@@ -122,7 +122,7 @@ app.post('/view', (req, res) => {
 
 
 app.get('/files', (req, res) => {
-    const filesDir = path.join(__dirname, '../database');
+    const filesDir = path.join(__dirname, '..', 'database');
     const downloadableFiles = [];
 
     // Recursive function to gather all .xlsx files from subdirectories
@@ -154,7 +154,7 @@ app.get('/files', (req, res) => {
 
 app.get('/download/:file', (req, res) => {
     const file = req.params.file;
-    const filePath = path.join(__dirname, '../database', file);
+    const filePath = path.join(__dirname, '..', 'database', file);
 
     if (fs.existsSync(filePath)) {
         res.download(filePath, file, (err) => {
@@ -170,6 +170,106 @@ app.get('/download/:file', (req, res) => {
 // Health check API route
 app.get('/poc/health', (req, res) => {
     res.status(200).json({ message: 'API is healthy' });
+});
+
+app.get('/rangesearch', (req, res) => {
+    const databaseList = ["Boss", "Miniboss", "NormalMonsters"]; // List of database names
+    res.render('rangesearch', { results: [], databaseList }); // Pass the database list to the template
+});
+
+// Route to handle the range search
+app.post('/rangesearch', (req, res) => {
+    const { file, numberInput, rangeInput } = req.body; // Extract file name, base level, and range from request body
+    const filePath = path.join(__dirname, '..', 'database', 'm4', file + '.xlsx'); // Construct the file path based on the database file
+
+    // Check if the file exists
+    if (!fs.existsSync(filePath)) {
+        console.error(`File not found: ${filePath}`);
+        // If it's an API request, return JSON with error, not render
+        return res.status(400).json({ error: "File not found" });
+    }
+
+    try {
+        const workbook = xlsx.readFile(filePath); // Read the Excel file
+        const sheetName = workbook.SheetNames[0]; // Get the first sheet name
+        const sheet = workbook.Sheets[sheetName]; // Get the sheet data
+        let data = xlsx.utils.sheet_to_json(sheet); // Convert the sheet to JSON
+
+        console.debug(`Loaded ${data.length} rows from sheet: ${sheetName}`);
+
+        // Validate the input values for numberInput and rangeInput
+        const baseLevel = parseInt(numberInput);
+        const range = parseInt(rangeInput);
+
+        if (isNaN(baseLevel) || isNaN(range)) {
+            console.error("Invalid number input or range input");
+            // If it's an API request, return JSON with error
+            return res.status(400).json({ error: "Invalid base level or range" });
+        }
+
+        // Filter rows based on the Stats column (extract number after "Lv")
+        const minLevel = baseLevel - range;
+        const maxLevel = baseLevel + range;
+
+        const filteredData = data.filter(row => {
+            const stats = row.Stats; // Assuming Stats column contains data like "Lv 108"
+            const levelMatch = stats.match(/Lv\s*(\d+)/); // Extract number after "Lv"
+
+            if (levelMatch) {
+                const level = parseInt(levelMatch[1]);
+                return level >= minLevel && level <= maxLevel;
+            }
+
+            return false;
+        });
+
+        console.debug(`Rows after level filter: ${filteredData.length}`);
+
+        // Configurable number of rows to return (e.g., top 10)
+        const maxRows = 10;
+        const rowsToReturn = filteredData; // Limit the rows to the specified maximum
+        // const rowsToReturn = filteredData.slice(0, maxRows); // Limit the rows to the specified maximum
+
+        if (req.headers['x-requested-with'] === 'XMLHttpRequest') {
+            // This is an AJAX request, send JSON response
+            return res.json({ results: rowsToReturn });
+        } else {
+            return res.json({ results: rowsToReturn });
+
+            // // This is a regular page load, render the results to the template
+            // res.render('rangesearch', { 
+            //     results: rowsToReturn || [], // Always pass an array
+            //     databaseList: ["Boss", "Miniboss", "NormalMonsters"], 
+            //     error: null 
+            // });
+        }
+    } catch (error) {
+        console.error(`Error processing file: ${error.message}`);
+        // If it's an API request, return JSON with error
+        return res.status(500).json({ error: "Error processing the file" });
+    }
+});
+
+
+// Secret API route
+app.get('/secret', (req, res) => {
+    console.log('GET request to ""');
+
+    // Construct the path to the sitemap file
+    const filePath = path.join(__dirname, '..', 'templates', 'secret', 'index.html');
+    console.log('Looking for secret at:', filePath);
+
+    if (fs.existsSync(filePath)) {
+        // Render the secret HTML file
+        res.sendFile(filePath);
+    } else {
+        console.warn('Secret not found');
+        res.status(404).json({ message: 'Secret not found' });
+    }
+});
+
+app.get('/maintenance-info', (req, res) => {
+    res.json({ message: 'Website will be under maintenance on November 30 from 10 PM to 1 AM. GMT+7.' });
 });
 
 function generateTableHtml(data) {
@@ -192,10 +292,6 @@ function generateTableHtml(data) {
     return table;
 }
 
-app.get('/maintenance-info', (req, res) => {
-    res.json({ message: 'Website will be under maintenance on November 30 from 10 PM to 1 AM. GMT+7.' });
-});
-
 // Apply <br> for newlines in string values
 function formatTableData(df) {
     return df.map((row, rowIndex) => {
@@ -217,7 +313,7 @@ app.get('/sitemaps', (req, res) => {
     console.log('GET request to "/sitemaps"');
 
     // Construct the path to the sitemap file
-    const filePath = path.join(__dirname, '../database', 'sitemap.xml');
+    const filePath = path.join(__dirname, '..', 'database', 'sitemap.xml');
     console.log('Looking for sitemap at:', filePath);
 
     if (fs.existsSync(filePath)) {

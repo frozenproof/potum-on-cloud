@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Range Search - Stats</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        /* styles.css */
+        body {
+            background-image: url('../images/appbackground.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        input, select, button {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+    <script>
+async function handleSearch(event) {
+    event.preventDefault();
+
+    const numberInput = document.getElementById('numberInput').value;
+    const rangeInput = document.getElementById('rangeInput').value;
+    const selectedDatabase = document.getElementById('databaseSelect').value;
+
+    if (!numberInput || !rangeInput || !selectedDatabase) {
+        alert("Please fill in all fields.");
+        return;
+    }
+
+    try {
+        // Send POST request
+        const response = await axios.post('/rangesearch', {
+            file: selectedDatabase,
+            numberInput,
+            rangeInput
+        });
+
+        // Debugging log to check the full response from backend
+        console.log("Response from backend:", response);
+
+        // Check if the response has 'results' key and it's an array
+        if (Array.isArray(response.data.results)) {
+            const resultsTable = document.getElementById('resultsTable');
+
+            // Update results dynamically
+            resultsTable.innerHTML = response.data.results.map(row => `
+                <tr>
+                    <td>${row.Name}</td>
+                    <td>${row.Stats}</td>
+                    <td>${row.SpawnAt}</td>
+                    <td>${row.Drops}</td>
+                </tr>
+            `).join('');
+        } else {
+            console.error("Invalid results format in response:", response.data);
+            alert("Error: Invalid results format received from the server.");
+        }
+
+    } catch (error) {
+        console.error("Error fetching results:", error);
+        alert("Failed to fetch results.");
+    }
+}
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Range Search - Stats</h1>
+        <form id="searchForm" onsubmit="handleSearch(event)">
+            <label for="databaseSelect">Select Database:</label>
+            <select id="databaseSelect" name="file" required>
+                <% databaseList.forEach(database => { %>
+                    <option value="<%= database %>"><%= database %></option>
+                <% }); %>
+            </select>
+
+            <label for="numberInput">Base Level:</label>
+            <input type="number" id="numberInput" name="numberInput" placeholder="Enter level" required>
+
+            <label for="rangeInput">Range:</label>
+            <input type="number" id="rangeInput" name="rangeInput" placeholder="Enter range" required>
+
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Results Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Stats</th>
+                    <th>SpawnAt</th>
+                    <th>Drops</th>
+                </tr>
+            </thead>
+            <tbody id="resultsTable">
+                <% if (results && results.length > 0) { %>
+                    <% results.forEach(row => { %>
+                        <tr>
+                            <td><%= row.Name %></td>
+                            <td><%= row.Stats %></td>
+                            <td><%= row.SpawnAt %></td>
+                            <td><%= row.Drops %></td>
+                        </tr>
+                    <% }); %>
+                <% } else { %>
+                    <tr>
+                        <td colspan="4">No results found</td>
+                    </tr>
+                <% } %>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

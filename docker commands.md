@@ -17,14 +17,14 @@ docker tag cattus-nginx truclinhgm/cattus-nginx:deploy-ready
 docker tag poc truclinhgm/poc:deploy-ready
 docker tag poc2 truclinhgm/poc2:deploy-ready
 
-docker image remove poc2 \
-docker image remove truclinhgm/poc:deploy-ready
+docker image remove poc \
+&& docker image remove truclinhgm/poc:deploy-ready
 
 docker container stop poc2 \
 && docker container remove poc2
 
 docker image remove poc2 \
-docker image remove truclinhgm/poc:deploy-ready
+&& docker image remove truclinhgm/poc2:deploy-ready
 docker exec poc2
 
 
