@@ -8,106 +8,86 @@ import re
 
 # Function to format the `item_basestat` text
 def format_basestat(text):
-    # Insert newline after a percentage symbol
-    # formatted_text = text.replace("%", "%\n")
 
     # Insert a newline only between a number and the following word if they are directly adjacent and likewise
-    formatted_text = re.sub(r'(\d)([A-Z])', r'\1\n\2', text)
-    formatted_text = re.sub(r'([A-Z])(\d)', r'\1\n\2', formatted_text)
+    formatted_text = re.sub(r'(\d)(\D)', r'\1\n\2', text)
+    formatted_text = re.sub(r'(\D)(\d)', r'\1\n\2', formatted_text)
+    # formatted_text = re.sub(r'\n(\d)\n\)', r'\1)\n', formatted_text)
     
     # Step 4: Insert a newline after a closing parenthesis if followed by text
-    formatted_text = re.sub(r'\)([A-Za-z])', r')\n\1', formatted_text)
+    formatted_text = re.sub(r'\)(\D)', r')\n\1', formatted_text)
 
     # Step 6: Split compound words with two capital letters inside (e.g., "ThroatGuard" to "Throat\nGuard")
     formatted_text = re.sub(r'([a-z])([A-Z])', r'\1 \2', formatted_text)
+    # formatted_text = re.sub(r'([a-z]) ([A-Z])', r'\1\n\2', formatted_text)
+    
+    formatted_text = re.sub(r"-", r"\n-", formatted_text)
 
-    # Replace unnecessary spaces in certain contexts (retain this if "stronger" is special)
-    formatted_text = formatted_text.replace("stronger ", "\stronger ")
+    formatted_text = re.sub(r"\n-\n(\d)", r"\n- \1", formatted_text)
+
+    formatted_text = re.sub(r'Lv \n(\d+)\n', r'Lv \1', formatted_text)
+    formatted_text = re.sub(r'\(\n(\d+)\n', r'(\1', formatted_text)
 
     # Remove excessive newlines
     formatted_text = re.sub(r'\n{2,}', '\n', formatted_text)
 
     return formatted_text.strip()
 
-    # # Step 1: Insert a newline between a number and the following word if directly adjacent
-    # formatted_text = re.sub(r'(\d+)([A-Za-z])', r'\1\n\2', text)
-    
-    # # Step 2: Insert a newline between a word and a number if directly adjacent
-    # formatted_text = re.sub(r'([A-Za-z])(\d)', r'\1\n\2', formatted_text)
-    
-    # # Step 3: Replace spaces in front of numbers with a newline
-    # formatted_text = re.sub(r'\s+(\d)', r'\n\1', formatted_text)
-
-    # # Step 4: Insert a newline after a closing parenthesis if followed by text
-    # formatted_text = re.sub(r'\)([A-Za-z])', r')\n\1', formatted_text)
-
-    # # Step 5: Insert a newline after a colon if followed by text
-    # formatted_text = re.sub(r':\s*([A-Za-z])', r':\n\1', formatted_text)
-
-    # # Step 6: Split compound words with two capital letters inside (e.g., "ThroatGuard" to "Throat\nGuard")
-    # formatted_text = re.sub(r'([a-z])([A-Z])', r'\1\n\2', formatted_text)
-
-    # # Step 7: Replace multiple newlines with a single newline
-    # formatted_text = re.sub(r'\n{2,}', '\n', formatted_text)
-
-    # # Return the final formatted text
-    # return formatted_text.strip()
-
 # # Example usage
-# input_text = "Stat/EffectAmountATK %11Stability %10Physical Pierce %20ASPD900% stronger against Light10Dark Element0Guard Break %30"
-# result = format_basestat(input_text)
-# print(result)
+input_text = "Stat/EffectAmountATK %11Stability %10Physical Pierce %20ASPD-900% stronger against Light10Dark Element0Guard Break %30Rakau Plains Raffy(Lv 2) Kaus Hound(Lv 18)Isthmus Of Kaus Hound(Lv 15)Isthmus Of Kaus"
+result = format_basestat(input_text)
+print(result)
 # List of URLs to scrape
 list_of_weapons = {
     "weapons": {
-        "1hs": [
-            "https://coryn.club/item.php?&show=455&type=4&order=atk%20ASC,name&p=0"
-        ], 
-        "2hs": [
-            "https://coryn.club/item.php?&show=455&type=5&order=atk%20ASC,name&p=0",
-        ],
-        "Bow": [
-            "https://coryn.club/item.php?&show=455&type=9&order=atk%20ASC,name&p=0",
-        ],
-        "Bowgun": [
-            "https://coryn.club/item.php?&show=455&type=10&order=atk%20ASC,name&p=0",
-        ],
-        "Knuckles": [
-            "https://coryn.club/item.php?&show=455&type=13&order=atk%20ASC,name&p=0",
-        ],
-        "Magic_Device": [
-            "https://coryn.club/item.php?&show=455&type=15&order=atk%20ASC,name&p=0",
-        ],
-        "Staff": [
-            "https://coryn.club/item.php?&show=455&type=19&order=atk%20ASC,name&p=0",
-        ],
-        "Halberd": [
-            "https://coryn.club/item.php?&show=455&type=26&order=atk%20ASC,name&p=0",
-        ],
-        "Katana": [
-            "https://coryn.club/item.php?&show=455&type=27&order=atk%20ASC,name&p=0",
-        ],
-        "Dagger": [
-            "https://coryn.club/item.php?&show=149&type=11&order=atk%20ASC,name&p=0",
-        ],
-        "Arrow": [
-            "https://coryn.club/item.php?&show=149&type=7&order=atk%20ASC,name&p=0",
-        ],
-        "Shield": [
-            "https://coryn.club/item.php?&show=455&type=17&order=def%20ASC,name&p=0",
-        ],
-        "Ninjutsu_Scroll": [
-            "https://coryn.club/item.php?type=28&order=id,name",
-        ],
-        "Armor": [
-            "https://coryn.club/item.php?&show=455&type=8&order=def%20ASC,name&p=0",
-        ],
+        # "1hs": [
+        #     "https://coryn.club/item.php?&show=455&type=4&order=atk%20ASC,name&p=0"
+        # ], 
+        # "2hs": [
+        #     "https://coryn.club/item.php?&show=455&type=5&order=atk%20ASC,name&p=0",
+        # ],
+        # "Bow": [
+        #     "https://coryn.club/item.php?&show=455&type=9&order=atk%20ASC,name&p=0",
+        # ],
+        # "Bowgun": [
+        #     "https://coryn.club/item.php?&show=455&type=10&order=atk%20ASC,name&p=0",
+        # ],
+        # "Knuckles": [
+        #     "https://coryn.club/item.php?&show=455&type=13&order=atk%20ASC,name&p=0",
+        # ],
+        # "Magic_Device": [
+        #     "https://coryn.club/item.php?&show=455&type=15&order=atk%20ASC,name&p=0",
+        # ],
+        # "Staff": [
+        #     "https://coryn.club/item.php?&show=455&type=19&order=atk%20ASC,name&p=0",
+        # ],
+        # "Halberd": [
+        #     "https://coryn.club/item.php?&show=455&type=26&order=atk%20ASC,name&p=0",
+        # ],
+        # "Katana": [
+        #     "https://coryn.club/item.php?&show=455&type=27&order=atk%20ASC,name&p=0",
+        # ],
+        # "Dagger": [
+        #     "https://coryn.club/item.php?&show=149&type=11&order=atk%20ASC,name&p=0",
+        # ],
+        # "Arrow": [
+        #     "https://coryn.club/item.php?&show=149&type=7&order=atk%20ASC,name&p=0",
+        # ],
+        # "Shield": [
+        #     "https://coryn.club/item.php?&show=455&type=17&order=def%20ASC,name&p=0",
+        # ],
+        # "Ninjutsu_Scroll": [
+        #     "https://coryn.club/item.php?type=28&order=id,name",
+        # ],
+        # "Armor": [
+        #     "https://coryn.club/item.php?&show=455&type=8&order=def%20ASC,name&p=0",
+        # ],
         "Additional": [
-            "https://coryn.club/item.php?&show=455&type=6&order=def%20ASC,name&p=0",
+            "https://coryn.club/item.php?&show=1900&type=6&order=def%20ASC,name&p=0",
         ],
-        "Special": [
-            "https://coryn.club/item.php?&show=455&type=18&order=def%20ASC,name&p=0",
-        ],
+        # "Special": [
+        #     "https://coryn.club/item.php?&show=455&type=18&order=def%20ASC,name&p=0",
+        # ],
     }
 }
 # Create the directories if they don't exist
@@ -130,8 +110,7 @@ for skill_category, urls in list_of_weapons["weapons"].items():
             # Find all relevant divs with the specified class
             cards_big_do_not_delete = soup.find_all("div", class_="card-container")
             cards_do_not_delete = soup.find_all("div")
-            # cards_ul_e = soup.find_all("ul")
-            # cards_do_not_delete = cards_big_do_not_delete
+            print(url + ' is being inspected')
             # print(cards)
             with open("Output.txt", "w", encoding='cp932', errors='ignore') as text_file:
                 text_file.write("\n\n\n" + str(cards_do_not_delete))
@@ -156,33 +135,11 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                 basestat_div = card.find("div", class_="table-grid item-basestat")
                 if basestat_div:
                     raw_basestat = basestat_div.get_text(strip=True)
-                    print(raw_basestat)
+                    # print(raw_basestat)
                     for word in words_to_remove:
                         raw_basestat = raw_basestat.replace(word,"")
                     
                     final_basestat = format_basestat(raw_basestat)
-                    final_basestat = raw_basestat.replace("%","%\n")
-                    final_basestat = final_basestat.replace("Critical Rate","\nCritical Rate\n")
-                    final_basestat = final_basestat.replace("Accuracy","\nAccuracy")
-                    final_basestat = final_basestat.replace("Dodge","Dodge\n")
-                    # final_basestat = final_basestat.replace(")",")\n")
-                    # final_basestat = final_basestat.replace("\n)",")")
-                    final_basestat = final_basestat.replace("Barrier","\nBarrier")
-                    final_basestat = final_basestat.replace("TK","TK\n")
-                    final_basestat = final_basestat.replace("ASPD","\nASPD")
-                    final_basestat = final_basestat.replace("MSPD","\nMSPD")
-                    final_basestat = final_basestat.replace("DEF","\nDEF\n")
-                    final_basestat = final_basestat.replace("MDEF","\nMDEF\n")
-                    final_basestat = final_basestat.replace("MaxHP","\nMaxHP\n")
-                    final_basestat = final_basestat.replace("MaxMP","\nMaxMP\n")
-                    final_basestat = final_basestat.replace("stronger ","\nstronger ")
-                    final_basestat = final_basestat.replace("Element","\nElement\n")
-                    final_basestat = final_basestat.replace("Potential","\nPotential\n")
-                    final_basestat = final_basestat.replace("Critical Damage","\nCritical Damage\n")
-                    final_basestat = final_basestat.replace("Attack MP Recovery","\nAttack MP Recovery\n")
-                    final_basestat = final_basestat.replace("Base Stability","\nBase Stability")
-                    final_basestat = final_basestat.replace("Aggro","\nAggro")
-                    # final_basestat = final_basestat.replace("\n\n","\n")
                     card_data["StatEffect_Amount"] = final_basestat  # Apply formatting function
                 # Extract `item-obtainfrom`
                 obtainfrom_div = card.find("div", class_="table-grid no-head item-obtainfrom pagination-js-items")
@@ -207,7 +164,7 @@ for skill_category, urls in list_of_weapons["weapons"].items():
 
                 if prop_div:
                     raw_recipe = prop_div.get_text(strip=True).strip()
-                    print(raw_recipe)
+                    # print(raw_recipe)
                     for word in words_to_remove:
                         raw_recipe = raw_recipe.replace(word,"")
                 
@@ -216,21 +173,9 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                     raw_recipe = raw_recipe.replace(raw_md_map,"")
                     raw_recipe = format_basestat(raw_recipe)
                     # print(raw_recipe)
-                    raw_recipe = raw_recipe.replace(" SpinaSet","\nSpina\nSet")
-                    raw_recipe = raw_recipe.replace(" pcsLevel","Level")
-                    raw_recipe = raw_recipe.replace("Fall \n","Fall ")
-                    raw_recipe = raw_recipe.replace("Summer \n","Summer ")
-                    raw_recipe = raw_recipe.replace("Winter \n","Winter ")
-                    raw_recipe = raw_recipe.replace("Fall \n","Fall ")
-                    raw_recipe = raw_recipe.replace("Spring \n","Spring ")
-                    raw_recipe = raw_recipe.replace("Lv\n","Lv ")
-                    raw_recipe = raw_recipe.replace("\n)",") ")
-                    raw_recipe = raw_recipe.replace(")\n(",")(")
-                    raw_recipe = raw_recipe.replace("\n\n","\n")
-
                     card_data["Recipes"] = raw_recipe
-                    print(raw_recipe)
-                    print("-----\n")
+                    # print(raw_recipe)
+                    # print("-----\n")
                 if (title_div and basestat_div):
                     # Serialize card_data to a JSON string to ensure order and add to the set
                     card_data_json = json.dumps(card_data, ensure_ascii=False)

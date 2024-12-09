@@ -1,1276 +1,1276 @@
 [
     {
-        "Name": "Catafnia Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n51\nMaxMP\n100Guard Power %\n34Guard Recharge %\n20Anticipate %\n5",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell170\nSpina\nProcess\n85 Metal",
-        "Recipes": "850 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 4x Black Obsidian- 20x Kappa's Plate- 275x Metal- 150x Wood"
-    },
-    {
-        "Name": "5th Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n22\nMaxHP\n %\n5Physical Resistance %\n5Magic Resistance %\n5Guard Power %\n36Guard Recharge %\n12Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
-        "Recipes": "190 Spina Set1 pcs Level75\nDifficulty120\nMaterials- 20x Silver 5th Anniv Medal"
-    },
-    {
-        "Name": "4th Anniv Shield IV[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n16VIT %\n4Guard Power %\n33Guard Recharge %\n11\nAggro %\n12",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell95\nSpina\nProcess\n47 Metal",
-        "Recipes": "200 Spina Set1 pcs Level75\nDifficulty100\nMaterials- 20x Silver 4th Anniv Medal- 100x Metal"
-    },
-    {
-        "Name": "Aeria Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n76Physical Pierce %\n4\nASPD %\n20Guard Power %\n29Guard Recharge %\n29",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
-        "Recipes": "1050 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 25x Kiton's Wing- 10x Crooked Horn- 300x Metal- 225x Beast"
-    },
-    {
-        "Name": "Light Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0AGI2Guard Power %\n5Guard Recharge %\n26",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell10\nSpina\nProcess\n5 Metal",
-        "Recipes": "50 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Small Wood- 15x Cloth- 15x Wood"
-    },
-    {
-        "Name": "Iron Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n1Guard Power %\n13Guard Recharge %\n20",
-        "MonsterDyeMap": "Water Ghost(Lv 31)\nNehelo Swamp",
-        "Processing": "Sell30\nSpina\nProcess\n15 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Holy Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n45\nMaxHP\n %\n20Magic Resistance %\n8Dark resistance %\n7Guard Power %\n13Guard Recharge %\n40",
-        "MonsterDyeMap": "Sandsaur(Lv 165)\nInanis Wilderness Sandsaur(Lv 163)\nInanis Wilderness",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "9th Anniv Shield IV[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n92VIT %\n9Physical Resistance %\n13Magic Resistance %\n13Guard Power %\n41Guard Recharge %\n16\nAggro %\n26Heavy Armor only:\nAggro %\n26",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell0\nSpina\nProcess\nunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Lolliodd Magic Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n99\nCritical Rate\n %\n100Guard Recharge %\n-75Weapon ATK\n %\n25Additional Melee %\n50Reduce Dmg (Floor) %\n25",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "100000 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Evil Lefina- 1x Mage Filecia- 20x Raging Soul- 99x Mysterious Meringue"
-    },
-    {
-        "Name": "Ooze Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n4Natural HP Regen %\n2Magic Resistance %\n1Guard Power %\n23Guard Recharge %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell45\nSpina\nProcess\n22 Metal",
-        "Recipes": "450 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Emerald Stone- 25x Fluorescent Pond Water- 350x Beast- 100x Mana"
-    },
-    {
-        "Name": "Spike Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n18Guard Power %\n5Guard Recharge %\n35\nAggro %\n10Weapon ATK\n %\n10Reflect %\n10Additional Melee %\n10",
-        "MonsterDyeMap": "Demi Ork(Lv 98)\nSykea Deep Valley Demi Ork(Lv 100)\nSykea Deep Valley",
-        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Shampy Doll[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0\nMaxHP\n1000Fractional \nBarrier %\n15\nBarrier Cooldown %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell150\nSpina\nProcess\n75 Cloth",
-        "Recipes": "1500 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 5x Shampy's Fluffy Hair- 1200x Cloth- 300x Metal"
-    },
-    {
-        "Name": "4th Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n10VIT %\n3Guard Power %\n30Guard Recharge %\n10\nAggro %\n9",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell75\nSpina\nProcess\n37 Metal",
-        "Recipes": "100 Spina Set1 pcs Level50\nDifficulty75\nMaterials- 20x Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "5th Anniv Shield VI[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n60\nMaxHP\n %\n10Physical Resistance %\n10Magic Resistance %\n10Guard Power %\n39Guard Recharge %\n14Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell185\nSpina\nProcess\n92 Metal",
-        "Recipes": "350 Spina Set1 pcs Level175\nDifficulty200\nMaterials- 20x Silpom 5th Anniv Medal"
-    },
-    {
-        "Name": "Scale Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5Guard Power %\n10Guard Recharge %\n25\nAggro %\n5",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell50\nSpina\nProcess\n25 Beast",
-        "Recipes": "250 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 15x Thick Green Scale- 20x Crystal Powder- 90x Beast- 35x Wood"
-    },
-    {
-        "Name": "2nd Anniv Shield IV[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n16VIT %\n4Guard Power %\n33Guard Recharge %\n11\nAggro %\n12",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell95\nSpina\nProcess\n47 Metal",
-        "Recipes": "2000 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Silpom 2nd Anniv Medal- 100x Metal"
-    },
-    {
-        "Name": "Ooze Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n4Natural HP Regen %\n2Magic Resistance %\n4Guard Power %\n15Guard Recharge %\n23",
-        "MonsterDyeMap": "Ooze (Megiston 2016)(Lv 100)\nEvent",
-        "Processing": "Sell45\nSpina\nProcess\n22 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Cross Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n10Physical Resistance %\n3Magic Resistance %\n1Guard Power %\n19Guard Recharge %\n19",
-        "MonsterDyeMap": "Corroded Knight(Lv 72)\nDark Wasteland",
-        "Processing": "Sell80\nSpina\nProcess\n40 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "4th Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5VIT %\n2Guard Power %\n27Guard Recharge %\n9\nAggro %\n6",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell50\nSpina\nProcess\n25 Metal",
-        "Recipes": "10 Spina Set1 pcs Level25\nDifficulty50\nMaterials- 10x Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "Elfin Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n30Dodge\n %\n5Guard Power %\n30Guard Recharge %\n20Neutral Resistance %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
-        "Recipes": "650 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 15x Potum Top Fin- 25x White Wood- 250x Wood- 75x Metal"
-    },
-    {
-        "Name": "Luster Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n70\nMaxMP\n300Guard Power %\n28Guard Recharge %\n29\nAttack MP Recovery\n3",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell200\nSpina\nProcess\n100 Metal",
-        "Recipes": "1000 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 25x Hardened Eggshell- 25x Mutated Outer Shell- 450x Metal- 50x Mana"
-    },
-    {
-        "Name": "Harmony Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n39Physical Resistance %\n13Magic Resistance %\n13Guard Power %\n26Guard Recharge %\n26",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
-        "Recipes": "750 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 10x Insect Energy- 25x Processed Iron Plate- 300x Metal- 75x Wood"
-    },
-    {
-        "Name": "Luxurie Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n84Magic Resistance %\n10Guard Power %\n50Guard Recharge %\n9Short Range Damage %\n1",
-        "MonsterDyeMap": "Forbigosta(Lv 229)\nSubma Cave Forbigosta(Lv 231)\nSubma Cave",
-        "Processing": "Sell220\nSpina\nProcess\n110 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n108\nMaxHP\n2500Physical Resistance %\n10Magic Resistance %\n20Guard Power %\n30Guard Recharge %\n30Reduce Dmg (Player Epicenter) %\n5",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "7th Anniv Shield V[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n76VIT %\n8Physical Resistance %\n12Magic Resistance %\n12Guard Power %\n41Guard Recharge %\n15\nAggro %\n24Heavy Armor only:\nAggro %\n24",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
-        "Recipes": "420 Spina Set1 pcs Level190\nDifficulty230\nMaterials- 20x Silpom 7th Anniv Medal- 220x Metal"
-    },
-    {
-        "Name": "Eradicator Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n84Physical Resistance %\n15\nCritical Rate\n10Guard Power %\n40Guard Recharge %\n17Reduce Dmg (Bullet) %\n15Reduce Dmg (Bowling) %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell220\nSpina\nProcess\n110 Metal",
-        "Recipes": "2200 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 2x Velum's Crystal Reactor- 4x Velum's Armor- 1200x Metal- 1000x Wood"
-    },
-    {
-        "Name": "Scale Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5Guard Power %\n10Guard Recharge %\n25\nAggro %\n2",
-        "MonsterDyeMap": "Planet Head (Green)(Lv 62)\nGate to Another World: Area 1\nPlanet Head (Green)(Lv 64)\nGate to Another World: Area 2",
-        "Processing": "Sell50\nSpina\nProcess\n25 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Marble Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n9Guard Power %\n20Guard Recharge %\n20\nAggro %\n24\nAttack MP Recovery\n6",
-        "MonsterDyeMap": "Pillar Golem (Megiston 2018)(Lv 140)\nEvent",
-        "Processing": "Sell70\nSpina\nProcess\n35 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Harmony Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n41Physical Resistance %\n10Magic Resistance %\n10Guard Power %\n26Guard Recharge %\n26",
-        "MonsterDyeMap": "Roca(Lv 155)\nEryldan Street: Area 1\nRoca(Lv 156)\nEryldan Street: Area 2\nRoca(Lv 156)\nEryldan Street: Area 3",
-        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Hero Shield (Pom)[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n1Ailment Resistance %\n-10Guard Power %\n20Guard Recharge %\n30\nAggro %\n25Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "Hero Potum (10\nM DL)(Lv 150)\nSofya City: Government Office Hero Potum Party (12\nM DL)(Lv 180)\nArchfiend's Throne Hero Potum Party (12\nM DL)(Lv 190)\nArchfiend's Throne Hero Potum Party (12\nM DL)(Lv 200)\nArchfiend's Throne Hero Potum Party (12\nM DL)(Lv 220)\nArchfiend's Throne Hero Potum Party (13\nM DL)(Lv 190)\nArchfiend's Throne Hero Potum Party (13\nM DL)(Lv 200)\nArchfiend's Throne Hero Potum Party (13\nM DL)(Lv 210)\nArchfiend's Throne Hero Potum Party (13\nM DL)(Lv 220)\nArchfiend's Throne Hero Potum Party (12\nM DL)(Lv 170)\nArchfiend's Throne Hero Potum (11\nM DL)(Lv 220)\nSofya City: Government Office Hero Potum (10\nM DL)(Lv 160)\nSofya City: Government Office Hero Potum (10\nM DL)(Lv 170)\nSofya City: Government Office Hero Potum (10\nM DL)(Lv 180)\nSofya City: Government Office Hero Potum (10\nM DL)(Lv 200)\nSofya City: Government Office Hero Potum (11\nM DL)(Lv 160)\nSofya City: Government Office Hero Potum (11\nM DL)(Lv 170)\nSofya City: Government Office Hero Potum (11\nM DL)(Lv 180)\nSofya City: Government Office Hero Potum (11\nM DL)(Lv 190)\nSofya City: Government Office Hero Potum Party (13\nM DL)(Lv 240)\nArchfiend's Throne",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Beastlord Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n76VIT %\n8Guard Power %\n41Guard Recharge %\n15\nAggro %\n30Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "Zega (Megiston 2021)(Lv 240)\nEvent Zega (Megiston 2022)(Lv 260)\nEvent",
-        "Processing": "Sell205\nSpina\nProcess\n102 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Kite Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n1\nMaxHP\n90Guard Power %\n22Guard Recharge %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell20\nSpina\nProcess\n10 Wood",
-        "Recipes": "100 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 23x Sturdy Fur- 2x Nisel Wood- 25x Cloth- 25x Wood"
-    },
-    {
-        "Name": "Shell Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n9VIT %\n3\nAccuracy %\n10Guard Power %\n30Guard Recharge %\n7",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "350 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 10x Ancient Shell- 25x Snake Scale- 125x Metal- 50x Cloth"
-    },
-    {
-        "Name": "Peismataris[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n108\nMaxHP\n %\n15Ailment Resistance %\n15Guard Power %\n30Guard Recharge %\n30",
-        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2023)\nEvent",
-        "Processing": "Sell1\nSpina\nProcess\n1000 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Don Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n112\nMaxHP\n5000Guard Power %\n36Guard Recharge %\n25Light Armor only:\nCritical Rate\n10\nAggro %\n25",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell0\nSpina\nProcess\nunknown",
-        "Recipes": "2600 Spina Set1 pcs Level255\nDifficulty0\nMaterials- 1x Abyssal Jewel- 4x Abyssal Creature Exoskeleton- 1600x Beast- 1000x Metal"
-    },
-    {
-        "Name": "Profound Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n92\nMaxHP\n %\n14Dark resistance %\n18Guard Power %\n30Guard Recharge %\n30",
-        "MonsterDyeMap": "Trast(Lv 238)\nPipeline Corridor Trast(Lv 240)\nPipeline Corridor",
-        "Processing": "Sell230\nSpina\nProcess\n115 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "7th Anniv Shield IV[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n66VIT %\n7Physical Resistance %\n11Magic Resistance %\n11Guard Power %\n40Guard Recharge %\n15\nAggro %\n22Heavy Armor only:\nAggro %\n22",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell195\nSpina\nProcess\n97 Metal",
-        "Recipes": "390 Spina Set1 pcs Level175\nDifficulty215\nMaterials- 20x Bropom 7th Anniv Medal- 205x Metal"
-    },
-    {
-        "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n35ATK\n %\n1Guard Power %\n15Guard Recharge %\n20Short Range Damage %\n1Reduce Dmg (Player Epicenter) %\n-10",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "3rd Anniv Shield VII[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n36VIT %\n5Guard Power %\n38Guard Recharge %\n13\nAggro %\n21Fractional \nBarrier %\n4",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcess72 Metal",
-        "Recipes": "5000 Spina Set1 pcs Level130\nDifficulty155\nMaterials- 20x Golpom 3rd Anniv Medal- 250x Metal"
-    },
-    {
-        "Name": "Albero Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n7VIT %\n3\nMaxHP\n300Guard Power %\n18Guard Recharge %\n18",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell60\nSpina\nProcess\n30 Wood",
-        "Recipes": "300 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 6x Iron Hat Fragment- 30x Soft Twig- 100x Wood- 50x Metal"
-    },
-    {
-        "Name": "Snow Bear Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n40Water resistance %\n10Guard Power %\n30Guard Recharge %\n20\nAggro %\n40Reduce Dmg (Charge) %\n20Staff only:\nAggro %\n-50",
-        "MonsterDyeMap": "Snow Bear Box Snowball Mini Game Venue",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "9th Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n76VIT %\n8Physical Resistance %\n12Magic Resistance %\n12Guard Power %\n41Guard Recharge %\n15\nAggro %\n24Heavy Armor only:\nAggro %\n24",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell0\nSpina\nProcess\nunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Peismataris[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n90\nMaxHP\n %\n15Ailment Resistance %\n15Guard Power %\n30Guard Recharge %\n30",
-        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2022)\nEvent",
-        "Processing": "Sell1\nSpina\nProcess\n1000 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Vulcan Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n11\nAccuracy16\nASPD250\nCritical Rate\n8Guard Power %\n10Guard Recharge %\n35",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell110\nSpina\nProcess\n55 Mana",
-        "Recipes": "1100 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 2x Ifrid's Robot Leg- 4x Ifrid's Heated Horn- 1000x Beast- 100x Metal"
-    },
-    {
-        "Name": "Luxurie Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n84Magic Resistance %\n15Guard Power %\n50Guard Recharge %\n9Short Range Damage %\n1",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell220\nSpina\nProcess\n110 Metal",
-        "Recipes": "1100 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 25x Planispiral Shell- 20x Circular Plate- 350x Metal- 150x Beast"
-    },
-    {
-        "Name": "Reptilian Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n57Guard Power %\n30Guard Recharge %\n25Magic \nBarrier1500Guard Break %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell180\nSpina\nProcess\n90 Beast",
-        "Recipes": "900 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 25x Hard Wood Board- 15x Speckled Egg- 250x Metal- 200x Beast"
-    },
-    {
-        "Name": "Vulcan Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n11\nAccuracy6\nASPD250\nCritical Rate\n12Guard Power %\n10Guard Recharge %\n35",
-        "MonsterDyeMap": "Ifrid(Lv 112)\nBlazing Graben: Deepest Part Ifrid(Lv 102)\nBlazing Graben: Deepest Part Ifrid(Lv 122)\nBlazing Graben: Deepest Part Ifrid(Lv 132)\nBlazing Graben: Deepest Part Ifrid(Lv 152)\nBlazing Graben: Deepest Part",
-        "Processing": "Sell110\nSpina\nProcess\n55 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Albero Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n7VIT %\n2\nMaxHP\n200Guard Power %\n18Guard Recharge %\n18",
-        "MonsterDyeMap": "Jelfy(Lv 69)\nTeaus Hill Jelfy(Lv 67)\nTeaus Hill Jelfy(Lv 70)\nTeaus Hill: Marshland",
-        "Processing": "Sell60\nSpina\nProcess\n30 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0\nMaxHP\n30Guard Power %\n15Guard Recharge %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
-        "Recipes": "5 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 15x Animal Skin- 3x Cloth"
-    },
-    {
-        "Name": "Laguna Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n63\nCritical Rate\n14Water resistance %\n14Guard Power %\n16Guard Recharge %\n40",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell190\nSpina\nProcess\n95 Metal",
-        "Recipes": "950 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 10x Armorlike Feather- 35x Rock-Hard Carapace- 300x Metal- 175x Wood"
-    },
-    {
-        "Name": "Lil Empress Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n40\nAccuracy30Guard Power %\n25Guard Recharge %\n25\nAttack MP Recovery\n3",
-        "MonsterDyeMap": "Venena Coenubia(Lv 140)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)(Lv 150)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)(Lv 160)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)(Lv 170)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)(Lv 190)\nUltimea Palace: Throne",
-        "Processing": "Sell145\nSpina\nProcess\n72 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Sugar Cookie[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5Light resistance %\n25Ailment Resistance %\n5Guard Power %\n10Guard Recharge %\n45Reduce Dmg (Floor) %\n25",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell390\nSpina\nProcess\n190 Medicine",
-        "Recipes": "666 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 30x Trick Topaz"
-    },
-    {
-        "Name": "6th Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n26VIT %\n5Physical Resistance %\n8Magic Resistance %\n8Guard Power %\n36Guard Recharge %\n12Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell120\nSpina\nProcess\n60 Metal",
-        "Recipes": "240 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Silver 6th Anniv Medal- 145x Metal"
-    },
-    {
-        "Name": "5th Anniv Shield V[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54\nMaxHP\n %\n9Physical Resistance %\n9Magic Resistance %\n9Guard Power %\n39Guard Recharge %\n14Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
-        "Recipes": "320 Spina Set1 pcs Level160\nDifficulty185\nMaterials- 20x Bropom 5th Anniv Medal"
-    },
-    {
-        "Name": "Spirit Shield Navida[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0Guard Power %\n25Guard Recharge %\n25Event only:\nMaxHP\n %\n15\nASPD1000\nCritical Rate\n10Fractional \nBarrier %\n20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "1000 Spina Set1 pcs Level125\nDifficulty130\nMaterials- 30x Snow Cookie- 20x Snow Doll- 10x Xmas Star"
-    },
-    {
-        "Name": "3rd Anniv Shield IV[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n16VIT %\n4Guard Power %\n33Guard Recharge %\n11\nAggro %\n12",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcess47 Metal",
-        "Recipes": "2000 Spina Set1 pcs Level75\nDifficulty100\nMaterials- 20x Pom 3rd Anniv Medal- 100x Metal"
-    },
-    {
-        "Name": "Esca Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n34Guard Power %\n31Guard Recharge %\n20\nAggro %\n30Reduce Dmg (Straight Line) %\n5",
-        "MonsterDyeMap": "Hermit Doll(Lv 133)\nHeresy Corridor",
-        "Processing": "Sell140\nSpina\nProcess\n70 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "4th Anniv Shield V[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n22VIT %\n5Guard Power %\n36Guard Recharge %\n12\nAggro %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
-        "Recipes": "300 Spina Set1 pcs Level95\nDifficulty125\nMaterials- 20x Gold 4th Anniv Medal- 150x Metal"
-    },
-    {
-        "Name": "Catafnia Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n51\nMaxMP\n200Guard Power %\n34Guard Recharge %\n20Anticipate %\n6",
-        "MonsterDyeMap": "Guard Colon(Lv 173)\nRokoko City Ruins",
-        "Processing": "Sell170\nSpina\nProcess\n85 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Evil Aristo Defense Shackles[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n100\nMaxHP\n %\n5Magic Resistance %\n15CSPD500Dark resistance %\n10Ailment Resistance %\n5Guard Power %\n10Guard Recharge %\n50Staff only:\nAggro %\n50",
-        "MonsterDyeMap": "Wicked Dragon Fazzino(Lv 234)\nPropulsion System Room Wicked Dragon Fazzino(Lv 244)\nPropulsion System Room Wicked Dragon Fazzino(Lv 254)\nPropulsion System Room Wicked Dragon Fazzino(Lv 264)\nPropulsion System Room Wicked Dragon Fazzino(Lv 284)\nPropulsion System Room",
-        "Processing": "Sell245\nSpina\nProcess\n122 Metal",
-        "Recipes": ""
-    },
-    {
         "Name": "Cake Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0\nMaxHP\n250Guard Power %\n10Guard Recharge %\n10\nAttack MP Recovery\n1Neutral Resistance %\n5",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n250\nGuard Power %\n10\nGuard Recharge %\n10\nAttack MP Recovery\n1\nNeutral Resistance %\n5",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
         "Processing": "Sell1\nSpina\nProcess\n2 Mana",
-        "Recipes": "10 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Cheese Cake- 1x Fruit Cake- 1x Chocolate Cake- 1x Ice Cream Cake"
-    },
-    {
-        "Name": "Sapphire Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n28Physical Resistance %\n5Guard Power %\n15Guard Recharge %\n25Evasion Recharge %\n1Physical \nBarrier100Tumble Unavailable1",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell180\nSpina\nProcess\n90 Metal",
-        "Recipes": "1800 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 2x Floating Corroded Crystal Bit- 2x Sapphire Roga Horns- 1000x Metal- 800x Beast"
-    },
-    {
-        "Name": "Swirly Whirly Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n50Guard Power %\n30\nAggro %\n-30",
-        "MonsterDyeMap": "Liqueur Potum(Lv 123)\nCreme Cliff (Valentine's Day Event)",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "6th Anniv Shield VI[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n76VIT %\n8Physical Resistance %\n12Magic Resistance %\n12Guard Power %\n41Guard Recharge %\n15Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
-        "Recipes": "420 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Golpom 6th Anniv Medal- 235x Metal"
-    },
-    {
-        "Name": "Heart Cookie Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n57Water resistance %\n-10Guard Power %\n20Guard Recharge %\n40Fractional \nBarrier %\n10Guard Break %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell180\nSpina\nProcess\n90 Medicine",
-        "Recipes": "180 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 25x Cake Flour- 10x Amezaiku Wings- 5x Cute Ornament String- 180x Wood"
-    },
-    {
-        "Name": "Seadevil Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54\nAccuracy50Guard Power %\n25Guard Recharge %\n25\nAggro %\n50Additional Melee %\n50Reduce Dmg (Meteor) %\n15",
-        "MonsterDyeMap": "Adaro (High Difficulty)(Lv 200)\nUnderwater Ruins: Deepest Adaro (High Difficulty)(Lv 210)\nUnderwater Ruins: Deepest Adaro (High Difficulty)(Lv 220)\nUnderwater Ruins: Deepest Adaro (High Difficulty)(Lv 230)\nUnderwater Ruins: Deepest Adaro (High Difficulty)(Lv 250)\nUnderwater Ruins: Deepest",
-        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Zoe's Magic Book[Shield]",
-        "StatEffect_Amount": "\nMaxHP\n %\n-20\nMaxMP\n100MATK\n %\n1CSPD100Additional Magic %\n100MATK\n DOWN (STR %\n)40",
-        "MonsterDyeMap": "Zoe(Lv 100)\nHalloween Mansion Basement Zoe(Lv 125)\nHalloween Mansion Basement Zoe(Lv 150)\nHalloween Mansion Basement",
-        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Seashell Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n108\nMaxHP\n3000\nAccuracy %\n20CSPD %\n10Guard Power %\n25Guard Recharge %\n25",
-        "MonsterDyeMap": "Paguro(Lv 172)\nUnderwater Canyon: Area 1\nPaguro(Lv 173)\nUnderwater Canyon: Area 2\nPaguro(Lv 174)\nUnderwater Canyon: Area 3",
-        "Processing": "Sell175\nSpina\nProcess\n10 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Coryn Memorial Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n1\nMaxHP\n %\n30Dark resistance %\n30Guard Power %\n30Guard Recharge %\n30\nAggro %\n30",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "10 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Apple- 2x Colon Leaf- 10x Wood- 10x Medicine"
-    },
-    {
-        "Name": "Black Shield Of Delusion[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n11\nCritical Damage\n2Guard Power %\n10Guard Recharge %\n32Neutral Resistance %\n20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell80\nSpina\nProcess\n40 Mana",
-        "Recipes": "800 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 2x Evil Energy of Delusion- 6x Fractured Magic Armor- 500x Metal- 250x Beast"
-    },
-    {
-        "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n70\nMaxHP\n2000Physical Resistance %\n5Magic Resistance %\n15Guard Power %\n25Guard Recharge %\n30Reduce Dmg (Player Epicenter) %\n5",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "1st Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n10VIT %\n3Guard Power %\n30Guard Recharge %\n10\nAggro %\n9",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell75\nSpina\nProcess\n37 Metal",
-        "Recipes": "1000 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Gold 1st Anniv Medal"
-    },
-    {
-        "Name": "Ghoulfish Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n120DEX %\n3Physical Pierce %\n6\nASPD600Water resistance %\n15Staff only:Magic Resistance %\n20",
-        "MonsterDyeMap": "Pisteus(Lv 183)\nDucia Coast: Depths Pisteus(Lv 193)\nDucia Coast: Depths Pisteus(Lv 203)\nDucia Coast: Depths Pisteus(Lv 213)\nDucia Coast: Depths Pisteus(Lv 233)\nDucia Coast: Depths",
-        "Processing": "Sell195\nSpina\nProcess\n97 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "7th Anniv Shield VI[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n92VIT %\n9Physical Resistance %\n13Magic Resistance %\n13Guard Power %\n41Guard Recharge %\n16\nAggro %\n26Heavy Armor only:\nAggro %\n26",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell230\nSpina\nProcess\n115 Metal",
-        "Recipes": "440 Spina Set1 pcs Level210\nDifficulty240\nMaterials- 20x Golpom 7th Anniv Medal- 240x Metal"
-    },
-    {
-        "Name": "Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0Guard Power %\n15Guard Recharge %\n15",
-        "MonsterDyeMap": "Shell Mask(Lv 4)\nLand Under Development Shell Mask(Lv 5)\nLand Under Development",
-        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "2nd Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5VIT %\n2Guard Power %\n27Guard Recharge %\n9\nAggro %\n6",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell50\nSpina\nProcess\n25 Metal",
-        "Recipes": "100 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Silver 2nd Anniv Medal"
-    },
-    {
-        "Name": "Shampy Doll[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0\nMaxHP\n1500Fractional \nBarrier %\n10\nBarrier Cooldown %\n20",
-        "MonsterDyeMap": "Shampy(Lv 135)\nTurnus Mine: Hall Shampy(Lv 145)\nTurnus Mine: Hall Shampy(Lv 155)\nTurnus Mine: Hall Shampy(Lv 165)\nTurnus Mine: Hall Shampy(Lv 185)\nTurnus Mine: Hall",
-        "Processing": "Sell150\nSpina\nProcess\n75 Cloth",
-        "Recipes": ""
-    },
-    {
-        "Name": "9th Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54VIT %\n6Physical Resistance %\n10Magic Resistance %\n10Guard Power %\n40Guard Recharge %\n14\nAggro %\n20Heavy Armor only:\nAggro %\n20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell0\nSpina\nProcess\nunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Juno Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n1Wind resistance %\n10Guard Power %\n15Guard Recharge %\n10Motion Speed %\n2",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
-        "Recipes": "10 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Red Wrapping Ribbon- 10x Bead Fragment- 30x Metal"
-    },
-    {
-        "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n108\nMaxHP\n2500Physical Resistance %\n20Magic Resistance %\n10Guard Power %\n30Guard Recharge %\n30Reduce Dmg (Player Epicenter) %\n5",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "9th Anniv Shield V[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n108VIT %\n10Physical Resistance %\n14Magic Resistance %\n14Guard Power %\n42Guard Recharge %\n16\nAggro %\n28Heavy Armor only:\nAggro %\n28",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell0\nSpina\nProcess\nunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "7th Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n26VIT %\n4Physical Resistance %\n8Magic Resistance %\n8Guard Power %\n39Guard Recharge %\n13\nAggro %\n16Heavy Armor only:\nAggro %\n16",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box VII-",
-        "Processing": "Sell120\nSpina\nProcess\n60 Metal",
-        "Recipes": "240 Spina Set1 pcs Level1\nDifficulty140\nMaterials- 20x Bronze 7th Anniv Medal- 31x Metal"
-    },
-    {
-        "Name": "Mirror Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0Guard Power %\n5Guard Recharge %\n5Evasion Recharge %\n10\nAggro %\n5",
-        "MonsterDyeMap": "Stone Mercenary(Lv 60)\nZoktzda Ruins : Abnormal Space",
-        "Processing": "Sell40\nSpina\nProcess\n20 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Iron Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n1Guard Power %\n13Guard Recharge %\n20\nAttack MP Recovery\n1",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell30\nSpina\nProcess\n15 Metal",
-        "Recipes": "150 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Iron- 5x Chaos Stone- 75x Metal"
-    },
-    {
-        "Name": "4th Anniv Shield VII[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n36VIT %\n5Guard Power %\n38Guard Recharge %\n13\nAggro %\n21Fractional \nBarrier %\n4",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell145\nSpina\nProcess\n72 Metal",
-        "Recipes": "500 Spina Set1 pcs Level130\nDifficulty155\nMaterials- 20x Bropom 4th Anniv Medal- 250x Metal"
-    },
-    {
-        "Name": "Gingerbread Man Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n72\nMaxMP\n200\nAggro %\n-20Revive Time %\n-20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "500 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 5x Sacred Snow Crystal"
-    },
-    {
-        "Name": "Holy Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n45\nMaxHP\n %\n15Magic Resistance %\n10Dark resistance %\n10Guard Power %\n13Guard Recharge %\n40",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
-        "Recipes": "800 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 25x Gray Crystal Ore- 15x Dazzling Ruff- 300x Metal- 100x Cloth"
-    },
-    {
-        "Name": "8th Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54VIT %\n7Physical Resistance %\n10Magic Resistance %\n10Guard Power %\n40Guard Recharge %\n14\nAggro %\n20Heavy Armor only:\nAggro %\n20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
-        "Recipes": "330 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Silver 8th Anniv Medal- 140x Metal"
-    },
-    {
-        "Name": "6th Anniv Shield IV[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54VIT %\n7Physical Resistance %\n10Magic Resistance %\n10Guard Power %\n40Guard Recharge %\n14Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
-        "Recipes": "350 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Bropom 6th Anniv Medal- 200x Metal"
-    },
-    {
-        "Name": "Marble Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n9Guard Power %\n20Guard Recharge %\n20\nAggro %\n6\nAttack MP Recovery\n2",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell70\nSpina\nProcess\n35 Metal",
-        "Recipes": "700 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Pillar Golem Magic Lantern- 3x Shining Copper Ore- 500x Metal- 200x Wood"
-    },
-    {
-        "Name": "Esca Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n34Guard Power %\n31Guard Recharge %\n20\nAggro %\n30Reduce Dmg (Straight Line) %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell140\nSpina\nProcess\n70 Metal",
-        "Recipes": "700 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 15x Young Thick Branch- 15x Frozen Fir Tree- 250x Wood- 100x Metal"
-    },
-    {
-        "Name": "Bullet Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n25Guard Power %\n19Guard Recharge %\n30Reduce Dmg (Bullet) %\n10Reduce Dmg (Bowling) %\n10",
-        "MonsterDyeMap": "Death Media(Lv 112)\nUltimea City: Roof Death Media(Lv 114)\nUltimea City: Roof Death Media(Lv 125)\nSuburb of Droma Square: Area 1",
-        "Processing": "Sell120\nSpina\nProcess\n60 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "5th Anniv Shield VII[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n66\nMaxHP\n %\n11Physical Resistance %\n11Magic Resistance %\n11Guard Power %\n39Guard Recharge %\n14Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell195\nSpina\nProcess\n97 Metal",
-        "Recipes": "370 Spina Set1 pcs Level185\nDifficulty210\nMaterials- 20x Golpom 5th Anniv Medal"
-    },
-    {
-        "Name": "Porcupine Quills Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5ATK\n %\n1Physical Pierce %\n1\nCritical Damage\n1Fire resistance %\n-25Earth resistance %\n25Guard Power %\n40",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell170\nSpina\nProcess\n85 Beast",
-        "Recipes": "1700 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Tuscog Claw- 1x Mottled Quill- 1000x Beast- 700x Metal"
-    },
-    {
-        "Name": "Relic Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n3Physical Resistance %\n1\nAccuracy5Guard Power %\n15Guard Recharge %\n22",
-        "MonsterDyeMap": "Ruin Golem(Lv 45)\nZoktzda ruins : Reversed Hall Ruin Golem(Lv 35)\nZoktzda ruins : Reversed Hall Ruin Golem(Lv 55)\nZoktzda ruins : Reversed Hall Ruin Golem(Lv 65)\nZoktzda ruins : Reversed Hall Ruin Golem(Lv 85)\nZoktzda ruins : Reversed Hall",
-        "Processing": "Sell40\nSpina\nProcess\n20 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "8th Anniv Shield IV[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n76VIT %\n8Physical Resistance %\n12Magic Resistance %\n12Guard Power %\n41Guard Recharge %\n15\nAggro %\n24Heavy Armor only:\nAggro %\n24",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
-        "Recipes": "400 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Bropom 8th Anniv Medal- 220x Metal"
-    },
-    {
-        "Name": "7th Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54VIT %\n7Physical Resistance %\n10Magic Resistance %\n10Guard Power %\n40Guard Recharge %\n14\nAggro %\n20Heavy Armor only:\nAggro %\n20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
-        "Recipes": "350 Spina Set1 pcs Level145\nDifficulty195\nMaterials- 20x Gold 7th Anniv Medal- 175x Metal"
-    },
-    {
-        "Name": "Shell Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n9VIT %\n1\nAccuracy %\n8Guard Power %\n30Guard Recharge %\n7",
-        "MonsterDyeMap": "Chandler(Lv 67)\nCalle mort",
-        "Processing": "Sell70\nSpina\nProcess\n35 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Imperial Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n22Physical Resistance %\n-5Magic Resistance %\n20Guard Power %\n25Guard Recharge %\n16",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
-        "Recipes": "550 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 30x Shiny Shell- 5x Steel Mask- 250x Metal- 25x Wood"
-    },
-    {
-        "Name": "Zahhak Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n30\nMaxHP\n %\n10\nCritical Damage\n3Guard Power %\n26Guard Recharge %\n26Fractional \nBarrier %\n9Magic \nBarrier500",
-        "MonsterDyeMap": "Zahhak Machina (Megiston 2019)(Lv 165)\nA\n83\nCEvent",
-        "Processing": "Sell131\nSpina\nProcess\n66 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "9th Anniv Shield VI[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n130VIT %\n10Physical Resistance %\n15Magic Resistance %\n15Guard Power %\n42Guard Recharge %\n17\nAggro %\n30Heavy Armor only:\nAggro %\n30",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell0\nSpina\nProcess\nunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "4th Anniv Shield IX[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54VIT %\n5Guard Power %\n39Guard Recharge %\n14\nAggro %\n27Fractional \nBarrier %\n8",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
-        "Recipes": "700 Spina Set1 pcs Level160\nDifficulty185\nMaterials- 20x Golpom 4th Anniv Medal- 350x Metal"
-    },
-    {
-        "Name": "Indigo Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n14\nCritical Damage\n2Guard Power %\n15Guard Recharge %\n24",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell90\nSpina\nProcess\n45 Metal",
-        "Recipes": "450 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 10x Anti-Rust Oil- 25x Jet-Black Shield Fragment- 125x Metal- 100x Beast"
-    },
-    {
-        "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n70\nMaxHP\n2000Physical Resistance %\n15Magic Resistance %\n5Guard Power %\n25Guard Recharge %\n30Reduce Dmg (Player Epicenter) %\n5",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Ooze Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n4Natural HP Regen %\n10Magic Resistance %\n2Guard Power %\n23Guard Recharge %\n15",
-        "MonsterDyeMap": "Ooze(Lv 52)\nLutaros Cavern: Deepest Part Ooze(Lv 42)\nLutaros Cavern: Deepest Part Ooze(Lv 62)\nLutaros Cavern: Deepest Part Ooze(Lv 72)\nLutaros Cavern: Deepest Part Ooze(Lv 92)\nLutaros Cavern: Deepest Part",
-        "Processing": "Sell45\nSpina\nProcess\n22 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "2nd Anniv Shield V[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n22VIT %\n5Guard Power %\n36Guard Recharge %\n12\nAggro %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
-        "Recipes": "4000 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Golpom 2nd Anniv Medal- 200x Metal"
-    },
-    {
-        "Name": "Relief Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n6\nMaxMP\n100Dark resistance %\n1Guard Power %\n30Guard Recharge %\n9",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell55\nSpina\nProcess\n27 Metal",
-        "Recipes": "550 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 3x Goddess Sculpture- 10x Eerie Stone- 350x Metal- 200x Beast"
-    },
-    {
-        "Name": "Moonlight Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n22Magic Resistance %\n25Fire resistance %\n15Magic \nBarrier1000",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell155\nSpina\nProcess\n77 Mana",
-        "Recipes": "158 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 10x Moonlit Night Pyroxene- 1x Moonlight Crab Butter- 200x Metal- 100x Mana"
-    },
-    {
-        "Name": "5th Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n10\nMaxHP\n %\n3Physical Resistance %\n3Magic Resistance %\n3Guard Power %\n30Guard Recharge %\n10Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box V-",
-        "Processing": "Sell75\nSpina\nProcess\n37 Metal",
-        "Recipes": "100 Spina Set1 pcs Level25\nDifficulty75\nMaterials- 20x Bronze 5th Anniv Medal"
-    },
-    {
-        "Name": "Huge Heavy Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0\nMaxMP\n10Guard Power %\n32Guard Recharge %\n2",
-        "MonsterDyeMap": "Excavated Golem(Lv 16)\nUnderground Ruins: Deepest Part Excavated Golem(Lv 6)\nUnderground Ruins: Deepest Part Excavated Golem(Lv 26)\nUnderground Ruins: Deepest Part Excavated Golem(Lv 36)\nUnderground Ruins: Deepest Part Excavated Golem(Lv 56)\nUnderground Ruins: Deepest Part",
-        "Processing": "Sell10\nSpina\nProcess\n5 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "3rd Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n10VIT %\n3Guard Power %\n30Guard Recharge %\n10\nAggro %\n9",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcess37 Metal",
-        "Recipes": "1000 Spina Set1 pcs Level50\nDifficulty75\nMaterials- 20x Gold 3rd Anniv Medal"
+        "Recipes": "10\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Cheese Cake\n- \n1\nx Fruit Cake\n- \n1\nx Chocolate Cake\n- \n1\nx Ice Cream Cake"
     },
     {
         "Name": "3rd Anniv Shield V[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n22VIT %\n5Guard Power %\n36Guard Recharge %\n12\nAggro %\n15",
+        "StatEffect_Amount": "Base DEF\n22\nVIT %\n5\nGuard Power %\n36\nGuard Recharge %\n12\nAggro %\n15",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
         "Processing": "SellUnknownProcess55 Metal",
-        "Recipes": "3000 Spina Set1 pcs Level95\nDifficulty125\nMaterials- 20x Bropom 3rd Anniv Medal- 150x Metal"
-    },
-    {
-        "Name": "4th Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0VIT %\n1Guard Power %\n24Guard Recharge %\n8\nAggro %\n3",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box IV-",
-        "Processing": "Sell25\nSpina\nProcess\n12 Metal",
-        "Recipes": "1 Spina Set1 pcs Level1\nDifficulty25\nMaterials- 5x Bronze 4th Anniv Medal"
-    },
-    {
-        "Name": "4th Anniv Shield VI[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n30VIT %\n5Guard Power %\n38Guard Recharge %\n13\nAggro %\n18Fractional \nBarrier %\n2",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
-        "Recipes": "400 Spina Set1 pcs Level110\nDifficulty140\nMaterials- 20x Pom 4th Anniv Medal- 200x Metal"
-    },
-    {
-        "Name": "Shell Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n2Physical Resistance %\n2Guard Power %\n12Guard Recharge %\n24\nAggro %\n1",
-        "MonsterDyeMap": "Tortuga(Lv 40)\nIcule Lake",
-        "Processing": "Sell35\nSpina\nProcess\n17 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "8th Anniv Shield VI[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n108VIT %\n10Physical Resistance %\n14Magic Resistance %\n14Guard Power %\n42Guard Recharge %\n16\nAggro %\n28Heavy Armor only:\nAggro %\n28",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell250\nSpina\nProcess\n125 Metal",
-        "Recipes": "480 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Golpom 8th Anniv Medal- 260x Metal"
-    },
-    {
-        "Name": "Elfin Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n30Dodge\n %\n10Guard Power %\n30Guard Recharge %\n20Neutral Resistance %\n5",
-        "MonsterDyeMap": "Molemet(Lv 117)\nTolbas Grass Land Molemet(Lv 129)\nTurnus Mine: Area 1\nMolemet(Lv 131)\nTurnus Mine: Area 2",
-        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Hagoita[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n1\nMaxHP\n2000CSPD %\n20Guard Power %\n20Guard Recharge %\n20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
-        "Recipes": "2022 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 5x Purro- 3x Osechi- 10x Wood"
-    },
-    {
-        "Name": "2nd Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0VIT %\n1Guard Power %\n24Guard Recharge %\n8\nAggro %\n3",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box II-",
-        "Processing": "Sell25\nSpina\nProcess\n12 Metal",
-        "Recipes": "10 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Bronze 2nd Anniv Medal"
-    },
-    {
-        "Name": "Relief Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n6\nMaxHP\n300Dark resistance %\n5Guard Power %\n30Guard Recharge %\n9",
-        "MonsterDyeMap": "Demon's Gate(Lv 60)\nSaham Crater Demon's Gate(Lv 50)\nSaham Crater Demon's Gate(Lv 70)\nSaham Crater Demon's Gate(Lv 80)\nSaham Crater Demon's Gate(Lv 100)\nSaham Crater",
-        "Processing": "Sell55\nSpina\nProcess\n27 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Dark General's Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n20VIT %\n3Dark resistance %\n10Guard Power %\n30Guard Recharge %\n14\nAggro %\n20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
-        "Recipes": "1000 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Fake General's Helm- 1x High-Purity Magic Crystal- 500x Metal- 500x Beast"
-    },
-    {
-        "Name": "Hard Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n3\nCritical Rate\n2Guard Power %\n17Guard Recharge %\n17",
-        "MonsterDyeMap": "Ratia(Lv 42)\nKorda Basin",
-        "Processing": "Sell40\nSpina\nProcess\n20 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Cross Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n10Physical Resistance %\n6Magic Resistance %\n2Guard Power %\n19Guard Recharge %\n19",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell80\nSpina\nProcess\n40 Metal",
-        "Recipes": "400 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 35x Glossy Skin- 22x Glittering Powder- 150x Metal- 50x Wood"
-    },
-    {
-        "Name": "8th Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n66VIT %\n7Physical Resistance %\n11Magic Resistance %\n11Guard Power %\n40Guard Recharge %\n15\nAggro %\n22Heavy Armor only:\nAggro %\n22",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell195\nSpina\nProcess\n97 Metal",
-        "Recipes": "370 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Gold 8th Anniv Medal- 200x Metal"
-    },
-    {
-        "Name": "Gloomy Tree Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n130Physical Resistance %\n10Magic Resistance %\n10\nASPD %\n31Guard Power %\n31Guard Recharge %\n31Additional Magic %\n40Knuckle only:CSPD %\n-75",
-        "MonsterDyeMap": "Deformis(Lv 264)\nEumano Village Ruins: Central Deformis(Lv 274)\nEumano Village Ruins: Central Deformis(Lv 284)\nEumano Village Ruins: Central Deformis(Lv 294)\nEumano Village Ruins: Central Deformis(Lv 314)\nEumano Village Ruins: Central",
-        "Processing": "Sell275\nSpina\nProcess\n137 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "4th Anniv Shield VIII[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n45VIT %\n5Guard Power %\n38Guard Recharge %\n13\nAggro %\n24Fractional \nBarrier %\n6",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
-        "Recipes": "600 Spina Set1 pcs Level145\nDifficulty170\nMaterials- 20x Silpom 4th Anniv Medal- 300x Metal"
-    },
-    {
-        "Name": "Don Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n112\nMaxHP\n10000Guard Power %\n36Guard Recharge %\n25Light Armor only:\nCritical Rate\n5\nAggro %\n50",
-        "MonsterDyeMap": "Don Profundo(Lv 252)\nAbandoned District: Ruins Summit Don Profundo(Lv 262)\nAbandoned District: Ruins Summit Don Profundo(Lv 272)\nAbandoned District: Ruins Summit Don Profundo(Lv 282)\nAbandoned District: Ruins Summit Don Profundo(Lv 302)\nAbandoned District: Ruins Summit",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Demon Empress Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n66M\nDEF\n %\n10\nCritical Rate\n15Guard Power %\n28Guard Recharge %\n28Fractional \nBarrier %\n20",
-        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)\nNeo Plastida Venena Metacoenubia(Lv 195)\nNeo Plastida Venena Metacoenubia(Lv 205)\nNeo Plastida Venena Metacoenubia(Lv 215)\nNeo Plastida Venena Metacoenubia(Lv 235)\nNeo Plastida",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n108Guard Power %\n30Guard Recharge %\n30\nAggro %\n60Fractional \nBarrier %\n20Reduce Dmg (Player Epicenter) %\n10",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
+        "Recipes": "3000\n Spina Set\n1\n pcs Level\n95\nDifficulty\n125\nMaterials\n- \n20\nx Bropom \n3\nrd Anniv Medal\n- \n150\nx Metal"
     },
     {
         "Name": "Zahhak Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n30\nMaxHP\n %\n10\nCritical Damage\n3Guard Power %\n24Guard Recharge %\n24Fractional \nBarrier %\n2Magic \nBarrier1000",
+        "StatEffect_Amount": "Base DEF\n30\nMax HP %\n10\nCritical Damage\n3\nGuard Power %\n24\nGuard Recharge %\n24\nFractional Barrier %\n2\nMagic Barrier\n1000",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
         "Processing": "Sell130\nSpina\nProcess\n65 Metal",
-        "Recipes": "1300 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 1x Twin Head Dragon Heart- 3x Twin Head Dragon Claw- 900x Metal- 400x Beast"
-    },
-    {
-        "Name": "Rock Dragon Heavy Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n152\nASPD %\n20Ailment Resistance %\n4Guard Power %\n24Guard Recharge %\n32\nAggro %\n40Neutral Resistance %\n20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
-        "Recipes": "2100 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 2x Blue Rock- 4x Terrestrial Tears- 1300x Metal- 800x Beast"
-    },
-    {
-        "Name": "Mischievous Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n104\nASPD400CSPD %\n20Guard Power %\n66Guard Recharge %\n6\nAggro %\n-10",
-        "MonsterDyeMap": "Sibylares (Very Hard)(Lv 250)\nPhasma Forest: Area 3",
-        "Processing": "Sell245\nSpina\nProcess\n122 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "6th Anniv Shield V[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n66VIT %\n7Physical Resistance %\n11Magic Resistance %\n11Guard Power %\n40Guard Recharge %\n15Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell195\nSpina\nProcess\n97 Metal",
-        "Recipes": "390 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Silpom 6th Anniv Medal- 220x Metal"
-    },
-    {
-        "Name": "Laguna Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n63\nCritical Rate\n12Water resistance %\n12Guard Power %\n16Guard Recharge %\n40",
-        "MonsterDyeMap": "Mogkey(Lv 187)\nEumano Glade Mogkey(Lv 189)\nEumano Glade",
-        "Processing": "Sell190\nSpina\nProcess\n95 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Aeria Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n76Physical Pierce %\n3\nASPD %\n20Guard Power %\n29Guard Recharge %\n29",
-        "MonsterDyeMap": "Boma Owl(Lv 219)\nBoma Konda: Entrance",
-        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
-        "Recipes": ""
+        "Recipes": "1300\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Twin Head Dragon Heart\n- \n3\nx Twin Head Dragon Claw\n- \n900\nx Metal\n- \n400\nx Beast"
     },
     {
         "Name": "Phalanx (Shield)[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n20\nAggro %\n20Physical \nBarrier1500Magic \nBarrier1500\nBarrier Cooldown %\n25",
+        "StatEffect_Amount": "Base DEF\n20\nAggro %\n20\nPhysical Barrier\n1500\nMagic Barrier\n1500\nBarrier Cooldown %\n25",
         "MonsterDyeMap": "empty",
         "Processing": "SellUnknownProcessunknown",
         "Recipes": ""
     },
     {
-        "Name": "3rd Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0VIT %\n1Guard Power %\n24Guard Recharge %\n8\nAggro %\n3",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box III-",
-        "Processing": "SellUnknownProcess12 Metal",
-        "Recipes": "10 Spina Set1 pcs Level1\nDifficulty25\nMaterials- 20x Bronze 3rd Anniv Medal"
-    },
-    {
-        "Name": "3rd Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5VIT %\n2Guard Power %\n27Guard Recharge %\n9\nAggro %\n6",
+        "Name": "Porcupine Quills Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nATK %\n1\nPhysical Pierce %\n1\nCritical Damage\n1\nFire resistance %\n- 25\nEarth resistance %\n25\nGuard Power %\n40",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcess25 Metal",
-        "Recipes": "100 Spina Set1 pcs Level25\nDifficulty50\nMaterials- 20x Silver 3rd Anniv Medal"
+        "Processing": "Sell170\nSpina\nProcess\n85 Beast",
+        "Recipes": "1700\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Tuscog Claw\n- \n1\nx Mottled Quill\n- \n1000\nx Beast\n- \n700\nx Metal"
     },
     {
-        "Name": "Indigo Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n14\nCritical Damage\n1Guard Power %\n15Guard Recharge %\n24",
-        "MonsterDyeMap": "Corroded Shielder(Lv 91)\nDark Manor: Area 1\nCorroded Shielder(Lv 91)\nDark Manor: Area 2",
-        "Processing": "Sell90\nSpina\nProcess\n45 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "8th Anniv Shield V[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n92VIT %\n9Physical Resistance %\n13Magic Resistance %\n13Guard Power %\n41Guard Recharge %\n16\nAggro %\n26Heavy Armor only:\nAggro %\n26",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell230\nSpina\nProcess\n115 Metal",
-        "Recipes": "440 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Silpom 8th Anniv Medal- 240x Metal"
-    },
-    {
-        "Name": "Evil Aristo Defense Shackles[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n100\nMaxHP\n %\n10Magic Resistance %\n5CSPD750Dark resistance %\n5Ailment Resistance %\n5Guard Power %\n10Guard Recharge %\n50",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell245\nSpina\nProcess\n122 Metal",
-        "Recipes": "2450 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 2x Wicked Dragon Twisted Horn- 3x Wicked Dragon's Bristles- 2000x Metal- 450x Mana"
-    },
-    {
-        "Name": "Zahhak Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n30\nMaxHP\n %\n5\nCritical Damage\n6Guard Power %\n24Guard Recharge %\n24Fractional \nBarrier %\n6Magic \nBarrier1000",
-        "MonsterDyeMap": "Zahhak Machina(Lv 120)\nLufenas Mansion: Hall Zahhak Machina(Lv 130)\nLufenas Mansion: Hall Zahhak Machina(Lv 140)\nLufenas Mansion: Hall Zahhak Machina(Lv 150)\nLufenas Mansion: Hall Zahhak Machina(Lv 170)\nLufenas Mansion: Hall",
-        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Spike Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n18Guard Power %\n5Guard Recharge %\n35\nAggro %\n10Weapon ATK\n %\n10Reflect %\n10Additional Melee %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
-        "Recipes": "500 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 15x Peligro Wood- 30x Hard Stone Horn- 150x Beast- 100x Metal"
-    },
-    {
-        "Name": "Erde Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n100\nMaxMP\n100\nCritical Rate\n %\n40Guard Power %\n40Guard Recharge %\n21",
-        "MonsterDyeMap": "Romyzon(Lv 252)\nLatum Wetlands Romyzon(Lv 255)\nLatum Wetlands",
-        "Processing": "Sell240\nSpina\nProcess\n120 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Coffin Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n10MATK\n30Dark resistance %\n15Guard Power %\n20Guard Recharge %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "100 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 10x Pumpkin Diamond"
-    },
-    {
-        "Name": "Ghoulfish Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n120DEX %\n3Physical Pierce %\n6\nASPD300Water resistance %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell195\nSpina\nProcess\n97 Beast",
-        "Recipes": "1950 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 2x Ghoulfish Soul- 4x Pisteus Fin- 1200x Beast- 750x Wood"
-    },
-    {
-        "Name": "Watermelon Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n90Light resistance %\n10Guard Recharge %\n50\nAggro %\n40Fractional \nBarrier %\n20Magic \nBarrier3000",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "7600 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 10x Summer Day Memory- 13x Dark Brown Seed- 99x Half-Eaten Fruit- 400x Medicine"
-    },
-    {
-        "Name": "Juno Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n50Wind resistance %\n15Guard Power %\n25Guard Recharge %\n20Motion Speed %\n3",
-        "MonsterDyeMap": "Eidenliebe (Dark)(Lv 180)\nMaia Diela",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Rock Dragon Heavy Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n152\nASPD %\n30Ailment Resistance %\n3Guard Power %\n24Guard Recharge %\n32\nAggro %\n30Neutral Resistance %\n30",
-        "MonsterDyeMap": "Ferzen the Rock Dragon(Lv 211)\nGuardian Forest: Giant Tree Ferzen the Rock Dragon(Lv 221)\nGuardian Forest: Giant Tree Ferzen the Rock Dragon(Lv 231)\nGuardian Forest: Giant Tree Ferzen the Rock Dragon(Lv 251)\nGuardian Forest: Giant Tree",
-        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Seadevil Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54\nAccuracy25Guard Power %\n25Guard Recharge %\n25\nAggro %\n25Additional Melee %\n25Reduce Dmg (Meteor) %\n30",
-        "MonsterDyeMap": "Adaro(Lv 160)\nUnderwater Ruins: Deepest Adaro(Lv 170)\nUnderwater Ruins: Deepest Adaro(Lv 180)\nUnderwater Ruins: Deepest Adaro(Lv 190)\nUnderwater Ruins: Deepest Adaro(Lv 210)\nUnderwater Ruins: Deepest",
-        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n70Guard Power %\n25Guard Recharge %\n30\nAggro %\n40Fractional \nBarrier %\n15Reduce Dmg (Player Epicenter) %\n10",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "1st Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5VIT %\n2Guard Power %\n27Guard Recharge %\n9\nAggro %\n6",
+        "Name": "4th Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nVIT %\n2\nGuard Power %\n27\nGuard Recharge %\n9\nAggro %\n6",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
         "Processing": "Sell50\nSpina\nProcess\n25 Metal",
-        "Recipes": "100 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Silver 1st Anniv Medal"
+        "Recipes": "10\n Spina Set\n1\n pcs Level\n25\nDifficulty\n50\nMaterials\n- \n10\nx Bronze \n4\nth Anniv Medal"
     },
     {
-        "Name": "Bullet Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n25Guard Power %\n19Guard Recharge %\n30Reduce Dmg (Bullet) %\n12Reduce Dmg (Bowling) %\n12",
+        "Name": "2nd Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nVIT %\n2\nGuard Power %\n27\nGuard Recharge %\n9\nAggro %\n6",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell50\nSpina\nProcess\n25 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Silver \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "7th Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n26\nVIT %\n4\nPhysical Resistance %\n8\nMagic Resistance %\n8\nGuard Power %\n39\nGuard Recharge %\n13\nAggro %\n16\nHeavy Armor only:Aggro %\n16",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box VII\n-",
         "Processing": "Sell120\nSpina\nProcess\n60 Metal",
-        "Recipes": "600 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 30x Huge Carapace- 30x Huge Iron Wheel- 200x Metal- 100x Cloth"
-    },
-    {
-        "Name": "Moonlight Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n88Magic Resistance %\n25Magic \nBarrier1500Guard Break %\n10Staff only:Magic Pierce %\n5\nAggro %\n101-Handed Sword only:Fire resistance %\n20Magic Resistance %\n5",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Bubble Angel(Lv 184)\nCelesa's Tree Garden Bubble Angel(Lv 180)\nCelesa's Tree Garden Roar(Lv 181)\nCelesa's Tree Garden Roar(Lv 183)\nCelesa's Tree Garden Sumari(Lv 182)\nCelesa's Tree Garden",
-        "Processing": "Sell225\nSpina\nProcess\n112 Mana",
-        "Recipes": "158 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 30x Otsukimi Dango- 15x Lively Dango- 400x Metal- 200x Mana"
-    },
-    {
-        "Name": "Red Steel Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5Dodge\n50\nASPD300\nCritical Rate\n10",
-        "MonsterDyeMap": "Red Steel Box-",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "2nd Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n10VIT %\n3Guard Power %\n30Guard Recharge %\n10\nAggro %\n9",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell75\nSpina\nProcess\n37 Metal",
-        "Recipes": "1000 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Gold 2nd Anniv Medal"
-    },
-    {
-        "Name": "5th Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n36\nMaxHP\n %\n7Physical Resistance %\n7Magic Resistance %\n7Guard Power %\n38Guard Recharge %\n13Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell145\nSpina\nProcess\n72 Metal",
-        "Recipes": "260 Spina Set1 pcs Level110\nDifficulty155\nMaterials- 20x Gold 5th Anniv Medal"
-    },
-    {
-        "Name": "Light Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0Guard Power %\n5Guard Recharge %\n26",
-        "MonsterDyeMap": "Helm Colon(Lv 11)\nStrum Road Helm Colon(Lv 13)\nStrum Road Helm Colon(Lv 16)\nMarbaro Forest Helm Colon(Lv 18)\nMarbaro Forest",
-        "Processing": "Sell10\nSpina\nProcess\n5 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n54ATK\n %\n2Guard Power %\n20Guard Recharge %\n20Short Range Damage %\n1Reduce Dmg (Player Epicenter) %\n-10",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
-        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Sapphire Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n28Physical Resistance %\n10Guard Power %\n10Guard Recharge %\n30Evasion Recharge %\n10Physical \nBarrier1000Tumble Unavailable1",
-        "MonsterDyeMap": "Sapphire Roga(Lv 171)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 181)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 191)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 201)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 221)\nAvant Plastida: Deepest Area",
-        "Processing": "Sell180\nSpina\nProcess\n90 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Imperial Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n26Physical Resistance %\n-2Magic Resistance %\n15Guard Power %\n25Guard Recharge %\n16",
-        "MonsterDyeMap": "Underground Nemico(Lv 109)\nUltimea Sewer: Southeast Underground Nemico(Lv 111)\nUltimea Sewer: Southeast",
-        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "5th Anniv Shield IV[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n45\nMaxHP\n %\n8Physical Resistance %\n8Magic Resistance %\n8Guard Power %\n38Guard Recharge %\n13Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
-        "Recipes": "290 Spina Set1 pcs Level145\nDifficulty170\nMaterials- 20x Pom 5th Anniv Medal"
-    },
-    {
-        "Name": "1st Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0VIT %\n1Guard Power %\n24Guard Recharge %\n8\nAggro %\n3",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box I-",
-        "Processing": "Sell20\nSpina\nProcess\n12 Metal",
-        "Recipes": "10 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Copper 1st Anniv Medal"
-    },
-    {
-        "Name": "8th Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n39VIT %\n6Physical Resistance %\n9Magic Resistance %\n9Guard Power %\n39Guard Recharge %\n14\nAggro %\n18Heavy Armor only:\nAggro %\n18",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
-        "Recipes": "280 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Bronze 8th Anniv Medal- 30x Metal"
-    },
-    {
-        "Name": "Profound Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n92\nMaxHP\n %\n15Dark resistance %\n20Guard Power %\n30Guard Recharge %\n30",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell230\nSpina\nProcess\n115 Metal",
-        "Recipes": "1150 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 10x Lava Rock- 20x Corroded Iron Skin- 400x Metal- 175x Beast"
-    },
-    {
-        "Name": "9th Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n66VIT %\n7Physical Resistance %\n11Magic Resistance %\n11Guard Power %\n40Guard Recharge %\n15\nAggro %\n22Heavy Armor only:\nAggro %\n22",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell0\nSpina\nProcess\nunknown",
-        "Recipes": ""
+        "Recipes": "240\n Spina Set\n1\n pcs Level\n1\nDifficulty\n140\nMaterials\n- \n20\nx Bronze \n7\nth Anniv Medal\n- \n31\nx Metal"
     },
     {
         "Name": "Maton Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n0\nMaxHP\n1000Physical \nBarrier1000Magic \nBarrier1000Additional Melee %\n50",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n1000\nPhysical Barrier\n1000\nMagic Barrier\n1000\nAdditional Melee %\n50",
         "MonsterDyeMap": "Maton Sword(Lv 133)\nBuried Tower: Entrance Maton Sword(Lv 143)\nBuried Tower: Entrance Maton Sword(Lv 153)\nBuried Tower: Entrance Maton Sword(Lv 163)\nBuried Tower: Entrance Maton Sword(Lv 183)\nBuried Tower: Entrance",
         "Processing": "Sell145\nSpina\nProcess\n72 Metal",
         "Recipes": ""
     },
     {
-        "Name": "7th Anniv Shield II[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n39VIT %\n6Physical Resistance %\n9Magic Resistance %\n9Guard Power %\n39Guard Recharge %\n14\nAggro %\n18Heavy Armor only:\nAggro %\n18",
+        "Name": "Kite Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n1\nMax HP\n90\nGuard Power %\n22\nGuard Recharge %\n10",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
-        "Recipes": "300 Spina Set1 pcs Level77\nDifficulty170\nMaterials- 20x Silver 7th Anniv Medal- 107x Metal"
+        "Processing": "Sell20\nSpina\nProcess\n10 Wood",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n23\nx Sturdy Fur\n- \n2\nx Nisel Wood\n- \n25\nx Cloth\n- \n25\nx Wood"
     },
     {
-        "Name": "Luster Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n70\nMaxMP\n200Guard Power %\n28Guard Recharge %\n29\nAttack MP Recovery\n3",
-        "MonsterDyeMap": "Eyeloon(Lv 208)\nFreight Corridor Eyeloon(Lv 210)\nFreight Corridor",
-        "Processing": "Sell200\nSpina\nProcess\n100 Metal",
+        "Name": "Cross Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n10\nPhysical Resistance %\n3\nMagic Resistance %\n1\nGuard Power %\n19\nGuard Recharge %\n19",
+        "MonsterDyeMap": "Corroded Knight(Lv 72)\nDark Wasteland",
+        "Processing": "Sell80\nSpina\nProcess\n40 Metal",
         "Recipes": ""
     },
     {
-        "Name": "Marble Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n9Guard Power %\n20Guard Recharge %\n20\nAggro %\n12\nAttack MP Recovery\n3",
-        "MonsterDyeMap": "Pillar Golem(Lv 70)\nLost Town: Magic Barrier Pillar Golem(Lv 60)\nLost Town: Magic Barrier Pillar Golem(Lv 80)\nLost Town: Magic Barrier Pillar Golem(Lv 90)\nLost Town: Magic Barrier Pillar Golem(Lv 110)\nLost Town: Magic Barrier",
-        "Processing": "Sell70\nSpina\nProcess\n35 Metal",
+        "Name": "Elfin Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n30\nDodge %\n10\nGuard Power %\n30\nGuard Recharge %\n20\nNeutral Resistance %\n5",
+        "MonsterDyeMap": "Molemet(Lv 117)\nTolbas Grass Land Molemet(Lv 129)\nTurnus Mine: Area \n1\nMolemet(Lv 131)\nTurnus Mine: Area \n2",
+        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "8th Anniv Shield V[Shield]",
+        "StatEffect_Amount": "Base DEF\n92\nVIT %\n9\nPhysical Resistance %\n13\nMagic Resistance %\n13\nGuard Power %\n41\nGuard Recharge %\n16\nAggro %\n26\nHeavy Armor only:Aggro %\n26",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell230\nSpina\nProcess\n115 Metal",
+        "Recipes": "440\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Silpom \n8\nth Anniv Medal\n- \n240\nx Metal"
+    },
+    {
+        "Name": "Vulcan Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n11\nAccuracy\n6\nASPD\n250\nCritical Rate\n12\nGuard Power %\n10\nGuard Recharge %\n35",
+        "MonsterDyeMap": "Ifrid(Lv 112)\nBlazing Graben: Deepest Part Ifrid(Lv 102)\nBlazing Graben: Deepest Part Ifrid(Lv 122)\nBlazing Graben: Deepest Part Ifrid(Lv 132)\nBlazing Graben: Deepest Part Ifrid(Lv 152)\nBlazing Graben: Deepest Part",
+        "Processing": "Sell110\nSpina\nProcess\n55 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nVIT %\n2\nGuard Power %\n27\nGuard Recharge %\n9\nAggro %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcess25 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n25\nDifficulty\n50\nMaterials\n- \n20\nx Silver \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Shield III[Shield]",
+        "StatEffect_Amount": "Base DEF\n10\nVIT %\n3\nGuard Power %\n30\nGuard Recharge %\n10\nAggro %\n9",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcess37 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n50\nDifficulty\n75\nMaterials\n- \n20\nx Gold \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "Rock Dragon Heavy Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n152\nASPD %\n20\nAilment Resistance %\n4\nGuard Power %\n24\nGuard Recharge %\n32\nAggro %\n40\nNeutral Resistance %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
+        "Recipes": "2100\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n2\nx Blue Rock\n- \n4\nx Terrestrial Tears\n- \n1300\nx Metal\n- \n800\nx Beast"
+    },
+    {
+        "Name": "Vulcan Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n11\nAccuracy\n16\nASPD\n250\nCritical Rate\n8\nGuard Power %\n10\nGuard Recharge %\n35",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell110\nSpina\nProcess\n55 Mana",
+        "Recipes": "1100\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n2\nx Ifrid's Robot Leg\n- \n4\nx Ifrid's Heated Horn\n- \n1000\nx Beast\n- \n100\nx Metal"
+    },
+    {
+        "Name": "Hero Shield (Pom)[Shield]",
+        "StatEffect_Amount": "Base DEF\n1\nAilment Resistance %\n- 10\nGuard Power %\n20\nGuard Recharge %\n30\nAggro %\n25\nFractional Barrier %\n15",
+        "MonsterDyeMap": "Hero Potum (10M DL)\n(Lv 150)\nSofya City: Government Office Hero Potum Party (12M DL)\n(Lv 180)\nArchfiend's Throne Hero Potum Party (12M DL)\n(Lv 190)\nArchfiend's Throne Hero Potum Party (12M DL)\n(Lv 200)\nArchfiend's Throne Hero Potum Party (12M DL)\n(Lv 220)\nArchfiend's Throne Hero Potum Party (13M DL)\n(Lv 190)\nArchfiend's Throne Hero Potum Party (13M DL)\n(Lv 200)\nArchfiend's Throne Hero Potum Party (13M DL)\n(Lv 210)\nArchfiend's Throne Hero Potum Party (13M DL)\n(Lv 220)\nArchfiend's Throne Hero Potum Party (12M DL)\n(Lv 170)\nArchfiend's Throne Hero Potum (11M DL)\n(Lv 220)\nSofya City: Government Office Hero Potum (10M DL)\n(Lv 160)\nSofya City: Government Office Hero Potum (10M DL)\n(Lv 170)\nSofya City: Government Office Hero Potum (10M DL)\n(Lv 180)\nSofya City: Government Office Hero Potum (10M DL)\n(Lv 200)\nSofya City: Government Office Hero Potum (11M DL)\n(Lv 160)\nSofya City: Government Office Hero Potum (11M DL)\n(Lv 170)\nSofya City: Government Office Hero Potum (11M DL)\n(Lv 180)\nSofya City: Government Office Hero Potum (11M DL)\n(Lv 190)\nSofya City: Government Office Hero Potum Party (13M DL)\n(Lv 240)\nArchfiend's Throne",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Harmony Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n41\nPhysical Resistance %\n10\nMagic Resistance %\n10\nGuard Power %\n26\nGuard Recharge %\n26",
+        "MonsterDyeMap": "Roca(Lv 155)\nEryldan Street: Area \n1\nRoca(Lv 156)\nEryldan Street: Area \n2\nRoca(Lv 156)\nEryldan Street: Area \n3",
+        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
         "Recipes": ""
     },
     {
         "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n70\nMaxHP\n4000Guard Power %\n25Guard Recharge %\n30Fractional \nBarrier %\n15Reduce Dmg (Player Epicenter) %\n10",
+        "StatEffect_Amount": "Base DEF\n108\nGuard Power %\n30\nGuard Recharge %\n30\nAggro %\n60\nFractional Barrier %\n20\nReduce Dmg (Player Epicenter)\n %\n10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: \n2\nnd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lolliodd Magic Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n99\nCritical Rate %\n100\nGuard Recharge %\n- 75\nWeapon ATK %\n25\nAdditional Melee %\n50\nReduce Dmg (Floor)\n %\n25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "100000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Evil Lefina\n- \n1\nx Mage Filecia\n- \n20\nx Raging Soul\n- \n99\nx Mysterious Meringue"
+    },
+    {
+        "Name": "Catafnia Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n51\nMax MP\n100\nGuard Power %\n34\nGuard Recharge %\n20\nAnticipate %\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell170\nSpina\nProcess\n85 Metal",
+        "Recipes": "850\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n4\nx Black Obsidian\n- \n20\nx Kappa's Plate\n- \n275\nx Metal\n- \n150\nx Wood"
+    },
+    {
+        "Name": "Evil Aristo Defense Shackles[Shield]",
+        "StatEffect_Amount": "Base DEF\n100\nMax HP %\n5\nMagic Resistance %\n15\nCSPD\n500\nDark resistance %\n10\nAilment Resistance %\n5\nGuard Power %\n10\nGuard Recharge %\n50\nStaff only:Aggro %\n50",
+        "MonsterDyeMap": "Wicked Dragon Fazzino(Lv 234)\nPropulsion System Room Wicked Dragon Fazzino(Lv 244)\nPropulsion System Room Wicked Dragon Fazzino(Lv 254)\nPropulsion System Room Wicked Dragon Fazzino(Lv 264)\nPropulsion System Room Wicked Dragon Fazzino(Lv 284)\nPropulsion System Room",
+        "Processing": "Sell245\nSpina\nProcess\n122 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Luxurie Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n84\nMagic Resistance %\n15\nGuard Power %\n50\nGuard Recharge %\n9\nShort Range Damage %\n1",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell220\nSpina\nProcess\n110 Metal",
+        "Recipes": "1100\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Planispiral Shell\n- \n20\nx Circular Plate\n- \n350\nx Metal\n- \n150\nx Beast"
+    },
+    {
+        "Name": "Marble Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n9\nGuard Power %\n20\nGuard Recharge %\n20\nAggro %\n6\nAttack MP Recovery\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell70\nSpina\nProcess\n35 Metal",
+        "Recipes": "700\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Pillar Golem Magic Lantern\n- \n3\nx Shining Copper Ore\n- \n500\nx Metal\n- \n200\nx Wood"
+    },
+    {
+        "Name": "Bullet Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n25\nGuard Power %\n19\nGuard Recharge %\n30\nReduce Dmg (Bullet)\n %\n12\nReduce Dmg (Bowling)\n %\n12",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell120\nSpina\nProcess\n60 Metal",
+        "Recipes": "600\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n30\nx Huge Carapace\n- \n30\nx Huge Iron Wheel\n- \n200\nx Metal\n- \n100\nx Cloth"
+    },
+    {
+        "Name": "6th Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n12\nVIT %\n4\nPhysical Resistance %\n7\nMagic Resistance %\n7\nGuard Power %\n30\nGuard Recharge %\n10\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box VI\n-",
+        "Processing": "Sell85\nSpina\nProcess\n42 Metal",
+        "Recipes": "170\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Bronze \n6\nth Anniv Medal\n- \n110\nx Metal"
+    },
+    {
+        "Name": "Peismataris[Shield]",
+        "StatEffect_Amount": "Base DEF\n90\nMax HP %\n15\nAilment Resistance %\n15\nGuard Power %\n30\nGuard Recharge %\n30",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar \n2022\n)\nEvent",
+        "Processing": "Sell1\nSpina\nProcess\n1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Porcupine Quills Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nATK %\n1\nPhysical Pierce %\n3\nCritical Damage\n2\nFire resistance %\n- 25\nEarth resistance %\n25\nGuard Power %\n40",
+        "MonsterDyeMap": "Tuscog(Lv 159)\nEryldan Street: Near the Forest of Ein Tuscog(Lv 169)\nEryldan Street: Near the Forest of Ein Tuscog(Lv 179)\nEryldan Street: Near the Forest of Ein Tuscog(Lv 189)\nEryldan Street: Near the Forest of Ein Tuscog(Lv 209)\nEryldan Street: Near the Forest of Ein Tuscog (Megiston \n2021\n)\n(Lv 200)\nEvent",
+        "Processing": "Sell170\nSpina\nProcess\n85 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Shield VIII[Shield]",
+        "StatEffect_Amount": "Base DEF\n45\nVIT %\n5\nGuard Power %\n38\nGuard Recharge %\n13\nAggro %\n24\nFractional Barrier %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
+        "Recipes": "600\n Spina Set\n1\n pcs Level\n145\nDifficulty\n170\nMaterials\n- \n20\nx Silpom \n4\nth Anniv Medal\n- \n300\nx Metal"
+    },
+    {
+        "Name": "Swirly Whirly Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n50\nGuard Power %\n30\nAggro %\n- 30",
+        "MonsterDyeMap": "Liqueur Potum(Lv 123)\nCreme Cliff (Valentine's Day Event)",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Relief Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n6\nMax MP\n100\nDark resistance %\n1\nGuard Power %\n30\nGuard Recharge %\n9",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell55\nSpina\nProcess\n27 Metal",
+        "Recipes": "550\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n3\nx Goddess Sculpture\n- \n10\nx Eerie Stone\n- \n350\nx Metal\n- \n200\nx Beast"
+    },
+    {
+        "Name": "Eradicator Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n84\nPhysical Resistance %\n15\nCritical Rate\n10\nGuard Power %\n40\nGuard Recharge %\n17\nReduce Dmg (Bullet)\n %\n15\nReduce Dmg (Bowling)\n %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell220\nSpina\nProcess\n110 Metal",
+        "Recipes": "2200\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n2\nx Velum's Crystal Reactor\n- \n4\nx Velum's Armor\n- \n1200\nx Metal\n- \n1000\nx Wood"
+    },
+    {
+        "Name": "Gloomy Tree Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n130\nPhysical Resistance %\n10\nMagic Resistance %\n10\nASPD %\n31\nGuard Power %\n31\nGuard Recharge %\n31\nAdditional Magic %\n40\nKnuckle only:CSPD %\n- 75",
+        "MonsterDyeMap": "Deformis(Lv 264)\nEumano Village Ruins: Central Deformis(Lv 274)\nEumano Village Ruins: Central Deformis(Lv 284)\nEumano Village Ruins: Central Deformis(Lv 294)\nEumano Village Ruins: Central Deformis(Lv 314)\nEumano Village Ruins: Central",
+        "Processing": "Sell275\nSpina\nProcess\n137 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Profound Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n92\nMax HP %\n15\nDark resistance %\n20\nGuard Power %\n30\nGuard Recharge %\n30",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell230\nSpina\nProcess\n115 Metal",
+        "Recipes": "1150\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Lava Rock\n- \n20\nx Corroded Iron Skin\n- \n400\nx Metal\n- \n175\nx Beast"
+    },
+    {
+        "Name": "8th Anniv Shield VI[Shield]",
+        "StatEffect_Amount": "Base DEF\n108\nVIT %\n10\nPhysical Resistance %\n14\nMagic Resistance %\n14\nGuard Power %\n42\nGuard Recharge %\n16\nAggro %\n28\nHeavy Armor only:Aggro %\n28",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell250\nSpina\nProcess\n125 Metal",
+        "Recipes": "480\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Golpom \n8\nth Anniv Medal\n- \n260\nx Metal"
+    },
+    {
+        "Name": "9th Anniv Shield VI[Shield]",
+        "StatEffect_Amount": "Base DEF\n130\nVIT %\n10\nPhysical Resistance %\n15\nMagic Resistance %\n15\nGuard Power %\n42\nGuard Recharge %\n17\nAggro %\n30\nHeavy Armor only:Aggro %\n30",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n35\nATK %\n1\nGuard Power %\n15\nGuard Recharge %\n20\nShort Range Damage %\n1\nReduce Dmg (Player Epicenter)\n %\n- 10",
         "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
         "Processing": "Sell1\nSpina\nProcess\n100 Mana",
         "Recipes": ""
     },
     {
-        "Name": "Kite Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n1\nMaxHP\n30Guard Power %\n22Guard Recharge %\n10",
-        "MonsterDyeMap": "Guardian Statue(Lv 22)\nRuined Temple: Area 2\nGuardian Statue(Lv 22)\nRuined Temple: Area 3\nGuardian Statue(Lv 23)\nRuined Temple: Area 3",
-        "Processing": "Sell20\nSpina\nProcess\n10 Wood",
-        "Recipes": ""
+        "Name": "Coffin Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n10\nMATK\n30\nDark resistance %\n15\nGuard Power %\n20\nGuard Recharge %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Pumpkin Diamond"
     },
     {
-        "Name": "Porcupine Quills Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n5ATK\n %\n1Physical Pierce %\n3\nCritical Damage\n2Fire resistance %\n-25Earth resistance %\n25Guard Power %\n40",
-        "MonsterDyeMap": "Tuscog(Lv 159)\nEryldan Street: Near the Forest of Ein Tuscog(Lv 169)\nEryldan Street: Near the Forest of Ein Tuscog(Lv 179)\nEryldan Street: Near the Forest of Ein Tuscog(Lv 189)\nEryldan Street: Near the Forest of Ein Tuscog(Lv 209)\nEryldan Street: Near the Forest of Ein Tuscog (Megiston 2021)(Lv 200)\nEvent",
-        "Processing": "Sell170\nSpina\nProcess\n85 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "6th Anniv Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n12VIT %\n4Physical Resistance %\n7Magic Resistance %\n7Guard Power %\n30Guard Recharge %\n10Fractional \nBarrier %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box VI-",
-        "Processing": "Sell85\nSpina\nProcess\n42 Metal",
-        "Recipes": "170 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Bronze 6th Anniv Medal- 110x Metal"
-    },
-    {
-        "Name": "Eradicator Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n84Physical Resistance %\n15\nCritical Rate\n10Guard Power %\n40Guard Recharge %\n17Reduce Dmg (Bullet) %\n25Reduce Dmg (Bowling) %\n20",
-        "MonsterDyeMap": "Velum(Lv 213)\nArstida: Depth Velum(Lv 223)\nArstida: Depth Velum(Lv 233)\nArstida: Depth Velum(Lv 243)\nArstida: Depth Velum(Lv 263)\nArstida: Depth",
-        "Processing": "Sell220\nSpina\nProcess\n110 Metal",
-        "Recipes": ""
+        "Name": "5th Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n22\nMax HP %\n5\nPhysical Resistance %\n5\nMagic Resistance %\n5\nGuard Power %\n36\nGuard Recharge %\n12\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
+        "Recipes": "190\n Spina Set\n1\n pcs Level\n75\nDifficulty\n120\nMaterials\n- \n20\nx Silver \n5\nth Anniv Medal"
     },
     {
         "Name": "3rd Anniv Shield VI[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n30VIT %\n5Guard Power %\n38Guard Recharge %\n13\nAggro %\n18Fractional \nBarrier %\n2",
+        "StatEffect_Amount": "Base DEF\n30\nVIT %\n5\nGuard Power %\n38\nGuard Recharge %\n13\nAggro %\n18\nFractional Barrier %\n2",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
         "Processing": "SellUnknownProcess65 Metal",
-        "Recipes": "4000 Spina Set1 pcs Level110\nDifficulty140\nMaterials- 20x Silpom 3rd Anniv Medal- 200x Metal"
+        "Recipes": "4000\n Spina Set\n1\n pcs Level\n110\nDifficulty\n140\nMaterials\n- \n20\nx Silpom \n3\nrd Anniv Medal\n- \n200\nx Metal"
+    },
+    {
+        "Name": "Iron Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n1\nGuard Power %\n13\nGuard Recharge %\n20\nAttack MP Recovery\n1",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell30\nSpina\nProcess\n15 Metal",
+        "Recipes": "150\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Iron\n- \n5\nx Chaos Stone\n- \n75\nx Metal"
+    },
+    {
+        "Name": "Zoe's Magic Book[Shield]",
+        "StatEffect_Amount": "Max HP %\n- 20\nMax MP\n100\nMATK %\n1\nCSPD\n100\nAdditional Magic %\n100\nMATK DOWN (STR %)\n40",
+        "MonsterDyeMap": "Zoe(Lv 100)\nHalloween Mansion Basement Zoe(Lv 125)\nHalloween Mansion Basement Zoe(Lv 150)\nHalloween Mansion Basement",
+        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Shield VII[Shield]",
+        "StatEffect_Amount": "Base DEF\n36\nVIT %\n5\nGuard Power %\n38\nGuard Recharge %\n13\nAggro %\n21\nFractional Barrier %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcess72 Metal",
+        "Recipes": "5000\n Spina Set\n1\n pcs Level\n130\nDifficulty\n155\nMaterials\n- \n20\nx Golpom \n3\nrd Anniv Medal\n- \n250\nx Metal"
     },
     {
         "Name": "Windgrace Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n108\nMaxHP\n5000Guard Power %\n30Guard Recharge %\n30Fractional \nBarrier %\n20Reduce Dmg (Player Epicenter) %\n10",
-        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "StatEffect_Amount": "Base DEF\n70\nMax HP\n4000\nGuard Power %\n25\nGuard Recharge %\n30\nFractional Barrier %\n15\nReduce Dmg (Player Epicenter)\n %\n10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
         "Processing": "Sell1\nSpina\nProcess\n100 Mana",
         "Recipes": ""
     },
     {
-        "Name": "Dark General's Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n20VIT %\n2Dark resistance %\n10Guard Power %\n30Guard Recharge %\n14\nAggro %\n30",
-        "MonsterDyeMap": "Imitator(Lv 106)\nPlastida: Deepest Part Imitator(Lv 96)\nPlastida: Deepest Part Imitator(Lv 116)\nPlastida: Deepest Part Imitator(Lv 126)\nPlastida: Deepest Part Imitator(Lv 146)\nPlastida: Deepest Part",
-        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
+        "Name": "8th Anniv Shield III[Shield]",
+        "StatEffect_Amount": "Base DEF\n66\nVIT %\n7\nPhysical Resistance %\n11\nMagic Resistance %\n11\nGuard Power %\n40\nGuard Recharge %\n15\nAggro %\n22\nHeavy Armor only:Aggro %\n22",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell195\nSpina\nProcess\n97 Metal",
+        "Recipes": "370\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Gold \n8\nth Anniv Medal\n- \n200\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Shield V[Shield]",
+        "StatEffect_Amount": "Base DEF\n76\nVIT %\n8\nPhysical Resistance %\n12\nMagic Resistance %\n12\nGuard Power %\n41\nGuard Recharge %\n15\nAggro %\n24\nHeavy Armor only:Aggro %\n24",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
+        "Recipes": "420\n Spina Set\n1\n pcs Level\n190\nDifficulty\n230\nMaterials\n- \n20\nx Silpom \n7\nth Anniv Medal\n- \n220\nx Metal"
+    },
+    {
+        "Name": "Light Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nGuard Power %\n5\nGuard Recharge %\n26",
+        "MonsterDyeMap": "Helm Colon(Lv 11)\nStrum Road Helm Colon(Lv 13)\nStrum Road Helm Colon(Lv 16)\nMarbaro Forest Helm Colon(Lv 18)\nMarbaro Forest",
+        "Processing": "Sell10\nSpina\nProcess\n5 Metal",
         "Recipes": ""
     },
     {
-        "Name": "Black Shield of Delusion[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n11\nCritical Damage\n4Guard Power %\n10Guard Recharge %\n32Neutral Resistance %\n25",
-        "MonsterDyeMap": "Black Knight of Delusion(Lv 88)\nAbyss of No Return: Deepest Area Black Knight of Delusion(Lv 78)\nAbyss of No Return: Deepest Area Black Knight of Delusion(Lv 98)\nAbyss of No Return: Deepest Area Black Knight of Delusion(Lv 108)\nAbyss of No Return: Deepest Area Black Knight of Delusion(Lv 128)\nAbyss of No Return: Deepest Area",
-        "Processing": "Sell80\nSpina\nProcess\n40 Mana",
+        "Name": "Holy Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n45\nMax HP %\n15\nMagic Resistance %\n10\nDark resistance %\n10\nGuard Power %\n13\nGuard Recharge %\n40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
+        "Recipes": "800\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Gray Crystal Ore\n- \n15\nx Dazzling Ruff\n- \n300\nx Metal\n- \n100\nx Cloth"
+    },
+    {
+        "Name": "9th Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nVIT %\n6\nPhysical Resistance %\n10\nMagic Resistance %\n10\nGuard Power %\n40\nGuard Recharge %\n14\nAggro %\n20\nHeavy Armor only:Aggro %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell0\nSpina\nProcess\nunknown",
         "Recipes": ""
+    },
+    {
+        "Name": "2nd Anniv Shield IV[Shield]",
+        "StatEffect_Amount": "Base DEF\n16\nVIT %\n4\nGuard Power %\n33\nGuard Recharge %\n11\nAggro %\n12",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell95\nSpina\nProcess\n47 Metal",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Silpom \n2\nnd Anniv Medal\n- \n100\nx Metal"
+    },
+    {
+        "Name": "Sapphire Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n28\nPhysical Resistance %\n5\nGuard Power %\n15\nGuard Recharge %\n25\nEvasion Recharge %\n1\nPhysical Barrier\n100\nTumble Unavailable\n1",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell180\nSpina\nProcess\n90 Metal",
+        "Recipes": "1800\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n2\nx Floating Corroded Crystal Bit\n- \n2\nx Sapphire Roga Horns\n- \n1000\nx Metal\n- \n800\nx Beast"
+    },
+    {
+        "Name": "Profound Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n92\nMax HP %\n14\nDark resistance %\n18\nGuard Power %\n30\nGuard Recharge %\n30",
+        "MonsterDyeMap": "Trast(Lv 238)\nPipeline Corridor Trast(Lv 240)\nPipeline Corridor",
+        "Processing": "Sell230\nSpina\nProcess\n115 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Zahhak Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n30\nMax HP %\n5\nCritical Damage\n6\nGuard Power %\n24\nGuard Recharge %\n24\nFractional Barrier %\n6\nMagic Barrier\n1000",
+        "MonsterDyeMap": "Zahhak Machina(Lv 120)\nLufenas Mansion: Hall Zahhak Machina(Lv 130)\nLufenas Mansion: Hall Zahhak Machina(Lv 140)\nLufenas Mansion: Hall Zahhak Machina(Lv 150)\nLufenas Mansion: Hall Zahhak Machina(Lv 170)\nLufenas Mansion: Hall",
+        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Shield VI[Shield]",
+        "StatEffect_Amount": "Base DEF\n30\nVIT %\n5\nGuard Power %\n38\nGuard Recharge %\n13\nAggro %\n18\nFractional Barrier %\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
+        "Recipes": "400\n Spina Set\n1\n pcs Level\n110\nDifficulty\n140\nMaterials\n- \n20\nx Pom \n4\nth Anniv Medal\n- \n200\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Shield VI[Shield]",
+        "StatEffect_Amount": "Base DEF\n92\nVIT %\n9\nPhysical Resistance %\n13\nMagic Resistance %\n13\nGuard Power %\n41\nGuard Recharge %\n16\nAggro %\n26\nHeavy Armor only:Aggro %\n26",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell230\nSpina\nProcess\n115 Metal",
+        "Recipes": "440\n Spina Set\n1\n pcs Level\n210\nDifficulty\n240\nMaterials\n- \n20\nx Golpom \n7\nth Anniv Medal\n- \n240\nx Metal"
+    },
+    {
+        "Name": "Ooze Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n4\nNatural HP Regen %\n10\nMagic Resistance %\n2\nGuard Power %\n23\nGuard Recharge %\n15",
+        "MonsterDyeMap": "Ooze(Lv 52)\nLutaros Cavern: Deepest Part Ooze(Lv 42)\nLutaros Cavern: Deepest Part Ooze(Lv 62)\nLutaros Cavern: Deepest Part Ooze(Lv 72)\nLutaros Cavern: Deepest Part Ooze(Lv 92)\nLutaros Cavern: Deepest Part",
+        "Processing": "Sell45\nSpina\nProcess\n22 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n26\nVIT %\n5\nPhysical Resistance %\n8\nMagic Resistance %\n8\nGuard Power %\n36\nGuard Recharge %\n12\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell120\nSpina\nProcess\n60 Metal",
+        "Recipes": "240\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Silver \n6\nth Anniv Medal\n- \n145\nx Metal"
+    },
+    {
+        "Name": "Laguna Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n63\nCritical Rate\n12\nWater resistance %\n12\nGuard Power %\n16\nGuard Recharge %\n40",
+        "MonsterDyeMap": "Mogkey(Lv 187)\nEumano Glade Mogkey(Lv 189)\nEumano Glade",
+        "Processing": "Sell190\nSpina\nProcess\n95 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Shield V[Shield]",
+        "StatEffect_Amount": "Base DEF\n66\nVIT %\n7\nPhysical Resistance %\n11\nMagic Resistance %\n11\nGuard Power %\n40\nGuard Recharge %\n15\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell195\nSpina\nProcess\n97 Metal",
+        "Recipes": "390\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Silpom \n6\nth Anniv Medal\n- \n220\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Shield IX[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nVIT %\n5\nGuard Power %\n39\nGuard Recharge %\n14\nAggro %\n27\nFractional Barrier %\n8",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
+        "Recipes": "700\n Spina Set\n1\n pcs Level\n160\nDifficulty\n185\nMaterials\n- \n20\nx Golpom \n4\nth Anniv Medal\n- \n350\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Shield VII[Shield]",
+        "StatEffect_Amount": "Base DEF\n36\nVIT %\n5\nGuard Power %\n38\nGuard Recharge %\n13\nAggro %\n21\nFractional Barrier %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell145\nSpina\nProcess\n72 Metal",
+        "Recipes": "500\n Spina Set\n1\n pcs Level\n130\nDifficulty\n155\nMaterials\n- \n20\nx Bropom \n4\nth Anniv Medal\n- \n250\nx Metal"
+    },
+    {
+        "Name": "Harmony Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n39\nPhysical Resistance %\n13\nMagic Resistance %\n13\nGuard Power %\n26\nGuard Recharge %\n26",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
+        "Recipes": "750\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Insect Energy\n- \n25\nx Processed Iron Plate\n- \n300\nx Metal\n- \n75\nx Wood"
+    },
+    {
+        "Name": "Ooze Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n4\nNatural HP Regen %\n2\nMagic Resistance %\n1\nGuard Power %\n23\nGuard Recharge %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell45\nSpina\nProcess\n22 Metal",
+        "Recipes": "450\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Emerald Stone\n- \n25\nx Fluorescent Pond Water\n- \n350\nx Beast\n- \n100\nx Mana"
+    },
+    {
+        "Name": "5th Anniv Shield VII[Shield]",
+        "StatEffect_Amount": "Base DEF\n66\nMax HP %\n11\nPhysical Resistance %\n11\nMagic Resistance %\n11\nGuard Power %\n39\nGuard Recharge %\n14\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell195\nSpina\nProcess\n97 Metal",
+        "Recipes": "370\n Spina Set\n1\n pcs Level\n185\nDifficulty\n210\nMaterials\n- \n20\nx Golpom \n5\nth Anniv Medal"
     },
     {
         "Name": "Reptilian Shield[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n57Guard Power %\n30Guard Recharge %\n25Magic \nBarrier2000Guard Break %\n5",
+        "StatEffect_Amount": "Base DEF\n57\nGuard Power %\n30\nGuard Recharge %\n25\nMagic Barrier\n2000\nGuard Break %\n5",
         "MonsterDyeMap": "Obsidian Lizard(Lv 177)\nNoisy Woodland Obsidian Lizard(Lv 180)\nNoisy Woodland",
         "Processing": "Sell180\nSpina\nProcess\n90 Beast",
         "Recipes": ""
     },
     {
+        "Name": "Gingerbread Man Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n72\nMax MP\n200\nAggro %\n- 20\nRevive Time %\n- 20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n5\nx Sacred Snow Crystal"
+    },
+    {
+        "Name": "4th Anniv Shield III[Shield]",
+        "StatEffect_Amount": "Base DEF\n10\nVIT %\n3\nGuard Power %\n30\nGuard Recharge %\n10\nAggro %\n9",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell75\nSpina\nProcess\n37 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n50\nDifficulty\n75\nMaterials\n- \n20\nx Bronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "Relic Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n3\nPhysical Resistance %\n1\nAccuracy\n5\nGuard Power %\n15\nGuard Recharge %\n22",
+        "MonsterDyeMap": "Ruin Golem(Lv 45)\nZoktzda ruins : Reversed Hall Ruin Golem(Lv 35)\nZoktzda ruins : Reversed Hall Ruin Golem(Lv 55)\nZoktzda ruins : Reversed Hall Ruin Golem(Lv 65)\nZoktzda ruins : Reversed Hall Ruin Golem(Lv 85)\nZoktzda ruins : Reversed Hall",
+        "Processing": "Sell40\nSpina\nProcess\n20 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spike Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n18\nGuard Power %\n5\nGuard Recharge %\n35\nAggro %\n10\nWeapon ATK %\n10\nReflect %\n10\nAdditional Melee %\n10",
+        "MonsterDyeMap": "Demi Ork(Lv 98)\nSykea Deep Valley Demi Ork(Lv 100)\nSykea Deep Valley",
+        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "1st Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nVIT %\n1\nGuard Power %\n24\nGuard Recharge %\n8\nAggro %\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box I\n-",
+        "Processing": "Sell20\nSpina\nProcess\n12 Metal",
+        "Recipes": "10\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Copper \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "Windgrace Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n70\nGuard Power %\n25\nGuard Recharge %\n30\nAggro %\n40\nFractional Barrier %\n15\nReduce Dmg (Player Epicenter)\n %\n10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n108\nMax HP\n2500\nPhysical Resistance %\n20\nMagic Resistance %\n10\nGuard Power %\n30\nGuard Recharge %\n30\nReduce Dmg (Player Epicenter)\n %\n5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: \n2\nnd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Empress Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n40\nAccuracy\n30\nGuard Power %\n25\nGuard Recharge %\n25\nAttack MP Recovery\n3",
+        "MonsterDyeMap": "Venena Coenubia(Lv 140)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 150)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 160)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 170)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 190)\nUltimea Palace: Throne",
+        "Processing": "Sell145\nSpina\nProcess\n72 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shampy Doll[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n1000\nFractional Barrier %\n15\nBarrier Cooldown %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell150\nSpina\nProcess\n75 Cloth",
+        "Recipes": "1500\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n5\nx Shampy's Fluffy Hair\n- \n1200\nx Cloth\n- \n300\nx Metal"
+    },
+    {
+        "Name": "Moonlight Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n88\nMagic Resistance %\n25\nMagic Barrier\n1500\nGuard Break %\n10\nStaff only:Magic Pierce %\n5\nAggro %\n101\n-Handed Sword only:Fire resistance %\n20\nMagic Resistance %\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Bubble Angel(Lv 184)\nCelesa's Tree Garden Bubble Angel(Lv 180)\nCelesa's Tree Garden Roar(Lv 181)\nCelesa's Tree Garden Roar(Lv 183)\nCelesa's Tree Garden Sumari(Lv 182)\nCelesa's Tree Garden",
+        "Processing": "Sell225\nSpina\nProcess\n112 Mana",
+        "Recipes": "158\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n30\nx Otsukimi Dango\n- \n15\nx Lively Dango\n- \n400\nx Metal\n- \n200\nx Mana"
+    },
+    {
+        "Name": "Catafnia Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n51\nMax MP\n200\nGuard Power %\n34\nGuard Recharge %\n20\nAnticipate %\n6",
+        "MonsterDyeMap": "Guard Colon(Lv 173)\nRokoko City Ruins",
+        "Processing": "Sell170\nSpina\nProcess\n85 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "2nd Anniv Shield V[Shield]",
+        "StatEffect_Amount": "Base DEF\n22\nVIT %\n5\nGuard Power %\n36\nGuard Recharge %\n12\nAggro %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
+        "Recipes": "4000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Golpom \n2\nnd Anniv Medal\n- \n200\nx Metal"
+    },
+    {
+        "Name": "Windgrace Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n108\nMax HP\n2500\nPhysical Resistance %\n10\nMagic Resistance %\n20\nGuard Power %\n30\nGuard Recharge %\n30\nReduce Dmg (Player Epicenter)\n %\n5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: \n2\nnd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Juno Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n50\nWind resistance %\n15\nGuard Power %\n25\nGuard Recharge %\n20\nMotion Speed %\n3",
+        "MonsterDyeMap": "Eidenliebe (Dark)\n(Lv 180)\nMaia Diela",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hagoita[Shield]",
+        "StatEffect_Amount": "Base DEF\n1\nMax HP\n2000\nCSPD %\n20\nGuard Power %\n20\nGuard Recharge %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
+        "Recipes": "2022\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n5\nx Purro\n- \n3\nx Osechi\n- \n10\nx Wood"
+    },
+    {
+        "Name": "Indigo Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n14\nCritical Damage\n2\nGuard Power %\n15\nGuard Recharge %\n24",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell90\nSpina\nProcess\n45 Metal",
+        "Recipes": "450\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Anti\n-Rust Oil\n- \n25\nx Jet\n-Black Shield Fragment\n- \n125\nx Metal\n- \n100\nx Beast"
+    },
+    {
         "Name": "Hard Buckler[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n3\nCritical Rate\n4Guard Power %\n17Guard Recharge %\n17",
+        "StatEffect_Amount": "Base DEF\n3\nCritical Rate\n4\nGuard Power %\n17\nGuard Recharge %\n17",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
         "Processing": "Sell40\nSpina\nProcess\n20 Wood",
-        "Recipes": "200 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 35x Dented Iron Plate- 15x Damaged Parchment- 100x Wood"
+        "Recipes": "200\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n35\nx Dented Iron Plate\n- \n15\nx Damaged Parchment\n- \n100\nx Wood"
+    },
+    {
+        "Name": "Esca Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n34\nGuard Power %\n31\nGuard Recharge %\n20\nAggro %\n30\nReduce Dmg (Straight Line)\n %\n5",
+        "MonsterDyeMap": "Hermit Doll(Lv 133)\nHeresy Corridor",
+        "Processing": "Sell140\nSpina\nProcess\n70 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "8th Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n39\nVIT %\n6\nPhysical Resistance %\n9\nMagic Resistance %\n9\nGuard Power %\n39\nGuard Recharge %\n14\nAggro %\n18\nHeavy Armor only:Aggro %\n18",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
+        "Recipes": "280\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Bronze \n8\nth Anniv Medal\n- \n30\nx Metal"
+    },
+    {
+        "Name": "Rock Dragon Heavy Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n152\nASPD %\n30\nAilment Resistance %\n3\nGuard Power %\n24\nGuard Recharge %\n32\nAggro %\n30\nNeutral Resistance %\n30",
+        "MonsterDyeMap": "Ferzen the Rock Dragon(Lv 211)\nGuardian Forest: Giant Tree Ferzen the Rock Dragon(Lv 221)\nGuardian Forest: Giant Tree Ferzen the Rock Dragon(Lv 231)\nGuardian Forest: Giant Tree Ferzen the Rock Dragon(Lv 251)\nGuardian Forest: Giant Tree",
+        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spirit Shield Navida[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nGuard Power %\n25\nGuard Recharge %\n25\nEvent only:Max HP %\n15\nASPD\n1000\nCritical Rate\n10\nFractional Barrier %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n125\nDifficulty\n130\nMaterials\n- \n30\nx Snow Cookie\n- \n20\nx Snow Doll\n- \n10\nx Xmas Star"
+    },
+    {
+        "Name": "Ghoulfish Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n120\nDEX %\n3\nPhysical Pierce %\n6\nASPD\n300\nWater resistance %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell195\nSpina\nProcess\n97 Beast",
+        "Recipes": "1950\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n2\nx Ghoulfish Soul\n- \n4\nx Pisteus Fin\n- \n1200\nx Beast\n- \n750\nx Wood"
+    },
+    {
+        "Name": "Coryn Memorial Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n1\nMax HP %\n30\nDark resistance %\n30\nGuard Power %\n30\nGuard Recharge %\n30\nAggro %\n30",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "10\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Apple\n- \n2\nx Colon Leaf\n- \n10\nx Wood\n- \n10\nx Medicine"
+    },
+    {
+        "Name": "Dark General's Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n20\nVIT %\n3\nDark resistance %\n10\nGuard Power %\n30\nGuard Recharge %\n14\nAggro %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Fake General's Helm\n- \n1\nx High\n-Purity Magic Crystal\n- \n500\nx Metal\n- \n500\nx Beast"
+    },
+    {
+        "Name": "Luxurie Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n84\nMagic Resistance %\n10\nGuard Power %\n50\nGuard Recharge %\n9\nShort Range Damage %\n1",
+        "MonsterDyeMap": "Forbigosta(Lv 229)\nSubma Cave Forbigosta(Lv 231)\nSubma Cave",
+        "Processing": "Sell220\nSpina\nProcess\n110 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Moonlight Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n22\nMagic Resistance %\n25\nFire resistance %\n15\nMagic Barrier\n1000",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell155\nSpina\nProcess\n77 Mana",
+        "Recipes": "158\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Moonlit Night Pyroxene\n- \n1\nx Moonlight Crab Butter\n- \n200\nx Metal\n- \n100\nx Mana"
+    },
+    {
+        "Name": "Seashell Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n108\nMax HP\n3000\nAccuracy %\n20\nCSPD %\n10\nGuard Power %\n25\nGuard Recharge %\n25",
+        "MonsterDyeMap": "Paguro(Lv 172)\nUnderwater Canyon: Area \n1\nPaguro(Lv 173)\nUnderwater Canyon: Area \n2\nPaguro(Lv 174)\nUnderwater Canyon: Area \n3",
+        "Processing": "Sell175\nSpina\nProcess\n10 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cross Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n10\nPhysical Resistance %\n6\nMagic Resistance %\n2\nGuard Power %\n19\nGuard Recharge %\n19",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell80\nSpina\nProcess\n40 Metal",
+        "Recipes": "400\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n35\nx Glossy Skin\n- \n22\nx Glittering Powder\n- \n150\nx Metal\n- \n50\nx Wood"
+    },
+    {
+        "Name": "8th Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nVIT %\n7\nPhysical Resistance %\n10\nMagic Resistance %\n10\nGuard Power %\n40\nGuard Recharge %\n14\nAggro %\n20\nHeavy Armor only:Aggro %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
+        "Recipes": "330\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Silver \n8\nth Anniv Medal\n- \n140\nx Metal"
+    },
+    {
+        "Name": "Black Shield of Delusion[Shield]",
+        "StatEffect_Amount": "Base DEF\n11\nCritical Damage\n4\nGuard Power %\n10\nGuard Recharge %\n32\nNeutral Resistance %\n25",
+        "MonsterDyeMap": "Black Knight of Delusion(Lv 88)\nAbyss of No Return: Deepest Area Black Knight of Delusion(Lv 78)\nAbyss of No Return: Deepest Area Black Knight of Delusion(Lv 98)\nAbyss of No Return: Deepest Area Black Knight of Delusion(Lv 108)\nAbyss of No Return: Deepest Area Black Knight of Delusion(Lv 128)\nAbyss of No Return: Deepest Area",
+        "Processing": "Sell80\nSpina\nProcess\n40 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "2nd Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nVIT %\n1\nGuard Power %\n24\nGuard Recharge %\n8\nAggro %\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box II\n-",
+        "Processing": "Sell25\nSpina\nProcess\n12 Metal",
+        "Recipes": "10\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Bronze \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "Heart Cookie Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n57\nWater resistance %\n- 10\nGuard Power %\n20\nGuard Recharge %\n40\nFractional Barrier %\n10\nGuard Break %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell180\nSpina\nProcess\n90 Medicine",
+        "Recipes": "180\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Cake Flour\n- \n10\nx Amezaiku Wings\n- \n5\nx Cute Ornament String\n- \n180\nx Wood"
+    },
+    {
+        "Name": "5th Anniv Shield VI[Shield]",
+        "StatEffect_Amount": "Base DEF\n60\nMax HP %\n10\nPhysical Resistance %\n10\nMagic Resistance %\n10\nGuard Power %\n39\nGuard Recharge %\n14\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell185\nSpina\nProcess\n92 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n175\nDifficulty\n200\nMaterials\n- \n20\nx Silpom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Sugar Cookie[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nLight resistance %\n25\nAilment Resistance %\n5\nGuard Power %\n10\nGuard Recharge %\n45\nReduce Dmg (Floor)\n %\n25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell390\nSpina\nProcess\n190 Medicine",
+        "Recipes": "666\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n30\nx Trick Topaz"
+    },
+    {
+        "Name": "Windgrace Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n108\nMax HP\n5000\nGuard Power %\n30\nGuard Recharge %\n30\nFractional Barrier %\n20\nReduce Dmg (Player Epicenter)\n %\n10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: \n2\nnd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Albero Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n7\nVIT %\n2\nMax HP\n200\nGuard Power %\n18\nGuard Recharge %\n18",
+        "MonsterDyeMap": "Jelfy(Lv 69)\nTeaus Hill Jelfy(Lv 67)\nTeaus Hill Jelfy(Lv 70)\nTeaus Hill: Marshland",
+        "Processing": "Sell60\nSpina\nProcess\n30 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Zahhak Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n30\nMax HP %\n10\nCritical Damage\n3\nGuard Power %\n26\nGuard Recharge %\n26\nFractional Barrier %\n9\nMagic Barrier\n500",
+        "MonsterDyeMap": "Zahhak Machina (Megiston \n2019\n)\n(Lv 165)\nA\n83\nCEvent",
+        "Processing": "Sell131\nSpina\nProcess\n66 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Shield IV[Shield]",
+        "StatEffect_Amount": "Base DEF\n16\nVIT %\n4\nGuard Power %\n33\nGuard Recharge %\n11\nAggro %\n12",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcess47 Metal",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level\n75\nDifficulty\n100\nMaterials\n- \n20\nx Pom \n3\nrd Anniv Medal\n- \n100\nx Metal"
+    },
+    {
+        "Name": "5th Anniv Shield IV[Shield]",
+        "StatEffect_Amount": "Base DEF\n45\nMax HP %\n8\nPhysical Resistance %\n8\nMagic Resistance %\n8\nGuard Power %\n38\nGuard Recharge %\n13\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
+        "Recipes": "290\n Spina Set\n1\n pcs Level\n145\nDifficulty\n170\nMaterials\n- \n20\nx Pom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Marble Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n9\nGuard Power %\n20\nGuard Recharge %\n20\nAggro %\n12\nAttack MP Recovery\n3",
+        "MonsterDyeMap": "Pillar Golem(Lv 70)\nLost Town: Magic Barrier Pillar Golem(Lv 60)\nLost Town: Magic Barrier Pillar Golem(Lv 80)\nLost Town: Magic Barrier Pillar Golem(Lv 90)\nLost Town: Magic Barrier Pillar Golem(Lv 110)\nLost Town: Magic Barrier",
+        "Processing": "Sell70\nSpina\nProcess\n35 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Seadevil Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nAccuracy\n25\nGuard Power %\n25\nGuard Recharge %\n25\nAggro %\n25\nAdditional Melee %\n25\nReduce Dmg (Meteor)\n %\n30",
+        "MonsterDyeMap": "Adaro(Lv 160)\nUnderwater Ruins: Deepest Adaro(Lv 170)\nUnderwater Ruins: Deepest Adaro(Lv 180)\nUnderwater Ruins: Deepest Adaro(Lv 190)\nUnderwater Ruins: Deepest Adaro(Lv 210)\nUnderwater Ruins: Deepest",
+        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Albero Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n7\nVIT %\n3\nMax HP\n300\nGuard Power %\n18\nGuard Recharge %\n18",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell60\nSpina\nProcess\n30 Wood",
+        "Recipes": "300\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n6\nx Iron Hat Fragment\n- \n30\nx Soft Twig\n- \n100\nx Wood\n- \n50\nx Metal"
+    },
+    {
+        "Name": "Holy Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n45\nMax HP %\n20\nMagic Resistance %\n8\nDark resistance %\n7\nGuard Power %\n13\nGuard Recharge %\n40",
+        "MonsterDyeMap": "Sandsaur(Lv 165)\nInanis Wilderness Sandsaur(Lv 163)\nInanis Wilderness",
+        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shell Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n9\nVIT %\n3\nAccuracy %\n10\nGuard Power %\n30\nGuard Recharge %\n7",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "350\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Ancient Shell\n- \n25\nx Snake Scale\n- \n125\nx Metal\n- \n50\nx Cloth"
+    },
+    {
+        "Name": "Esca Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n34\nGuard Power %\n31\nGuard Recharge %\n20\nAggro %\n30\nReduce Dmg (Straight Line)\n %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell140\nSpina\nProcess\n70 Metal",
+        "Recipes": "700\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n15\nx Young Thick Branch\n- \n15\nx Frozen Fir Tree\n- \n250\nx Wood\n- \n100\nx Metal"
+    },
+    {
+        "Name": "Mischievous Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n104\nASPD\n400\nCSPD %\n20\nGuard Power %\n66\nGuard Recharge %\n6\nAggro %\n- 10",
+        "MonsterDyeMap": "Sibylares (Very Hard)\n(Lv 250)\nPhasma Forest: Area \n3",
+        "Processing": "Sell245\nSpina\nProcess\n122 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Luster Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n70\nMax MP\n300\nGuard Power %\n28\nGuard Recharge %\n29\nAttack MP Recovery\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell200\nSpina\nProcess\n100 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Hardened Eggshell\n- \n25\nx Mutated Outer Shell\n- \n450\nx Metal\n- \n50\nx Mana"
+    },
+    {
+        "Name": "Evil Aristo Defense Shackles[Shield]",
+        "StatEffect_Amount": "Base DEF\n100\nMax HP %\n10\nMagic Resistance %\n5\nCSPD\n750\nDark resistance %\n5\nAilment Resistance %\n5\nGuard Power %\n10\nGuard Recharge %\n50",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell245\nSpina\nProcess\n122 Metal",
+        "Recipes": "2450\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n2\nx Wicked Dragon Twisted Horn\n- \n3\nx Wicked Dragon's Bristles\n- \n2000\nx Metal\n- \n450\nx Mana"
+    },
+    {
+        "Name": "Peismataris[Shield]",
+        "StatEffect_Amount": "Base DEF\n108\nMax HP %\n15\nAilment Resistance %\n15\nGuard Power %\n30\nGuard Recharge %\n30",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar \n2023\n)\nEvent",
+        "Processing": "Sell1\nSpina\nProcess\n1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Shield V[Shield]",
+        "StatEffect_Amount": "Base DEF\n108\nVIT %\n10\nPhysical Resistance %\n14\nMagic Resistance %\n14\nGuard Power %\n42\nGuard Recharge %\n16\nAggro %\n28\nHeavy Armor only:Aggro %\n28",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n30\nGuard Power %\n15\nGuard Recharge %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
+        "Recipes": "5\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n15\nx Animal Skin\n- \n3\nx Cloth"
+    },
+    {
+        "Name": "Erde Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n100\nMax MP\n100\nCritical Rate %\n40\nGuard Power %\n40\nGuard Recharge %\n21",
+        "MonsterDyeMap": "Romyzon(Lv 252)\nLatum Wetlands Romyzon(Lv 255)\nLatum Wetlands",
+        "Processing": "Sell240\nSpina\nProcess\n120 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Juno Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n1\nWind resistance %\n10\nGuard Power %\n15\nGuard Recharge %\n10\nMotion Speed %\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
+        "Recipes": "10\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Red Wrapping Ribbon\n- \n10\nx Bead Fragment\n- \n30\nx Metal"
+    },
+    {
+        "Name": "Scale Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nGuard Power %\n10\nGuard Recharge %\n25\nAggro %\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell50\nSpina\nProcess\n25 Beast",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n15\nx Thick Green Scale\n- \n20\nx Crystal Powder\n- \n90\nx Beast\n- \n35\nx Wood"
+    },
+    {
+        "Name": "Bullet Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n25\nGuard Power %\n19\nGuard Recharge %\n30\nReduce Dmg (Bullet)\n %\n10\nReduce Dmg (Bowling)\n %\n10",
+        "MonsterDyeMap": "Death Media(Lv 112)\nUltimea City: Roof Death Media(Lv 114)\nUltimea City: Roof Death Media(Lv 125)\nSuburb of Droma Square: Area \n1",
+        "Processing": "Sell120\nSpina\nProcess\n60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n70\nMax HP\n2000\nPhysical Resistance %\n5\nMagic Resistance %\n15\nGuard Power %\n25\nGuard Recharge %\n30\nReduce Dmg (Player Epicenter)\n %\n5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Windgrace Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n70\nMax HP\n2000\nPhysical Resistance %\n15\nMagic Resistance %\n5\nGuard Power %\n25\nGuard Recharge %\n30\nReduce Dmg (Player Epicenter)\n %\n5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Shield IV[Shield]",
+        "StatEffect_Amount": "Base DEF\n92\nVIT %\n9\nPhysical Resistance %\n13\nMagic Resistance %\n13\nGuard Power %\n41\nGuard Recharge %\n16\nAggro %\n26\nHeavy Armor only:Aggro %\n26",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Relief Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n6\nMax HP\n300\nDark resistance %\n5\nGuard Power %\n30\nGuard Recharge %\n9",
+        "MonsterDyeMap": "Demon's Gate(Lv 60)\nSaham Crater Demon's Gate(Lv 50)\nSaham Crater Demon's Gate(Lv 70)\nSaham Crater Demon's Gate(Lv 80)\nSaham Crater Demon's Gate(Lv 100)\nSaham Crater",
+        "Processing": "Sell55\nSpina\nProcess\n27 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hard Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n3\nCritical Rate\n2\nGuard Power %\n17\nGuard Recharge %\n17",
+        "MonsterDyeMap": "Ratia(Lv 42)\nKorda Basin",
+        "Processing": "Sell40\nSpina\nProcess\n20 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "1st Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nVIT %\n2\nGuard Power %\n27\nGuard Recharge %\n9\nAggro %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell50\nSpina\nProcess\n25 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Silver \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "1st Anniv Shield III[Shield]",
+        "StatEffect_Amount": "Base DEF\n10\nVIT %\n3\nGuard Power %\n30\nGuard Recharge %\n10\nAggro %\n9",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell75\nSpina\nProcess\n37 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Gold \n1\nst Anniv Medal"
+    },
+    {
+        "Name": "Spike Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n18\nGuard Power %\n5\nGuard Recharge %\n35\nAggro %\n10\nWeapon ATK %\n10\nReflect %\n10\nAdditional Melee %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n15\nx Peligro Wood\n- \n30\nx Hard Stone Horn\n- \n150\nx Beast\n- \n100\nx Metal"
+    },
+    {
+        "Name": "5th Anniv Shield III[Shield]",
+        "StatEffect_Amount": "Base DEF\n36\nMax HP %\n7\nPhysical Resistance %\n7\nMagic Resistance %\n7\nGuard Power %\n38\nGuard Recharge %\n13\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell145\nSpina\nProcess\n72 Metal",
+        "Recipes": "260\n Spina Set\n1\n pcs Level\n110\nDifficulty\n155\nMaterials\n- \n20\nx Gold \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "Aeria Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n76\nPhysical Pierce %\n4\nASPD %\n20\nGuard Power %\n29\nGuard Recharge %\n29",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
+        "Recipes": "1050\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Kiton's Wing\n- \n10\nx Crooked Horn\n- \n300\nx Metal\n- \n225\nx Beast"
+    },
+    {
+        "Name": "Watermelon Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n90\nLight resistance %\n10\nGuard Recharge %\n50\nAggro %\n40\nFractional Barrier %\n20\nMagic Barrier\n3000",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": "7600\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Summer Day Memory\n- \n13\nx Dark Brown Seed\n- \n99\nx Half\n-Eaten Fruit\n- \n400\nx Medicine"
+    },
+    {
+        "Name": "Indigo Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n14\nCritical Damage\n1\nGuard Power %\n15\nGuard Recharge %\n24",
+        "MonsterDyeMap": "Corroded Shielder(Lv 91)\nDark Manor: Area \n1\nCorroded Shielder(Lv 91)\nDark Manor: Area \n2",
+        "Processing": "Sell90\nSpina\nProcess\n45 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Black Shield Of Delusion[Shield]",
+        "StatEffect_Amount": "Base DEF\n11\nCritical Damage\n2\nGuard Power %\n10\nGuard Recharge %\n32\nNeutral Resistance %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell80\nSpina\nProcess\n40 Mana",
+        "Recipes": "800\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n2\nx Evil Energy of Delusion\n- \n6\nx Fractured Magic Armor\n- \n500\nx Metal\n- \n250\nx Beast"
+    },
+    {
+        "Name": "Imperial Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n22\nPhysical Resistance %\n- 5\nMagic Resistance %\n20\nGuard Power %\n25\nGuard Recharge %\n16",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
+        "Recipes": "550\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n30\nx Shiny Shell\n- \n5\nx Steel Mask\n- \n250\nx Metal\n- \n25\nx Wood"
+    },
+    {
+        "Name": "Laguna Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n63\nCritical Rate\n14\nWater resistance %\n14\nGuard Power %\n16\nGuard Recharge %\n40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell190\nSpina\nProcess\n95 Metal",
+        "Recipes": "950\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Armorlike Feather\n- \n35\nx Rock\n-Hard Carapace\n- \n300\nx Metal\n- \n175\nx Wood"
+    },
+    {
+        "Name": "Iron Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n1\nGuard Power %\n13\nGuard Recharge %\n20",
+        "MonsterDyeMap": "Water Ghost(Lv 31)\nNehelo Swamp",
+        "Processing": "Sell30\nSpina\nProcess\n15 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark General's Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n20\nVIT %\n2\nDark resistance %\n10\nGuard Power %\n30\nGuard Recharge %\n14\nAggro %\n30",
+        "MonsterDyeMap": "Imitator(Lv 106)\nPlastida: Deepest Part Imitator(Lv 96)\nPlastida: Deepest Part Imitator(Lv 116)\nPlastida: Deepest Part Imitator(Lv 126)\nPlastida: Deepest Part Imitator(Lv 146)\nPlastida: Deepest Part",
+        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Snow Bear Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n40\nWater resistance %\n10\nGuard Power %\n30\nGuard Recharge %\n20\nAggro %\n40\nReduce Dmg (Charge)\n %\n20\nStaff only:Aggro %\n- 50",
+        "MonsterDyeMap": "Snow Bear Box Snowball Mini Game Venue",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Huge Heavy Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n10\nGuard Power %\n32\nGuard Recharge %\n2",
+        "MonsterDyeMap": "Excavated Golem(Lv 16)\nUnderground Ruins: Deepest Part Excavated Golem(Lv 6)\nUnderground Ruins: Deepest Part Excavated Golem(Lv 26)\nUnderground Ruins: Deepest Part Excavated Golem(Lv 36)\nUnderground Ruins: Deepest Part Excavated Golem(Lv 56)\nUnderground Ruins: Deepest Part",
+        "Processing": "Sell10\nSpina\nProcess\n5 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shell Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n9\nVIT %\n1\nAccuracy %\n8\nGuard Power %\n30\nGuard Recharge %\n7",
+        "MonsterDyeMap": "Chandler(Lv 67)\nCalle mort",
+        "Processing": "Sell70\nSpina\nProcess\n35 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sapphire Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n28\nPhysical Resistance %\n10\nGuard Power %\n10\nGuard Recharge %\n30\nEvasion Recharge %\n10\nPhysical Barrier\n1000\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Sapphire Roga(Lv 171)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 181)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 191)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 201)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 221)\nAvant Plastida: Deepest Area",
+        "Processing": "Sell180\nSpina\nProcess\n90 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ooze Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n4\nNatural HP Regen %\n2\nMagic Resistance %\n4\nGuard Power %\n15\nGuard Recharge %\n23",
+        "MonsterDyeMap": "Ooze (Megiston \n2016\n)\n(Lv 100)\nEvent",
+        "Processing": "Sell45\nSpina\nProcess\n22 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ghoulfish Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n120\nDEX %\n3\nPhysical Pierce %\n6\nASPD\n600\nWater resistance %\n15\nStaff only:Magic Resistance %\n20",
+        "MonsterDyeMap": "Pisteus(Lv 183)\nDucia Coast: Depths Pisteus(Lv 193)\nDucia Coast: Depths Pisteus(Lv 203)\nDucia Coast: Depths Pisteus(Lv 213)\nDucia Coast: Depths Pisteus(Lv 233)\nDucia Coast: Depths",
+        "Processing": "Sell195\nSpina\nProcess\n97 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shampy Doll[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n1500\nFractional Barrier %\n10\nBarrier Cooldown %\n20",
+        "MonsterDyeMap": "Shampy(Lv 135)\nTurnus Mine: Hall Shampy(Lv 145)\nTurnus Mine: Hall Shampy(Lv 155)\nTurnus Mine: Hall Shampy(Lv 165)\nTurnus Mine: Hall Shampy(Lv 185)\nTurnus Mine: Hall",
+        "Processing": "Sell150\nSpina\nProcess\n75 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "2nd Anniv Shield III[Shield]",
+        "StatEffect_Amount": "Base DEF\n10\nVIT %\n3\nGuard Power %\n30\nGuard Recharge %\n10\nAggro %\n9",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell75\nSpina\nProcess\n37 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Gold \n2\nnd Anniv Medal"
+    },
+    {
+        "Name": "Windgrace Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nATK %\n2\nGuard Power %\n20\nGuard Recharge %\n20\nShort Range Damage %\n1\nReduce Dmg (Player Epicenter)\n %\n- 10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: \n2\nnd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n66\nMDEF %\n10\nCritical Rate\n15\nGuard Power %\n28\nGuard Recharge %\n28\nFractional Barrier %\n20",
+        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)\nNeo Plastida Venena Metacoenubia(Lv 195)\nNeo Plastida Venena Metacoenubia(Lv 205)\nNeo Plastida Venena Metacoenubia(Lv 215)\nNeo Plastida Venena Metacoenubia(Lv 235)\nNeo Plastida",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Light Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nAGI\n2\nGuard Power %\n5\nGuard Recharge %\n26",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell10\nSpina\nProcess\n5 Metal",
+        "Recipes": "50\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Small Wood\n- \n15\nx Cloth\n- \n15\nx Wood"
+    },
+    {
+        "Name": "Luster Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n70\nMax MP\n200\nGuard Power %\n28\nGuard Recharge %\n29\nAttack MP Recovery\n3",
+        "MonsterDyeMap": "Eyeloon(Lv 208)\nFreight Corridor Eyeloon(Lv 210)\nFreight Corridor",
+        "Processing": "Sell200\nSpina\nProcess\n100 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Red Steel Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nDodge\n50\nASPD\n300\nCritical Rate\n10",
+        "MonsterDyeMap": "Red Steel Box\n-",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Shield V[Shield]",
+        "StatEffect_Amount": "Base DEF\n22\nVIT %\n5\nGuard Power %\n36\nGuard Recharge %\n12\nAggro %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n95\nDifficulty\n125\nMaterials\n- \n20\nx Gold \n4\nth Anniv Medal\n- \n150\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Shield IV[Shield]",
+        "StatEffect_Amount": "Base DEF\n66\nVIT %\n7\nPhysical Resistance %\n11\nMagic Resistance %\n11\nGuard Power %\n40\nGuard Recharge %\n15\nAggro %\n22\nHeavy Armor only:Aggro %\n22",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell195\nSpina\nProcess\n97 Metal",
+        "Recipes": "390\n Spina Set\n1\n pcs Level\n175\nDifficulty\n215\nMaterials\n- \n20\nx Bropom \n7\nth Anniv Medal\n- \n205\nx Metal"
     },
     {
         "Name": "6th Anniv Shield III[Shield]",
-        "StatEffect_Amount": "Base \nDEF\n39VIT %\n6Physical Resistance %\n9Magic Resistance %\n9Guard Power %\n39Guard Recharge %\n13Fractional \nBarrier %\n15",
+        "StatEffect_Amount": "Base DEF\n39\nVIT %\n6\nPhysical Resistance %\n9\nMagic Resistance %\n9\nGuard Power %\n39\nGuard Recharge %\n13\nFractional Barrier %\n15",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
         "Processing": "Sell150\nSpina\nProcess\n75 Metal",
-        "Recipes": "300 Spina Set1 pcs Level N/ADifficulty0\nMaterials- 20x Gold 6th Anniv Medal- 175x Metal"
+        "Recipes": "300\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Gold \n6\nth Anniv Medal\n- \n175\nx Metal"
+    },
+    {
+        "Name": "5th Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n10\nMax HP %\n3\nPhysical Resistance %\n3\nMagic Resistance %\n3\nGuard Power %\n30\nGuard Recharge %\n10\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box V\n-",
+        "Processing": "Sell75\nSpina\nProcess\n37 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n25\nDifficulty\n75\nMaterials\n- \n20\nx Bronze \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "7th Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n39\nVIT %\n6\nPhysical Resistance %\n9\nMagic Resistance %\n9\nGuard Power %\n39\nGuard Recharge %\n14\nAggro %\n18\nHeavy Armor only:Aggro %\n18",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n77\nDifficulty\n170\nMaterials\n- \n20\nx Silver \n7\nth Anniv Medal\n- \n107\nx Metal"
+    },
+    {
+        "Name": "Kite Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n1\nMax HP\n30\nGuard Power %\n22\nGuard Recharge %\n10",
+        "MonsterDyeMap": "Guardian Statue(Lv 22)\nRuined Temple: Area \n2\nGuardian Statue(Lv 22)\nRuined Temple: Area \n3\nGuardian Statue(Lv 23)\nRuined Temple: Area \n3",
+        "Processing": "Sell20\nSpina\nProcess\n10 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Aeria Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n76\nPhysical Pierce %\n3\nASPD %\n20\nGuard Power %\n29\nGuard Recharge %\n29",
+        "MonsterDyeMap": "Boma Owl(Lv 219)\nBoma Konda: Entrance",
+        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Don Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n112\nMax HP\n5000\nGuard Power %\n36\nGuard Recharge %\n25\nLight Armor only:Critical Rate\n10\nAggro %\n25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell0\nSpina\nProcess\nunknown",
+        "Recipes": "2600\n Spina Set\n1\n pcs Level\n255\nDifficulty\n0\nMaterials\n- \n1\nx Abyssal Jewel\n- \n4\nx Abyssal Creature Exoskeleton\n- \n1600\nx Beast\n- \n1000\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nVIT %\n1\nGuard Power %\n24\nGuard Recharge %\n8\nAggro %\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box IV\n-",
+        "Processing": "Sell25\nSpina\nProcess\n12 Metal",
+        "Recipes": "1\n Spina Set\n1\n pcs Level\n1\nDifficulty\n25\nMaterials\n- \n5\nx Bronze \n4\nth Anniv Medal"
+    },
+    {
+        "Name": "Beastlord Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n76\nVIT %\n8\nGuard Power %\n41\nGuard Recharge %\n15\nAggro %\n30\nFractional Barrier %\n15",
+        "MonsterDyeMap": "Zega (Megiston \n2021\n)\n(Lv 240)\nEvent Zega (Megiston \n2022\n)\n(Lv 260)\nEvent",
+        "Processing": "Sell205\nSpina\nProcess\n102 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "5th Anniv Shield V[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nMax HP %\n9\nPhysical Resistance %\n9\nMagic Resistance %\n9\nGuard Power %\n39\nGuard Recharge %\n14\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
+        "Recipes": "320\n Spina Set\n1\n pcs Level\n160\nDifficulty\n185\nMaterials\n- \n20\nx Bropom \n5\nth Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Shield VI[Shield]",
+        "StatEffect_Amount": "Base DEF\n76\nVIT %\n8\nPhysical Resistance %\n12\nMagic Resistance %\n12\nGuard Power %\n41\nGuard Recharge %\n15\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
+        "Recipes": "420\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Golpom \n6\nth Anniv Medal\n- \n235\nx Metal"
+    },
+    {
+        "Name": "Scale Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n5\nGuard Power %\n10\nGuard Recharge %\n25\nAggro %\n2",
+        "MonsterDyeMap": "Planet Head (Green)\n(Lv 62)\nGate to Another World: Area \n1\nPlanet Head (Green)\n(Lv 64)\nGate to Another World: Area \n2",
+        "Processing": "Sell50\nSpina\nProcess\n25 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Elfin Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n30\nDodge %\n5\nGuard Power %\n30\nGuard Recharge %\n20\nNeutral Resistance %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
+        "Recipes": "650\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n15\nx Potum Top Fin\n- \n25\nx White Wood\n- \n250\nx Wood\n- \n75\nx Metal"
+    },
+    {
+        "Name": "4th Anniv Shield IV[Shield]",
+        "StatEffect_Amount": "Base DEF\n16\nVIT %\n4\nGuard Power %\n33\nGuard Recharge %\n11\nAggro %\n12",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell95\nSpina\nProcess\n47 Metal",
+        "Recipes": "200\n Spina Set\n1\n pcs Level\n75\nDifficulty\n100\nMaterials\n- \n20\nx Silver \n4\nth Anniv Medal\n- \n100\nx Metal"
+    },
+    {
+        "Name": "Seadevil Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nAccuracy\n50\nGuard Power %\n25\nGuard Recharge %\n25\nAggro %\n50\nAdditional Melee %\n50\nReduce Dmg (Meteor)\n %\n15",
+        "MonsterDyeMap": "Adaro (High Difficulty)\n(Lv 200)\nUnderwater Ruins: Deepest Adaro (High Difficulty)\n(Lv 210)\nUnderwater Ruins: Deepest Adaro (High Difficulty)\n(Lv 220)\nUnderwater Ruins: Deepest Adaro (High Difficulty)\n(Lv 230)\nUnderwater Ruins: Deepest Adaro (High Difficulty)\n(Lv 250)\nUnderwater Ruins: Deepest",
+        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Reptilian Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n57\nGuard Power %\n30\nGuard Recharge %\n25\nMagic Barrier\n1500\nGuard Break %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell180\nSpina\nProcess\n90 Beast",
+        "Recipes": "900\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Hard Wood Board\n- \n15\nx Speckled Egg\n- \n250\nx Metal\n- \n200\nx Beast"
+    },
+    {
+        "Name": "Mirror Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nGuard Power %\n5\nGuard Recharge %\n5\nEvasion Recharge %\n10\nAggro %\n5",
+        "MonsterDyeMap": "Stone Mercenary(Lv 60)\nZoktzda Ruins : Abnormal Space",
+        "Processing": "Sell40\nSpina\nProcess\n20 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Eradicator Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n84\nPhysical Resistance %\n15\nCritical Rate\n10\nGuard Power %\n40\nGuard Recharge %\n17\nReduce Dmg (Bullet)\n %\n25\nReduce Dmg (Bowling)\n %\n20",
+        "MonsterDyeMap": "Velum(Lv 213)\nArstida: Depth Velum(Lv 223)\nArstida: Depth Velum(Lv 233)\nArstida: Depth Velum(Lv 243)\nArstida: Depth Velum(Lv 263)\nArstida: Depth",
+        "Processing": "Sell220\nSpina\nProcess\n110 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Buckler[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nGuard Power %\n15\nGuard Recharge %\n15",
+        "MonsterDyeMap": "Shell Mask(Lv 4)\nLand Under Development Shell Mask(Lv 5)\nLand Under Development",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n0\nVIT %\n1\nGuard Power %\n24\nGuard Recharge %\n8\nAggro %\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box III\n-",
+        "Processing": "SellUnknownProcess12 Metal",
+        "Recipes": "10\n Spina Set\n1\n pcs Level\n1\nDifficulty\n25\nMaterials\n- \n20\nx Bronze \n3\nrd Anniv Medal"
+    },
+    {
+        "Name": "Don Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n112\nMax HP\n10000\nGuard Power %\n36\nGuard Recharge %\n25\nLight Armor only:Critical Rate\n5\nAggro %\n50",
+        "MonsterDyeMap": "Don Profundo(Lv 252)\nAbandoned District: Ruins Summit Don Profundo(Lv 262)\nAbandoned District: Ruins Summit Don Profundo(Lv 272)\nAbandoned District: Ruins Summit Don Profundo(Lv 282)\nAbandoned District: Ruins Summit Don Profundo(Lv 302)\nAbandoned District: Ruins Summit",
+        "Processing": "SellUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shell Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n2\nPhysical Resistance %\n2\nGuard Power %\n12\nGuard Recharge %\n24\nAggro %\n1",
+        "MonsterDyeMap": "Tortuga(Lv 40)\nIcule Lake",
+        "Processing": "Sell35\nSpina\nProcess\n17 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Shield III[Shield]",
+        "StatEffect_Amount": "Base DEF\n76\nVIT %\n8\nPhysical Resistance %\n12\nMagic Resistance %\n12\nGuard Power %\n41\nGuard Recharge %\n15\nAggro %\n24\nHeavy Armor only:Aggro %\n24",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "8th Anniv Shield IV[Shield]",
+        "StatEffect_Amount": "Base DEF\n76\nVIT %\n8\nPhysical Resistance %\n12\nMagic Resistance %\n12\nGuard Power %\n41\nGuard Recharge %\n15\nAggro %\n24\nHeavy Armor only:Aggro %\n24",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
+        "Recipes": "400\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Bropom \n8\nth Anniv Medal\n- \n220\nx Metal"
+    },
+    {
+        "Name": "7th Anniv Shield III[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nVIT %\n7\nPhysical Resistance %\n10\nMagic Resistance %\n10\nGuard Power %\n40\nGuard Recharge %\n14\nAggro %\n20\nHeavy Armor only:Aggro %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n145\nDifficulty\n195\nMaterials\n- \n20\nx Gold \n7\nth Anniv Medal\n- \n175\nx Metal"
+    },
+    {
+        "Name": "Imperial Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n26\nPhysical Resistance %\n- 2\nMagic Resistance %\n15\nGuard Power %\n25\nGuard Recharge %\n16",
+        "MonsterDyeMap": "Underground Nemico(Lv 109)\nUltimea Sewer: Southeast Underground Nemico(Lv 111)\nUltimea Sewer: Southeast",
+        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Shield II[Shield]",
+        "StatEffect_Amount": "Base DEF\n66\nVIT %\n7\nPhysical Resistance %\n11\nMagic Resistance %\n11\nGuard Power %\n40\nGuard Recharge %\n15\nAggro %\n22\nHeavy Armor only:Aggro %\n22",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Marble Shield[Shield]",
+        "StatEffect_Amount": "Base DEF\n9\nGuard Power %\n20\nGuard Recharge %\n20\nAggro %\n24\nAttack MP Recovery\n6",
+        "MonsterDyeMap": "Pillar Golem (Megiston \n2018\n)\n(Lv 140)\nEvent",
+        "Processing": "Sell70\nSpina\nProcess\n35 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Shield IV[Shield]",
+        "StatEffect_Amount": "Base DEF\n54\nVIT %\n7\nPhysical Resistance %\n10\nMagic Resistance %\n10\nGuard Power %\n40\nGuard Recharge %\n14\nFractional Barrier %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell175\nSpina\nProcess\n87 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n20\nx Bropom \n6\nth Anniv Medal\n- \n200\nx Metal"
     }
 ]
