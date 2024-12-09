@@ -120,6 +120,28 @@
             height: auto
         }
     </style>
+        <!-- JavaScript for view toggle -->
+        <script>
+            function toggleView() {
+                const updateDiv = document.querySelector('.poc-update');
+                const guideDiv = document.querySelector('.poc-guide');
+                const toggleButton = document.getElementById("glorious-fucking");
+    
+                // Toggle visibility of update and guide divs
+                updateDiv.classList.toggle('active');
+                guideDiv.classList.toggle('active');
+    
+                // Toggle the button text content based on the current state
+                if (toggleButton.textContent === "See maintenance time") {
+                    toggleButton.textContent = "See guide"; // Change text to "See guide" when maintenance time is visible
+                } else {
+                    toggleButton.textContent = "See maintenance time"; // Change text back to "See maintenance time"
+                }
+    
+                // Debugging statements (optional)
+                console.log("Button text is now:", toggleButton.textContent);
+            }
+        </script>
 </head>
 <body>
     <div class="container">
@@ -149,28 +171,7 @@
         </div>
     </div>
 
-    <!-- JavaScript for view toggle -->
-    <script>
-        function toggleView() {
-            const updateDiv = document.querySelector('.poc-update');
-            const guideDiv = document.querySelector('.poc-guide');
-            const toggleButton = document.getElementById("glorious-fucking");
 
-            // Toggle visibility of update and guide divs
-            updateDiv.classList.toggle('active');
-            guideDiv.classList.toggle('active');
-
-            // Toggle the button text content based on the current state
-            if (toggleButton.textContent === "See maintenance time") {
-                toggleButton.textContent = "See guide"; // Change text to "See guide" when maintenance time is visible
-            } else {
-                toggleButton.textContent = "See maintenance time"; // Change text back to "See maintenance time"
-            }
-
-            // Debugging statements (optional)
-            console.log("Button text is now:", toggleButton.textContent);
-        }
-    </script>
 
     <!-- Form for file selection -->
     <div>

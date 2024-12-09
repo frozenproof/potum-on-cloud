@@ -8,30 +8,50 @@ import re
 
 # Function to format the `item_basestat` text
 def format_basestat(text):
-    # Step 1: Insert a newline between a number and the following word if directly adjacent
-    formatted_text = re.sub(r'(\d+)([A-Za-z])', r'\1\n\2', text)
-    
-    # Step 2: Insert a newline between a word and a number if directly adjacent
-    formatted_text = re.sub(r'([A-Za-z])(\d)', r'\1\n\2', formatted_text)
-    
-    # Step 3: Replace spaces in front of numbers with a newline
-    formatted_text = re.sub(r'\s+(\d)', r'\n\1', formatted_text)
+    # Insert newline after a percentage symbol
+    # formatted_text = text.replace("%", "%\n")
 
+    # Insert a newline only between a number and the following word if they are directly adjacent and likewise
+    formatted_text = re.sub(r'(\d)([A-Z])', r'\1\n\2', text)
+    formatted_text = re.sub(r'([A-Z])(\d)', r'\1\n\2', formatted_text)
+    
     # Step 4: Insert a newline after a closing parenthesis if followed by text
     formatted_text = re.sub(r'\)([A-Za-z])', r')\n\1', formatted_text)
 
-    # Step 5: Insert a newline after a colon if followed by text
-    formatted_text = re.sub(r':\s*([A-Za-z])', r':\n\1', formatted_text)
-
     # Step 6: Split compound words with two capital letters inside (e.g., "ThroatGuard" to "Throat\nGuard")
-    formatted_text = re.sub(r'([a-z])([A-Z])', r'\1\n\2', formatted_text)
+    formatted_text = re.sub(r'([a-z])([A-Z])', r'\1 \2', formatted_text)
 
-    # Step 7: Replace multiple newlines with a single newline
+    # Replace unnecessary spaces in certain contexts (retain this if "stronger" is special)
+    formatted_text = formatted_text.replace("stronger ", "\stronger ")
+
+    # Remove excessive newlines
     formatted_text = re.sub(r'\n{2,}', '\n', formatted_text)
 
-    # Return the final formatted text
     return formatted_text.strip()
 
+    # # Step 1: Insert a newline between a number and the following word if directly adjacent
+    # formatted_text = re.sub(r'(\d+)([A-Za-z])', r'\1\n\2', text)
+    
+    # # Step 2: Insert a newline between a word and a number if directly adjacent
+    # formatted_text = re.sub(r'([A-Za-z])(\d)', r'\1\n\2', formatted_text)
+    
+    # # Step 3: Replace spaces in front of numbers with a newline
+    # formatted_text = re.sub(r'\s+(\d)', r'\n\1', formatted_text)
+
+    # # Step 4: Insert a newline after a closing parenthesis if followed by text
+    # formatted_text = re.sub(r'\)([A-Za-z])', r')\n\1', formatted_text)
+
+    # # Step 5: Insert a newline after a colon if followed by text
+    # formatted_text = re.sub(r':\s*([A-Za-z])', r':\n\1', formatted_text)
+
+    # # Step 6: Split compound words with two capital letters inside (e.g., "ThroatGuard" to "Throat\nGuard")
+    # formatted_text = re.sub(r'([a-z])([A-Z])', r'\1\n\2', formatted_text)
+
+    # # Step 7: Replace multiple newlines with a single newline
+    # formatted_text = re.sub(r'\n{2,}', '\n', formatted_text)
+
+    # # Return the final formatted text
+    # return formatted_text.strip()
 
 # # Example usage
 # input_text = "Stat/EffectAmountATK %11Stability %10Physical Pierce %20ASPD900% stronger against Light10Dark Element0Guard Break %30"
@@ -136,28 +156,33 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                 basestat_div = card.find("div", class_="table-grid item-basestat")
                 if basestat_div:
                     raw_basestat = basestat_div.get_text(strip=True)
+                    print(raw_basestat)
                     for word in words_to_remove:
                         raw_basestat = raw_basestat.replace(word,"")
                     
                     final_basestat = format_basestat(raw_basestat)
                     final_basestat = raw_basestat.replace("%","%\n")
                     final_basestat = final_basestat.replace("Critical Rate","\nCritical Rate\n")
+                    final_basestat = final_basestat.replace("Accuracy","\nAccuracy")
                     final_basestat = final_basestat.replace("Dodge","Dodge\n")
-                    final_basestat = final_basestat.replace(")",")\n")
+                    # final_basestat = final_basestat.replace(")",")\n")
+                    # final_basestat = final_basestat.replace("\n)",")")
                     final_basestat = final_basestat.replace("Barrier","\nBarrier")
                     final_basestat = final_basestat.replace("TK","TK\n")
                     final_basestat = final_basestat.replace("ASPD","\nASPD")
                     final_basestat = final_basestat.replace("MSPD","\nMSPD")
-                    final_basestat = final_basestat.replace("DEF","\nDEF")
-                    final_basestat = final_basestat.replace("MDEF","\nMDEF")
-                    final_basestat = final_basestat.replace("MaxHP","\nMaxHP")
-                    final_basestat = final_basestat.replace("MaxMP","\nMaxMP")
+                    final_basestat = final_basestat.replace("DEF","\nDEF\n")
+                    final_basestat = final_basestat.replace("MDEF","\nMDEF\n")
+                    final_basestat = final_basestat.replace("MaxHP","\nMaxHP\n")
+                    final_basestat = final_basestat.replace("MaxMP","\nMaxMP\n")
+                    final_basestat = final_basestat.replace("stronger ","\nstronger ")
+                    final_basestat = final_basestat.replace("Element","\nElement\n")
                     final_basestat = final_basestat.replace("Potential","\nPotential\n")
                     final_basestat = final_basestat.replace("Critical Damage","\nCritical Damage\n")
                     final_basestat = final_basestat.replace("Attack MP Recovery","\nAttack MP Recovery\n")
                     final_basestat = final_basestat.replace("Base Stability","\nBase Stability")
                     final_basestat = final_basestat.replace("Aggro","\nAggro")
-                    final_basestat = final_basestat.replace("\n\n","\n")
+                    # final_basestat = final_basestat.replace("\n\n","\n")
                     card_data["StatEffect_Amount"] = final_basestat  # Apply formatting function
                 # Extract `item-obtainfrom`
                 obtainfrom_div = card.find("div", class_="table-grid no-head item-obtainfrom pagination-js-items")
@@ -175,8 +200,11 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                 # else:
                 #     card_data["Recipe"] = "empty"
                 if prop_mini:  # Check if prop_div has at least one element
-                    card_data["Processing"] = prop_mini.get_text(strip=True)
-                
+                    raw_processing = prop_mini.get_text(strip=True)
+                    raw_processing = raw_processing.replace(" SpinaProcess","\nSpina\nProcess\n")
+                    card_data["Processing"] = raw_processing
+                    
+
                 if prop_div:
                     raw_recipe = prop_div.get_text(strip=True).strip()
                     print(raw_recipe)
@@ -187,7 +215,7 @@ for skill_category, urls in list_of_weapons["weapons"].items():
                     raw_recipe = raw_recipe.replace(raw_basestat,"")
                     raw_recipe = raw_recipe.replace(raw_md_map,"")
                     raw_recipe = format_basestat(raw_recipe)
-                    print(raw_recipe)
+                    # print(raw_recipe)
                     raw_recipe = raw_recipe.replace(" SpinaSet","\nSpina\nSet")
                     raw_recipe = raw_recipe.replace(" pcsLevel","Level")
                     raw_recipe = raw_recipe.replace("Fall \n","Fall ")

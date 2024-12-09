@@ -1,51 +1,51 @@
 [
     {
-        "Name": "Lightning Ninjutsu Scroll[Ninjutsu Scroll]",
-        "StatEffect_Amount": "Stability %\n5Katana only:Accuracy %\n10",
-        "MonsterDyeMap": "empty",
-        "Processing": "Sell1 SpinaProcess2 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Water Ninjutsu Scroll[Ninjutsu Scroll]",
-        "StatEffect_Amount": "Ailment Resistance %\n5Magic Device only:\nAggro %\n-10",
-        "MonsterDyeMap": "empty",
-        "Processing": "Sell1 SpinaProcess2 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Earth Ninjutsu Scroll[Ninjutsu Scroll]",
-        "StatEffect_Amount": "\nMaxHP %\n101-Handed Sword only:Fractional \nBarrier %\n10",
-        "MonsterDyeMap": "empty",
-        "Processing": "Sell1 SpinaProcess2 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Metal Ninjutsu Scroll[Ninjutsu Scroll]",
-        "StatEffect_Amount": "\nCritical Rate\n5",
-        "MonsterDyeMap": "empty",
-        "Processing": "Sell1 SpinaProcess2 Wood",
-        "Recipes": ""
-    },
-    {
         "Name": "Fire Ninjutsu Scroll[Ninjutsu Scroll]",
         "StatEffect_Amount": "MATK\n %\n1Staff only:Magic Pierce %\n5",
         "MonsterDyeMap": "empty",
-        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
         "Recipes": ""
     },
     {
         "Name": "Wind Ninjutsu Scroll[Ninjutsu Scroll]",
         "StatEffect_Amount": "\nASPD250Katana only:\nCritical Rate\n5",
         "MonsterDyeMap": "empty",
-        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lightning Ninjutsu Scroll[Ninjutsu Scroll]",
+        "StatEffect_Amount": "Stability %\n5Katana only:\nAccuracy %\n10",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Metal Ninjutsu Scroll[Ninjutsu Scroll]",
+        "StatEffect_Amount": "\nCritical Rate\n5",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Earth Ninjutsu Scroll[Ninjutsu Scroll]",
+        "StatEffect_Amount": "\nMaxHP\n %\n101-Handed Sword only:Fractional \nBarrier %\n10",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Water Ninjutsu Scroll[Ninjutsu Scroll]",
+        "StatEffect_Amount": "Ailment Resistance %\n5Magic Device only:\nAggro %\n-10",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
         "Recipes": ""
     },
     {
         "Name": "Dark Ninjutsu Scroll[Ninjutsu Scroll]",
         "StatEffect_Amount": "\nAggro %\n-10",
         "MonsterDyeMap": "empty",
-        "Processing": "Sell1 SpinaProcess2 Wood",
+        "Processing": "Sell1\nSpina\nProcess\n2 Wood",
         "Recipes": ""
     }
 ]

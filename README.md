@@ -68,3 +68,7 @@ We can also add google search index to allow others to visit our websites.
 # Debug lines
 
     <!-- <% console.log(table) %> -->
+
+by the way, data power also require to change the currently connected network on ethernet to 8. 
+
+If it works it works

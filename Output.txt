@@ -7533,6 +7533,297 @@
 </div>
 <div>
 <div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -15                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            200                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            2                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8031"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8031" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8031">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3326">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 210)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8031"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -20                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            300                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            3                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8032"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8032" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8032">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3327">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 230)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8032"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            4                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8033"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8033" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8033">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3328">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 250)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3330">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 400)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8033"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
         Knight's Talisman <font color="#CE8505">[Special]</font> </div>
 <hr class="separator"/>
 <div>
@@ -23727,6 +24018,297 @@
 </div> <!-- end of pagination items -->
 </div> <!-- end of js-pagination -->
 <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-1042"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -15                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            200                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            2                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8031"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8031" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8031">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3326">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 210)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8031"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -20                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            300                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            3                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8032"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8032" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8032">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3327">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 230)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8032"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>
+<div>
+<div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            4                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8033"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8033" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8033">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3328">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 250)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3330">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 400)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8033"></div>
 </div> <!-- end of Obtained From content -->
 </li>
 </ul>
@@ -51271,6 +51853,933 @@
 </div>, <div>
 <a href="map.php?id=89">Ethos Fortress</a>
 </div>, <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-1042"></div>, <div>
+<div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -15                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            200                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            2                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8031"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8031" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8031">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3326">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 210)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8031"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>, <div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>, <div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>, <div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>, <div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>, <div><p class="accent-bold">Sell</p><p>125 Spina</p></div>, <div><p class="accent-bold">Process</p><p>62 Mana</p></div>, <div>Stat/Effect</div>, <div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -15                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            200                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            2                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>, <div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>, <div>
+                        Stat/Effect
+                    </div>, <div>
+                        Amount
+                    </div>, <div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>, <div>
+                        	Base DEF                        </div>, <div>
+                                                            0                                                    </div>, <div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -15                                                    </div>
+</div>, <div>
+                        	MaxHP %                        </div>, <div>
+                                                            -15                                                    </div>, <div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            200                                                    </div>
+</div>, <div>
+                        	MaxMP                        </div>, <div>
+                                                            200                                                    </div>, <div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>, <div>
+                        	Dark resistance %                        </div>, <div>
+                                                            20                                                    </div>, <div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            2                                                    </div>
+</div>, <div>
+                        	Attack MP Recovery                        </div>, <div>
+                                                            2                                                    </div>, <div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>, <div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>, <div class="ml-10">Aggro %</div>, <div>
+                                                            25                                                    </div>, <div><div>Obtained From</div></div>, <div>Obtained From</div>, <div id="obtain-8031"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8031" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8031">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3326">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 210)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8031"></div>
+</div>, <div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>, <div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>, <div>Monster</div>, <div>Dye</div>, <div>Map</div>, <div class="js-pagination" data-accord="#obtain-8031" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8031">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3326">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 210)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div>, <div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3326">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 210)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div>, <div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3326">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 210)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>, <div>
+<a href="monster.php?id=3326">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 210)</span>
+</a>
+</div>, <div>
+</div>, <div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>, <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8031"></div>, <div>
+<div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -20                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            300                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            3                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8032"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8032" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8032">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3327">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 230)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8032"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>, <div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>, <div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>, <div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>, <div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>, <div><p class="accent-bold">Sell</p><p>125 Spina</p></div>, <div><p class="accent-bold">Process</p><p>62 Mana</p></div>, <div>Stat/Effect</div>, <div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -20                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            300                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            3                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>, <div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>, <div>
+                        Stat/Effect
+                    </div>, <div>
+                        Amount
+                    </div>, <div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>, <div>
+                        	Base DEF                        </div>, <div>
+                                                            0                                                    </div>, <div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -20                                                    </div>
+</div>, <div>
+                        	MaxHP %                        </div>, <div>
+                                                            -20                                                    </div>, <div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            300                                                    </div>
+</div>, <div>
+                        	MaxMP                        </div>, <div>
+                                                            300                                                    </div>, <div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>, <div>
+                        	Dark resistance %                        </div>, <div>
+                                                            20                                                    </div>, <div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            3                                                    </div>
+</div>, <div>
+                        	Attack MP Recovery                        </div>, <div>
+                                                            3                                                    </div>, <div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>, <div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>, <div class="ml-10">Aggro %</div>, <div>
+                                                            25                                                    </div>, <div><div>Obtained From</div></div>, <div>Obtained From</div>, <div id="obtain-8032"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8032" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8032">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3327">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 230)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8032"></div>
+</div>, <div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>, <div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>, <div>Monster</div>, <div>Dye</div>, <div>Map</div>, <div class="js-pagination" data-accord="#obtain-8032" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8032">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3327">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 230)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div>, <div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3327">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 230)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div>, <div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3327">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 230)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>, <div>
+<a href="monster.php?id=3327">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 230)</span>
+</a>
+</div>, <div>
+</div>, <div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>, <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8032"></div>, <div>
+<div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>
+<hr class="separator"/>
+<div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>
+<ul class="accordion card-attach-bottom">
+<li class="active">
+<div>Stat/Effect</div>
+<div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            4                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>
+</li>
+<li class="">
+<div><div>Obtained From</div></div> <!-- Obtained From Title -->
+<div id="obtain-8033"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8033" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8033">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3328">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 250)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3330">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 400)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8033"></div>
+</div> <!-- end of Obtained From content -->
+</li>
+</ul>
+</div>, <div class="card-title">
+        Inverted Tree Crest <font color="#CE8505">[Special]</font> </div>, <div>
+<div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>
+</div>, <div>
+<div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>
+</div>, <div class="item-prop mini">
+<div><p class="accent-bold">Sell</p><p>125 Spina</p></div>
+<div><p class="accent-bold">Process</p><p>62 Mana</p></div>
+</div>, <div><p class="accent-bold">Sell</p><p>125 Spina</p></div>, <div><p class="accent-bold">Process</p><p>62 Mana</p></div>, <div>Stat/Effect</div>, <div class="table-grid item-basestat">
+<div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>
+<div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>
+<div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>
+<div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>
+<div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            4                                                    </div>
+</div>
+<div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>
+</div>, <div>
+<div>
+                        Stat/Effect
+                    </div>
+<div>
+                        Amount
+                    </div>
+</div>, <div>
+                        Stat/Effect
+                    </div>, <div>
+                        Amount
+                    </div>, <div>
+<div>
+                        	Base DEF                        </div>
+<div>
+                                                            0                                                    </div>
+</div>, <div>
+                        	Base DEF                        </div>, <div>
+                                                            0                                                    </div>, <div>
+<div>
+                        	MaxHP %                        </div>
+<div>
+                                                            -25                                                    </div>
+</div>, <div>
+                        	MaxHP %                        </div>, <div>
+                                                            -25                                                    </div>, <div>
+<div>
+                        	MaxMP                        </div>
+<div>
+                                                            400                                                    </div>
+</div>, <div>
+                        	MaxMP                        </div>, <div>
+                                                            400                                                    </div>, <div>
+<div>
+                        	Dark resistance %                        </div>
+<div>
+                                                            20                                                    </div>
+</div>, <div>
+                        	Dark resistance %                        </div>, <div>
+                                                            20                                                    </div>, <div>
+<div>
+                        	Attack MP Recovery                        </div>
+<div>
+                                                            4                                                    </div>
+</div>, <div>
+                        	Attack MP Recovery                        </div>, <div>
+                                                            4                                                    </div>, <div>
+<div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>
+<div>
+                                                            25                                                    </div>
+</div>, <div>
+<b class="text-light">Shield only:</b><br/><div class="ml-10">Aggro %</div> </div>, <div class="ml-10">Aggro %</div>, <div>
+                                                            25                                                    </div>, <div><div>Obtained From</div></div>, <div>Obtained From</div>, <div id="obtain-8033"> <!-- Obtained From Content -->
+<div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>
+<div class="js-pagination" data-accord="#obtain-8033" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8033">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3328">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 250)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3330">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 400)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div> <!-- end of js-pagination -->
+<div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8033"></div>
+</div>, <div class="table-grid item-obtainfrom">
+<div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>
+</div>, <div>
+<div>Monster</div>
+<div>Dye</div>
+<div>Map</div>
+</div>, <div>Monster</div>, <div>Dye</div>, <div>Map</div>, <div class="js-pagination" data-accord="#obtain-8033" data-current-page="1" data-display="grid" data-perpage="6" id="obtain-list-8033">
+<div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3328">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 250)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3330">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 400)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div> <!-- end of pagination items -->
+</div>, <div class="table-grid no-head item-obtainfrom pagination-js-items">
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3328">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 250)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+<div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3330">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 400)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>
+</div>, <div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3328">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 250)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>, <div>
+<a href="monster.php?id=3328">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 250)</span>
+</a>
+</div>, <div>
+</div>, <div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>, <div class="pagination-js-item">
+<div>
+<a href="monster.php?id=3330">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 400)</span>
+</a>
+</div>
+<div>
+</div>
+<div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>
+</div>, <div>
+<a href="monster.php?id=3330">
+										Gegner																					<span class="avoidwrap text-blue">(Lv 400)</span>
+</a>
+</div>, <div>
+</div>, <div>
+<a href="map.php?id=639">Tower of Clamor: Rooftop</a>
+</div>, <div class="pagination-js-btngroup pagination-group-btn" data-target="#obtain-list-8033"></div>, <div>
 <div class="card-title">
         Knight's Talisman <font color="#CE8505">[Special]</font> </div>
 <hr class="separator"/>

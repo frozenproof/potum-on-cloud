@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Log incoming requests for debugging
-app.use((req, res, next) => {
+app.use((req, _res, next) => {
     console.log(`Incoming ${req.method} request for: ${req.url}`);
     console.log('Request body:', req.body);
     next();
@@ -52,7 +52,7 @@ try {
 // Set a default file to load
 const defaultFile = Object.keys(fileMapping)[0];  // Get the first file in fileMapping
 
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
     console.log('GET request to "/"');
     const filePath = path.join(__dirname, '..', 'database', defaultFile);
 
@@ -121,7 +121,7 @@ app.post('/view', (req, res) => {
 });
 
 
-app.get('/files', (req, res) => {
+app.get('/files', (_req, res) => {
     const filesDir = path.join(__dirname, '..', 'database');
     const downloadableFiles = [];
 
@@ -168,11 +168,11 @@ app.get('/download/:file', (req, res) => {
 });
 
 // Health check API route
-app.get('/poc/health', (req, res) => {
+app.get('/poc/health', (_req, res) => {
     res.status(200).json({ message: 'API is healthy' });
 });
 
-app.get('/rangesearch', (req, res) => {
+app.get('/rangesearch', (_req, res) => {
     const databaseList = ["Boss", "Miniboss", "NormalMonsters"]; // List of database names
     res.render('rangesearch', { results: [], databaseList }); // Pass the database list to the template
 });
@@ -252,7 +252,7 @@ app.post('/rangesearch', (req, res) => {
 
 
 // Secret API route
-app.get('/secret', (req, res) => {
+app.get('/secret', (_req, res) => {
     console.log('GET request to ""');
 
     // Construct the path to the sitemap file
@@ -268,7 +268,7 @@ app.get('/secret', (req, res) => {
     }
 });
 
-app.get('/maintenance-info', (req, res) => {
+app.get('/maintenance-info', (_req, res) => {
     res.json({ message: 'Website will be under maintenance on November 30 from 10 PM to 1 AM. GMT+7.' });
 });
 
@@ -281,9 +281,9 @@ function generateTableHtml(data) {
     let table = '';
 
     // Generate table data rows
-    data.forEach((row, rowIndex) => {
+    data.forEach((row, _rowIndex) => {
         table += '<tr>';
-        Object.values(row).forEach((value, colIndex) => {
+        Object.values(row).forEach((value, _colIndex) => {
             table += `<td>${value || ''}</td>`;
         });
         table += '</tr>';
@@ -294,7 +294,7 @@ function generateTableHtml(data) {
 
 // Apply <br> for newlines in string values
 function formatTableData(df) {
-    return df.map((row, rowIndex) => {
+    return df.map((row, _rowIndex) => {
         const formattedRow = Object.fromEntries(
             Object.entries(row).map(([key, value]) => {
                 if (typeof value === 'string') {
@@ -309,7 +309,7 @@ function formatTableData(df) {
 }
 
 // Serve the sitemap
-app.get('/sitemaps', (req, res) => {
+app.get('/sitemaps', (_req, res) => {
     console.log('GET request to "/sitemaps"');
 
     // Construct the path to the sitemap file
@@ -333,6 +333,6 @@ app.get('/sitemaps', (req, res) => {
 
 // Start server
 const port = process.env.PORT2 || 5000;
-app.listen(port, () => {
+app.listen(port,'0.0.0.0', () => {
     console.log(`Server running on http://localhost:${port}`);
 });
