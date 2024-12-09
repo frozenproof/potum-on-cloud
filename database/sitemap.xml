@@ -9,12 +9,17 @@
 
 <url>
   <loc>https://potum-on-cloud.onrender.com/</loc>
-  <lastmod>2024-12-03T02:20:22+00:00</lastmod>
+  <lastmod>2024-12-09T08:41:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://potum-on-cloud.onrender.com/files</loc>
-  <lastmod>2024-12-03T02:20:22+00:00</lastmod>
+  <lastmod>2024-12-09T08:41:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://potum-on-cloud.onrender.com/rangesearch</loc>
+  <lastmod>2024-12-09T08:41:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 

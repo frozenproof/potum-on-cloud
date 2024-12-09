@@ -1,5 +1,6 @@
 # Ignore the 'backups' directory
 backups/
+node_modules/
 
 # Ignore Markdown files (commonly documentation files)
 *.md
