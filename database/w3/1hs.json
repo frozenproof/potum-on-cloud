@@ -1,16 +1,9 @@
 [
     {
-        "Name": "8th Anniv Sword[1 Handed Sword]",
-        "StatEffect_Amount": "Base ATK\n220\nSTR %\n6\nATK %\n6\nMagic Resistance %\n35\nASPD\n650\nCritical Rate\n35\nBase Stability %\n80\nAnticipate %\n15\nAttack Range (m)\n2",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
-        "Recipes": "280\n Spina Set\n1\n pcs Level\n1\nDifficulty\n160\nMaterials\n- \n20\nx Bronze \n8\nth Anniv Medal\n- \n30\nx Metal"
-    },
-    {
-        "Name": "Sapphire Mace[1 Handed Sword]",
-        "StatEffect_Amount": "Base ATK\n260\nATK %\n7\nPhysical Pierce %\n30\nPhysical Resistance %\n20\nAccuracy %\n25\nWater Element\n1\nBase Stability %\n90\nGuard Break %\n5",
-        "MonsterDyeMap": "Sapphire Roga(Lv 171)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 181)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 191)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 201)\nAvant Plastida: Deepest Area Sapphire Roga(Lv 221)\nAvant Plastida: Deepest Area",
-        "Processing": "Sell180\nSpina\nProcess\n90 Metal",
+        "Name": "Glacial Ice Sword[1 Handed Sword]",
+        "StatEffect_Amount": "Base ATK\n265\nATK %\n6\nMATK %\n6\nPhysical Pierce %\n15\nFire resistance %\n10\nWater Element\n1\nAttack MP Recovery\n20\nBase Stability %\n80",
+        "MonsterDyeMap": "Evil Shadow(LvLv 177)\nReindeer Forest",
+        "Processing": "Sell165\nSpina\nProcess\n82 Mana",
         "Recipes": ""
     },
     {
