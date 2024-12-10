@@ -1,0 +1,1395 @@
+[
+    {
+        "Name": "Great Nature Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n2000\nAggro %\n- 10\nRevive Time %\n- 10",
+        "MonsterDyeMap": "Treemit(Lv 191)\nFlumen Plains",
+        "Processing": "Sell\n95\nSpina\nProcess\n47 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Chocolate Charm[Special]",
+        "StatEffect_Amount": "Max MP\n500",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Chocolate Ooze\n- 18x Chocolate Chip"
+    },
+    {
+        "Name": "Proof of Resistance[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n200",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n200",
+        "MonsterDyeMap": "[NPC]General Store: Mutoto El Scaro[NPC]General Store: Adala Hora Diomedea[NPC]General Store: Litoa Nov Saterica[NPC]General Store: Kifa Draco Town",
+        "Processing": "Sell\n1\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark Knight Amulet[Special]",
+        "StatEffect_Amount": "Max MP\n400\nDodge\n3\nAggro %\n- 25",
+        "MonsterDyeMap": "Controlled Knight(Lv 93)\nDark Castle: Area 1Controlled Knight(Lv 93)\nDark Castle: Area \n2",
+        "Processing": "Sell\n47\nSpina\nProcess\n23 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark Talisman (Unknown)[Special]",
+        "StatEffect_Amount": "Max HP\n900\nMax MP\n300\nASPD\n- 1000\nCSPD\n- 1000\nItem Cooldown\n- 1",
+        "MonsterDyeMap": "Suspicious Old Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Rosetta Stone[Special]",
+        "StatEffect_Amount": "Physical Resistance %\n- 10\nMagic Resistance %\n- 10\nCSPD\n1000",
+        "MonsterDyeMap": "Golden Casket\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Steeplejack Talisman[Special]",
+        "StatEffect_Amount": "VIT\n1\nAGI\n1\nMax MP\n300\nTumble Unavailable\n1",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n32\nSpina\nProcess\n16 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Twin-Head Dragon Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n10\nMax MP\n500\nATK %\n- 3\nMATK %\n- 3\nFlinch Unavailable\n1\nTumble Unavailable\n1\nStun Unavailable\n1",
+        "MonsterDyeMap": "Zahhak Machina(Lv 130)\nLufenas Mansion: Hall Zahhak Machina(Lv 140)\nLufenas Mansion: Hall Zahhak Machina(Lv 150)\nLufenas Mansion: Hall Zahhak Machina(Lv 170)\nLufenas Mansion: Hall",
+        "Processing": "Sell\n65\nSpina\nProcess\n32 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Warrior's Bangle[Special]",
+        "StatEffect_Amount": "Max HP\n100\nAttack MP Recovery\n3",
+        "MonsterDyeMap": "Calron(Lv 16)\nWiteka Scorched Plains Calron(Lv 17)\nWiteka Scorched Plains",
+        "Processing": "Sell\n10\nSpina\nProcess\n11 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Moxiz Strap[Special]",
+        "StatEffect_Amount": "Base DEF\n30\nMax MP\n300\nATK %\n1\nMATK %\n1\nFire resistance %\n- 3\nWater resistance %\n- 3\nWind resistance %\n- 3\nEarth resistance %\n- 3",
+        "MonsterDyeMap": "Moxiz(Lv 91)\nCradle of Soldier: Inside",
+        "Processing": "Sell\n45\nSpina\nProcess\n22 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Stamina Talisman III[Special]",
+        "StatEffect_Amount": "VIT\n6\nMax MP\n400",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n50 Wood",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Evil Crystal Beast Claw\n- 20x Tough Carapace\n- 200x Cloth\n- 50x Wood"
+    },
+    {
+        "Name": "Bow Thimble ZC[Special]",
+        "StatEffect_Amount": "Max MP\n300\nAccuracy\n15\nBow only:ATK %\n1",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n1\nSpina\nProcess\n20 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Caravan Talisman[Special]",
+        "StatEffect_Amount": "Max MP\n200\nKnuckle only:Dodge\n4",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bow Thimble[Special]",
+        "StatEffect_Amount": "Max MP\n200\nAccuracy\n30\nBow only:ATK %\n1",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Frog Webbed Foot\n- 3x Dark Gray Claw\n- 3x Mauez's Broken Rod\n- 125x Cloth"
+    },
+    {
+        "Name": "Stoodie's Ring III[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n100\nATK %\n- 20\nMATK %\n- 20\nGem Dust Drop  %\n50",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Experiment Report II\n- 20x Normal Gem III\n- 10x Magic Cannon Part\n- 750x Metal"
+    },
+    {
+        "Name": "Scorching Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n20\nMax MP\n500\nFire resistance %\n25",
+        "MonsterDyeMap": "Bombermeow(Lv 149)\nFabriska Sector Bombermeow(Lv 151)\nFabriska Sector",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pearl Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n30\nSTR %\n1\nINT %\n1\nAGI %\n1\nDEX %\n1\nMax MP\n500\nCritical Rate\n10",
+        "MonsterDyeMap": "Water City Jewel Box\n-",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Aristocrat Ring[Special]",
+        "StatEffect_Amount": "Max MP\n400\nATK %\n- 10\nMATK %\n- 10",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Glory Ring (Melee)[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nAggro %\n- 10\nShort Range Damage %\n1",
+        "MonsterDyeMap": "[Orb Shop]Glory Ring Case Sofya City: Government Office",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Muscle Talisman II[Special]",
+        "StatEffect_Amount": "STR\n4\nMax MP\n300",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n25\nSpina\nProcess\n25 Wood",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 20x Young Branch\n- 100x Cloth\n- 25x Wood"
+    },
+    {
+        "Name": "Stamina Talisman V[Special]",
+        "StatEffect_Amount": "VIT\n10\nMax MP\n600",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n102\nSpina\nProcess\n52 Wood",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n193\nDifficulty\n0\nMaterials\n- 1x Corroded Mushroom Cap\n- 2x Lizard Spirit Stone\n- 500x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Dexterity Talisman V[Special]",
+        "StatEffect_Amount": "DEX\n10\nMax MP\n600",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n104\nSpina\nProcess\n54 Wood",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n193\nDifficulty\n0\nMaterials\n- 1x Corroded Mushroom Cap\n- 2x Pancake Ice Flower\n- 500x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Cookie Talisman[Special]",
+        "StatEffect_Amount": "Max HP\n1000",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 18x Candy Fragment\n- 1x Candela"
+    },
+    {
+        "Name": "Magician's Bangle[Special]",
+        "StatEffect_Amount": "Max MP\n300",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 5x Bead Fragment\n- 40x Wood\n- 10x Beast"
+    },
+    {
+        "Name": "Inverted Tree Crest[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP %\n- 25\nMax MP\n400\nDark resistance %\n20\nAttack MP Recovery\n4\nShield only:Aggro %\n25",
+        "MonsterDyeMap": "Gegner(Lv 250)\nTower of Clamor: Rooftop Gegner(Lv 400)\nTower of Clamor: Rooftop",
+        "Processing": "Sell\n125\nSpina\nProcess\n62 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lost Ring[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMDEF %\n- 15\nGuard Power %\n5\nGuard Recharge %\n5\nAttack MP Recovery\n5",
+        "MonsterDyeMap": "Duston(Lv 88)\nKlaspe Slum Duston(Lv 91)\nKlaspe Slum",
+        "Processing": "Sell\n45\nSpina\nProcess\n22 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mistletoe Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n6\nMax HP %\n6\nPhysical Resistance %\n4\nMagic Resistance %\n4\nNeutral Resistance %\n2",
+        "MonsterDyeMap": "Pova(Lv 32)\nLonogo Canyon",
+        "Processing": "Sell\n17\nSpina\nProcess\n17 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Muscle Talisman V[Special]",
+        "StatEffect_Amount": "STR\n10\nMax MP\n600",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n100\nSpina\nProcess\n50 Wood",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n193\nDifficulty\n0\nMaterials\n- 1x Corroded Mushroom Cap\n- 2x Lucid White Spirit Stone\n- 500x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Supple Ring[Special]",
+        "StatEffect_Amount": "Max MP\n500\nAggro %\n5\nFractional Barrier %\n10",
+        "MonsterDyeMap": "Strange Tentacle(Lv 166)\nAvant Plastida: Area 1Strange Tentacle(Lv 167)\nAvant Plastida: Area 2Strange Tentacle(Lv 168)\nAvant Plastida: Area \n3",
+        "Processing": "Sell\n80\nSpina\nProcess\n40 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Adamantite Charmstone[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n5000\nNeutral Resistance %\n25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessWood",
+        "Recipes": "10000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Empty Charmstone\n- 5x Wonderful Stone\n- 1x Super Night Mushroom\n- 200x Mana"
+    },
+    {
+        "Name": "Falling Star Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nWind resistance %\n30\nNeutral Resistance %\n15",
+        "MonsterDyeMap": "Mesoside(Lv 247)\nMenabra Plains Mesoside(Lv 245)\nMenabra Plains",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pendulum[Special]",
+        "StatEffect_Amount": "Critical Rate\n5",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Valley Guardian Stone[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nPhysical Resistance %\n7\nMagic Resistance %\n6\nAilment Resistance %\n5",
+        "MonsterDyeMap": "Acamia(Lv 195)\nVulcani Crater Base",
+        "Processing": "Sell\n102\nSpina\nProcess\n51 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sunshine Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n20\nMax MP\n500\nLight resistance %\n25",
+        "MonsterDyeMap": "Climber Potum(Lv 166)\nInje Village Climber Potum(Lv 169)\nInje Village",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cookie Ring II[Special]",
+        "StatEffect_Amount": "Max MP\n450\nMATK\n20\nCSPD\n200",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 9x Quality Flour\n- 1x Handmade Cookie"
+    },
+    {
+        "Name": "Speed Talisman[Special]",
+        "StatEffect_Amount": "AGI\n2\nMax MP\n200",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n5\nSpina\nProcess\n5 Wood",
+        "Recipes": "50\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 5x Wind Slash Feather\n- 20x Cloth\n- 5x Wood"
+    },
+    {
+        "Name": "Spring Breeze Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n20\nMax MP\n500\nWind resistance %\n25",
+        "MonsterDyeMap": "Ovinymon(Lv 169)\nCelarra Plateau Ovinymon(Lv 172)\nCelarra Plateau",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Night Sakura Charmstone[Special]",
+        "StatEffect_Amount": "Max MP\n100\nASPD\n250\nCSPD\n750\nAilment Resistance %\n- 4",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hallucination Spore[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nAggro %\n- 25\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Solopy(Lv 169)\nTurnus Mine: Area \n3",
+        "Processing": "Sell\n75\nSpina\nProcess\n32 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Rock Horn Beast Bangle[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nPhysical Resistance %\n20\nAnticipate %\n5\nHeavy Armor only:Fractional Barrier %\n10",
+        "MonsterDyeMap": "Petraceras(Lv 217)\nKabla Jabali Petraceras(Lv 219)\nKabla Jabali",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Salmon Jerky Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n200\nStability %\n10\nMagic Pierce %\n5",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n117\nSpina\nProcess\n58 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Aromatic Bangle[Special]",
+        "StatEffect_Amount": "Natural HP Regen %\n10\nNatural MP Regen %\n10\nAggro %\n30",
+        "MonsterDyeMap": "Berry Pomum(Lv 38)\nHarde Hill Berry Pomum(Lv 40)\nHarde Hill",
+        "Processing": "Sell\n22\nSpina\nProcess\n11 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ancient Shell Necklace[Special]",
+        "StatEffect_Amount": "Max MP\n300\nAttack MP Recovery\n1\nFlinch Unavailable\n1",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Speed Talisman IV[Special]",
+        "StatEffect_Amount": "AGI\n8\nMax MP\n500",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "750\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Twin Head Dragon Tail\n- 20x Long Thin Tail\n- 300x Cloth\n- 75x Wood"
+    },
+    {
+        "Name": "Dexterity Talisman VI[Special]",
+        "StatEffect_Amount": "DEX\n12\nMax MP\n700",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n125\nSpina\nProcess\n100 Wood",
+        "Recipes": "1250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Filrocas Core\n- 20x Flying Dragon Wing\n- 525x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Coral Peach Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nDark resistance %\n30\nNeutral Resistance %\n15",
+        "MonsterDyeMap": "Atoble(Lv 226)\nLabrum Atoll Atoble(Lv 228)\nLabrum Atoll",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ring of Universe[Special]",
+        "StatEffect_Amount": "STR\n1\nINT\n1\nVIT\n1\nAGI\n1\nDEX\n1\nMax MP\n300",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sealing Bandage[Special]",
+        "StatEffect_Amount": "STR %\n- 50\nINT %\n- 50\nVIT %\n- 50\nAGI %\n- 50\nDEX %\n- 50",
+        "MonsterDyeMap": "Golden Casket\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Seashell Choco Talisman[Special]",
+        "StatEffect_Amount": "Max MP\n300\nCSPD\n300\nFlinch Unavailable\n1\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Shell Kraken(Lv 74)\nSweet Hades",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Toe Beans Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n200\nPhysical Resistance %\n10\nMagic Resistance %\n10\nPet EXP %\n10",
+        "MonsterDyeMap": "Pond Snake(Lv 171)\nChocolate Reservoir",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shield Plus[Special]",
+        "StatEffect_Amount": "Guard Power %\n10\nGuard Recharge %\n10",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark Talisman (Flash)[Special]",
+        "StatEffect_Amount": "Max HP\n900\nMax MP\n300\nCritical Rate\n5\nMotion Speed %\n1",
+        "MonsterDyeMap": "Suspicious Old Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Enlightened Bangle[Special]",
+        "StatEffect_Amount": "Base DEF\n30\nSTR %\n3\nINT %\n3\nVIT %\n3\nAGI %\n3\nDEX %\n3",
+        "MonsterDyeMap": "Meditating Potum(Lv 132)\nHeresy Corridor",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Chocolate Ring[Special]",
+        "StatEffect_Amount": "Max MP\n350\nATK\n10\nASPD\n100",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Chocolate Ooze\n- 9x Chocolate Chip"
+    },
+    {
+        "Name": "Ice Crystal Ring[Special]",
+        "StatEffect_Amount": "Base DEF\n0\n% stronger against Fire\n5\nWater resistance %\n5\nWind resistance %\n- 5",
+        "MonsterDyeMap": "Flying Quartz(Lv 44)\nEthos Fortress",
+        "Processing": "Sell\n22\nSpina\nProcess\n11 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Big Tree Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n30\nMax HP %\n10\nEarth resistance %\n15\nAilment Resistance %\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "850\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x White Heart\n- 10x Titan Heart\n- 40x Aged Sap\n- 425x Cloth"
+    },
+    {
+        "Name": "Misanga[Special]",
+        "StatEffect_Amount": "Max MP\n500\nCritical Rate %\n1",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Speed Talisman V[Special]",
+        "StatEffect_Amount": "AGI\n10\nMax MP\n600",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n103\nSpina\nProcess\n53 Wood",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n193\nDifficulty\n0\nMaterials\n- 1x Corroded Mushroom Cap\n- 2x Squawker Horn\n- 500x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Dexterity Talisman IV[Special]",
+        "StatEffect_Amount": "DEX\n8\nMax MP\n500",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "750\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Twin Head Dragon Tail\n- 20x Broken Magazine\n- 300x Cloth\n- 75x Wood"
+    },
+    {
+        "Name": "Cookie Talisman II[Special]",
+        "StatEffect_Amount": "Max HP\n1800",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 18x Quality Flour\n- 1x Handmade Cookie"
+    },
+    {
+        "Name": "Chocolate Ring III[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n550\nATK\n40\nASPD\n400",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 6x Bad Liquor\n- 1x Broker Goblin"
+    },
+    {
+        "Name": "Glowing Sea Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nStability %\n10\nAilment Resistance %\n5\nPet EXP %\n15",
+        "MonsterDyeMap": "Amiya(Lv 171)\nUnderwater Canyon: Area 1Amiya(Lv 172)\nUnderwater Canyon: Area 2Amiya(Lv 173)\nUnderwater Canyon: Area \n3",
+        "Processing": "Sell\n87\nSpina\nProcess\n43 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sailor's Talisman[Special]",
+        "StatEffect_Amount": "Max HP\n500\nMax MP\n250\n% stronger against Water\n2\nFire resistance %\n4",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n30\nSpina\nProcess\n15 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Talisman of Deep Silence[Special]",
+        "StatEffect_Amount": "Max MP\n300\nEarth resistance %\n30\nNeutral Resistance %\n15",
+        "MonsterDyeMap": "Doridi(Lv 244)\nCarretera Mar",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Duo Additional Book[Special]",
+        "StatEffect_Amount": "Max MP\n300\nAdditional Melee %\n15\nAdditional Magic %\n15",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Robust Charmstone[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nATK %\n4\nStability %\n3\nCritical Rate %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessWood",
+        "Recipes": "10000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Empty Charmstone\n- 5x Bloody Stone\n- 1x Marchitar\n- 200x Mana"
+    },
+    {
+        "Name": "Road Sheep Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n10\nNatural MP Regen %\n5\nMax MP\n300\nStability %\n5\nCSPD %\n5",
+        "MonsterDyeMap": "Bo Peep(Lv 187)\nCountry Road Bo Peep(Lv 185)\nCountry Road",
+        "Processing": "Sell\n92\nSpina\nProcess\n46 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Full Blossom Charmstone[Special]",
+        "StatEffect_Amount": "Max MP\n200\nASPD\n750\nCSPD\n750\nAilment Resistance %\n- 8",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cookie Ring[Special]",
+        "StatEffect_Amount": "Max MP\n350\nMATK\n10\nCSPD\n100",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 9x Candy Fragment\n- 1x Candela"
+    },
+    {
+        "Name": "Booster Cast[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nPhysical Resistance %\n20\nMagic Resistance %\n20\nMotion Speed %\n- 10\nEXP Gain %\n10\nHeavy Armor only:Motion Speed %\n- 10\nEXP Gain %\n10",
+        "MonsterDyeMap": "Momia(Lv 225)\nDeusania's Lab",
+        "Processing": "Sell\n61\nSpina\nProcess\n122 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spy's Talisman[Special]",
+        "StatEffect_Amount": "Max MP\n200\nAggro %\n- 20",
+        "MonsterDyeMap": "Wooly(Lv 22)\nDouce Hamlet",
+        "Processing": "Sell\n15\nSpina\nProcess\n16 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magic Talisman[Special]",
+        "StatEffect_Amount": "INT\n2\nMax MP\n200",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n5\nSpina\nProcess\n5 Wood",
+        "Recipes": "50\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 5x Sour Nut\n- 20x Cloth\n- 5x Wood"
+    },
+    {
+        "Name": "Additional Melee Book[Special]",
+        "StatEffect_Amount": "Max MP\n300\nASPD %\n3\nAdditional Melee %\n30",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anniv Festive Bangle II[Special]",
+        "StatEffect_Amount": "Base DEF\n2\nMax MP\n500\nCritical Rate\n5",
+        "MonsterDyeMap": "Anniv Equipment Box IV\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cursed Gold Coin[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nDrop Rate %\n- 100",
+        "MonsterDyeMap": "Sea Ghost Wooden Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Steel Ring (Resist)[Special]",
+        "StatEffect_Amount": "Base DEF\n100\nMax HP\n1500\nMax MP\n300\nPhysical Resistance %\n15\nMagic Resistance %\n15",
+        "MonsterDyeMap": "Vintage Iron Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Purple Pearl Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n30\nSTR %\n1\nINT %\n1\nDEX %\n1\nMax MP\n500\nStability %\n5\nCritical Rate\n10\nAGI %\n1",
+        "MonsterDyeMap": "Water City Jewel Box\n-",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Solar Ring[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n400\nLight resistance %\n5\nDark resistance %\n- 10\nAdditional Magic %\n30",
+        "MonsterDyeMap": "Rainy Season Event Event",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Glory Ring (Magic Sword)[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nATK %\n3\nMATK %\n3\nMagic Device only:ASPD %\n25\nCSPD %\n25",
+        "MonsterDyeMap": "[Orb Shop]Glory Ring Case Sofya City: Government Office",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anniv Festive Ring III[Special]",
+        "StatEffect_Amount": "Base DEF\n3\nMax MP\n600\nEXP Gain %\n15",
+        "MonsterDyeMap": "Anniv Equipment Box VI\n-",
+        "Processing": "Sell\n112\nSpina\nProcess\n56 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Philosopher's Ring[Special]",
+        "StatEffect_Amount": "INT %\n3\nMax MP\n300\nCSPD %\n30",
+        "MonsterDyeMap": "Owl(Lv 53)\nLand Under Cultivation: Area 1Owl(Lv 54)\nLand Under Cultivation: Area \n3",
+        "Processing": "Sell\n25\nSpina\nProcess\n12 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Broker's Insignia[Special]",
+        "StatEffect_Amount": "Base DEF\n100\nMax MP\n100\nStability %\n- 20\nDodge %\n- 20\nAggro %\n20\nAnticipate %\n10\nGuard Break %\n10",
+        "MonsterDyeMap": "Bangrudom (Coffee)\n(Lv 290)\nEl Scaro: Back Alley",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Muscle Talisman III[Special]",
+        "StatEffect_Amount": "STR\n6\nMax MP\n400",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n50 Wood",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Evil Crystal Beast Claw\n- 20x Akaku Sand\n- 200x Cloth\n- 50x Wood"
+    },
+    {
+        "Name": "Dark Talisman (Magic)[Special]",
+        "StatEffect_Amount": "Max HP\n900\nMax MP\n300\nMATK %\n3\nAnticipate %\n3",
+        "MonsterDyeMap": "Suspicious Old Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hard Arm Guard[Special]",
+        "StatEffect_Amount": "Max HP\n400\nASPD %\n- 10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 15x Minotaur Hoof\n- 25x Fluffy Fur\n- 25x Cracked Stone\n- 50x Cloth"
+    },
+    {
+        "Name": "Painless Left Arm[Special]",
+        "StatEffect_Amount": "Max MP\n200",
+        "MonsterDyeMap": "Coofer(Lv 178)\nNezim Wetlands",
+        "Processing": "Sell\n1\nSpina\nProcess\n50 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mischievous Pocket Watch[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n200\nPhysical Resistance %\n- 90\nMagic Resistance %\n- 90\nASPD\n1000",
+        "MonsterDyeMap": "Manshadow(Lv 160)\nManor of Surprises",
+        "Processing": "Sell\n95\nSpina\nProcess\n47 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Adroit Warrior's Bangle[Special]",
+        "StatEffect_Amount": "STR\n3\nDEX\n3\nATK %\n1\nASPD\n100",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "350\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 3x Great Sword Fragment\n- 1x Crustacean Steel\n- 125x Metal\n- 50x Mana"
+    },
+    {
+        "Name": "Sable Bracelet[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nStability %\n5\nDEF %\n5\nAggro %\n- 5",
+        "MonsterDyeMap": "Flying Egg(Lv 181)\nSable Plains",
+        "Processing": "Sell\n92\nSpina\nProcess\n46 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Adroit Mage's Bangle[Special]",
+        "StatEffect_Amount": "INT\n3\nDEX\n3\nMATK %\n1\nCSPD\n100",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "350\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Empress Hair Accessory\n- 1x Eerie Stone\n- 125x Metal\n- 50x Mana"
+    },
+    {
+        "Name": "Steel Ring (Flash)[Special]",
+        "StatEffect_Amount": "Base DEF\n100\nMax HP\n1500\nCritical Rate %\n60\nMax MP\n300",
+        "MonsterDyeMap": "Vintage Iron Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Speed Talisman II[Special]",
+        "StatEffect_Amount": "AGI\n4\nMax MP\n300",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n25\nSpina\nProcess\n25 Wood",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 20x Little Wyvern Wing\n- 100x Cloth\n- 25x Wood"
+    },
+    {
+        "Name": "Rosetta Shard[Special]",
+        "StatEffect_Amount": "Physical Resistance %\n- 2\nMagic Resistance %\n- 2\nCSPD\n100",
+        "MonsterDyeMap": "Golden Casket\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Charmstone[Special]",
+        "StatEffect_Amount": "Max MP\n100\nASPD\n250\nCSPD\n250\nAilment Resistance %\n- 2",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Beast Fang Talisman[Special]",
+        "StatEffect_Amount": "Max MP\n400\nAttack MP Recovery\n1",
+        "MonsterDyeMap": "Mech Little Boar(Lv 97)\nSykea Deep Valley Mech Little Boar(Lv 99)\nSykea Deep Valley",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Glory Ring (Memory)[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nAggro %\n10\nEXP Gain %\n10\nPet EXP %\n10",
+        "MonsterDyeMap": "[Orb Shop]Glory Ring Case Sofya City: Government Office",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sofys Talisman[Special]",
+        "StatEffect_Amount": "Max MP\n300",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Steel Ring (Magic)[Special]",
+        "StatEffect_Amount": "Base DEF\n100\nMax HP\n1500\nMax MP\n300\nMATK %\n5\nAggro %\n- 10",
+        "MonsterDyeMap": "Vintage Iron Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Machina Ring[Special]",
+        "StatEffect_Amount": "Max MP\n300\nAilment Resistance %\n- 10",
+        "MonsterDyeMap": "Ultimate Machina(Lv 129)\nDroma Square Ultimate Machina(Lv 139)\nDroma Square Ultimate Machina(Lv 149)\nDroma Square Ultimate Machina(Lv 159)\nDroma Square Ultimate Machina(Lv 179)\nDroma Square Ultimate Machina (Megiston 2018)\n(Lv 160)\nEvent Zahhak Machina (Megiston 2019)\n(Lv 165)\nEvent",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Nymon\\'s Presence[Special]",
+        "StatEffect_Amount": "Max MP\n400\n% stronger against Earth\n5\nAggro %\n- 25",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Blue Pearl Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n30\nSTR %\n1\nINT %\n1\nAGI %\n1\nDEX %\n1\nMax MP\n500\nMagic Pierce %\n5\nCritical Rate\n10",
+        "MonsterDyeMap": "Water City Jewel Box\n-",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Bear Charmstone[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nDEF %\n10\nMDEF %\n10\nAilment Resistance %\n10",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n112\nSpina\nProcess\n56 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ice Bird Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nWater resistance %\n30\nNeutral Resistance %\n15",
+        "MonsterDyeMap": "Glafur(Lv 222)\nAlgid Passage Glafur(Lv 225)\nAlgid Passage",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Red Pearl Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n30\nSTR %\n1\nINT %\n1\nAGI %\n1\nDEX %\n1\nMax MP\n500\nPhysical Pierce %\n5\nCritical Rate\n10",
+        "MonsterDyeMap": "Water City Jewel Box\n-",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Navida Talisman[Special]",
+        "StatEffect_Amount": "STR\n2\nINT\n2\nAGI\n2\nDEX\n2\nMax HP %\n- 2\nMax MP\n500",
+        "MonsterDyeMap": "Snowman(Lv 139)\nNoeliel Castle 2F (120 - 140)\nSnowman(Lv 99)\nNoeliel Castle: 2F (80 - 100)\nSnowman(Lv 119)\nNoeliel Castle: 2F (100 - 120)",
+        "Processing": "Sell\n1\nSpina\nProcess\n30 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dexterity Talisman II[Special]",
+        "StatEffect_Amount": "DEX\n4\nMax MP\n300",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n25\nSpina\nProcess\n25 Wood",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 20x Poison Essence\n- 100x Cloth\n- 25x Wood"
+    },
+    {
+        "Name": "Stamina Talisman II[Special]",
+        "StatEffect_Amount": "VIT\n4\nMax MP\n300",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n25\nSpina\nProcess\n25 Wood",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 20x Dented Little Helmet\n- 100x Cloth\n- 25x Wood"
+    },
+    {
+        "Name": "Speed Talisman VI[Special]",
+        "StatEffect_Amount": "AGI\n12\nMax MP\n700",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n125\nSpina\nProcess\n100 Wood",
+        "Recipes": "1250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Filrocas Core\n- 20x Short Red Claw\n- 525x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Powered Gear[Special]",
+        "StatEffect_Amount": "ATK %\n1\nDEF %\n- 3\nMDEF %\n- 3\nDodge %\n- 3\nCritical Damage %\n1\nUnsheathe Attack %\n1",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anniv Festive Ring II[Special]",
+        "StatEffect_Amount": "Base DEF\n2\nMax MP\n500\nAilment Resistance %\n5",
+        "MonsterDyeMap": "Anniv Equipment Box IV\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark Night Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n20\nMax MP\n500\nDark resistance %\n25",
+        "MonsterDyeMap": "Earustica(Lv 158)\nPupalov Sector",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Seahorse Bangle[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n400\nCritical Rate\n20",
+        "MonsterDyeMap": "Famarin(Lv 239)\nEspuma Dome: Area 1Famarin(Lv 240)\nEspuma Dome: Area 2Famarin(Lv 241)\nEspuma Dome: Area 3Bangrudom (Coffee)\n(Lv 290)\nEl Scaro: Back Alley",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Beast Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n10\nMax HP %\n20\nLight resistance %\n4\nATK UP (VIT %)\n5",
+        "MonsterDyeMap": "Proto Leon(Lv 115)\nSingolare Ruins: 3rd Floor Proto Leon(Lv 105)\nSingolare Ruins: 3rd Floor Proto Leon(Lv 125)\nSingolare Ruins: 3rd Floor Proto Leon(Lv 135)\nSingolare Ruins: 3rd Floor Proto Leon(Lv 155)\nSingolare Ruins: 3rd Floor",
+        "Processing": "Sell\n55\nSpina\nProcess\n27 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Day Sakura Charmstone[Special]",
+        "StatEffect_Amount": "Max MP\n100\nASPD\n750\nCSPD\n250\nAilment Resistance %\n- 4",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Chocolate Ring II[Special]",
+        "StatEffect_Amount": "Max MP\n450\nATK\n20\nASPD\n200",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 9x Prime Chocolate Chip\n- 1x Eidenliebe"
+    },
+    {
+        "Name": "Time Warp Watch[Special]",
+        "StatEffect_Amount": "Physical Resistance %\n- 9\nMagic Resistance %\n- 9\nASPD\n1000",
+        "MonsterDyeMap": "Dirty Antique\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dragon Ring[Special]",
+        "StatEffect_Amount": "Base DEF\n20\nMax HP\n3000\nAttack MP Recovery\n10",
+        "MonsterDyeMap": "Plodocus(Lv 211)\nStairway to Vital Point Plodocus(Lv 213)\nStairway to Vital Point",
+        "Processing": "Sell\n105\nSpina\nProcess\n52 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Stoodie's Ring I[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nGem Dust Drop  %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Experiment Report I\n- 20x Normal Gem\n- 10x Magic Armor Fragment\n- 250x Metal"
+    },
+    {
+        "Name": "Sofys Talisman II[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n1000\nMax MP\n500",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Chocolate Charm III[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n700",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "4000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 6x Bad Liquor\n- 1x Broker Goblin"
+    },
+    {
+        "Name": "Dark Talisman (Resist)[Special]",
+        "StatEffect_Amount": "Max HP\n900\nMax MP\n300\nPhysical Resistance %\n10\nMagic Resistance %\n10",
+        "MonsterDyeMap": "Suspicious Old Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ankh of Resurrection[Special]",
+        "StatEffect_Amount": "Max MP\n500\nAilment Resistance %\n3\nInvincible Aid (sec)\n1",
+        "MonsterDyeMap": "Golden Casket\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ghost Telescope[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nStability %\n5\nAccuracy %\n5\nLight resistance %\n- 15",
+        "MonsterDyeMap": "Sea Ghost Wooden Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Yozakura Bangle[Special]",
+        "StatEffect_Amount": "Physical Barrier\n1000\nMagic Barrier\n1000\nBarrier Cooldown %\n- 150",
+        "MonsterDyeMap": "Cerabes (Hanami 2017)\n(Lv 60)\nHanami Venue: Summit Cerabes (Hanami 2017)\n(Lv 80)\nHanami Venue: Summit Cerabes (Hanami 2017)\n(Lv 100)\nHanami Venue: Summit",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Snow Potum Doll[Special]",
+        "StatEffect_Amount": "Max HP\n300\nAccuracy %\n12\nDark resistance %\n- 6",
+        "MonsterDyeMap": "Milk Potum(Lv 67)\nPolde Ice Valley",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spy's Talisman[Special]",
+        "StatEffect_Amount": "Max MP\n250\nAggro %\n- 25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n15\nSpina\nProcess\n16 Wood",
+        "Recipes": "150\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Fire Resistant Fabric\n- 5x Clot of Black Mist\n- 50x Cloth\n- 25x Wood"
+    },
+    {
+        "Name": "Glory Ring (Restore)[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nCritical Rate %\n10\nTumble Unavailable\n1",
+        "MonsterDyeMap": "[Orb Shop]Glory Ring Case Sofya City: Government Office",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spirit Tree Bangle[Special]",
+        "StatEffect_Amount": "Attack MP Recovery\n5\nAdditional Magic %\n25",
+        "MonsterDyeMap": "Kodama(Lv 85)\nGarden of Sublimation: Area 1Kodama(Lv 85)\nGarden of Sublimation: Area 2Kodama(Lv 88)\nGarden of Sublimation: Area \n3",
+        "Processing": "Sell\n42\nSpina\nProcess\n21 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lovely Ocean Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nFire resistance %\n30\nNeutral Resistance %\n15",
+        "MonsterDyeMap": "Maringer(Lv 233)\nSeabed Maringer(Lv 235)\nSeabed",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Weaken Talisman[Special]",
+        "StatEffect_Amount": "STR %\n- 100\nINT %\n- 100\nVIT %\n- 100\nAGI %\n- 100\nDEX %\n- 100",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "750\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Death Truffle\n- 2x Paralyzing Powder\n- 4x Sand Mole Meat\n- 8x Boss Colon"
+    },
+    {
+        "Name": "Guidance Lantern[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nASPD %\n- 10\nAggro %\n25",
+        "MonsterDyeMap": "Light Angler(Lv 131)\nTurnus Mine: Area 1Light Angler(Lv 132)\nTurnus Mine: Area \n3",
+        "Processing": "Sell\n65\nSpina\nProcess\n32 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dragonfly Ring[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nAGI\n10\nEvasion Recharge %\n30\nAdditional Melee %\n50",
+        "MonsterDyeMap": "Venofly(Lv 246)\nPerdida Wasteland",
+        "Processing": "Sell\n127\nSpina\nProcess\n63 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pyroxene Nugget[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n400\n% stronger against Dark\n5\nAggro %\n- 25",
+        "MonsterDyeMap": "Pojo(Lv 249)\nSiccus Plains",
+        "Processing": "Sell\n127\nSpina\nProcess\n63 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magic Talisman VI[Special]",
+        "StatEffect_Amount": "INT\n12\nMax MP\n700",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n125\nSpina\nProcess\n100 Wood",
+        "Recipes": "1250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Filrocas Core\n- 20x Cloud Cat Horn\n- 525x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Starfish Shuriken[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nStability %\n- 10\nCritical Rate\n20\nNinjutsu Scroll only:Physical Pierce %\n5\nUnsheathe Attack %\n5",
+        "MonsterDyeMap": "Coraxic(Lv 225)\nLabrum Atoll Coraxic(Lv 227)\nLabrum Atoll",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Prajna Charmstone[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nINT %\n3\nMATK %\n4\nCSPD %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessWood",
+        "Recipes": "10000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Empty Charmstone\n- 5x Sheep Crystal\n- 1x Cerabes\n- 200x Mana"
+    },
+    {
+        "Name": "Knight's Talisman[Special]",
+        "StatEffect_Amount": "Max MP\n250\nAggro %\n25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n15\nSpina\nProcess\n16 Wood",
+        "Recipes": "150\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Zoktzda Stone\n- 5x Wandering Spirit\n- 50x Cloth\n- 25x Wood"
+    },
+    {
+        "Name": "Anniv Festive Bangle[Special]",
+        "StatEffect_Amount": "Base DEF\n1\nMax MP\n400\nShort Range Damage %\n1",
+        "MonsterDyeMap": "Anniv Equipment Box II\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Chocolate Charm II[Special]",
+        "StatEffect_Amount": "Max MP\n600",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 18x Prime Chocolate Chip\n- 1x Eidenliebe"
+    },
+    {
+        "Name": "Sacred Bell Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n500\nDark resistance %\n5",
+        "MonsterDyeMap": "Sentreast(Lv 180)\nTomte Pavillion (170 - 190)",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bitter Pumpkin Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nCritical Rate\n3\nMotion Speed %\n31\n-Handed Sword only:Unsheathe Attack %\n- 3",
+        "MonsterDyeMap": "Calabari(Lv 180)\nRisus Valley: Area 3Calabari(Lv 178)\nRisus Valley: Area \n1",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magic Talisman III[Special]",
+        "StatEffect_Amount": "INT\n6\nMax MP\n400",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n50 Wood",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Evil Crystal Beast Claw\n- 20x Magic Charged Branch\n- 200x Cloth\n- 50x Wood"
+    },
+    {
+        "Name": "Stamina Talisman[Special]",
+        "StatEffect_Amount": "VIT\n2\nMax MP\n200",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n5\nSpina\nProcess\n5 Wood",
+        "Recipes": "50\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 20x Hard Dragon Skin\n- 20x Cloth\n- 5x Wood"
+    },
+    {
+        "Name": "Scary Face Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nLight resistance %\n30\nNeutral Resistance %\n15",
+        "MonsterDyeMap": "Fangs(Lv 236)\nPath to the Deep Sea",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dexterity Talisman[Special]",
+        "StatEffect_Amount": "DEX\n2\nMax MP\n200",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n5\nSpina\nProcess\n5 Wood",
+        "Recipes": "50\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Small Gloves\n- 20x Cloth\n- 5x Wood"
+    },
+    {
+        "Name": "Inverted Tree Crest[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP %\n- 20\nMax MP\n300\nDark resistance %\n20\nAttack MP Recovery\n3\nShield only:Aggro %\n25",
+        "MonsterDyeMap": "Gegner(Lv 230)\nTower of Clamor: Rooftop",
+        "Processing": "Sell\n125\nSpina\nProcess\n62 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ring of Greed[Special]",
+        "StatEffect_Amount": "Max MP\n500\nATK %\n- 25\nMATK %\n- 25\nAttack MP Recovery\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "300\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Ancient Gold Coin\n- 99x Relic Scrap"
+    },
+    {
+        "Name": "Muscle Talisman VI[Special]",
+        "StatEffect_Amount": "STR\n12\nMax MP\n700",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n125\nSpina\nProcess\n100 Wood",
+        "Recipes": "1250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Filrocas Core\n- 20x Tiger Arm Claw\n- 525x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Buzz Ring[Special]",
+        "StatEffect_Amount": "Attack MP Recovery\n10\nLong Range Damage %\n- 5",
+        "MonsterDyeMap": "Honeybee(Lv 128)\nCookie Road",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Stoodie's Ring II[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nATK %\n- 10\nMATK %\n- 10\nGem Dust Drop  %\n30",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Experiment Report I\n- 20x Normal Gem II\n- 10x Big Scrap\n- 500x Metal"
+    },
+    {
+        "Name": "Dark Fighter Bangle[Special]",
+        "StatEffect_Amount": "Max MP\n400\nAccuracy\n3\nAggro %\n25",
+        "MonsterDyeMap": "Controlled Fighter(Lv 95)\nDark Castle: Area 1Controlled Fighter(Lv 95)\nDark Castle: Area \n2",
+        "Processing": "Sell\n47\nSpina\nProcess\n23 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Snowland Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n20\nMax MP\n500\nWater resistance %\n25",
+        "MonsterDyeMap": "Acernix(Lv 135)\nGarden of Ice & Snow Acernix(Lv 138)\nGarden of Ice & Snow",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Noeliel Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n1000\nMotion Speed %\n- 1",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "3000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 5x Sacred Snow Crystal\n- 1x Noeliel"
+    },
+    {
+        "Name": "Gleeful Vine Bangle[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nATK %\n- 20\nMATK %\n- 20\nStability %\n10\nPet EXP %\n15",
+        "MonsterDyeMap": "Tulin(Lv 160)\nSugar Plain Tulin(Lv 164)\nSugar Plain",
+        "Processing": "Sell\n82\nSpina\nProcess\n41 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark Talisman (Power)[Special]",
+        "StatEffect_Amount": "Max HP\n900\nMax MP\n300\nATK %\n3\nGuard Break %\n3",
+        "MonsterDyeMap": "Suspicious Old Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anti Melee System[Special]",
+        "StatEffect_Amount": "Magic Resistance %\n- 10\nPhysical Barrier\n2000",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n55\nSpina\nProcess\n27 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Chocolate Leaf Talisman[Special]",
+        "StatEffect_Amount": "Max HP\n1200\nMax MP\n400",
+        "MonsterDyeMap": "Shell Mask(Lv 75)\nSweet Hades",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Smart Puppy Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n11\nMax MP\n400\nCSPD %\n30\nNeutral Resistance %\n20\nTumble Unavailable\n1",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Happiness Talisman[Special]",
+        "StatEffect_Amount": "Max MP\n300\nPet EXP %\n10",
+        "MonsterDyeMap": "Tylul(Lv 123)\nMt. Mithurna: Entrance",
+        "Processing": "Sell\n62\nSpina\nProcess\n31 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sand Veil Ring[Special]",
+        "StatEffect_Amount": "Earth resistance %\n5\nEvasion Recharge %\n1\nAggro %\n- 30",
+        "MonsterDyeMap": "Sand Frosch(Lv 46)\nCenterio Highlands Sand Frosch(Lv 47)\nCenterio Highlands",
+        "Processing": "Sell\n22\nSpina\nProcess\n11 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Scarecrow Marker[Special]",
+        "StatEffect_Amount": "Max MP\n300\nAggro %\n15\nShield only:Critical Rate\n15",
+        "MonsterDyeMap": "Crow Killer(Lv 130)\nCookie Road",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Muscle Talisman[Special]",
+        "StatEffect_Amount": "STR\n2\nMax MP\n200",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n5\nSpina\nProcess\n5 Wood",
+        "Recipes": "50\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 20x Tough Meat\n- 20x Cloth\n- 5x Wood"
+    },
+    {
+        "Name": "Toughness Bangle[Special]",
+        "StatEffect_Amount": "Max HP %\n20\nCritical Damage %\n- 5\nAggro %\n10",
+        "MonsterDyeMap": "Corroded Fighter(Lv 81)\nSpring of Rebirth: Lower Corroded Fighter(Lv 81)\nSpring of Rebirth: Middle Corroded Fighter(Lv 85)\nSpring of Rebirth: Upper",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magic Talisman IV[Special]",
+        "StatEffect_Amount": "INT\n8\nMax MP\n500",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "750\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Twin Head Dragon Tail\n- 20x Silk Glove\n- 300x Cloth\n- 75x Wood"
+    },
+    {
+        "Name": "Astral Lamp[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nNatural MP Regen %\n20\nMax MP\n300\nMagic Pierce %\n10",
+        "MonsterDyeMap": "Galamp(Lv 121)\nPhantom Wisp's Hideout Galamp(Lv 124)\nPhantom Wisp's Hideout",
+        "Processing": "Sell\n87\nSpina\nProcess\n43 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Muscle Talisman IV[Special]",
+        "StatEffect_Amount": "STR\n8\nMax MP\n500",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "750\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Twin Head Dragon Tail\n- 20x Monster's Big Arm\n- 300x Cloth\n- 75x Wood"
+    },
+    {
+        "Name": "Pumpkin Ring[Special]",
+        "StatEffect_Amount": "CSPD\n300\nCritical Rate\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Pumpkin Diamond"
+    },
+    {
+        "Name": "Speed Talisman III[Special]",
+        "StatEffect_Amount": "AGI\n6\nMax MP\n400",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n50 Wood",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Evil Crystal Beast Claw\n- 20x Thin Fabric of Netherworld\n- 200x Cloth\n- 50x Wood"
+    },
+    {
+        "Name": "Stamina Talisman VI[Special]",
+        "StatEffect_Amount": "VIT\n12\nMax MP\n700",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n125\nSpina\nProcess\n100 Wood",
+        "Recipes": "1250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Filrocas Core\n- 20x Geometric Armor Bit\n- 525x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Magic Talisman II[Special]",
+        "StatEffect_Amount": "INT\n4\nMax MP\n300",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n25\nSpina\nProcess\n25 Wood",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 20x Clear Water\n- 100x Cloth\n- 25x Wood"
+    },
+    {
+        "Name": "Potum Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n300\nDodge %\n12\nLight resistance %\n- 6",
+        "MonsterDyeMap": "Ghost Potum(Lv 66)\nCalle mort",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Unsheathe Bangle[Special]",
+        "StatEffect_Amount": "AGI\n3\nAccuracy\n3\nUnsheathe Attack\n30\nUnsheathe Attack %\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Grass Dragon's Petal\n- 1x Bear Fur\n- 125x Metal\n- 50x Mana"
+    },
+    {
+        "Name": "Dexterity Talisman III[Special]",
+        "StatEffect_Amount": "DEX\n6\nMax MP\n400",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n50 Wood",
+        "Recipes": "500\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Evil Crystal Beast Claw\n- 20x Broken Clock Hand\n- 200x Cloth\n- 50x Wood"
+    },
+    {
+        "Name": "Magic Swordsman's Ring[Special]",
+        "StatEffect_Amount": "ATK %\n- 25\nMATK %\n- 25\nAttack MP Recovery\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "300\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 99x Pebble"
+    },
+    {
+        "Name": "Stump Drum[Special]",
+        "StatEffect_Amount": "Base DEF\n10\nMax HP %\n25\nCritical Rate\n25\nAggro %\n25",
+        "MonsterDyeMap": "Bombor(Lv 205)\nNebula Plain Bombor(Lv 208)\nNebula Plain",
+        "Processing": "Sell\n102\nSpina\nProcess\n51 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hard Shell Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n21\nDEF %\n10\nMDEF %\n- 30\nPhysical Resistance %\n10\nAggro %\n10\nPhysical Barrier\n1000",
+        "MonsterDyeMap": "Squnail(Lv 111)\nUltimea Sewer: South Squnail(Lv 115)\nUltimea Sewer: South",
+        "Processing": "Sell\n57\nSpina\nProcess\n28 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Gapapa![Special]",
+        "StatEffect_Amount": "Max HP\n588\nMax MP\n588\nPhysical Barrier\n588\nMagic Barrier\n588",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n10000\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Caravan Cord[Special]",
+        "StatEffect_Amount": "Max MP\n200\nKatana only:Weapon ATK\n5",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Tree Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n20\nMax MP\n500\nEarth resistance %\n25",
+        "MonsterDyeMap": "Monstletoe(Lv 152)\nAltoale Sector",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ghilly Sheet[Special]",
+        "StatEffect_Amount": "Dodge\n8\nASPD %\n- 20\nCSPD\n- 20\nAggro %\n- 40",
+        "MonsterDyeMap": "Ghilly(Lv 53)\nMaia Diela",
+        "Processing": "Sell\n25\nSpina\nProcess\n12 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Specistida[Special]",
+        "StatEffect_Amount": "Base DEF\n15\nMax HP %\n5\nPhysical Pierce %\n5\nAggro %\n- 5",
+        "MonsterDyeMap": "Juvestida(Lv 186)\nNov Diela Area 1Juvestida(Lv 187)\nNov Diela Area 2Juvestida(Lv 188)\nNov Diela Area \n3",
+        "Processing": "Sell\n95\nSpina\nProcess\n47 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Stamina Talisman IV[Special]",
+        "StatEffect_Amount": "VIT\n8\nMax MP\n500",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "750\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Twin Head Dragon Tail\n- 20x Iron Carapace\n- 300x Cloth\n- 75x Wood"
+    },
+    {
+        "Name": "Anniv Festive Bangle III[Special]",
+        "StatEffect_Amount": "Base DEF\n3\nMax MP\n600\nCritical Rate\n10",
+        "MonsterDyeMap": "Anniv Equipment Box VI\n-",
+        "Processing": "Sell\n112\nSpina\nProcess\n56 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Inverted Tree Crest[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP %\n- 15\nMax MP\n200\nDark resistance %\n20\nAttack MP Recovery\n2\nShield only:Aggro %\n25",
+        "MonsterDyeMap": "Gegner(Lv 210)\nTower of Clamor: Rooftop",
+        "Processing": "Sell\n125\nSpina\nProcess\n62 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Green Pearl Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n30\nSTR %\n1\nINT %\n1\nAGI %\n1\nDEX %\n1\nMax MP\n500\nCritical Rate\n10\nWeapon ATK %\n5",
+        "MonsterDyeMap": "Water City Jewel Box\n-",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Additional Magic Book[Special]",
+        "StatEffect_Amount": "Max MP\n300\nCSPD %\n3\nAdditional Magic %\n30",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Warrior's Bangle[Special]",
+        "StatEffect_Amount": "Max HP\n200\nAttack MP Recovery\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n10\nSpina\nProcess\n11 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 5x Small Article\n- 40x Metal\n- 10x Beast"
+    },
+    {
+        "Name": "Anniv Festive Ring[Special]",
+        "StatEffect_Amount": "Base DEF\n1\nMax MP\n400\nLong Range Damage %\n1",
+        "MonsterDyeMap": "Anniv Equipment Box II\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magic Talisman V[Special]",
+        "StatEffect_Amount": "INT\n10\nMax MP\n600",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n101\nSpina\nProcess\n51 Wood",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n193\nDifficulty\n0\nMaterials\n- 1x Corroded Mushroom Cap\n- 2x Shining Mirror\n- 500x Cloth\n- 100x Wood"
+    },
+    {
+        "Name": "Broken Watch[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nPhysical Resistance %\n- 6\nMagic Resistance %\n- 6\nASPD\n100",
+        "MonsterDyeMap": "Cursed Clock(Lv 71)\nMagic Waste Site: Area 2Cursed Clock(Lv 71)\nMagic Waste Site: Area 3Dirty Antique\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sea Fog Compass[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax HP\n10000\nCSPD\n1000\nAilment Resistance %\n- 50\nAggro %\n- 25",
+        "MonsterDyeMap": "Sea Ghost Wooden Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bear Warrior Obi[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nCritical Rate\n15\nShort Range Damage %\n2\nKnuckle only:Motion Speed %\n52\n-Handed Sword only:Critical Rate\n15",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Glory Ring (Indirect)[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n500\nAggro %\n- 10\nLong Range Damage %\n1",
+        "MonsterDyeMap": "[Orb Shop]Glory Ring Case Sofya City: Government Office",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Handless Watch[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nPhysical Resistance %\n- 3\nMagic Resistance %\n- 3\nASPD\n10",
+        "MonsterDyeMap": "Cursed Clock(Lv 71)\nMagic Waste Site: Area 2Cursed Clock(Lv 71)\nMagic Waste Site: Area 3Dirty Antique\n-",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dark Shaman Talisman[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n800\nCSPD\n200\nAggro %\n- 50",
+        "MonsterDyeMap": "Sibylares (Very Hard)\n(Lv 250)\nPhasma Forest: Area \n3",
+        "Processing": "Sell\n122\nSpina\nProcess\n61 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magician's Ring[Special]",
+        "StatEffect_Amount": "Max MP\n1000\nATK %\n- 25\nMATK %\n- 25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "777\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 99x Pebble"
+    },
+    {
+        "Name": "Pico Cream Ring[Special]",
+        "StatEffect_Amount": "Base DEF\n0\nMax MP\n600\nEvasion Recharge %\n10",
+        "MonsterDyeMap": "Pico(Lv 125)\nCreme Cliff (Valentine's Day Event)",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Steel Ring (Power)[Special]",
+        "StatEffect_Amount": "Base DEF\n100\nMax HP\n1500\nMax MP\n300\nATK %\n5\nAggro %\n- 10",
+        "MonsterDyeMap": "Vintage Iron Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "8_poc",
+  "version": "1.0.0",
+  "description": "The unofficial mirror of Coryn Club, since Coryn Club can't handle too much bandwidth.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cope, Seethe, Mald, Whatever this is"
+  ],
+  "author": "frozenproof, BITCH, YOU THINK I DIDNT WRITE THIS?",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "ejs": "^3.1.10",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  }
+}

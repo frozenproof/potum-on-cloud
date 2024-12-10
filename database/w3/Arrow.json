@@ -1,0 +1,548 @@
+[
+    {
+        "Name": "Flash Volt[Arrow]",
+        "StatEffect_Amount": "Base ATK\n3\nAccuracy\n10\n% stronger against Light\n- 50\nLight Element\n1\nBase Stability %\n15\nBowgun only:Critical Rate\n10",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n120\nAccuracy %\n15\nAggro %\n- 15\nFire Element\n1\nBase Stability %\n10",
+        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)\nNeo Plastida Venena Metacoenubia(Lv 195)\nNeo Plastida Venena Metacoenubia(Lv 205)\nNeo Plastida Venena Metacoenubia(Lv 215)\nNeo Plastida Venena Metacoenubia(Lv 235)\nNeo Plastida",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Aquamirror Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n37\nCSPD\n100\nWater Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Starhammer Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n187\nAccuracy %\n- 10\nCritical Rate\n20\nLight Element\n1\nBase Stability %\n10",
+        "MonsterDyeMap": "Spectern(Lv 226)\nDeusania's Lab",
+        "Processing": "Sell\n245\nSpina\nProcess\n122 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Crystal Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n70\nAggro %\n- 20\nWeapon ATK\n10\nBase Stability %\n20",
+        "MonsterDyeMap": "Aeternus(Lv 130)\nBarbaros Corridor",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spiky Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n79\nMagic Resistance %\n5\nDark Element\n1\nBase Stability %\n20\nReduce Dmg (Floor)\n %\n5",
+        "MonsterDyeMap": "Ivy(Lv 150)\nDark Dragon Shrine: Lower Ivy(Lv 151)\nDark Dragon Shrine: Middle Ivy(Lv 152)\nDark Dragon Shrine: Upper",
+        "Processing": "Sell\n140\nSpina\nProcess\n70 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cacao Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n50\nCritical Rate\n3\nAggro %\n- 6\nEarth Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": "40\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 9x Chocolate Chip\n- 3x Mysterious Cacao\n- 40x Wood"
+    },
+    {
+        "Name": "Apple Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n92\nAggro %\n- 10\nWind Element\n1\nBase Stability %\n15",
+        "MonsterDyeMap": "Coryn(Lv 154)\nDikkit Sector Coryn(Lv 156)\nDikkit Sector",
+        "Processing": "Sell\n155\nSpina\nProcess\n77 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kijimu's Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n106\nMagic Pierce %\n10\nMagic Barrier\n1000",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Kijimu(Lv 124)\nCreme Cliff (Valentine's Day Event)",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dry Water Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n206\nMax HP %\n15\nAggro %\n30\nWater Element\n1\nBase Stability %\n10",
+        "MonsterDyeMap": "Coofer(Lv 255)\nUmidus Valley: Area 1Coofer(Lv 256)\nUmidus Valley: Area 2Coofer(Lv 257)\nUmidus Valley: Cliff Path",
+        "Processing": "Sell\n260\nSpina\nProcess\n130 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Wind Slash Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n10\nDEX\n1\nPhysical Pierce %\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 6x Wind Slash Feather\n- 3x Thick Black Cloth\n- 50x Wood"
+    },
+    {
+        "Name": "Lil Empress Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n83\nPhysical Pierce %\n10\nDEF %\n- 30\nASPD %\n10\nAggro %\n- 10\nBase Stability %\n15",
+        "MonsterDyeMap": "Venena Coenubia(Lv 140)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 150)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 160)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 170)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 190)\nUltimea Palace: Throne",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Caravan Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n2\nAccuracy\n2\nBase Stability %\n15",
+        "MonsterDyeMap": "Cursed Clock(Lv 71)\nMagic Waste Site: Area 2Cursed Clock(Lv 71)\nMagic Waste Site: Area 3Dirty Antique\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Blade Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n22\nCritical Rate\n3\nCritical Damage\n1\nBase Stability %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Metal",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Roost\n- 5x Broken Woodsman Axe\n- 125x Wood"
+    },
+    {
+        "Name": "Split Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n40\nAttack MP Recovery\n1\nBase Stability %\n20\nBow only:Additional Melee %\n100",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Caravan Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n2\nAccuracy\n2\nBase Stability %\n15",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anniv Festive Arrow IV[Arrow]",
+        "StatEffect_Amount": "Base ATK\n194\nASPD\n400\nAggro %\n- 16\nBase Stability %\n20\nFractional Barrier %\n10",
+        "MonsterDyeMap": "Anniv Equipment Box VII\n-",
+        "Processing": "Sell\n250\nSpina\nProcess\n125 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ceramic Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n22\nEarth Element\n1\nBase Stability %\n10",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n25\nSpina\nProcess\n12 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Iron Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n24\nWeapon ATK %\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Metal",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Roost\n- 5x Huge Iron Ball\n- 125x Wood"
+    },
+    {
+        "Name": "Hunter's Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n13\nLong Range Damage %\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Beak(Lv 32)\nScaro Town: Area 1Beak(Lv 33)\nScaro Town: Area \n2",
+        "Processing": "Sell\n30\nSpina\nProcess\n15 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Love Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n71\nCritical Rate\n5\nFire Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": "130\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 9x Prime Chocolate Chip\n- 3x Love Cacao\n- 130x Wood"
+    },
+    {
+        "Name": "Driver Bolt[Arrow]",
+        "StatEffect_Amount": "Base ATK\n200\nAccuracy %\n- 75\nAttack MP Recovery\n1\nNeutral Resistance %\n5\nBase Stability %\n20",
+        "MonsterDyeMap": "Inspector Golem(Lv 122)\nJoulu House: Depot (Lv 100)",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hunter's Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n13\nAccuracy %\n1\nLong Range Damage %\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n30\nSpina\nProcess\n15 Wood",
+        "Recipes": "150\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 5x Hard Fur\n- 30x Sharp Fang\n- 75x Metal"
+    },
+    {
+        "Name": "Sakura Princess Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n88\nMax HP\n1000\nBase Stability %\n20",
+        "MonsterDyeMap": "Mimesia (Easy)\n(Lv 120)\nSakura Castle Donjon: Top Mimesia (Normal)\n(Lv 140)\nSakura Castle Donjon: Top Mimesia (Hard)\n(Lv 160)\nSakura Castle Donjon: Top",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pointed Ore Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n43\nDEF\n50\nPhysical Resistance %\n3\nAccuracy %\n- 1\nEarth Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Cavern Rat(Lv 99)\nSingolare Ruins: 1st Floor",
+        "Processing": "Sell\n90\nSpina\nProcess\n45 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Twilight Sakura Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n100\nLight resistance %\n5\nDark Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Amalgam(Lv 140)\nTwilight Sakura Castle: Top Amalgam(Lv 160)\nTwilight Sakura Castle: Top Amalgam(Lv 180)\nTwilight Sakura Castle: Top",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mushroom Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n20\nAccuracy\n- 10\nAggro %\n5\nAttack MP Recovery\n2\nBase Stability %\n1",
+        "MonsterDyeMap": "Kinote(Lv 27)\nNehelo Swamp",
+        "Processing": "Sell\n10\nSpina\nProcess\n2 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hardwood Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n6\nBase Stability %\n20",
+        "MonsterDyeMap": "Pomum(Lv 7)\nReug Salt Plains: Wanderers Camp Pomum(Lv 7)\nA\n55\nReug Salt Plains: Wanderers Camp",
+        "Processing": "Sell\n10\nSpina\nProcess\n5 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Artisan Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n30\nMax MP\n100\nMotion Speed %\n1\nBase Stability %\n24",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n60\nSpina\nProcess\n30 Wood",
+        "Recipes": "300\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Soft Twig\n- 12x Scorpion Tail\n- 1x Frog Ointment\n- 150x Wood"
+    },
+    {
+        "Name": "Anniv Festive Arrow III[Arrow]",
+        "StatEffect_Amount": "Base ATK\n146\nASPD\n300\nAggro %\n- 14\nBase Stability %\n20\nFractional Barrier %\n10",
+        "MonsterDyeMap": "Anniv Equipment Box V\n-",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dragon Palace Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n200\nMax HP %\n25\nCritical Rate %\n25\nWater Element\n1\n% stronger against Neutral\n- 25\nBase Stability %\n20\nStun Unavailable\n1",
+        "MonsterDyeMap": "Sea Ghost Wooden Box\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Elven Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n96\nAccuracy %\n20\nBase Stability %\n20\nAnticipate %\n10",
+        "MonsterDyeMap": "Lazulligator(Lv 160)\nOld Lufenas Mansion Ruins Lazulligator(Lv 163)\nOld Lufenas Mansion Ruins",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Driver Bolt[Arrow]",
+        "StatEffect_Amount": "Base ATK\n200\nAccuracy %\n- 50\nAttack MP Recovery\n2\nNeutral Resistance %\n10\nBase Stability %\n20",
+        "MonsterDyeMap": "Inspector Golem(Lv 143)\nJoulu House: Depot (Lv 130)",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Tempest Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n15\nAccuracy %\n10\nCritical Damage %\n1\nWind Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Forestia(Lv 49)\nLand Of Chaos Forestia(Lv 39)\nLand Of Chaos Forestia(Lv 59)\nLand Of Chaos Forestia(Lv 69)\nLand Of Chaos Forestia(Lv 89)\nLand Of Chaos",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Holy Tree Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n100\nDark resistance %\n10\nLight Element\n1\nAttack MP Recovery\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Santaby(Lv 159)\nTomte Pavillion (150 - 170)",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Arrow of Penetration[Arrow]",
+        "StatEffect_Amount": "Base ATK\n64\nCritical Rate\n5\nCritical Damage\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Pond Snake(Lv 115)\nCopia Reservoir",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shooting Star Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n58\nStability %\n- 50\nCritical Rate\n25\nBase Stability %\n1\nBowgun only:ASPD\n250",
+        "MonsterDyeMap": "Nurethoth(Lv 76)\nGate to Another World: Front Nurethoth(Lv 66)\nGate to Another World: Front Nurethoth(Lv 86)\nGate to Another World: Front Nurethoth(Lv 96)\nGate to Another World: Front Nurethoth(Lv 116)\nGate to Another World: Front",
+        "Processing": "Sell\n60\nSpina\nProcess\n30 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Treat Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n77\nATK %\n1\nCritical Rate %\n1\nAggro %\n- 1\nBase Stability %\n30",
+        "MonsterDyeMap": "Zarth(Lv 175)\nZarth's Mansion: Back",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Thin Sharp Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n12\nASPD\n30\nAttack MP Recovery\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Wood",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Roost\n- 5x Sand Crystal\n- 125x Wood"
+    },
+    {
+        "Name": "Bat Fang Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n136\nPhysical Pierce %\n10\nAccuracy\n- 20\nCritical Rate\n10\nWind Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Kuffa(Lv 181)\nRisus Valley: Area 2Kuffa(Lv 180)\nRisus Valley: Area 1Kuffa(Lv 182)\nRisus Valley: Area \n3",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "High-Quality Wood Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n18\nDEX\n2\nMax MP\n50\nAccuracy %\n4\nBase Stability %\n20",
+        "MonsterDyeMap": "Arborgon(Lv 39)\nHarde Hill",
+        "Processing": "Sell\n40\nSpina\nProcess\n20 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Candy Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n56\nMDEF %\n10\nMagic Resistance %\n10\nLight Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Medicine",
+        "Recipes": "40\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 9x Candy Fragment\n- 3x Mysterious Fruit\n- 40x Mana"
+    },
+    {
+        "Name": "Dreamy Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n136\nNatural HP Regen %\n10\nAggro %\n- 20\n% stronger against Neutral\n5\nBase Stability %\n20",
+        "MonsterDyeMap": "Dreamy Scarlet Sakura (Nightmare)\n(Lv 220)\nLush Falls : Upstream",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Eumano Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n226\nCritical Rate\n5\nEarth Element\n1\nLong Range Damage %\n1\nMotion Speed %\n3\nBase Stability %\n25",
+        "MonsterDyeMap": "Deformis(Lv 264)\nEumano Village Ruins: Central Deformis(Lv 274)\nEumano Village Ruins: Central Deformis(Lv 284)\nEumano Village Ruins: Central Deformis(Lv 294)\nEumano Village Ruins: Central Deformis(Lv 314)\nEumano Village Ruins: Central",
+        "Processing": "Sell\n275\nSpina\nProcess\n137 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Blazing Tail Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n152\nFire resistance %\n10\nFire Element\n1\nBase Stability %\n20\nReduce Dmg (Bowling)\n %\n20",
+        "MonsterDyeMap": "Tailgon(Lv 213)\nTunnel of Trials Tailgon(Lv 216)\nTunnel of Trials",
+        "Processing": "Sell\n215\nSpina\nProcess\n107 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Heavy Bolt[Arrow]",
+        "StatEffect_Amount": "Base ATK\n32\nPhysical Pierce %\n3\nAccuracy %\n- 25\nBase Stability %\n20\nBowgun only:Weapon ATK\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Wood",
+        "Recipes": "350\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 35x Old Wood\n- 35x Fractured Rock\n- 100x Wood\n- 75x Metal"
+    },
+    {
+        "Name": "Flame Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n34\nMax MP\n100\nFire Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Sunion(Lv 73)\nDark Mirror Sunion(Lv 76)\nDark Mirror",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magic Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n3\nBase Stability %\n30\nBow only:Accuracy\n100\nCritical Damage\n- 10\n% stronger against Neutral\n1",
+        "MonsterDyeMap": "Cursed Clock(Lv 71)\nMagic Waste Site: Area 2Cursed Clock(Lv 71)\nMagic Waste Site: Area 3Dirty Antique\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sunny Spring Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n181\nPhysical Pierce %\n5\nMagic Pierce %\n5\nLight Element\n1\nBase Stability %\n20\nGuard Break %\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n240\nSpina\nProcess\n120 Mana",
+        "Recipes": "5000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Cherry Pink Certificate\n- 300x Wood\n- 100x Mana"
+    },
+    {
+        "Name": "Anniv Festive Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n50\nASPD\n100\nAggro %\n- 10\nBase Stability %\n20\nFractional Barrier %\n10",
+        "MonsterDyeMap": "Anniv Equipment Box I\n-",
+        "Processing": "Sell\n100\nSpina\nProcess\n50 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Fire Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n5\nFire Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": "150\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 2x Minotaur Horn\n- 10x Twinkle Stone\n- 100x Metal\n- 50x Mana"
+    },
+    {
+        "Name": "Quartz Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n115\nCritical Rate\n10\nBase Stability %\n20",
+        "MonsterDyeMap": "Rollitida(Lv 191)\nFugitive Lake Swamp: Area 2Rollitida(Lv 193)\nFugitive Lake Swamp: Area \n3",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Queen Bee Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n150\nWater resistance %\n5\nWind Element\n1\nBase Stability %\n20\nTumble Unavailable\n1\nAdditional Melee %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Medicine",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 4x Royal Jelly\n- 2x Gold Flower\n- 500x Medicine\n- 500x Mana"
+    },
+    {
+        "Name": "Serein Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n84\nBase Stability %\n20\nTumble Unavailable\n1\nAbsolute Accuracy %\n1\nBowgun,Bow only:Water Element\n1",
+        "MonsterDyeMap": "Floragonet(Lv 159)\nFractum Sector: Area 1Floragonet(Lv 160)\nFractum Sector: Area \n2",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Specter Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n120\nDark Element\n1\nBase Stability %\n20\nAdditional Magic %\n50\nInvincible Aid (sec)\n1",
+        "MonsterDyeMap": "Manomare(Lv 169)\nPhasma Forest: Area 1Manomare(Lv 170)\nPhasma Forest: Area 2Manomare(Lv 171)\nPhasma Forest: Area 3Manomare(Lv 172)\nPhasma Forest: Area \n3",
+        "Processing": "Sell\n185\nSpina\nProcess\n92 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Devil's Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n130\nPhysical Pierce %\n8\nShort Range Damage %\n2\nBase Stability %\n20\nAnticipate %\n4",
+        "MonsterDyeMap": "Skullpion(Lv 198)\nVulcani Underground Passage Skullpion(Lv 200)\nVulcani Underground Passage",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Drill Bolt[Arrow]",
+        "StatEffect_Amount": "Base ATK\n120\nPhysical Pierce %\n10\nCritical Damage\n2\nAggro %\n20\nBase Stability %\n10",
+        "MonsterDyeMap": "Mine Digger(Lv 113)\nUltimea Sewer: South",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lovely Autumn Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n142\nMax HP\n2000\nWeapon ATK %\n10\nBase Stability %\n20\nGuard Break %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "3200\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Fallen in Fall\n- 40x Withered Leaf\n- 20x Quake Sound\n- 2x Amethyst Flower"
+    },
+    {
+        "Name": "Hardwood Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n6\nCritical Rate\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n10\nSpina\nProcess\n5 Wood",
+        "Recipes": "50\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Animal Claw\n- 25x Wood"
+    },
+    {
+        "Name": "Tempest Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n15\nCritical Damage %\n1\nWind Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Wood",
+        "Recipes": "175\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Green Dragon Claw\n- 20x Sweet\n-smelling Wood\n- 125x Wood\n- 50x Mana"
+    },
+    {
+        "Name": "Dragon Guard Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n187\nCritical Rate\n10\nEarth resistance %\n- 5\nFire Element\n1\nAttack MP Recovery\n3\nBase Stability %\n20",
+        "MonsterDyeMap": "Guard Golem (Megiston 2022)\n(Lv 250)\nEvent",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Chimera Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n67\nMax HP %\n- 9\nMax MP\n300\nCritical Rate\n6\nBase Stability %\n20",
+        "MonsterDyeMap": "Mozto Machina(Lv 114)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 124)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 134)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 144)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 164)\nLarge Demi Machina Factory: Deepest Part",
+        "Processing": "Sell\n125\nSpina\nProcess\n62 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Mithril Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n32\nCritical Rate %\n1\nLong Range Damage %\n1\nBase Stability %\n20\nBow only:Critical Damage\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Mithril\n- 1x Mithril Ore\n- 90x Metal\n- 85x Mana"
+    },
+    {
+        "Name": "Sharp Wood Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n40\nAccuracy\n6\nCritical Damage\n3\nBase Stability %\n20",
+        "MonsterDyeMap": "Maple Fox(Lv 91)\nNavida City: Crossroad (80 - 100)\nMaple Fox(Lv 91)\nNavida City: East (80 - 100)",
+        "Processing": "Sell\n85\nSpina\nProcess\n42 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anniv Festive Arrow II[Arrow]",
+        "StatEffect_Amount": "Base ATK\n101\nASPD\n200\nAggro %\n- 12\nBase Stability %\n20\nFractional Barrier %\n10",
+        "MonsterDyeMap": "Anniv Equipment Box III\n-",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ocean Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n110\nMax MP\n200\nWind resistance %\n- 3\nWater Element\n1\nAttack MP Recovery\n1\nBase Stability %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Deep\n-Sea Coral\n- 1x Sea Current Crystal\n- 150x Metal\n- 150x Mana"
+    },
+    {
+        "Name": "Ice Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n17\nCritical Rate\n2\nWater Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n40\nSpina\nProcess\n20 Mana",
+        "Recipes": "200\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Crystal of Flowing Water\n- 10x Wet Wood\n- 50x Wood\n- 50x Mana"
+    },
+    {
+        "Name": "Joyful Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n100\nMax MP\n100\nLight Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Crestollar(Lv 253)\nLatum Wetlands Crestollar(Lv 256)\nLatum Wetlands",
+        "Processing": "Sell\n250\nSpina\nProcess\n125 Cloth",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pearl Sakura Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n160\nMax MP\n200\nCritical Rate\n10\nBase Stability %\n20\nBow only:Long Range Damage %\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessWood",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Fine Sake (Pearl Sakura)\n- 1x Sinister Origami\n- 1x Torn Paper Crane\n- 180x Wood"
+    },
+    {
+        "Name": "Spiny Leaf Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n110\nMax HP %\n10\nAggro %\n10\nEarth Element\n1\nBase Stability %\n20\nFractional Barrier %\n10",
+        "MonsterDyeMap": "Ghilly(Lv 182)\nSable Plains",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Wooden Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n4\nBase Stability %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "5\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Woodchip\n- 3x Wood"
+    },
+    {
+        "Name": "Evil Beast Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n100\nBase Stability %\n20\nBow only:Attack MP Recovery\n3\nShort Range Damage %\n- 10",
+        "MonsterDyeMap": "Memecoleous(Lv 100)\nDark Castle: Area 2Memecoleous(Lv 90)\nDark Castle: Area 2Memecoleous(Lv 110)\nDark Castle: Area 2Memecoleous(Lv 120)\nDark Castle: Area 2Memecoleous(Lv 140)\nDark Castle: Area \n2",
+        "Processing": "Sell\n100\nSpina\nProcess\n50 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Driver Bolt[Arrow]",
+        "StatEffect_Amount": "Base ATK\n200\nAccuracy %\n- 25\nAttack MP Recovery\n3\nNeutral Resistance %\n15\nBase Stability %\n20",
+        "MonsterDyeMap": "Inspector Golem(Lv 164)\nJoulu House: Depot (Lv 150)",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Poison Needle[Arrow]",
+        "StatEffect_Amount": "Base ATK\n106\nAilment Resistance %\n- 3\nShort Range Damage %\n11\n-Handed Sword only:Critical Rate\n15",
+        "MonsterDyeMap": "Weltacle(Lv 168)\nRecetacula Sector: Area 1Weltacle(Lv 170)\nRecetacula Sector: Area \n3",
+        "Processing": "Sell\n170\nSpina\nProcess\n85 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Spiral Shell Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n163\nPhysical Pierce %\n10\nBase Stability %\n20\nAnticipate %\n10",
+        "MonsterDyeMap": "Spirulida(Lv 243)\nDeep Sea: Zone 1Spirulida(Lv 244)\nDeep Sea: Zone 2Spirulida(Lv 245)\nDeep Sea: Zone \n3",
+        "Processing": "Sell\n225\nSpina\nProcess\n112 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Evil Gaze Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n190\nAccuracy %\n30\nWind resistance %\n10\nDark Element\n1",
+        "MonsterDyeMap": "Corey(Lv 232)\nTower of Clamor: Area 1 (230 - 234)\nCorey(Lv 233)\nTower of Clamor: Area 2 (230 - 234)\nCorey(Lv 234)\nTower of Clamor: Area 3 (230 - 234)",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Twilight Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n40\nMax HP %\n- 10\nAilment Resistance %\n5\nDark Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Twilight Dragon(Lv 100)\nFort Solfini: Roof Twilight Dragon(Lv 90)\nFort Solfini: Roof Twilight Dragon(Lv 110)\nFort Solfini: Roof Twilight Dragon(Lv 120)\nFort Solfini: Roof Twilight Dragon(Lv 140)\nFort Solfini: Roof",
+        "Processing": "Sell\n90\nSpina\nProcess\n45 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Guardian Forest Arrow[Arrow]",
+        "StatEffect_Amount": "Base ATK\n163\nAccuracy %\n50\n% stronger against Fire\n- 10\n% stronger against Light\n- 20\nAggro %\n- 25\nEarth Element\n1\nBase Stability %\n20",
+        "MonsterDyeMap": "Arbogazella(Lv 236)\nGuardian Forest: Lost Woods",
+        "Processing": "Sell\n225\nSpina\nProcess\n112 Mana",
+        "Recipes": ""
+    }
+]

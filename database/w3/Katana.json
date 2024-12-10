@@ -1,0 +1,1969 @@
+[
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n141\nATK %\n8\nPhysical Resistance %\n15\nMagic Resistance %\n15\nEarth resistance %\n30\nAilment Resistance %\n10\nFire Element\n1\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n30",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n220\nBase Stability %\n70\nPotential\n59",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shirogane[Katana]",
+        "StatEffect_Amount": "Base ATK\n125\nBase Stability %\n70\nPotential\n45",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n190\nSpina\nProcess\n95 Metal",
+        "Recipes": "950\n Spina Set\n1\n pcs Level\n185\nDifficulty\n190\nMaterials\n- 5x Rhyolite\n- 25x Geometric Outer Shell\n- 275x Metal\n- 200x Wood"
+    },
+    {
+        "Name": "3rd Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nDEX %\n5\nCritical Rate\n10\nShort Range Damage %\n5\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcess55 Metal",
+        "Recipes": "3000\n Spina Set\n1\n pcs Level\n95\nDifficulty\n125\nMaterials\n- 20x Bropom 3rd Anniv Medal\n- 150x Metal"
+    },
+    {
+        "Name": "5th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nDEX %\n7\nPhysical Pierce %\n15\nCritical Rate\n24\nShort Range Damage %\n7\nBase Stability %\n70\nUnsheathe Attack %\n12\nReduce Dmg (Bowling)\n %\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "320\n Spina Set\n1\n pcs Level\n160\nDifficulty\n185\nMaterials\n- 20x Bropom 5th Anniv Medal"
+    },
+    {
+        "Name": "Seadevil Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nMax MP\n400\nATK %\n6\nFire resistance %\n20\nAggro %\n- 25\nWater Element\n1\nAttack MP Recovery\n10\nBase Stability %\n70",
+        "MonsterDyeMap": "Adaro(Lv 160)\nUnderwater Ruins: Deepest Adaro(Lv 170)\nUnderwater Ruins: Deepest Adaro(Lv 180)\nUnderwater Ruins: Deepest Adaro(Lv 190)\nUnderwater Ruins: Deepest Adaro(Lv 210)\nUnderwater Ruins: Deepest",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nDEX %\n2\nCritical Rate\n4\nShort Range Damage %\n2\nBase Stability %\n70\nUnsheathe Attack %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Metal",
+        "Recipes": "10\n Spina Set\n1\n pcs Level\n25\nDifficulty\n50\nMaterials\n- 10x Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "6th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n70\nPotential\n39",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n130\nDifficulty\n175\nMaterials\n- 20x Gold 6th Anniv Medal\n- 175x Metal"
+    },
+    {
+        "Name": "4th Anniv Katana IX[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nDEX %\n7\nPhysical Pierce %\n16\nCritical Rate\n18\nShort Range Damage %\n7\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "700\n Spina Set\n1\n pcs Level\n160\nDifficulty\n185\nMaterials\n- 20x Golpom 4th Anniv Medal\n- 350x Metal"
+    },
+    {
+        "Name": "Mortal Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n115\nATK %\n7\nCritical Rate\n50\nWind Element\n1\nBase Stability %\n70\nGuard Break %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Metal",
+        "Recipes": "1800\n Spina Set\n1\n pcs Level\n175\nDifficulty\n180\nMaterials\n- 1x Gravicep Accessory Chip\n- 2x Gravicep Huge Arm\n- 1400x Metal\n- 400x Mana"
+    },
+    {
+        "Name": "Adamantine Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n96\nVIT %\n10\nCritical Damage\n5\nLight Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n6",
+        "MonsterDyeMap": "Corphibi(Lv 172)\nDeltzon Research Zone: Area 1Corphibi(Lv 173)\nDeltzon Research Zone: Area 2Corphibi(Lv 174)\nDeltzon Research Zone: Area \n3",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Tatetsuba[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nBase Stability %\n70\nUnsheathe Attack %\n15",
+        "MonsterDyeMap": "Bone Dragonewt(Lv 45)\nAncient Empress Tomb: Area 1Bone Dragonewt(Lv 46)\nAncient Empress Tomb: Area 1Bone Dragonewt(Lv 46)\nAncient Empress Tomb: Area \n2",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n40\nDEX %\n4\nCritical Rate\n30\nShort Range Damage %\n4\nBase Stability %\n70\nUnsheathe Attack %\n8\nGuard Break %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box VI\n-",
+        "Processing": "Sell\n85\nSpina\nProcess\n42 Metal",
+        "Recipes": "170\n Spina Set\n1\n pcs Level\n1\nDifficulty\n110\nMaterials\n- 20x Bronze 6th Anniv Medal\n- 110x Metal"
+    },
+    {
+        "Name": "5th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n96\nBase Stability %\n70\nPotential\n41",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": "290\n Spina Set\n1\n pcs Level\n145\nDifficulty\n170\nMaterials\n- 20x Pom 5th Anniv Medal"
+    },
+    {
+        "Name": "Modestia[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nASPD\n1000\nCritical Rate\n120\nAttack MP Recovery\n15\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2023)\nEvent",
+        "Processing": "Sell\n1\nSpina\nProcess\n1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sacred Ice Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n92\nATK %\n6\nASPD %\n120\n% stronger against Light\n- 25\n% stronger against Dark\n10\nAilment Resistance %\n5\nWater Element\n1\nBase Stability %\n75\nATK UP (AGI %)\n100",
+        "MonsterDyeMap": "Noeliel the Ice Statue(Lv 141)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue (raid)\n(Lv 182)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue (raid)\n(Lv 172)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue (raid)\n(Lv 162)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue (raid)\n(Lv 152)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue(Lv 191)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue(Lv 171)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue(Lv 161)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue(Lv 151)\nNoeliel Castle: Hall (120 - 140)\nNoeliel the Ice Statue (raid)\n(Lv 202)\nNoeliel Castle: Hall (120 - 140)",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nDEX %\n7\nCritical Rate\n30\nShort Range Damage %\n7\nBase Stability %\n70\nUnsheathe Attack %\n14\nGuard Break %\n15\nReduce Dmg (Bowling)\n %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n160\nDifficulty\n200\nMaterials\n- 20x Bropom 6th Anniv Medal\n- 200x Metal"
+    },
+    {
+        "Name": "Orion's Sword (Snowball Event 2021)[Katana]",
+        "StatEffect_Amount": "Base ATK\n108\nDodge\n- 50\nCritical Rate\n100\nLight resistance %\n- 30\n% stronger against Neutral\n30\nBase Stability %\n70\nAnticipate %\n15",
+        "MonsterDyeMap": "Snowball Event NPCSnowball Mini Game Venue",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "5th Anniv Katana VII[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n70\nPotential\n46",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": "370\n Spina Set\n1\n pcs Level\n185\nDifficulty\n210\nMaterials\n- 20x Golpom 5th Anniv Medal"
+    },
+    {
+        "Name": "8th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n169\nDEX %\n9\nMax MP\n230\nATK %\n9\nCritical Rate\n35\nBase Stability %\n70\nUnsheathe Attack %\n9\nReduce Dmg (Bowling)\n %\n35\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n230\nSpina\nProcess\n115 Metal",
+        "Recipes": "440\n Spina Set\n1\n pcs Level\n210\nDifficulty\n240\nMaterials\n- 20x Silpom 8th Anniv Medal\n- 240x Metal"
+    },
+    {
+        "Name": "Raiden[Katana]",
+        "StatEffect_Amount": "Base ATK\n198\nASPD\n1000\nCSPD %\n75\nWater resistance %\n- 30\nWind Element\n1\nAttack MP Recovery\n25\nBase Stability %\n80\nLight Armor only:Unsheathe Attack %\n10",
+        "MonsterDyeMap": "Bemoz(Lv 275)\nDeusania's Lab Innermost Chambers",
+        "Processing": "Sell\n275\nSpina\nProcess\n137 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana IX[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nBase Stability %\n70\nPotential\n43",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "700\n Spina Set\n1\n pcs Level\n160\nDifficulty\n185\nMaterials\n- 20x Golpom 4th Anniv Medal\n- 350x Metal"
+    },
+    {
+        "Name": "9th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n169\nBase Stability %\n70\nPotential\n52",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n169\nDEX %\n9\nATK %\n9\nPhysical Pierce %\n19\nCSPD\n960\nCritical Rate\n40\nBase Stability %\n70\nATK UP (AGI %)\n250\nReduce Dmg (Bowling)\n %\n40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n141\nATK %\n8\nWind resistance %\n5\nAggro %\n- 10\nEarth Element\n1\nAttack MP Recovery\n10\nShort Range Damage %\n2\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nDEX %\n7\nATK %\n7\nPhysical Pierce %\n13\nCSPD\n720\nCritical Rate\n40\nBase Stability %\n70\nATK UP (AGI %)\n250\nReduce Dmg (Bowling)\n %\n40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Minotaur's Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n15\nBase Stability %\n70\nPotential\n20",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Beast",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n30\nDifficulty\n35\nMaterials\n- 1x Minotaur Horn\n- 3x Minotaur Skin\n- 200x Beast\n- 150x Metal"
+    },
+    {
+        "Name": "Mafu Swordstick[Katana]",
+        "StatEffect_Amount": "Base ATK\n46\nBase Stability %\n70\nPotential\n30",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "950\n Spina Set\n1\n pcs Level\n90\nDifficulty\n95\nMaterials\n- 6x Broken Swordstick\n- 2x Windblast Gemstone\n- 800x Metal\n- 150x Mana"
+    },
+    {
+        "Name": "Blue Spinel Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nBase Stability %\n70\nPotential\n49\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": "1050\n Spina Set\n1\n pcs Level\n205\nDifficulty\n210\nMaterials\n- 10x Growing Ore\n- 5x Old Rock\n- 350x Metal\n- 175x Medicine"
+    },
+    {
+        "Name": "Purple Lightning Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n136\nATK %\n8\nAccuracy\n80\nCritical Rate\n40\nWind Element\n1\nBase Stability %\n70\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n200\nSpina\nProcess\n100 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n195\nDifficulty\n200\nMaterials\n- 20x Solid Fuel\n- 20x Pure White Feather\n- 450x Metal\n- 50x Mana"
+    },
+    {
+        "Name": "Mafu Swordstick[Katana]",
+        "StatEffect_Amount": "Base ATK\n46\nDodge\n30\nEvasion Recharge %\n10\nWind Element\n1\nBase Stability %\n70\nAnticipate %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "950\n Spina Set\n1\n pcs Level\n90\nDifficulty\n95\nMaterials\n- 6x Broken Swordstick\n- 2x Windblast Gemstone\n- 800x Metal\n- 150x Mana"
+    },
+    {
+        "Name": "Aobato[Katana]",
+        "StatEffect_Amount": "Base ATK\n10\nASPD\n75\nWind Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "Beak(Lv 11)\nRuined Temple Town Beak(Lv 12)\nRuined Temple Town Beak(Lv 18)\nRuined Temple: Area 1Beak(Lv 19)\nRuined Temple: Area \n1",
+        "Processing": "Sell\n20\nSpina\nProcess\n10 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kuro Momiji[Katana]",
+        "StatEffect_Amount": "Base ATK\n43\nStability %\n5\nASPD\n400\nFire Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "450\n Spina Set\n1\n pcs Level\n85\nDifficulty\n90\nMaterials\n- 5x Scorching Grass\n- 5x Evil Blade\n- 200x Metal\n- 25x Wood"
+    },
+    {
+        "Name": "8th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nBase Stability %\n70\nPotential\n49\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": "400\n Spina Set\n1\n pcs Level\n190\nDifficulty\n220\nMaterials\n- 20x Bropom 8th Anniv Medal\n- 220x Metal"
+    },
+    {
+        "Name": "Kuro Tsurubami[Katana]",
+        "StatEffect_Amount": "Base ATK\n50\nASPD\n1000\nAttack MP Recovery\n5\nShort Range Damage %\n3\nBase Stability %\n70",
+        "MonsterDyeMap": "Torture Machina(Lv 106)\nSmall Demi Machina Factory: Area 1Torture Machina(Lv 106)\nSmall Demi Machina Factory: Area 2Torture Machina(Lv 109)\nSmall Demi Machina Factory: Area \n3",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "8th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nDEX %\n6\nMax MP\n150\nATK %\n6\nCritical Rate\n35\nBase Stability %\n70\nUnsheathe Attack %\n5\nReduce Dmg (Bowling)\n %\n35\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "280\n Spina Set\n1\n pcs Level\n1\nDifficulty\n160\nMaterials\n- 20x Bronze 8th Anniv Medal\n- 30x Metal"
+    },
+    {
+        "Name": "Cruel Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n152\nBase Stability %\n70\nPotential\n50\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n215\nSpina\nProcess\n107 Beast",
+        "Recipes": "2150\n Spina Set\n1\n pcs Level\n210\nDifficulty\n215\nMaterials\n- 1x Fluorescent Dragon Stone\n- 3x Green Luminescent Black Claw\n- 1500x Beast\n- 650x Metal"
+    },
+    {
+        "Name": "Kiraboshi[Katana]",
+        "StatEffect_Amount": "Base ATK\n17\nCritical Rate\n4\nLight Element\n1\nAttack MP Recovery\n2\nBase Stability %\n70",
+        "MonsterDyeMap": "Stone(Lv 39)\nNew Moon Palace",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n141\nATK %\n8\nPhysical Resistance %\n15\nMagic Resistance %\n15\nWind resistance %\n30\nAilment Resistance %\n10\nEarth Element\n1\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n30",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Orion's Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n99\nDodge\n- 50\nCritical Rate\n100\nLight resistance %\n- 30\n% stronger against Neutral\n25\nBase Stability %\n70\nAnticipate %\n15",
+        "MonsterDyeMap": "Snowball Fight Event",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n71\nBase Stability %\n70\nPotential\n36",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcess65 Metal",
+        "Recipes": "4000\n Spina Set\n1\n pcs Level\n110\nDifficulty\n140\nMaterials\n- 20x Silpom 3rd Anniv Medal\n- 200x Metal"
+    },
+    {
+        "Name": "Abyssal Katana[Katana]",
+        "StatEffect_Amount": "ASPD\n750\nCritical Rate\n75\nLight resistance %\n- 25\nDark Element\n1",
+        "MonsterDyeMap": "Biskyva(Lv 273)\nAquastida Central Biskyva(Lv 283)\nAquastida Central Biskyva(Lv 293)\nAquastida Central Biskyva(Lv 303)\nAquastida Central Biskyva(Lv 323)\nAquastida Central",
+        "Processing": "Sell\n280\nSpina\nProcess\n140 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Faldios[Katana]",
+        "StatEffect_Amount": "Base ATK\n34\nStability %\n2\nShort Range Damage %\n1\n% stronger against Neutral\n25\nBase Stability %\n70\nMagic Barrier\n1000",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "750\n Spina Set\n1\n pcs Level\n70\nDifficulty\n75\nMaterials\n- 2x Shining Soul Stone\n- 4x Outer World Universe\n- 500x Metal\n- 250x Mana"
+    },
+    {
+        "Name": "Seadevil Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nMax MP\n600\nATK %\n8\nFire resistance %\n10\nAggro %\n- 75\nWater Element\n1\nAttack MP Recovery\n20\nBase Stability %\n70",
+        "MonsterDyeMap": "Adaro (High Difficulty)\n(Lv 200)\nUnderwater Ruins: Deepest Adaro (High Difficulty)\n(Lv 210)\nUnderwater Ruins: Deepest Adaro (High Difficulty)\n(Lv 220)\nUnderwater Ruins: Deepest Adaro (High Difficulty)\n(Lv 230)\nUnderwater Ruins: Deepest Adaro (High Difficulty)\n(Lv 250)\nUnderwater Ruins: Deepest",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "7th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nDEX %\n6\nPhysical Pierce %\n12\nCritical Rate\n30\nShort Range Damage %\n6\nBase Stability %\n70\nGuard Break %\n17\nReduce Dmg (Bowling)\n %\n30\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n77\nDifficulty\n170\nMaterials\n- 20x Silver 7th Anniv Medal\n- 107x Metal"
+    },
+    {
+        "Name": "Purple Lightning Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n136\nATK %\n8\nAccuracy\n75\nCritical Rate\n30\nWind Element\n1\nBase Stability %\n70\nAttack Range (m)\n2",
+        "MonsterDyeMap": "Serpentragon(Lv 215)\nBoma Moja: Area \n1",
+        "Processing": "Sell\n200\nSpina\nProcess\n100 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nDEX %\n8\nCritical Rate\n30\nShort Range Damage %\n8\nBase Stability %\n70\nUnsheathe Attack %\n16\nGuard Break %\n20\nReduce Dmg (Bowling)\n %\n8",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": "420\n Spina Set\n1\n pcs Level\n200\nDifficulty\n235\nMaterials\n- 20x Golpom 6th Anniv Medal\n- 235x Metal"
+    },
+    {
+        "Name": "8th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nBase Stability %\n70\nPotential\n55\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n250\nSpina\nProcess\n125 Metal",
+        "Recipes": "480\n Spina Set\n1\n pcs Level\n230\nDifficulty\n260\nMaterials\n- 20x Golpom 8th Anniv Medal\n- 260x Metal"
+    },
+    {
+        "Name": "5th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n120\nDEX %\n7\nPhysical Pierce %\n15\nCritical Rate\n27\nShort Range Damage %\n7\nBase Stability %\n70\nUnsheathe Attack %\n13\nReduce Dmg (Bowling)\n %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n185\nSpina\nProcess\n92 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n175\nDifficulty\n200\nMaterials\n- 20x Silpom 5th Anniv Medal"
+    },
+    {
+        "Name": "Crystal Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nMax MP\n500\nPhysical Resistance %\n- 15\nMagic Resistance %\n20\nAccuracy %\n40\n% stronger against Neutral\n25\nBase Stability %\n60\nUnsheathe Attack %\n6",
+        "MonsterDyeMap": "Crystal Titan(Lv 138)\nDecaying Ruins Crystal Titan(Lv 148)\nDecaying Ruins Crystal Titan(Lv 158)\nDecaying Ruins Crystal Titan(Lv 168)\nDecaying Ruins Crystal Titan(Lv 188)\nDecaying Ruins",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "8th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nBase Stability %\n70\nPotential\n43\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "330\n Spina Set\n1\n pcs Level\n110\nDifficulty\n185\nMaterials\n- 20x Silver 8th Anniv Medal\n- 140x Metal"
+    },
+    {
+        "Name": "Pseudopumpkin Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n120\nDEF\n60\nLight Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n7\nPhysical Barrier\n2000\nATK UP (AGI %)\n250",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n390\nSpina\nProcess\n190 Medicine",
+        "Recipes": "333\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 15x Trick Topaz"
+    },
+    {
+        "Name": "8th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nDEX %\n8\nMax MP\n210\nATK %\n8\nCritical Rate\n35\nBase Stability %\n70\nUnsheathe Attack %\n8\nReduce Dmg (Bowling)\n %\n35\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": "400\n Spina Set\n1\n pcs Level\n190\nDifficulty\n220\nMaterials\n- 20x Bropom 8th Anniv Medal\n- 220x Metal"
+    },
+    {
+        "Name": "Iradium[Katana]",
+        "StatEffect_Amount": "Base ATK\n76\nBase Stability %\n70\nPotential\n37",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Beast",
+        "Recipes": "1350\n Spina Set\n1\n pcs Level\n130\nDifficulty\n135\nMaterials\n- 3x Patched Flesh\n- 1x Ultimate Machina Claw\n- 900x Beast\n- 450x Medicine"
+    },
+    {
+        "Name": "Homura[Katana]",
+        "StatEffect_Amount": "Base ATK\n115\nBase Stability %\n80\nPotential\n44",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Metal",
+        "Recipes": "900\n Spina Set\n1\n pcs Level\n175\nDifficulty\n180\nMaterials\n- 10x Mysterious Flower\n- 20x Green Lizard Skin\n- 400x Metal\n- 50x Mana"
+    },
+    {
+        "Name": "Kuro Tsurubami[Katana]",
+        "StatEffect_Amount": "Base ATK\n50\nASPD\n1200\nAttack MP Recovery\n6\nShort Range Damage %\n3\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "500\n Spina Set\n1\n pcs Level\n95\nDifficulty\n100\nMaterials\n- 24x Tough Tentacle\n- 3x Broken Self\n-Destruct Button\n- 200x Metal\n- 50x Medicine"
+    },
+    {
+        "Name": "Cruel Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n152\nMax MP\n400\nStability %\n2\nASPD %\n50\n% stronger against Wind\n5\nAggro %\n- 30\nEarth Element\n1\nShort Range Damage %\n8\nBase Stability %\n70\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n215\nSpina\nProcess\n107 Beast",
+        "Recipes": "2150\n Spina Set\n1\n pcs Level\n210\nDifficulty\n215\nMaterials\n- 1x Fluorescent Dragon Stone\n- 3x Green Luminescent Black Claw\n- 1500x Beast\n- 650x Metal"
+    },
+    {
+        "Name": "Caro Tesla[Katana]",
+        "StatEffect_Amount": "Base ATK\n70\nMax MP\n500\nATK %\n5\nDodge %\n- 40\nEvasion Recharge %\n- 20\nAggro %\n50\nWater Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "Lalvada(Lv 117)\nMonster's Forest: Deep Part Lalvada(Lv 127)\nMonster's Forest: Deep Part Lalvada(Lv 137)\nMonster's Forest: Deep Part Lalvada(Lv 147)\nMonster's Forest: Deep Part Lalvada(Lv 167)\nMonster's Forest: Deep Part",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kuro Tsurubami[Katana]",
+        "StatEffect_Amount": "Base ATK\n50\nBase Stability %\n70\nPotential\n31",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "500\n Spina Set\n1\n pcs Level\n95\nDifficulty\n100\nMaterials\n- 24x Tough Tentacle\n- 3x Broken Self\n-Destruct Button\n- 200x Metal\n- 50x Medicine"
+    },
+    {
+        "Name": "3rd Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n71\nDEX %\n6\nPhysical Pierce %\n4\nCritical Rate\n12\nShort Range Damage %\n6\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcess65 Metal",
+        "Recipes": "4000\n Spina Set\n1\n pcs Level\n110\nDifficulty\n140\nMaterials\n- 20x Silpom 3rd Anniv Medal\n- 200x Metal"
+    },
+    {
+        "Name": "Tsukikage-Sakuya[Katana]",
+        "StatEffect_Amount": "Base ATK\n226\nPhysical Pierce %\n10\n% stronger against Dark\n25\nLight resistance %\n30\nDark resistance %\n30\nDark Element\n1\nShort Range Damage %\n10\nMotion Speed %\n10\nHeavy Armor only:ASPD\n900\nGuard Break %\n30",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n275\nSpina\nProcess\n137 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Minotaur's Katana[Katana]",
+        "StatEffect_Amount": "Base DEF\n17\nBase ATK\n15\nAccuracy\n5\nFire resistance %\n10\nFire Element\n1",
+        "MonsterDyeMap": "Minotaur(Lv 32)\nRuined Temple: Forbidden hall Minotaur(Lv 22)\nRuined Temple: Forbidden hall Minotaur(Lv 42)\nRuined Temple: Forbidden hall Minotaur(Lv 52)\nRuined Temple: Forbidden hall Minotaur(Lv 72)\nRuined Temple: Forbidden hall",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Katana VII[Katana]",
+        "StatEffect_Amount": "Base ATK\n83\nDEX %\n6\nPhysical Pierce %\n8\nCritical Rate\n14\nShort Range Damage %\n6\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcess72 Metal",
+        "Recipes": "5000\n Spina Set\n1\n pcs Level\n130\nDifficulty\n155\nMaterials\n- 20x Golpom 3rd Anniv Medal\n- 250x Metal"
+    },
+    {
+        "Name": "Lil Empress Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n91\nBase Stability %\n65\nPotential\n38",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Mana",
+        "Recipes": "1450\n Spina Set\n1\n pcs Level\n140\nDifficulty\n145\nMaterials\n- 2x Lil Accessory Chip\n- 3x Lil Empress Crystal\n- 900x Metal\n- 550x Mana"
+    },
+    {
+        "Name": "4th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n34\nBase Stability %\n70\nPotential\n27",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n50\nDifficulty\n75\nMaterials\n- 20x Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Orion's Sword (Snowball Event 2022)[Katana]",
+        "StatEffect_Amount": "Base ATK\n150\nDodge\n- 50\nCritical Rate\n105\nLight resistance %\n- 25\n% stronger against Neutral\n30\nBase Stability %\n70\nAnticipate %\n15",
+        "MonsterDyeMap": "Snowball Event NPCSnowball Mini Game Venue",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana VII[Katana]",
+        "StatEffect_Amount": "Base ATK\n83\nDEX %\n6\nPhysical Pierce %\n8\nCritical Rate\n14\nShort Range Damage %\n6\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Metal",
+        "Recipes": "500\n Spina Set\n1\n pcs Level\n130\nDifficulty\n155\nMaterials\n- 20x Bropom 4th Anniv Medal\n- 250x Metal"
+    },
+    {
+        "Name": "Brass Dragon Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nATK %\n10\nAccuracy\n100\nASPD\n1000\nCritical Rate %\n200\nLight Element\n1\nBase Stability %\n70\nAdditional Melee %\n100\nReduce Dmg (Charge)\n %\n40\nAttack Range (m)\n2",
+        "MonsterDyeMap": "Brass Dragon Reguita(Lv 240)\nBoma Konda: Village Center Brass Dragon Reguita(Lv 250)\nBoma Konda: Village Center Brass Dragon Reguita(Lv 260)\nBoma Konda: Village Center Brass Dragon Reguita(Lv 270)\nBoma Konda: Village Center Brass Dragon Reguita(Lv 290)\nBoma Konda: Village Center",
+        "Processing": "Sell\n250\nSpina\nProcess\n125 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ice Katana Ace[Katana]",
+        "StatEffect_Amount": "Base ATK\n40\nMax MP\n400\nWater Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n2\nAdditional Magic %\n100\nATK UP (INT %)\n100\nATK DOWN (STR %)\n150",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "850\n Spina Set\n1\n pcs Level\n80\nDifficulty\n85\nMaterials\n- 1x Ice Rose\n- 5x Twilight Dragon Wing\n- 3x Evil Crystal Beast Claw\n- 425x Mana"
+    },
+    {
+        "Name": "4th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nDEX %\n5\nCritical Rate\n10\nShort Range Damage %\n5\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n95\nDifficulty\n125\nMaterials\n- 20x Gold 4th Anniv Medal\n- 150x Metal"
+    },
+    {
+        "Name": "Tatetsuba[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nBase Stability %\n70\nPotential\n23",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Metal",
+        "Recipes": "250\n Spina Set\n1\n pcs Level\n45\nDifficulty\n50\nMaterials\n- 20x Big Mane\n- 20x Cracked Rib\n- 75x Metal\n- 50x Cloth"
+    },
+    {
+        "Name": "Mukuro Koshirae[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nMax MP\n500\nCritical Damage\n4\nDark Element\n1\nBase Stability %\n75\nUnsheathe Attack %\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n340\nSpina\nProcess\n175 Mana",
+        "Recipes": "300\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Jack Orb"
+    },
+    {
+        "Name": "7th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n64\nDEX %\n4\nPhysical Pierce %\n10\nCritical Rate\n30\nShort Range Damage %\n4\nBase Stability %\n70\nGuard Break %\n15\nReduce Dmg (Bowling)\n %\n30\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box VII\n-",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Metal",
+        "Recipes": "240\n Spina Set\n1\n pcs Level\n1\nDifficulty\n140\nMaterials\n- 20x Bronze 7th Anniv Medal\n- 31x Metal"
+    },
+    {
+        "Name": "Iradium[Katana]",
+        "StatEffect_Amount": "Base ATK\n76\nMax HP %\n- 30\nATK %\n6\nPhysical Pierce %\n1\nMagic Resistance %\n15\nAggro %\n- 45\n% stronger against Neutral\n25\nBase Stability %\n70\nUnsheathe Attack %\n6",
+        "MonsterDyeMap": "Ultimate Machina (Megiston 2018)\n(Lv 160)\nEvent",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Empress Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n91\nATK %\n6\nASPD\n200\nCritical Rate\n25\nAggro %\n- 15\nFire Element\n1\nBase Stability %\n65",
+        "MonsterDyeMap": "Venena Coenubia(Lv 140)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 150)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 160)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 170)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 190)\nUltimea Palace: Throne",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Snow Bear Candy[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nMax MP\n400\nCritical Rate\n20\n% stronger against Wind\n25\nFire resistance %\n- 10\nWater Element\n1\nAttack MP Recovery\n3\nBase Stability %\n70",
+        "MonsterDyeMap": "Snow Bear Box Snowball Mini Game Venue",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Lantern Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nCritical Rate\n40\n% stronger against Earth\n25\nAilment Resistance %\n5\nEarth Element\n1\nAttack MP Recovery\n10\nBase Stability %\n70\nUnsheathe Attack %\n3",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Sakura Cloud Pyroxene\n- 1x Dusky Sakura Branch\n- 1x Sakura Petal\n- 60x Metal"
+    },
+    {
+        "Name": "Iron Fang[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nBase Stability %\n70\nPotential\n32",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": "550\n Spina Set\n1\n pcs Level\n105\nDifficulty\n110\nMaterials\n- 20x Special Iron Feather\n- 5x Blunt Knife\n- 200x Metal\n- 75x Beast"
+    },
+    {
+        "Name": "5th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n34\nBase Stability %\n70\nPotential\n27",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n25\nDifficulty\n75\nMaterials\n- 20x Bronze 5th Anniv Medal"
+    },
+    {
+        "Name": "7th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n70\nPotential\n39\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n77\nDifficulty\n170\nMaterials\n- 20x Silver 7th Anniv Medal\n- 107x Metal"
+    },
+    {
+        "Name": "7th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nBase Stability %\n70\nPotential\n43\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n145\nDifficulty\n195\nMaterials\n- 20x Gold 7th Anniv Medal\n- 175x Metal"
+    },
+    {
+        "Name": "Blue Spinel Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nMax HP %\n20\nPhysical Resistance %\n20\nMagic Resistance %\n20\nEarth Element\n1\nBase Stability %\n70\nAttack Range (m)\n2\nHeavy Armor only:Aggro %\n40",
+        "MonsterDyeMap": "Oris(Lv 221)\nWeredragon's Vital Point: Area 1Oris(Lv 223)\nWeredragon's Vital Point: Area \n2",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Glacial Ice Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nATK %\n6\nMATK %\n6\nASPD\n500\nWater Element\n1\nAttack MP Recovery\n15\nBase Stability %\n70\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Evil Shadow(Lv 157)\nReindeer Forest",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Ooze Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n24\nBase Stability %\n70\nPotential\n23",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "550\n Spina Set\n1\n pcs Level\n50\nDifficulty\n55\nMaterials\n- 1x Emerald Stone\n- 5x Gluey Skin\n- 350x Medicine\n- 200x Metal"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n169\nAccuracy\n125\nASPD\n1000\nCritical Rate\n125\nFire Element\n1\nBase Stability %\n70\nAnticipate %\n10\nGuard Break %\n10\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana VIII[Katana]",
+        "StatEffect_Amount": "Base ATK\n96\nDEX %\n6\nPhysical Pierce %\n12\nCritical Rate\n16\nShort Range Damage %\n6\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": "600\n Spina Set\n1\n pcs Level\n145\nDifficulty\n170\nMaterials\n- 20x Silpom 4th Anniv Medal\n- 300x Metal"
+    },
+    {
+        "Name": "Purple Lightning Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n136\nBase Stability %\n70\nPotential\n47\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n200\nSpina\nProcess\n100 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n195\nDifficulty\n200\nMaterials\n- 20x Solid Fuel\n- 20x Pure White Feather\n- 450x Metal\n- 50x Mana"
+    },
+    {
+        "Name": "Combat Knife[Katana]",
+        "StatEffect_Amount": "Base ATK\n163\nPhysical Pierce %\n30\nCritical Rate\n30\nCritical Rate %\n30\nLight resistance %\n- 30\nShort Range Damage %\n9\nBase Stability %\n80\nATK UP (AGI %)\n250",
+        "MonsterDyeMap": "Ignitrus(Lv 251)\nVulcani Crater Base",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Red Spider Lily[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nDark Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n12\nFractional Barrier %\n12\nAnticipate %\n12",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n170\nSpina\nProcess\n85 Medicine",
+        "Recipes": "850\n Spina Set\n1\n pcs Level\n165\nDifficulty\n170\nMaterials\n- 20x Weird Snake Skin\n- 5x Dark Red Crystal\n- 225x Wood\n- 200x Metal"
+    },
+    {
+        "Name": "Murasame[Katana]",
+        "StatEffect_Amount": "Base ATK\n136\nCritical Rate\n160\nWater Element\n1\nMotion Speed %\n40\nUnsheathe Attack %\n20\nAnticipate %\n80\nRecoil %\n3",
+        "MonsterDyeMap": "Sunken Treasure\n-Sunken Treasure\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Korakiri[Katana]",
+        "StatEffect_Amount": "Base ATK\n70\nSTR %\n3\nMax MP\n100\nATK %\n6\nCritical Damage\n1\nWind Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "Pelle(Lv 130)\nTurnus Mine: Area 1Pelle(Lv 132)\nTurnus Mine: Area 2Puppet Dragon(Lv 121)\nJoulu House: Gift Room (Lv 100)",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Faldios[Katana]",
+        "StatEffect_Amount": "Base ATK\n34\nBase Stability %\n70\nPotential\n27",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "750\n Spina Set\n1\n pcs Level\n70\nDifficulty\n75\nMaterials\n- 2x Shining Soul Stone\n- 4x Outer World Universe\n- 500x Metal\n- 250x Mana"
+    },
+    {
+        "Name": "Nameless Uchigatana[Katana]",
+        "StatEffect_Amount": "Base ATK\n6\nBase Stability %\n70\nPotential\n16",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n10\nSpina\nProcess\n5 Metal",
+        "Recipes": "50\n Spina Set\n1\n pcs Level\n5\nDifficulty\n10\nMaterials\n- 15x Woodchip\n- 25x Metal"
+    },
+    {
+        "Name": "Chocolate Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n65\nPhysical Pierce %\n8\nAggro %\n- 30\n% stronger against Neutral\n25\nBase Stability %\n70\nUnsheathe Attack %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Medicine",
+        "Recipes": "80\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 3x Mysterious Cacao\n- 1x Cacao Crystal\n- 80x Mana"
+    },
+    {
+        "Name": "5th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nDEX %\n5\nPhysical Pierce %\n15\nCritical Rate\n15\nShort Range Damage %\n5\nBase Stability %\n70\nUnsheathe Attack %\n9",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": "190\n Spina Set\n1\n pcs Level\n75\nDifficulty\n120\nMaterials\n- 20x Silver 5th Anniv Medal"
+    },
+    {
+        "Name": "Ooze Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n24\nCritical Damage %\n3\nWater Element\n1\nBase Stability %\n70\nAdditional Magic %\n50",
+        "MonsterDyeMap": "Ooze(Lv 52)\nLutaros Cavern: Deepest Part Ooze(Lv 42)\nLutaros Cavern: Deepest Part Ooze(Lv 62)\nLutaros Cavern: Deepest Part Ooze(Lv 72)\nLutaros Cavern: Deepest Part Ooze(Lv 92)\nLutaros Cavern: Deepest Part",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "5th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n83\nBase Stability %\n70\nPotential\n38",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Metal",
+        "Recipes": "260\n Spina Set\n1\n pcs Level\n110\nDifficulty\n155\nMaterials\n- 20x Gold 5th Anniv Medal"
+    },
+    {
+        "Name": "Ice Katana Ace[Katana]",
+        "StatEffect_Amount": "Base ATK\n40\nBase Stability %\n70\nPotential\n28",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "850\n Spina Set\n1\n pcs Level\n80\nDifficulty\n85\nMaterials\n- 1x Ice Rose\n- 5x Twilight Dragon Wing\n- 3x Evil Crystal Beast Claw\n- 425x Mana"
+    },
+    {
+        "Name": "Glacial Ice Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nATK %\n6\nMATK %\n6\nASPD\n750\nWater Element\n1\nAttack MP Recovery\n20\nBase Stability %\n70\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Evil Shadow(Lv 177)\nReindeer Forest",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "9th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nDEX %\n6\nATK %\n7\nPhysical Pierce %\n10\nCSPD\n600\nCritical Rate\n40\nBase Stability %\n70\nATK UP (AGI %)\n250\nReduce Dmg (Bowling)\n %\n40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shirasaya[Katana]",
+        "StatEffect_Amount": "Base ATK\n4\nBase Stability %\n70\nPotential\n15",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Metal",
+        "Recipes": "5\n Spina Set\n1\n pcs Level\n1\nDifficulty\n1\nMaterials\n- 2x Metal\n- 1x Wood"
+    },
+    {
+        "Name": "Sakura Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n27\nMax MP\n100\nPhysical Resistance %\n10\nCritical Damage\n1\nLight Element\n1\nAttack MP Recovery\n1\nBase Stability %\n70\nUnsheathe Attack %\n1",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n60\nSpina\nProcess\n30 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Sakura Gemstone\n- 1x Broken Sakura Branch\n- 1x Sakura Crystal Fragment\n- 30x Wood"
+    },
+    {
+        "Name": "Ooze Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n24\nCritical Damage %\n2\nWater Element\n1\nBase Stability %\n70\nAdditional Magic %\n25",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "550\n Spina Set\n1\n pcs Level\n50\nDifficulty\n55\nMaterials\n- 1x Emerald Stone\n- 5x Gluey Skin\n- 350x Medicine\n- 200x Metal"
+    },
+    {
+        "Name": "8th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nDEX %\n10\nMax MP\n250\nATK %\n10\nCritical Rate\n35\nBase Stability %\n70\nUnsheathe Attack %\n10\nReduce Dmg (Bowling)\n %\n35\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n250\nSpina\nProcess\n125 Metal",
+        "Recipes": "480\n Spina Set\n1\n pcs Level\n230\nDifficulty\n260\nMaterials\n- 20x Golpom 8th Anniv Medal\n- 260x Metal"
+    },
+    {
+        "Name": "Black Shadow Nodachi[Katana]",
+        "StatEffect_Amount": "Base ATK\n142\nMax HP\n3000\nATK %\n8\nPhysical Pierce %\n20\nPhysical Resistance %\n20\nAilment Resistance %\n10\nDark Element\n1\nBase Stability %\n60",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n200\nSpina\nProcess\n100 Metal",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level\n195\nDifficulty\n230\nMaterials\n- 3x Scary Black Shadow Face\n- 1x Black Shadow Crystal\n- 1500x Metal\n- 500x Beast"
+    },
+    {
+        "Name": "White Viper[Katana]",
+        "StatEffect_Amount": "Base ATK\n158\nATK %\n8\nCritical Rate\n60\nWater Element\n1\nBase Stability %\n60\nUnsheathe Attack %\n7\nAttack Range (m)\n2",
+        "MonsterDyeMap": "Voda(Lv 236)\nPuerta Islands: Area 1Voda(Lv 237)\nPuerta Islands: Area 2Voda(Lv 238)\nPuerta Islands: Area \n3",
+        "Processing": "Sell\n220\nSpina\nProcess\n110 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kasakiri[Katana]",
+        "StatEffect_Amount": "Base ATK\n64\nCritical Rate\n30\nAggro %\n- 15\nLight Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n4",
+        "MonsterDyeMap": "Cannon Golem(Lv 123)\nSuburb of Droma Square: Area 1Cannon Golem(Lv 125)\nSuburb of Droma Square: Area 2Cannon Golem(Lv 126)\nSuburb of Droma Square: Area \n3",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nBase Stability %\n70\nPotential\n32",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcess55 Metal",
+        "Recipes": "3000\n Spina Set\n1\n pcs Level\n95\nDifficulty\n125\nMaterials\n- 20x Bropom 3rd Anniv Medal\n- 150x Metal"
+    },
+    {
+        "Name": "6th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n64\nBase Stability %\n70\nPotential\n34",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Metal",
+        "Recipes": "240\n Spina Set\n1\n pcs Level\n90\nDifficulty\n145\nMaterials\n- 20x Silver 6th Anniv Medal\n- 145x Metal"
+    },
+    {
+        "Name": "Caro Tesla[Katana]",
+        "StatEffect_Amount": "Base ATK\n70\nBase Stability %\n70\nPotential\n36",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Wood",
+        "Recipes": "1300\n Spina Set\n1\n pcs Level\n125\nDifficulty\n130\nMaterials\n- 1x Mystic Crystal Stone\n- 2x Magic Charged Rock\n- 1000x Wood\n- 300x Metal"
+    },
+    {
+        "Name": "Iradium[Katana]",
+        "StatEffect_Amount": "Base ATK\n76\nMax HP %\n- 15\nATK %\n5\nPhysical Pierce %\n3\nMagic Resistance %\n30\nAggro %\n- 5\nDark Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Beast",
+        "Recipes": "1350\n Spina Set\n1\n pcs Level\n130\nDifficulty\n135\nMaterials\n- 3x Patched Flesh\n- 1x Ultimate Machina Claw\n- 900x Beast\n- 450x Medicine"
+    },
+    {
+        "Name": "Seiun[Katana]",
+        "StatEffect_Amount": "Base ATK\n79\nBase Stability %\n70\nPotential\n37",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n140\nSpina\nProcess\n70 Metal",
+        "Recipes": "700\n Spina Set\n1\n pcs Level\n135\nDifficulty\n140\nMaterials\n- 5x Ice Wolf Fang\n- 20x Cracked Halo\n- 250x Beast\n- 100x Wood"
+    },
+    {
+        "Name": "Kiraboshi[Katana]",
+        "StatEffect_Amount": "Base ATK\n17\nCritical Rate\n5\nLight Element\n1\nAttack MP Recovery\n3\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "200\n Spina Set\n1\n pcs Level\n35\nDifficulty\n40\nMaterials\n- 18x Clear Water\n- 6x Twinkle Stone\n- 175x Metal\n- 25x Mana"
+    },
+    {
+        "Name": "6th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nBase Stability %\n70\nPotential\n43",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n160\nDifficulty\n200\nMaterials\n- 20x Bropom 6th Anniv Medal\n- 200x Metal"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n125\nAccuracy\n100\nASPD\n1000\nCritical Rate\n100\nFire Element\n1\nBase Stability %\n70\nAnticipate %\n5\nGuard Break %\n5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Scarlet Sakura Fairy Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n149\nMax HP\n10000\nAccuracy\n75\nCritical Rate\n25\nDark Element\n1\nAttack MP Recovery\n10\nBase Stability %\n60",
+        "MonsterDyeMap": "Amalgam(Lv 200)\nTwilight Sakura Castle: Top",
+        "Processing": "Sell\n1\nSpina\nProcess\n300 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dia Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n64\nSTR %\n4\nDark resistance %\n10\nLight Element\n1\nAttack MP Recovery\n5\nShort Range Damage %\n4\nBase Stability %\n70\nUnsheathe Attack %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Cherry Blossom Crystal\n- 1x Moist Sakura Branch\n- 1x Sakura Eater Feather\n- 90x Wood"
+    },
+    {
+        "Name": "7th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nDEX %\n7\nPhysical Pierce %\n14\nCritical Rate\n30\nShort Range Damage %\n7\nBase Stability %\n70\nGuard Break %\n19\nReduce Dmg (Bowling)\n %\n30\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n145\nDifficulty\n195\nMaterials\n- 20x Gold 7th Anniv Medal\n- 175x Metal"
+    },
+    {
+        "Name": "8th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n70\nPotential\n46\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": "370\n Spina Set\n1\n pcs Level\n170\nDifficulty\n205\nMaterials\n- 20x Gold 8th Anniv Medal\n- 200x Metal"
+    },
+    {
+        "Name": "Cruel Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n152\nMax MP\n400\nStability %\n20\nASPD %\n60\n% stronger against Wind\n5\nAggro %\n- 40\nEarth Element\n1\nShort Range Damage %\n8\nBase Stability %\n70\nAttack Range (m)\n2",
+        "MonsterDyeMap": "War Dragon Turba(Lv 207)\nPrime Ramus: Village War Dragon Turba(Lv 217)\nPrime Ramus: Village War Dragon Turba(Lv 227)\nPrime Ramus: Village War Dragon Turba(Lv 237)\nPrime Ramus: Village War Dragon Turba(Lv 257)\nPrime Ramus: Village",
+        "Processing": "Sell\n215\nSpina\nProcess\n107 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Burning Ember Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n175\nFire Element\n1\nAttack MP Recovery\n20\nBase Stability %\n65\nUnsheathe Attack %\n9\nFractional Barrier %\n15\nGuard Break %\n30\nReduce Dmg (Floor)\n %\n25\nAttack Range (m)\n2\nNinjutsu Scroll only:Aggro %\n- 20\nATK UP (AGI %)\n250",
+        "MonsterDyeMap": "Burning Dragon Igneus(Lv 225)\nBoma Moja: Village Center Burning Dragon Igneus(Lv 235)\nBoma Moja: Village Center Burning Dragon Igneus(Lv 245)\nBoma Moja: Village Center Burning Dragon Igneus(Lv 255)\nBoma Moja: Village Center Burning Dragon Igneus(Lv 275)\nBoma Moja: Village Center",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Korakiri[Katana]",
+        "StatEffect_Amount": "Base ATK\n70\nBase Stability %\n70\nPotential\n36",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n130\nSpina\nProcess\n66 Metal",
+        "Recipes": "650\n Spina Set\n1\n pcs Level\n125\nDifficulty\n130\nMaterials\n- 15x Granite\n- 25x Wolf Shark Fang\n- 200x Metal\n- 125x Beast"
+    },
+    {
+        "Name": "Modestia[Katana]",
+        "StatEffect_Amount": "Base ATK\n168\nASPD\n1000\nCritical Rate\n120\nAttack MP Recovery\n15\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Mysterious Exchange (P. Avatar 2022)\nEvent",
+        "Processing": "Sell\n1\nSpina\nProcess\n1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n71\nBase Stability %\n70\nPotential\n36",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Metal",
+        "Recipes": "400\n Spina Set\n1\n pcs Level\n110\nDifficulty\n140\nMaterials\n- 20x Pom 4th Anniv Medal\n- 200x Metal"
+    },
+    {
+        "Name": "6th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n40\nBase Stability %\n70\nPotential\n28",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n85\nSpina\nProcess\n42 Metal",
+        "Recipes": "170\n Spina Set\n1\n pcs Level\n1\nDifficulty\n110\nMaterials\n- 20x Bronze 6th Anniv Medal\n- 110x Metal"
+    },
+    {
+        "Name": "Shirasaya[Katana]",
+        "StatEffect_Amount": "Base ATK\n4\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Metal",
+        "Recipes": "5\n Spina Set\n1\n pcs Level\n1\nDifficulty\n1\nMaterials\n- 2x Metal\n- 1x Wood"
+    },
+    {
+        "Name": "6th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nDEX %\n7\nCritical Rate\n30\nShort Range Damage %\n7\nBase Stability %\n70\nUnsheathe Attack %\n14\nGuard Break %\n20\nReduce Dmg (Bowling)\n %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": "390\n Spina Set\n1\n pcs Level\n180\nDifficulty\n220\nMaterials\n- 20x Silpom 6th Anniv Medal\n- 220x Metal"
+    },
+    {
+        "Name": "Koga Koshirae[Katana]",
+        "StatEffect_Amount": "Base ATK\n26\nBase Stability %\n70\nPotential\n24",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n55\nDifficulty\n60\nMaterials\n- 5x Shining Shooting Star\n- 25x Star Fragment\n- 100x Metal\n- 50x Wood"
+    },
+    {
+        "Name": "6th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nBase Stability %\n70\nPotential\n49",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": "420\n Spina Set\n1\n pcs Level\n200\nDifficulty\n235\nMaterials\n- 20x Golpom 6th Anniv Medal\n- 235x Metal"
+    },
+    {
+        "Name": "6th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n70\nPotential\n46",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": "390\n Spina Set\n1\n pcs Level\n180\nDifficulty\n220\nMaterials\n- 20x Silpom 6th Anniv Medal\n- 220x Metal"
+    },
+    {
+        "Name": "Brass Dragon Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nBase Stability %\n70\nPotential\n55",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": "N/A Set1\n pcs Level\n245\nDifficulty\n250\nMaterials\n- 1x Brass Dragon Trumpet Horn\n- 2x Brass Dragon Tail\n- 1500x Beast\n- 1000x Metal"
+    },
+    {
+        "Name": "Crystal Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nMax MP\n200\nPhysical Resistance %\n- 10\nMagic Resistance %\n15\nAccuracy %\n20\n% stronger against Neutral\n25\nBase Stability %\n60\nUnsheathe Attack %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "1500\n Spina Set\n1\n pcs Level\n145\nDifficulty\n150\nMaterials\n- 1x Titan Heart\n- 3x Corroded Trunk\n- 1200x Metal\n- 300x Beast"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nATK %\n10\nWind resistance %\n10\nAggro %\n- 20\nEarth Element\n1\nAttack MP Recovery\n10\nShort Range Damage %\n3\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n10\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Adamantine Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n96\nVIT %\n12\nCritical Damage\n6\nLight Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": "800\n Spina Set\n1\n pcs Level\n155\nDifficulty\n160\nMaterials\n- 5x Blood Stained Billhook\n- 5x Citrine Eye\n- 200x Metal\n- 200x Wood"
+    },
+    {
+        "Name": "Death Samurai Sword III[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nBase Stability %\n70\nPotential\n41",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n56\nSpina\nProcess\nunknown",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level\n31\nDifficulty\n150\nMaterials\n- 5x Dark Note Paper\n- 1x Kinaco's Photo"
+    },
+    {
+        "Name": "Burning Ember Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n175\nFire Element\n1\nAttack MP Recovery\n30\nBase Stability %\n65\nUnsheathe Attack %\n9\nFractional Barrier %\n15\nGuard Break %\n15\nReduce Dmg (Floor)\n %\n15\nAttack Range (m)\n2\nNinjutsu Scroll only:Aggro %\n- 30\nATK UP (AGI %)\n200",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n235\nSpina\nProcess\n117 Wood",
+        "Recipes": "2350\n Spina Set\n1\n pcs Level\n230\nDifficulty\n235\nMaterials\n- 2x Burning Dragon Claw\n- 1x Flowing Fiery Blood\n- 1500x Metal\n- 850x Beast"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nDEX %\n5\nATK %\n10\nWind resistance %\n15\nAggro %\n- 40\nEarth Element\n1\nAttack MP Recovery\n7\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n15\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Iron Fang[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nPhysical Pierce %\n8\nEarth Element\n1\nShort Range Damage %\n4\nBase Stability %\n70\nGuard Break %\n16",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": "550\n Spina Set\n1\n pcs Level\n105\nDifficulty\n110\nMaterials\n- 20x Special Iron Feather\n- 5x Blunt Knife\n- 200x Metal\n- 75x Beast"
+    },
+    {
+        "Name": "7th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n169\nBase Stability %\n70\nPotential\n52\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n230\nSpina\nProcess\n115 Metal",
+        "Recipes": "440\n Spina Set\n1\n pcs Level\n210\nDifficulty\n240\nMaterials\n- 20x Golpom 7th Anniv Medal\n- 240x Metal"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n141\nMax HP\n3000\nATK %\n7\nWind resistance %\n20\nAggro %\n- 40\nEarth Element\n1\nAttack MP Recovery\n4\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n20",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Bokuto[Katana]",
+        "StatEffect_Amount": "Base ATK\n70\nASPD\n1000\nFire resistance %\n- 20\nShort Range Damage %\n5\nNeutral Resistance %\n25\n% stronger against Neutral\n25\nBase Stability %\n80",
+        "MonsterDyeMap": "[NPC]Lalun (Summer Event Exchange)\nEvent",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shirasaya[Katana]",
+        "StatEffect_Amount": "Base ATK\n4\nBase Stability %\n70",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kuro Momiji[Katana]",
+        "StatEffect_Amount": "Base ATK\n43\nBase Stability %\n70\nPotential\n29",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "450\n Spina Set\n1\n pcs Level\n85\nDifficulty\n90\nMaterials\n- 5x Scorching Grass\n- 5x Evil Blade\n- 200x Metal\n- 25x Wood"
+    },
+    {
+        "Name": "5th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n96\nDEX %\n6\nPhysical Pierce %\n15\nCritical Rate\n21\nShort Range Damage %\n6\nBase Stability %\n70\nUnsheathe Attack %\n11",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": "290\n Spina Set\n1\n pcs Level\n145\nDifficulty\n170\nMaterials\n- 20x Pom 5th Anniv Medal"
+    },
+    {
+        "Name": "Red Spider Lily[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nDark Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n12\nFractional Barrier %\n8\nAnticipate %\n10",
+        "MonsterDyeMap": "Santaby(Lv 182)\nTomte Pavillion (170 - 190)\nEnty(Lv 185)\nWitch's Woods Area 1Enty(Lv 186)\nWitch's Woods Area 2Enty(Lv 187)\nWitch's Woods Area \n3",
+        "Processing": "Sell\n170\nSpina\nProcess\n85 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kuro Momiji[Katana]",
+        "StatEffect_Amount": "Base ATK\n43\nStability %\n3\nASPD\n300\nFire Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n5",
+        "MonsterDyeMap": "Blaze Ant(Lv 99)\nBlazing Graben: Upper Blaze Ant(Lv 99)\nBlazing Graben: Lower",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nATK %\n10\nPhysical Resistance %\n20\nMagic Resistance %\n20\nWind resistance %\n35\nAilment Resistance %\n15\nEarth Element\n1\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n35\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kiraboshi[Katana]",
+        "StatEffect_Amount": "Base ATK\n17\nBase Stability %\n70\nPotential\n21",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "200\n Spina Set\n1\n pcs Level\n35\nDifficulty\n40\nMaterials\n- 18x Clear Water\n- 6x Twinkle Stone\n- 175x Metal\n- 25x Mana"
+    },
+    {
+        "Name": "Mafu Swordstick[Katana]",
+        "StatEffect_Amount": "Base ATK\n46\nDodge\n40\nEvasion Recharge %\n20\nWind Element\n1\nBase Stability %\n70\nAnticipate %\n5",
+        "MonsterDyeMap": "Zolban(Lv 98)\nDark Mirror Zolban(Lv 88)\nDark Mirror Zolban(Lv 108)\nDark Mirror Zolban(Lv 118)\nDark Mirror Zolban(Lv 138)\nDark Mirror",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Abyss Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n213\nDEX %\n10\nMax HP\n7500\n% stronger against Fire\n10\nAggro %\n- 75\nWater Element\n1\nUnsheathe Attack %\n10\nInvincible Aid (sec)\n2\nAbsolute Dodge %\n20",
+        "MonsterDyeMap": "Vatudo(Lv 255)\nDeep Sea: Deepest Zone Vatudo(Lv 275)\nDeep Sea: Deepest Zone Vatudo(Lv 285)\nDeep Sea: Deepest Zone Vatudo(Lv 305)\nDeep Sea: Deepest Zone",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Koga Koshirae[Katana]",
+        "StatEffect_Amount": "Base ATK\n26\nMax MP\n300\nATK %\n2\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n55\nDifficulty\n60\nMaterials\n- 5x Shining Shooting Star\n- 25x Star Fragment\n- 100x Metal\n- 50x Wood"
+    },
+    {
+        "Name": "3rd Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n46\nDEX %\n4\nCritical Rate\n8\nShort Range Damage %\n4\nBase Stability %\n70\nUnsheathe Attack %\n8",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcess47 Metal",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level\n75\nDifficulty\n100\nMaterials\n- 20x Pom 3rd Anniv Medal\n- 100x Metal"
+    },
+    {
+        "Name": "Black Shadow Nodachi[Katana]",
+        "StatEffect_Amount": "Base ATK\n142\nMax HP\n5000\nATK %\n8\nStability %\n5\nPhysical Pierce %\n20\nPhysical Resistance %\n30\nAilment Resistance %\n15\nDark Element\n1\nBase Stability %\n60",
+        "MonsterDyeMap": "Black Shadow(Lv 189)\nRokoko City Ruins Black Shadow(Lv 199)\nRokoko City Ruins Black Shadow(Lv 209)\nRokoko City Ruins Black Shadow(Lv 219)\nRokoko City Ruins Black Shadow(Lv 239)\nRokoko City Ruins Black Shadow (Megiston 2021)\n(Lv 210)\nEvent",
+        "Processing": "Sell\n200\nSpina\nProcess\n100 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Empress Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n91\nATK %\n6\nASPD\n600\nCritical Rate\n20\nAggro %\n- 10\nFire Element\n1\nBase Stability %\n65",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Mana",
+        "Recipes": "1450\n Spina Set\n1\n pcs Level\n140\nDifficulty\n145\nMaterials\n- 2x Lil Accessory Chip\n- 3x Lil Empress Crystal\n- 900x Metal\n- 550x Mana"
+    },
+    {
+        "Name": "Kuwagumo[Katana]",
+        "StatEffect_Amount": "Base ATK\n13\nBase Stability %\n70\nPotential\n19",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n30\nSpina\nProcess\n15 Metal",
+        "Recipes": "150\n Spina Set\n1\n pcs Level\n25\nDifficulty\n30\nMaterials\n- 25x Black Fur\n- 15x Little Wyvern Wing\n- 75x Metal"
+    },
+    {
+        "Name": "Demon Empress Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nATK %\n7\nCritical Rate\n20\nFire Element\n1\n% stronger against Neutral\n10\nBase Stability %\n70\nGuard Break %\n20\nHeavy Armor only:Fractional Barrier %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Mana",
+        "Recipes": "1950\n Spina Set\n1\n pcs Level\n190\nDifficulty\n195\nMaterials\n- 2x Empress Ogre Accessory Chip\n- 2x Empress Ogre Crystal\n- 1300x Beast\n- 650x Mana"
+    },
+    {
+        "Name": "9th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n70\nPotential\n46",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Minotaur's Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n15\nAccuracy\n3\nFire resistance %\n5\nFire Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Beast",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n30\nDifficulty\n35\nMaterials\n- 1x Minotaur Horn\n- 3x Minotaur Skin\n- 200x Beast\n- 150x Metal"
+    },
+    {
+        "Name": "4th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nBase Stability %\n70\nPotential\n23",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Metal",
+        "Recipes": "10\n Spina Set\n1\n pcs Level\n25\nDifficulty\n50\nMaterials\n- 10x Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Adamantine Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n96\nBase Stability %\n70\nPotential\n41",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": "800\n Spina Set\n1\n pcs Level\n155\nDifficulty\n160\nMaterials\n- 5x Blood Stained Billhook\n- 5x Citrine Eye\n- 200x Metal\n- 200x Wood"
+    },
+    {
+        "Name": "Iron Fang[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nPhysical Pierce %\n8\nEarth Element\n1\nShort Range Damage %\n4\nBase Stability %\n70\nGuard Break %\n12",
+        "MonsterDyeMap": "Retainer Doll(Lv 120)\nBrahe Laboratory: 2nd Building Ice Evil Clock(Lv 117)\nNoeliel Castle: Entrance (100 - 120)\nIce Evil Clocl(Lv 120)\nNoeliel Castle: 2F (100 - 120)",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shura Koshirae[Katana]",
+        "StatEffect_Amount": "Base ATK\n32\nGuard Power %\n18\nGuard Recharge %\n18\nEarth Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "Targa(Lv 72)\nAbyss of No Return: Area 1Targa(Lv 77)\nAbyss of No Return: Area 2Targa(Lv 78)\nAbyss of No Return: Area \n3",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pearl Sakura Mystic Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n150\nMax HP %\n30\nCSPD %\n50\nCritical Rate\n50\nCritical Rate %\n25\n% stronger against Earth\n10\nFire Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessWood",
+        "Recipes": "4000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Fine Sake (Pearl Sakura)\n- 3x Sinister Origami\n- 5x Torn Paper Crane\n- 240x Metal"
+    },
+    {
+        "Name": "Pacific Saury[Katana]",
+        "StatEffect_Amount": "Base ATK\n100\nMax HP\n3000\nAccuracy\n111\nCritical Rate\n11\nWater Element\n1\nAttack MP Recovery\n7\nBase Stability %\n60\nUnsheathe Attack %\n7",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "680\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Fallen in Fall\n- 20x Onigiri\n- 10x Crushed Ice\n- 1x Greatly Evil Blade"
+    },
+    {
+        "Name": "3rd Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n11\nBase Stability %\n70\nPotential\n19",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcess12 Metal",
+        "Recipes": "10\n Spina Set\n1\n pcs Level\n1\nDifficulty\n25\nMaterials\n- 20x Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "Dragon Claw Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n100\nASPD\n500\nCritical Damage %\n3\nDark Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n6\nAbsolute Accuracy %\n5\nReduce Dmg (Straight Line)\n %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": "1650\n Spina Set\n1\n pcs Level\n160\nDifficulty\n165\nMaterials\n- 1x Dark Gemstone\n- 2x Finstern Claw\n- 900x Beast\n- 750x Metal"
+    },
+    {
+        "Name": "4th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n11\nBase Stability %\n70\nPotential\n19",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n25\nSpina\nProcess\n12 Metal",
+        "Recipes": "1\n Spina Set\n1\n pcs Level\n1\nDifficulty\n25\nMaterials\n- 5x Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "Red Spider Lily[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nBase Stability %\n70\nPotential\n42",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n170\nSpina\nProcess\n85 Medicine",
+        "Recipes": "850\n Spina Set\n1\n pcs Level\n165\nDifficulty\n170\nMaterials\n- 20x Weird Snake Skin\n- 5x Dark Red Crystal\n- 225x Wood\n- 200x Metal"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n141\nATK %\n8\nEarth resistance %\n5\nAggro %\n- 10\nFire Element\n1\nAttack MP Recovery\n10\nShort Range Damage %\n2\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n5",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Assassin Blade[Katana]",
+        "StatEffect_Amount": "ASPD\n750\nCritical Rate\n75\nLight resistance %\n- 25\nDark Element\n1",
+        "MonsterDyeMap": "Fladorga(Lv 247)\nLittle Shrine of Grace: Area 1Fladorga(Lv 248)\nLittle Shrine of Grace: Area 2Fladorga(Lv 249)\nLittle Shrine of Grace: Area \n3",
+        "Processing": "Sell\n230\nSpina\nProcess\n115 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Hakuro Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n158\nMax HP\n6000\nMax MP\n200\nCritical Rate\n40\n% stronger against Dark\n10\nLight Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n220\nSpina\nProcess\n110 Metal",
+        "Recipes": "896\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Rainbow Orb"
+    },
+    {
+        "Name": "3rd Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nDEX %\n2\nCritical Rate\n4\nShort Range Damage %\n2\nBase Stability %\n70\nUnsheathe Attack %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcess25 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n25\nDifficulty\n50\nMaterials\n- 20x Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "9th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nDEX %\n10\nATK %\n10\nPhysical Pierce %\n22\nCSPD\n1080\nCritical Rate\n40\nBase Stability %\n70\nATK UP (AGI %)\n250\nReduce Dmg (Bowling)\n %\n40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kuwagumo[Katana]",
+        "StatEffect_Amount": "Base ATK\n13\nMax MP\n100\nDark Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n30\nSpina\nProcess\n15 Metal",
+        "Recipes": "150\n Spina Set\n1\n pcs Level\n25\nDifficulty\n30\nMaterials\n- 25x Black Fur\n- 15x Little Wyvern Wing\n- 75x Metal"
+    },
+    {
+        "Name": "Koga Koshirae[Katana]",
+        "StatEffect_Amount": "Base ATK\n26\nMax MP\n250\nATK %\n2\nBase Stability %\n70\nUnsheathe Attack %\n8",
+        "MonsterDyeMap": "Colon Zombie(Lv 57)\nVyshed the Tainted Land: Area 1Colon Zombie(Lv 59)\nVyshed the Tainted Land: Area 1Colon Zombie(Lv 59)\nVyshed the Tainted Land: Area \n2",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sumire Renkyoku[Katana]",
+        "StatEffect_Amount": "Base ATK\n37\nCritical Rate\n10\nCritical Damage\n10\nBase Stability %\n65\nGuard Break %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "400\n Spina Set\n1\n pcs Level\n75\nDifficulty\n80\nMaterials\n- 6x Chipped Crystal Stone\n- 4x Strange Mask\n- 150x Beast\n- 50x Metal"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nATK %\n10\nPhysical Resistance %\n20\nMagic Resistance %\n20\nEarth resistance %\n35\nAilment Resistance %\n15\nFire Element\n1\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n35\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "5th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nBase Stability %\n70\nPotential\n43",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "320\n Spina Set\n1\n pcs Level\n160\nDifficulty\n185\nMaterials\n- 20x Bropom 5th Anniv Medal"
+    },
+    {
+        "Name": "Death Samurai Sword III[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nMax HP\n4500\nCritical Rate\n100\nEarth resistance %\n15\nAilment Resistance %\n9\nFire Element\n1\nBase Stability %\n70\nReduce Dmg (Bullet)\n %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n29\nSpina\nProcess\nunknown",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level\n31\nDifficulty\n150\nMaterials\n- 5x Dark Note Paper\n- 1x Kinaco's Photo"
+    },
+    {
+        "Name": "Abyss Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n213\nBase Stability %\n70\nPotential\n58",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": "N/A Set1\n pcs Level\n260\nDifficulty\n265\nMaterials\n- 2x Vatudo's Tactile Hair\n- 2x Vatudo's Spiral Arm\n- 1750x Metal\n- 900x Beast"
+    },
+    {
+        "Name": "Sacred Ice Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n92\nATK %\n2\nASPD %\n40\n% stronger against Light\n- 25\n% stronger against Dark\n10\nAilment Resistance %\n1\nWater Element\n1\nBase Stability %\n75\nATK UP (AGI %)\n100",
+        "MonsterDyeMap": "Noeliel the Ice Statue(Lv 102)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue (raid)\n(Lv 142)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue (raid)\n(Lv 132)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue (raid)\n(Lv 122)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue (raid)\n(Lv 112)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue(Lv 152)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue(Lv 132)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue(Lv 122)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue(Lv 112)\nNoeliel Castle: Hall (80 - 100)\nNoeliel the Ice Statue (raid)\n(Lv 162)\nNoeliel Castle: Hall (80 - 100)",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Yozakura Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n136\nDEX %\n2\nAccuracy\n300\nASPD\n600\n% stronger against Dark\n10\nLight Element\n1\nShort Range Damage %\n6\nBase Stability %\n70\nReduce Dmg (Floor)\n %\n30",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n190\nSpina\nProcess\n95 Metal",
+        "Recipes": "3000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Lush Sake Cup\n- 3x Broken Yozakura Twig\n- 5x Alcoholic Petal\n- 120x Metal"
+    },
+    {
+        "Name": "3rd Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n34\nDEX %\n3\nCritical Rate\n6\nShort Range Damage %\n3\nBase Stability %\n70\nUnsheathe Attack %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcess37 Metal",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level\n50\nDifficulty\n75\nMaterials\n- 20x Gold 3rd Anniv Medal"
+    },
+    {
+        "Name": "4th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n71\nDEX %\n6\nPhysical Pierce %\n4\nCritical Rate\n12\nShort Range Damage %\n6\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Metal",
+        "Recipes": "400\n Spina Set\n1\n pcs Level\n110\nDifficulty\n140\nMaterials\n- 20x Pom 4th Anniv Medal\n- 200x Metal"
+    },
+    {
+        "Name": "Modestia (old)[Katana]",
+        "StatEffect_Amount": "Base ATK\n150\nASPD\n1000\nCritical Rate\n120\nAttack MP Recovery\n15\nBase Stability %\n70",
+        "MonsterDyeMap": "P. Avatar (2021)\n(Lv 400)\n5422\nEvent",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nBase Stability %\n70\nPotential\n23",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcess25 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n25\nDifficulty\n50\nMaterials\n- 20x Silver 3rd Anniv Medal"
+    },
+    {
+        "Name": "8th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n70\nPotential\n39\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "280\n Spina Set\n1\n pcs Level\n1\nDifficulty\n160\nMaterials\n- 20x Bronze 8th Anniv Medal\n- 30x Metal"
+    },
+    {
+        "Name": "Crystal Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nMax MP\n250\nPhysical Resistance %\n- 5\nMagic Resistance %\n10\nAccuracy %\n30\n% stronger against Neutral\n25\nBase Stability %\n60\nUnsheathe Attack %\n7",
+        "MonsterDyeMap": "Crystal Titan (Megiston 2019)\n(Lv 175)\n46\nB\n30\nEvent",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "5th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n120\nBase Stability %\n70\nPotential\n45",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n185\nSpina\nProcess\n92 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n175\nDifficulty\n200\nMaterials\n- 20x Silpom 5th Anniv Medal"
+    },
+    {
+        "Name": "Dragon Claw Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n100\nASPD\n1000\nCritical Damage %\n3\nDark Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n6\nAbsolute Accuracy %\n5\nReduce Dmg (Straight Line)\n %\n20",
+        "MonsterDyeMap": "Finstern the Dark Dragon(Lv 156)\nDark Dragon Shrine: Near the Top Finstern the Dark Dragon(Lv 166)\nDark Dragon Shrine: Near the Top Finstern the Dark Dragon(Lv 176)\nDark Dragon Shrine: Near the Top Finstern the Dark Dragon(Lv 186)\nDark Dragon Shrine: Near the Top Finstern the Dark Dragon(Lv 206)\nDark Dragon Shrine: Near the Top",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shura Koshirae[Katana]",
+        "StatEffect_Amount": "Base ATK\n32\nBase Stability %\n70\nPotential\n26",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n65\nDifficulty\n70\nMaterials\n- 15x Tough Tail\n- 20x Tough Carapace\n- 125x Metal\n- 50x Beast"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nATK %\n10\nEarth resistance %\n10\nAggro %\n- 20\nFire Element\n1\nAttack MP Recovery\n10\nShort Range Damage %\n3\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n10\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Orion's Sword (Snowball Event 2023)[Katana]",
+        "StatEffect_Amount": "Base ATK\n175\nDodge\n- 50\nCritical Rate\n105\nLight resistance %\n- 25\n% stronger against Neutral\n35\nBase Stability %\n70\nAnticipate %\n15",
+        "MonsterDyeMap": "Snowball Event NPCSnowball Mini Game Venue",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "5th Anniv Katana VII[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nDEX %\n7\nPhysical Pierce %\n15\nCritical Rate\n30\nShort Range Damage %\n7\nBase Stability %\n70\nUnsheathe Attack %\n14\nReduce Dmg (Bowling)\n %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": "370\n Spina Set\n1\n pcs Level\n185\nDifficulty\n210\nMaterials\n- 20x Golpom 5th Anniv Medal"
+    },
+    {
+        "Name": "9th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nDEX %\n8\nATK %\n8\nPhysical Pierce %\n16\nCSPD\n840\nCritical Rate\n40\nBase Stability %\n70\nATK UP (AGI %)\n250\nReduce Dmg (Bowling)\n %\n40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "7th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n70\nPotential\n46\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": "390\n Spina Set\n1\n pcs Level\n175\nDifficulty\n215\nMaterials\n- 20x Bropom 7th Anniv Medal\n- 205x Metal"
+    },
+    {
+        "Name": "Cruel Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n152\nMax MP\n400\nATK %\n9\nStability %\n10\nASPD %\n70\nAggro %\n- 50\nEarth Element\n1\nBase Stability %\n70\nAttack Range (m)\n2",
+        "MonsterDyeMap": "War Dragon Turba (Megiston 2022)\n(Lv 240)\nEvent",
+        "Processing": "Sell\n215\nSpina\nProcess\n107 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Raiden[Katana]",
+        "StatEffect_Amount": "Base ATK\n198\nASPD\n1000\nCSPD %\n55\nWater resistance %\n- 50\nWind Element\n1\nAttack MP Recovery\n15\nBase Stability %\n80\nLight Armor only:Unsheathe Attack %\n10",
+        "MonsterDyeMap": "Bemoz(Lv 225)\nDeusania's Lab Innermost Chambers",
+        "Processing": "Sell\n275\nSpina\nProcess\n137 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Aobato[Katana]",
+        "StatEffect_Amount": "Base ATK\n10\nASPD\n100\nWind Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n20\nSpina\nProcess\n10 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n15\nDifficulty\n20\nMaterials\n- 5x Hard Stem\n- 15x Kijimu Splinter\n- 50x Metal"
+    },
+    {
+        "Name": "7th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n64\nBase Stability %\n70\nPotential\n34\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Metal",
+        "Recipes": "240\n Spina Set\n1\n pcs Level\n1\nDifficulty\n140\nMaterials\n- 20x Bronze 7th Anniv Medal\n- 31x Metal"
+    },
+    {
+        "Name": "Black Shadow Nodachi[Katana]",
+        "StatEffect_Amount": "Base ATK\n142\nBase Stability %\n60\nPotential\n47",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n200\nSpina\nProcess\n100 Metal",
+        "Recipes": "N/A Set1\n pcs Level\n195\nDifficulty\n230\nMaterials\n- 3x Scary Black Shadow Face\n- 1x Black Shadow Crystal\n- 1500x Metal\n- 500x Beast"
+    },
+    {
+        "Name": "9th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nBase Stability %\n70\nPotential\n49",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n11\nDEX %\n1\nCritical Rate\n2\nShort Range Damage %\n1\nBase Stability %\n70\nUnsheathe Attack %\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box III\n-",
+        "Processing": "Sell\nUnknownProcess12 Metal",
+        "Recipes": "10\n Spina Set\n1\n pcs Level\n1\nDifficulty\n25\nMaterials\n- 20x Bronze 3rd Anniv Medal"
+    },
+    {
+        "Name": "9th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nBase Stability %\n70\nPotential\n43",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nMax HP\n5000\nATK %\n9\nEarth resistance %\n25\nAggro %\n- 60\nFire Element\n1\nAttack MP Recovery\n4\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n25\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Seiun[Katana]",
+        "StatEffect_Amount": "Base ATK\n79\nAccuracy %\n9\nCritical Rate\n13\nWater Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n5",
+        "MonsterDyeMap": "Sanctuary Guardian(Lv 146)\nShrine of the Gods: Area 4Sanctuary Guardian(Lv 148)\nHall of Special Gods Toy Bolg(Lv 139)\nJoulu House: Depot (Lv 130)",
+        "Processing": "Sell\n140\nSpina\nProcess\n70 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "3rd Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n46\nBase Stability %\n70\nPotential\n30",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcess47 Metal",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level\n75\nDifficulty\n100\nMaterials\n- 20x Pom 3rd Anniv Medal\n- 100x Metal"
+    },
+    {
+        "Name": "4th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n46\nBase Stability %\n70\nPotential\n30",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n95\nSpina\nProcess\n47 Metal",
+        "Recipes": "200\n Spina Set\n1\n pcs Level\n75\nDifficulty\n100\nMaterials\n- 20x Silver 4th Anniv Medal\n- 100x Metal"
+    },
+    {
+        "Name": "Demon Empress Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nBase Stability %\n70\nPotential\n46",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Mana",
+        "Recipes": "1950\n Spina Set\n1\n pcs Level\n190\nDifficulty\n195\nMaterials\n- 2x Empress Ogre Accessory Chip\n- 2x Empress Ogre Crystal\n- 1300x Beast\n- 650x Mana"
+    },
+    {
+        "Name": "Milk Chocolate Churro[Katana]",
+        "StatEffect_Amount": "Base ATK\n125\nDodge %\n10\nASPD\n1000\nASPD %\n100\nBase Stability %\n80\nATK UP (AGI %)\n250",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n190\nSpina\nProcess\n95 Medicine",
+        "Recipes": "190\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 3x Fluffy Marshmallow\n- 1x Super Sweet Syrup\n- 190x Mana"
+    },
+    {
+        "Name": "Demon Empress Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nATK %\n7\nCritical Rate\n25\nFire Element\n1\n% stronger against Neutral\n25\nBase Stability %\n70\nGuard Break %\n15\nHeavy Armor only:Fractional Barrier %\n200",
+        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)\nNeo Plastida Venena Metacoenubia(Lv 195)\nNeo Plastida Venena Metacoenubia(Lv 205)\nNeo Plastida Venena Metacoenubia(Lv 215)\nNeo Plastida Venena Metacoenubia(Lv 235)\nNeo Plastida",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Nameless Uchigatana[Katana]",
+        "StatEffect_Amount": "Base ATK\n6\nCritical Rate\n10\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n10\nSpina\nProcess\n5 Metal",
+        "Recipes": "50\n Spina Set\n1\n pcs Level\n5\nDifficulty\n10\nMaterials\n- 15x Woodchip\n- 25x Metal"
+    },
+    {
+        "Name": "Mortal Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n115\nATK %\n7\nCritical Rate\n70\nWind Element\n1\nBase Stability %\n70\nGuard Break %\n30",
+        "MonsterDyeMap": "Gravicep(Lv 174)\nRecetacula Sector: Depot Rooftop Gravicep(Lv 184)\nRecetacula Sector: Depot Rooftop Gravicep(Lv 194)\nRecetacula Sector: Depot Rooftop Gravicep(Lv 204)\nRecetacula Sector: Depot Rooftop Gravicep(Lv 224)\nRecetacula Sector: Depot Rooftop",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Modestia (old)[Katana]",
+        "StatEffect_Amount": "Base ATK\n100\nASPD\n1000\nCritical Rate\n100\nAttack MP Recovery\n10\nBase Stability %\n70",
+        "MonsterDyeMap": "P. Avatar(Lv 800)\n5422\nEvent",
+        "Processing": "Sell\n1\nSpina\nProcess\n1000 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Death Samurai Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nBase Stability %\n70\nPotential\n22",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n54\nSpina\nProcess\nunknown",
+        "Recipes": "20\n Spina Set\n1\n pcs Level\n31\nDifficulty\n30\nMaterials\n- 5x Dark Note Paper"
+    },
+    {
+        "Name": "Seiun[Katana]",
+        "StatEffect_Amount": "Base ATK\n79\nAccuracy %\n10\nCritical Rate\n15\nWater Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n140\nSpina\nProcess\n70 Metal",
+        "Recipes": "700\n Spina Set\n1\n pcs Level\n135\nDifficulty\n140\nMaterials\n- 5x Ice Wolf Fang\n- 20x Cracked Halo\n- 250x Beast\n- 100x Wood"
+    },
+    {
+        "Name": "Shirogane[Katana]",
+        "StatEffect_Amount": "Base ATK\n125\nATK %\n7\nLight Element\n1\nAttack MP Recovery\n7\nBase Stability %\n70\nUnsheathe Attack %\n7",
+        "MonsterDyeMap": "Tetracle(Lv 206)\nArstida: Area 1Tetracle(Lv 208)\nArstida: Area \n2",
+        "Processing": "Sell\n190\nSpina\nProcess\n95 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "6th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nDEX %\n6\nCritical Rate\n30\nShort Range Damage %\n6\nBase Stability %\n70\nUnsheathe Attack %\n12\nGuard Break %\n15\nReduce Dmg (Bowling)\n %\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n130\nDifficulty\n175\nMaterials\n- 20x Gold 6th Anniv Medal\n- 175x Metal"
+    },
+    {
+        "Name": "7th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nBase Stability %\n70\nPotential\n49\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": "420\n Spina Set\n1\n pcs Level\n190\nDifficulty\n230\nMaterials\n- 20x Silpom 7th Anniv Medal\n- 220x Metal"
+    },
+    {
+        "Name": "Raiden[Katana]",
+        "StatEffect_Amount": "Base ATK\n198\nASPD\n1000\nCSPD %\n65\nWater resistance %\n- 40\nWind Element\n1\nAttack MP Recovery\n20\nBase Stability %\n80\nLight Armor only:Unsheathe Attack %\n10",
+        "MonsterDyeMap": "Bemoz(Lv 250)\nDeusania's Lab Innermost Chambers",
+        "Processing": "Sell\n275\nSpina\nProcess\n137 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n11\nDEX %\n1\nCritical Rate\n2\nShort Range Damage %\n1\nBase Stability %\n70\nUnsheathe Attack %\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box IV\n-",
+        "Processing": "Sell\n25\nSpina\nProcess\n12 Metal",
+        "Recipes": "1\n Spina Set\n1\n pcs Level\n1\nDifficulty\n25\nMaterials\n- 5x Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "8th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n110\nDEX %\n7\nMax MP\n170\nATK %\n7\nCritical Rate\n35\nBase Stability %\n70\nUnsheathe Attack %\n6\nReduce Dmg (Bowling)\n %\n35\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n175\nSpina\nProcess\n87 Metal",
+        "Recipes": "330\n Spina Set\n1\n pcs Level\n110\nDifficulty\n185\nMaterials\n- 20x Silver 8th Anniv Medal\n- 140x Metal"
+    },
+    {
+        "Name": "Aobato[Katana]",
+        "StatEffect_Amount": "Base ATK\n10\nBase Stability %\n70\nPotential\n18",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n20\nSpina\nProcess\n10 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n15\nDifficulty\n20\nMaterials\n- 5x Hard Stem\n- 15x Kijimu Splinter\n- 50x Metal"
+    },
+    {
+        "Name": "Shirogane[Katana]",
+        "StatEffect_Amount": "Base ATK\n125\nATK %\n7\nLight Element\n1\nAttack MP Recovery\n14\nBase Stability %\n70\nUnsheathe Attack %\n7",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n190\nSpina\nProcess\n95 Metal",
+        "Recipes": "950\n Spina Set\n1\n pcs Level\n185\nDifficulty\n190\nMaterials\n- 5x Rhyolite\n- 25x Geometric Outer Shell\n- 275x Metal\n- 200x Wood"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n141\nDEX %\n4\nATK %\n8\nWind resistance %\n10\nAggro %\n- 30\nEarth Element\n1\nAttack MP Recovery\n7\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n27\nMax MP\n200\nPhysical Resistance %\n10\nCritical Damage\n2\nLight Element\n1\nAttack MP Recovery\n3\nWeapon ATK\n120\nBase Stability %\n70\nUnsheathe Attack %\n4",
+        "MonsterDyeMap": "Mimesia (Nightmare)\n(Lv 180)\nABCSakura Castle Donjon: Top",
+        "Processing": "Sell\n60\nSpina\nProcess\n30 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Iradium[Katana]",
+        "StatEffect_Amount": "Base ATK\n76\nMax HP %\n- 30\nATK %\n5\nPhysical Pierce %\n5\nMagic Resistance %\n30\nAggro %\n- 15\nDark Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n5",
+        "MonsterDyeMap": "Ultimate Machina(Lv 129)\nDroma Square Ultimate Machina(Lv 139)\nDroma Square Ultimate Machina(Lv 149)\nDroma Square Ultimate Machina(Lv 159)\nDroma Square Ultimate Machina(Lv 179)\nDroma Square",
+        "Processing": "Sell\n135\nSpina\nProcess\n67 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dragon Claw Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n100\nBase Stability %\n70\nPotential\n41",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": "1650\n Spina Set\n1\n pcs Level\n160\nDifficulty\n165\nMaterials\n- 1x Dark Gemstone\n- 2x Finstern Claw\n- 900x Beast\n- 750x Metal"
+    },
+    {
+        "Name": "4th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nBase Stability %\n70\nPotential\n32",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": "300\n Spina Set\n1\n pcs Level\n95\nDifficulty\n125\nMaterials\n- 20x Gold 4th Anniv Medal\n- 150x Metal"
+    },
+    {
+        "Name": "Korakiri[Katana]",
+        "StatEffect_Amount": "Base ATK\n70\nSTR %\n3\nMax MP\n200\nATK %\n6\nCritical Damage\n1\nWind Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Metal",
+        "Recipes": "650\n Spina Set\n1\n pcs Level\n125\nDifficulty\n130\nMaterials\n- 15x Granite\n- 25x Wolf Shark Fang\n- 200x Metal\n- 125x Beast"
+    },
+    {
+        "Name": "Kanpuu[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nATK %\n6\nPhysical Pierce %\n10\nMDEF %\n- 50\nAggro %\n- 30\nEarth Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "750\n Spina Set\n1\n pcs Level\n145\nDifficulty\n150\nMaterials\n- 20x Plant Tail\n- 10x Vampire Root\n- 200x Wood\n- 175x Metal"
+    },
+    {
+        "Name": "Death Samurai Sword II[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nMax HP\n3000\nCritical Rate\n75\nEarth resistance %\n10\nAilment Resistance %\n6\nFire Element\n1\nBase Stability %\n70\nReduce Dmg (Bullet)\n %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n28\nSpina\nProcess\nunknown",
+        "Recipes": "200\n Spina Set\n1\n pcs Level\n31\nDifficulty\n90\nMaterials\n- 5x Dark Note Paper\n- 1x Cutesy Cone"
+    },
+    {
+        "Name": "Mortal Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n115\nBase Stability %\n70\nPotential\n44",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Metal",
+        "Recipes": "1800\n Spina Set\n1\n pcs Level\n175\nDifficulty\n180\nMaterials\n- 1x Gravicep Accessory Chip\n- 2x Gravicep Huge Arm\n- 1400x Metal\n- 400x Mana"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nMax HP\n5000\nATK %\n9\nWind resistance %\n25\nAggro %\n- 60\nEarth Element\n1\nAttack MP Recovery\n4\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n25\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Burning Ember Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n175\nBase Stability %\n65\nPotential\n53\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n235\nSpina\nProcess\n117 Wood",
+        "Recipes": "2350\n Spina Set\n1\n pcs Level\n230\nDifficulty\n235\nMaterials\n- 2x Burning Dragon Claw\n- 1x Flowing Fiery Blood\n- 1500x Metal\n- 850x Beast"
+    },
+    {
+        "Name": "7th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n169\nDEX %\n9\nPhysical Pierce %\n20\nCritical Rate\n30\nShort Range Damage %\n9\nBase Stability %\n70\nGuard Break %\n25\nReduce Dmg (Bowling)\n %\n30\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n230\nSpina\nProcess\n115 Metal",
+        "Recipes": "440\n Spina Set\n1\n pcs Level\n210\nDifficulty\n240\nMaterials\n- 20x Golpom 7th Anniv Medal\n- 240x Metal"
+    },
+    {
+        "Name": "Yatagarasu[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nMax HP %\n- 40\nATK %\n10\nAccuracy %\n30\nAggro %\n- 50\nWater Element\n1\n% stronger against Neutral\n35\nBase Stability %\n80\nAbsolute Dodge %\n20\nAttack Range (m)\n2\n.\n5\nNinjutsu Scroll only:CSPD %\n100\nCritical Rate %\n100",
+        "MonsterDyeMap": "Pedrio(Lv 265)\nHigh Difficulty Boss Battle Event Venue",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n34\nDEX %\n3\nCritical Rate\n6\nShort Range Damage %\n3\nBase Stability %\n70\nUnsheathe Attack %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n50\nDifficulty\n75\nMaterials\n- 20x Bronze 4th Anniv Medal"
+    },
+    {
+        "Name": "3rd Anniv Katana VII[Katana]",
+        "StatEffect_Amount": "Base ATK\n83\nBase Stability %\n70\nPotential\n38",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcess72 Metal",
+        "Recipes": "5000\n Spina Set\n1\n pcs Level\n130\nDifficulty\n155\nMaterials\n- 20x Golpom 3rd Anniv Medal\n- 250x Metal"
+    },
+    {
+        "Name": "5th Anniv Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n34\nDEX %\n4\nPhysical Pierce %\n15\nCritical Rate\n12\nShort Range Damage %\n4\nBase Stability %\n70\nUnsheathe Attack %\n8",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith Anniv Equipment Box V\n-",
+        "Processing": "Sell\n75\nSpina\nProcess\n37 Metal",
+        "Recipes": "100\n Spina Set\n1\n pcs Level\n25\nDifficulty\n75\nMaterials\n- 20x Bronze 5th Anniv Medal"
+    },
+    {
+        "Name": "Kanpuu[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nATK %\n6\nPhysical Pierce %\n10\nMDEF %\n- 30\nAggro %\n- 20\nEarth Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "Rafflesian(Lv 157)\nMorthell Swell: Area 1Rafflesian(Lv 159)\nMorthell Swell: Area \n2",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nDEX %\n5\nATK %\n10\nEarth resistance %\n15\nAggro %\n- 40\nFire Element\n1\nAttack MP Recovery\n7\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n15\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception: 2nd Part (2023)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "8th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n169\nBase Stability %\n70\nPotential\n52\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n230\nSpina\nProcess\n115 Metal",
+        "Recipes": "440\n Spina Set\n1\n pcs Level\n210\nDifficulty\n240\nMaterials\n- 20x Silpom 8th Anniv Medal\n- 240x Metal"
+    },
+    {
+        "Name": "5th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nBase Stability %\n70\nPotential\n32",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": "190\n Spina Set\n1\n pcs Level\n75\nDifficulty\n120\nMaterials\n- 20x Silver 5th Anniv Medal"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n141\nMax HP\n3000\nATK %\n7\nEarth resistance %\n20\nAggro %\n- 40\nFire Element\n1\nAttack MP Recovery\n4\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n20",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sumire Renkyoku[Katana]",
+        "StatEffect_Amount": "Base ATK\n37\nCritical Rate\n5\nCritical Damage\n10\nBase Stability %\n70\nGuard Break %\n15",
+        "MonsterDyeMap": "Flying Executioner(Lv 89)\nCradle of Soldier: Entrance Flying Executioner(Lv 89)\nCradle of Soldier: Inside",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana VII[Katana]",
+        "StatEffect_Amount": "Base ATK\n83\nBase Stability %\n70\nPotential\n38",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Metal",
+        "Recipes": "500\n Spina Set\n1\n pcs Level\n130\nDifficulty\n155\nMaterials\n- 20x Bropom 4th Anniv Medal\n- 250x Metal"
+    },
+    {
+        "Name": "4th Anniv Katana VIII[Katana]",
+        "StatEffect_Amount": "Base ATK\n96\nBase Stability %\n70\nPotential\n41",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": "600\n Spina Set\n1\n pcs Level\n145\nDifficulty\n170\nMaterials\n- 20x Silpom 4th Anniv Medal\n- 300x Metal"
+    },
+    {
+        "Name": "Glacial Ice Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nATK %\n5\nMATK %\n5\nASPD\n250\nWater Element\n1\nAttack MP Recovery\n10\nBase Stability %\n70\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Evil Shadow(Lv 137)\nReindeer Forest",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Tatetsuba[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nBase Stability %\n70\nUnsheathe Attack %\n20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n50\nSpina\nProcess\n25 Metal",
+        "Recipes": "250\n Spina Set\n1\n pcs Level\n45\nDifficulty\n50\nMaterials\n- 20x Big Mane\n- 20x Cracked Rib\n- 75x Metal\n- 50x Cloth"
+    },
+    {
+        "Name": "Caro Tesla[Katana]",
+        "StatEffect_Amount": "Base ATK\n70\nMax MP\n300\nATK %\n5\nDodge %\n- 40\nEvasion Recharge %\n- 20\nAggro %\n40\nWater Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Wood",
+        "Recipes": "1300\n Spina Set\n1\n pcs Level\n125\nDifficulty\n130\nMaterials\n- 1x Mystic Crystal Stone\n- 2x Magic Charged Rock\n- 1000x Wood\n- 300x Metal"
+    },
+    {
+        "Name": "5th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n83\nDEX %\n6\nPhysical Pierce %\n15\nCritical Rate\n18\nShort Range Damage %\n6\nBase Stability %\n70\nUnsheathe Attack %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Metal",
+        "Recipes": "260\n Spina Set\n1\n pcs Level\n110\nDifficulty\n155\nMaterials\n- 20x Gold 5th Anniv Medal"
+    },
+    {
+        "Name": "7th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nDEX %\n7\nPhysical Pierce %\n16\nCritical Rate\n30\nShort Range Damage %\n7\nBase Stability %\n70\nGuard Break %\n21\nReduce Dmg (Bowling)\n %\n30\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": "390\n Spina Set\n1\n pcs Level\n175\nDifficulty\n215\nMaterials\n- 20x Bropom 7th Anniv Medal\n- 205x Metal"
+    },
+    {
+        "Name": "9th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nBase Stability %\n70\nPotential\n55",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Crystal Lamina[Katana]",
+        "StatEffect_Amount": "Base ATK\n106\nBase Stability %\n60\nPotential\n39",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "1500\n Spina Set\n1\n pcs Level\n145\nDifficulty\n150\nMaterials\n- 1x Titan Heart\n- 3x Corroded Trunk\n- 1200x Metal\n- 300x Beast"
+    },
+    {
+        "Name": "Sumire Renkyoku[Katana]",
+        "StatEffect_Amount": "Base ATK\n37\nBase Stability %\n70\nPotential\n28",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "400\n Spina Set\n1\n pcs Level\n75\nDifficulty\n80\nMaterials\n- 6x Chipped Crystal Stone\n- 4x Strange Mask\n- 150x Beast\n- 50x Metal"
+    },
+    {
+        "Name": "Kuwagumo[Katana]",
+        "StatEffect_Amount": "Base ATK\n13\nMax MP\n50\nDark Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "Fire Ghost(Lv 28)\nFiery Volcano: Area 1Fire Ghost(Lv 28)\nFiery Volcano: Area \n2",
+        "Processing": "Sell\n30\nSpina\nProcess\n15 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Shura Koshirae[Katana]",
+        "StatEffect_Amount": "Base ATK\n32\nGuard Power %\n20\nGuard Recharge %\n20\nEarth Element\n1\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level\n65\nDifficulty\n70\nMaterials\n- 15x Tough Tail\n- 20x Tough Carapace\n- 125x Metal\n- 50x Beast"
+    },
+    {
+        "Name": "7th Anniv Katana V[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nDEX %\n8\nPhysical Pierce %\n18\nCritical Rate\n30\nShort Range Damage %\n8\nBase Stability %\n70\nGuard Break %\n23\nReduce Dmg (Bowling)\n %\n30\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": "420\n Spina Set\n1\n pcs Level\n190\nDifficulty\n230\nMaterials\n- 20x Silpom 7th Anniv Medal\n- 220x Metal"
+    },
+    {
+        "Name": "6th Anniv Katana II[Katana]",
+        "StatEffect_Amount": "Base ATK\n64\nDEX %\n5\nCritical Rate\n30\nShort Range Damage %\n5\nBase Stability %\n70\nUnsheathe Attack %\n10\nGuard Break %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Metal",
+        "Recipes": "240\n Spina Set\n1\n pcs Level\n90\nDifficulty\n145\nMaterials\n- 20x Silver 6th Anniv Medal\n- 145x Metal"
+    },
+    {
+        "Name": "Sacred Ice Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n92\nATK %\n4\nASPD %\n80\n% stronger against Light\n- 25\n% stronger against Dark\n10\nAilment Resistance %\n3\nWater Element\n1\nBase Stability %\n75\nATK UP (AGI %)\n100",
+        "MonsterDyeMap": "Noeliel the Ice Statue(Lv 122)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue (raid)\n(Lv 162)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue (raid)\n(Lv 152)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue (raid)\n(Lv 142)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue (raid)\n(Lv 132)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue(Lv 172)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue(Lv 152)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue(Lv 142)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue(Lv 132)\nNoeliel Castle: Hall (100 - 120)\nNoeliel the Ice Statue (raid)\n(Lv 182)\nNoeliel Castle: Hall (100 - 120)",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kasakiri[Katana]",
+        "StatEffect_Amount": "Base ATK\n64\nCritical Rate\n40\nAggro %\n- 20\nLight Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Metal",
+        "Recipes": "600\n Spina Set\n1\n pcs Level\n115\nDifficulty\n120\nMaterials\n- 20x Hard Beast Fang\n- 30x Iron Scrap\n- 150x Metal\n- 150x Beast"
+    },
+    {
+        "Name": "Nameless Uchigatana[Katana]",
+        "StatEffect_Amount": "Base ATK\n6\nCritical Rate\n5\nBase Stability %\n70",
+        "MonsterDyeMap": "Kijimu(Lv 11)\nSuedor Cliff Kijimu(Lv 13)\nSuedor Cliff",
+        "Processing": "Sell\n10\nSpina\nProcess\n5 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dragon Claw Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n100\nCritical Rate\n15\nDark resistance %\n20\nDark Element\n1\nBase Stability %\n70\nATK UP (AGI %)\n250\nReduce Dmg (Straight Line)\n %\n20",
+        "MonsterDyeMap": "Finstern the Dark Dragon (Megiston 2020)\n(Lv 200)\nEvent",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Golden Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n12\nINT\n3\nMax MP\n250\nASPD\n100\nCritical Rate\n10\nGuard Recharge %\n5\nBase Stability %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n10 Mana",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Golden Apple\n- 50x Metal\n- 30x Wood\n- 10x Mana"
+    },
+    {
+        "Name": "Patriot Edge[Katana]",
+        "StatEffect_Amount": "Base ATK\n141\nDEX %\n4\nATK %\n8\nEarth resistance %\n10\nAggro %\n- 30\nFire Element\n1\nAttack MP Recovery\n7\nBase Stability %\n70\nReduce Dmg (Bowling)\n %\n10",
+        "MonsterDyeMap": "[NPC]HATSUNE MIKU's Collab Event Reception (2nd Part)\nHATSUNE MIKU Collab Venue",
+        "Processing": "Sell\n1\nSpina\nProcess\n100 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Faldios[Katana]",
+        "StatEffect_Amount": "Base ATK\n34\nStability %\n4\nShort Range Damage %\n2\n% stronger against Neutral\n25\nBase Stability %\n70\nMagic Barrier\n500",
+        "MonsterDyeMap": "Nurethoth(Lv 76)\nGate to Another World: Front Nurethoth(Lv 66)\nGate to Another World: Front Nurethoth(Lv 86)\nGate to Another World: Front Nurethoth(Lv 96)\nGate to Another World: Front Nurethoth(Lv 116)\nGate to Another World: Front",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "4th Anniv Katana IV[Katana]",
+        "StatEffect_Amount": "Base ATK\n46\nDEX %\n4\nCritical Rate\n8\nShort Range Damage %\n4\nBase Stability %\n70\nUnsheathe Attack %\n8",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n95\nSpina\nProcess\n47 Metal",
+        "Recipes": "200\n Spina Set\n1\n pcs Level\n75\nDifficulty\n100\nMaterials\n- 20x Silver 4th Anniv Medal\n- 100x Metal"
+    },
+    {
+        "Name": "Homura[Katana]",
+        "StatEffect_Amount": "Base ATK\n115\nEarth resistance %\n20\nFire Element\n1\nShort Range Damage %\n7\nBase Stability %\n80\nAdditional Melee %\n50",
+        "MonsterDyeMap": "Smilodocanis(Lv 194)\nGuardian Forest: Lost Woods Smilodocanis(Lv 194)\nGuardian Forest: Inner Area Confeito(Lv 197)\nNoeliel Castle: B\n1\nF (190 - 210)\nConfeito(Lv 199)\nNoeliel Castle: B\n1\nF (190 - 210)\nConfeito(Lv 199)\nNoeliel Castle: B\n2\nF (190 - 210)\nConfeito(Lv 199)\nNoeliel Castle: B\n3\nF (190 - 210)\nSmilodocanis(Lv 196)\nGuardian Forest: Outer Area",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kanpuu[Katana]",
+        "StatEffect_Amount": "Base ATK\n88\nBase Stability %\n70\nPotential\n39",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": "750\n Spina Set\n1\n pcs Level\n145\nDifficulty\n150\nMaterials\n- 20x Plant Tail\n- 10x Vampire Root\n- 200x Wood\n- 175x Metal"
+    },
+    {
+        "Name": "8th Anniv Katana III[Katana]",
+        "StatEffect_Amount": "Base ATK\n130\nDEX %\n7\nMax MP\n190\nATK %\n7\nCritical Rate\n35\nBase Stability %\n70\nUnsheathe Attack %\n7\nReduce Dmg (Bowling)\n %\n35\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n195\nSpina\nProcess\n97 Metal",
+        "Recipes": "370\n Spina Set\n1\n pcs Level\n170\nDifficulty\n205\nMaterials\n- 20x Gold 8th Anniv Medal\n- 200x Metal"
+    },
+    {
+        "Name": "Beastlord Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nBase Stability %\n70\nPotential\n48",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "N/A Set1\n pcs Level\n200\nDifficulty\n203\nMaterials\n- 1x Zega VI\n- 1x Orichalcum"
+    },
+    {
+        "Name": "9th Anniv Katana VI[Katana]",
+        "StatEffect_Amount": "Base ATK\n220\nDEX %\n10\nATK %\n11\nPhysical Pierce %\n25\nCSPD\n1200\nCritical Rate\n40\nBase Stability %\n70\nATK UP (AGI %)\n250\nReduce Dmg (Bowling)\n %\n40",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sword of Light (Katana)[Katana]",
+        "StatEffect_Amount": "Base ATK\n158\nMax HP\n3000\nMax MP\n300\nPhysical Pierce %\n10\nCritical Rate\n100\nLight Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n10\nTumble Unavailable\n1\nFractional Barrier %\n30\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Slayers: Collab Prize Exchange Sofya City",
+        "Processing": "Sell\n1000\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Brass Dragon Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n194\nATK %\n10\nAccuracy\n200\nASPD\n1000\nCritical Rate %\n100\nLight Element\n1\nBase Stability %\n70\nAdditional Melee %\n100\nReduce Dmg (Charge)\n %\n10\nAttack Range (m)\n2",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": "2500\n Spina Set\n1\n pcs Level\n245\nDifficulty\n250\nMaterials\n- 1x Brass Dragon Trumpet Horn\n- 2x Brass Dragon Tail\n- 1500x Beast\n- 1000x Metal"
+    },
+    {
+        "Name": "Blue Spinel Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n146\nMax HP %\n30\nPhysical Resistance %\n20\nMagic Resistance %\n25\nEarth Element\n1\nBase Stability %\n70\nAttack Range (m)\n2\nHeavy Armor only:Aggro %\n70",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": "1050\n Spina Set\n1\n pcs Level\n205\nDifficulty\n210\nMaterials\n- 10x Growing Ore\n- 5x Old Rock\n- 350x Metal\n- 175x Medicine"
+    },
+    {
+        "Name": "Kasakiri[Katana]",
+        "StatEffect_Amount": "Base ATK\n64\nBase Stability %\n70\nPotential\n34",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Metal",
+        "Recipes": "600\n Spina Set\n1\n pcs Level\n115\nDifficulty\n120\nMaterials\n- 20x Hard Beast Fang\n- 30x Iron Scrap\n- 150x Metal\n- 150x Beast"
+    },
+    {
+        "Name": "Death Samurai Sword[Katana]",
+        "StatEffect_Amount": "Base ATK\n22\nMax HP\n1500\nCritical Rate\n50\nEarth resistance %\n5\nAilment Resistance %\n3\nFire Element\n1\nBase Stability %\n70\nReduce Dmg (Bullet)\n %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n27\nSpina\nProcess\nunknown",
+        "Recipes": "20\n Spina Set\n1\n pcs Level\n31\nDifficulty\n30\nMaterials\n- 5x Dark Note Paper"
+    },
+    {
+        "Name": "Abyss Katana[Katana]",
+        "StatEffect_Amount": "Base ATK\n213\nDEX %\n10\nMax HP\n10000\n% stronger against Fire\n10\nAggro %\n- 100\nWater Element\n1\nBase Stability %\n70\nUnsheathe Attack %\n10\nInvincible Aid (sec)\n1\nAbsolute Dodge %\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": "2650\n Spina Set\n1\n pcs Level\n260\nDifficulty\n265\nMaterials\n- 2x Vatudo's Tactile Hair\n- 2x Vatudo's Spiral Arm\n- 1750x Metal\n- 900x Beast"
+    },
+    {
+        "Name": "Homura[Katana]",
+        "StatEffect_Amount": "Base ATK\n115\nEarth resistance %\n20\nFire Element\n1\nShort Range Damage %\n7\nBase Stability %\n80\nAdditional Melee %\n100",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Metal",
+        "Recipes": "900\n Spina Set\n1\n pcs Level\n175\nDifficulty\n180\nMaterials\n- 10x Mysterious Flower\n- 20x Green Lizard Skin\n- 400x Metal\n- 50x Mana"
+    },
+    {
+        "Name": "Death Samurai Sword II[Katana]",
+        "StatEffect_Amount": "Base ATK\n56\nBase Stability %\n70\nPotential\n31",
+        "MonsterDyeMap": "[Player]Smith Skill\n-",
+        "Processing": "Sell\n55\nSpina\nProcess\nunknown",
+        "Recipes": "200\n Spina Set\n1\n pcs Level\n31\nDifficulty\n90\nMaterials\n- 5x Dark Note Paper\n- 1x Cutesy Cone"
+    }
+]
