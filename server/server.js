@@ -214,7 +214,7 @@ app.post('/rangesearch', (req, res) => {
         const minLevel = baseLevel - range;
         const maxLevel = baseLevel + range;
 
-        const filteredData = data.filter(row => {
+        var filteredData = data.filter(row => {
             const stats = row.Stats; // Assuming Stats column contains data like "Lv 108"
             const levelMatch = stats.match(/Lv\s*(\d+)/); // Extract number after "Lv"
 
@@ -230,6 +230,7 @@ app.post('/rangesearch', (req, res) => {
 
         // Configurable number of rows to return (e.g., top 10)
         const maxRows = 10;
+        filteredData = formatTableData(filteredData)
         const rowsToReturn = filteredData; // Limit the rows to the specified maximum
         // const rowsToReturn = filteredData.slice(0, maxRows); // Limit the rows to the specified maximum
 
