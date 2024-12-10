@@ -133,7 +133,7 @@ app.get('/files', (_req, res) => {
             const fullPath = path.join(directory, item.name);
             if (item.isDirectory()) {
                 findFilesRecursively(fullPath); // Recurse into subdirectory
-            } else if (item.isFile() && item.name.endsWith('.xlsx')) {
+            } else if (item.isFile() &&(item.name.endsWith('.xlsx') || item.name.endsWith('json'))) {
                 console.log(`Found file: ${fullPath}`);
                 downloadableFiles.push({
                     name: path.relative(filesDir, fullPath), // Relative path for URL

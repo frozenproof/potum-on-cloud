@@ -47,6 +47,8 @@ docker load < poctar_latest.tar.gz
 
 docker build --platform=linux/amd64
 
+docker pull truclinhgm/poc:deploy-ready
+
 docker compose build
 sudo lsof -i :4000
 sudo kill -9 <PID>

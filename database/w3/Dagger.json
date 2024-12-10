@@ -1,513 +1,513 @@
 [
     {
-        "Name": "Antique Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n100",
-        "MonsterDyeMap": "Cursed Clock(Lv 71)\nMagic Waste Site: Area \n2\nCursed Clock(Lv 71)\nMagic Waste Site: Area \n3\nDirty Antique\n-",
-        "Processing": "SellUnknownProcessunknown",
+        "Name": "Insect Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n110\nAccuracy\n30\nASPD\n200\nEvasion Recharge %\n10",
+        "MonsterDyeMap": "Insector(Lv 162)\nLabilans Sector: Area 1Insector(Lv 163)\nLabilans Sector: Area 2Insector(Lv 164)\nLabilans Sector: Area \n3",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Beak Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n157\nSTR %\n1\nATK %\n1\nStability %\n- 3\nUnsheathe Attack %\n1",
+        "MonsterDyeMap": "Dodos(Lv 192)\nVulcani Foothills Dodos(Lv 195)\nVulcani Foothills",
+        "Processing": "Sell\n190\nSpina\nProcess\n95 Beast",
         "Recipes": ""
     },
     {
         "Name": "Flower Bud Dagger[Dagger]",
         "StatEffect_Amount": "Base ATK\n15\nMATK %\n1\nCSPD\n300\nAilment Resistance %\n5",
         "MonsterDyeMap": "Floragonet(Lv 129)\nCookie Road",
-        "Processing": "Sell180\nSpina\nProcess\n90 Medicine",
-        "Recipes": ""
-    },
-    {
-        "Name": "Anger Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n219\nCritical Rate\n20\nAggro %\n80\nAnticipate %\n5",
-        "MonsterDyeMap": "Anchorsea(Lv 232)\nSeabed Anchorsea(Lv 234)\nSeabed",
-        "Processing": "Sell235\nSpina\nProcess\n117 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Knife Shaft[Dagger]",
-        "StatEffect_Amount": "Base ATK\n20\nCritical Damage\n1\nEvasion Recharge %\n10\nBase Stability %\n0\nBowgun only:Weapon ATK\n30",
-        "MonsterDyeMap": "empty",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Sorting Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n60\nCritical Rate\n15\nDark resistance %\n- 15\nAnticipate %\n3",
-        "MonsterDyeMap": "Sorter Golem(Lv 167)\nJoulu House: Gift Room (Lv 150)",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Heavy Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n17\nSTR\n3\nAccuracy\n- 3\nCritical Rate\n5",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessN/A",
-        "Recipes": "150\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Iron\n- \n5\nx Heated Fang\n- \n50\nx Metal\n- \n25\nx Wood"
-    },
-    {
-        "Name": "Twilight Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n10\nASPD %\n10\nCSPD %\n10\nAdditional Melee %\n10\nAdditional Magic %\n10",
-        "MonsterDyeMap": "Twilight Dragon(Lv 100)\nFort Solfini: Roof Twilight Dragon(Lv 90)\nFort Solfini: Roof Twilight Dragon(Lv 110)\nFort Solfini: Roof Twilight Dragon(Lv 120)\nFort Solfini: Roof Twilight Dragon(Lv 140)\nFort Solfini: Roof",
-        "Processing": "Sell90\nSpina\nProcess\n45 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Bush Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n54\nPhysical Pierce %\n6\nASPD %\n- 2\nWeapon ATK\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessN/A",
-        "Recipes": "250\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Saham Crystal\n- \n2\nx Mineral Scissor\n- \n125\nx Metal"
-    },
-    {
-        "Name": "Biscuit Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n70\nNatural HP Regen %\n10\nMax MP\n200\nAggro %\n- 20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell1\nSpina\nProcess\n2 Medicine",
-        "Recipes": "40\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n9\nx Candy Fragment\n- \n3\nx Mysterious Fruit\n- \n40\nx Mana"
-    },
-    {
-        "Name": "Dagger of Grace[Dagger]",
-        "StatEffect_Amount": "Base ATK\n242\nMax HP\n1000\nMax MP\n200\nAggro %\n- 30",
-        "MonsterDyeMap": "Apapat(Lv 246)\nLittle Shrine of Grace: Area \n1\nApapat(Lv 247)\nLittle Shrine of Grace: Area \n2\nApapat(Lv 248)\nLittle Shrine of Grace: Area \n3",
-        "Processing": "Sell250\nSpina\nProcess\n125 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n12\nDodge\n3\nEvasion Recharge %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessN/A",
-        "Recipes": "100\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n2\nx Brutal Dragon Claw\n- \n5\nx Little Wyvern Wing\n- \n40\nx Metal\n- \n10\nx Wood"
-    },
-    {
-        "Name": "Kukri[Dagger]",
-        "StatEffect_Amount": "Base ATK\n50\nAccuracy\n7\nEvasion Recharge %\n10\nAdditional Melee %\n50",
-        "MonsterDyeMap": "Corroded Knight(Lv 78)\nTrace of Dark River",
-        "Processing": "Sell85\nSpina\nProcess\n42 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Anniv Festive Dagger III[Dagger]",
-        "StatEffect_Amount": "Base ATK\n183\nCSPD\n300\nEvasion Recharge %\n14\nTumble Unavailable\n1",
-        "MonsterDyeMap": "Anniv Equipment Box V\n-",
-        "Processing": "Sell210\nSpina\nProcess\n105 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Goddess's Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n1\nINT\n5\nMax MP\n100\nPhysical Resistance %\n- 10\nAttack MP Recovery\n1",
-        "MonsterDyeMap": "Imitacia(Lv 109)\nDark Castle: Grand Hall Imitacia(Lv 99)\nDark Castle: Grand Hall Imitacia(Lv 119)\nDark Castle: Grand Hall Imitacia(Lv 129)\nDark Castle: Grand Hall Imitacia(Lv 149)\nDark Castle: Grand Hall",
-        "Processing": "Sell100\nSpina\nProcess\n50 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Cursed Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n60\nMax HP\n- 200\nPhysical Pierce %\n5\nAilment Resistance %\n- 5\nWeapon ATK\n13\nBase Stability %\n0",
-        "MonsterDyeMap": "Death Zombeast(Lv 42)\nEthos Fortress Death Zombeast(Lv 45)\nEthos Fortress",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Sailor's Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n30\nMax MP\n100\nMATK %\n1\nShort Range Damage %\n- 3",
-        "MonsterDyeMap": "empty",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Apple Branch Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n126\nASPD %\n5\n% stronger against Wind\n5\nWind resistance %\n5",
-        "MonsterDyeMap": "Coryn(Lv 161)\nSugar Plain",
-        "Processing": "Sell165\nSpina\nProcess\n82 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Anniv Festive Dagger II[Dagger]",
-        "StatEffect_Amount": "Base ATK\n126\nCSPD\n200\nEvasion Recharge %\n12\nTumble Unavailable\n1",
-        "MonsterDyeMap": "Anniv Equipment Box III\n-",
-        "Processing": "Sell165\nSpina\nProcess\n82 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Fallen Angel Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n150\nATK %\n3\nCritical Damage\n3\nRecoil %\n0\n.\n01",
-        "MonsterDyeMap": "Bubble Bogey(Lv 177)\nBarbaros Corridor",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Storm Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n20\nDodge %\n7\nASPD %\n7\nCritical Rate %\n7",
-        "MonsterDyeMap": "Forestia(Lv 49)\nLand Of Chaos Forestia(Lv 39)\nLand Of Chaos Forestia(Lv 59)\nLand Of Chaos Forestia(Lv 69)\nLand Of Chaos Forestia(Lv 89)\nLand Of Chaos",
-        "Processing": "Sell35\nSpina\nProcess\n17 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Power Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n8\nSTR\n2\nWeapon ATK\n4",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessN/A",
-        "Recipes": "50\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n32\nx Mushroom Spore\n- \n20\nx Metal\n- \n5\nx Wood"
-    },
-    {
-        "Name": "Odd-Shaped Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n72\nMDEF %\n- 33\nCritical Damage\n3\nCritical Damage %\n3\nBase Stability %\n0",
-        "MonsterDyeMap": "Nurethoth(Lv 76)\nGate to Another World: Front Nurethoth(Lv 66)\nGate to Another World: Front Nurethoth(Lv 86)\nGate to Another World: Front Nurethoth(Lv 96)\nGate to Another World: Front Nurethoth(Lv 116)\nGate to Another World: Front",
-        "Processing": "Sell60\nSpina\nProcess\n30 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Icy Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n110\nWater resistance %\n10\nTumble Unavailable\n11\n-Handed Sword only:% stronger against Fire\n5",
-        "MonsterDyeMap": "Acernix(Lv 141)\nTomte Pavillion (130\n- 150\n)",
-        "Processing": "Sell150\nSpina\nProcess\n75 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Scratch Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n170\nAccuracy %\n8\nASPD %\n20\nAdditional Melee %\n50\nAdditional Magic %\n50",
-        "MonsterDyeMap": "Nix(Lv 200)\nIlluminare City: Route \n1\n (190\n- 210\n)\nNix(Lv 200)\nIlluminare City: Route \n2\n (190\n- 210\n)\nNix(Lv 200)\nIlluminare City: Route \n3\n (190\n- 210\n)\nNix(Lv 202)\nIlluminare City: Route \n3\n (190\n- 210\n)",
-        "Processing": "Sell200\nSpina\nProcess\n100 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Lightweight Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n33\nMagic Resistance %\n- 10\nASPD\n100\nEvasion Recharge %\n15\nBase Stability %\n0",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "300\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Outer World Nail\n- \n20\nx Withered Leaf\n- \n75\nx Metal\n- \n75\nx Beast"
-    },
-    {
-        "Name": "Scarlet Sakura Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n170\nAccuracy\n7\nCritical Rate\n14\nEvasion Recharge %\n10",
-        "MonsterDyeMap": "Dreamy Scarlet Sakura (Nightmare)\n(Lv 220)\nLush Falls : Upstream",
-        "Processing": "Sell180\nSpina\nProcess\n90 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Throwing Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n1\nINT\n1\nEvasion Recharge %\n5",
-        "MonsterDyeMap": "empty",
-        "Processing": "Sell0\nSpina\nProcess\nN/A",
-        "Recipes": ""
-    },
-    {
-        "Name": "Frog Warrior Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n250\nAccuracy %\n5\nAggro %\n- 10\nShort Range Damage %\n1\nMotion Speed %\n3\nBowgun only:CSPD %\n201\n-Handed Sword only:Critical Rate %\n20",
-        "MonsterDyeMap": "Zapo(Lv 246)\nPuerta Islands: Adit Zapo(Lv 256)\nPuerta Islands: Adit Zapo(Lv 266)\nPuerta Islands: Adit Zapo(Lv 276)\nPuerta Islands: Adit Zapo(Lv 296)\nPuerta Islands: Adit",
-        "Processing": "Sell255\nSpina\nProcess\n127 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Melting Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n234\nPhysical Pierce %\n5\nWater resistance %\n- 15\n% stronger against Neutral\n5\nGuard Break %\n5",
-        "MonsterDyeMap": "Magmanus(Lv 248)\nPerdida Wasteland Magmanus(Lv 250)\nPerdida Wasteland",
-        "Processing": "Sell245\nSpina\nProcess\n122 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Caravan Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n4\nEvasion Recharge %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessN/A",
-        "Recipes": "5\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n3\nx Short Nail\n- \n3\nx Metal"
-    },
-    {
-        "Name": "Twilight Sakura Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n130\nASPD\n400\nAttack MP Recovery\n6",
-        "MonsterDyeMap": "Amalgam(Lv 140)\nTwilight Sakura Castle: Top Amalgam(Lv 160)\nTwilight Sakura Castle: Top Amalgam(Lv 180)\nTwilight Sakura Castle: Top",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Demon Empress Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n150\nMagic Pierce %\n5\nCritical Rate\n10\nEvasion Recharge %\n15",
-        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)\nNeo Plastida Venena Metacoenubia(Lv 195)\nNeo Plastida Venena Metacoenubia(Lv 205)\nNeo Plastida Venena Metacoenubia(Lv 215)\nNeo Plastida Venena Metacoenubia(Lv 235)\nNeo Plastida",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Sorting Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n60\nCritical Rate\n5\nDark resistance %\n- 5\nAnticipate %\n1",
-        "MonsterDyeMap": "Sorter Golem(Lv 125)\nJoulu House: Gift Room (Lv 100)",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Magic Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n15\nCSPD\n50\nEvasion Recharge %\n5\nAttack MP Recovery\n1",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell30\nSpina\nProcess\n15 Mana",
-        "Recipes": "150\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Broken Magic Lantern\n- \n1\nx Four\n-leaf Clover\n- \n75\nx Metal"
-    },
-    {
-        "Name": "Dully Glowing Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n54\nAGI\n2\nCritical Rate\n4",
-        "MonsterDyeMap": "empty",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Trick Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n121\nCSPD\n150\nAdditional Magic %\n75",
-        "MonsterDyeMap": "Zarth(Lv 175)\nZarth's Mansion: Back",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Sealing Talisman[Dagger]",
-        "StatEffect_Amount": "Base ATK\n72\nMATK %\n3\nCSPD %\n10\nLight resistance %\n- 30\nBase Stability %\n0\nStaff only:Light Resistance\n25",
-        "MonsterDyeMap": "Besy(Lv 182)\nArche Valley: Area \n1\nBesy(Lv 183)\nArche Valley: Area \n2\nBesy(Lv 184)\nArche Valley: Area \n3",
-        "Processing": "Sell180\nSpina\nProcess\n90 Medicine",
-        "Recipes": ""
-    },
-    {
-        "Name": "Hefty Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n138\nSTR\n4\nCritical Rate\n4\nCritical Damage\n4",
-        "MonsterDyeMap": "Hunky Chocogato(Lv 172)\nChocolate Reservoir",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Demi Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n54\nMax MP\n150\nCritical Rate\n5\nEvasion Recharge %\n- 30\nFlinch Unavailable\n1",
-        "MonsterDyeMap": "Demi Machina(Lv 86)\nArtillery Defense Line Demi Marchina(Lv 87)\nArtillery Defense Line",
-        "Processing": "Sell90\nSpina\nProcess\n45 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Kukri[Dagger]",
-        "StatEffect_Amount": "Base ATK\n50\nAccuracy\n10\nEvasion Recharge %\n10\nAdditional Melee %\n50",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell85\nSpina\nProcess\n42 Metal",
-        "Recipes": "400\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n30\nx Pointed Blade\n- \n30\nx Rusty Huge Axe\n- \n30\nx Mysterious Metal Bit\n- \n200\nx Wood"
-    },
-    {
-        "Name": "Life Branch Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n150\nNatural HP Regen %\n10\nMax HP %\n20\nStability %\n5\nBase Stability %\n0",
-        "MonsterDyeMap": "Arigazella(Lv 180)\nMovere Specula Arigazella(Lv 183)\nMovere Specula",
-        "Processing": "Sell185\nSpina\nProcess\n92 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Corroded Dragon Claw Sword[Dagger]",
-        "StatEffect_Amount": "Base ATK\n183\nAggro %\n20\nAttack MP Recovery\n10\nReduce Dmg (Floor)\n %\n30",
-        "MonsterDyeMap": "Corroded Dragist(Lv 212)\nStairway to Vital Point Corroded Dragist(Lv 214)\nStairway to Vital Point",
-        "Processing": "Sell210\nSpina\nProcess\n105 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Rat Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n71\nPhysical Pierce %\n5\nASPD\n250\nEvasion Recharge %\n10",
-        "MonsterDyeMap": "Soldier Rat(Lv 107)\nUltimea Sewer: East",
-        "Processing": "Sell110\nSpina\nProcess\n55 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Parrying Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n22\nAccuracy\n5\nGuard Power %\n15\nGuard Recharge %\n15",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessN/A",
-        "Recipes": "200\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n1\nx Runestone\n- \n25\nx Fatigued Blade\n- \n50\nx Metal\n- \n50\nx Wood"
-    },
-    {
-        "Name": "Magical Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n30\nMax MP\n300\nAdditional Magic %\n70",
-        "MonsterDyeMap": "empty",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Wood Choco Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n82\nMax MP\n400\nEvasion Recharge %\n4\nAttack MP Recovery\n4",
-        "MonsterDyeMap": "Gramp(Lv 76)\nSweet Hades",
-        "Processing": "Sell120\nSpina\nProcess\n60 Medicine",
-        "Recipes": ""
-    },
-    {
-        "Name": "Holy Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n100\nMATK %\n2\nDark resistance %\n10\nTumble Unavailable\n1",
-        "MonsterDyeMap": "Destiny Cube(Lv 146)\nHall of Special Gods Destiny Cube(Lv 147)\nHall of Construction Gods",
-        "Processing": "Sell140\nSpina\nProcess\n70 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Insect Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n110\nAccuracy\n30\nASPD\n200\nEvasion Recharge %\n10",
-        "MonsterDyeMap": "Insector(Lv 162)\nLabilans Sector: Area \n1\nInsector(Lv 163)\nLabilans Sector: Area \n2\nInsector(Lv 164)\nLabilans Sector: Area \n3",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Thorny Twig[Dagger]",
-        "StatEffect_Amount": "Base ATK\n14\nCritical Rate\n1\nBowgun only:Stability %\n7",
-        "MonsterDyeMap": "Shell Mask(Lv 23)\nNisel Mountain Shell Mask(Lv 27)\nNisel Mountain: Mountainside",
-        "Processing": "Sell25\nSpina\nProcess\n12 Wood",
-        "Recipes": ""
-    },
-    {
-        "Name": "Fin Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n47\nStability %\n- 10\nCritical Damage\n5\nFire resistance %\n- 20\nEvasion Recharge %\n10",
-        "MonsterDyeMap": "Finpen(Lv 83)\nSpring of Rebirth: Lower Finpen(Lv 83)\nSpring of Rebirth: Middle Finpen(Lv 85)\nSpring of Rebirth: Upper",
-        "Processing": "Sell80\nSpina\nProcess\n40 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Dive Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n70\nCritical Rate\n12\nWind resistance %\n- 9\nEvasion Recharge %\n6",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell1\nSpina\nProcess\n2 Mana",
-        "Recipes": "1000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Deep\n-Sea Coral\n- \n3\nx Seadevil Coral\n- \n150\nx Metal\n- \n150\nx Mana"
-    },
-    {
-        "Name": "Dewclaw Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n236\nCritical Rate\n15\nCritical Damage %\n- 1",
-        "MonsterDyeMap": "Ragus(Lv 158)\nManor of Surprises",
-        "Processing": "Sell190\nSpina\nProcess\n95 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Medical Messer[Dagger]",
-        "StatEffect_Amount": "Base ATK\n295\nCritical Rate\n20\nCritical Rate %\n20\nAilment Resistance %\n10\nBase Stability %\n0\nGuard Break %\n10\nInvincible Aid (sec)\n1",
-        "MonsterDyeMap": "Bemoz(Lv 300)\nDeusania's Lab Innermost Chambers",
-        "Processing": "Sell285\nSpina\nProcess\n142 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Sakura Branch Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n300\nDEX %\n1\nPhysical Pierce %\n2\nMagic Pierce %\n3",
-        "MonsterDyeMap": "empty",
-        "Processing": "Sell0\nSpina\nProcess\nunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Kitchen Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n150\n% stronger against Earth\n5\nEarth resistance %\n10\nAggro %\n- 15",
-        "MonsterDyeMap": "Tomaton(Lv 170)\nPhasma Forest: Area \n1\nTomaton(Lv 171)\nPhasma Forest: Area \n2",
-        "Processing": "Sell185\nSpina\nProcess\n92 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Pearl Sakura Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n200\nMax MP\n250\nPhysical Resistance %\n10\nMagic Resistance %\n15\nAggro %\n- 20",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessWood",
-        "Recipes": "2000\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Fine Sake (Pearl Sakura)\n- \n1\nx Sinister Origami\n- \n1\nx Torn Paper Crane\n- \n180\nx Metal"
-    },
-    {
-        "Name": "Marshmallow Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n45\nMax MP\n100\nAccuracy %\n10\nEvasion Recharge %\n10\nBowgun only:Stability %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell130\nSpina\nProcess\n65 Medicine",
-        "Recipes": "130\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Fluffy Marshmallow\n- \n2\nx Super Fluffy Coat Bit\n- \n130\nx Mana"
-    },
-    {
-        "Name": "Guardian Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n80\nMax HP %\n10\nPhysical Resistance %\n10\nMagic Resistance %\n10",
-        "MonsterDyeMap": "Galdon(Lv 129)\nBuried Tower: Collapsed Top Galdon(Lv 131)\nBuried Tower: Inside",
-        "Processing": "Sell120\nSpina\nProcess\n60 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Sakura Princess Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n110\nMax MP\n100\nStability %\n5\nGuard Power %\n25\nGuard Recharge %\n25",
-        "MonsterDyeMap": "Mimesia (Easy)\n(Lv 120)\nSakura Castle Donjon: Top Mimesia (Normal)\n(Lv 140)\nSakura Castle Donjon: Top Mimesia (Hard)\n(Lv 160)\nSakura Castle Donjon: Top",
-        "Processing": "Sell1\nSpina\nProcess\n2 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Chocolate Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n60\nNatural HP Regen %\n15\nEvasion Recharge %\n5\nTumble Unavailable\n1\nFractional Barrier %\n10",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell1\nSpina\nProcess\nunknown",
-        "Recipes": "40\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n9\nx Chocolate Chip\n- \n3\nx Mysterious Cacao\n- \n40\nx Wood"
-    },
-    {
-        "Name": "Sorting Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n60\nCritical Rate\n10\nDark resistance %\n- 10\nAnticipate %\n2",
-        "MonsterDyeMap": "Sorter Golem(Lv 146)\nJoulu House: Gift Room (Lv 130)",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Anniv Festive Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n62\nCSPD\n100\nEvasion Recharge %\n10\nTumble Unavailable\n1",
-        "MonsterDyeMap": "Anniv Equipment Box I\n-",
-        "Processing": "Sell100\nSpina\nProcess\n50 Metal",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Medicine",
         "Recipes": ""
     },
     {
         "Name": "Army Knife[Dagger]",
         "StatEffect_Amount": "Base ATK\n27\nDEX\n2\nMax MP\n100\nEvasion Recharge %\n10",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessN/A",
-        "Recipes": "250\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n25\nx Goblin Claw\n- \n20\nx Saham Crystal\n- \n125\nx Metal"
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Goblin Claw\n- 20x Saham Crystal\n- 125x Metal"
     },
     {
-        "Name": "Beak Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n157\nSTR %\n1\nATK %\n1\nStability %\n- 3\nUnsheathe Attack %\n1",
-        "MonsterDyeMap": "Dodos(Lv 192)\nVulcani Foothills Dodos(Lv 195)\nVulcani Foothills",
-        "Processing": "Sell190\nSpina\nProcess\n95 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Blood Drain Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n40\nNatural HP Regen %\n5\nStability %\n- 10\nAttack MP Recovery\n5",
-        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "Sell70\nSpina\nProcess\n35 Metal",
-        "Recipes": "350\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n10\nx Tree Spirit Soul\n- \n2\nx Broken Dual Edge\n- \n110\nx Beast\n- \n65\nx Wood"
-    },
-    {
-        "Name": "Anniv Festive Dagger IV[Dagger]",
-        "StatEffect_Amount": "Base ATK\n242\nCSPD\n400\nEvasion Recharge %\n16\nTumble Unavailable\n1",
-        "MonsterDyeMap": "Anniv Equipment Box VII\n-",
-        "Processing": "Sell250\nSpina\nProcess\n125 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Chaos Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n84\nMax HP\n1000\nMax MP\n- 100\nNeutral Resistance %\n10",
-        "MonsterDyeMap": "Mozto Machina(Lv 114)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 124)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 134)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 144)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 164)\nLarge Demi Machina Factory: Deepest Part",
-        "Processing": "Sell125\nSpina\nProcess\n62 Beast",
-        "Recipes": ""
-    },
-    {
-        "Name": "Parrying Dagger ZC[Dagger]",
-        "StatEffect_Amount": "Base ATK\n22\nGuard Power %\n20\nGuard Recharge %\n20\nBowgun only:Critical Rate\n5",
-        "MonsterDyeMap": "empty",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": ""
-    },
-    {
-        "Name": "Lil Empress Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n104\nCritical Rate\n10\nWater resistance %\n- 15\nEvasion Recharge %\n15",
-        "MonsterDyeMap": "Venena Coenubia(Lv 140)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 150)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 160)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 170)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 190)\nUltimea Palace: Throne",
-        "Processing": "Sell145\nSpina\nProcess\n72 Mana",
-        "Recipes": ""
-    },
-    {
-        "Name": "Rock Fang Dagger[Dagger]",
-        "StatEffect_Amount": "Base ATK\n179",
-        "MonsterDyeMap": "Stone(Lv 139)\nForgotten Cave",
-        "Processing": "Sell130\nSpina\nProcess\n65 Metal",
-        "Recipes": ""
-    },
-    {
-        "Name": "Trench Knife[Dagger]",
-        "StatEffect_Amount": "Base ATK\n60\nPhysical Pierce %\n5\nDEF\n15\nGuard Break %\n10",
-        "MonsterDyeMap": "Coronella(Lv 162)\nInanis Wilderness Coronella(Lv 166)\nInanis Wilderness",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
+        "Name": "Demi Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n54\nMax MP\n150\nCritical Rate\n5\nEvasion Recharge %\n- 30\nFlinch Unavailable\n1",
+        "MonsterDyeMap": "Demi Machina(Lv 86)\nArtillery Defense Line Demi Marchina(Lv 87)\nArtillery Defense Line",
+        "Processing": "Sell\n90\nSpina\nProcess\n45 Metal",
         "Recipes": ""
     },
     {
         "Name": "Sashimi Knife[Dagger]",
         "StatEffect_Amount": "Base ATK\n130\n% stronger against Water\n5\nWater resistance %\n10\nAggro %\n- 15",
         "MonsterDyeMap": "Porgy(Lv 163)\nLunagent Cliff Base",
-        "Processing": "Sell160\nSpina\nProcess\n80 Metal",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Life Branch Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n150\nNatural HP Regen %\n10\nMax HP %\n20\nStability %\n5\nBase Stability %\n0",
+        "MonsterDyeMap": "Arigazella(Lv 180)\nMovere Specula Arigazella(Lv 183)\nMovere Specula",
+        "Processing": "Sell\n185\nSpina\nProcess\n92 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anger Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n219\nCritical Rate\n20\nAggro %\n80\nAnticipate %\n5",
+        "MonsterDyeMap": "Anchorsea(Lv 232)\nSeabed Anchorsea(Lv 234)\nSeabed",
+        "Processing": "Sell\n235\nSpina\nProcess\n117 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Scarlet Sakura Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n170\nAccuracy\n7\nCritical Rate\n14\nEvasion Recharge %\n10",
+        "MonsterDyeMap": "Dreamy Scarlet Sakura (Nightmare)\n(Lv 220)\nLush Falls : Upstream",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Magical Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n30\nMax MP\n300\nAdditional Magic %\n70",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Storm Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n20\nDodge %\n7\nASPD %\n7\nCritical Rate %\n7",
+        "MonsterDyeMap": "Forestia(Lv 49)\nLand Of Chaos Forestia(Lv 39)\nLand Of Chaos Forestia(Lv 59)\nLand Of Chaos Forestia(Lv 69)\nLand Of Chaos Forestia(Lv 89)\nLand Of Chaos",
+        "Processing": "Sell\n35\nSpina\nProcess\n17 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Odd-Shaped Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n72\nMDEF %\n- 33\nCritical Damage\n3\nCritical Damage %\n3\nBase Stability %\n0",
+        "MonsterDyeMap": "Nurethoth(Lv 76)\nGate to Another World: Front Nurethoth(Lv 66)\nGate to Another World: Front Nurethoth(Lv 86)\nGate to Another World: Front Nurethoth(Lv 96)\nGate to Another World: Front Nurethoth(Lv 116)\nGate to Another World: Front",
+        "Processing": "Sell\n60\nSpina\nProcess\n30 Mana",
         "Recipes": ""
     },
     {
         "Name": "Steel Leaf Knife[Dagger]",
         "StatEffect_Amount": "Base ATK\n178\nPhysical Pierce %\n5\nFire resistance %\n10\nLong Range Damage %\n1",
         "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
-        "Processing": "SellUnknownProcessunknown",
-        "Recipes": "10800\n Spina Set\n1\n pcs Level N/ADifficulty\n0\nMaterials\n- \n30\nx Fallen in Fall\n- \n40\nx Blunt Knife\n- \n20\nx Dark Red Crystal\n- \n2\nx Brassozard Claw"
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "10800\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Fallen in Fall\n- 40x Blunt Knife\n- 20x Dark Red Crystal\n- 2x Brassozard Claw"
+    },
+    {
+        "Name": "Fallen Angel Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n150\nATK %\n3\nCritical Damage\n3\nRecoil %\n0\n.\n01",
+        "MonsterDyeMap": "Bubble Bogey(Lv 177)\nBarbaros Corridor",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lightweight Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n33\nMagic Resistance %\n- 10\nASPD\n100\nEvasion Recharge %\n15\nBase Stability %\n0",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": "300\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Outer World Nail\n- 20x Withered Leaf\n- 75x Metal\n- 75x Beast"
+    },
+    {
+        "Name": "Chocolate Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n60\nNatural HP Regen %\n15\nEvasion Recharge %\n5\nTumble Unavailable\n1\nFractional Barrier %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\nunknown",
+        "Recipes": "40\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 9x Chocolate Chip\n- 3x Mysterious Cacao\n- 40x Wood"
+    },
+    {
+        "Name": "Frog Warrior Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n250\nAccuracy %\n5\nAggro %\n- 10\nShort Range Damage %\n1\nMotion Speed %\n3\nBowgun only:CSPD %\n201\n-Handed Sword only:Critical Rate %\n20",
+        "MonsterDyeMap": "Zapo(Lv 246)\nPuerta Islands: Adit Zapo(Lv 256)\nPuerta Islands: Adit Zapo(Lv 266)\nPuerta Islands: Adit Zapo(Lv 276)\nPuerta Islands: Adit Zapo(Lv 296)\nPuerta Islands: Adit",
+        "Processing": "Sell\n255\nSpina\nProcess\n127 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Marshmallow Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n45\nMax MP\n100\nAccuracy %\n10\nEvasion Recharge %\n10\nBowgun only:Stability %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Medicine",
+        "Recipes": "130\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Fluffy Marshmallow\n- 2x Super Fluffy Coat Bit\n- 130x Mana"
+    },
+    {
+        "Name": "Melting Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n234\nPhysical Pierce %\n5\nWater resistance %\n- 15\n% stronger against Neutral\n5\nGuard Break %\n5",
+        "MonsterDyeMap": "Magmanus(Lv 248)\nPerdida Wasteland Magmanus(Lv 250)\nPerdida Wasteland",
+        "Processing": "Sell\n245\nSpina\nProcess\n122 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Lil Empress Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n104\nCritical Rate\n10\nWater resistance %\n- 15\nEvasion Recharge %\n15",
+        "MonsterDyeMap": "Venena Coenubia(Lv 140)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 150)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 160)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 170)\nUltimea Palace: Throne Venena Coenubia (YK Wifey)\n(Lv 190)\nUltimea Palace: Throne",
+        "Processing": "Sell\n145\nSpina\nProcess\n72 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kukri[Dagger]",
+        "StatEffect_Amount": "Base ATK\n50\nAccuracy\n10\nEvasion Recharge %\n10\nAdditional Melee %\n50",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n85\nSpina\nProcess\n42 Metal",
+        "Recipes": "400\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 30x Pointed Blade\n- 30x Rusty Huge Axe\n- 30x Mysterious Metal Bit\n- 200x Wood"
+    },
+    {
+        "Name": "Anniv Festive Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n62\nCSPD\n100\nEvasion Recharge %\n10\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Anniv Equipment Box I\n-",
+        "Processing": "Sell\n100\nSpina\nProcess\n50 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anniv Festive Dagger III[Dagger]",
+        "StatEffect_Amount": "Base ATK\n183\nCSPD\n300\nEvasion Recharge %\n14\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Anniv Equipment Box V\n-",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dewclaw Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n236\nCritical Rate\n15\nCritical Damage %\n- 1",
+        "MonsterDyeMap": "Ragus(Lv 158)\nManor of Surprises",
+        "Processing": "Sell\n190\nSpina\nProcess\n95 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Rat Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n71\nPhysical Pierce %\n5\nASPD\n250\nEvasion Recharge %\n10",
+        "MonsterDyeMap": "Soldier Rat(Lv 107)\nUltimea Sewer: East",
+        "Processing": "Sell\n110\nSpina\nProcess\n55 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Power Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n8\nSTR\n2\nWeapon ATK\n4",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "50\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 32x Mushroom Spore\n- 20x Metal\n- 5x Wood"
+    },
+    {
+        "Name": "Corroded Dragon Claw Sword[Dagger]",
+        "StatEffect_Amount": "Base ATK\n183\nAggro %\n20\nAttack MP Recovery\n10\nReduce Dmg (Floor)\n %\n30",
+        "MonsterDyeMap": "Corroded Dragist(Lv 212)\nStairway to Vital Point Corroded Dragist(Lv 214)\nStairway to Vital Point",
+        "Processing": "Sell\n210\nSpina\nProcess\n105 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Thorny Twig[Dagger]",
+        "StatEffect_Amount": "Base ATK\n14\nCritical Rate\n1\nBowgun only:Stability %\n7",
+        "MonsterDyeMap": "Shell Mask(Lv 23)\nNisel Mountain Shell Mask(Lv 27)\nNisel Mountain: Mountainside",
+        "Processing": "Sell\n25\nSpina\nProcess\n12 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anniv Festive Dagger II[Dagger]",
+        "StatEffect_Amount": "Base ATK\n126\nCSPD\n200\nEvasion Recharge %\n12\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Anniv Equipment Box III\n-",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Parrying Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n22\nAccuracy\n5\nGuard Power %\n15\nGuard Recharge %\n15",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "200\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Runestone\n- 25x Fatigued Blade\n- 50x Metal\n- 50x Wood"
+    },
+    {
+        "Name": "Fin Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n47\nStability %\n- 10\nCritical Damage\n5\nFire resistance %\n- 20\nEvasion Recharge %\n10",
+        "MonsterDyeMap": "Finpen(Lv 83)\nSpring of Rebirth: Lower Finpen(Lv 83)\nSpring of Rebirth: Middle Finpen(Lv 85)\nSpring of Rebirth: Upper",
+        "Processing": "Sell\n80\nSpina\nProcess\n40 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Medical Messer[Dagger]",
+        "StatEffect_Amount": "Base ATK\n295\nCritical Rate\n20\nCritical Rate %\n20\nAilment Resistance %\n10\nBase Stability %\n0\nGuard Break %\n10\nInvincible Aid (sec)\n1",
+        "MonsterDyeMap": "Bemoz(Lv 300)\nDeusania's Lab Innermost Chambers",
+        "Processing": "Sell\n285\nSpina\nProcess\n142 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Caravan Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n4\nEvasion Recharge %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "5\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 3x Short Nail\n- 3x Metal"
+    },
+    {
+        "Name": "Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n12\nDodge\n3\nEvasion Recharge %\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "100\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 2x Brutal Dragon Claw\n- 5x Little Wyvern Wing\n- 40x Metal\n- 10x Wood"
+    },
+    {
+        "Name": "Magic Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n15\nCSPD\n50\nEvasion Recharge %\n5\nAttack MP Recovery\n1",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n30\nSpina\nProcess\n15 Mana",
+        "Recipes": "150\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Broken Magic Lantern\n- 1x Four\n-leaf Clover\n- 75x Metal"
+    },
+    {
+        "Name": "Sorting Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n60\nCritical Rate\n10\nDark resistance %\n- 10\nAnticipate %\n2",
+        "MonsterDyeMap": "Sorter Golem(Lv 146)\nJoulu House: Gift Room (Lv 130)",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Chaos Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n84\nMax HP\n1000\nMax MP\n- 100\nNeutral Resistance %\n10",
+        "MonsterDyeMap": "Mozto Machina(Lv 114)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 124)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 134)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 144)\nLarge Demi Machina Factory: Deepest Part Mozto Machina(Lv 164)\nLarge Demi Machina Factory: Deepest Part",
+        "Processing": "Sell\n125\nSpina\nProcess\n62 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kitchen Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n150\n% stronger against Earth\n5\nEarth resistance %\n10\nAggro %\n- 15",
+        "MonsterDyeMap": "Tomaton(Lv 170)\nPhasma Forest: Area 1Tomaton(Lv 171)\nPhasma Forest: Area \n2",
+        "Processing": "Sell\n185\nSpina\nProcess\n92 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Cursed Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n60\nMax HP\n- 200\nPhysical Pierce %\n5\nAilment Resistance %\n- 5\nWeapon ATK\n13\nBase Stability %\n0",
+        "MonsterDyeMap": "Death Zombeast(Lv 42)\nEthos Fortress Death Zombeast(Lv 45)\nEthos Fortress",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Biscuit Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n70\nNatural HP Regen %\n10\nMax MP\n200\nAggro %\n- 20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Medicine",
+        "Recipes": "40\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 9x Candy Fragment\n- 3x Mysterious Fruit\n- 40x Mana"
+    },
+    {
+        "Name": "Rock Fang Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n179",
+        "MonsterDyeMap": "Stone(Lv 139)\nForgotten Cave",
+        "Processing": "Sell\n130\nSpina\nProcess\n65 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Pearl Sakura Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n200\nMax MP\n250\nPhysical Resistance %\n10\nMagic Resistance %\n15\nAggro %\n- 20",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessWood",
+        "Recipes": "2000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Fine Sake (Pearl Sakura)\n- 1x Sinister Origami\n- 1x Torn Paper Crane\n- 180x Metal"
+    },
+    {
+        "Name": "Trench Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n60\nPhysical Pierce %\n5\nDEF\n15\nGuard Break %\n10",
+        "MonsterDyeMap": "Coronella(Lv 162)\nInanis Wilderness Coronella(Lv 166)\nInanis Wilderness",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Anniv Festive Dagger IV[Dagger]",
+        "StatEffect_Amount": "Base ATK\n242\nCSPD\n400\nEvasion Recharge %\n16\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Anniv Equipment Box VII\n-",
+        "Processing": "Sell\n250\nSpina\nProcess\n125 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Kukri[Dagger]",
+        "StatEffect_Amount": "Base ATK\n50\nAccuracy\n7\nEvasion Recharge %\n10\nAdditional Melee %\n50",
+        "MonsterDyeMap": "Corroded Knight(Lv 78)\nTrace of Dark River",
+        "Processing": "Sell\n85\nSpina\nProcess\n42 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Twilight Sakura Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n130\nASPD\n400\nAttack MP Recovery\n6",
+        "MonsterDyeMap": "Amalgam(Lv 140)\nTwilight Sakura Castle: Top Amalgam(Lv 160)\nTwilight Sakura Castle: Top Amalgam(Lv 180)\nTwilight Sakura Castle: Top",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Branch Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n300\nDEX %\n1\nPhysical Pierce %\n2\nMagic Pierce %\n3",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dagger of Grace[Dagger]",
+        "StatEffect_Amount": "Base ATK\n242\nMax HP\n1000\nMax MP\n200\nAggro %\n- 30",
+        "MonsterDyeMap": "Apapat(Lv 246)\nLittle Shrine of Grace: Area 1Apapat(Lv 247)\nLittle Shrine of Grace: Area 2Apapat(Lv 248)\nLittle Shrine of Grace: Area \n3",
+        "Processing": "Sell\n250\nSpina\nProcess\n125 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Throwing Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n1\nINT\n1\nEvasion Recharge %\n5",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\n0\nSpina\nProcess\nN/A",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dully Glowing Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n54\nAGI\n2\nCritical Rate\n4",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Parrying Dagger ZC[Dagger]",
+        "StatEffect_Amount": "Base ATK\n22\nGuard Power %\n20\nGuard Recharge %\n20\nBowgun only:Critical Rate\n5",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sakura Princess Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n110\nMax MP\n100\nStability %\n5\nGuard Power %\n25\nGuard Recharge %\n25",
+        "MonsterDyeMap": "Mimesia (Easy)\n(Lv 120)\nSakura Castle Donjon: Top Mimesia (Normal)\n(Lv 140)\nSakura Castle Donjon: Top Mimesia (Hard)\n(Lv 160)\nSakura Castle Donjon: Top",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Apple Branch Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n126\nASPD %\n5\n% stronger against Wind\n5\nWind resistance %\n5",
+        "MonsterDyeMap": "Coryn(Lv 161)\nSugar Plain",
+        "Processing": "Sell\n165\nSpina\nProcess\n82 Wood",
+        "Recipes": ""
+    },
+    {
+        "Name": "Wood Choco Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n82\nMax MP\n400\nEvasion Recharge %\n4\nAttack MP Recovery\n4",
+        "MonsterDyeMap": "Gramp(Lv 76)\nSweet Hades",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Goddess's Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n1\nINT\n5\nMax MP\n100\nPhysical Resistance %\n- 10\nAttack MP Recovery\n1",
+        "MonsterDyeMap": "Imitacia(Lv 109)\nDark Castle: Grand Hall Imitacia(Lv 99)\nDark Castle: Grand Hall Imitacia(Lv 119)\nDark Castle: Grand Hall Imitacia(Lv 129)\nDark Castle: Grand Hall Imitacia(Lv 149)\nDark Castle: Grand Hall",
+        "Processing": "Sell\n100\nSpina\nProcess\n50 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Guardian Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n80\nMax HP %\n10\nPhysical Resistance %\n10\nMagic Resistance %\n10",
+        "MonsterDyeMap": "Galdon(Lv 129)\nBuried Tower: Collapsed Top Galdon(Lv 131)\nBuried Tower: Inside",
+        "Processing": "Sell\n120\nSpina\nProcess\n60 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Demon Empress Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n150\nMagic Pierce %\n5\nCritical Rate\n10\nEvasion Recharge %\n15",
+        "MonsterDyeMap": "Venena Metacoenubia(Lv 185)\nNeo Plastida Venena Metacoenubia(Lv 195)\nNeo Plastida Venena Metacoenubia(Lv 205)\nNeo Plastida Venena Metacoenubia(Lv 215)\nNeo Plastida Venena Metacoenubia(Lv 235)\nNeo Plastida",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sailor's Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n30\nMax MP\n100\nMATK %\n1\nShort Range Damage %\n- 3",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Blood Drain Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n40\nNatural HP Regen %\n5\nStability %\n- 10\nAttack MP Recovery\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n70\nSpina\nProcess\n35 Metal",
+        "Recipes": "350\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Tree Spirit Soul\n- 2x Broken Dual Edge\n- 110x Beast\n- 65x Wood"
+    },
+    {
+        "Name": "Bush Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n54\nPhysical Pierce %\n6\nASPD %\n- 2\nWeapon ATK\n10",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "250\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 25x Saham Crystal\n- 2x Mineral Scissor\n- 125x Metal"
+    },
+    {
+        "Name": "Sorting Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n60\nCritical Rate\n5\nDark resistance %\n- 5\nAnticipate %\n1",
+        "MonsterDyeMap": "Sorter Golem(Lv 125)\nJoulu House: Gift Room (Lv 100)",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Antique Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n100",
+        "MonsterDyeMap": "Cursed Clock(Lv 71)\nMagic Waste Site: Area 2Cursed Clock(Lv 71)\nMagic Waste Site: Area 3Dirty Antique\n-",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Scratch Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n170\nAccuracy %\n8\nASPD %\n20\nAdditional Melee %\n50\nAdditional Magic %\n50",
+        "MonsterDyeMap": "Nix(Lv 200)\nIlluminare City: Route 1 (190 - 210)\nNix(Lv 200)\nIlluminare City: Route 2 (190 - 210)\nNix(Lv 200)\nIlluminare City: Route 3 (190 - 210)\nNix(Lv 202)\nIlluminare City: Route 3 (190 - 210)",
+        "Processing": "Sell\n200\nSpina\nProcess\n100 Beast",
+        "Recipes": ""
+    },
+    {
+        "Name": "Icy Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n110\nWater resistance %\n10\nTumble Unavailable\n11\n-Handed Sword only:% stronger against Fire\n5",
+        "MonsterDyeMap": "Acernix(Lv 141)\nTomte Pavillion (130 - 150)",
+        "Processing": "Sell\n150\nSpina\nProcess\n75 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Holy Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n100\nMATK %\n2\nDark resistance %\n10\nTumble Unavailable\n1",
+        "MonsterDyeMap": "Destiny Cube(Lv 146)\nHall of Special Gods Destiny Cube(Lv 147)\nHall of Construction Gods",
+        "Processing": "Sell\n140\nSpina\nProcess\n70 Metal",
+        "Recipes": ""
+    },
+    {
+        "Name": "Twilight Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n10\nASPD %\n10\nCSPD %\n10\nAdditional Melee %\n10\nAdditional Magic %\n10",
+        "MonsterDyeMap": "Twilight Dragon(Lv 100)\nFort Solfini: Roof Twilight Dragon(Lv 90)\nFort Solfini: Roof Twilight Dragon(Lv 110)\nFort Solfini: Roof Twilight Dragon(Lv 120)\nFort Solfini: Roof Twilight Dragon(Lv 140)\nFort Solfini: Roof",
+        "Processing": "Sell\n90\nSpina\nProcess\n45 Mana",
+        "Recipes": ""
+    },
+    {
+        "Name": "Dive Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n70\nCritical Rate\n12\nWind resistance %\n- 9\nEvasion Recharge %\n6",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\n1\nSpina\nProcess\n2 Mana",
+        "Recipes": "1000\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 10x Deep\n-Sea Coral\n- 3x Seadevil Coral\n- 150x Metal\n- 150x Mana"
+    },
+    {
+        "Name": "Hefty Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n138\nSTR\n4\nCritical Rate\n4\nCritical Damage\n4",
+        "MonsterDyeMap": "Hunky Chocogato(Lv 172)\nChocolate Reservoir",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sealing Talisman[Dagger]",
+        "StatEffect_Amount": "Base ATK\n72\nMATK %\n3\nCSPD %\n10\nLight resistance %\n- 30\nBase Stability %\n0\nStaff only:Light Resistance\n25",
+        "MonsterDyeMap": "Besy(Lv 182)\nArche Valley: Area 1Besy(Lv 183)\nArche Valley: Area 2Besy(Lv 184)\nArche Valley: Area \n3",
+        "Processing": "Sell\n180\nSpina\nProcess\n90 Medicine",
+        "Recipes": ""
+    },
+    {
+        "Name": "Heavy Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n17\nSTR\n3\nAccuracy\n- 3\nCritical Rate\n5",
+        "MonsterDyeMap": "[NPC]Blacksmith : Zaldo Sofya City: Blacksmith",
+        "Processing": "Sell\nUnknownProcessN/A",
+        "Recipes": "150\n Spina Set\n1\n pcs Level N/A Difficulty0\nMaterials\n- 1x Iron\n- 5x Heated Fang\n- 50x Metal\n- 25x Wood"
+    },
+    {
+        "Name": "Trick Dagger[Dagger]",
+        "StatEffect_Amount": "Base ATK\n121\nCSPD\n150\nAdditional Magic %\n75",
+        "MonsterDyeMap": "Zarth(Lv 175)\nZarth's Mansion: Back",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Knife Shaft[Dagger]",
+        "StatEffect_Amount": "Base ATK\n20\nCritical Damage\n1\nEvasion Recharge %\n10\nBase Stability %\n0\nBowgun only:Weapon ATK\n30",
+        "MonsterDyeMap": "empty",
+        "Processing": "Sell\nUnknownProcessunknown",
+        "Recipes": ""
+    },
+    {
+        "Name": "Sorting Knife[Dagger]",
+        "StatEffect_Amount": "Base ATK\n60\nCritical Rate\n15\nDark resistance %\n- 15\nAnticipate %\n3",
+        "MonsterDyeMap": "Sorter Golem(Lv 167)\nJoulu House: Gift Room (Lv 150)",
+        "Processing": "Sell\n160\nSpina\nProcess\n80 Metal",
+        "Recipes": ""
     }
 ]
