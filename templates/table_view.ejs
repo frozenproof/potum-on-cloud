@@ -7,6 +7,7 @@
     <meta name="google-site-verification" content="939NygIf8312fvMoh3tfwAkIxVNX4b6Aq6CIs1w1VZk" />
     <style>
         /* styles.css */
+        /* Global Styles */
         body {
             background-image: url('../images/appbackground.png');
             background-size: cover;
@@ -16,31 +17,7 @@
             font-family: Arial, sans-serif;
         }
 
-        .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 90%;
-            margin: 0 auto;
-        }
-
-        #align2cat {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 90%;
-            margin: 0 auto;
-        }
-
-        .toggle-button img {
-            width: 50px;
-            height: auto;
-            cursor: pointer;
-        }
-        .toggle-button {
-            display: flex;
-            flex-direction: column;
-        }
+        /* View Container */
         .view {
             width: 90%;
             margin: 15px auto;
@@ -50,15 +27,7 @@
             display: none; /* Initially hidden */
         }
 
-        .active {
-            display: block;
-        }
-
-        table, div, form {
-            max-width: 100%;
-            margin: 15px auto;
-        }
-
+        /* General Container Styling */
         div, form, table {
             background-color: rgba(255, 255, 255, 0.95);
             padding: 15px;
@@ -67,6 +36,7 @@
             max-width: 80%;
         }
 
+        /* Table Styles */
         table {
             width: 100%;
             border-collapse: collapse;
@@ -78,6 +48,7 @@
             padding: 8px;
         }
 
+        /* Text and Content Alignment */
         h1, h2, h3, h4, h5, nav, button, a, div {
             text-align: center;
         }
@@ -88,6 +59,7 @@
             text-align: center;
         }
 
+        /* Button Styles */
         button {
             background-color: #0073e6;
             color: white;
@@ -102,6 +74,7 @@
             text-decoration: none;
         }
 
+        /* Navigation Links */
         nav a {
             color: #0073e6;
             text-decoration: none;
@@ -112,66 +85,12 @@
             text-decoration: underline;
         }
 
-        img {
-            display: block;
-            max-width:230px;
-            max-height:95px;
-            width: auto;
-            height: auto
-        }
+
     </style>
-        <!-- JavaScript for view toggle -->
-        <script>
-            function toggleView() {
-                const updateDiv = document.querySelector('.poc-update');
-                const guideDiv = document.querySelector('.poc-guide');
-                const toggleButton = document.getElementById("glorious-fucking");
-    
-                // Toggle visibility of update and guide divs
-                updateDiv.classList.toggle('active');
-                guideDiv.classList.toggle('active');
-    
-                // Toggle the button text content based on the current state
-                if (toggleButton.textContent === "See maintenance time") {
-                    toggleButton.textContent = "See guide"; // Change text to "See guide" when maintenance time is visible
-                } else {
-                    toggleButton.textContent = "See maintenance time"; // Change text back to "See maintenance time"
-                }
-    
-                // Debugging statements (optional)
-                console.log("Button text is now:", toggleButton.textContent);
-            }
-        </script>
+
 </head>
 <body>
-    <div class="container">
-        <!-- Toggle button always visible on guide page -->
-        <div class="toggle-button" id="align2cat" onclick="toggleView()">
-            <img src="../images/appbackground.png" alt="Switch View" >
-            <div id="glorious-fucking">See maintenance time</div>
-            <br/>
-            <div id="ui tips">Click here to see stuffs by the way</div>
-        </div>
-        <!-- Maintenance page (hidden by default) -->
-        <div class="view poc-update">
-            <iframe src="https://frozenproof.github.io/extras/maintainence.html" width="100%" height="200px"></iframe>
-        </div>
-        <!-- Guide page (visible by default) -->
-        <div class="view poc-guide active">
-            <h1>Potum on Cloud</h1>
-            <h2>The second most intensive database of Toram</h2>
-            <h3>Born from the pain of Coryn dying</h3>
-            <h4>Click "Load" to search the database using the dropdown selection or text search.</h4>
-            <h4>Dropdown selection doesn’t maintain chosen display when "Load" is pressed.</h4>
-            <nav>
-                <a href="/">Home</a> |
-                <a href="/files">Download Files</a> |
-                <a href="/rangesearch">Leveling Search</a> |
-            </nav>
-        </div>
-    </div>
-
-
+    <%- include('headers/header') %>
 
     <!-- Form for file selection -->
     <div>

@@ -21,31 +21,7 @@
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 8px;
         }
-        .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 90%;
-            margin: 0 auto;
-        }
 
-        #align2cat {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 90%;
-            margin: 0 auto;
-        }
-
-        .toggle-button img {
-            width: 50px;
-            height: auto;
-            cursor: pointer;
-        }
-        .toggle-button {
-            display: flex;
-            flex-direction: column;
-        }
         .view {
             width: 90%;
             margin: 15px auto;
@@ -55,15 +31,7 @@
             display: none; /* Initially hidden */
         }
 
-        .active {
-            display: block;
-        }
-
-        table, div, form {
-            max-width: 100%;
-            margin: 15px auto;
-        }
-
+        /* General Container Styling */
         div, form, table {
             background-color: rgba(255, 255, 255, 0.95);
             padding: 15px;
@@ -194,32 +162,7 @@
     </script>
 </head>
 <body>
-    <div class="container">
-        <!-- Toggle button always visible on guide page -->
-        <div class="toggle-button" id="align2cat" onclick="toggleView()">
-            <img src="../images/appbackground.png" alt="Switch View" >
-            <div id="glorious-fucking">See maintenance time</div>
-            <br/>
-            <div id="ui tips">Click here to see stuffs by the way</div>
-        </div>
-        <!-- Maintenance page (hidden by default) -->
-        <div class="view poc-update">
-            <iframe src="https://frozenproof.github.io/extras/maintainence.html" width="100%" height="200px"></iframe>
-        </div>
-        <!-- Guide page (visible by default) -->
-        <div class="view poc-guide active">
-            <h1>Potum on Cloud</h1>
-            <h2>The second most intensive database of Toram</h2>
-            <h3>Born from the pain of Coryn dying</h3>
-            <h4>Click "Load" to search the database using the dropdown selection or text search.</h4>
-            <h4>Dropdown selection doesn’t maintain chosen display when "Load" is pressed.</h4>
-            <nav>
-                <a href="/">Home</a> |
-                <a href="/files">Download Files</a> |
-                <a href="/rangesearch">Leveling Search</a> |
-            </nav>
-        </div>
-    </div>  
+    <%- include('headers/header') %>
 
     <div class="display2">
         <h1>Level Search - Stats</h1>

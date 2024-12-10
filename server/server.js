@@ -12,6 +12,7 @@ app.set('views', path.join(__dirname, '..', 'templates'));
 
 // Static folder for images
 app.use('/images', express.static(path.join(__dirname, '..', 'images')));
+app.use('/templates', express.static(path.join(__dirname, '..', 'templates')));
 
 // Body parser middleware to handle POST data
 app.use(bodyParser.urlencoded({ extended: true }));
