@@ -6,28 +6,32 @@ const app = express();
 const platform = require('os').platform();
 const bodyParser = require('body-parser');
 
-// Use EJS for templating
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, '..', 'templates'));
+function initiate()
+{
+    // Use EJS for templating
+    app.set('view engine', 'ejs');
+    app.set('views', path.join(__dirname, '..', 'templates'));
 
-// Static folder for images
-app.use('/images', express.static(path.join(__dirname, '..', 'images')));
-app.use('/templates', express.static(path.join(__dirname, '..', 'templates')));
-// but you do not need to do this database, because it get processed at server directory
+    // Static folder for images
+    app.use('/images', express.static(path.join(__dirname, '..', 'images')));
+    app.use('/templates', express.static(path.join(__dirname, '..', 'templates')));
+    // but you do not need to do this database, because it get processed at server directory
 
-// Body parser middleware to handle POST data
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+    // Body parser middleware to handle POST data
+    app.use(bodyParser.urlencoded({ extended: true }));
+    app.use(bodyParser.json());
+    app.use(express.json());
+    app.use(express.urlencoded({ extended: true }));
 
-// Log incoming requests for debugging
-app.use((req, _res, next) => {
-    console.log(`Incoming ${req.method} request for: ${req.url}`);
-    console.log('Request body:', req.body);
-    next();
-});
+    // Log incoming requests for debugging
+    app.use((req, _res, next) => {
+        console.log(`Incoming ${req.method} request for: ${req.url}`);
+        console.log('Request body:', req.body);
+        next();
+    });
+}
 
+initiate()
 // Determine metadata file based on OS
 const metadataFile = platform === 'win32' ? 'metadata_windows.xlsx' : 'metadata_linux.xlsx';
 const metadataPath = path.join(__dirname, '..', 'database', metadataFile);
@@ -332,6 +336,15 @@ app.get('/sitemaps', (_req, res) => {
     } else {
         console.warn('Sitemap not found');
         res.status(404).json({ message: 'Sitemap not found' });
+    }
+});
+
+app.get('/freerouting/*', (req, res) => {
+    const filePath = path.join(__dirname, '..', 'templates', 'ai-manifest', req.params[0]);
+    if (fs.existsSync(filePath)) {
+        res.sendFile(filePath);
+    } else {
+        res.status(404).send('<p>File not found</p>');
     }
 });
 

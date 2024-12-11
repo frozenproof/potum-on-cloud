@@ -22,7 +22,7 @@ app.use(helmet());
 // Rate limiter: each IP can only make a request every 2 seconds
 const limiter = rateLimit({
   windowMs: 900, // 2 seconds
-  max: 9, // Limit each IP to 1 request per windowMs
+  max: 9, // Limit each IP to 1 request per windowMs 
   message: 'Too many requests, please wait a moment. Yeah fuck you and your free uses.',
 });
 

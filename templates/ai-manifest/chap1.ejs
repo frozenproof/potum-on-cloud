@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Range Search - Stats</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <script src="../templates/axios.min.js"></script>
+    <style>
+        /* styles.css */
+        body {
+            background-image: url('../images/appbackground.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .display2 {
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+        }
+
+        .view {
+            width: 90%;
+            margin: 15px auto;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            display: none; /* Initially hidden */
+        }
+
+        /* General Container Styling */
+        div, form, table {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: center;
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+
+        h1, h2, h3, h4, h5, nav, button, a, div {
+            text-align: center;
+        }
+
+        p {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a {
+            color: #0073e6;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            display: block;
+            max-width:230px;
+            max-height:95px;
+            width: auto;
+            height: auto
+        }
+    </style>
+    <script>
+        async function handleSearch(event) {
+            event.preventDefault();
+
+            const numberInput = document.getElementById('numberInput').value;
+            const rangeInput = document.getElementById('rangeInput').value;
+            const selectedDatabase = document.getElementById('databaseSelect').value;
+
+            if (!numberInput || !rangeInput || !selectedDatabase) {
+                alert("Please fill in all fields.");
+                return;
+            }
+
+            try {
+                // Send POST request
+                const response = await axios.post('/rangesearch', {
+                    file: selectedDatabase,
+                    numberInput,
+                    rangeInput
+                });
+
+                // Debugging log to check the full response from backend
+                console.log("Response from backend:", response);
+
+                // Check if the response has 'results' key and it's an array
+                if (Array.isArray(response.data.results)) {
+                    const resultsTable = document.getElementById('resultsTable');
+
+                    // Update results dynamically
+                    resultsTable.innerHTML = response.data.results.map(row => `
+                        <tr>
+                            <td>${row.Name}</td>
+                            <td>${row.Stats}</td>
+                            <td>${row.SpawnAt}</td>
+                            <td>${row.Drops}</td>
+                        </tr>
+                    `).join('');
+                } else {
+                    console.error("Invalid results format in response:", response.data);
+                    alert("Error: Invalid results format received from the server.");
+                }
+
+            } catch (error) {
+                console.error("Error fetching results:", error);
+                alert("Failed to fetch results.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <%- include('headers/header') %>
+
+    <div class="display2">
+        <h1>Level Search - Stats</h1>
+        <form id="searchForm" onsubmit="handleSearch(event)">
+            <label for="databaseSelect">Select Database:</label>
+            <select id="databaseSelect" name="file" required>
+                <% databaseList.forEach(database => { %>
+                    <option value="<%= database %>"><%= database %></option>
+                <% }); %>
+            </select>
+
+            <label for="numberInput">Base Level:</label>
+            <input type="number" id="numberInput" name="numberInput" placeholder="Enter level" required>
+
+            <label for="rangeInput">Range:</label>
+            <input type="number" id="rangeInput" name="rangeInput" placeholder="Enter range" required>
+
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Results Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Stats</th>
+                    <th>SpawnAt</th>
+                    <th>Drops</th>
+                </tr>
+            </thead>
+            <tbody id="resultsTable">
+                <% if (results && results.length > 0) { %>
+                    <% results.forEach(row => { %>
+                        <tr>
+                            <td><%= row.Name %></td>
+                            <td><%= row.Stats %></td>
+                            <td><%= row.SpawnAt %></td>
+                            <td><%= row.Drops %></td>
+                        </tr>
+                    <% }); %>
+                <% } else { %>
+                    <tr>
+                        <td colspan="4">No results found</td>
+                    </tr>
+                <% } %>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Range Search - Stats</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <script src="../templates/axios.min.js"></script>
+    <style>
+        /* styles.css */
+        body {
+            background-image: url('../images/appbackground.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .display2 {
+            max-width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+        }
+
+        .view {
+            width: 90%;
+            margin: 15px auto;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            display: none; /* Initially hidden */
+        }
+
+        /* General Container Styling */
+        div, form, table {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: center;
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+
+        h1, h2, h3, h4, h5, nav, button, a, div {
+            text-align: center;
+        }
+
+        p {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a {
+            color: #0073e6;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            display: block;
+            max-width:230px;
+            max-height:95px;
+            width: auto;
+            height: auto
+        }
+    </style>
+</head>
+<body>
+    <%- include('headers/header') %>
+    <div>
+        It's nice to see you.
+    </div>
+
+</body> 
+</html>
