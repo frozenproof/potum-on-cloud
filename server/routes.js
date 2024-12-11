@@ -102,7 +102,7 @@ router.post('/view', (req, res) => {
 });
 
 router.get('/freerouting/*', (req, res) => {
-    const filePath = path.join(__dirname, '..', '..', 'freerouting', req.params[0]);
+    const filePath = path.join(__dirname, '..', 'templates', 'ai-manifest', req.params[0]);
     if (fs.existsSync(filePath)) {
         res.sendFile(filePath);
     } else {

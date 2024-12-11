@@ -79,3 +79,7 @@ Illegal waifus are invading the websites but hell, i fucking hate source control
 Updated version of the farming search
 We gonna deploy a secret
 See if this get detected, lmao fuck the SSH editing configuration
+
+# Fixing the wsl bug with git
+First of all, install the git inside the fucking wsl.
+Secondly, enter the fucking git path manually, inside remote settings. 
