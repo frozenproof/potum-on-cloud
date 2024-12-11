@@ -10,7 +10,6 @@ function initiate()
     // Use EJS for templating
     app.set('view engine', 'ejs');
     app.set('views', path.join(__dirname, '..', 'templates'));
-    app.set('views', path.join(__dirname, '..', 'templates', 'ai-manifest'));
 
     // Static folder for images
     app.use('/images', express.static(path.join(__dirname, '..', 'images')));
