@@ -5,7 +5,6 @@ const xlsx = require('xlsx');
 const app = express();
 const platform = require('os').platform();
 const bodyParser = require('body-parser');
-const { table } = require('console');
 
 // Use EJS for templating
 app.set('view engine', 'ejs');
@@ -14,6 +13,7 @@ app.set('views', path.join(__dirname, '..', 'templates'));
 // Static folder for images
 app.use('/images', express.static(path.join(__dirname, '..', 'images')));
 app.use('/templates', express.static(path.join(__dirname, '..', 'templates')));
+// but you do not need to do this database, because it get processed at server directory
 
 // Body parser middleware to handle POST data
 app.use(bodyParser.urlencoded({ extended: true }));

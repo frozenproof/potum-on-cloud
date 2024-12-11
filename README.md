@@ -77,3 +77,5 @@ If it works it works, now go and commit tax evasions.
 
 Illegal waifus are invading the websites but hell, i fucking hate source control
 Updated version of the farming search
+We gonna deploy a secret
+See if this get detected, lmao fuck the SSH editing configuration
