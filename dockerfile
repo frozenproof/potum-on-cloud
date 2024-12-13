@@ -10,6 +10,7 @@ RUN npm install
 
 # Copy only the necessary files and folders
 COPY server/server.js ./server/
+COPY server/routes.js ./server/
 COPY templates/ ./templates/
 COPY images/ ./images/
 COPY database/ ./database/
