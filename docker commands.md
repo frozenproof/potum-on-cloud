@@ -1,3 +1,4 @@
+```
 mkdir -p ~/.docker/cli-plugins/
 curl -SL https://github.com/docker/compose/releases/download/v2.30.2/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
 
@@ -50,7 +51,9 @@ docker build --platform=linux/amd64
 docker pull truclinhgm/poc:deploy-ready
 
 docker compose build
+docker compose build && docker compose up
 sudo lsof -i :4000
 sudo kill -9 <PID>
 
 ss -lptn 'sport = :4000'
+```

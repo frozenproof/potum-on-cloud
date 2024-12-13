@@ -14,6 +14,8 @@ I have added a ton of functionalities to my website, come and visit.
 4. View skills trees ( currently working on)
 # Codes 
 Made manually, I would have scrapped if it wasn't illegal.
+
+alt+shift+f to auto indent btw
 # Code warning
 Compile flag for dockerfile for render will probably break your build if you are not careful, so remove it, it is only used in deployment on render.com.
 Compile flag for dockerfile for render will probably break your build if you are not careful, so remove it, it is only used in deployment on render.com.

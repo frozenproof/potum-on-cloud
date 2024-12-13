@@ -1,0 +1,278 @@
+<div>
+    <h3>Under construction</h3>
+    <p>Please return later　ヾ(≧▽≦)ﾉ .</p>
+</div>
+
+<div>  <div style="display:grid;grid-template-columns: 1fr 1fr;">
+    <div>
+      <p class="card-title">
+        <img src="skill/magic/crash.png" width="34" height="34">
+        Magic: Crash      </p>
+      <p class="medium">
+        Skill Magic: Crash Level 5      </p>
+    </div>
+    <div style="justify-self:end;">
+      <img src="images/icon/all.png"><br>Available with all weapons    </div>
+  </div>
+  <hr class="separator">
+  <div class="monster-prop">
+    <div>
+      <p class="accent-bold">Type</p>
+      <p>Active, Magic skill</p>
+    </div>
+          <div>
+        <p class="accent-bold">Element</p>
+        <p>Weapon Dependent</p>
+      </div>
+      <div>
+        <p class="accent-bold">MP</p>
+        <p>400</p>
+      </div>
+		  <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+      <div>
+        <p class="accent-bold">Combo start</p>
+        <p>Yes</p>
+      </div>
+      <div>
+        <p class="accent-bold">Combo middle</p>
+        <p>Yes</p>
+      </div>
+      <div>
+        <p class="accent-bold">Range</p>
+        <p>12</p>
+      </div>
+        <div class="span-2">
+      <p class="accent-bold">Description</p>
+      <p>Summons 3 little meteorites. When hitting the target, each meteorite may drop down again up to 2 times with diminishing power, but a higher chance of inflicting [Armor Break] or [Dizzy].</p>
+    </div>
+                  <div class="span-2">
+          <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+            <p><img src="images/icon/staff.png"></p>
+            <p>Staff</p>
+          </div>
+          <p>Power increases depending on INT.<br>
+Increases the chance of inflicting a status ailment.<br>
+Range (Radius) +0.5m</p>
+        </div>
+              <div class="span-2">
+          <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+            <p><img src="images/icon/md.png"></p>
+            <p>Magic Device</p>
+          </div>
+          <p>Greatly increases the chance of inflicting a status ailment.<br>
+Range (Radius) +1.5m</p>
+        </div>
+            </div>
+	    <p class="accent-bold">Extras</p>
+    <p></p><details><summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+<select id="magicCrashWeapon" onchange="calcMagicCrashValues()">
+	<option value="Staff" selected="">Staff</option>
+	<option value="MD">Main Magic Device</option>
+	<option value="SubMD">Sub Magic Device</option>
+	<option value="Other">Other</option>
+</select><br><span class="sub-title"><b>Skill Level:</b></span>
+<select id="magicCrashLevel" onchange="calcMagicCrashValues()">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10" selected="">10</option>  
+</select><br>
+<div id="mCrashIntInput" style="display: block;">
+<span class="sub-title"><b>Base INT:</b></span>
+<input type="number" id="mCrashINT" min="1" max="510" value="255" style="width: 4em; text-align: right" onchange="calcMagicCrashValues()"><br>
+</div>
+<span class="sub-title"><b>Cast Speed:</b></span>
+<input type="number" style="width: 6em; text-align: right" value="0" id="magicCrashCSPD" onchange="calcMagicCrashValues()"><br>
+<span class="sub-title"><b>Chain Cast buff is active:</b></span>
+<input type="checkbox" id="mCrashChain" onchange="calcMagicCrashValues()"><br>
+<div id="mCrashChainActive" style="display: none;">
+<span class="sub-title"><b>Chain Cast Level:</b></span>
+<select id="mCrashChainLevel" onchange="calcMagicCrashValues()">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10" selected="">10</option>
+</select>
+</div>
+<div id="magicCrashChainStackInput" style="display: block;">
+<span class="sub-title"><b>Chain Cast stack count:</b></span>
+<input type="number" id="mCrashChainStack" min="0" max="10" value="0" style="width: 3em" onchange="calcMagicCrashValues()">
+</div>
+<br>
+<span id="magicCrashValues"><li><b>Skill Constant: </b> 400; constant for each hit</li><li><b>Skill Multiplier (First Volley):</b> 5.85; multiplier for each hit</li>
+    <li><b>Skill Multiplier (Second Volley):</b> 4; multiplier for each hit</li>
+    <li><b>Skill Multiplier (Third Volley):</b> 3; multiplier for each hit</li><li><b>Hit Count:</b> 3 hits per volley; damage calculation is done for each hit</li><br><li><b>Cast Time:</b> 2 seconds (affected by CSPD)</li><li><b>Hit Range (radius):</b> 2.5m, around the <b>drop location</b></li>
+    <li><b>Drop Range (radius):</b> 1m + [target's size in in-game meters] (estimate),  around &amp; follows the <b>main target</b></li><li><b>Armor Break Chance:</b> 20% (First Volley); 30% (Second Volley); 60% (Third Volley)</li>
+    <li><b>Armor Break Duration:</b> 5 seconds</li>
+    <li><b>Dizzy Chance:</b> 20% (First Volley); 30% (Second Volley); 60% (Third Volley); can only inflict if [Armor Break] is already inflicted</li>
+    <li><b>Dizzy Duration:</b> 10 seconds</li><br><b>Extra info:</b>
+	<li>This skill is a <b>placed skill</b>, making it unaffected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+	<li>Unlike most other skills, the total hit count of <b>Magic: Crash</b> is inconsistent and dependent on its own "successful hit count":<ul>
+	<li>&nbsp;&nbsp;&nbsp;- Each volley can have up to 3 meteors, but while the <b>First Volley</b> always has 3 meteors, the <b>Second Volley</b> and <b>Third Volley</b> each will only have as many meteors as the number of <b>successful hits</b> dealt by the previous volley</li>
+	<li>&nbsp;&nbsp;&nbsp;- Each meteor of the previous volley will only trigger the meteor with the respective order of the next volley; for example, denoting the meteor order as "First 1 &gt; First 2 &gt; First 3 &gt; Second 1 &gt; Second 2 &gt; Second 3 &gt; Third 1 &gt; Third 2 &gt; Third 3", a successful hit by "meteor 1" of the previous volley will trigger the "meteor 1" of the next volley, while a missed "meteor 2" of the previous volley will result in an empty gap at when the "meteor 2" of the next volley is supposed to drop</li>
+	</ul></li>
+	<li>If <b>Magic: Crash</b> is recast while the previous <b>Magic: Crash</b> is still active, the latter will be removed and all of its remaining hits will be canceled</li>
+	<li><b>Magic: Crash</b> name will change depending on its element:<ul>
+    <li>&nbsp;&nbsp;&nbsp;- <b>Neutral:</b> Magic: Crash</li>
+    <li>&nbsp;&nbsp;&nbsp;- <b>Fire:</b> Meteor Rain</li>
+    <li>&nbsp;&nbsp;&nbsp;- <b>Water:</b> Hail</li>
+    <li>&nbsp;&nbsp;&nbsp;- <b>Wind:</b> Fulgurite</li>
+    <li>&nbsp;&nbsp;&nbsp;- <b>Earth:</b> Rockfall</li>
+    <li>&nbsp;&nbsp;&nbsp;- <b>Light:</b> Meteor Light</li>
+    <li>&nbsp;&nbsp;&nbsp;- <b>Dark:</b> Cosmos</li>
+    </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li><br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b></span>
+
+<script>
+function calcCastTime(baseCastTime, CSPD) {
+	var castTime = baseCastTime*1
+	var modifier1 = CSPD/2000
+	var modifier2 = (CSPD-1000)/18000
+	if (CSPD <= 1000) {castTime = castTime*(1-modifier1)}
+	else {castTime = castTime*(1-(0.5+modifier2))}
+	if (castTime < 0) {castTime = 0}
+	return castTime
+}
+
+function weaponIntCheckMCrash(weapon, intSection) {
+    if (weapon == "Staff") {intSection.style = "display: block"}
+    else {intSection.style = "display: none"}
+}
+
+function chainCastCheck(chainCast, chainCastSection) {
+	if (chainCast) {chainCastSection.style = "display: block"}
+	else {chainCastSection.style = "display: none"}
+}
+
+function weaponChainStackCheck(weapon, ccStackSection) {
+    if (weapon == "Staff" || weapon == "MD") {ccStackSection.style = "display: block"}
+    else {ccStackSection.style = "display: none"}
+}
+
+function calcMCrashConstant(result) {
+    var constant = 400
+    result.innerHTML = `<li><b>Skill Constant: </b> ${constant}; constant for each hit</li>`
+}
+
+function calcMCrashMultiplier(level, weapon, intValue, result) {
+    var multiplier1 = 3 + 0.2 * level
+    var multiplier2 = 2 + 0.2 * level
+    var multiplier3 = 1 + 0.2 * level
+    if (weapon == "Staff") {multiplier1 += intValue/300}
+    if (multiplier1 - Math.floor(multiplier1*100)/100 < 0.00999999) {multiplier1 = Math.floor(multiplier1*100)/100}
+    else {multiplier1 = Math.round(multiplier1*100)/100}
+    multiplier2 = Math.round(multiplier2*100)/100
+    multiplier3 = Math.round(multiplier3*100)/100
+    result.innerHTML += `<li><b>Skill Multiplier (First Volley):</b> ${multiplier1}; multiplier for each hit</li>
+    <li><b>Skill Multiplier (Second Volley):</b> ${multiplier2}; multiplier for each hit</li>
+    <li><b>Skill Multiplier (Third Volley):</b> ${multiplier3}; multiplier for each hit</li>`
+}
+
+function calcMCrashHitCount(level, result) {
+    var HTML = `<li><b>Hit Count:</b> 3 hits per volley; damage calculation is done for each hit</li><br>`
+    result.innerHTML += HTML
+}
+
+function calcMCrashCastTime(weapon, CSPD, chainCast, chainCastLevel, ccStack, result) {
+    var baseCastTime = 2
+    if (weapon != "Other") {baseCastTime -= ccStack/10}
+	var castTime = calcCastTime(baseCastTime, CSPD)
+	if (chainCast && castTime > 0) {castTime *= (1 - 0.05 * chainCastLevel)}
+	castTime = Math.ceil(castTime*100)/100
+	var HTML = `<li><b>Cast Time:</b> ${castTime} second`
+	if (castTime != 1) {HTML += `s`}
+	HTML += ` (affected by CSPD)</li>`
+	result.innerHTML += HTML
+}
+
+function calcMCrashMotionSpeed(CSPD, chainCast, chainCastLevel, result) {
+	//Only applies if there's no cast time
+	var castTime = calcCastTime(2, CSPD)
+	var motionSpeed = 0
+	if (chainCast && castTime == 0) {motionSpeed = 5 * chainCastLevel}
+	if (motionSpeed > 0) {result.innerHTML += `<li><b>Motion Speed</b> of <b>Magic: Crash</b> +${motionSpeed}%</li>`}
+}
+
+function calcMCrashRange(level, weapon, result) {
+    var hitRange = 2
+    if (weapon == "Staff") {hitRange += 0.5}
+    else if (weapon == "MD" || weapon == "SubMD") {hitRange += 1.5}
+    result.innerHTML += `<li><b>Hit Range (radius):</b> ${hitRange}m, around the <b>drop location</b></li>
+    <li><b>Drop Range (radius):</b> 1m + [target's size in in-game meters] (estimate),  around & follows the <b>main target</b></li>`
+}
+
+function calcMCrashAilmentChance(weapon, result) {
+    var chance1 = 10
+    if (weapon == "Staff") {chance1 *= 2}
+    else if (weapon == "MD" || weapon == "SubMD") {chance1 *= 4}
+    var chance2 = chance1 * 1.5
+    var chance3 = chance1 * 3
+    if (chance3 > 100) {chance3 = 100}
+    result.innerHTML += `<li><b>Armor Break Chance:</b> ${chance1}% (First Volley); ${chance2}% (Second Volley); ${chance3}% (Third Volley)</li>
+    <li><b>Armor Break Duration:</b> 5 seconds</li>
+    <li><b>Dizzy Chance:</b> ${chance1}% (First Volley); ${chance2}% (Second Volley); ${chance3}% (Third Volley); can only inflict if [Armor Break] is already inflicted</li>
+    <li><b>Dizzy Duration:</b> 10 seconds</li>`
+}
+
+function addMCrashPlacedInfo(result) {
+	result.innerHTML += `<br><b>Extra info:</b>
+	<li>This skill is a <b>placed skill</b>, making it unaffected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+	<li>Unlike most other skills, the total hit count of <b>Magic: Crash</b> is inconsistent and dependent on its own "successful hit count":<ul>
+	<li>&nbsp&nbsp&nbsp- Each volley can have up to 3 meteors, but while the <b>First Volley</b> always has 3 meteors, the <b>Second Volley</b> and <b>Third Volley</b> each will only have as many meteors as the number of <b>successful hits</b> dealt by the previous volley</li>
+	<li>&nbsp&nbsp&nbsp- Each meteor of the previous volley will only trigger the meteor with the respective order of the next volley; for example, denoting the meteor order as "First 1 > First 2 > First 3 > Second 1 > Second 2 > Second 3 > Third 1 > Third 2 > Third 3", a successful hit by "meteor 1" of the previous volley will trigger the "meteor 1" of the next volley, while a missed "meteor 2" of the previous volley will result in an empty gap at when the "meteor 2" of the next volley is supposed to drop</li>
+	</ul></li>
+	<li>If <b>Magic: Crash</b> is recast while the previous <b>Magic: Crash</b> is still active, the latter will be removed and all of its remaining hits will be canceled</li>
+	<li><b>Magic: Crash</b> name will change depending on its element:<ul>
+    <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Crash</li>
+    <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Meteor Rain</li>
+    <li>&nbsp&nbsp&nbsp- <b>Water:</b> Hail</li>
+    <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Fulgurite</li>
+    <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Rockfall</li>
+    <li>&nbsp&nbsp&nbsp- <b>Light:</b> Meteor Light</li>
+    <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Cosmos</li>
+    </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
+}
+
+function calcMagicCrashValues() {
+    var weaponSelector = document.getElementById("magicCrashWeapon")
+    var weapon = weaponSelector[weaponSelector.selectedIndex].value
+    var levelSelector = document.getElementById("magicCrashLevel")
+    var level = levelSelector[levelSelector.selectedIndex].value
+    var intSection = document.getElementById("mCrashIntInput")
+	var intValue = document.getElementById("mCrashINT").value
+	var CSPD = document.getElementById("magicCrashCSPD").value
+	var chainCast = document.getElementById("mCrashChain").checked
+	var chainCastSection = document.getElementById("mCrashChainActive")
+	var chainCastSelector = document.getElementById("mCrashChainLevel")
+	var chainCastLevel = chainCastSelector[chainCastSelector.selectedIndex].value
+    var ccStackSection = document.getElementById("magicCrashChainStackInput")
+	var ccStack = document.getElementById("mCrashChainStack").value
+    var result = document.getElementById("magicCrashValues")
+    weaponIntCheckMCrash(weapon, intSection)
+    chainCastCheck(chainCast, chainCastSection)
+    weaponChainStackCheck(weapon, ccStackSection)
+    calcMCrashConstant(result)
+    calcMCrashMultiplier(level, weapon, intValue, result)
+    calcMCrashHitCount(level, result)
+    calcMCrashCastTime(weapon, CSPD, chainCast, chainCastLevel, ccStack, result)
+    calcMCrashMotionSpeed(CSPD, chainCast, chainCastLevel, result)
+    calcMCrashRange(level, weapon, result)
+    calcMCrashAilmentChance(weapon, result)
+    addMCrashPlacedInfo(result)
+	result.innerHTML += `<br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>`
+}
+
+calcMagicCrashValues()
+</script></details><p></p>
+  </div>

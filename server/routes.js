@@ -111,25 +111,27 @@ router.get('/freerouting/*', (req, res) => {
 });
 
 router.get('/viewmagic', (_req, res) => {
-    const databaseList = ["Blade", "Shot", "Magic"]; // List of database names
+    const databaseList = ["Blade", "Shot", "Magic", "Support"]; // List of database names
     res.render('skills', { databaseList }); // Pass the database list to the template
 });
 
 // Endpoint to handle the dynamic rendering
-router.post('/viewmagic', async (req, res) => {
+router.post('/viewmagic2', async (req, res) => {
     const { file } = req.body;
 
     try {
-        const filePath = path.join(__dirname, '..', 'database', 's2', file);
+        const filePath = path.join(__dirname, '..', 'database', 's2', file + '.ejs');
         if (!fs.existsSync(filePath)) {
+            console.log("Error finding EJS file: " + file);
             res.status(500).send({ error: "An unexpected error occurred." });
         }
         else
         {
+            console.log("Found "+file)
                 // Render the EJS file from the specified path
             res.render(filePath, { layout: false}, (err, html) => {
                 if (err) {
-                    console.error("Error rendering EJS file:", err);
+                    console.log("Error rendering EJS file:", err);
                     return res.status(500).send({ error: "Failed to load content." });
                 }
                 res.send({ content: html });
@@ -137,7 +139,7 @@ router.post('/viewmagic', async (req, res) => {
         }
 
     } catch (error) {
-        console.logs("Error handling request:", error);
+        console.log("Error handling request:", error);
         res.status(500).send({ error: "An unexpected error occurred." });
     }
 });

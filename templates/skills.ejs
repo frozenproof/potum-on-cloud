@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <title>Potum on Cloud</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
@@ -24,11 +25,13 @@
             padding: 15px;
             background-color: rgba(255, 255, 255, 0.95);
             border-radius: 8px;
-            display: none; /* Initially hidden */
+            display: none;
+            /* Initially hidden */
         }
 
         /* General Container Styling */
-        div, form, table {
+        form,
+        table {
             background-color: rgba(255, 255, 255, 0.95);
             padding: 15px;
             margin: 15px auto;
@@ -42,14 +45,23 @@
             border-collapse: collapse;
         }
 
-        th, td {
+        th,
+        td {
             text-align: center;
             border: 1px solid #dddddd;
             padding: 8px;
         }
 
         /* Text and Content Alignment */
-        h1, h2, h3, h4, h5, nav, button, a, div {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        nav,
+        button,
+        a,
+        div {
             text-align: center;
         }
 
@@ -85,9 +97,145 @@
             text-decoration: underline;
         }
 
+        .card-title {
+            font-weight: 500;
+            font-size: 1.2rem;
+            color: #000;
+        }
 
+        @media only screen and (max-width: 550px) {
+            .card-title {
+                font-size: 1.0rem;
+            }
+        }
+
+        .card-title-inverse {
+            font-weight: 500;
+            font-size: 1.2rem;
+            background-color: #006990;
+            margin: -10px;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            color: #fff;
+        }
+
+        .monster-prop {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+        .monster-prop>.span-2 {
+            grid-template-columns: 25% auto;
+            grid-column: 1 / 3;
+        }
+
+        @media only screen and (max-width: 560px) {
+            .monster-prop {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-row-gap: 5px;
+            }
+
+            .monster-prop>.span-2 {
+                grid-template-columns: inherit;
+                grid-column: inherit;
+            }
+        }
+
+        .accent-bold {
+            color: #045a7a;
+            font-weight: 800;
+        }
+
+        .monster-prop>div {
+            padding-bottom: 5px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+        /* wrapper */
+        #wrapper {
+            display: flex;
+            height: calc(100% - 65px);
+            align-items: stretch;
+        }
+
+        /* content */
+        #content {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+
+        @media only screen and (max-width: 950px) {
+            #content {
+                margin-left: 64px;
+                width: calc(100% - 64px);
+                padding: 10px;
+                overflow: auto;
+            }
+        }
+
+        .content-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #045a7a;
+            padding-bottom: 10px;
+            font-family: RobotoSlab-Regular;
+        }
+
+        pre {
+            display: block;
+            padding: 9.5px;
+            font-size: 13px;
+            line-height: 1.42857143;
+            color: #333;
+            word-break: break-all;
+            word-wrap: break-word;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin: 10px 15px;
+        }
+
+        @media only screen and (max-width: 550px) {
+            .content-title {
+                font-size: 1.3rem;
+            }
+
+            #content {
+                font-size: 13px;
+            }
+
+            pre {
+                margin: 5px 0px;
+                font-size: 11px;
+            }
+        }
+
+        .card-container .content-title,
+        .card-container-1 .content-title,
+        .card-container-2 .content-title {
+            padding-bottom: 0px;
+        }
+
+        .content-subtitle {
+            font-size: 1rem;
+            font-weight: 800;
+            color: #E67E22;
+            padding-bottom: 10px;
+        }
+
+        .card-container .content-subtitle,
+        .card-container-1 .content-subtitle,
+        .card-container-2 .content-subtitle {
+            padding-bottom: 0px;
+        }
     </style>
     <script src="../templates/axios.min.js"></script>
+    <script src="../templates/functions-skills-list.js"></script>
     <script>
         async function loadData(event) {
             event.preventDefault(); // Prevent form from reloading the page
@@ -95,47 +243,68 @@
             const formData = new FormData(event.target);
             const file = formData.get('file');
 
+            // Check if file is selected
+            if (!file) {
+                console.error("No file selected.");
+                alert("Please select a file to upload.");
+                return;
+            }
+
             try {
                 // Send POST request with the selected file
-                const response = await axios.post('/viewmagic', { file });
+                const response = await axios.post('/viewmagic2', { file });
 
                 // Debugging log for server response
                 console.log("Response from server:", response);
 
-                // Check and update content dynamically
+                // Assume the server returns EJS-rendered content with the <select> element
                 const { content } = response.data;
 
                 if (content) {
-                    // Inject the received content into the target div
-                    document.querySelector('.insert-text-here').innerHTML = content;
+                    // Inject the EJS-rendered content into the target div
+                    const insertTextHere = document.querySelector('.insert-text-here');
+                    insertTextHere.innerHTML = content; // Insert the content
+
                 } else {
+                    // Handle the case where no content is returned from the server
                     document.querySelector('.insert-text-here').innerHTML = '<p>No content available to display.</p>';
                 }
 
             } catch (error) {
                 console.error("Error loading data:", error);
-                // alert("Failed to load data.");
+                alert("Failed to load data. Please try again later.");
             }
         }
 
+        // wew have works to do
+        function roundToTwoDecimals(value) {
+            return Math.round(value * 100) / 100;
+        }
+
+
     </script>
 </head>
+
 <body>
     <%- include('headers/header') %>
 
-    <!-- Form for file selection -->
-    <div>
-        <form id="loadForm" method="post" onsubmit="loadData(event)"> 
-            <label>Select file:</label>
-            <select name="file">
-                <% for (let file in databaseList) { %>
-                    <option value="<%= databaseList[file] + ".ejs" %>"><%= databaseList[file] %></option>
-                <% } %>
-            </select>
-            <button type="submit">Load</button>
-        </form>
-    </div>
+        <!-- Form for file selection -->
+        <div>
+            <form id="loadForm" method="post" onsubmit="loadData(event)">
+                <label>Select file:</label>
+                <select name="file">
+                    <% for (let file in databaseList) { %>
+                        <option value="<%= databaseList[file] %>">
+                            <%= databaseList[file] %>
+                        </option>
+                        <% } %>
+                </select>
+                <button type="submit">Load</button>
+            </form>
+        </div>
 
-    <div class="insert-text-here"></div> 
+        <div class="insert-text-here"></div>
 </body>
+
 </html>
+

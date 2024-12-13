@@ -1,18 +1,19 @@
 <style>
-    
     #align2cat {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 90%;
-            margin: 0 auto;
-        }
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
     .active {
         display: block;
     }
-    
-    .container {
+
+    .container33 {
         display: flex;
+        background-color: rgba(255, 255, 255, 0.95);
         justify-content: space-between;
         align-items: center;
         max-width: 90%;
@@ -24,59 +25,58 @@
         height: auto;
         cursor: pointer;
     }
+
     .toggle-button {
         display: flex;
         flex-direction: column;
     }
-
-
 </style>
-<div class="container">
-<!-- Toggle button always visible on guide page -->
-<div class="toggle-button" id="align2cat" onclick="toggleView()">
-    <img src="../images/appbackground.png" alt="Switch View" >
-    <div id="glorious-fucking">See maintenance time</div>
-    <br/>
-    <div id="ui tips">Click here to see stuffs by the way</div>
-</div>
-<!-- Maintenance page (hidden by default) -->
-<div class="view poc-update">
-    <iframe src="https://frozenproof.github.io/extras/maintainence.html" width="100%" height="200px"></iframe>
-</div>
-<!-- Guide page (visible by default) -->
-<div class="view poc-guide active">
-    <h1>Potum on Cloud</h1>
-    <h2>The second most intensive database of Toram</h2>
-    <h3>Born from the pain of Coryn dying</h3>
-    <h4>Click "Load" to search the database using the dropdown selection or text search.</h4>
-    <h4>Website won't reload when "Load" is pressed.</h4>
-    <nav>
-        <a href="/">Home</a> |
-        <a href="/files">Download Files</a> |
-        <a href="/rangesearch">Leveling Search</a> |
-        <a href="/viewmagic">Skills Library</a> |
-    </nav>
-</div>
-<script>
-    // <!-- JavaScript for view toggle -->
-    function toggleView() {
-        const updateDiv = document.querySelector('.poc-update');
-        const guideDiv = document.querySelector('.poc-guide');
-        const toggleButton = document.getElementById("glorious-fucking");
+<div class="container33">
+    <!-- Toggle button always visible on guide page -->
+    <div class="toggle-button" id="align2cat" onclick="toggleView()">
+        <img src="../images/appbackground.png" alt="Switch View">
+        <div id="glorious-fucking">See maintenance time</div>
+        <br />
+        <div id="ui tips">Click here to see stuffs by the way</div>
+    </div>
+    <!-- Maintenance page (hidden by default) -->
+    <div class="view poc-update">
+        <iframe src="https://frozenproof.github.io/extras/maintainence.html" width="100%" height="200px"></iframe>
+    </div>
+    <!-- Guide page (visible by default) -->
+    <div class="view poc-guide active">
+        <h1>Potum on Cloud</h1>
+        <h2>The second most intensive database of Toram</h2>
+        <h3>Born from the pain of Coryn dying</h3>
+        <h4>Click "Load" to search the database using the dropdown selection or text search.</h4>
+        <h4>Website won't reload when "Load" is pressed.</h4>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/files">Download Files</a> |
+            <a href="/rangesearch">Leveling Search</a> |
+            <a href="/viewmagic">Skills Library</a> |
+        </nav>
+    </div>
+    <script>
+        // <!-- JavaScript for view toggle -->
+        function toggleView() {
+            const updateDiv = document.querySelector('.poc-update');
+            const guideDiv = document.querySelector('.poc-guide');
+            const toggleButton = document.getElementById("glorious-fucking");
 
-        // Toggle visibility of update and guide divs
-        updateDiv.classList.toggle('active');
-        guideDiv.classList.toggle('active');
+            // Toggle visibility of update and guide divs
+            updateDiv.classList.toggle('active');
+            guideDiv.classList.toggle('active');
 
-        // Toggle the button text content based on the current state
-        if (toggleButton.textContent === "See maintenance time") {
-            toggleButton.textContent = "See guide"; // Change text to "See guide" when maintenance time is visible
-        } else {
-            toggleButton.textContent = "See maintenance time"; // Change text back to "See maintenance time"
+            // Toggle the button text content based on the current state
+            if (toggleButton.textContent === "See maintenance time") {
+                toggleButton.textContent = "See guide"; // Change text to "See guide" when maintenance time is visible
+            } else {
+                toggleButton.textContent = "See maintenance time"; // Change text back to "See maintenance time"
+            }
+
+            // Debugging statements (optional)
+            console.log("Button text is now:", toggleButton.textContent);
         }
-
-        // Debugging statements (optional)
-        console.log("Button text is now:", toggleButton.textContent);
-    }
-</script>
+    </script>
 </div>
