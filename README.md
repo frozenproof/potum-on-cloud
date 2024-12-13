@@ -1,7 +1,17 @@
 # Potum on cloud
 The unofficial mirror of Coryn Club, since Coryn Club can't handle too much bandwidth. Only for searching items, information on each item are as close to Coryn as it can get, but no visual display so we can add that once we have more time.
 
-The profect is temporarily on suspension because im having 2 tests soon.
+The project is back and more alive than ever(until I have a proper job that is)
+
+I have added a ton of functionalities to my website, come and visit.
+
+<a href="https://potum-on-cloud.onrender.com" _target=blank>Here</a> is the link.
+
+# Functionalities
+1. Search monsters
+2. Search weapon
+3. Search monsters according to preferred levels.
+4. View skills trees ( currently working on)
 # Codes 
 Made manually, I would have scrapped if it wasn't illegal.
 # Code warning
@@ -69,7 +79,7 @@ We can also add google search index to allow others to visit our websites.
 
     <!-- <% console.log(table) %> -->
 
-by the way, data power also require to change the currently connected network on ethernet to 8. 
+by the way, data power also require to change the currently connected network on ethernet to ethernet. 
 
 If it works it works, now go and commit tax evasions.
 

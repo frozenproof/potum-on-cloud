@@ -28,6 +28,8 @@ function initiate()
         console.log('Request body:', req.body);
         next();
     });
+
+    // Load all from database
 }
 
 initiate()

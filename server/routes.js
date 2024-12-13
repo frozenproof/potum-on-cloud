@@ -110,6 +110,38 @@ router.get('/freerouting/*', (req, res) => {
     }
 });
 
+router.get('/viewmagic', (_req, res) => {
+    const databaseList = ["Blade", "Shot", "Magic"]; // List of database names
+    res.render('skills', { databaseList }); // Pass the database list to the template
+});
+
+// Endpoint to handle the dynamic rendering
+router.post('/viewmagic', async (req, res) => {
+    const { file } = req.body;
+
+    try {
+        const filePath = path.join(__dirname, '..', 'database', 's2', file);
+        if (!fs.existsSync(filePath)) {
+            res.status(500).send({ error: "An unexpected error occurred." });
+        }
+        else
+        {
+                // Render the EJS file from the specified path
+            res.render(filePath, { layout: false}, (err, html) => {
+                if (err) {
+                    console.error("Error rendering EJS file:", err);
+                    return res.status(500).send({ error: "Failed to load content." });
+                }
+                res.send({ content: html });
+        });
+        }
+
+    } catch (error) {
+        console.logs("Error handling request:", error);
+        res.status(500).send({ error: "An unexpected error occurred." });
+    }
+});
+
 router.get('/health', (_req, res) => {
     res.status(200).send('Server is healthy');
 });

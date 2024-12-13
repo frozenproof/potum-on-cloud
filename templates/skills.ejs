@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Potum on Cloud</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <meta name="google-site-verification" content="939NygIf8312fvMoh3tfwAkIxVNX4b6Aq6CIs1w1VZk" />
+    <style>
+        /* styles.css */
+        /* Global Styles */
+        body {
+            background-image: url('../images/appbackground.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        /* View Container */
+        .view {
+            width: 90%;
+            margin: 15px auto;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            display: none; /* Initially hidden */
+        }
+
+        /* General Container Styling */
+        div, form, table {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 8px;
+            max-width: 80%;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: center;
+            border: 1px solid #dddddd;
+            padding: 8px;
+        }
+
+        /* Text and Content Alignment */
+        h1, h2, h3, h4, h5, nav, button, a, div {
+            text-align: center;
+        }
+
+        p {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Button Styles */
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Navigation Links */
+        nav a {
+            color: #0080ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+    </style>
+    <script src="../templates/axios.min.js"></script>
+    <script>
+        async function loadData(event) {
+            event.preventDefault(); // Prevent form from reloading the page
+
+            const formData = new FormData(event.target);
+            const file = formData.get('file');
+
+            try {
+                // Send POST request with the selected file
+                const response = await axios.post('/viewmagic', { file });
+
+                // Debugging log for server response
+                console.log("Response from server:", response);
+
+                // Check and update content dynamically
+                const { content } = response.data;
+
+                if (content) {
+                    // Inject the received content into the target div
+                    document.querySelector('.insert-text-here').innerHTML = content;
+                } else {
+                    document.querySelector('.insert-text-here').innerHTML = '<p>No content available to display.</p>';
+                }
+
+            } catch (error) {
+                console.error("Error loading data:", error);
+                // alert("Failed to load data.");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <%- include('headers/header') %>
+
+    <!-- Form for file selection -->
+    <div>
+        <form id="loadForm" method="post" onsubmit="loadData(event)"> 
+            <label>Select file:</label>
+            <select name="file">
+                <% for (let file in databaseList) { %>
+                    <option value="<%= databaseList[file] + ".ejs" %>"><%= databaseList[file] %></option>
+                <% } %>
+            </select>
+            <button type="submit">Load</button>
+        </form>
+    </div>
+
+    <div class="insert-text-here"></div> 
+</body>
+</html>
