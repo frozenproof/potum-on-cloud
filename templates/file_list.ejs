@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <title>Download Files - Potum on Cloud</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <meta name="google-site-verification" content="939NygIf8312fvMoh3tfwAkIxVNX4b6Aq6CIs1w1VZk" />
     <style>
-                /* Background image for body */
-                body {
-            background-image: url('../images/appbackground.png'); /* Replace with your actual background image path */
+        /* Background image for body */
+        body {
+            background-image: url('../images/appbackground.png');
+            /* Replace with your actual background image path */
             background-size: cover;
             background-attachment: fixed;
             background-position: center;
             color: #333;
             font-family: Arial, sans-serif;
         }
-        
+
+        /* View Container */
+        .view {
+            width: 90%;
+            margin: 15px auto;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            display: none;
+            /* Initially hidden */
+        }
+
         /* Center content containers with distinct background color */
-        div, nav, ul {
-            background-color: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+        div,
+        ul {
+            background-color: rgba(255, 255, 255, 0.9);
+            /* White background with slight transparency */
             padding: 15px;
             margin: 15px auto;
             border-radius: 8px;
@@ -29,13 +45,9 @@
             list-style-type: none;
             padding: 0;
         }
+
         li {
             padding: 8px;
-            text-align: center;
-        }
-
-        /* Center and style the headers */
-        h1, h2, h3, h4, nav {
             text-align: center;
         }
 
@@ -45,6 +57,7 @@
             text-decoration: none;
             margin: 0 10px;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
@@ -66,25 +79,30 @@
         }
     </style>
 </head>
+
 <body>
-        <!-- Navigation links -->
-        <nav>
-            <a href="/">Home</a> |
-            <a href="/files">Download Files</a> |
-            <a href="/rangesearch">Leveling Search</a> |
-        </nav>
-    <div>
-        <h1>Available Excel Files for Download</h1>
-        <h2>The Excel files are raw data</h2>
-        <ul>
-            <% downloadableFiles.forEach(file => { %>
-                <li>
-                    <a href="/download/<%= file.name %>" download><%= file.displayName %></a>
-                </li>
-            <% }); %>
-        </ul>
-    </div>
-    
+    <!-- Navigation links -->
+    <%- include('headers/header') %>
+
+        <div>
+            <div
+                
+            >
+                <h1>Available Excel Files for Download</h1>
+                <h2>The Excel files are raw data</h2>
+            </div>
+            <ul>
+                <% downloadableFiles.forEach(file=> { %>
+                    <li>
+                        <a href="/download/<%= file.name %>" download>
+                            <%= file.displayName %>
+                        </a>
+                    </li>
+                    <% }); %>
+            </ul>
+        </div>
+
 
 </body>
+
 </html>

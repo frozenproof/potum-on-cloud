@@ -84,7 +84,36 @@ We can also add google search index to allow others to visit our websites.
 by the way, data power also require to change the currently connected network on ethernet to ethernet. 
 
 If it works it works, now go and commit tax evasions.
+```
+// Endpoint to handle the dynamic rendering inside
+router.post('/viewmagic2', async (req, res) => {
+    const { file } = req.body;
 
+    try {
+        const filePath = path.join(__dirname, '..', 'database', 's2', file + '.ejs');
+        if (!fs.existsSync(filePath)) {
+            console.log("Error finding EJS file: " + file);
+            res.status(500).send({ error: "An unexpected error occurred." });
+        }
+        else
+        {
+            console.log("Found "+file)
+                // Render the EJS file from the specified path
+            res.render(filePath, { layout: false}, (err, html) => {
+                if (err) {
+                    console.log("Error rendering EJS file:", err);
+                    return res.status(500).send({ error: "Failed to load content." });
+                }
+                res.send({ content: html });
+        });
+        }
+
+    } catch (error) {
+        console.log("Error handling request:", error);
+        res.status(500).send({ error: "An unexpected error occurred." });
+    }
+});
+```
 # Upcoming
 
 Illegal waifus are invading the websites but hell, i fucking hate source control

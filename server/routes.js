@@ -6,6 +6,10 @@ const xlsx = require('xlsx');
 const os = require('os');
 const router = express.Router();
 
+const fileArray = require('../templates/functions-skills-list/fileLoader'); // Adjust path as needed
+
+// console.log('File array in router:', fileArray); // Debug line
+
 // Metadata handling
 const platform = os.platform();
 const metadataFile = platform === 'win32' ? 'metadata_windows.xlsx' : 'metadata_linux.xlsx';
@@ -101,6 +105,16 @@ router.post('/view', (req, res) => {
     }
 });
 
+router.get('/skills/*', (req, res) => {
+    const filePath = path.join(__dirname, '..', 'database', 's2', req.params[0]);
+    if (fs.existsSync(filePath)) {
+        res.render(filePath);
+    } else {
+        console.log(filePath)
+        res.status(404).send('<p>File not found</p>');
+    }
+});
+
 router.get('/freerouting/*', (req, res) => {
     const filePath = path.join(__dirname, '..', 'templates', 'ai-manifest', req.params[0] + '.html');
     if (fs.existsSync(filePath)) {
@@ -134,65 +148,90 @@ router.get('/sitemaps', (_req, res) => {
 });
 
 router.get('/viewmagic', (_req, res) => {
-    const databaseList = ["Blade", "Shot", "Magic", "Support"]; // List of database names
+    const databaseList = fileArray; // List of database names
     res.render('skills', { databaseList }); // Pass the database list to the template
 });
 
-// Endpoint to handle the dynamic rendering
-router.post('/viewmagic2', async (req, res) => {
-    const { file } = req.body;
-
-    try {
-        const filePath = path.join(__dirname, '..', 'database', 's2', file + '.ejs');
-        if (!fs.existsSync(filePath)) {
-            console.log("Error finding EJS file: " + file);
-            res.status(500).send({ error: "An unexpected error occurred." });
-        }
-        else
-        {
-            console.log("Found "+file)
-                // Render the EJS file from the specified path
-            res.render(filePath, { layout: false}, (err, html) => {
-                if (err) {
-                    console.log("Error rendering EJS file:", err);
-                    return res.status(500).send({ error: "Failed to load content." });
-                }
-                res.send({ content: html });
-        });
-        }
-
-    } catch (error) {
-        console.log("Error handling request:", error);
-        res.status(500).send({ error: "An unexpected error occurred." });
-    }
-});
 
 router.get('/health', (_req, res) => {
     res.status(200).send('Server is healthy');
 });
 
 router.post('/rangesearch', (req, res) => {
-    const { min, max } = req.body;
-    const filePath = path.join(__dirname, '..', 'database', defaultFile);
+    const { file, numberInput, rangeInput, sortBy, sortOrder } = req.body; // Include sort criteria
+    const filePath = path.join(__dirname, '..', 'database', 'm4', file + '.xlsx'); // Construct file path
+
+    // Check if the file exists
     if (!fs.existsSync(filePath)) {
-        return res.status(404).json({ error: 'File not found' });
+        console.error(`File not found: ${filePath}`);
+        return res.status(400).json({ error: "File not found" });
     }
+
     try {
-        const workbook = xlsx.readFile(filePath);
-        const sheetName = workbook.SheetNames[0];
-        const sheet = workbook.Sheets[sheetName];
-        let df = xlsx.utils.sheet_to_json(sheet);
-        df = df.filter(row => {
-            const values = Object.values(row).map(v => parseFloat(v));
-            return values.some(value => value >= min && value <= max);
-        });
-        if (df.length > 0) {
-            res.json({ data: df });
+        const workbook = xlsx.readFile(filePath); // Read the Excel file
+        const sheetName = workbook.SheetNames[0]; // Get the first sheet name
+        const sheet = workbook.Sheets[sheetName]; // Get the sheet data
+        const data = xlsx.utils.sheet_to_json(sheet); // Convert sheet to JSON
+
+        console.debug(`Loaded ${data.length} rows from sheet: ${sheetName}`);
+
+        const baseLevel = parseInt(numberInput);
+        const range = parseInt(rangeInput);
+
+        if (isNaN(baseLevel) || isNaN(range)) {
+            console.error("Invalid number input or range input");
+            return res.status(400).json({ error: "Invalid base level or range" });
+        }
+
+        const minLevel = baseLevel - range;
+        const maxLevel = baseLevel + range;
+
+        // Filter and sort combined
+        var filteredData = data
+            .filter(row => {
+                const stats = row.Stats; // Assuming Stats contains "Lv 108"
+                const levelMatch = stats.match(/Lv\s*(\d+)/); // Extract level
+                if (levelMatch) {
+                    const level = parseInt(levelMatch[1]);
+                    return level >= minLevel && level <= maxLevel;
+                }
+                console.warn(`Invalid Stats format: ${stats}`);
+                return false;
+            });
+        filteredData = filteredData.sort((a, b) => {
+            console.log(a)
+            console.log(b)
+            const astats = a.Stats; // Assuming Stats contains "Lv 108"
+            const bstats = b.Stats; // Assuming Stats contains "Lv 108"
+            try {
+                const valA = parseInt((astats.match(/Exp\s*(\d+)/)[1])); // Extract level
+                const valB = parseInt((bstats.match(/Exp\s*(\d+)/)[1])); // Extract level
+
+                if (valA < valB) return sortOrder === 'desc' ? -1 : 1;
+                if (valA > valB) return sortOrder === 'desc' ? 1 : -1;
+            }
+            catch {
+
+            }
+
+            return 0;
+        })
+
+        console.debug(`Filtered rows: ${filteredData.length}`);
+
+        // Limit rows to return
+        const maxRows = 10;
+        const rowsToReturn = formatTableData(filteredData);
+        // const rowsToReturn = formatTableData(filteredData.slice(0, maxRows));
+
+        if (req.headers['x-requested-with'] === 'XMLHttpRequest') {
+            return res.json({ results: rowsToReturn });
         } else {
-            res.status(404).json({ error: 'No data found within the range' });
+            return res.json({ results: rowsToReturn });
         }
     } catch (error) {
-        res.status(500).json({ error: 'Error processing the file' });
+        console.error(`Error processing file: ${error.message}`);
+        return res.status(500).json({ error: "Error processing the file" });
     }
 });
 

@@ -299,15 +299,15 @@ function calcOgreSlashValues() {
 calcOgreSlashValues()
 
 function calcHardHitConstant(level, result) {
-    var constant = Math.floor(50 + 5*level)
+    var constant = Math.floor(50 + 5 * level)
     result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
 }
 
 function calcHardHitMultiplier(level, registlet, weapon, result) {
     var multiplier = 1 + (0.05 * level) + (0.05 * registlet)
-    if (weapon == "2H") {multiplier += 0.5}
-    if (multiplier - Math.floor(multiplier*100)/100 < 0.0099) {multiplier = Math.floor(multiplier*100)/100}
-    else {multiplier = Math.round(multiplier*100)/100}
+    if (weapon == "2H") { multiplier += 0.5 }
+    if (multiplier - Math.floor(multiplier * 100) / 100 < 0.0099) { multiplier = Math.floor(multiplier * 100) / 100 }
+    else { multiplier = Math.round(multiplier * 100) / 100 }
     result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
 }
 
@@ -315,20 +315,20 @@ function calcAilmentChanceHardHit(level, weapon, result) {
     var chance = 5
     //The next "if" is pretty much required; the game uses a weird function called Math.RoundToInt, and only for Hard Hit; go figure why
     //If the number has no decimal, there's nothing left to do
-    if(4.5 * level == (4.5 * level).toFixed(0)) {
-          chance += parseInt((4.5 * level).toFixed(0), 10)
+    if (4.5 * level == (4.5 * level).toFixed(0)) {
+        chance += parseInt((4.5 * level).toFixed(0), 10)
         //If the decimal part is equal to 0.5 (it will be either 0 or 0.5), then the game rounds it up or down to the nearest even number
     }
-    else if((4.5 * level).toFixed(0) % 2 == 0) {
+    else if ((4.5 * level).toFixed(0) % 2 == 0) {
         //Checking if the rounded up number is even
         chance += parseInt((4.5 * level).toFixed(0), 10)
-    } 
+    }
     else {
         //If it's odd, then round it down
         chance += parseInt((4.5 * level).toFixed(0)) - 1
     }
-    
-    if(weapon == "1H") {chance += 50}
+
+    if (weapon == "1H") { chance += 50 }
     result.innerHTML += `<li><b>Flinch Chance:</b> ${chance}%</li>`
 }
 
@@ -343,7 +343,7 @@ function addHardHitExtraInfo(result) {
     <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b></li>`
 }
 
-function calcHardHitValue(){
+function calcHardHitValue() {
     let weaponSelector = document.getElementById("hardHitWeapon")
     let weapon = weaponSelector[weaponSelector.selectedIndex].value
     let levelSelector = document.getElementById("hardHitLevel")
@@ -351,7 +351,7 @@ function calcHardHitValue(){
     let registletSelector = document.getElementById("hardHitRegistlet")
     let registlet = registletSelector[registletSelector.selectedIndex].value
     let result = document.getElementById("hardHitValue")
-    calcHardHitConstant (level, result)
+    calcHardHitConstant(level, result)
     calcHardHitMultiplier(level, registlet, weapon, result)
     calcAilmentChanceHardHit(level, weapon, result)
     addHardHitAilmentInfo(result)
@@ -359,3 +359,363 @@ function calcHardHitValue(){
 }
 
 calcHardHitValue();
+
+function calcAstuteMpCost(weapon, result) {
+    var cost = 200
+    if (weapon == "1H") { cost -= 100 }
+    result.innerHTML = `<li><b>MP Cost:</b> ${cost}</li>`
+}
+
+function calcAstuteConstant(level, result) {
+    var constant = Math.floor(150 + 5 * level)
+    result.innerHTML += `<li><b>Skill Constant:</b> ${constant}</li>`
+}
+
+function calcAstuteMultiplier(level, weapon, result) {
+    var multiplier = 1.5 + (0.1 * level)
+    if (weapon == "2H") { multiplier += 0.5 }
+    result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li>`
+}
+
+function calcAstuteMotionSpeed(level, result) {
+    var motionSpeed = 5 * level
+    result.innerHTML += `<br><li><b>Motion Speed</b> of <b>Astute</b> +${motionSpeed}%</li>`
+}
+
+function calcAstuteBuffEffect(level, weapon, result) {
+    var crit = 25
+    var duration = 5
+    if (weapon == "2H") { crit *= 2 }
+    if (level > 5) { duration *= 2 }
+    result.innerHTML += `<li>Grants <b>Astute buff</b> upon successful cast</li>
+    <br><b>Buff Effect:</b>
+    <li><b>Critical Rate</b> +${crit}</li>
+    <li><b>Buff Duration:</b> ${duration} seconds</li>`
+}
+
+function calcAstuteValues() {
+    let weaponSelector = document.getElementById("astuteWeapon")
+    let weapon = weaponSelector[weaponSelector.selectedIndex].value
+    let levelSelector = document.getElementById("astuteLevel")
+    let level = levelSelector[levelSelector.selectedIndex].value
+    let result = document.getElementById("astuteValues")
+    calcAstuteMpCost(weapon, result)
+    calcAstuteConstant(level, result)
+    calcAstuteMultiplier(level, weapon, result)
+    calcAstuteMotionSpeed(level, result)
+    calcAstuteBuffEffect(level, weapon, result)
+    result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b>`
+
+}
+calcAstuteValues()
+
+function calcTriggerSlashMpCost(level, result) {
+    var cost = 300
+    if (level > 5) { cost -= 100 }
+    result.innerHTML = `<li><b>MP Cost:</b> ${cost}</li>`
+}
+
+function calcTriggerSlashConstant(level, result) {
+    var constant = 200 + 10 * level
+    result.innerHTML += `<li><b>Skill Constant:</b> ${constant}</li>`
+}
+
+function calcTriggerSlashMultiplier(level, weapon, result) {
+    var skillMultiplier = 1.5 + (0.05 * level)
+    if (weapon == "2H") { skillMultiplier += 1 }
+    result.innerHTML += `<li><b>Skill Multiplier:</b> ${skillMultiplier}</li>`
+}
+
+function addTriggerSkillEffect(weapon, registlet, result) {
+    var element = ``
+    if (registlet) { element = `Weapon Dependent` }
+    else { element = `Fire` }
+    var HTML = `<li><b>Element:</b> ${element}</li><br>`
+    if (weapon == "1H") { HTML += `<li>This skill has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be [Evaded]</li>` }
+    HTML += `<li>Grants <b>Trigger Slash buff</b> upon successful cast</li>`
+    result.innerHTML += HTML
+}
+
+function calcTriggerBuffEffect(level, result) {
+    var AMPR = 2 * level
+    result.innerHTML += `<br><b>Buff Effect:</b>
+					<li><b>Attack MP Recovery</b> +${AMPR}</li>
+					<li>Sets the next skill's <b>Motion Speed</b> to +50%; <b>overrides</b> other <b>Motion Speed</b> effects such as <b>[Freeze]</b>, <b>Swift combo tag</b>, or <b>Chain Cast</b></li>
+					<li><b>Buff Duration:</b> Until a skill is used</li>`
+}
+
+function calcTriggerValues() {
+    var weaponSelector = document.getElementById("triggerWeapon")
+    var weapon = weaponSelector[weaponSelector.selectedIndex].value
+    var levelSelector = document.getElementById("triggerLevel")
+    var level = levelSelector[levelSelector.selectedIndex].value
+    var registlet = document.getElementById("triggerSlashElement").checked
+    var result = document.getElementById("triggerValues")
+    calcTriggerSlashMpCost(level, result)
+    calcTriggerSlashConstant(level, result)
+    calcTriggerSlashMultiplier(level, weapon, result)
+    addTriggerSkillEffect(weapon, registlet, result)
+    calcTriggerBuffEffect(level, result)
+    result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b>`
+}
+
+calcTriggerValues()
+
+function calcRampageAutoAttack(level, registlet, weapon, result) {
+    var constantAA = Math.floor(10 * level)
+    var skillMultiplierAA = 0.1 + (0.04 * level)
+    if (weapon != "2H") { skillMultiplierAA += 0.05 * level }
+    skillMultiplierAA = Math.round(skillMultiplierAA * 100) / 100
+
+    var atkCount = ``
+    var dualMod = ``
+    var hitCount = 4
+    if (registlet > 0) { atkCount += `Next 11` }
+    else { atkCount += `First 10` }
+    if (weapon == "DW") {
+        dualMod = `, <font style = 'color: #C70039'>only apply to main hand damage</font style>`
+        hitCount = 7
+    }
+    var HTML = `<li><b>${atkCount} Auto Attacks Skill Constant</b> +${constantAA}; total constant increase for all hits of 1 auto attack${dualMod}</li>
+    <li><b>${atkCount} Auto Attacks Skill Multiplier</b> +${skillMultiplierAA}; total multiplier increase for all hits of 1 auto attack${dualMod}</li>
+    <li><b>${atkCount} Auto Attacks Hit Count:</b> ${hitCount} hits; damage calculation is done once then spread evenly between the hits`
+    if (weapon == "DW") { HTML += ` alongside the sub-hand damage` }
+    HTML += `</li>`
+    result.innerHTML = HTML
+}
+
+function calcRampageFinalHit(level, registlet, weapon, result) {
+    var constantFinal = Math.floor(300 + 20 * level)
+
+    var skillMultiplierFinal1 = 0.5 + (0.05 * level)
+    var skillMultiplierFinal2 = 2.5 + (0.05 * level)
+    var heal = 50 * registlet
+
+    if (weapon == "2H") {
+        skillMultiplierFinal1 += 1
+        skillMultiplierFinal2 += 3
+    }
+    skillMultiplierFinal1 = Math.round(skillMultiplierFinal1 * 100) / 100
+
+    if (registlet == 0) {
+        result.innerHTML += `<li><b>Final Attack Skill Constant: </b> ${constantFinal}; constant for each hit</li>
+    <li><b>Final Attack Skill Multiplier (First 2 hits): </b> ${skillMultiplierFinal1}; multiplier for each hit<br>
+    <li><b>Final Attack Skill Multiplier (Third hit): </b> ${skillMultiplierFinal2}<br>
+    <li><b>Final Attack Hit Count:</b> 3 hits; damage calculation is done for each hit</li>`}
+    else { result.innerHTML += `<li><b>HP restore after the 11th Auto Attack:</b> ${heal}</li>` }
+}
+
+function addRampageSkillInfo(result) {
+    result.innerHTML += `<br><b>Skill Effect:</b> Grants <b>Rampage buff</b> with 11 stacks to the caster upon cast; each auto attack will consume 1 stack upon hitting a target<br>`
+}
+
+function addRampageBuffInfo(level, registlet, weapon, result) {
+    var ampr = Math.floor(2.5 * level)
+    var atkCount = 10
+    if (registlet > 0) { atkCount += 1 }
+    var HTML = `<br><b>Buff Effects:</b></li>
+	<li>Sets the caster's <b>DEF</b>, <b>MDEF</b> and <b>Dodge</b> to 0 (<b>overrides all other DEF, MDEF and Dodge modifiers</b>) and deactivates <b>Power Wave</b> while the buff is active</li>
+	<li>Enhances the caster's next ${atkCount} auto attacks and change their hit counts</li>
+	<li><b>Attack MP Recovery</b> +${ampr}`
+    if (weapon == "DW") { HTML += `; <font style = 'color: #C70039'><b>not doubled</b> by Dual Swords effect</font></li>` }
+    HTML += `</li>`
+    result.innerHTML += HTML
+}
+
+function addRampageFinalAttackInfo(registlet, result) {
+    if (registlet == 0) {
+        result.innerHTML += `<li>Replaces the 11th auto attack with an uncancellable "Final Attack" that is treated as a <b>Physical skill</b> with <b>Perfect Aim attribute</b>:
+	<ul><li>&nbsp&nbsp&nbsp- It <b>inflicts physical proration</b> and <b>consumes buffs that apply to the next skill</b>; however, it is unaffected by <b>Whack</b>, <b>Short Range Damage</b> stat and <b>Sword Techniques</b></li>
+	<li>&nbsp&nbsp&nbsp- It cannot [Miss] or [Graze], but can be [Evaded] (its damage is reduced to 1 instead of being fully evaded)</li>
+	<li>&nbsp&nbsp&nbsp- It is unaffected by <b>Motion Speed</b> stat, but can be affected by [Freeze] and <b>Trigger Slash</b></li></ul></li>`}
+    else { result.innerHTML += `<li>After the 11th auto attack, restore HP based on the level of <b>Remedial Rampage Registlet</b> equipped</li>` }
+}
+
+function addRampageBuffDuration(registlet, result) {
+    var duration = 600;
+    var whenFinalAttack = ""
+    if (registlet == 0) { whenFinalAttack = "when the Final Attack ends" }
+    else { whenFinalAttack = "after the 11th auto attack" }
+    result.innerHTML += `<li><b>Buff Duration:</b> 10 minutes; the buff is also removed <b>${whenFinalAttack}</b> OR when inflicted with any ailment (the latter can be prevented with <b>Berserk's effect</b>)</li>`
+}
+
+function addRampageBuffLockInfo(result) {
+    result.innerHTML += `<br><b>Extra info:</b>
+	<li>This skill <b>cannot be recast</b> if the buff is active; it also <b>cannot be cast if another attack motion modifier skill is active</b> (e.g. <b>Dual Shields</b>,...)</li>
+	<li>If this skill is in a <b>combo</b> and is not the first skill of that combo, the <b>combo will be temporarily disabled</b> as long as the buff is active</li>
+	<li>Rampage Stack will not be consumed if your auto attack [Missed] or was [Evaded]</li>
+	<li>This skill's total damage is <b>unaffected by Combo tags</b></li>`
+}
+
+function calcRampageValues() {
+    var weaponSelector = document.getElementById("rampageWeapon")
+    var weapon = weaponSelector[weaponSelector.selectedIndex].value
+    var levelSelector = document.getElementById("rampageLevel")
+    var level = levelSelector[levelSelector.selectedIndex].value
+    var registletSelector = document.getElementById("rampageRegistlet")
+    var registlet = registletSelector[registletSelector.selectedIndex].value
+    var result = document.getElementById("rampageValues")
+    calcRampageAutoAttack(level, registlet, weapon, result)
+    calcRampageFinalHit(level, registlet, weapon, result)
+    addRampageSkillInfo(result)
+    addRampageBuffInfo(level, registlet, weapon, result)
+    addRampageFinalAttackInfo(registlet, result)
+    addRampageBuffDuration(registlet, result)
+    addRampageBuffLockInfo(result)
+}
+calcRampageValues();
+
+
+function weaponStrCheck(weapon, strSection) {
+    if (weapon == "2H") { strSection.style = "display: block" }
+    else { strSection.style = "display: none" }
+}
+
+function weaponDexCheck(weapon, dexSection) {
+    if (weapon == "1H") { dexSection.style = "display: block" }
+    else { dexSection.style = "display: none" }
+}
+
+function calcMeteorConstant(level, result) {
+    var constant1 = Math.floor(400 + 20 * level)
+    result.innerHTML = `<li><b>Skill Constant (First Hit): </b> ${constant1} </li>
+    <li><b>Skill Constant (Second Hit): </b> 0</li>`
+}
+
+function calcMeteorMultiplier(level, weapon, strValue, dexValue, result) {
+    var multiplier1 = 4 + (0.2 * level)
+    var multiplier2 = 1 + (0.5 * level)
+    if (weapon == "1H") { multiplier2 += dexValue / 200 }
+    else if (weapon == "2H") { multiplier1 += 2 + strValue / 1000 }
+
+    function rounding(value) {
+        if (value - Math.floor(value * 100) / 100 < 0.00999999) { value = Math.floor(value * 100) / 100 }
+        else { value = Math.round(value * 100) / 100 }
+        return value
+    }
+
+    multiplier1 = rounding(multiplier1)
+    multiplier2 = rounding(multiplier2)
+    result.innerHTML += `<li><b>Skill Multiplier (First Hit):</b> ${multiplier1}</li>
+    <li><b>Skill Multiplier (Second Hit):</b> ${multiplier2}</li>
+    <li><b>Hit Count:</b> 2 hits on the main target; 1 hit on all other targets; damage calculation is done for each hit</li><br>`
+}
+
+function calcMeteorSecondHitRange(level, weapon, result) {
+    var hitRange = 2 + Math.floor((level - 1) / 3) * 0.5
+    result.innerHTML += `<li><b>Second Hit Range (radius):</b> ${hitRange}m, around the <b>main target's position on cast</b></li>`
+}
+
+function addMeteorInvincibleInfo(result) {
+    result.innerHTML += `<li>Upon using this skill, gain [Invincible] for 2 seconds OR until you land</li>`
+}
+
+function calcMeteorDizzyChance(level, weapon, result) {
+    var chance = Math.floor(2.5 * level)
+    if (weapon != "2H") { chance += 75 }
+    result.innerHTML += `<li class = 'skill-ailment'><b>Dizzy Chance (First Hit):</b> ${chance}%</li>
+    <li><b>Dizzy Duration:</b> 10 seconds</li>`
+}
+
+function calcMeteorValues() {
+    var weaponSelector = document.getElementById("meteorWeapon")
+    var weapon = weaponSelector[weaponSelector.selectedIndex].value
+    var levelSelector = document.getElementById("meteorLevel")
+    var level = levelSelector[levelSelector.selectedIndex].value
+    var strSection = document.getElementById("meteorStrInput")
+    var strValue = document.getElementById("meteorStrValue").value
+    var dexSection = document.getElementById("meteorDexInput")
+    var dexValue = document.getElementById("meteorDexValue").value
+    var result = document.getElementById("meteorValues");
+    weaponStrCheck(weapon, strSection)
+    weaponDexCheck(weapon, dexSection)
+    calcMeteorConstant(level, result)
+    calcMeteorMultiplier(level, weapon, strValue, dexValue, result)
+    calcMeteorSecondHitRange(level, weapon, result);
+    addMeteorInvincibleInfo(result);
+    calcMeteorDizzyChance(level, weapon, result);
+    result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b>`
+}
+
+calcMeteorValues()
+
+function shutOutWeaponDWCheck(weapon, agiSection) {
+    if (weapon == "DW") {agiSection.style = "display: block"}
+    else {agiSection.style = "display: none"}
+}
+
+function shutOutWeaponDexCheck(weapon, dexSection) {
+    if (weapon == "1H") {dexSection.style = "display: block"}
+    else {dexSection.style = "display: none"}
+}
+
+function calcShutOutConstant(weapon, result) {
+    var constant = 100
+    if (weapon == "DW") {constant += 100}
+    result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+}
+
+function calcShutOutMultiplier(level, weapon, interrupt, dexValue, agiValue, result) {
+    var multiplier1 = 5
+    var multiplier2 = 10 + 1*level
+    if (weapon == "1H") {
+        multiplier1 += dexValue/200
+        multiplier2 += 0.5 * level + dexValue/100
+    }
+    else if (weapon == "DW") {
+        multiplier1 += agiValue/400
+        multiplier2 += 0.5 * level + agiValue/200
+    }
+    else {multiplier1 += 1*level}
+    
+    function rounding(value) {
+       if (value - Math.floor(value*100)/100 < 0.00999999) {value = Math.floor(value*100)/100}
+        else {value = Math.round(value*100)/100}
+        return value
+    }
+
+    multiplier1 = rounding(multiplier1)
+    multiplier2 = rounding(multiplier2)
+    var HTML = `<li><b>Skill Multiplier:</b> `
+    if (interrupt) {HTML += multiplier2}
+    else {HTML += multiplier1}
+    HTML += `</li>`
+    result.innerHTML += HTML
+}
+
+function addShutOutSkillEffect(weapon, interrupt, result) {
+    if (weapon == "1H" && interrupt) {result.innerHTML += `<br><li><b>Total Physical Pierce</b> of this skill is <b>quadrupled</b></li>`}
+    else if (weapon == "DW" && interrupt) {result.innerHTML += `<br><li><b>Total Physical Pierce</b> of this skill is <b>doubled</b></li>`}
+    else if (weapon == "2H") {result.innerHTML += `<br><li>This skill is <b>unaffected by motion speed modifiers</b></li>`}
+}
+
+function calcShutOutBleedChance(interrupt, result) {
+    if (interrupt) {result.innerHTML += `<li><b>Bleed Chance:</b> 100%</li>
+    <li><b>Bleed Duration:</b> 10 seconds</li>`}
+}
+
+function addShutOutExtraInfo(result) {
+    result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b>`
+}
+
+function calcShutOutValues() {
+    let weaponSelector = document.getElementById("shutOutWeapon")
+    let weapon = weaponSelector[weaponSelector.selectedIndex].value
+    let levelSelector = document.getElementById("shutOutSkillLevel")
+    let level = levelSelector[levelSelector.selectedIndex].value
+    let interrupt = document.getElementById("shutOutFTS").checked
+    let dexSection = document.getElementById("shutOutDexInput")
+    let dexValue = document.getElementById("shutOutDexValue").value
+    let agiSection = document.getElementById("shutOutAgiInput")
+    let agiValue = document.getElementById("shutOutAgiValue").value
+    let result = document.getElementById("shutOutValues")
+    shutOutWeaponDWCheck(weapon, agiSection)
+    shutOutWeaponDexCheck(weapon, dexSection)
+    calcShutOutConstant(weapon, result)
+    calcShutOutMultiplier(level, weapon, interrupt, dexValue, agiValue, result)
+    addShutOutSkillEffect(weapon, interrupt, result)
+    calcShutOutBleedChance(interrupt, result)
+    addShutOutExtraInfo(result)
+}
+
+calcShutOutValues()

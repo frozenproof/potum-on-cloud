@@ -1,650 +1,1532 @@
-<script src="../../templates/functions-skills-list/blade.js"></script>
-<style src="./skills-list.css">
+<!DOCTYPE html>
 
-</style>
-<div id="content">
-	<div class="container">
-		<div>
-			<div style="display:grid;grid-template-columns: 1fr 1fr;">
-				<div>
-					<p class="card-title">
-						<img src="skill/blade/hammerslam.png" width="34" height="34">
-						Hammer Slam
-					</p>
-					<p class="medium">
-						Skill Hammer Slam Level 1 </p>
-				</div>
-				<div style="justify-self:end;">
-					<img src="images/icon/ths.png"><br>2-Handed Sword only
-				</div>
-			</div>
-			<hr class="separator">
-			<div class="monster-prop">
-				<div>
-					<p class="accent-bold">Type</p>
-					<p>Active, Physical skill</p>
-				</div>
-				<div>
-					<p class="accent-bold">Element</p>
-					<p>Weapon Dependent</p>
-				</div>
-				<div>
-					<p class="accent-bold">MP</p>
-					<p>100</p>
-				</div>
-				<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-				<div>
-					<p class="accent-bold">Combo start</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Combo middle</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Range</p>
-					<p>3</p>
-				</div>
-				<div class="span-2">
-					<p class="accent-bold">Description</p>
-					<p>Performs a narrow-range attack around the targets as if you are slamming them down. Guarantees a
-						critical hit on targets immobilized by Flinch or other status ailments. MP Cost becomes 0 if
-						used consecutively.</p>
-				</div>
-			</div>
-			<p class="accent-bold">Extras</p>
-			<p></p>
-			<details>
-				<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
-				<select id="hammerSlamLevel" onchange="calcHammerSlamValues()">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10" selected="">10</option>
-				</select><br>
-				<span class="sub-title"> <b>Base STR:</b></span>
-				<input type="number" value="255" min="1" max="510" id="hammerSlamStrValue"
-					onchange="calcHammerSlamValues()" style="width: 50px;"><br>
-				<span class="sub-title"> <b>Total VIT:</b></span>
-				<input type="number" value="1" id="hammerSlamVitValue" onchange="calcHammerSlamValues()"
-					style="width: 50px;"><br>
-				<span class="sub-title"><b>Target is afflicted with [Flinch]/[Tumble]/[Stun]:</b></span>
-				<input type="checkbox" id="hammerSlamFTS" onchange="calcHammerSlamValues()"><br>
-				<br>
-				<span id="hammerSlamValues">
-					<li><b>Skill Constant:</b> 100</li>
-					<li><b>Skill Multiplier:</b> 2.02</li><br>
-					<li><b>Hit Range (radius):</b> 2.5m, around the <b>main target's position on cast</b></li>
-					<li>Gains the following effects upon using this skill consecutively (the last skill used is also
-						this skill):<ul>
-							<li>&nbsp;&nbsp;&nbsp;- This skill's MP Cost becomes 0</li>
-							<li>&nbsp;&nbsp;&nbsp;- This skill's proration is changed to <b>Normal Attack Proration</b>
-							</li>
-							<li>&nbsp;&nbsp;&nbsp;- This skill becomes <b>unaffected by any Proration modifiers</b></li>
-						</ul>
-					</li>
-					<li><b>Effect Duration:</b> Until another skill is used</li><br><b>Extra info:</b>
-					<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main
-							weapon</b></li>
-					<li>This skill can only be used as Combo Start if its MP Cost is not 0</li>
-					<li>This skill uses <b>Physical Proration</b> for its damage calculation and inflicts <b>Physical
-							Proration</b>; these change to <b>not uses any Proration modifiers at all</b> and inflicts
-						<b>Normal Attack Proration</b>, respectively, when used consecutively
-					</li>
-				</span>
-			</details>
-			<p></p>
-		</div>
+<html>
 
-		<div>
-			<div style="display:grid;grid-template-columns: 1fr 1fr;">
-				<div>
-					<p class="card-title">
-						<img src="skill/blade/cleavingattack.png" width="34" height="34">
-						Cleaving Attack
-					</p>
-					<p class="medium">
-						Skill Cleaving Attack Level 2 </p>
-				</div>
-				<div style="justify-self:end;">
-					<img src="images/icon/ths.png"><br>2-Handed Sword only
-				</div>
-			</div>
-			<hr class="separator">
-			<div class="monster-prop">
-				<div>
-					<p class="accent-bold">Type</p>
-					<p>Active, Physical skill</p>
-				</div>
-				<div>
-					<p class="accent-bold">Element</p>
-					<p>Weapon Dependent</p>
-				</div>
-				<div>
-					<p class="accent-bold">MP</p>
-					<p>300</p>
-				</div>
-				<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-				<div>
-					<p class="accent-bold">Combo start</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Combo middle</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Range</p>
-					<p>3</p>
-				</div>
-				<div class="span-2">
-					<p class="accent-bold">Description</p>
-					<p>Swings the sword horizontally to deal with multiple opponents. If 2 or more targets are involved,
-						the power will increase proportionally and consumed MP will be restored.</p>
-				</div>
-			</div>
-			<p class="accent-bold">Extras</p>
-			<p></p>
-			<details>
-				<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
-				<select id="cleavingAttackLevel" onchange="calcCleavingAttackValues()">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10" selected="">10</option>
-				</select><br>
-				<span class="sub-title"> <b>Total STR:</b></span>
-				<input type="number" value="255" id="cleavingAttackStrValue" onchange="calcCleavingAttackValues()"
-					style="width: 50px;"><br>
-				<span class="sub-title"> <b>Total VIT:</b></span>
-				<input type="number" value="1" id="cleavingAttackVitValue" onchange="calcCleavingAttackValues()"
-					style="width: 50px;"><br>
-				<span class="sub-title"><b>Number of enemies within Hit Range:</b></span>
-				<input type="number" id="cleavingAttackEnemyCount" min="0" max="10" value="1" style="width: 3em;"
-					onchange="calcCleavingAttackValues()"><br>
-				<br>
-				<span id="cleavingAttackValues">
-					<li><b>Skill Constant:</b> 301</li>
-					<li><b>Skill Multiplier:</b> 2.5</li><br>
-					<li><b>Hit Range (radius):</b> same as the maximum auto attack range of the <b>main weapon</b>,
-						around the <b>caster</b></li><br><b>Extra info</b>
-					<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main
-							weapon</b></li>
-				</span>
+<head>
+	<title>Blade Skills Tree</title>
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<meta name="google-site-verification" content="939NygIf8312fvMoh3tfwAkIxVNX4b6Aq6CIs1w1VZk" />
+	<style>
+		/* styles.css */
+		/* Global Styles */
+		body {
+			background-image: url('../images/appbackground.png');
+			/* background-color: #ffe600b4; */
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+			color: #333;
+			font-family: Arial, sans-serif;
+		}
 
-			</details>
-			<p></p>
-		</div>
+		/* View Container */
+		.view {
+			width: 90%;
+			margin: 15px auto;
+			padding: 15px;
+			background-color: rgba(255, 255, 255, 0.95);
+			border-radius: 8px;
+			display: none;
+			/* Initially hidden */
+		}
 
-		<div>
-			<div style="display:grid;grid-template-columns: 1fr 1fr;">
-				<div>
-					<p class="card-title">
-						<img src="skill/blade/stormblaze.png" width="34" height="34">
-						Storm Blaze
-					</p>
-					<p class="medium">
-						Skill Storm Blaze Level 3 </p>
-				</div>
-				<div style="justify-self:end;">
-					<img src="images/icon/ths.png"><br>2-Handed Sword only
-				</div>
-			</div>
-			<hr class="separator">
-			<div class="monster-prop">
-				<div>
-					<p class="accent-bold">Type</p>
-					<p>Active, Physical skill</p>
-				</div>
-				<div>
-					<p class="accent-bold">Element</p>
-					<p>Weapon Dependent</p>
-				</div>
-				<div>
-					<p class="accent-bold">MP</p>
-					<p>200</p>
-				</div>
-				<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-				<div>
-					<p class="accent-bold">Combo start</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Combo middle</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Range</p>
-					<p>16</p>
-				</div>
-				<div class="span-2">
-					<p class="accent-bold">Description</p>
-					<p>Attacks enemies in a straight line with an aerial slash. Wind Power will accumulate when a normal
-						attack hits. Wind Power is consumed upon skill activation. Power, attack range, and MP recovery
-						increases according to the amount consumed.</p>
-				</div>
-			</div>
-			<p class="accent-bold">Extras</p>
-			<p></p>
-			<details>
-				<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
-				<select id="stormBlazeLevel" onchange="calcStormBlazeValues()">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10" selected="">10</option>
-				</select><br>
-				<span class="sub-title"> <b>Total VIT:</b></span>
-				<input type="number" value="1" id="stormBlazeVitValue" style="width: 50px;"
-					onchange="calcStormBlazeValues()"><br>
-				<span class="sub-title"> <b>Base DEX:</b></span>
-				<input type="number" value="255" min="1" max="510" id="stormBlazeDexValue" style="width: 50px;"
-					onchange="calcStormBlazeValues()"><br>
-				<span class="sub-title"><b>Number of stacks:</b></span>
-				<input type="number" id="stormBlazeEnemyCount" min="0" max="20" value="0" style="width: 3em;"
-					onchange="calcStormBlazeValues()"><br>
-				<br>
-				<span id="stormBlazeValues">
-					<li><b>Skill Constant: </b> 201</li>
-					<li><b>Skill Multiplier:</b> 0</li><br><b>Buff Effect:</b>
-					<li>Gains stacks upon performing the following actions; can stack up to a maximum of <b>20
-							stacks</b>
-						<ul>
-							<li>&nbsp;&nbsp;&nbsp;- Gains 1 stack for each <b>auto attack</b> or <b>consecutive mode
-									Hammer Slam</b></li>
-							<li>&nbsp;&nbsp;&nbsp;- Gains 2 stacks for each <b>auto attack during Rampage buff</b></li>
-						</ul>
-					</li>
-					<li>Upon casting this skill, <b>nothing happens</b>, and the caster will look confused</li>
-					<li><b>Buff Duration:</b> Until all stacks are used up</li><br><b>Extra info</b>
-					<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main
-							weapon</b></li>
-				</span>
 
-			</details>
-			<p></p>
-		</div>
+		/* Text and Content Alignment */
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		nav,
+		button,
+		a,
+		div {
+			text-align: center;
+		}
 
-		<div>
-			<div style="display:grid;grid-template-columns: 1fr 1fr;">
+		p {
+			background-color: rgba(255, 255, 255, 0.95);
+			padding: 15px;
+			text-align: center;
+		}
+
+		/* Button Styles */
+		button {
+			background-color: #0073e6;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+
+		button a {
+			color: white;
+			text-decoration: none;
+		}
+
+		/* Navigation Links */
+		nav a {
+			color: #0080ff;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+		}
+	</style>
+	<style>
+		.container {
+			font-size: 19px;
+		}
+
+		.card-title {
+			font-weight: 500;
+			font-size: 1.2rem;
+			color: #000;
+		}
+
+		@media only screen and (max-width: 550px) {
+			.card-title {
+				font-size: 1.0rem;
+			}
+		}
+
+		.card-title-inverse {
+			font-weight: 500;
+			font-size: 1.2rem;
+			background-color: #006990;
+			margin: -10px;
+			margin-bottom: 10px;
+			padding: 5px 10px;
+			color: #fff;
+		}
+
+		.monster-prop {
+			display: grid;
+			grid-template-columns: 50% 50%;
+		}
+
+		.monster-prop>.span-2 {
+			grid-template-columns: 25% auto;
+			grid-column: 1 / 3;
+		}
+
+		@media only screen and (max-width: 560px) {
+			.monster-prop {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-row-gap: 5px;
+			}
+
+			.monster-prop>.span-2 {
+				grid-template-columns: inherit;
+				grid-column: inherit;
+			}
+		}
+
+		.accent-bold {
+			color: #045a7a;
+			font-weight: 800;
+		}
+
+		.monster-prop>div {
+			padding-bottom: 5px;
+			display: grid;
+			grid-template-columns: 50% 50%;
+		}
+
+		/* content */
+		#content {
+			background-color: rgba(255, 255, 255, 0.95);
+			padding: 15px;
+			margin: 15px auto;
+			border-radius: 8px;
+			max-width: 90%;
+		}
+
+		@media only screen and (max-width: 950px) {
+			#content {
+				margin-left: 64px;
+				width: calc(100% - 64px);
+				padding: 10px;
+				overflow: auto;
+			}
+		}
+
+		.content-title {
+			font-size: 1.6rem;
+			font-weight: 800;
+			color: #045a7a;
+			padding-bottom: 10px;
+			font-family: RobotoSlab-Regular;
+		}
+
+		pre {
+			display: block;
+			padding: 9.5px;
+			font-size: 13px;
+			line-height: 1.42857143;
+			color: #333;
+			word-break: break-all;
+			word-wrap: break-word;
+			background-color: #f5f5f5;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			margin: 10px 15px;
+		}
+
+		@media only screen and (max-width: 550px) {
+			.content-title {
+				font-size: 1.3rem;
+			}
+
+			#content {
+				font-size: 13px;
+			}
+
+			pre {
+				margin: 5px 0px;
+				font-size: 11px;
+			}
+		}
+
+		.card-container .content-title,
+		.card-container-1 .content-title,
+		.card-container-2 .content-title {
+			padding-bottom: 0px;
+		}
+
+		.content-subtitle {
+			font-size: 1rem;
+			font-weight: 800;
+			color: #E67E22;
+			padding-bottom: 10px;
+		}
+
+		.card-container .content-subtitle,
+		.card-container-1 .content-subtitle,
+		.card-container-2 .content-subtitle {
+			padding-bottom: 0px;
+		}
+	</style>
+	<script src="../templates/axios.min.js"></script>
+	<script>
+		// wew have works to do
+		function roundToTwoDecimals(value) {
+			return Math.round(value * 100) / 100;
+		}
+	</script>
+</head>
+
+<body>
+	<%- include('../../templates/headers/header') %>
+
+		<div id="content">
+			<div class="container">
 				<div>
-					<p class="card-title">
-						<img src="skill/blade/gardeblade.png" width="34" height="34">
-						Garde Blade
-					</p>
-					<p class="medium">
-						Skill Garde Blade Level 4 </p>
-				</div>
-				<div style="justify-self:end;">
-					<img src="images/icon/ths.png"><br>2-Handed Sword only
-				</div>
-			</div>
-			<hr class="separator">
-			<div class="monster-prop">
-				<div>
-					<p class="accent-bold">Type</p>
-					<p>Active</p>
-				</div>
-				<div>
-					<p class="accent-bold">Element</p>
-					<p>Neutral</p>
-				</div>
-				<div>
-					<p class="accent-bold">MP</p>
-					<p>300</p>
-				</div>
-				<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-				<div>
-					<p class="accent-bold">Combo start</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Combo middle</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Range</p>
-					<p>0</p>
-				</div>
-				<div class="span-2">
-					<p class="accent-bold">Description</p>
-					<p>A defense technique using a two-handed sword. Boosts Physical/Magic Resistance and improves Guard
-						ability for 70 seconds. Recovers Guard Power a bit when the buff is applied. <b
-							style="color:#E77577">Overwriting won't trigger this recovery.</b></p>
-				</div>
-				<div class="span-2">
-					<div class="accent-bold"
-						style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-						<p><img src="images/icon/ths.png"></p>
-						<p>2-Handed Sword</p>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/hammerslam.png" width="34" height="34">
+								Hammer Slam
+							</p>
+							<p class="medium">
+								Skill Hammer Slam Level 1 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><br>2-Handed Sword only
+						</div>
 					</div>
-					<p>While the effect is active, the weapon's refinement value will work as the shield's refinement
-						value.<br>
-						VIT affects Guard Power Recovery and it won't recover beyond 100%.<br>
-						Nullifies ailments causing immobility when Guard is timed perfectly.<br>
-						<b style="color:#E77577">The buff ends immediately when Guard Power is used up and it can't be
-							used again for some time.</b>
-					</p>
-				</div>
-			</div>
-			<p class="accent-bold">Extras</p>
-			<p></p>
-			<details>
-				<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
-				<select id="gardeBladeLevel" onchange="calcGardeBladeValues()">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10" selected="">10</option>
-				</select><br>
-				<span class="sub-title"> <b>Total VIT:</b></span>
-				<input type="number" value="1" id="gardeBladeVitValue" onchange="calcGardeBladeValues()"
-					style="width: 50px;"><br>
-				<br>
-				<span id="gardeBladeValues"><b>Skill Effect:</b> Recovers your <b>Guard gauge</b> by 25.01 units and
-					grants <b>Garde Blade buff</b> to the <b>caster</b> upon successful cast; can only recover the
-					<b>Guard gauge</b> until 100 units, and the recovery only applies if <b>Garde Blade buff</b> is not
-					active<br><br>
-					<b>Buff Effect:</b><br>
-					<li>Allows <b>Main Weapon's Refinement Level</b> to grant damage reduction the same as that of a
-						<b>Shield</b> while the buff is active
-					</li>
-					<li><b>Physical &amp; Magic Resistance</b> +10%</li>
-					<li>Upon <b>Perfect Guard</b>, negate any [Flinch], [Tumble], [Stun] or [Knockback] that comes with
-						the blocked hit</li>
-					<li><b>Buff Duration:</b> 70 seconds OR until you get [Guard Break]</li><br><b>Extra info:</b>
-					<li><b>Perfect Guard</b> (or <b>"perfectly timed" Manual Guard</b>) refers to the short duration at
-						the start of Manual Guard motion, during when Guard gauge consumption upon taking any hit is
-						halved</li>
-					<li>This skill <b>cannot be cast</b> if you have [Guard Break]</li>
-				</span>
-
-			</details>
-			<p></p>
-		</div>
-
-		<div>
-			<div style="display:grid;grid-template-columns: 1fr 1fr;">
-				<div>
-					<p class="card-title">
-						<img src="skill/blade/ogreslash.png" width="34" height="34">
-						Ogre Slash
-					</p>
-					<p class="medium">
-						Skill Ogre Slash Level 5 </p>
-				</div>
-				<div style="justify-self:end;">
-					<img src="images/icon/ths.png"><br>2-Handed Sword only
-				</div>
-			</div>
-			<hr class="separator">
-			<div class="monster-prop">
-				<div>
-					<p class="accent-bold">Type</p>
-					<p>Active, Physical skill</p>
-				</div>
-				<div>
-					<p class="accent-bold">Element</p>
-					<p>Weapon Dependent</p>
-				</div>
-				<div>
-					<p class="accent-bold">MP</p>
-					<p>500</p>
-				</div>
-				<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-				<div>
-					<p class="accent-bold">Combo start</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Combo middle</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Range</p>
-					<p>3</p>
-				</div>
-				<div class="span-2">
-					<p class="accent-bold">Description</p>
-					<p>Deals damage to the target and after a short while, causes an explosion at the target's feet,
-						dealing additional damage. If the conditions are met, Ogre Power will be accumulated and
-						consumed upon skill activation to increase the power and buff.</p>
-				</div>
-				<div class="span-2">
-					<div class="accent-bold"
-						style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-						<p><img src="images/icon/ths.png"></p>
-						<p>2-Handed Sword</p>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>100</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>3</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Performs a narrow-range attack around the targets as if you are slamming them down.
+								Guarantees a
+								critical hit on targets immobilized by Flinch or other status ailments. MP Cost becomes
+								0 if
+								used consecutively.</p>
+						</div>
 					</div>
-					<p>Starting a battle, stepping on the warning area, taking damage, or perfectly timing Guard will
-						restore Ogre Power (<b style="color:gold">max 20</b>).<br>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+						<select id="hammerSlamLevel" onchange="calcHammerSlamValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"> <b>Base STR:</b></span>
+						<input type="number" value="255" min="1" max="510" id="hammerSlamStrValue"
+							onchange="calcHammerSlamValues()" style="width: 50px;"><br>
+						<span class="sub-title"> <b>Total VIT:</b></span>
+						<input type="number" value="1" id="hammerSlamVitValue" onchange="calcHammerSlamValues()"
+							style="width: 50px;"><br>
+						<span class="sub-title"><b>Target is afflicted with [Flinch]/[Tumble]/[Stun]:</b></span>
+						<input type="checkbox" id="hammerSlamFTS" onchange="calcHammerSlamValues()"><br>
 						<br>
-						Rampage's performance is boosted while the buff is active.<br>
-						Mitigates the drawbacks of Berserk while the buff is active.<br>
-						Slightly restores HP based on the MP consumed while the buff is active.
-					</p>
-				</div>
-			</div>
-			<p class="accent-bold">Extras</p>
-			<p></p>
-			<details>
-				<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
-				<select id="ogreSlashLevel" onchange="calcOgreSlashValues()">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10" selected="">10</option>
-				</select><br>
-				<span class="sub-title"> <b>Base STR:</b></span>
-				<input type="number" value="255" min="1" max="510" id="ogreSlashStrValue" style="width: 50px;"
-					onchange="calcOgreSlashValues()"><br>
-				<span class="sub-title"> <b>Base VIT:</b></span>
-				<input type="number" value="1" min="1" max="510" id="ogreSlashVitValue" style="width: 50px;"
-					onchange="calcOgreSlashValues()"><br>
-				<span class="sub-title"> <b>Total DEX:</b></span>
-				<input type="number" value="247" id="ogreSlashDexValue" style="width: 50px;"
-					onchange="calcOgreSlashValues()"><br>
-				<span class="sub-title"><b>Number of stacks:</b></span>
-				<input type="number" id="ogreSlashEnemyCount" min="0" max="20" value="0" style="width: 3em;"
-					onchange="calcOgreSlashValues()"><br>
-				<span class="sub-title"><b>Caster's Physical Pierce (%):</b> </span>
-				<input type="number" value="0" min="0" max="100" id="ogreSlashPhysicalPierce"
-					onchange="calcOgreSlashValues()" style="width: 50px;"><br>
-				<br>
-				<span id="ogreSlashValues">
-					<li><b>Skill Constant (First Hit):</b> 247</li>
-					<li><b>Skill Constant (Second Hit):</b> 500</li>
-					<li><b>Skill Multiplier (First Hit):</b> 2.56</li>
-					<li><b>Skill Multiplier (Second Hit):</b> 0</li>
-					<li><b>Hit Count:</b> up to 2 hits on the main target; 1 hit on all other targets; damage
-						calculation is done for each hit</li><br>
-					<li><b>Second Hit Range (radius):</b> 2m, around the <b>main target's position on cast</b></li>
-					<li>Negate all [Flinch], [Tumble], [Stun] or [Knockback] you would have taken during this skill's
-						animation</li><br><b>Passive Buff Effect:</b>
-					<li>Gains stacks upon performing the following actions; can stack up to a maximum of <b>20
-							stacks</b>
-						<ul>
-							<li>&nbsp;&nbsp;&nbsp;- Gains 5 stacks stack upon <b>being the one to initiate combat</b>
+						<span id="hammerSlamValues">
+							<li><b>Skill Constant:</b> 100</li>
+							<li><b>Skill Multiplier:</b> 2.02</li><br>
+							<li><b>Hit Range (radius):</b> 2.5m, around the <b>main target's position on cast</b></li>
+							<li>Gains the following effects upon using this skill consecutively (the last skill used is
+								also
+								this skill):<ul>
+									<li>&nbsp;&nbsp;&nbsp;- This skill's MP Cost becomes 0</li>
+									<li>&nbsp;&nbsp;&nbsp;- This skill's proration is changed to <b>Normal Attack
+											Proration</b>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;- This skill becomes <b>unaffected by any Proration
+											modifiers</b></li>
+								</ul>
 							</li>
-							<li>&nbsp;&nbsp;&nbsp;- Gains 1 stack upon <b>receiving an AOE attack warning</b></li>
-							<li>&nbsp;&nbsp;&nbsp;- Gains 1 stack upon <b>taking attack damage</b></li>
-							<li>&nbsp;&nbsp;&nbsp;- Gains 1 stack upon <b>Perfect Guard</b></li>
-						</ul>
-					</li>
-					<li>Upon casting this skill, grants <b>Ogre Slash active buff</b> to the <b>caster</b></li>
-					<li><b>Stack Duration:</b> Until all stacks are used up</li><br><b>Active Buff Effect:</b>
-					<li>Damage of <b>Rampage Auto Attacks</b> and <b>Rampage Finish Blow</b> are <b>doubled</b></li>
-					<li><b>DEF, MDEF and Stability Penalties</b> of <b>Berserk</b> are <b>halved</b></li>
-					<li>Upon consuming MP, <b>the caster recovers HP</b> by an amount equals to [(MP Bars consumed)^2 ×
-						100]
-					</li>
-					<li><b>Buff Duration:</b> 23 seconds</li><br><b>Extra info</b>
-					<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main
-							weapon</b></li>
-					<li>If this skill is used to initiate combat, existing stack(s) will be comsumed first before the
-						stack gaining effect is applied</li>
-				</span>
+							<li><b>Effect Duration:</b> Until another skill is used</li><br><b>Extra info:</b>
+							<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+								<b>main
+									weapon</b>
+							</li>
+							<li>This skill can only be used as Combo Start if its MP Cost is not 0</li>
+							<li>This skill uses <b>Physical Proration</b> for its damage calculation and inflicts
+								<b>Physical
+									Proration</b>; these change to <b>not uses any Proration modifiers at all</b> and
+								inflicts
+								<b>Normal Attack Proration</b>, respectively, when used consecutively
+							</li>
+						</span>
+					</details>
+					<p></p>
+				</div>
 
-			</details>
-			<p></p>
-		</div>
-
-		<div>
-			<div style="display:grid;grid-template-columns: 1fr 1fr;">
 				<div>
-					<p class="card-title">
-						<img src="skill/blade/hardhit.png" width="34" height="34">
-						Hard Hit
-					</p>
-					<p class="medium">
-						Skill Hard Hit Level 1 </p>
-				</div>
-				<div style="justify-self:end;">
-					<img src="images/icon/ths.png"><img src="images/icon/ohs.png"><br>2-Handed Sword/1-Handed Sword only
-				</div>
-			</div>
-			<hr class="separator">
-			<div class="monster-prop">
-				<div>
-					<p class="accent-bold">Type</p>
-					<p>Active, Physical skill</p>
-				</div>
-				<div>
-					<p class="accent-bold">Element</p>
-					<p>Weapon Dependent</p>
-				</div>
-				<div>
-					<p class="accent-bold">MP</p>
-					<p>100</p>
-				</div>
-				<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-				<div>
-					<p class="accent-bold">Combo start</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Combo middle</p>
-					<p>Yes</p>
-				</div>
-				<div>
-					<p class="accent-bold">Range</p>
-					<p>2</p>
-				</div>
-				<div class="span-2">
-					<p class="accent-bold">Description</p>
-					<p>Brutally hit the target with the weapon. Chance to inflict [Flinch] on the target.</p>
-				</div>
-				<div class="span-2">
-					<div class="accent-bold"
-						style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-						<p><img src="images/icon/ohs.png"></p>
-						<p>1-Handed Sword</p>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/cleavingattack.png" width="34" height="34">
+								Cleaving Attack
+							</p>
+							<p class="medium">
+								Skill Cleaving Attack Level 2 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><br>2-Handed Sword only
+						</div>
 					</div>
-					<p><b style="color: gold">[Get the same effect when used with Dual Swords]</b><br>
-						Flinch Rate +50%</p>
-				</div>
-				<div class="span-2">
-					<div class="accent-bold"
-						style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-						<p><img src="images/icon/ths.png"></p>
-						<p>2-Handed Sword</p>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>300</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>3</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Swings the sword horizontally to deal with multiple opponents. If 2 or more targets are
+								involved,
+								the power will increase proportionally and consumed MP will be restored.</p>
+						</div>
 					</div>
-					<p>Power +50</p>
-				</div>
-			</div>
-			<p class="accent-bold">Extras</p>
-			<p></p>
-			<details>
-				<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
-				<select id="hardHitWeapon" onchange="calcHardHitValue()">
-					<option value="1H" selected="">1-Handed Sword</option>
-					<option value="2H">2-Handed Sword</option>
-				</select><br>
-				<span class="sub-title"><b>Skill Level:</b></span>
-				<select id="hardHitLevel" onchange="calcHardHitValue()">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10" selected="">10</option>
-				</select><br>
-				<span class="sub-title"><b>"Hard Hit Enhancer" Registlet Level:</b></span>
-				<select id="hardHitRegistlet" onchange="calcHardHitValue()">
-					<option value="0" selected="">Unequipped</option>
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option>
-					<option value="5">5</option>
-					<option value="6">6</option>
-					<option value="7">7</option>
-					<option value="8">8</option>
-					<option value="9">9</option>
-					<option value="10">10</option>
-					<option value="11">11</option>
-					<option value="12">12</option>
-					<option value="13">13</option>
-					<option value="14">14</option>
-					<option value="15">15</option>
-					<option value="16">16</option>
-					<option value="17">17</option>
-					<option value="18">18</option>
-					<option value="19">19</option>
-					<option value="20">20</option>
-				</select><br>
-				<br>
-				<span id="hardHitValue">
-					<li><b>Skill Constant:</b> 100</li>
-					<li><b>Skill Multiplier:</b> 1.5</li><br>
-					<li><b>Flinch Chance:</b> 100%</li>
-					<li><b>Flinch Duration:</b> 2 seconds</li>
-					<li><b>Resistance Duration on Difficulties:</b> 3 second (<b>Easy</b> and <b>Normal</b>); 5 seconds
-						(<b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li><br><b>Extra
-						info:</b>
-					<li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
-						ailment; most ailments have the same resistance duration as their own duration, unless stated
-						otherwise</li>
-					<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main
-							weapon</b></li>
-				</span>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+						<select id="cleavingAttackLevel" onchange="calcCleavingAttackValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"> <b>Total STR:</b></span>
+						<input type="number" value="255" id="cleavingAttackStrValue"
+							onchange="calcCleavingAttackValues()" style="width: 50px;"><br>
+						<span class="sub-title"> <b>Total VIT:</b></span>
+						<input type="number" value="1" id="cleavingAttackVitValue" onchange="calcCleavingAttackValues()"
+							style="width: 50px;"><br>
+						<span class="sub-title"><b>Number of enemies within Hit Range:</b></span>
+						<input type="number" id="cleavingAttackEnemyCount" min="0" max="10" value="1"
+							style="width: 3em;" onchange="calcCleavingAttackValues()"><br>
+						<br>
+						<span id="cleavingAttackValues">
+							<li><b>Skill Constant:</b> 301</li>
+							<li><b>Skill Multiplier:</b> 2.5</li><br>
+							<li><b>Hit Range (radius):</b> same as the maximum auto attack range of the <b>main
+									weapon</b>,
+								around the <b>caster</b></li><br><b>Extra info</b>
+							<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+								<b>main
+									weapon</b>
+							</li>
+						</span>
 
-			</details>
-			<p></p>
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/stormblaze.png" width="34" height="34">
+								Storm Blaze
+							</p>
+							<p class="medium">
+								Skill Storm Blaze Level 3 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><br>2-Handed Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>200</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>16</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Attacks enemies in a straight line with an aerial slash. Wind Power will accumulate when
+								a normal
+								attack hits. Wind Power is consumed upon skill activation. Power, attack range, and MP
+								recovery
+								increases according to the amount consumed.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+						<select id="stormBlazeLevel" onchange="calcStormBlazeValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"> <b>Total VIT:</b></span>
+						<input type="number" value="1" id="stormBlazeVitValue" style="width: 50px;"
+							onchange="calcStormBlazeValues()"><br>
+						<span class="sub-title"> <b>Base DEX:</b></span>
+						<input type="number" value="255" min="1" max="510" id="stormBlazeDexValue" style="width: 50px;"
+							onchange="calcStormBlazeValues()"><br>
+						<span class="sub-title"><b>Number of stacks:</b></span>
+						<input type="number" id="stormBlazeEnemyCount" min="0" max="20" value="0" style="width: 3em;"
+							onchange="calcStormBlazeValues()"><br>
+						<br>
+						<span id="stormBlazeValues">
+							<li><b>Skill Constant: </b> 201</li>
+							<li><b>Skill Multiplier:</b> 0</li><br><b>Buff Effect:</b>
+							<li>Gains stacks upon performing the following actions; can stack up to a maximum of <b>20
+									stacks</b>
+								<ul>
+									<li>&nbsp;&nbsp;&nbsp;- Gains 1 stack for each <b>auto attack</b> or <b>consecutive
+											mode
+											Hammer Slam</b></li>
+									<li>&nbsp;&nbsp;&nbsp;- Gains 2 stacks for each <b>auto attack during Rampage
+											buff</b></li>
+								</ul>
+							</li>
+							<li>Upon casting this skill, <b>nothing happens</b>, and the caster will look confused</li>
+							<li><b>Buff Duration:</b> Until all stacks are used up</li><br><b>Extra info</b>
+							<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+								<b>main
+									weapon</b>
+							</li>
+						</span>
+
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/gardeblade.png" width="34" height="34">
+								Garde Blade
+							</p>
+							<p class="medium">
+								Skill Garde Blade Level 4 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><br>2-Handed Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Neutral</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>300</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>0</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>A defense technique using a two-handed sword. Boosts Physical/Magic Resistance and
+								improves Guard
+								ability for 70 seconds. Recovers Guard Power a bit when the buff is applied. <b
+									style="color:#E77577">Overwriting won't trigger this recovery.</b></p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>While the effect is active, the weapon's refinement value will work as the shield's
+								refinement
+								value.<br>
+								VIT affects Guard Power Recovery and it won't recover beyond 100%.<br>
+								Nullifies ailments causing immobility when Guard is timed perfectly.<br>
+								<b style="color:#E77577">The buff ends immediately when Guard Power is used up and it
+									can't be
+									used again for some time.</b>
+							</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+						<select id="gardeBladeLevel" onchange="calcGardeBladeValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"> <b>Total VIT:</b></span>
+						<input type="number" value="1" id="gardeBladeVitValue" onchange="calcGardeBladeValues()"
+							style="width: 50px;"><br>
+						<br>
+						<span id="gardeBladeValues"><b>Skill Effect:</b> Recovers your <b>Guard gauge</b> by 25.01 units
+							and
+							grants <b>Garde Blade buff</b> to the <b>caster</b> upon successful cast; can only recover
+							the
+							<b>Guard gauge</b> until 100 units, and the recovery only applies if <b>Garde Blade buff</b>
+							is not
+							active<br><br>
+							<b>Buff Effect:</b><br>
+							<li>Allows <b>Main Weapon's Refinement Level</b> to grant damage reduction the same as that
+								of a
+								<b>Shield</b> while the buff is active
+							</li>
+							<li><b>Physical &amp; Magic Resistance</b> +10%</li>
+							<li>Upon <b>Perfect Guard</b>, negate any [Flinch], [Tumble], [Stun] or [Knockback] that
+								comes with
+								the blocked hit</li>
+							<li><b>Buff Duration:</b> 70 seconds OR until you get [Guard Break]</li><br><b>Extra
+								info:</b>
+							<li><b>Perfect Guard</b> (or <b>"perfectly timed" Manual Guard</b>) refers to the short
+								duration at
+								the start of Manual Guard motion, during when Guard gauge consumption upon taking any
+								hit is
+								halved</li>
+							<li>This skill <b>cannot be cast</b> if you have [Guard Break]</li>
+						</span>
+
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/ogreslash.png" width="34" height="34">
+								Ogre Slash
+							</p>
+							<p class="medium">
+								Skill Ogre Slash Level 5 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><br>2-Handed Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>500</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>3</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Deals damage to the target and after a short while, causes an explosion at the target's
+								feet,
+								dealing additional damage. If the conditions are met, Ogre Power will be accumulated and
+								consumed upon skill activation to increase the power and buff.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Starting a battle, stepping on the warning area, taking damage, or perfectly timing Guard
+								will
+								restore Ogre Power (<b style="color:gold">max 20</b>).<br>
+								<br>
+								Rampage's performance is boosted while the buff is active.<br>
+								Mitigates the drawbacks of Berserk while the buff is active.<br>
+								Slightly restores HP based on the MP consumed while the buff is active.
+							</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+						<select id="ogreSlashLevel" onchange="calcOgreSlashValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"> <b>Base STR:</b></span>
+						<input type="number" value="255" min="1" max="510" id="ogreSlashStrValue" style="width: 50px;"
+							onchange="calcOgreSlashValues()"><br>
+						<span class="sub-title"> <b>Base VIT:</b></span>
+						<input type="number" value="1" min="1" max="510" id="ogreSlashVitValue" style="width: 50px;"
+							onchange="calcOgreSlashValues()"><br>
+						<span class="sub-title"> <b>Total DEX:</b></span>
+						<input type="number" value="247" id="ogreSlashDexValue" style="width: 50px;"
+							onchange="calcOgreSlashValues()"><br>
+						<span class="sub-title"><b>Number of stacks:</b></span>
+						<input type="number" id="ogreSlashEnemyCount" min="0" max="20" value="0" style="width: 3em;"
+							onchange="calcOgreSlashValues()"><br>
+						<span class="sub-title"><b>Caster's Physical Pierce (%):</b> </span>
+						<input type="number" value="0" min="0" max="100" id="ogreSlashPhysicalPierce"
+							onchange="calcOgreSlashValues()" style="width: 50px;"><br>
+						<br>
+						<span id="ogreSlashValues">
+							<li><b>Skill Constant (First Hit):</b> 247</li>
+							<li><b>Skill Constant (Second Hit):</b> 500</li>
+							<li><b>Skill Multiplier (First Hit):</b> 2.56</li>
+							<li><b>Skill Multiplier (Second Hit):</b> 0</li>
+							<li><b>Hit Count:</b> up to 2 hits on the main target; 1 hit on all other targets; damage
+								calculation is done for each hit</li><br>
+							<li><b>Second Hit Range (radius):</b> 2m, around the <b>main target's position on cast</b>
+							</li>
+							<li>Negate all [Flinch], [Tumble], [Stun] or [Knockback] you would have taken during this
+								skill's
+								animation</li><br><b>Passive Buff Effect:</b>
+							<li>Gains stacks upon performing the following actions; can stack up to a maximum of <b>20
+									stacks</b>
+								<ul>
+									<li>&nbsp;&nbsp;&nbsp;- Gains 5 stacks stack upon <b>being the one to initiate
+											combat</b>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;- Gains 1 stack upon <b>receiving an AOE attack warning</b>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;- Gains 1 stack upon <b>taking attack damage</b></li>
+									<li>&nbsp;&nbsp;&nbsp;- Gains 1 stack upon <b>Perfect Guard</b></li>
+								</ul>
+							</li>
+							<li>Upon casting this skill, grants <b>Ogre Slash active buff</b> to the <b>caster</b></li>
+							<li><b>Stack Duration:</b> Until all stacks are used up</li><br><b>Active Buff Effect:</b>
+							<li>Damage of <b>Rampage Auto Attacks</b> and <b>Rampage Finish Blow</b> are <b>doubled</b>
+							</li>
+							<li><b>DEF, MDEF and Stability Penalties</b> of <b>Berserk</b> are <b>halved</b></li>
+							<li>Upon consuming MP, <b>the caster recovers HP</b> by an amount equals to [(MP Bars
+								consumed)^2 ×
+								100]
+							</li>
+							<li><b>Buff Duration:</b> 23 seconds</li><br><b>Extra info</b>
+							<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+								<b>main
+									weapon</b>
+							</li>
+							<li>If this skill is used to initiate combat, existing stack(s) will be comsumed first
+								before the
+								stack gaining effect is applied</li>
+						</span>
+
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/hardhit.png" width="34" height="34">
+								Hard Hit
+							</p>
+							<p class="medium">
+								Skill Hard Hit Level 1 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><img src="images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>100</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>2</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Brutally hit the target with the weapon. Chance to inflict [Flinch] on the target.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p><b style="color: gold">[Get the same effect when used with Dual Swords]</b><br>
+								Flinch Rate +50%</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Power +50</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="hardHitWeapon" onchange="calcHardHitValue()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="hardHitLevel" onchange="calcHardHitValue()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"><b>"Hard Hit Enhancer" Registlet Level:</b></span>
+						<select id="hardHitRegistlet" onchange="calcHardHitValue()">
+							<option value="0" selected="">Unequipped</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+						</select><br>
+						<br>
+						<span id="hardHitValue">
+							<li><b>Skill Constant:</b> 100</li>
+							<li><b>Skill Multiplier:</b> 1.5</li><br>
+							<li><b>Flinch Chance:</b> 100%</li>
+							<li><b>Flinch Duration:</b> 2 seconds</li>
+							<li><b>Resistance Duration on Difficulties:</b> 3 second (<b>Easy</b> and <b>Normal</b>); 5
+								seconds
+								(<b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li>
+							<br><b>Extra
+								info:</b>
+							<li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+								ailment; most ailments have the same resistance duration as their own duration, unless
+								stated
+								otherwise</li>
+							<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+								<b>main
+									weapon</b>
+							</li>
+						</span>
+
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/astute.png" width="34" height="34">
+								Astute
+							</p>
+							<p class="medium">
+								Skill Astute Level 1 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><img src="images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>1hs: 100; 2hs: 200</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>2</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Strongly hit the target in rapid motion. Critical Rate +25 when this skill is activated.
+							</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p><b style="color: gold">[Get the same effect when used with Dual Swords]</b><br>
+								MP Cost -100</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Power +50<br>
+								Boosts Critical Rate Buff</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="astuteWeapon" onchange="calcAstuteValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="astuteLevel" onchange="calcAstuteValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<br>
+						<span id="astuteValues">
+							<li><b>MP Cost:</b> 100</li>
+							<li><b>Skill Constant:</b> 200</li>
+							<li><b>Skill Multiplier:</b> 2.5</li><br>
+							<li><b>Motion Speed</b> of <b>Astute</b> +50%</li>
+							<li>Grants <b>Astute buff</b> upon successful cast</li>
+							<br><b>Buff Effect:</b>
+							<li><b>Critical Rate</b> +25</li>
+							<li><b>Buff Duration:</b> 10 seconds</li><br>This skill's <b>maximum cast range</b> is equal
+							to the maximum auto attack range of the <b>main weapon</b>
+						</span>
+
+					</details>
+					<p></p>
+				</div>
+				<!-- 8 -->
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/tiggerslash.png" width="34" height="34">
+								Trigger Slash
+							</p>
+							<p class="medium">
+								Skill Trigger Slash Level 2 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><img src="images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Fire</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>Lv1-5: 300mp; Lv6-10: 200mp</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>2</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Put power while slashing the target. Enhance Attack MP Heal until the next skill. The
+								motion speeds up one time by this skill.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p><b style="color: gold">[Get the same effect when used with Dual Swords]</b><br>
+								Perfect Aim</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Power +100</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="triggerWeapon" onchange="calcTriggerValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="triggerLevel" onchange="calcTriggerValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"><b>"Elemental Trigger Slash" Registlet equipped:</b></span>
+						<input type="checkbox" id="triggerSlashElement" onchange="calcTriggerValues()"><br>
+						<br>
+						<span id="triggerValues">
+							<li><b>MP Cost:</b> 200</li>
+							<li><b>Skill Constant:</b> 300</li>
+							<li><b>Skill Multiplier:</b> 2</li>
+							<li><b>Element:</b> Fire</li><br>
+							<li>This skill has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be
+								[Evaded]</li>
+							<li>Grants <b>Trigger Slash buff</b> upon successful cast</li><br><b>Buff Effect:</b>
+							<li><b>Attack MP Recovery</b> +20</li>
+							<li>Sets the next skill's <b>Motion Speed</b> to +50%; <b>overrides</b> other <b>Motion
+									Speed</b> effects such as <b>[Freeze]</b>, <b>Swift combo tag</b>, or <b>Chain
+									Cast</b></li>
+							<li><b>Buff Duration:</b> Until a skill is used</li><br>This skill's <b>maximum cast
+								range</b> is equal to the maximum auto attack range of the <b>main weapon</b>
+						</span>
+
+					</details>
+					<p></p>
+				</div>
+				<!-- 8 -->
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/rampage.png" width="34" height="34">
+								Rampage
+							</p>
+							<p class="medium">
+								Skill Rampage Level 3 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><img src="images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Neutral</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>500</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>0</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Furiously and consecutively attack a target. Greatly enhance normal attacks 10 times and
+								a strong attack will be activated after that.<br>
+								Unable to be used redundantly.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p><b style="color: gold">[Get the same effect when used with Dual Swords]</b><br>
+								Normal Attack Power +5 - +50</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Finish Blow +400</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="rampageWeapon" onchange="calcRampageValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="DW">Dual Swords</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="rampageLevel" onchange="calcRampageValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"><b>"Remedial Rampage" Registlet Level:</b></span>
+						<select id="rampageRegistlet" onchange="calcRampageValues()">
+							<option value="0" selected="">Unequipped</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+						</select><br>
+						<br>
+						<span id="rampageValues">
+							<li><b>First 10 Auto Attacks Skill Constant</b> +100; total constant increase for all hits
+								of 1 auto attack</li>
+							<li><b>First 10 Auto Attacks Skill Multiplier</b> +1; total multiplier increase for all hits
+								of 1 auto attack</li>
+							<li><b>First 10 Auto Attacks Hit Count:</b> 4 hits; damage calculation is done once then
+								spread evenly between the hits</li>
+							<li><b>Final Attack Skill Constant: </b> 500; constant for each hit</li>
+							<li><b>Final Attack Skill Multiplier (First 2 hits): </b> 1; multiplier for each hit<br>
+							</li>
+							<li><b>Final Attack Skill Multiplier (Third hit): </b> 3<br>
+							</li>
+							<li><b>Final Attack Hit Count:</b> 3 hits; damage calculation is done for each hit</li>
+							<br><b>Skill Effect:</b> Grants <b>Rampage buff</b> with 11 stacks to the caster upon cast;
+							each auto attack will consume 1 stack upon hitting a target<br><br><b>Buff Effects:</b>
+							<li>Sets the caster's <b>DEF</b>, <b>MDEF</b> and <b>Dodge</b> to 0 (<b>overrides all other
+									DEF, MDEF and Dodge modifiers</b>) and deactivates <b>Power Wave</b> while the buff
+								is active</li>
+							<li>Enhances the caster's next 10 auto attacks and change their hit counts</li>
+							<li><b>Attack MP Recovery</b> +25</li>
+							<li>Replaces the 11th auto attack with an uncancellable "Final Attack" that is treated as a
+								<b>Physical skill</b> with <b>Perfect Aim attribute</b>:
+								<ul>
+									<li>&nbsp;&nbsp;&nbsp;- It <b>inflicts physical proration</b> and <b>consumes buffs
+											that apply to the next skill</b>; however, it is unaffected by <b>Whack</b>,
+										<b>Short Range Damage</b> stat and <b>Sword Techniques</b>
+									</li>
+									<li>&nbsp;&nbsp;&nbsp;- It cannot [Miss] or [Graze], but can be [Evaded] (its damage
+										is reduced to 1 instead of being fully evaded)</li>
+									<li>&nbsp;&nbsp;&nbsp;- It is unaffected by <b>Motion Speed</b> stat, but can be
+										affected by [Freeze] and <b>Trigger Slash</b></li>
+								</ul>
+							</li>
+							<li><b>Buff Duration:</b> 10 minutes; the buff is also removed <b>when the Final Attack
+									ends</b> OR when inflicted with any ailment (the latter can be prevented with
+								<b>Berserk's effect</b>)
+							</li><br><b>Extra info:</b>
+							<li>This skill <b>cannot be recast</b> if the buff is active; it also <b>cannot be cast if
+									another attack motion modifier skill is active</b> (e.g. <b>Dual Shields</b>,...)
+							</li>
+							<li>If this skill is in a <b>combo</b> and is not the first skill of that combo, the
+								<b>combo will be temporarily disabled</b> as long as the buff is active
+							</li>
+							<li>Rampage Stack will not be consumed if your auto attack [Missed] or was [Evaded]</li>
+							<li>This skill's total damage is <b>unaffected by Combo tags</b></li>
+						</span>
+
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/meteorbreaker.png" width="34" height="34">
+								Meteor Breaker
+							</p>
+							<p class="medium">
+								Skill Meteor Breaker Level 4 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><img src="images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>600</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>2</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Strong attack like a meteor. Chance to inflict [Dizzy] on a target and generate Area of
+								Effect when landing. Become invincible when activating the skill.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p>2nd Hit Power increases depending on DEX.<br> Dizzy Rate +75%</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/dw.png"></p>
+								<p>Dual Swords</p>
+							</div>
+							<p>Dizzy Rate +75%</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>1st Hit Power +200<br> 1st Hit Power increases depending on STR.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="meteorWeapon" onchange="calcMeteorValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="DW">Dual Swords</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="meteorLevel" onchange="calcMeteorValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<div id="meteorStrInput" style="display: none;">
+							<span class="sub-title"> <b>Base STR:</b></span>
+							<input type="number" value="255" min="1" max="510" id="meteorStrValue"
+								onchange="calcMeteorValues()" style="width: 50px;">
+						</div>
+						<div id="meteorDexInput" style="display: block;">
+							<span class="sub-title"> <b>Base DEX:</b></span>
+							<input type="number" value="255" min="1" max="510" id="meteorDexValue"
+								onchange="calcMeteorValues()" style="width: 50px;">
+						</div>
+						<br>
+						<span id="meteorValues">
+							<li><b>Skill Constant (First Hit): </b> 600 </li>
+							<li><b>Skill Constant (Second Hit): </b> 0</li>
+							<li><b>Skill Multiplier (First Hit):</b> 6</li>
+							<li><b>Skill Multiplier (Second Hit):</b> 7.27</li>
+							<li><b>Hit Count:</b> 2 hits on the main target; 1 hit on all other targets; damage
+								calculation is done for each hit</li><br>
+							<li><b>Second Hit Range (radius):</b> 3.5m, around the <b>main target's position on cast</b>
+							</li>
+							<li>Upon using this skill, gain [Invincible] for 2 seconds OR until you land</li>
+							<li class="skill-ailment"><b>Dizzy Chance (First Hit):</b> 100%</li>
+							<li><b>Dizzy Duration:</b> 10 seconds</li><br>This skill's <b>maximum cast range</b> is
+							equal to the maximum auto attack range of the <b>main weapon</b>
+						</span>
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/blade/shutout.png" width="34" height="34">
+								Shut-Out
+							</p>
+							<p class="medium">
+								Skill Shut-Out Level 5 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/ths.png"><img src="images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>100</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>2</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>A merciless blow. If the target is afflicted by Flinch/Tumble/Stun and not bleeding, the
+								damage dealt will increase and the target will be inflicted with [Bleed].</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p>Power increases further depending on DEX.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/dw.png"></p>
+								<p>Dual Swords</p>
+							</div>
+							<p>Power increases further depending on AGI.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>As the increase in base power depends on the skill level, the increase will be very small
+								when the condition is met.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="shutOutWeapon" onchange="calcShutOutValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="DW">Dual Swords</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="shutOutSkillLevel" onchange="calcShutOutValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"><b>Target is afflicted with [Flinch]/[Tumble]/[Stun], but not
+								[Bleed]:</b></span>
+						<input type="checkbox" id="shutOutFTS" onchange="calcShutOutValues()"><br>
+						<div id="shutOutDexInput" style="display: block;">
+							<span class="sub-title"> <b>Base DEX:</b></span>
+							<input type="number" value="255" min="1" max="510" id="shutOutDexValue"
+								onchange="calcShutOutValues()" style="width: 50px;">
+						</div>
+						<div id="shutOutAgiInput" style="display: none;">
+							<span class="sub-title"> <b>Base AGI:</b></span>
+							<input type="number" value="255" min="1" max="510" id="shutOutAgiValue"
+								onchange="calcShutOutValues()" style="width: 50px;">
+						</div>
+						<br>
+						<span id="shutOutValues">
+							<li><b>Skill Constant:</b> 100</li>
+							<li><b>Skill Multiplier:</b> 6.27</li><br>This skill's <b>maximum cast range</b> is equal to
+							the maximum auto attack range of the <b>main weapon</b>
+						</span>
+					</details>
+					<p></p>
+				</div>
+
+				
+			</div>
 		</div>
-	</div>
-</div>
+</body>
+
+</html>
+<script src="../../templates/functions-skills-list/blade.js"></script>

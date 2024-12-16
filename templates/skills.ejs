@@ -30,76 +30,6 @@
             /* Initially hidden */
         }
 
-        .destroy-iceland {
-            display: flex;
-        }
-        /* View Container */
-        /* #dynamic-iframe {
-            display: flex;
-            background-color: rgba(255, 255, 255, 0.95);
-            justify-content: space-between;
-            width: 90%;
-            height: 690x;
-            margin: 0 auto;
-        } */
-
-        /* General Container Styling */
-        form,
-        table {
-            background-color: rgba(255, 255, 255, 0.95);
-            padding: 15px;
-            margin: 15px auto;
-            border-radius: 8px;
-            max-width: 80%;
-        }
-
-        /* Table Styles */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th,
-        td {
-            text-align: center;
-            border: 1px solid #dddddd;
-            padding: 8px;
-        }
-
-        /* Text and Content Alignment */
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        nav,
-        button,
-        a,
-        div {
-            text-align: center;
-        }
-
-        p {
-            background-color: rgba(255, 255, 255, 0.95);
-            padding: 15px;
-            text-align: center;
-        }
-
-        /* Button Styles */
-        button {
-            background-color: #0073e6;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        button a {
-            color: white;
-            text-decoration: none;
-        }
-
         /* Navigation Links */
         nav a {
             color: #0080ff;
@@ -111,112 +41,11 @@
             text-decoration: underline;
         }
     </style>
-    <script src="../templates/axios.min.js"></script>
-    <script>
-        // wew have works to do
-        function roundToTwoDecimals(value) {
-            return Math.round(value * 100) / 100;
-        }
 
-        async function loadData(event) {
-            event.preventDefault(); // Prevent form from reloading the page
-
-            console.log("Form submission event triggered."); // Debug log
-
-            const formData = new FormData(event.target);
-            const file = formData.get('file');
-
-            console.log("File retrieved from form data:", file); // Debug log
-
-            if (!file) {
-                console.error("No file selected.");
-                alert("Please select a file to upload.");
-                return;
-            }
-
-            try {
-                console.log("Sending POST request to server with file..."); // Debug log
-                const response = await axios.post('/viewmagic2', { file });
-
-                console.log("Response received from server:", response); // Debug log
-                const { content } = response.data;
-
-                if (content) {
-                    console.log("Content retrieved from server response:", content); // Debug log
-
-                    // Select or create an iframe
-                    let iframe = document.querySelector('#dynamic-iframe');
-
-                    console.log("Attempting to access iframe document..."); // Debug log
-                    const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-
-                    if (!iframeDoc) {
-                        console.error("Iframe document is undefined."); // Debug log
-                        throw new Error("Iframe document is not accessible.");
-                    }
-
-                    console.log("Iframe document accessed successfully:", iframeDoc); // Debug log
-                    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 90 + 'px';
-
-                    // set the width of the iframe as the 
-                    // Write content to iframe
-                    console.log("Writing content to iframe document..."); // Debug log
-                    iframeDoc.open();
-                    iframeDoc.write(content);
-                    iframeDoc.close();
-
-                    console.log("Content written to iframe document."); // Debug log
-
-                    // Wait for iframe load event
-                    iframe.onload = () => {
-                        console.log("Iframe loaded. Reactivating scripts..."); // Debug log
-                        const scripts = iframeDoc.querySelectorAll("script");
-
-                        console.log("Scripts found in iframe:", scripts); // Debug log
-                        scripts.forEach((script, index) => {
-                            const newScript = document.createElement("script");
-                            newScript.textContent = script.textContent; // Copy inline script content
-                            script.parentNode.replaceChild(newScript, script); // Replace old script with new one
-                            console.log(`Script ${index + 1} re-executed.`); // Debug log
-                        });
-
-                        console.log("All scripts re-executed successfully in iframe."); // Debug log
-                    };
-                } else {
-                    console.error("No content returned from server."); // Debug log
-                    document.querySelector('.insert-text-here').innerHTML = '<p>No content available to display.</p>';
-                }
-            } catch (error) {
-                console.error("Error loading data:", error); // Debug log
-                // alert("Failed to load data. Please try again later.");
-            }
-        }
-
-    </script>
 </head>
 
 <body>
     <%- include('headers/header') %>
-
-        <!-- Form for file selection -->
-        <div>
-            <form id="loadForm" method="post" onsubmit="loadData(event)">
-                <label>Select file:</label>
-                <select name="file">
-                    <% for (let file in databaseList) { %>
-                        <option value="<%= databaseList[file] %>">
-                            <%= databaseList[file] %>
-                        </option>
-                        <% } %>
-                </select>
-                <button type="submit">Load</button>
-            </form>
-        </div>
-        <div
-            class="destroy-iceland"
-        >
-        <iframe id="dynamic-iframe"></iframe>
-        </div>
 
 </body>
 

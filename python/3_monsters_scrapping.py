@@ -39,7 +39,7 @@ list_of_weapons = [
     },
     {
         "Boss": [
-            "https://coryn.club/monster.php?&show=299&type=B&order=level&p=0",
+            "https://coryn.club/monster.php?&show=1999&type=B&order=level&p=0",
         ],
     }
 ]
