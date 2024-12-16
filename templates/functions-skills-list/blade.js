@@ -297,3 +297,65 @@ function calcOgreSlashValues() {
 }
 
 calcOgreSlashValues()
+
+function calcHardHitConstant(level, result) {
+    var constant = Math.floor(50 + 5*level)
+    result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+}
+
+function calcHardHitMultiplier(level, registlet, weapon, result) {
+    var multiplier = 1 + (0.05 * level) + (0.05 * registlet)
+    if (weapon == "2H") {multiplier += 0.5}
+    if (multiplier - Math.floor(multiplier*100)/100 < 0.0099) {multiplier = Math.floor(multiplier*100)/100}
+    else {multiplier = Math.round(multiplier*100)/100}
+    result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+}
+
+function calcAilmentChanceHardHit(level, weapon, result) {
+    var chance = 5
+    //The next "if" is pretty much required; the game uses a weird function called Math.RoundToInt, and only for Hard Hit; go figure why
+    //If the number has no decimal, there's nothing left to do
+    if(4.5 * level == (4.5 * level).toFixed(0)) {
+          chance += parseInt((4.5 * level).toFixed(0), 10)
+        //If the decimal part is equal to 0.5 (it will be either 0 or 0.5), then the game rounds it up or down to the nearest even number
+    }
+    else if((4.5 * level).toFixed(0) % 2 == 0) {
+        //Checking if the rounded up number is even
+        chance += parseInt((4.5 * level).toFixed(0), 10)
+    } 
+    else {
+        //If it's odd, then round it down
+        chance += parseInt((4.5 * level).toFixed(0)) - 1
+    }
+    
+    if(weapon == "1H") {chance += 50}
+    result.innerHTML += `<li><b>Flinch Chance:</b> ${chance}%</li>`
+}
+
+function addHardHitAilmentInfo(result) {
+    result.innerHTML += `<li><b>Flinch Duration:</b> 2 seconds</li>
+    <li><b>Resistance Duration on Difficulties:</b> 3 second (<b>Easy</b> and <b>Normal</b>); 5 seconds (<b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li>`
+}
+
+function addHardHitExtraInfo(result) {
+    result.innerHTML += `<br><b>Extra info:</b>
+    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b></li>`
+}
+
+function calcHardHitValue(){
+    let weaponSelector = document.getElementById("hardHitWeapon")
+    let weapon = weaponSelector[weaponSelector.selectedIndex].value
+    let levelSelector = document.getElementById("hardHitLevel")
+    let level = levelSelector[levelSelector.selectedIndex].value
+    let registletSelector = document.getElementById("hardHitRegistlet")
+    let registlet = registletSelector[registletSelector.selectedIndex].value
+    let result = document.getElementById("hardHitValue")
+    calcHardHitConstant (level, result)
+    calcHardHitMultiplier(level, registlet, weapon, result)
+    calcAilmentChanceHardHit(level, weapon, result)
+    addHardHitAilmentInfo(result)
+    addHardHitExtraInfo(result)
+}
+
+calcHardHitValue();

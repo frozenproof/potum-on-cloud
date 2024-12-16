@@ -1,6 +1,5 @@
-<script>
+<script src="../../templates/functions-skills-list/blade.js"></script>
 
-</script>
 <div id="content">
 	<div class="container">
 		<div>
@@ -512,6 +511,134 @@
 							weapon</b></li>
 					<li>If this skill is used to initiate combat, existing stack(s) will be comsumed first before the
 						stack gaining effect is applied</li>
+				</span>
+
+			</details>
+			<p></p>
+		</div>
+
+		<div>
+			<div style="display:grid;grid-template-columns: 1fr 1fr;">
+				<div>
+					<p class="card-title">
+						<img src="skill/blade/hardhit.png" width="34" height="34">
+						Hard Hit
+					</p>
+					<p class="medium">
+						Skill Hard Hit Level 1 </p>
+				</div>
+				<div style="justify-self:end;">
+					<img src="images/icon/ths.png"><img src="images/icon/ohs.png"><br>2-Handed Sword/1-Handed Sword only
+				</div>
+			</div>
+			<hr class="separator">
+			<div class="monster-prop">
+				<div>
+					<p class="accent-bold">Type</p>
+					<p>Active, Physical skill</p>
+				</div>
+				<div>
+					<p class="accent-bold">Element</p>
+					<p>Weapon Dependent</p>
+				</div>
+				<div>
+					<p class="accent-bold">MP</p>
+					<p>100</p>
+				</div>
+				<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+				<div>
+					<p class="accent-bold">Combo start</p>
+					<p>Yes</p>
+				</div>
+				<div>
+					<p class="accent-bold">Combo middle</p>
+					<p>Yes</p>
+				</div>
+				<div>
+					<p class="accent-bold">Range</p>
+					<p>2</p>
+				</div>
+				<div class="span-2">
+					<p class="accent-bold">Description</p>
+					<p>Brutally hit the target with the weapon. Chance to inflict [Flinch] on the target.</p>
+				</div>
+				<div class="span-2">
+					<div class="accent-bold"
+						style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+						<p><img src="images/icon/ohs.png"></p>
+						<p>1-Handed Sword</p>
+					</div>
+					<p><b style="color: gold">[Get the same effect when used with Dual Swords]</b><br>
+						Flinch Rate +50%</p>
+				</div>
+				<div class="span-2">
+					<div class="accent-bold"
+						style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+						<p><img src="images/icon/ths.png"></p>
+						<p>2-Handed Sword</p>
+					</div>
+					<p>Power +50</p>
+				</div>
+			</div>
+			<p class="accent-bold">Extras</p>
+			<p></p>
+			<details>
+				<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+				<select id="hardHitWeapon" onchange="calcHardHitValue()">
+					<option value="1H" selected="">1-Handed Sword</option>
+					<option value="2H">2-Handed Sword</option>
+				</select><br>
+				<span class="sub-title"><b>Skill Level:</b></span>
+				<select id="hardHitLevel" onchange="calcHardHitValue()">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected="">10</option>
+				</select><br>
+				<span class="sub-title"><b>"Hard Hit Enhancer" Registlet Level:</b></span>
+				<select id="hardHitRegistlet" onchange="calcHardHitValue()">
+					<option value="0" selected="">Unequipped</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+				</select><br>
+				<br>
+				<span id="hardHitValue">
+					<li><b>Skill Constant:</b> 100</li>
+					<li><b>Skill Multiplier:</b> 1.5</li><br>
+					<li><b>Flinch Chance:</b> 100%</li>
+					<li><b>Flinch Duration:</b> 2 seconds</li>
+					<li><b>Resistance Duration on Difficulties:</b> 3 second (<b>Easy</b> and <b>Normal</b>); 5 seconds
+						(<b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li><br><b>Extra
+						info:</b>
+					<li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+						ailment; most ailments have the same resistance duration as their own duration, unless stated
+						otherwise</li>
+					<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main
+							weapon</b></li>
 				</span>
 
 			</details>

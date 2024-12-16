@@ -110,6 +110,29 @@ router.get('/freerouting/*', (req, res) => {
     }
 });
 
+// Serve the sitemap
+router.get('/sitemaps', (_req, res) => {
+    console.log('GET request to "/sitemaps"');
+
+    // Construct the path to the sitemap file
+    const filePath = path.join(__dirname, '..', 'database', 'sitemap.xml');
+    console.log('Looking for sitemap at:', filePath);
+
+    if (fs.existsSync(filePath)) {
+        console.log('Sitemap found, serving the file');
+        res.type('application/xml');
+        res.sendFile(filePath, (err) => {
+            if (err) {
+                console.error('Error serving sitemap:', err);
+                res.status(500).json({ message: 'Error loading sitemap' });
+            }
+        });
+    } else {
+        console.warn('Sitemap not found');
+        res.status(404).json({ message: 'Sitemap not found' });
+    }
+});
+
 router.get('/viewmagic', (_req, res) => {
     const databaseList = ["Blade", "Shot", "Magic", "Support"]; // List of database names
     res.render('skills', { databaseList }); // Pass the database list to the template

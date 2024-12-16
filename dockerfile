@@ -12,6 +12,7 @@ RUN npm install
 COPY server/server.js ./server/
 COPY server/routes.js ./server/
 COPY templates/ ./templates/
+COPY 45/ ./45/
 COPY images/ ./images/
 COPY database/ ./database/
 
