@@ -108,9 +108,11 @@ router.post('/view', (req, res) => {
 router.get('/skills/*', (req, res) => {
     const filePath = path.join(__dirname, '..', 'database', 's2', req.params[0]);
     if (fs.existsSync(filePath)) {
+        console.log("Found file ",filePath)
         res.render(filePath);
     } else {
         console.log(filePath)
+        console.log("File not found")
         res.status(404).send('<p>File not found</p>');
     }
 });
@@ -199,8 +201,8 @@ router.post('/rangesearch', (req, res) => {
                 return false;
             });
         filteredData = filteredData.sort((a, b) => {
-            console.log(a)
-            console.log(b)
+            // console.log(a)
+            // console.log(b)
             const astats = a.Stats; // Assuming Stats contains "Lv 108"
             const bstats = b.Stats; // Assuming Stats contains "Lv 108"
             try {

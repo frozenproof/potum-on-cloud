@@ -719,3 +719,85 @@ function calcShutOutValues() {
 }
 
 calcShutOutValues()
+
+
+function weaponComboCheck(weapon, comboSection) {
+    if (weapon == "2H") {comboSection.style = "display: block"}
+    else {comboSection.style = "display: none"}
+}
+
+function calcLunarSlashConstant(weapon, intValue, result) {
+    var constant1 = 400
+    var constant2 = intValue/2
+    if (constant2 - Math.floor(constant2) < 0.9) {constant2 = Math.floor(constant2)}
+    else {constant2 = Math.round(constant2)}
+    var HTML = `<li><b>Skill Constant (First Hit):</b> ${constant1}</li>
+    <li><b>Skill Constant (Magic Blade):</b> ${constant2}</li>`
+    if (weapon == "2H") {HTML += `<li><b>Skill Constant (Additional Attack):</b> ${intValue}; constant for each hit</li>`}
+    result.innerHTML = HTML
+}
+
+function calcLunarSlashMultiplier(level, weapon, strValue, comboCount, result) {
+    var multiplier1 = 10
+    var multiplier2 = strValue * level * 0.001
+    if (multiplier2 - Math.floor(multiplier2*100)/100 < 0.00999999) {multiplier2 = Math.floor(multiplier2*100)/100}
+    else {multiplier2 = Math.round(multiplier2*100)/100}
+    var HTML = `<li><b>Skill Multiplier (First Hit):</b> ${multiplier1}</li>
+    <li><b>Skill Multiplier (Magic Blade):</b> ${multiplier2}</li>`
+    if (weapon == "2H") {HTML += `<li><b>Skill Multiplier (Additional Attack):</b> ${multiplier2}; multiplier for each hit</li>`}
+    result.innerHTML += HTML
+}
+
+function addLunarSlashHitCount(weapon, comboCount, result) {
+    var HTML = `<li><b>Hit Count:</b> 2 hits`
+    if (weapon == "2H") {HTML += ` on the main target; 1 additional hit for each stack consumed`}
+    HTML += `; damage calculation is done for each hit</li><br>`
+    result.innerHTML += HTML
+}
+
+function calcLunarSlashFatigueChance(level, result) {
+    var fatigue = 4 * level
+    result.innerHTML += `<li><b>Fatigue Chance (Magic Blade):</b> ${fatigue}%</li>
+    <li><b>Fatigue Duration:</b> 10 seconds</li>`
+}
+
+function addLunarSlashSkillEffect(level, weapon, crtValue, comboCount, result) {
+    var stack = `stack`
+    if (comboCount > 1) {stack += `s`}
+    var cr = 10*level + 1*crtValue
+    if (weapon == "2H") {result.innerHTML += `<br><b>Buff Effect:</b>
+    <li>Grants ${comboCount} <b>Lunar Slash ${stack}</b> upon cast; can stack up to a maximum of <b>9 stacks</b></li>
+    <li>Hitting a target with an attack skill other than <b>Lunar Slash</b> will consume 1 stack to deal an <b>Additional Attack</b> on that target</li>
+    <li>The <b>Additional Attack</b> has a <b>fixed Critical Rate</b> of ${cr}</li>
+    <li><b>Buff Duration:</b> Until all stacks are consumed</li>`}
+}
+
+function addLunarSlashExtraInfo(weapon, result) {
+    result.innerHTML += `<br><b>Extra info:</b>
+    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b></li>`
+    if (weapon == "2H") {result.innerHTML += `<li>If the used attack skill hits multiple targets, multiple stacks will be consumed accordingly</li>
+    <li>The <b>Additional Attack(s)</b> are <b>unaffected by Combo Tags</b></li>
+    <li>Strangely, the <b>Additional Attack(s)</b> are always affected by <b>Zero Stance registlet</b>, whether <b>Lunar Slash</b> or the skill that triggers these hit(s) is used out of combo or not; possibly because the attack is treated as "skill that is used out of combo" by the game</li>`}
+}
+
+function calcLunarSlashValues() {
+    let weaponSelector = document.getElementById("lunarSlashWeapon")
+    let weapon = weaponSelector[weaponSelector.selectedIndex].value
+    let levelSelector = document.getElementById("lunarSlashSkillLevel")
+    let level = levelSelector[levelSelector.selectedIndex].value
+    let strValue = document.getElementById("lunarSlashStrValue").value
+    let intValue = document.getElementById("lunarSlashIntValue").value
+    let crtValue = document.getElementById("lunarSlashCrtValue").value
+    let comboSection = document.getElementById("lunarSlashComboInput")
+    let comboCount = document.getElementById("lunarSlashComboCount").value
+    let result = document.getElementById("lunarSlashValues")
+    weaponComboCheck(weapon, comboSection)
+    calcLunarSlashConstant(weapon, intValue, result)
+    calcLunarSlashMultiplier(level, weapon, strValue, comboCount, result)
+    addLunarSlashHitCount(weapon, comboCount, result)
+    calcLunarSlashFatigueChance(level, result)
+    addLunarSlashSkillEffect(level, weapon, crtValue, comboCount, result)
+    addLunarSlashExtraInfo(weapon, result)
+}
+
+calcLunarSlashValues()
