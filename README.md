@@ -95,3 +95,14 @@ See if this get detected, lmao fuck the SSH editing configuration
 # Fixing the wsl bug with git
 First of all, install the git inside the fucking wsl.
 Secondly, enter the fucking git path manually, inside remote settings. 
+
+# Dockering processs 
+
+docker image remove poc \
+&& docker image remove truclinhgm/poc:deploy-ready
+
+docker compose build
+
+docker tag poc truclinhgm/poc:deploy-ready
+
+docker push truclinhgm/poc:deploy-ready
