@@ -8,73 +8,73 @@
 	<meta name="google-site-verification" content="939NygIf8312fvMoh3tfwAkIxVNX4b6Aq6CIs1w1VZk" />
 	<%- include('../../templates/headers/metadata') %>
 
-	<style>
-		/* styles.css */
-		/* Global Styles */
-		body {
-			background-image: url('../images/appbackground.png');
-			/* background-color: #ffe600b4; */
-			background-size: cover;
-			background-attachment: fixed;
-			background-position: center;
-			color: #333;
-			font-family: Arial, sans-serif;
-		}
+		<style>
+			/* styles.css */
+			/* Global Styles */
+			body {
+				background-image: url('../images/appbackground.png');
+				/* background-color: #ffe600b4; */
+				background-size: cover;
+				background-attachment: fixed;
+				background-position: center;
+				color: #333;
+				font-family: Arial, sans-serif;
+			}
 
-		/* View Container */
-		.view {
-			width: 90%;
-			margin: 15px auto;
-			padding: 15px;
-			background-color: rgba(255, 255, 255, 0.95);
-			border-radius: 8px;
-			display: none;
-			/* Initially hidden */
-		}
+			/* View Container */
+			.view {
+				width: 90%;
+				margin: 15px auto;
+				padding: 15px;
+				background-color: rgba(255, 255, 255, 0.95);
+				border-radius: 8px;
+				display: none;
+				/* Initially hidden */
+			}
 
-		/* Button Styles */
-		button {
-			background-color: #0073e6;
-			color: white;
-			border: none;
-			padding: 10px 20px;
-			cursor: pointer;
-			border-radius: 5px;
-		}
+			/* Button Styles */
+			button {
+				background-color: #0073e6;
+				color: white;
+				border: none;
+				padding: 10px 20px;
+				cursor: pointer;
+				border-radius: 5px;
+			}
 
-		button a {
-			color: white;
-			text-decoration: none;
-		}
+			button a {
+				color: white;
+				text-decoration: none;
+			}
 
-		/* Navigation Links */
-		nav a {
-			color: #0080ff;
-			text-decoration: none;
-			margin: 0 10px;
-		}
+			/* Navigation Links */
+			nav a {
+				color: #0080ff;
+				text-decoration: none;
+				margin: 0 10px;
+			}
 
-		nav a:hover {
-			text-decoration: underline;
-		}
+			nav a:hover {
+				text-decoration: underline;
+			}
 
-		.container33 {
-			background-color: rgba(255, 255, 255, 0.95);
-			padding: 15px;
-			margin: 15px auto;
-			border-radius: 8px;
-			max-width: 80%;
-		}
-	</style>
+			.container33 {
+				background-color: rgba(255, 255, 255, 0.95);
+				padding: 15px;
+				margin: 15px auto;
+				border-radius: 8px;
+				max-width: 80%;
+			}
+		</style>
 
-	<script src="../templates/axios.min.js"></script>
-	<link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
-	<script>
-		// wew have works to do
-		function roundToTwoDecimals(value) {
-			return Math.round(value * 100) / 100;
-		}
-	</script>
+		<script src="../templates/axios.min.js"></script>
+		<link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+		<script>
+			// wew have works to do
+			function roundToTwoDecimals(value) {
+				return Math.round(value * 100) / 100;
+			}
+		</script>
 </head>
 
 <body>
@@ -86,7 +86,7 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/hammerslam.png" width="34" height="34">
+								<img src="../../images/skills/hammerslam.png" width="34" height="34">
 								Hammer Slam
 							</p>
 							<p class="medium">
@@ -194,7 +194,7 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/cleavingattack.png" width="34" height="34">
+								<img src="../../images/skills/cleavingattack.png" width="34" height="34">
 								Cleaving Attack
 							</p>
 							<p class="medium">
@@ -285,7 +285,7 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/stormblaze.png" width="34" height="34">
+								<img src="../../images/skills/stormblaze.png" width="34" height="34">
 								Storm Blaze
 							</p>
 							<p class="medium">
@@ -387,7 +387,7 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/gardeblade.png" width="34" height="34">
+								<img src="../../images/skills/gardeblade.png" width="34" height="34">
 								Garde Blade
 							</p>
 							<p class="medium">
@@ -503,7 +503,7 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/ogreslash.png" width="34" height="34">
+								<img src="../../images/skills/ogreslash.png" width="34" height="34">
 								Ogre Slash
 							</p>
 							<p class="medium">
@@ -647,14 +647,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/hardhit.png" width="34" height="34">
+								<img src="../../images/skills/hardhit.png" width="34" height="34">
 								Hard Hit
 							</p>
 							<p class="medium">
 								Skill Hard Hit Level 1 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -782,14 +783,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/astute.png" width="34" height="34">
+								<img src="../../images/skills/astute.png" width="34" height="34">
 								Astute
 							</p>
 							<p class="medium">
 								Skill Astute Level 1 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -887,14 +889,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/tiggerslash.png" width="34" height="34">
+								<img src="../../images/skills/tiggerslash.png" width="34" height="34">
 								Trigger Slash
 							</p>
 							<p class="medium">
 								Skill Trigger Slash Level 2 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -997,14 +1000,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/rampage.png" width="34" height="34">
+								<img src="../../images/skills/rampage.png" width="34" height="34">
 								Rampage
 							</p>
 							<p class="medium">
 								Skill Rampage Level 3 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -1152,14 +1156,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/meteorbreaker.png" width="34" height="34">
+								<img src="../../images/skills/meteorbreaker.png" width="34" height="34">
 								Meteor Breaker
 							</p>
 							<p class="medium">
 								Skill Meteor Breaker Level 4 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -1276,14 +1281,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/shutout.png" width="34" height="34">
+								<img src="../../images/skills/shutout.png" width="34" height="34">
 								Shut-Out
 							</p>
 							<p class="medium">
 								Skill Shut-Out Level 5 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -1395,14 +1401,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/lunarslash.png" width="34" height="34">
+								<img src="../../images/skills/lunarslash.png" width="34" height="34">
 								Lunar Slash
 							</p>
 							<p class="medium">
 								Skill Lunar Slash Level 5 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -1522,14 +1529,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/sonicblade.png" width="34" height="34">
+								<img src="../../images/skills/sonicblade.png" width="34" height="34">
 								Sonic Blade
 							</p>
 							<p class="medium">
 								Skill Sonic Blade Level 1 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -1763,14 +1771,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/spiralair.png" width="34" height="34">
+								<img src="../../images/skills/spiralair.png" width="34" height="34">
 								Spiral Air
 							</p>
 							<p class="medium">
 								Skill Spiral Air Level 2 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -1956,14 +1965,15 @@
 					<div style="display:grid;grid-template-columns: 1fr 1fr;">
 						<div>
 							<p class="card-title">
-								<img src="skill/blade/swordtempest.png" width="34" height="34">
+								<img src="../../images/skills/swordtempest.png" width="34" height="34">
 								Sword Tempest
 							</p>
 							<p class="medium">
 								Skill Sword Tempest Level 3 </p>
 						</div>
 						<div style="justify-self:end;">
-							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed
+							Sword/1-Handed
 							Sword only
 						</div>
 					</div>
@@ -2151,6 +2161,1409 @@
 							}
 
 							calcTempestValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<hr class="separator">
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/busterblade.png" width="34" height="34">
+								Buster Blade
+							</p>
+							<p class="medium">
+								Skill Buster Blade Level 4 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>300</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>7</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Add aura and slash consecutively. Weapon ATK increases for a few seconds when activating
+								Buster Blade. Restore a small amount of HP when the buff is added. The buff is not
+								overwritten.
+								<br><br><b>Buster Blade will not overwrite an existing Buster Blade buff</b><br><br>
+							</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p>Power increases depending on DEX.<br>
+								Heal Amount increases depending on VIT.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/dw.png"></p>
+								<p>Dual Swords</p>
+							</div>
+							<p>Heal Amount increases depending on VIT.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Power Increases depending on STR.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/shield.png"></p>
+								<p>Shield</p>
+							</div>
+							<p>Weapon ATK and Heal Amount increase based on shield ability.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="busterWeapon" onchange="calcBusterValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="DW">Dual Swords</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="busterLevel" onchange="calcBusterValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<div id="busterAuraInput" style="display: block;">
+							<span class="sub-title"><b>"Aura Blade" Skill Level:</b></span>
+							<select id="busterAuraLevel" onchange="calcBusterValues()">
+								<option value="0" selected="">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select><br>
+						</div>
+						<div id="busterStrInput" style="display: none;">
+							<span class="sub-title"><b>Base STR:</b></span>
+							<input type="number" value="255" min="1" max="510" id="busterStrValue"
+								onchange="calcBusterValues()" style="width: 50px;">
+						</div>
+						<div id="busterDexInput" style="display: block;">
+							<span class="sub-title"><b>Base DEX:</b></span>
+							<input type="number" value="255" min="1" max="510" id="busterDexValue"
+								onchange="calcBusterValues()" style="width: 50px;">
+						</div>
+						<div id="busterVitInput" style="display: block;">
+							<span class="sub-title"><b>Base VIT:</b></span>
+							<input type="number" value="1" min="1" max="510" id="busterVIT"
+								onchange="calcBusterValues()" style="width: 50px;"><br>
+						</div>
+						<div id="shieldInput" style="display: block;">
+							<span class="sub-title"><b>Shield equipped:</b> </span>
+							<input type="checkbox" id="shieldEquipped" onchange="calcBusterValues()"><br>
+						</div>
+						<div id="shieldDefInput" style="display: none;">
+							<span class="sub-title"><b>Shield DEF:</b></span>
+							<input type="number" value="0" min="0" id="shieldDefValue" onchange="calcBusterValues()"
+								style="width: 50px;"><br>
+						</div>
+						<div id="shieldRefineInput" style="display: none;">
+							<span class="sub-title"><b>Shield Refinement Level:</b></span>
+							<select id="shieldRefineLevel" onchange="calcBusterValues()">
+								<option value="0" selected="">+0</option>
+								<option value="1">+1</option>
+								<option value="2">+2</option>
+								<option value="3">+3</option>
+								<option value="4">+4</option>
+								<option value="5">+5</option>
+								<option value="6">+6</option>
+								<option value="7">+7</option>
+								<option value="8">+8</option>
+								<option value="9">+9</option>
+								<option value="10">+E</option>
+								<option value="11">+D</option>
+								<option value="12">+C</option>
+								<option value="13">+B</option>
+								<option value="14">+A</option>
+								<option value="15">+S</option>
+							</select><br>
+						</div>
+						<br>
+						<span id="busterValues">
+							<li><b>Skill Constant: </b> 300; total constant of all hits</li>
+							<li><b>Skill Multiplier:</b> 8.77; total multiplier of all hits</li>
+							<li><b>Hit Count:</b> 3 hits; damage calculation is done once then spread evenly between the
+								hits</li><br>
+							<li>This skill will <b>always deal critical hits</b></li>
+							<li>Grants <b>Buster Blade buff</b> upon successful cast</li><br><b>Buff Effect:</b>
+							<li><b>Weapon ATK</b> +10%</li>
+							<li>The caster <b>recovers</b> 1002 HP whenever the <b>buff</b> is successfully applied</li>
+							<li><b>Buff Duration:</b> 10 seconds; <b>cannot be reapplied/refreshed</b> if it's already
+								active</li>
+						</span>
+
+						<script>
+							function weaponAuraCheck(weapon, auraSection) {
+								if (weapon == "1H") { auraSection.style = "display: block" }
+								else { auraSection.style = "display: none" }
+							}
+
+							function weaponStrCheck(weapon, strSection) {
+								if (weapon == "2H") { strSection.style = "display: block" }
+								else { strSection.style = "display: none" }
+							}
+
+							function weaponDexCheck(weapon, dexSection) {
+								if (weapon == "1H") { dexSection.style = "display: block" }
+								else { dexSection.style = "display: none" }
+							}
+
+							function weaponVitCheck(weapon, vitSection) {
+								if (weapon != "2H") { vitSection.style = "display: block" }
+								else { vitSection.style = "display: none" }
+							}
+
+							function shieldEquipCheck(weapon, shieldSection) {
+								if (weapon == "1H") { shieldSection.style = "display: block" }
+								else { shieldSection.style = "display: none" }
+							}
+
+							function shieldValueCheck(weapon, shieldEquip, shieldDefSection, shieldRefineSection) {
+								if (shieldEquip && weapon == "1H") {
+									shieldDefSection.style = "display: block"
+									shieldRefineSection.style = "display: block"
+								}
+								else {
+									shieldDefSection.style = "display: none"
+									shieldRefineSection.style = "display: none"
+								}
+							}
+
+							function calcBusterConstant(level, result) {
+								var constant = Math.floor(30 * level)
+								result.innerHTML = `<li><b>Skill Constant: </b> ${constant}; total constant of all hits</li>`
+							}
+
+							function calcBusterMultiplier(level, weapon, auraLevel, strValue, dexValue, result) {
+								var multiplier = 0.75 * level
+								if (weapon == "1H") {
+									multiplier += dexValue / 200
+									if (auraLevel > 0) { multiplier += dexValue / 200 + auraLevel * 0.2 }
+								}
+								else if (weapon == "2H") { multiplier += strValue / 100 }
+								if (multiplier - Math.floor(multiplier * 100) / 100 < 0.0099999) { multiplier = Math.floor(multiplier * 100) / 100 }
+								else { multiplier = Math.round(multiplier * 100) / 100 }
+
+								result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; total multiplier of all hits</li>
+					<li><b>Hit Count:</b> 3 hits; damage calculation is done once then spread evenly between the hits</li>`
+							}
+
+							function addBusterCritInfo(result) {
+								result.innerHTML += `<br><li>This skill will <b>always deal critical hits</b></li>
+					<li>Grants <b>Buster Blade buff</b> upon successful cast</li>`
+							}
+
+							function calcBusterBuffWeaponATK(level, weapon, shieldEquip, shieldRefine, result) {
+								var weaponATK = 1 * level
+								if (shieldEquip && weapon == "1H") { weaponATK += shieldRefine * 1 }
+								var HTML = `<br><b>Buff Effect:</b>
+					<li><b>Weapon ATK</b> +${weaponATK}%`
+								if (weapon == "DW") { HTML += `; only applies to the <b>main hand sword</b>` }
+								HTML += `</li>`
+								result.innerHTML += HTML
+							}
+
+							function calcBusterHpRecovery(weapon, baseVIT, shieldEquip, shieldDef, result) {
+								var HPRecovery = 1000
+								if (weapon == "1H" || weapon == "DW") { HPRecovery += 2 * baseVIT }
+								if (shieldEquip && weapon == "1H") { HPRecovery += shieldDef * 1 }
+								result.innerHTML += `<li>The caster <b>recovers</b> ${HPRecovery} HP whenever the <b>buff</b> is successfully applied</li>`
+							}
+
+							function addBusterBuffDuration(result) {
+								result.innerHTML += "<li><b>Buff Duration:</b> 10 seconds; <b>cannot be reapplied/refreshed</b> if it's already active</li>";
+							}
+
+							function calcBusterValues() {
+								var weaponSelector = document.getElementById("busterWeapon")
+								var weapon = weaponSelector[weaponSelector.selectedIndex].value
+								var levelSelector = document.getElementById("busterLevel")
+								var level = levelSelector[levelSelector.selectedIndex].value
+								var auraSection = document.getElementById("busterAuraInput")
+								var auraLevelSelector = document.getElementById("busterAuraLevel")
+								var auraLevel = auraLevelSelector[auraLevelSelector.selectedIndex].value
+								var strSection = document.getElementById("busterStrInput")
+								var strValue = document.getElementById("busterStrValue").value
+								var dexSection = document.getElementById("busterDexInput")
+								var dexValue = document.getElementById("busterDexValue").value
+								var vitSection = document.getElementById("busterVitInput")
+								var baseVIT = document.getElementById("busterVIT").value
+								var shieldSection = document.getElementById("shieldInput")
+								var shieldEquip = document.getElementById("shieldEquipped").checked
+								var shieldDefSection = document.getElementById("shieldDefInput")
+								var shieldDef = document.getElementById("shieldDefValue").value
+								var shieldRefineSection = document.getElementById("shieldRefineInput")
+								var shieldRefineSelector = document.getElementById("shieldRefineLevel")
+								var shieldRefine = shieldRefineSelector[shieldRefineSelector.selectedIndex].value
+								var result = document.getElementById("busterValues")
+								weaponAuraCheck(weapon, auraSection)
+								weaponStrCheck(weapon, strSection)
+								weaponDexCheck(weapon, dexSection)
+								weaponVitCheck(weapon, vitSection)
+								shieldEquipCheck(weapon, shieldSection)
+								shieldValueCheck(weapon, shieldEquip, shieldDefSection, shieldRefineSection)
+								calcBusterConstant(level, result)
+								calcBusterMultiplier(level, weapon, auraLevel, strValue, dexValue, result)
+								addBusterCritInfo(result)
+								calcBusterBuffWeaponATK(level, weapon, shieldEquip, shieldRefine, result)
+								calcBusterHpRecovery(weapon, baseVIT, shieldEquip, shieldDef, result)
+								addBusterBuffDuration(result)
+							}
+
+							calcBusterValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<hr class="separator">
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/aurablade.png" width="34" height="34">
+								Aura Blade
+							</p>
+							<p class="medium">
+								Skill Aura Blade Level 5 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>200</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>24</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Slashes and clears your surroundings with a blade surrounded by an aura. The power of the
+								next skill used is 1.2x stronger.<br>
+								Grants Additional Melee to weapon while active.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p>Buffs will not be consumed.<br>
+								Extends the buffs of Aura Blade by 10 seconds when getting the buffs of "Buster
+								Blade".<br>
+								The power of Buster Blade increases based on the level acquired.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/dw.png"></p>
+								<p>Dual Swords</p>
+							</div>
+							<p>The power of the next skill used becomes 1.1x stronger.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>The Additional Melee granted gets reduced to 50%.<br>
+								The power of the next skill used becomes 1.3x stronger.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="auraBladeWeapon" onchange="calcAuraBladeValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="DW">Dual Swords</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="auraBladeSkillLevel" onchange="calcAuraBladeValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<div id="auraBladeOhsInput" style="display: block;">
+							<span class="sub-title"><b>Base DEX:</b></span>
+							<input type="number" value="255" min="1" max="510" id="auraBladeDexValue"
+								onchange="calcAuraBladeValues()" style="width: 50px;">
+						</div>
+						<br>
+						<span id="auraBladeValues">
+							<li><b>Skill Constant:</b> 200</li>
+							<li><b>Skill Multiplier:</b> 15</li>
+							<li><b>Hit Count:</b> 2 hits; damage calculation is done once then spread evenly between the
+								hits</li><br>
+							<li><b>Hit Range (radius):</b> 3.5m, around the <b>caster</b></li>
+							<li>Grants <b>Aura Blade buff</b> upon successful cast</li><br><b>Passive Effect:</b>
+							Increases <b>Skill Multiplier</b> of <b>Buster Blade</b> by +3.27<br><br><b>Buff Effect:</b>
+							<li>Increases the damage of all skills used by 1.2 times while the buff is active; stacks
+								<b>additively</b> with <b>Brave Aura</b> and <b>Mana Recharge</b>, and <b>does not apply
+									to this skill itself</b>
+							</li>
+							<li><b>Additional Melee</b> +100%</li>
+							<li><b>Buff Duration:</b> 40 seconds; successfully applying <b>Buster Blade buff</b> will
+								extend the remaining duration by 10 seconds</li>
+						</span>
+
+						<script>
+							function auraBladeWeaponCheck(weapon, ohsSection) {
+								if (weapon == "1H") { ohsSection.style = "display: block" }
+								else { ohsSection.style = "display: none" }
+							}
+
+							function calcAuraBladeConstant(result) {
+								var constant = 200
+								result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+							}
+
+							function calcAuraBladeMultiplier(level, result) {
+								var skillMultiplier = 5 + 1 * level
+								result.innerHTML += `<li><b>Skill Multiplier:</b> ${skillMultiplier}</li>`
+							}
+
+							function addAuraBladeHitCount(weapon, result) {
+								var hitCount = ``
+								if (weapon != "2H") { hitCount += `2 hits; damage calculation is done once then spread evenly between the hits` }
+								else { hitCount += `1 hit` }
+								result.innerHTML += `<li><b>Hit Count:</b> ${hitCount}</li><br>`
+							}
+
+							function addAuraBladeSkillEffect(level, result) {
+								result.innerHTML += `<li><b>Hit Range (radius):</b> 3.5m, around the <b>caster</b></li>
+					<li>Grants <b>Aura Blade buff</b> upon successful cast</li>`
+							}
+
+							function addAuraBladePassiveEffect(level, weapon, dexValue, result) {
+								var bonusMult = dexValue / 200 + level * 0.2
+								if (bonusMult - Math.floor(bonusMult * 100) / 100 < 0.0099999) { bonusMult = Math.floor(bonusMult * 100) / 100 }
+								else { bonusMult = Math.round(bonusMult * 100) / 100 }
+								if (weapon == "1H") { result.innerHTML += `<br><b>Passive Effect:</b> Increases <b>Skill Multiplier</b> of <b>Buster Blade</b> by +${bonusMult}<br>` }
+							}
+
+							function calcAuraBladeBuffEffect(level, weapon, result) {
+								var skillDmg = 1.2
+								var addMelee = 10 * level
+								var duration = `40 seconds`
+								if (weapon == "1H") { duration += `; successfully applying <b>Buster Blade buff</b> will extend the remaining duration by 10 seconds` }
+								else { duration += ` OR until a skill is used` }
+								if (weapon == "DW") { skillDmg -= 0.1 }
+								else if (weapon == "2H") {
+									skillDmg += 0.1
+									addMelee -= 50
+									if (addMelee < 0) { addMelee = 0 }
+								}
+								skillDmg = Math.round(skillDmg * 10) / 10
+								var HTML = `<br><b>Buff Effect:</b>
+					<li>Increases the damage of`
+								if (weapon == "1H") { HTML += ` all skills used by ${skillDmg} times while the buff is active` }
+								else { HTML += ` the next skill used by ${skillDmg} times` }
+								HTML += `; stacks <b>additively</b> with <b>Brave Aura</b> and <b>Mana Recharge</b>, and <b>does not apply to this skill itself</b></li>`
+								if (addMelee > 0) { HTML += `<li><b>Additional Melee</b> +${addMelee}%</li>` }
+								HTML += `<li><b>Buff Duration:</b> ${duration}</li>`
+								result.innerHTML += HTML
+							}
+
+							function calcAuraBladeValues() {
+								let weaponSelector = document.getElementById("auraBladeWeapon")
+								let weapon = weaponSelector[weaponSelector.selectedIndex].value
+								let levelSelector = document.getElementById("auraBladeSkillLevel")
+								let level = levelSelector[levelSelector.selectedIndex].value
+								let ohsSection = document.getElementById("auraBladeOhsInput")
+								let dexValue = document.getElementById("auraBladeDexValue").value
+								let result = document.getElementById("auraBladeValues")
+								auraBladeWeaponCheck(weapon, ohsSection)
+								calcAuraBladeConstant(result)
+								calcAuraBladeMultiplier(level, result)
+								addAuraBladeHitCount(weapon, result)
+								addAuraBladeSkillEffect(level, result)
+								addAuraBladePassiveEffect(level, weapon, dexValue, result)
+								calcAuraBladeBuffEffect(level, weapon, result)
+							}
+
+							calcAuraBladeValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<hr class="separator">
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/swordmastery.png" width="34" height="34">
+								Sword Mastery
+							</p>
+							<p class="medium">
+								Skill Sword Mastery Level 1 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Passive</p>
+						</div>
+						<div>
+							<p class="accent-bold"></p>
+							<p>Neutral</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Get better at swordsmanship. ATK of One/Two-Handed Swords increases.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+						<select id="swordMasteryLevel" onchange="calcSwordMasteryValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<br>
+						<span id="swordMasteryValues">
+							<li><b>ATK</b> +3%</li>
+							<li><b>Weapon ATK</b> +30%</li><br>This passive can affect the <b>sub-hand sword's Weapon
+								ATK</b> and <b>ATK</b> of Dual Swords
+						</span>
+
+						<script>
+							function calcSwordMasteryATK(level, result) {
+								var ATK = 1 + Math.ceil((level - 2) / 5)
+								result.innerHTML = `<li><b>ATK</b> +${ATK}%</li>`
+							}
+
+							function calcSwordMasteryWeaponATK(level, result) {
+								var weaponATK = 3 * level
+								result.innerHTML += `<li><b>Weapon ATK</b> +${weaponATK}%</li>`
+							}
+
+							function addSwordMasteryInfo(result) {
+								result.innerHTML += `<br>This passive can affect the <b>sub-hand sword's Weapon ATK</b> and <b>ATK</b> of Dual Swords`
+							}
+
+							function calcSwordMasteryValues() {
+								var levelSelector = document.getElementById("swordMasteryLevel")
+								var level = levelSelector[levelSelector.selectedIndex].value
+								var result = document.getElementById("swordMasteryValues")
+								calcSwordMasteryATK(level, result)
+								calcSwordMasteryWeaponATK(level, result)
+								addSwordMasteryInfo(result)
+							}
+
+							calcSwordMasteryValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<hr class="separator">
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/quickslash.png" width="34" height="34">
+								Quick Slash
+							</p>
+							<p class="medium">
+								Skill Quick Slash Level 1 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Passive</p>
+						</div>
+						<div>
+							<p class="accent-bold"></p>
+							<p>Neutral</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Shorten the Attack Intervals of One/Two-Handed Swords.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+						<select id="quickSlashLevel" onchange="calcQuickSlashValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<br>
+						<span id="quickSlashValues">
+							<li><b>Attack Speed</b> +10%</li>
+							<li><b>Attack Speed</b> +100</li>
+						</span>
+
+						<script>
+							function calcQuickSlashASPD(level, result) {
+								result.innerHTML = `<li><b>Attack Speed</b> +${level}%</li>`
+							}
+
+							function calcQuickSlashFlatASPD(level, result) {
+								result.innerHTML += `<li><b>Attack Speed</b> +${10 * level}</li>`
+							}
+
+							function calcQuickSlashValues() {
+								let levelSelector = document.getElementById("quickSlashLevel")
+								let level = levelSelector[levelSelector.selectedIndex].value
+								let result = document.getElementById("quickSlashValues")
+								calcQuickSlashASPD(level, result)
+								calcQuickSlashFlatASPD(level, result)
+							}
+
+							calcQuickSlashValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/swordtechniques.png" width="34" height="34">
+								Sword Techniques
+							</p>
+							<p class="medium">
+								Skill Sword Techniques Level 2 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Passive</p>
+						</div>
+						<div>
+							<p class="accent-bold"></p>
+							<p>Neutral</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Learn the mastership of swords. The damage dealt of Blade Skill increases.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+						<select id="swordTechniquesLevel" onchange="calcSwordTechniquesDamageUp()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<br>
+						<span id="swordTechniquesValues">Increases the damage of all skills from the <b>Blade Skills
+								Tree</b> by 20%</span>
+
+						<script>
+							function calcSwordTechniquesDamageUp() {
+								var levelSelector = document.getElementById("swordTechniquesLevel")
+								var level = levelSelector[levelSelector.selectedIndex].value
+								var result = document.getElementById("swordTechniquesValues")
+								result.innerHTML = `Increases the damage of all skills from the <b>Blade Skills Tree</b> by ${2 * level}%`
+							}
+
+							calcSwordTechniquesDamageUp()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/warcry.png" width="34" height="34">
+								War Cry
+							</p>
+							<p class="medium">
+								Skill War Cry Level 3 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/all.png"><br>Available with all weapons
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Neutral</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>300</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>0</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Perform a rallying cry. Increases ATK for a while. Removes status ailment: [Fear].</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p><b style="color: gold">[Get the same effect when used with Dual Swords]</b><br>
+								Duration +50sec</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Boosts ATK</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="warCryWeapon" onchange="calcWarCryValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="2H">2-Handed Sword</option>
+							<option value="other">Other</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="warCryLevel" onchange="calcWarCryValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"><b>"Dominant War Cry" Registlet equipped:</b></span>
+						<input type="checkbox" id="warCryRegistlet" onchange="calcWarCryValues()"><br>
+						<br>
+						<span id="warCryValues"><b>Skill Effect:</b> Removes [Fear] ailment from and grants <b>War Cry
+								buff</b> to the <b>caster</b> and <b>party members</b> upon successful cast<br><b>Buff
+								Effect:</b><br>
+							<li><b>ATK</b> +10%</li>
+							<li><b>Buff Duration:</b> 75 seconds</li><br><b>Extra info:</b>
+							<li>If another party member casts this skill, the buff <b>will not be refreshed</b> if these
+								conditions apply, in the following order:<ul>
+									<li>&nbsp;&nbsp;&nbsp;- The <b>skill level</b> of the newer War Cry is <b>lower</b>
+										than the previous one's</li>
+									<li>&nbsp;&nbsp;&nbsp;- The <b>duration</b> of the newer War Cry is <b>lower</b>
+										than the previous one's</li>
+								</ul>
+								Due to that, the "better" Two-Handed Sword version of the buff can be overwritten by the
+								"weaker" One-Handed Sword version if both are of the same <b>skill level</b>, since the
+								latter always has far longer duration than the former</li>
+						</span>
+
+						<script>
+							function addWarCryFearInfo(registlet, result) {
+								var HTML = `<b>Skill Effect:</b> Removes [Fear] ailment from and grants <b>War Cry buff</b> to the <b>caster</b> and <b>party members</b> upon successful cast`
+								if (registlet) { HTML += `; this skill's activation <b>cannot be interrupted by [Fear] ailment</b>` }
+								HTML += `<br><b>Buff Effect:</b><br>`
+								result.innerHTML = HTML
+							}
+
+							function calcWarCryBuffATK(level, weapon, result) {
+								var ATK = 1 * level
+								if (weapon == "2H") { ATK += 5 }
+								result.innerHTML += `<li><b>ATK</b> +${ATK}%</li>`
+							}
+
+							function calcWarCryBuffDuration(level, weapon, result) {
+								var duration = 15 + 1 * level
+								if (weapon == "1H") { duration += 50 }
+								result.innerHTML += `<li><b>Buff Duration:</b> ${duration} seconds</li>`
+							}
+
+							function addWarCryExtraInfo(result) {
+								result.innerHTML += `<br><b>Extra info:</b>
+					<li>If another party member casts this skill, the buff <b>will not be refreshed</b> if these conditions apply, in the following order:<ul>
+					<li>&nbsp&nbsp&nbsp- The <b>skill level</b> of the newer War Cry is <b>lower</b> than the previous one's</li>
+					<li>&nbsp&nbsp&nbsp- The <b>duration</b> of the newer War Cry is <b>lower</b> than the previous one's</li></ul>
+					Due to that, the "better" Two-Handed Sword version of the buff can be overwritten by the "weaker" One-Handed Sword version if both are of the same <b>skill level</b>, since the latter always has far longer duration than the former</li>`
+							}
+
+							function calcWarCryValues() {
+								var weaponSelector = document.getElementById("warCryWeapon")
+								var weapon = weaponSelector[weaponSelector.selectedIndex].value
+								var levelSelector = document.getElementById("warCryLevel")
+								var level = levelSelector[levelSelector.selectedIndex].value
+								var registlet = document.getElementById("warCryRegistlet").checked
+								var result = document.getElementById("warCryValues")
+								addWarCryFearInfo(registlet, result)
+								calcWarCryBuffATK(level, weapon, result)
+								calcWarCryBuffDuration(level, weapon, result)
+								addWarCryExtraInfo(result)
+							}
+
+							calcWarCryValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/berserk.png" width="34" height="34">
+								Berserk
+							</p>
+							<p class="medium">
+								Skill Berserk Level 4 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/all.png"><br>Available with all weapons
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Neutral</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>500</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>0</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Stop thinking and wield the weapon like a berserker. Increase Normal Attack Power/Attack
+								Speed/Critical Rate for a few seconds and greatly decrease Stability/DEF/MDEF. Rampage
+								is not removed by status ailments while it is in effect.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p>Reduce the decrease of Stability.<br>
+								Reduce the decrease of DEF. (<b style="color: #E77577">Except Dual Swords</b>)<br>
+								Reduce the decrease of MDEF. (<b style="color: #E77577">Except Dual Swords</b>)<br>
+								Duration +20sec</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Boosts Critical Rate<br>
+								Reduces the decrease of Stability.<br>
+								Duration +20sec</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="berserkWeapon" onchange="calcBerserkValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="DW">Dual Swords</option>
+							<option value="2H">2-Handed Sword</option>
+							<option value="other">Other</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="berserkLevel" onchange="calcBerserkValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"><b>"Berserk Control" Registlet equipped:</b></span>
+						<input type="checkbox" id="berserkRegistlet" onchange="calcBerserkValues()"><br>
+						<br>
+						<span id="berserkValues"><span><b>Buff Effect:</b><br></span>
+							<li><b>Attack Speed</b> +100%</li>
+							<li><b>Attack Speed</b> +1000</li>
+							<li><b>Auto Attack Skill Multiplier</b> +1</li>
+							<li><b>Critical Rate</b> +25</li>
+							<li style="color: #C70039"><b>Stability</b> -25%</li>
+							<li style="color: #C70039"><b>DEF</b> -45%</li>
+							<li style="color: #C70039"><b>MDEF</b> -45%</li>
+							<li><b>Prevents Rampage buff</b> from being <b>removed by ailments</b></li>
+							<li><b>Buff Duration:</b> 30 seconds</li>
+						</span>
+
+						<script>
+							function addBerserkRegistletEffect(level, registlet, result) {
+								var preserveChance = 10 * level
+								var HTML = ``
+								if (registlet) {
+									HTML += `<b>Passive Effect:</b> `
+									if (preserveChance < 100) { HTML += `${preserveChance}% chance to p` }
+									else { HTML += `P` }
+									HTML += `revent <b>Rampage buff</b> from being <b>removed by ailments</b><br><br>
+						<b>Active Effect:</b> Grants <b>Berserk buff</b> upon cast<br>`
+								}
+								result.innerHTML += HTML
+							}
+
+							function calcBerserkBuffASPDIncrease(level, result) {
+								var ASPD1 = 10 * level
+								var ASPD2 = 100 * level
+								result.innerHTML += `<span><b>Buff Effect:</b><br></span>
+					<li><b>Attack Speed</b> +${ASPD1}%</li>
+					<li><b>Attack Speed</b> +${ASPD2}</li>`
+							}
+
+							function calcBerserkBuffAutoIncrease(level, weapon, result) {
+								var AAMult = 0.1 * level
+								AAMult = Math.round(AAMult * 100) / 100
+								var autoAttackInfo = `<li><b>Auto Attack Skill Multiplier</b> +${AAMult}`
+								if (weapon == "DW") {
+									autoAttackInfo += `; <span style = 'color: #8db7e0'><b>only applies to the main hand attacks</span></b>`
+								}
+								autoAttackInfo += `</li>`
+								result.innerHTML += autoAttackInfo
+							}
+
+							function calcBerserkBuffCritRateIncrease(level, weapon, result) {
+								var critRate = 2.5 * level
+								if (weapon == "2H") { critRate *= 2 }
+								critRate = Math.floor(critRate)
+								result.innerHTML += `<li><b>Critical Rate</b> +${critRate}</li>`
+							}
+
+							function calcBerserkBuffStabilityDecrease(level, weapon, result) {
+								var stability = 100 - 5 * level
+								if (weapon != "other") { stability /= 2 }
+								stability = Math.floor(stability)
+								var stabilityInfo = `<li style = 'color: #C70039'><b>Stability</b> -${stability}%`
+								if (weapon == "DW") { stabilityInfo += `; <span style = 'color: #8db7e0'><b>does not affect the sub-hand sword's Stability</span></b>` }
+								stabilityInfo += `</li>`
+								result.innerHTML += stabilityInfo
+							}
+
+							function calcBerserkBuffPMDEFDecrease(level, weapon, result) {
+								var DEF = 100 - 1 * level
+								if (weapon == "1H") { DEF /= 2 }
+								DEF = Math.floor(DEF)
+								result.innerHTML += `<li style = 'color: #C70039'><b>DEF</b> -${DEF}%</li>
+					<li style = 'color: #C70039'><b>MDEF</b> -${DEF}%</li>`
+							}
+
+							function addBerserkRampageAilmentInfo(level, registlet, result) {
+								if (!(level == 10 && registlet)) { result.innerHTML += `<li><b>Prevents Rampage buff</b> from being <b>removed by ailments</b></li>` }
+							}
+
+							function calcBerserkBuffDuration(weapon, result) {
+								var duration = 10
+								if (weapon != "other") { duration += 20 }
+								result.innerHTML += `<li><b>Buff Duration:</b> ${duration} seconds</li>`
+							}
+
+							function calcBerserkValues() {
+								var weaponSelector = document.getElementById("berserkWeapon")
+								var weapon = weaponSelector[weaponSelector.selectedIndex].value
+								var levelSelector = document.getElementById("berserkLevel")
+								var level = levelSelector[levelSelector.selectedIndex].value
+								var registlet = document.getElementById("berserkRegistlet").checked
+								var result = document.getElementById("berserkValues")
+								result.innerHTML = "" //avoid repeating
+								addBerserkRegistletEffect(level, registlet, result)
+								calcBerserkBuffASPDIncrease(level, result)
+								calcBerserkBuffAutoIncrease(level, weapon, result)
+								calcBerserkBuffCritRateIncrease(level, weapon, result)
+								calcBerserkBuffStabilityDecrease(level, weapon, result)
+								calcBerserkBuffPMDEFDecrease(level, weapon, result)
+								addBerserkRampageAilmentInfo(level, registlet, result)
+								calcBerserkBuffDuration(weapon, result)
+							}
+
+							calcBerserkValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/gladiate.png" width="34" height="34">
+								Gladiate
+							</p>
+							<p class="medium">
+								Skill Gladiate Level 5 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Neutral</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>0</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>No</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>0</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Reduces the damage received for a certain number of times for 10 seconds. Slightly
+								restores MP when damage is reduced.<br>
+								Restores 10 MP per number of damage reduction effects remaining when the time is up.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ohs.png"></p>
+								<p>1-Handed Sword</p>
+							</div>
+							<p>The amount of MP recovered increases when damage gets reduced.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/dw.png"></p>
+								<p>Dual Swords</p>
+							</div>
+							<p>The amount of MP recovered is halved when damage gets reduced.<br>
+								Damage reduction is doubled.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>The amount of MP recovered slightly increases when damage gets reduced.<br>
+								Damage reduction is doubled.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="gladiateWeapon" onchange="calcGladiateValues()">
+							<option value="1H" selected="">1-Handed Sword</option>
+							<option value="DW">Dual Swords</option>
+							<option value="2H">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="gladiateSkillLevel" onchange="calcGladiateValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"><b>Total Attack MP Recovery:</b></span>
+						<input type="number" id="gladiateAmprInput" value="30" style="width: 3em; text-align: right"
+							onchange="calcGladiateValues()">
+						<div id="gladiateDWAmprInput" style="display: none;">
+							<span>(value before Dual Swords' AMPR-doubling effect)</span>
+						</div><br>
+						<br>
+						<span id="gladiateValues"><b>Buff Effect:</b>
+							<li>Grants <b>Gladiate buff</b> with 10 stacks</li>
+							<li>Each time you receive attack damage while this buff is active, consumes 1 stack to
+								reduce the received damage by 10% and recover 30 MP</li>
+							<li>Recovers 10 MP for each remaining stack <b>when the buff duration ends</b></li>
+							<li><b>Buff Duration:</b> 10 seconds</li><br><b>Extra Info:</b>
+							<li>Recasting this skill while the buff is already active will <b>reset the duration back to
+									10 seconds</b>; as this is <b>not treated</b> as "buff duration ends", the MP
+								recovery effect will not activate in this case</li>
+						</span>
+
+						<script>
+							function weaponDWCheck(weapon, dwSection) {
+								if (weapon == "DW") { dwSection.style = "display: inline" }
+								else { dwSection.style = "display: none" }
+							}
+
+							function calcGladiateBuff(level, weapon, ampr, result) {
+								var dmgReduc = level
+								var mpHeal = ampr * level / 10
+								if (weapon != "1H") { dmgReduc *= 2 }
+								if (weapon == "DW") { mpHeal *= 0.5 }
+								else if (weapon == "2H") { mpHeal *= 0.75 }
+								if (mpHeal - Math.floor(mpHeal) < 0.99) { mpHeal = Math.floor(mpHeal) }
+								else { mpHeal = Math.round(mpHeal) }
+								var HTML = `<b>Buff Effect:</b>
+					<li>Grants <b>Gladiate buff</b> with ${level} stack`
+								if (level > 1) { HTML += `s` }
+								HTML += `</li><li>Each time you receive attack damage while this buff is active, consumes 1 stack to reduce the received damage by ${dmgReduc}% and recover ${mpHeal} MP</li>
+					<li>Recovers 10 MP for each remaining stack <b>when the buff duration ends</b></li>
+					<li><b>Buff Duration:</b> 10 seconds</li><br>`
+								result.innerHTML = HTML
+							}
+
+							function addGladiateExtra(result) {
+								result.innerHTML += `<b>Extra Info:</b>
+					<li>Recasting this skill while the buff is already active will <b>reset the duration back to 10 seconds</b>; as this is <b>not treated</b> as "buff duration ends", the MP recovery effect will not activate in this case</li>`
+							}
+
+							function calcGladiateValues() {
+								let weaponSelector = document.getElementById("gladiateWeapon")
+								let weapon = weaponSelector[weaponSelector.selectedIndex].value
+								let levelSelector = document.getElementById("gladiateSkillLevel")
+								let level = levelSelector[levelSelector.selectedIndex].value
+								let ampr = document.getElementById("gladiateAmprInput").value
+								let dwSection = document.getElementById("gladiateDWAmprInput")
+								let result = document.getElementById("gladiateValues")
+								weaponDWCheck(weapon, dwSection)
+								calcGladiateBuff(level, weapon, ampr, result)
+								addGladiateExtra(result)
+							}
+
+							calcGladiateValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/swiftattack.png" width="34" height="34">
+								Swift Attack
+							</p>
+							<p class="medium">
+								Skill Swift Attack Level 3 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/ths.png"><img src="../../images/icon/ohs.png"><br>2-Handed Sword/1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>Dual Swords: 200; Other: 300</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>2</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Kick while pretending to attack with a sword. This skill has "normal attack proration".
+								MP Cost for the next skill used will be reduced when the skill reaches its maximum
+								level.</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/dw.png"></p>
+								<p>Dual Swords</p>
+							</div>
+							<p>MP Cost -100<br> Chance to make target Tumble.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="swiftAttackWeapon" onchange="calcswiftAttackValue()">
+							<option value="12H" selected="">1-Handed/2-Handed Sword</option>
+							<option value="DW">Dual Swords</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="swiftAttackLevel" onchange="calcswiftAttackValue()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<br>
+						<span id="swiftAttackValue">
+							<li><b>MP Cost:</b> 300</li>
+							<li><b>Skill Constant: </b> 300 </li>
+							<li><b>Skill Multiplier:</b> 0.75</li><br>
+							<li>Grants <b>Swift Attack buff</b> upon cast</li><br><b>Buff Effect:</b>
+							<li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple
+								of 100</li>
+							<li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
+							<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+								<b>main weapon</b></li>
+							<li>This skill inflicts <b>Normal Attack Proration</b>, but uses <b>Physical Proration</b>
+								for its damage calculation</li>
+						</span>
+
+						<script>
+							function calcSwiftAttackMpCost(weapon, result) {
+								var cost = 300
+								if (weapon == "DW") { cost -= 100 }
+								result.innerHTML = `<li><b>MP Cost:</b> ${cost}</li>`
+							}
+
+							function calcSwiftAttackConstant(level, result) {
+								var constant = ((level + 1) ^ 2) * 3
+								constant = Math.floor(constant)
+								if (constant > 300) { constant = 300 }
+								result.innerHTML += `<li><b>Skill Constant: </b> ${constant} </li>`
+							}
+
+							function calcSwiftAttackMultiplier(level, result) {
+								var multiplier = 0.3 + (0.05 * level)
+								multiplier = Math.round(multiplier * 100) / 100
+								if (multiplier > 0.75) { multiplier = 0.75 }
+								result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li>`
+							}
+
+							function calcEffectSwiftAttack(level, weapon, result) {
+								var HTML = ``
+								if (level == 10) {
+									HTML += `<br><li>Grants <b>Swift Attack buff</b> upon cast</li>`
+									if (weapon == "DW") {
+										HTML += `<li><b>Tumble Chance:</b> 100%</li>
+						<li><b>Tumble Duration:</b> 3 seconds</li>
+						<li><b>Resistance Duration on Difficulties:</b> 6 seconds (<b>Easy</b> and <b>Normal</b>); 9 seconds (<b>Hard</b>); 15 seconds (<b>Nightmare</b>); 21 seconds (<b>Ultimate</b>)</li>`}
+									HTML += `<br><b>Buff Effect:</b>
+						<li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple of 100</li>
+						<li><b>Buff Duration:</b> Until a skill is used</li>`
+								}
+								result.innerHTML += HTML
+							}
+
+							function addSwiftAttackExtraInfo(weapon, result) {
+								var HTML = `<br><b>Extra info:</b>`
+								if (weapon == "DW") { HTML += `<li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>` }
+								HTML += `<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b></li>
+					<li>This skill inflicts <b>Normal Attack Proration</b>, but uses <b>Physical Proration</b> for its damage calculation</li>`
+								result.innerHTML += HTML
+							}
+
+							function calcswiftAttackValue() {
+								var weaponSelector = document.getElementById("swiftAttackWeapon")
+								var weapon = weaponSelector[weaponSelector.selectedIndex].value
+								var levelSelector = document.getElementById("swiftAttackLevel")
+								var level = levelSelector[levelSelector.selectedIndex].value
+								let result = document.getElementById("swiftAttackValue")
+								calcSwiftAttackMpCost(weapon, result)
+								calcSwiftAttackConstant(level, result)
+								calcSwiftAttackMultiplier(level, result)
+								calcEffectSwiftAttack(level, weapon, result)
+								addSwiftAttackExtraInfo(weapon, result)
+							}
+
+							calcswiftAttackValue()
 						</script>
 					</details>
 					<p></p>
