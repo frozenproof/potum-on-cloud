@@ -120,6 +120,7 @@ router.get('/skills/*', (req, res) => {
 router.get('/freerouting/*', (req, res) => {
     const filePath = path.join(__dirname, '..', 'templates', 'ai-manifest', req.params[0] + '.html');
     if (fs.existsSync(filePath)) {
+        console.log("something is happening")
         res.sendFile(filePath);
     } else {
         res.status(404).send('<p>File not found</p>');
