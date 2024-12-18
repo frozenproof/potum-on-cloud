@@ -46,9 +46,6 @@ Run all scrapping python scripts, and run 0_find_import, then use pip list and c
 
 On js, do the same thing by asking chatgpt what imports are used and reinstall the libraries.
 
-On deployment, use
-```
-pip install -r requirements.txt
 ```
 Node version
 ```
@@ -59,9 +56,6 @@ npm install
 
 Important: Node version need linux, you can choose
 
-Run command
-```
-python3 ./server/server.py
 ```
 Node version
 ```

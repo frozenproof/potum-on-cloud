@@ -117,6 +117,18 @@ router.get('/skills/*', (req, res) => {
     }
 });
 
+router.get('/aux1/*', (req, res) => {
+    const filePath = path.join(__dirname, '..', 'database', 'aux1', req.params[0]);
+    if (fs.existsSync(filePath)) {
+        console.log("Found file ",filePath)
+        res.render(filePath);
+    } else {
+        console.log(filePath)
+        console.log("File not found")
+        res.status(404).send('<p>File not found</p>');
+    }
+});
+
 router.get('/freerouting/*', (req, res) => {
     const filePath = path.join(__dirname, '..', 'templates', 'ai-manifest', req.params[0] + '.html');
     if (fs.existsSync(filePath)) {
