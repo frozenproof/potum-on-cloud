@@ -1,4 +1,1240 @@
-<div>
-    <h3>Under construction</h3>
-    <p>Please return later　ヾ(≧▽≦)ﾉ .</p>
-</div>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Halberd Skills Tree</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <%- include('../../templates/headers/metadata') %>
+
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+        <script src="../templates/axios.min.js"></script>
+        <script>
+            // wew have works to do
+            function roundToTwoDecimals(value) {
+                return Math.round(value * 100) / 100;
+            }
+        </script>
+</head>
+
+<body>
+    <%- include('../../templates/headers/header') %>
+
+        <div id="content">
+            <div class="container">
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="skill/halberd/flashstab.png" width="34" height="34">
+                                Flash Stab
+                            </p>
+                            <p class="medium">
+                                Skill Flash Stab Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/ohs.png"><img src="../../images/icon/halb.png"><br>1-Handed
+                            Sword/Halberd
+                            only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Sharply attack an enemy with a quick movement.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/halb.png"></p>
+                                <p>Halberd</p>
+                            </div>
+                            <p>Boost on Activation Speed.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select name="weaponType" id="flashStabWeaponType" onchange="calcFlashStabValues()">
+                            <option value="1h">1-Handed Sword</option>
+                            <option value="hb" selected="">Halberd</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="flashStabSkillLevel" onchange="calcFlashStabValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Flash Stab Enhancer" Registlet Level:</b></span>
+                        <select id="flashStabRegistlet" onchange="calcFlashStabValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select><br>
+                        <br>
+                        <span id="flashStabValues">
+                            <li><b>Skill Constant:</b> 100</li>
+                            <li><b>Skill Multiplier:</b> 1.5</li><br>
+                            <li><b>Motion Speed</b> of <b>Flash Stab</b> +50%</li><br>This skill's <b>maximum cast
+                                range</b> is equal to the maximum auto attack range of the <b>main weapon</b>
+                        </span>
+
+                        <script>
+                            function calcFlashStabConstant(level, result) {
+                                let constant = 50 + 5 * level
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcFlashStabMultiplier(level, registlet, result) {
+                                let multiplier = 1 + 0.05 * level + 0.05 * registlet
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcFlashStabMotion(weapon, result) {
+                                var motionSpeed = 25
+                                if (weapon == "hb") { motionSpeed += 25 }
+                                result.innerHTML += `<li><b>Motion Speed</b> of <b>Flash Stab</b> +${motionSpeed}%</li>`
+                            }
+
+                            function calcFlashStabValues() {
+                                let levelSelector = document.getElementById('flashStabSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('flashStabWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('flashStabValues')
+                                let registletSelector = document.getElementById("flashStabRegistlet");
+                                let registlet = registletSelector[registletSelector.selectedIndex].value;
+                                calcFlashStabConstant(level, result)
+                                calcFlashStabMultiplier(level, registlet, result)
+                                calcFlashStabMotion(weapon, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b>`
+                            }
+
+                            calcFlashStabValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="skill/halberd/cannonspear.png" width="34" height="34">
+                                Cannon Spear
+                            </p>
+                            <p class="medium">
+                                Skill Cannon Spear Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/halb.png"><br>Halberd only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>4</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attack an enemy by throwing the halberd. The range increases as the skill levels up.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="cannonSpearSkillLevel" onchange="calcCannonSpearValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Cannon Spear Enhancer" Registlet Level:</b></span>
+                        <select id="cannonSpearRegistlet" onchange="calcCannonSpearValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <br>
+                        <span id="cannonSpearValues">
+                            <li><b>Skill Constant (First Hit):</b> 200</li>
+                            <li><b>Skill Constant (Toss):</b> 0</li>
+                            <li><b>Skill Multiplier (First Hit):</b> 0.5</li>
+                            <li><b>Skill Multiplier (Toss):</b> 2.5</li>
+                            <li><b>Hit Count:</b> 2 hits on the main target; 1 hit on all other targets; damage
+                                calculation is done for each hit</li><br>
+                            <li><b>Hit Range (Toss):</b> Length of 12m and radius of 2m, from the <b>caster</b> towards
+                                the <b>main target</b></li><br>This skill's <b>maximum cast range</b> is equal to the
+                            maximum auto attack range of the <b>main weapon</b>
+                        </span>
+
+                        <script>
+                            function calcCannonSpearConstant(level, result) {
+                                let firstConstant = 100 + 10 * level
+                                let tossConstant = 0
+                                result.innerHTML = `<li><b>Skill Constant (First Hit):</b> ${firstConstant}</li>
+                    <li><b>Skill Constant (Toss):</b> ${tossConstant}</li>`
+                            }
+
+                            function calcCannonSpearMultiplier(level, result) {
+                                let firstMultiplier = 0.4 + 0.01 * level
+                                let tossMultiplier = 1.5 + 0.1 * level
+                                firstMultiplier = Math.floor(firstMultiplier * 100) / 100
+                                tossMultiplier = Math.round(tossMultiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier (First Hit):</b> ${firstMultiplier}</li>
+                    <li><b>Skill Multiplier (Toss):</b> ${tossMultiplier}</li>
+                    <li><b>Hit Count:</b> 2 hits on the main target; 1 hit on all other targets; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcCannonSpearHitRange(level, result) {
+                                let tossRange = 7 + Math.ceil(level / 2)
+                                let tossRadius = 1 + Math.floor(level / 6)
+                                result.innerHTML += `<li><b>Hit Range (Toss):</b> Length of ${tossRange}m and radius of ${tossRadius}m, from the <b>caster</b> towards the <b>main target</b></li>`
+                            }
+
+                            function calcCannonSpearFlinchChance(registlet, result) {
+                                let flinchChance = 10 * registlet
+                                if (registlet > 0) { result.innerHTML += `<li><b>Flinch Chance (First Hit):</b> ${flinchChance}%</li>` }
+                            }
+
+                            function calcCannonSpearValues() {
+                                let levelSelector = document.getElementById('cannonSpearSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("cannonSpearRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let result = document.getElementById('cannonSpearValues')
+                                calcCannonSpearConstant(level, result)
+                                calcCannonSpearMultiplier(level, result)
+                                calcCannonSpearHitRange(level, result)
+                                calcCannonSpearFlinchChance(registlet, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b>`
+                            }
+
+                            calcCannonSpearValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="skill/halberd/dragontail.png" width="34" height="34">
+                                Dragon Tail
+                            </p>
+                            <p class="medium">
+                                Skill Dragon Tail Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/halb.png"><br>Halberd only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>24</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Whirl around the Halberd and swipe enemies. While active, damage taken will be reduced 2
+                                times. Chance to inflict [Tumble]. Unable to inflict Tumble on boss monsters.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="dragonTailSkillLevel" onchange="calcDragonTailValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Dragon Tail Enhancer" Registlet Level:</b></span>
+                        <select id="dragonTailRegistlet" onchange="calcDragonTailValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select><br>
+                        <br>
+                        <span id="dragonTailValues">
+                            <li><b>Skill Constant (First Hit):</b> 100</li>
+                            <li><b>Skill Constant (Second Hit):</b> 200</li>
+                            <li><b>Skill Multiplier (First Hit):</b> 1 </li>
+                            <li><b>Skill Multiplier (Second Hit):</b> 4 </li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>
+                            <li><b>Hit Range (radius):</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;- <b>First Hit:</b> 2.5m, around the <b>caster</b></li>
+                                    <li>&nbsp;&nbsp;- <b>Second Hit:</b> 4m, around the <b>caster</b></li>
+                                </ul>
+                            </li>
+                            <li>Grants <b>Dragon Tail buffs</b> upon <b>each hit animation</b></li>
+                            <li><b>Tumble Chance:</b> 100%; unavailable on <b>bosses</b></li>
+                            <li><b>Tumble Duration:</b> 3 seconds</li>
+                            <li><b>Resistance Duration:</b> 6 second</li><br><b>Buff Effect:</b>
+                            <li>Reduces <b>physical/magic damage received</b> once during <b>each hit animation of the
+                                    skill</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;- During <b>First Hit's animation</b>: Reduces damage taken by 50%
+                                    </li>
+                                    <li>&nbsp;&nbsp;- During <b>Second Hit's animation</b>: Reduces damage taken by 100%
+                                    </li>
+                                    <li>&nbsp;&nbsp;- The damage reduction effect can only reduce received damage to a
+                                        minimum of 1</li>
+                                </ul>
+                            </li>
+                            <li><b>Buff Duration:</b> Until you get hit OR until the respective hit animation ends</li>
+                            <br><b>Extra info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                        </span>
+
+                        <script>
+                            function calcDragonTailConstant(level, result) {
+                                let constant1 = 100
+                                let constant2 = 50 + (15 * level)
+                                result.innerHTML = `<li><b>Skill Constant (First Hit):</b> ${constant1}</li>
+                    <li><b>Skill Constant (Second Hit):</b> ${constant2}</li>`
+                            }
+
+                            function calcDragonTailMultiplier(level, registlet, result) {
+                                let multiplier1 = 0.7 + (0.03 * level)
+                                let multiplier2 = 2 + (0.2 * level) + (0.05 * registlet)
+                                multiplier1 = Math.round(multiplier1 * 100) / 100
+                                multiplier2 = Math.round(multiplier2 * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier (First Hit):</b> ${multiplier1} </li>
+                    <li><b>Skill Multiplier (Second Hit):</b> ${multiplier2} </li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcDragonTailHitRange(level, result) {
+                                // initialize hit range into an array : 
+                                let firstHit = 1.5 + Math.floor(level / 6)
+                                let secondHit = 2 + 0.5 * Math.ceil(level / 3)
+                                result.innerHTML += `<li><b>Hit Range (radius):</b><ul>
+                    <li>&nbsp&nbsp- <b>First Hit:</b> ${firstHit}m, around the <b>caster</b></li>
+                    <li>&nbsp&nbsp- <b>Second Hit:</b> ${secondHit}m, around the <b>caster</b></li>
+                    </ul></li>`
+                            }
+
+                            function calcDragonTailAilmentChance(level, result) {
+                                let ailmentChance = 10 * level
+                                result.innerHTML += `<li>Grants <b>Dragon Tail buffs</b> upon <b>each hit animation</b></li>
+                    <li><b>Tumble Chance:</b> ${ailmentChance}%; unavailable on <b>bosses</b></li>
+                    <li><b>Tumble Duration:</b> 3 seconds</li>
+                    <li><b>Resistance Duration:</b> 6 second</li>`
+                            }
+
+                            function calcDragonTailDamageCut(level, result) {
+                                let damageCut1 = 50
+                                let damageCut2 = 10 * level
+                                result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li>Reduces <b>physical/magic damage received</b> once during <b>each hit animation of the skill</b><ul>
+                    <li>&nbsp&nbsp- During <b>First Hit's animation</b>: Reduces damage taken by ${damageCut1}%</li>
+                    <li>&nbsp&nbsp- During <b>Second Hit's animation</b>: Reduces damage taken by ${damageCut2}%</li>
+                    <li>&nbsp&nbsp- The damage reduction effect can only reduce received damage to a minimum of 1</li>
+                    </ul></li>
+                    <li><b>Buff Duration:</b> Until you get hit OR until the respective hit animation ends</li>`
+                            }
+
+                            function addDragonTailExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>`
+                            }
+
+                            function calcDragonTailValues() {
+                                let levelSelector = document.getElementById('dragonTailSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("dragonTailRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let result = document.getElementById('dragonTailValues')
+                                calcDragonTailConstant(level, result)
+                                calcDragonTailMultiplier(level, registlet, result)
+                                calcDragonTailHitRange(level, result)
+                                calcDragonTailAilmentChance(level, result)
+                                calcDragonTailDamageCut(level, result)
+                                addDragonTailExtraInfo(result)
+                            }
+
+                            calcDragonTailValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="skill/halberd/diveimpact.png" width="34" height="34">
+                                Dive Impact
+                            </p>
+                            <p class="medium">
+                                Skill Dive Impact Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/halb.png"><br>Halberd only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>400</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>4</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>The Halberd thrusted breaks the earth in time. Generates a mass explosion and deal
+                                additional damage after a while with a chance to inflict [Dazzled] when the skill is
+                                activated. Become invincible when activating the skill.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="diveImpactSkillLevel" onchange="calcDiveImpactValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Total STR:</b></span>
+                        <input type="number" value="255" id="diveImpactStrValues" onchange="calcDiveImpactValues()"
+                            style="width: 50px;"><br>
+                        <span class="sub-title"><b>Total INT:</b></span>
+                        <input type="number" value="1" id="diveImpactIntValue" onchange="calcDiveImpactValues()"
+                            style="width: 50px;"><br>
+                        <span class="sub-title"><b>"Focus Dive Impact" Registlet Level:</b></span>
+                        <select id="diveImpactRegistlet" onchange="calcDiveImpactValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select><br>
+                        <br>
+                        <span id="diveImpactValues">
+                            <li><b>Skill Constant (First Hit):</b> 400</li>
+                            <li><b>Skill Constant (Second Hit):</b> 0</li>
+                            <li><b>Skill Multiplier (First Hit):</b> 5.02</li>
+                            <li><b>Skill Multiplier (Second Hit):</b> 6.01</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>
+                            <li><b>Hit Range (radius):</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>First Hit:</b> 5m, around the <b>caster</b></li>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Second Hit:</b> 7m around the <b>caster's position when
+                                            the skill is cast</b></li>
+                                </ul>
+                            </li>
+                            <li>Upon using this skill, gain [Invincible] for 3 seconds OR until you land</li>
+                            <li><b>Dazzled Chance (Second Hit):</b> 100%</li>
+                            <li><b>Dazzled Duration:</b> 10 seconds</li>
+                            <li><b>Dazzled Resistance Duration:</b> 40 seconds</li><br><b>Extra Info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>main weapon</b></li>
+                            <li>The <b>second hit</b> detonates in 4 seconds <b>after the first hit</b></li>
+                            <li>Both hits are affected by <b>Whack</b>, but only the first hit is affected by <b>Long
+                                    Range Damage</b> and <b>Short Range Damage</b> stats</li>
+                            <li>This skill is <b>unaffected by motion speed modifier</b></li>
+                        </span>
+
+                        <script>
+                            function calcDiveImpactConstant(level, result) {
+                                let constant1 = 200 + (20 * level)
+                                let constant2 = 0
+                                result.innerHTML = `<li><b>Skill Constant (First Hit):</b> ${constant1}</li>
+                    <li><b>Skill Constant (Second Hit):</b> ${constant2}</li>`
+                            }
+
+                            function caclDiveImpactMultiplier(level, strValue, intValue, result) {
+                                let multiplier1 = 2 + (0.2 * level) + (strValue / 250)
+                                let multiplier2 = 2 + (0.4 * level) + (intValue / 100)
+                                if (multiplier1 - Math.floor(multiplier1 * 100) / 100 < 0.00999999) { multiplier1 = Math.floor(multiplier1 * 100) / 100 }
+                                else { multiplier1 = Math.round(multiplier1 * 100) / 100 }
+                                multiplier2 = Math.round(multiplier2 * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier (First Hit):</b> ${multiplier1}</li>
+                    <li><b>Skill Multiplier (Second Hit):</b> ${multiplier2}</li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function caclDiveImpactHitRange(level, registlet, result) {
+                                let firstHitRange = 2.5 + (0.25 * level)
+                                let secondHitRange = 4.5 + (0.25 * level)
+                                if (registlet == 0) {
+                                    result.innerHTML += `<li><b>Hit Range (radius):</b><ul>
+                    <li>&nbsp&nbsp&nbsp- <b>First Hit:</b> ${firstHitRange}m, around the <b>caster</b></li>
+                    <li>&nbsp&nbsp&nbsp- <b>Second Hit:</b> ${secondHitRange}m around the <b>caster's position when the skill is cast</b></li>
+                    </ul></li>`}
+                                else { result.innerHTML += `<li><b>Hit Range:</b> main target only</li>` }
+                            }
+
+                            function calcDiveImpactAilmentInfo(level, registlet, result) {
+                                let ailmentChance = 10 * level
+                                let ailmentResist = 40 - 2 * registlet
+                                result.innerHTML += `<li>Upon using this skill, gain [Invincible] for 3 seconds OR until you land</li>
+                    <li><b>Dazzled Chance (Second Hit):</b> ${ailmentChance}%</li>
+                    <li><b>Dazzled Duration:</b> 10 seconds</li>
+                    <li><b>Dazzled Resistance Duration:</b> ${ailmentResist} seconds</li>`
+                            }
+
+                            function diveImpactExtraInformation(result) {
+                                result.innerHTML += `<br><b>Extra Info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b></li>
+                    <li>The <b>second hit</b> detonates in 4 seconds <b>after the first hit</b></li>
+                    <li>Both hits are affected by <b>Whack</b>, but only the first hit is affected by <b>Long Range Damage</b> and <b>Short Range Damage</b> stats</li>
+                    <li>This skill is <b>unaffected by motion speed modifier</b></li>`
+                            }
+
+                            function calcDiveImpactValues() {
+                                let levelSelector = document.getElementById('diveImpactSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let strValue = document.getElementById('diveImpactStrValues').value
+                                let intValue = document.getElementById('diveImpactIntValue').value
+                                let registletSelector = document.getElementById("diveImpactRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let result = document.getElementById('diveImpactValues')
+                                calcDiveImpactConstant(level, result)
+                                caclDiveImpactMultiplier(level, strValue, intValue, result)
+                                caclDiveImpactHitRange(level, registlet, result)
+                                calcDiveImpactAilmentInfo(level, registlet, result)
+                                diveImpactExtraInformation(result)
+                            }
+
+                            calcDiveImpactValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="skill/halberd/dragontooth.png" width="34" height="34">
+                                Dragon Tooth
+                            </p>
+                            <p class="medium">
+                                Skill Dragon Tooth Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/halb.png"><br>Halberd only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>500</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Jump toward a target and attack. After using the skill, you will return to the original
+                                place. It has high Defense Ignorance and Critical Rate but has no bonus on power.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="dragonToothSkillLevel" onchange="calcDragonToothValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <label for="weaponRange" class="sub-title"><b>Weapon Auto-Attack Range (m):</b></label>
+                        <input type="number" value="3.5" step="0.5" min="1" max="6" id="dragonToothWeaponRange"
+                            onchange="calcDragonToothValues()" style="width: 50px;"><br>
+                        <br>
+                        <span id="dragonToothValues">
+                            <li><b>Skill Constant:</b> 0; constant for each hit</li>
+                            <li><b>Skill Multiplier (First Hit):</b> 7.5</li>
+                            <li><b>Skill Multiplier (Second Hit):</b> 7.5</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>
+                            <li><b>Hit Range:</b> Single target, but has a <b>radius</b> of 4m around the <b>caster's
+                                    landing position</b>; the hit will fail to land if the target is outside of this
+                                range</li>
+                            <li><b>Critical Rate</b> of <b>Dragon Tooth</b> +75</li>
+                            <li><b>Physical Pierce</b> of <b>Dragon Tooth</b> +100% </li>
+                            <li>The caster will first <b>jump</b> to roughly 0m in front of the target, then <b>jump</b>
+                                back to the original position</li>
+                            <li>Negate <b>[Flinch]</b>, <b>[Tumble]</b> and <b>[Stun]</b> during the skill's animation
+                            </li><br><b>Extra info:</b>
+                            <li>The said "0m from the target" of the <b>first jump</b> is the displayed distance from
+                                the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely indicated
+                                by their target circle) after the <b>first jump</b>; if you are already within said
+                                range, you will <b>jump</b> toward the <b>target's center</b> instead</li>
+                            <li>This skill's jump speed is determined by <b>Motion Speed</b></li>
+                        </span>
+
+                        <script>
+                            function calcDragonToothConstant(result) {
+                                result.innerHTML = `<li><b>Skill Constant:</b> 0; constant for each hit</li>`
+                            }
+
+                            function calcDragonToothMultiplier(level, result) {
+                                let firstHit = 0.75 * level
+                                let secondHit = 7.5
+                                result.innerHTML += `<li><b>Skill Multiplier (First Hit):</b> ${firstHit}</li>
+                    <li><b>Skill Multiplier (Second Hit):</b> ${secondHit}</li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcDragonToothHitRange(attackRange, result) {
+                                let hitRange = 0.5 + 1 * attackRange
+                                result.innerHTML += `<li><b>Hit Range:</b> Single target, but has a <b>radius</b> of ${hitRange}m around the <b>caster's landing position</b>; the hit will fail to land if the target is outside of this range</li>`
+                            }
+
+                            function calcDragonToothCrit(level, result) {
+                                let baseCr = 65
+                                let cr = baseCr + parseInt(level)
+                                result.innerHTML += `<li><b>Critical Rate</b> of <b>Dragon Tooth</b> +${cr}</li>`
+                            }
+
+                            function calcDragonToothPhysPierce(level, result) {
+                                let pysPierce = 10 * level
+                                result.innerHTML += `<li><b>Physical Pierce</b> of <b>Dragon Tooth</b> +${pysPierce}% </li>`
+                            }
+
+                            function dragonToothSkillEffect(result) {
+                                result.innerHTML += `<li>The caster will first <b>jump</b> to roughly 0m in front of the target, then <b>jump</b> back to the original position</li>
+                    <li>Negate <b>[Flinch]</b>, <b>[Tumble]</b> and <b>[Stun]</b> during the skill's animation</li>`
+                            }
+
+                            function dragonToothExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The said "0m from the target" of the <b>first jump</b> is the displayed distance from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely indicated by their target circle) after the <b>first jump</b>; if you are already within said range, you will <b>jump</b> toward the <b>target's center</b> instead</li>
+                    <li>This skill's jump speed is determined by <b>Motion Speed</b></li>`
+                            }
+
+                            function calcDragonToothValues() {
+                                let levelSelector = document.getElementById('dragonToothSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let attackRange = document.getElementById('dragonToothWeaponRange').value
+                                let result = document.getElementById('dragonToothValues')
+                                calcDragonToothConstant(result)
+                                calcDragonToothMultiplier(level, result)
+                                calcDragonToothHitRange(attackRange, result)
+                                calcDragonToothCrit(level, result)
+                                calcDragonToothPhysPierce(level, result)
+                                dragonToothSkillEffect(result)
+                                dragonToothExtraInfo(result)
+                            }
+
+                            calcDragonToothValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="skill/halberd/draconiccharge.png" width="34" height="34">
+                                Draconic Charge
+                            </p>
+                            <p class="medium">
+                                Skill Draconic Charge Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/halb.png"><br>Halberd only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>24</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Unleashes the rage of a dragon. Activates when it is full or when you move. Accumulate
+                                more rage if you sense danger when charging.<br>
+                                <font style="color: #009fff">Be careful not to miss as the range of the charge attack is
+                                    only 8 meters.</font>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="draconicChargeSkillLevel" onchange="calcDraconicChargeValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Teleport Distance (m):</b></span>
+                        <input type="number" min="0" max="8" value="0" id="draconicChargeTeleRange"
+                            onchange="calcDraconicChargeValues()" style="width: 30px;"><br>
+                        <span class="sub-title"><b>Main Weapon Element:</b></span>
+                        <select id="draconicChargeElement" onchange="calcDraconicChargeValues()">
+                            <option value="Neutral" selected="">Neutral</option>
+                            <option value="Fire">Fire</option>
+                            <option value="Water">Water</option>
+                            <option value="Wind">Wind</option>
+                            <option value="Earth">Earth</option>
+                            <option value="Light">Light</option>
+                            <option value="Dark">Dark</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill is used in a combo:</b> </span>
+                        <input type="checkbox" id="draconicChargeInCombo" onchange="calcDraconicChargeValues()"><br>
+                        <div id="draconicChargeComboFalse" style="display: block;">
+                            <span class="sub-title"><b>Charge Amount (%):</b></span>
+                            <input type="number" min="20" max="100" value="20" id="draconicChargeChargeAmount"
+                                onchange="calcDraconicChargeValues()" style="width: 50px;">
+                        </div>
+                        <div id="draconicChargeComboTrue" style="display: none;">
+                            <span class="sub-title"> <b>Position in combo:</b></span>
+                            <input type="number" value="1" min="1" max="10" id="draconicChargeComboCount"
+                                onchange="calcDraconicChargeValues()" style="width: 30px;">
+                        </div>
+                        <br>
+                        <span id="draconicChargeValues">
+                            <li><b>Skill Constant (First Hit):</b> 300</li>
+                            <li><b>Skill Constant (Second Hit):</b> 0</li>
+                            <li><b>Skill Multiplier:</b> 11; multiplier for each hit</li>
+                            <li><b>Hit Count:</b> 2 hits on the <b>main target</b>; 1 hit on all other targets; damage
+                                calculation is done for each hit</li><br>
+                            <li><b>Hit Range (First Hit):</b> Single target, but <b>can only hit if the target is within
+                                    maximum teleport range</b></li>
+                            <li><b>Hit Range (Second Hit):</b> Fan shape with radius of 4m and angle of 90°; in front of
+                                the <b>caster after the teleport</b></li>
+                            <li>The <b>First Hit</b> has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze],
+                                but can be [Evaded]</li>
+                            <li>The <b>Second Hit</b> will <b>always deal critical hits</b>; however, if it is [Evaded]
+                                (exclude <b>Absolute/Forced Evasion</b>), it will result in a non-critical hit instead
+                            </li><br><b>Skill Effect:</b>
+                            <li>Upon casting this skill <b>manually</b>, you will enter <b>charge stance</b> and start
+                                charging<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- Gains 20% charge for every second of charging</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- The current charge amount will <b>instantly become 100%</b>
+                                        as soon as the caster "senses" an AoE warning <b>during the charge</b></li>
+                                    <li>&nbsp;&nbsp;&nbsp;- The skill will stop charging and be released immediately
+                                        upon <b>using movement input</b> or <b>reaching 100% charge</b>; can only be
+                                        released after reaching at least 20% charge</li>
+                                </ul>
+                            </li>
+                            <li>Upon casting this skill <b>in a combo</b>, you will <b>immediately release the skill</b>
+                                with a <b>fixed charge amount</b> that depends on this skill's position in the combo
+                            </li>
+                            <li>The caster will <b>teleport</b> to roughly 0m in front of the <b>main target</b> upon
+                                release; can only teleport over a <b>maximum distance</b> of 8m, however</li>
+                            <br><b>Extra info:</b>
+                            <li>The said "distance from the target" of the <b>teleport</b> is the displayed distance
+                                from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely
+                                indicated by their target circle) after the <b>teleport</b>; if you are already within
+                                said range, the <b>teleport</b> will be skipped</li>
+                            <li>The <b>Second Hit</b> of this skill uses <b>[ATK + floor(MATK × 50%)] and target's
+                                    MDEF</b> for its <b>base damage calculation</b>, and goes through <b>Physical Damage
+                                    calculation</b> for the rest of its damage calculation; as a result, <b>Physical
+                                    Pierce</b> cannot affect its damage, while <b>Magic Pierce</b> can</li>
+                            <li>This skill is affected by <b>Long Range passive</b>, and is always affected by <b>Short
+                                    Range Damage</b> stat, but not <b>Long Range Damage</b> stat, possibly due to how
+                                the skill functions (teleport to 0m before the target first then deal damage, making it
+                                always treated as "short range" as a result)</li>
+                        </span>
+
+                        <script>
+                            function draconicComboCheck(inCombo, comboFalseSection, comboTrueSection) {
+                                if (inCombo) {
+                                    comboFalseSection.style = "display: none"
+                                    comboTrueSection.style = "display: block"
+                                }
+                                else {
+                                    comboFalseSection.style = "display: block"
+                                    comboTrueSection.style = "display: none"
+                                }
+                            }
+
+                            function calcDraconicChargeConstant(result) {
+                                result.innerHTML = `<li><b>Skill Constant (First Hit):</b> 300</li>
+                    <li><b>Skill Constant (Second Hit):</b> 0</li>`
+                            }
+
+                            function calcDraconicChargeMultiplier(level, inCombo, chargeInput, comboCount, result) {
+                                var charge = 0
+                                if (!inCombo) { charge = 1 * chargeInput }
+                                else { charge = Math.max(10, (comboCount - 1) * 5) }
+                                var multiplier = (5 + 0.5 * level) * (90 + charge) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; multiplier for each hit</li>
+                    <li><b>Hit Count:</b> 2 hits on the <b>main target</b>; 1 hit on all other targets; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcDraconicChargeHitRange(result) {
+                                result.innerHTML += `<li><b>Hit Range (First Hit):</b> Single target, but <b>can only hit if the target is within maximum teleport range</b></li>
+                    <li><b>Hit Range (Second Hit):</b> Fan shape with radius of 4m and angle of 90°; in front of the <b>caster after the teleport</b></li>`
+                            }
+
+                            function calcDraconicChargePhysPierce(teleRange, result) {
+                                let pp = 10 * Math.max(0, teleRange * 1 - 1)
+                                if (pp > 0) { result.innerHTML += `<li><b>Physical Pierce</b> of <b>First Hit</b> +${pp}% </li>` }
+                            }
+
+                            function calcDraconicChargeHitEffect(level, element, result) {
+                                var ailment = ``
+                                switch (element) {
+                                    case "Fire": ailment = `Ignite`; break
+                                    case "Water": ailment = `Freeze`; break
+                                    case "Wind": ailment = `Slow`; break
+                                    case "Earth": ailment = `Poison`; break
+                                    case "Light": ailment = `Blind`; break
+                                    case "Dark": ailment = `Curse`; break
+                                }
+                                var chance = level * level
+                                result.innerHTML += `<li>The <b>First Hit</b> has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be [Evaded]</li>
+                    <li>The <b>Second Hit</b> will <b>always deal critical hits</b>; however, if it is [Evaded] (exclude <b>Absolute/Forced Evasion</b>), it will result in a non-critical hit instead</li>`
+                                if (element != "Neutral") {
+                                    result.innerHTML += `<li><b>${ailment} Chance (Second Hit):</b> ${chance}%</li>
+                    <li><b>${ailment} Duration:</b> 10 seconds</li>`
+                                }
+                            }
+
+                            function draconicChargeSkillEffect(result) {
+                                result.innerHTML += `<br><b>Skill Effect:</b>
+                    <li>Upon casting this skill <b>manually</b>, you will enter <b>charge stance</b> and start charging<ul>
+                    <li>&nbsp&nbsp&nbsp- Gains 20% charge for every second of charging</li>
+                    <li>&nbsp&nbsp&nbsp- The current charge amount will <b>instantly become 100%</b> as soon as the caster "senses" an AoE warning <b>during the charge</b></li>
+                    <li>&nbsp&nbsp&nbsp- The skill will stop charging and be released immediately upon <b>using movement input</b> or <b>reaching 100% charge</b>; can only be released after reaching at least 20% charge</li>
+                    </ul></li>
+                    <li>Upon casting this skill <b>in a combo</b>, you will <b>immediately release the skill</b> with a <b>fixed charge amount</b> that depends on this skill's position in the combo</li>
+                    <li>The caster will <b>teleport</b> to roughly 0m in front of the <b>main target</b> upon release; can only teleport over a <b>maximum distance</b> of 8m, however</li>`
+                            }
+
+                            function addDraconicChargeExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The said "distance from the target" of the <b>teleport</b> is the displayed distance from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely indicated by their target circle) after the <b>teleport</b>; if you are already within said range, the <b>teleport</b> will be skipped</li>
+                    <li>The <b>Second Hit</b> of this skill uses <b>[ATK + floor(MATK × 50%)] and target's MDEF</b> for its <b>base damage calculation</b>, and goes through <b>Physical Damage calculation</b> for the rest of its damage calculation; as a result, <b>Physical Pierce</b> cannot affect its damage, while <b>Magic Pierce</b> can</li>
+                    <li>This skill is affected by <b>Long Range passive</b>, and is always affected by <b>Short Range Damage</b> stat, but not <b>Long Range Damage</b> stat, possibly due to how the skill functions (teleport to 0m before the target first then deal damage, making it always treated as "short range" as a result)</li>`
+                            }
+
+                            function calcDraconicChargeValues() {
+                                let levelSelector = document.getElementById('draconicChargeSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let teleRange = document.getElementById('draconicChargeTeleRange').value
+                                let elementSelector = document.getElementById("draconicChargeElement")
+                                let element = elementSelector[elementSelector.selectedIndex].value
+                                let inCombo = document.getElementById("draconicChargeInCombo").checked
+                                let comboFalseSection = document.getElementById("draconicChargeComboFalse")
+                                let chargeInput = document.getElementById('draconicChargeChargeAmount').value
+                                let comboTrueSection = document.getElementById("draconicChargeComboTrue")
+                                let comboCount = document.getElementById("draconicChargeComboCount").value
+                                let result = document.getElementById('draconicChargeValues')
+                                draconicComboCheck(inCombo, comboFalseSection, comboTrueSection)
+                                calcDraconicChargeConstant(result)
+                                calcDraconicChargeMultiplier(level, inCombo, chargeInput, comboCount, result)
+                                calcDraconicChargeHitRange(result)
+                                calcDraconicChargeHitEffect(level, element, result)
+                                calcDraconicChargePhysPierce(teleRange, result)
+                                draconicChargeSkillEffect(result)
+                                addDraconicChargeExtraInfo(result)
+                            }
+
+                            calcDraconicChargeValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="skill/halberd/deadlyspear.png" width="34" height="34">
+                                Deadly Spear
+                            </p>
+                            <p class="medium">
+                                Skill Deadly Spear Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/ohs.png"><img src="../../images/icon/halb.png"><br>1-Handed Sword/Halberd
+                            only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Accurately thrust an enemy and deal fatal damage. It takes time to activate, but it
+                                ignores certain amount of defense and has a high chace to inflict critical damage, and
+                                when it happens, the MP Cost for the next skill used is halved.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/halb.png"></p>
+                                <p>Halberd</p>
+                            </div>
+                            <p>Power +20</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/ohs.png"></p>
+                                <p>1 Handed Sword</p>
+                            </div>
+                            <p><b style="color: #E77577">Reduction on Critical Rate</b></p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select name="weaponType" id="deadlySpearWeaponType" onchange="calcDeadlySpearValues()">
+                            <option value="1h">1-Handed Sword</option>
+                            <option value="hb" selected="">Halberd</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="deadlySpearSkillLevel" onchange="calcDeadlySpearValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Total Critical Rate:</b></span>
+                        <input type="number" style="width: 50px;" id="deadlySpearCritValues"
+                            onchange="calcDeadlySpearValues()" min="0" value="25"><br>
+                        <br>
+                        <span id="deadlySpearValues">
+                            <li><b>Skill Constant:</b> 110</li>
+                            <li><b>Skill Multiplier:</b> 1.7</li><br>
+                            <li><b>Base Charge Time:</b> 0 seconds (unaffected by CSPD)</li>
+                            <li><b>Critical Rate</b> of <b>Deadly Spear</b> +75</li>
+                            <li><b>Physical Pierce</b> of <b>Deadly Spear</b> +25%</li>
+                            <li>Grants <b>Deadly Spear buff</b> if this skill deals a critical hit</li><br>
+                            <b>Buff Effect:</b>
+                            <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple
+                                of 100</li>
+                            <li><b>Buff Duration:</b> Until a skill is used</li><br>This skill's <b>maximum cast
+                                range</b> is equal to the maximum auto attack range of the <b>main weapon</b>
+                        </span>
+
+                        <script>
+                            function calcDeadlySpearConstant(level, result) {
+                                let constant = 80 + (3 * level)
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcDeadlySpearMultiplier(level, weapon, result) {
+                                let baseMultiplier = 1.2
+                                let multiplier = baseMultiplier + 0.05 * level
+                                if (weapon == '1h') { multiplier -= 0.2 }
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcDeadlySpearChargeTime(level, result) {
+                                let chargeTime = 1.5 - 0.5 * Math.floor((level * 1 + 1) / 3)
+                                let HTML = `<li><b>Base Charge Time:</b> ${chargeTime} second`
+                                if (chargeTime != 1) { HTML += `s` }
+                                HTML += ` (unaffected by CSPD)</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcDeadlySpearCr(level, weapon, totalCr, result) {
+                                let crBonus = 0
+                                if (weapon == 'hb') { crBonus = totalCr * 3 }
+                                else if (weapon == '1h') { crBonus = Math.floor(totalCr * 0.5) }
+                                result.innerHTML += `<li><b>Critical Rate</b> of <b>Deadly Spear</b> +${crBonus}</li>`
+                            }
+
+                            function calcDeadlySpearPhysPierce(level, result) {
+                                //storing pp into arrat
+                                let physPierce = 5 + 5 * Math.ceil(level / 3)
+                                result.innerHTML += `<li><b>Physical Pierce</b> of <b>Deadly Spear</b> +${physPierce}%</li>`
+                            }
+
+                            function deadlySpearExtraInformation(result) {
+                                result.innerHTML += `<li>Grants <b>Deadly Spear buff</b> if this skill deals a critical hit</li><br>
+                    <b>Buff Effect:</b>
+                    <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple of 100</li>
+                    <li><b>Buff Duration:</b> Until a skill is used</li>`
+                            }
+
+                            function calcDeadlySpearValues() {
+                                let levelSelector = document.getElementById('deadlySpearSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('deadlySpearWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let totalCr = document.getElementById('deadlySpearCritValues').value
+                                let result = document.getElementById('deadlySpearValues')
+                                calcDeadlySpearConstant(level, result)
+                                calcDeadlySpearMultiplier(level, weapon, result)
+                                calcDeadlySpearChargeTime(level, result)
+                                calcDeadlySpearCr(level, weapon, totalCr, result)
+                                calcDeadlySpearPhysPierce(level, result)
+                                deadlySpearExtraInformation(result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon</b>`
+                            }
+
+                            calcDeadlySpearValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>

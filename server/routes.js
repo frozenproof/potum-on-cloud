@@ -108,7 +108,7 @@ router.post('/view', (req, res) => {
 router.get('/skills/*', (req, res) => {
     const filePath = path.join(__dirname, '..', 'database', 's2', req.params[0]);
     if (fs.existsSync(filePath)) {
-        console.log("Found file ",filePath)
+        console.log("Found file ", filePath)
         res.render(filePath);
     } else {
         console.log(filePath)
@@ -120,7 +120,7 @@ router.get('/skills/*', (req, res) => {
 router.get('/aux1/*', (req, res) => {
     const filePath = path.join(__dirname, '..', 'database', 'aux1', req.params[0]);
     if (fs.existsSync(filePath)) {
-        console.log("Found file ",filePath)
+        console.log("Found file ", filePath)
         res.render(filePath);
     } else {
         console.log(filePath)
@@ -130,10 +130,25 @@ router.get('/aux1/*', (req, res) => {
 });
 
 router.get('/freerouting/*', (req, res) => {
-    const filePath = path.join(__dirname, '..', 'templates', 'ai-manifest', req.params[0] + '.html');
+    const fileExtension = path.extname(req.url); // Extract file extension
+    console.log(`Requested file type: ${fileExtension}`);
+    const filePath = path.join(__dirname, '..', req.params[0]);
     if (fs.existsSync(filePath)) {
-        console.log("something is happening")
-        res.sendFile(filePath);
+
+        // Handle different file types
+        switch (fileExtension) {
+            case '.ejs':
+                res.render(filePath)
+                break;
+            case '':
+                // Handle requests without file extension (e.g., routes)
+                res.send(filePath);
+                break;
+            default:
+                // For unsupported file types, respond with 404
+                res.status(404).send('Unsupported file type');
+        }
+
     } else {
         res.status(404).send('<p>File not found</p>');
     }
@@ -163,10 +178,8 @@ router.get('/sitemaps', (_req, res) => {
 });
 
 router.get('/viewmagic', (_req, res) => {
-    const databaseList = fileArray; // List of database names
-    res.render('skills', { databaseList }); // Pass the database list to the template
+    res.render('skills'); // Pass the database list to the template
 });
-
 
 router.get('/health', (_req, res) => {
     res.status(200).send('Server is healthy');

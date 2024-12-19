@@ -8,30 +8,8 @@
     <meta name="google-site-verification" content="939NygIf8312fvMoh3tfwAkIxVNX4b6Aq6CIs1w1VZk" />
 	<%- include('headers/metadata') %>
     <style>
-        /* Background image for body */
-        body {
-            background-image: url('../images/appbackground.png');
-            /* Replace with your actual background image path */
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            color: #333;
-            font-family: Arial, sans-serif;
-        }
-
-        /* View Container */
-        .view {
-            width: 90%;
-            margin: 15px auto;
-            padding: 15px;
-            background-color: rgba(255, 255, 255, 0.95);
-            border-radius: 8px;
-            display: none;
-            /* Initially hidden */
-        }
 
         /* Center content containers with distinct background color */
-        div,
         ul {
             background-color: rgba(255, 255, 255, 0.9);
             /* White background with slight transparency */
@@ -52,33 +30,11 @@
             text-align: center;
         }
 
-        /* Style navigation links */
-        nav a {
-            color: #0073e6;
-            text-decoration: none;
-            margin: 0 10px;
-        }
 
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        /* Button styling */
-        button {
-            background-color: #0073e6;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        /* Link inside button */
-        button a {
-            color: white;
-            text-decoration: none;
-        }
+        
     </style>
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
 </head>
 
 <body>
@@ -86,12 +42,12 @@
     <%- include('headers/header') %>
 
         <div>
-            <div
+            <ul
                 
             >
                 <h1>Available Excel Files for Download</h1>
                 <h2>The Excel files are raw data</h2>
-            </div>
+            </ul>
             <ul>
                 <% downloadableFiles.forEach(file=> { %>
                     <li>

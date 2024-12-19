@@ -3,20 +3,12 @@
 <head>
     <title>Range Search - Stats</title>
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-    <meta name="google-site-verification" content="939NygIf8312fvMoh3tfwAkIxVNX4b6Aq6CIs1w1VZk" />
 	<%- include('headers/metadata') %>
 
     <script src="../templates/axios.min.js"></script>
     <style>
         /* styles.css */
-        body {
-            background-image: url('../images/appbackground.png');
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
-            color: #333;
-            font-family: Arial, sans-serif;
-        }
+
         .display2 {
             max-width: 80%;
             margin: 15px auto;
@@ -25,67 +17,10 @@
             border-radius: 8px;
         }
 
-        .view {
-            width: 90%;
-            margin: 15px auto;
-            padding: 15px;
-            background-color: rgba(255, 255, 255, 0.95);
-            border-radius: 8px;
-            display: none; /* Initially hidden */
-        }
 
-        /* General Container Styling */
-        div, form, table {
-            background-color: rgba(255, 255, 255, 0.95);
-            padding: 15px;
-            margin: 15px auto;
-            border-radius: 8px;
-            max-width: 80%;
-        }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            text-align: center;
-            border: 1px solid #dddddd;
-            padding: 8px;
-        }
-
-        button {
-            background-color: #0073e6;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        button a {
-            color: white;
-            text-decoration: none;
-        }
-
-        nav a {
-            color: #0073e6;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        img {
-            display: block;
-            max-width:230px;
-            max-height:95px;
-            width: auto;
-            height: auto
-        }
     </style>
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
     <script>
         async function handleSearch(event) {
             event.preventDefault();
