@@ -1,4 +1,2955 @@
-<div>
-    <h3>Under construction</h3>
-    <p>Please return later　ヾ(≧▽≦)ﾉ .</p>
-</div>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Martial Skills Tree</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <%- include('../../templates/headers/metadata') %>
+
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+        <script src="../templates/axios.min.js"></script>
+        <script>
+            // wew have works to do
+            function roundToTwoDecimals(value) {
+                return Math.round(value * 100) / 100;
+            }
+        </script>
+</head>
+
+<body>
+    <%- include('../../templates/headers/header') %>
+
+        <div id="content">
+            <div class="container">
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/smash.png" width="34" height="34">
+                                Smash
+                            </p>
+                            <p class="medium">
+                                Skill Smash Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Strongly hit the target. Chance to inflict [Flinch] on the target.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +50<br> Skill Power +25<br> Flinch Rate +25%</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="smashWeaponType" onchange="calcSmashValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="smashSkillLevel" onchange="calcSmashValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <div id="smashKnuckleInput" style="display: block;">
+                            <span class="sub-title"><b>Total AGI:</b></span>
+                            <input type="number" value="1" id="smashAgiValue" onchange="calcSmashValues()"
+                                style="width: 4em; text-align: right;"><br>
+                            <span class="sub-title"><b>"Smash Enhancer" Registlet Level:</b></span>
+                            <select id="smashRegistlet" onchange="calcSmashValues()">
+                                <option value="0" selected="">Unequipped</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                            </select><br>
+                        </div>
+                        <br>
+                        <span id="smashValues">
+                            <li><b>Skill Constant:</b> 75</li>
+                            <li><b>Skill Multiplier:</b> 1.2</li><br>
+                            <li><b>Flinch Chance:</b> 100%</li>
+                            <li><b>Flinch Duration:</b> 2 seconds</li>
+                            <li><b>Resistance Duration on Difficulties:</b> 3 second (<b>Easy</b> and <b>Normal</b>); 5
+                                seconds (<b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li>
+                            <br><b>Extra info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>equipped knuckle</b>, or 1m if no knuckle is equipped
+                            </li>
+                        </span>
+
+                        <script>
+                            function isMainOrSubSmash(weapon, knuckleSection) {
+                                if (weapon == "Knuckle") { knuckleSection.style = "display: block" }
+                                else { knuckleSection.style = "display: none" }
+                            }
+
+                            function calcSmashConstant(level, weapon, agiValue, result) {
+                                var constant = 5 * level
+                                if (weapon == "Knuckle") { constant += 25 + (agiValue / 10) }
+                                constant = Math.floor(constant)
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcSmashMultiplier(level, weapon, registlet, result) {
+                                var skillMultiplier = 0.5 + (0.02 * level)
+                                if (weapon == "Knuckle") { skillMultiplier += 0.5 + 0.05 * registlet }
+                                skillMultiplier = Math.round(skillMultiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${skillMultiplier}</li><br>`
+                            }
+
+                            function calcAilmentChanceSmash(level, weapon, result) {
+                                var ailmentChance = 50 + 25 * Math.floor(level / 6)
+                                if (weapon == "Knuckle") { ailmentChance += 25 }
+                                result.innerHTML += `<li><b>Flinch Chance:</b> ${ailmentChance}%</li>
+                    <li><b>Flinch Duration:</b> 2 seconds</li>
+                    <li><b>Resistance Duration on Difficulties:</b> 3 second (<b>Easy</b> and <b>Normal</b>); 5 seconds (<b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li>`
+                            }
+
+                            function addSmashExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped knuckle</b>, or 1m if no knuckle is equipped</li>`
+                            }
+
+                            function calcSmashValues() {
+                                let levelSelector = document.getElementById("smashSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById("smashWeaponType")
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let knuckleSection = document.getElementById("smashKnuckleInput")
+                                let agiValue = document.getElementById("smashAgiValue").value
+                                var registletSelector = document.getElementById("smashRegistlet");
+                                var registlet = registletSelector[registletSelector.selectedIndex].value;
+                                let result = document.getElementById("smashValues")
+                                isMainOrSubSmash(weapon, knuckleSection)
+                                calcSmashConstant(level, weapon, agiValue, result)
+                                calcSmashMultiplier(level, weapon, registlet, result)
+                                calcAilmentChanceSmash(level, weapon, result)
+                                addSmashExtraInfo(result)
+                            }
+
+                            calcSmashValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/bash.png" width="34" height="34">
+                                Bash
+                            </p>
+                            <p class="medium">
+                                Skill Bash Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Strike a heavy blow on the head. Chance to inflict [Stun] on the target.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +50<br> Skill Power +50<br> Stun Rate +25%</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="bashWeaponType" onchange="calcBashValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="bashSkillLevel" onchange="calcBashValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <div id="bashAgiInput" style="display: block;">
+                            <span class="sub-title"><b>Total AGI:</b></span>
+                            <input type="number" value="1" id="bashAgiValue" onchange="calcBashValues()"
+                                style="width: 4em; text-align: right;"><br>
+                        </div>
+                        <br>
+                        <span id="bashValues">
+                            <li><b>Skill Constant:</b> 150 </li>
+                            <li><b>Skill Multiplier:</b> 2.5</li><br>
+                            <li><b>Stun Chance:</b> 75%</li>
+                            <li><b>Stun Duration:</b> 5 seconds</li>
+                            <li><b>Resistance Duration on Difficulties:</b> 30 seconds (<b>Easy</b>, <b>Normal</b>,
+                                <b>Hard</b> and <b>Nightmare</b>); 35 seconds (<b>Ultimate</b>)
+                            </li><br><b>Extra
+                                info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>equipped knuckle</b>, or 1m if no knuckle is equipped
+                            </li>
+                        </span>
+
+                        <script>
+                            function isMainOrSubBash(weapon, agiSection) {
+                                if (weapon == "Knuckle") { agiSection.style = "display: block" }
+                                else { agiSection.style = "display: none" }
+                            }
+
+                            function calcBashConstant(level, weapon, agiValue, result) {
+                                var constant = 10 * level
+                                if (weapon == "Knuckle") { constant += 50 + (agiValue / 5) }
+                                constant = Math.floor(constant)
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant} </li>`
+                            }
+
+                            function calcBashMultiplier(level, weapon, agiValue, result) {
+                                var multiplier = 1 + (0.05 * level)
+                                if (weapon == "Knuckle") { multiplier += 1 + (agiValue / 500) }
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.00999999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcAilmentChanceBash(level, weapon, agiValue, result) {
+                                var ailmentChance = 25 + 25 * Math.floor(level / 6)
+                                if (weapon == "Knuckle") { ailmentChance += 25 + agiValue / 10 }
+                                ailmentChance = Math.floor(ailmentChance)
+                                if (ailmentChance > 100) ailmentChance = 100
+                                result.innerHTML += `<li><b>Stun Chance:</b> ${ailmentChance}%</li>
+                    <li><b>Stun Duration:</b> 5 seconds</li>
+                    <li><b>Resistance Duration on Difficulties:</b> 30 seconds (<b>Easy</b>, <b>Normal</b>, <b>Hard</b> and <b>Nightmare</b>); 35 seconds (<b>Ultimate</b>)</li>`
+                            }
+
+                            function addBashExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped knuckle</b>, or 1m if no knuckle is equipped</li>`
+                            }
+
+                            function calcBashValues() {
+                                let levelSelector = document.getElementById("bashSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById("bashWeaponType")
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let agiSection = document.getElementById("bashAgiInput")
+                                let agiValue = document.getElementById("bashAgiValue").value
+                                let result = document.getElementById("bashValues")
+                                isMainOrSubBash(weapon, agiSection)
+                                calcBashConstant(level, weapon, agiValue, result)
+                                calcBashMultiplier(level, weapon, agiValue, result)
+                                calcAilmentChanceBash(level, weapon, agiValue, result)
+                                addBashExtraInfo(result)
+                            }
+
+                            calcBashValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shellbreak.png" width="34" height="34">
+                                Shell Break
+                            </p>
+                            <p class="medium">
+                                Skill Shell Break Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A straight punch that penetrates hard armor. The damage dealt increases as the target's
+                                DEF is higher. Low chance to inflict [Armor Break]. Recover MP if it succeeds.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +50<br> Skill Power +150<br> Boost on Physical Pierce<br><br>
+                                <font style="color: #009fff">[The following effect is for Main Equipment Only]</font>
+                                <br>
+                                Armor Break Rate +25%
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="sBreakWeaponType" onchange="calcSBreakValues()">
+                            <option value="Main" selected="">Main Knuckle</option>
+                            <option value="Sub">Sub Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="sBreakSkillLevel" onchange="calcSBreakValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Shell Break Enhancer" Registlet Level:</b></span>
+                        <select id="sBreakRegistlet" onchange="calcSBreakValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select><br>
+                        <div id="sBreakAnnihilatorInput" style="display: block;">
+                            <span class="sub-title"><b>Annihilator buff is active:</b></span>
+                            <input type="checkbox" id="annihilatorSBreak" onchange="calcSBreakValues()"><br>
+                            <div id="sBreakAnnihilatorLevelInput" style="display: none;">
+                                <span class="sub-title"><b>"Annihilator" Skill Level:</b></span>
+                                <select id="sBreakAnniLevel" onchange="calcSBreakValues()">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10" selected="">10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <span class="sub-title"><b>[Armor Break] inflicted successfully:</b></span>
+                        <input type="checkbox" id="isArmBreakSBreak" onchange="calcSBreakValues()"><br>
+                        <div id="sBreakDeffLevelTargetInput" style="display: block;">
+                            <span class="sub-title"><b>Target's DEF:</b></span>
+                            <input type="number" id="sBreakDeffTarget" value="206" style="width: 4em;"
+                                onchange="calcSBreakValues()">
+                            <span class="sub-title"><b>&nbsp;Target's Level:</b></span>
+                            <input type="number" id="sBreakLevelTarget" value="103" min="1" style="width: 4em;"
+                                onchange="calcSBreakValues()">
+                        </div><br>
+                        <span id="sBreakValues">
+                            <li><b>Skill Constant: </b> 506</li>
+                            <li><b>Skill Multiplier: </b> 4.06</li><br>
+                            <li><b>Physical Pierce</b> of <b>Shell Break</b> +50%</li>
+                            <li><b> Armor Break Chance:</b> 50%</li>
+                            <li><b>Armor Break Duration:</b> 5 seconds</li><br><b>Extra info:</b>
+                            <li>The default <b>Target's DEF</b> and <b>Target's level</b> values used here are based on
+                                <b>Don Yeti</b>
+                            </li>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>equipped knuckle</b>, or 1m if no knuckle is equipped
+                            </li>
+                        </span>
+
+                        <script>
+                            function isMainOrSubShellBreak(weapon, hiddenSection) {
+                                if (weapon != "Other") { hiddenSection.style = "display: block" }
+                                else { hiddenSection.style = "display: none" }
+                            }
+
+                            function isAnnihilatorShellBreak(weapon, annihilatorSection) {
+                                if (weapon == "Main") { annihilatorSection.style = "display: block" }
+                                else { annihilatorSection.style = "display: none" }
+                            }
+
+                            function anniShellBreakCheck(weapon, anniBuff, anniLevelSection) {
+                                if (weapon == "Main" && anniBuff) { anniLevelSection.style = "display: block" }
+                                else { anniLevelSection.style = "display: none" }
+                            }
+
+                            function calcSBreakConstant(level, weapon, targetDef, targetLevel, result) {
+                                var constant = 50 + (10 * level)
+                                var knuckleConstBonus = (targetDef - targetLevel) * 2
+                                if (knuckleConstBonus > 500) { knuckleConstBonus = 500 }
+                                else if (knuckleConstBonus < -100) { knuckleConstBonus = -100 }
+
+                                if (weapon != "Other") { constant += 150 + knuckleConstBonus }
+                                result.innerHTML = `<li><b>Skill Constant: </b> ${constant}</li>`
+                            }
+
+                            function calcSBreakMultiplier(level, weapon, targetDef, targetLevel, result) {
+                                var multiplier = 1 + (0.05 * level)
+                                var knuckleMultBonus = (targetDef - targetLevel) / 50
+                                if (knuckleMultBonus > 5) { knuckleMultBonus = 5 }
+                                else if (knuckleMultBonus < -1) { knuckleMultBonus = -1 }
+
+                                if (weapon != "Other") { multiplier += 0.5 + knuckleMultBonus }
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.00999999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier: </b> ${multiplier}</li><br>`
+                            }
+
+                            function calcSBreakSkillEffect(level, weapon, isArmBreak, result) {
+                                var pPierce = 5 * level
+                                result.innerHTML += `<li><b>Physical Pierce</b> of <b>Shell Break</b> +${pPierce}%</li>`
+                                if (isArmBreak) { result.innerHTML += `<li><b>MP Recovered:</b> 400</li>` }
+                            }
+
+                            function calcSBreakAilmentChance(level, weapon, registlet, anniBuff, anniLevel, result) {
+                                var ailmentChance = 10 + (1.5 * level) + (5 * registlet)
+                                if (weapon == "Main") {
+                                    ailmentChance += 25
+                                    if (anniBuff) { ailmentChance += 5 + anniLevel * 2 }
+                                }
+                                ailmentChance = Math.floor(ailmentChance)
+                                result.innerHTML += `<li><b> Armor Break Chance:</b> ${ailmentChance}%</li>
+                    <li><b>Armor Break Duration:</b> 5 seconds</li>`
+                            }
+
+                            function sBreakExtraInformation(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The default <b>Target's DEF</b> and <b>Target's level</b> values used here are based on <b>Don Yeti</b></li>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped knuckle</b>, or 1m if no knuckle is equipped</li>`
+                            }
+
+                            function calcSBreakValues() {
+                                let levelSelector = document.getElementById("sBreakSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById("sBreakWeaponType")
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("sBreakRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let annihilatorSection = document.getElementById("sBreakAnnihilatorInput")
+                                let anniBuff = document.getElementById('annihilatorSBreak').checked
+                                let anniLevelSection = document.getElementById("sBreakAnnihilatorLevelInput")
+                                let anniLevelSelector = document.getElementById("sBreakAnniLevel")
+                                let anniLevel = anniLevelSelector[anniLevelSelector.selectedIndex].value
+                                let hiddenSection = document.getElementById("sBreakDeffLevelTargetInput")
+                                let targetDef = document.getElementById("sBreakDeffTarget").value
+                                let targetLevel = document.getElementById("sBreakLevelTarget").value
+                                let isArmBreak = document.getElementById('isArmBreakSBreak').checked
+                                let result = document.getElementById("sBreakValues")
+
+                                isMainOrSubShellBreak(weapon, hiddenSection)
+                                isAnnihilatorShellBreak(weapon, annihilatorSection)
+                                anniShellBreakCheck(weapon, anniBuff, anniLevelSection)
+                                calcSBreakConstant(level, weapon, targetDef, targetLevel, result)
+                                calcSBreakMultiplier(level, weapon, targetDef, targetLevel, result)
+                                calcSBreakSkillEffect(level, weapon, isArmBreak, result)
+                                calcSBreakAilmentChance(level, weapon, registlet, anniBuff, anniLevel, result)
+                                sBreakExtraInformation(result)
+                            }
+
+                            calcSBreakValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/heavysmash.png" width="34" height="34">
+                                Heavy Smash
+                            </p>
+                            <p class="medium">
+                                Skill Heavy Smash Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>400</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Hit the target very hard. Chance to inflict [Lethargy] on the target. Deal additional
+                                damage on the target that has [Armor Break].</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +150<br> Skill Power +100<br> Additional Damage Power +500<br> Lethargy Rate +50%
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="heavyWeaponType" onchange="calcHeavyValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="heavySkillLevel" onchange="calcHeavyValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Target is afflicted with [Armor Break]:</b></span>
+                        <input type="checkbox" id="isArmorBreakHeavy" onchange="calcHeavyValues()"><br>
+                        <div id="heavyKnuckleInput" style="display: block;">
+                            <span class="sub-title"><b>"Piercing Heavy Smash" Registlet Level:</b></span>
+                            <select id="heavyRegistlet" onchange="calcHeavyValues()">
+                                <option value="0" selected="">Unequipped</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select><br>
+                        </div>
+                        <br>
+                        <span id="heavyValues">
+                            <li><b>Skill Constant:</b> 300</li>
+                            <li><b>Skill Multiplier:</b> 4</li>
+                            <li><b>Hit Counts: </b>1 hit</li><br>
+                            <li><b>Lethargy Chance:</b> 100%</li>
+                            <li><b>Lethargy Duration:</b> 10 seconds</li><br>This skill's <b>maximum cast range</b> is
+                            equal to the maximum auto attack range of the <b>equipped knuckle</b>, or 1m if no knuckle
+                            is equipped
+                        </span>
+
+                        <script>
+                            function isMainOrSubHeavySmash(weapon, knuckleSection) {
+                                //for checking weapon type
+                                if (weapon == "Knuckle") { knuckleSection.style = "display: block" }
+                                else { knuckleSection.style = "display: none" }
+                            }
+
+                            function calcHeavyConstant(level, weapon, isArmBreak, result) {
+                                var constant = 100 + (10 * level)
+                                if (weapon == "Knuckle") { constant += 100 }
+                                var HTML = `<li><b>Skill Constant:</b> ${constant}`
+                                if (isArmBreak) { HTML += `; constant for each hit` }
+                                HTML += `</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcHeavyMultiplier(level, weapon, isArmBreak, result) {
+                                var multiplier1 = 1 + (0.15 * level)
+                                var multiplier2 = 1 + (0.15 * level)
+                                if (weapon == "Knuckle") {
+                                    multiplier1 += 1.5
+                                    multiplier2 += 5
+                                }
+                                multiplier1 = Math.round(multiplier1 * 100) / 100
+
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier1}</li>`
+                                if (isArmBreak) { result.innerHTML += `<li><b>Skill Multiplier (Additional Hit):</b> ${multiplier2}</li>` }
+                            }
+
+                            function calcHeavyHitCount(isArmBreak, result) {
+                                var HTML = `<li><b>Hit Counts: </b>`
+                                if (isArmBreak) { HTML += `2 hits; dodge, Evasion, Guard, Anticipate and Guard Break calculations are done <b>for the first hit</b>, then <b>copied for the other hit</b>; the rest of damage calculation is done for each hit</li><br>` }
+                                else { HTML += `1 hit</li><br>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function addHeavySkillEffect(weapon, isArmBreak, registlet, result) {
+                                var pPierce = 5 * registlet
+                                if (weapon == "Knuckle" && registlet != 0) { result.innerHTML += `<li><b>Physical Pierce</b> of <b>Heavy Smash</b> +${pPierce}%</li>` }
+                                if (isArmBreak) { result.innerHTML += `<li>The second hit will <b>always be a Critical Hit</b></li>` }
+                            }
+
+                            function calcHeavyAilmentChance(level, weapon, result) {
+                                var ailmentChance = 20 + (3 * level)
+                                if (weapon == "Knuckle") { ailmentChance += 50 }
+                                result.innerHTML += `<li><b>Lethargy Chance:</b> ${ailmentChance}%</li>
+                    <li><b>Lethargy Duration:</b> 10 seconds</li>`
+                            }
+
+                            function calcHeavyValues() {
+                                let levelSelector = document.getElementById('heavySkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('heavyWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let isArmBreak = document.getElementById('isArmorBreakHeavy').checked
+                                let registletSelector = document.getElementById("heavyRegistlet");
+                                let registlet = registletSelector[registletSelector.selectedIndex].value;
+                                let knuckleSection = document.getElementById("heavyKnuckleInput")
+                                let result = document.getElementById('heavyValues')
+                                isMainOrSubHeavySmash(weapon, knuckleSection)
+                                calcHeavyConstant(level, weapon, isArmBreak, result)
+                                calcHeavyMultiplier(level, weapon, isArmBreak, result)
+                                calcHeavyHitCount(isArmBreak, result)
+                                addHeavySkillEffect(weapon, isArmBreak, registlet, result)
+                                calcHeavyAilmentChance(level, weapon, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped knuckle</b>, or 1m if no knuckle is equipped`
+                            }
+
+                            calcHeavyValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/chariot.png" width="34" height="34">
+                                Chariot
+                            </p>
+                            <p class="medium">
+                                Skill Chariot Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>500</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Shoot out the energy inside of the character. Chance to inflict [Fear] on the target.
+                                Charge time is shortened depending on the skill level.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +250<br> Power increases depending on AGI.<br> Skill Power +250<br> Charge Time
+                                -1sec<br> Fear Rate +50%<br> Turn into Area of Effect.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="chariotWeaponType" onchange="calcChariotValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="chariotSkillLevel" onchange="calcChariotValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <div id="baseAgiChariotInput" style="display: block;">
+                            <span class="sub-title"><b>Base AGI:</b></span>
+                            <input type="number" id="chariotAgiValue" style="width: 50px;" min="1" max="510" value="255"
+                                onchange="calcChariotValues()">
+                        </div>
+                        <br>
+                        <span id="chariotValues">
+                            <li><b>Skill Constant:</b> 500</li>
+                            <li><b>Skill Multiplier:</b> 15.05</li><br>
+                            <li><b>Instant Cast</b> without <b>Charge Time</b></li>
+                            <li><b>Hit Range:</b> Length of 12m and radius of 0.75m; from the <b>caster</b> towards the
+                                <b>main target</b>
+                            </li>
+                            <li><b>Fear Chance:</b> 100%; halved on <b>Bosses</b></li>
+                            <li><b>Fear Duration:</b> 10 seconds</li>
+                        </span>
+
+                        <script>
+                            function isMainOrSubChariot(weapon, agiSection) {
+                                if (weapon == "Knuckle") { agiSection.style = "display: block" }
+                                else { agiSection.style = "display: none" }
+                            }
+
+                            function calcChariotConstant(level, weapon, result) {
+                                var constant = 50 + 20 * level
+                                if (weapon == "Knuckle") { constant += 250 }
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcChariotMultiplier(level, weapon, baseAgi, result) {
+                                var multiplier = 9.9 + 0.01 * level
+                                if (weapon == "Knuckle") { multiplier += 2.5 + (baseAgi / 100) }
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcChariotChargeTime(level, weapon, result) {
+                                let chargeTime = 11 - 2 * Math.floor(level / 2)
+                                if (weapon == "Knuckle") { chargeTime -= 1 }
+                                HTML = ``
+                                if (chargeTime == 0) { HTML += `<li><b>Instant Cast</b> without <b>Charge Time</b></li>` }
+                                else {
+                                    HTML += `<li><b>Charge Time:</b> ${chargeTime} second`
+                                    if (chargeTime != 1) { HTML += `s` }
+                                    HTML += ` (unaffected by CSPD)</li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function addChariotHitRange(weapon, result) {
+                                var HTML = `<li><b>Hit Range:</b> `
+                                if (weapon == "Knuckle") { HTML += `Length of 12m and radius of 0.75m; from the <b>caster</b> towards the <b>main target</b>` }
+                                else { HTML += `Single target` }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcChariotAilmentChance(level, weapon, result) {
+                                let ailmentChance = 5 * level
+                                if (weapon == "Knuckle") { ailmentChance += 50 }
+
+                                result.innerHTML += `<li><b>Fear Chance:</b> ${ailmentChance}%; halved on <b>Bosses</b></li>
+                    <li><b>Fear Duration:</b> 10 seconds</li>`
+                            }
+
+                            function calcChariotValues() {
+                                let levelSelector = document.getElementById('chariotSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('chariotWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let baseAgi = document.getElementById('chariotAgiValue').value
+                                let agiSection = document.getElementById('baseAgiChariotInput')
+                                let result = document.getElementById('chariotValues')
+                                isMainOrSubChariot(weapon, agiSection)
+                                calcChariotConstant(level, weapon, result)
+                                calcChariotMultiplier(level, weapon, baseAgi, result)
+                                calcChariotChargeTime(level, weapon, result)
+                                addChariotHitRange(weapon, result)
+                                calcChariotAilmentChance(level, weapon, result)
+                            }
+
+                            calcChariotValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/abstractarms.png" width="34" height="34">
+                                Abstract Arms
+                            </p>
+                            <p class="medium">
+                                Skill Abstract Arms Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle.png"><br>Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Enables Evasion (<font style="color: #009fff">manual only</font>) while using certain
+                                Martial skills. After activating it, you need to wait before you can activate it again.
+                                <b style="color: #E77577">Not available for some skills that perform special
+                                    actions.</b>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="abstractArmsWeaponType" onchange="calcAbstractArmsValues()">
+                            <option value="main" selected="">Main Knuckle</option>
+                            <option value="sub">Sub Knuckle</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="abstractArmsSkillLevel" onchange="calcAbstractArmsValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="abstractArmsValues">
+                            <li><b>Manual Evasion</b> can be used <b>during the casting/skill animation</b> of certain
+                                skills; upon doing so, <b>a clone will be left at your original position to finish the
+                                    skill casting in your stead</b></li>
+                            <li>Cannot be activated again until the existing clone has finished its skill casting</li>
+                            <br><b>Extra info:</b>
+                            <li>If this effect is activated during a combo, the combo will be canceled</li>
+                            <li>List of skills that allow <b>Manual Evasion with Abstract Arms</b>:<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- Martial Skills: <b>All skills except</b> <i>Asura Aura</i>,
+                                        <i>Energy Control</i> and <i>Slide</i>
+                                    </li>
+                                    <li>&nbsp;&nbsp;&nbsp;- Crusher Skills: <b>God Hand</b>, <b>Breathwork</b> and
+                                        <b>Combination</b>
+                                    </li>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>War Cry</b>, <b>MP Charge</b>, <b>Quick Aura</b>, <b>War
+                                            Cry of Struggle</b>, <b>Kairiki Ranshin</b></li>
+                                </ul>
+                            </li>
+                            <li>Possibly because the clone is the one who performs the skill casting instead of the
+                                caster, <b>certain skill effects that require interaction with the caster themselves are
+                                    thus not activated</b>, such as:<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- An "abstracted" <b>God Hand</b> will <b>not</b> give any
+                                        buff to the caster when the clone gets hit</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- An "abstracted" <b>MP Charge</b> will <b>not</b> shorten the
+                                        cast time of the followed up <b>Maximizer</b> used by the caster</li>
+                                </ul>
+                            </li>
+                        </span>
+
+                        <script>
+                            function calcAbstractArmsSkillEffect(level, weapon, result) {
+                                var cooldown = 20 - 1 * level
+                                if (weapon == "main") { cooldown -= 10 }
+                                var second = cooldown + ` second`
+                                if (cooldown != 1) { second += `s` }
+                                var HTML = `<li><b>Manual Evasion</b> can be used <b>during the casting/skill animation</b> of certain skills; upon doing so, <b>a clone will be left at your original position to finish the skill casting in your stead</b></li>`
+                                HTML += `<li>Cannot be activated again until the existing clone has finished its skill casting</li>`
+                                if (cooldown > 0) { HTML += `<li>Has a cooldown of ${second} before it can be activated again; cooldown starts when the clone finishes its skill casting</li>` }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcAbstractArmsExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>If this effect is activated during a combo, the combo will be canceled</li>
+                    <li>List of skills that allow <b>Manual Evasion with Abstract Arms</b>:<ul>
+                    <li>&nbsp&nbsp&nbsp- Martial Skills: <b>All skills except</b> <i>Asura Aura</i>, <i>Energy Control</i> and <i>Slide</i></li>
+                    <li>&nbsp&nbsp&nbsp- Crusher Skills: <b>God Hand</b>, <b>Breathwork</b> and <b>Combination</b></li>
+                    <li>&nbsp&nbsp&nbsp- <b>War Cry</b>, <b>MP Charge</b>, <b>Quick Aura</b>, <b>War Cry of Struggle</b>, <b>Kairiki Ranshin</b></li>
+                    </ul></li>
+                    <li>Possibly because the clone is the one who performs the skill casting instead of the caster, <b>certain skill effects that require interaction with the caster themselves are thus not activated</b>, such as:<ul>
+                    <li>&nbsp&nbsp&nbsp- An "abstracted" <b>God Hand</b> will <b>not</b> give any buff to the caster when the clone gets hit</li>
+                    <li>&nbsp&nbsp&nbsp- An "abstracted" <b>MP Charge</b> will <b>not</b> shorten the cast time of the followed up <b>Maximizer</b> used by the caster</li>
+                    </ul></li>`
+                            }
+
+                            function calcAbstractArmsValues() {
+                                let levelSelector = document.getElementById('abstractArmsSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('abstractArmsWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('abstractArmsValues')
+                                calcAbstractArmsSkillEffect(level, weapon, result)
+                                calcAbstractArmsExtraInfo(result)
+                            }
+
+                            calcAbstractArmsValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/sonicwave.png" width="34" height="34">
+                                Sonic Wave
+                            </p>
+                            <p class="medium">
+                                Skill Sonic Wave Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>4</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attack with an impulse wave. Chance to inflict [Tumble] on the target.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +25<br> Skill Power +25<br> Activation Range +4m<br> Tumble Rate +50%</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="sonicWeaponType" onchange="calcSonicValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="sonicSkillLevel" onchange="calcSonicValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <div id="sonicKnuckleInput" style="display: block;">
+                            <span class="sub-title"><b>"Sonic Wave Enhancer" Registlet Level:</b></span>
+                            <select id="sonicRegistlet" onchange="calcSonicValues()">
+                                <option value="0" selected="">Unequipped</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                            </select><br>
+                        </div>
+                        <br>
+                        <span id="sonicValues">
+                            <li><b>Skill Constant:</b> 75</li>
+                            <li><b>Skill Multiplier:</b> 1.25</li><br>
+                            <li><b>Maximum Cast Range:</b> 20m</li>
+                            <li><b>Tumble Chance:</b> 100%</li>
+                            <li><b>Tumble Duration:</b> 3 seconds</li>
+                            <li><b>Resistance Duration on Difficulties:</b> 6 seconds (<b>Easy</b> and <b>Normal</b>); 9
+                                seconds (<b>Hard</b>); 15 seconds (<b>Nightmare</b>); 21 seconds (<b>Ultimate</b>)</li>
+                            <br><b>Extra info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                        </span>
+
+                        <script>
+                            function isMainOrSubSonicWave(weapon, knuckleSection) {
+                                if (weapon == "Knuckle") { knuckleSection.style = "display: block" }
+                                else { knuckleSection.style = "display: none" }
+                            }
+
+                            function calcSonicConstant(level, weapon, result) {
+                                var constant = 5 * level
+                                if (weapon == "Knuckle") { constant += 25 }
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcSonicMultiplier(level, weapon, registlet, result) {
+                                var multiplier = 0.75 + (0.025 * level)
+                                if (weapon == "Knuckle") { multiplier += 0.25 + registlet * 0.05 }
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.0099) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcSonicCastRange(level, weapon, result) {
+                                var range = 4 + 4 * Math.floor((level - 1) / 3)
+                                if (weapon == "Knuckle") { range += 4 }
+                                result.innerHTML += `<li><b>Maximum Cast Range:</b> ${range}m`
+                            }
+
+                            function calcSonicAilmentChance(level, weapon, result) {
+                                var ailmentChance = 5 * level
+                                if (weapon == "Knuckle") { ailmentChance += 50 }
+                                result.innerHTML += `<li><b>Tumble Chance:</b> ${ailmentChance}%</li>
+                    <li><b>Tumble Duration:</b> 3 seconds</li>
+                    <li><b>Resistance Duration on Difficulties:</b> 6 seconds (<b>Easy</b> and <b>Normal</b>); 9 seconds (<b>Hard</b>); 15 seconds (<b>Nightmare</b>); 21 seconds (<b>Ultimate</b>)</li>`
+                            }
+
+                            function addSonicWaveExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>`
+                            }
+
+                            function calcSonicValues() {
+                                let levelSelector = document.getElementById("sonicSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById("sonicWeaponType")
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let knuckleSection = document.getElementById("sonicKnuckleInput")
+                                var registletSelector = document.getElementById("sonicRegistlet");
+                                var registlet = registletSelector[registletSelector.selectedIndex].value;
+                                let result = document.getElementById('sonicValues')
+                                isMainOrSubSonicWave(weapon, knuckleSection)
+                                calcSonicConstant(level, weapon, result)
+                                calcSonicMultiplier(level, weapon, registlet, result)
+                                calcSonicCastRange(level, weapon, result)
+                                calcSonicAilmentChance(level, weapon, result)
+                                addSonicWaveExtraInfo(result)
+                            }
+
+                            calcSonicValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/earthbind.png" width="34" height="34">
+                                Earthbind
+                            </p>
+                            <p class="medium">
+                                Skill Earthbind Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attack enemies around you by shaking the ground. Chance to inflict [Stop] on the targets.
+                                Restore small amount of HP by hitting a target.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +25<br> Skill Power +25<br> Range (Radius) +1.5m<br> Stop Rate +50%<br> Max HP Heal
+                                with Earthbind +500</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="earthbindWeaponType" onchange="calcEarthbindValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="earthbindSkillLevel" onchange="calcEarthbindValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>MaxHP:</b></span>
+                        <input type="number" name="maxHp" id="maxHpEarthbind" value="2000" style="width: 60px;" min="1"
+                            onchange="calcEarthbindValues()"><br>
+                        <div id="earthbindAgiSection" style="display: block;">
+                            <span class="sub-title"><b>Total AGI:</b></span>
+                            <input type="number" id="earthbindAgiValue" value="255" min="0"
+                                style="width: 4em; text-align: right;" onchange="calcEarthbindValues()"><br>
+                            <span class="sub-title"><b>"Earthbind Enhancer" Registlet Level:</b></span>
+                            <select id="earthbindRegistlet" onchange="calcEarthbindValues()">
+                                <option value="0" selected="">Unequipped</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select><br>
+                        </div>
+                        <br>
+                        <span id="earthbindValues">
+                            <li><b>Skill Constant:</b> 75</li>
+                            <li><b>Skill Multiplier:</b> 2.01</li><br>
+                            <li><b>Hit Range (radius):</b> 4m, around the <b>caster</b></li>
+                            <li><b>HP Recovery:</b> 100 HP for each target hit with <b>Earthbind</b></li>
+                            <li><b>Stop Chance:</b> 100%</li>
+                            <li><b>Stop Duration:</b> 10 seconds</li>
+                            <li><b>Resistance Duration:</b> 60 seconds</li><br><b>Extra info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>equipped knuckle</b>, or 1m if no knuckle is equipped
+                            </li>
+                        </span>
+
+                        <script>
+                            function isMainOrSubEarthbind(weapon, agiSection) {
+                                if (weapon == "Knuckle") { agiSection.style = "display: block" }
+                                else { agiSection.style = "display: none" }
+                            }
+
+                            function calcEarthbindConstant(level, weapon, result) {
+                                var constant = 5 * level
+                                if (weapon == "Knuckle") { constant += 25 }
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcEarthbindMultiplier(level, weapon, agiValue, registlet, result) {
+                                var multiplier = 1 + level * 0.025
+                                if (weapon == "Knuckle") { multiplier += 0.25 + (agiValue / 500) + registlet * 0.05 }
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.0099) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcEarthbindHitRange(level, weapon, result) {
+                                var hitRange = 1 + 0.5 * Math.floor(level / 3)
+                                if (weapon == "Knuckle") { hitRange += 1.5 }
+                                result.innerHTML += `<li><b>Hit Range (radius):</b> ${hitRange}m, around the <b>caster</b></li>`
+                            }
+
+                            function calcEarthBindHpRecov(weapon, maxHP, result) {
+                                var recovery = 0.05 * maxHP
+                                recovery = Math.floor(recovery)
+                                var limitRecovery = 500
+                                if (weapon == "Knuckle") { limitRecovery += 500 }
+                                if (recovery > limitRecovery) { recovery = limitRecovery }
+                                result.innerHTML += `<li><b>HP Recovery:</b> ${recovery} HP for each target hit with <b>Earthbind</b></li>`
+                            }
+
+                            function calcEarthbindAilmentChance(level, weapon, result) {
+                                var ailmentChance = 5 * level
+                                if (weapon == "Knuckle") { ailmentChance += 50 }
+                                result.innerHTML += `<li><b>Stop Chance:</b> ${ailmentChance}%</li>
+                    <li><b>Stop Duration:</b> 10 seconds</li>
+                    <li><b>Resistance Duration:</b> 60 seconds</li>`
+                            }
+
+                            function addEarthbindExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped knuckle</b>, or 1m if no knuckle is equipped</li>`
+                            }
+
+                            function calcEarthbindValues() {
+                                let levelSelector = document.getElementById("earthbindSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('earthbindWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let maxHP = document.getElementById('maxHpEarthbind').value
+                                let agiSection = document.getElementById('earthbindAgiSection')
+                                let agiValue = document.getElementById('earthbindAgiValue').value
+                                var registletSelector = document.getElementById("earthbindRegistlet");
+                                var registlet = registletSelector[registletSelector.selectedIndex].value;
+                                let result = document.getElementById('earthbindValues')
+                                isMainOrSubEarthbind(weapon, agiSection)
+                                calcEarthbindConstant(level, weapon, result)
+                                calcEarthbindMultiplier(level, weapon, agiValue, registlet, result)
+                                calcEarthbindHitRange(level, weapon, result)
+                                calcEarthBindHpRecov(weapon, maxHP, result)
+                                calcEarthbindAilmentChance(level, weapon, result)
+                                addEarthbindExtraInfo(result)
+                            }
+
+                            calcEarthbindValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/triplekick.png" width="34" height="34">
+                                Triple Kick
+                            </p>
+                            <p class="medium">
+                                Skill Triple Kick Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>3</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attack the target three times quickly. Critical rates are higher than normal attacks.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +300<br> Skill Power +75<br> Boost on Critical Rate</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="tripleKickWeaponType" onchange="calcTripleKickValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="tripleKickSkillLevel" onchange="calcTripleKickValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="tripleKickValues">
+                            <li><b>Skill Constant:</b> 45; constant for each hit</li>
+                            <li><b>Skill Multiplier:</b> 3; multiplier for each hit</li>
+                            <li><b>Hit Count:</b> 3 hits; damage calculation is done for each hit</li><br>
+                            <li><b>Critical Rate</b> of the <b>first hit</b> +50</li>
+                            <li><b>Critical Rate</b> of the <b>second hit</b> +70</li>
+                            <li><b>Critical Rate</b> of the <b>third hit</b> +90</li>
+                        </span>
+
+                        <script>
+                            function calcTripleKickConstant(level, result) {
+                                var constant = 25 + (2 * level)
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; constant for each hit</li>`
+                            }
+
+                            function calcTripleKickMultiplier(level, weapon, result) {
+                                var multipler = 1 + (0.1 * level)
+                                if (weapon == "Knuckle") { multipler += 1 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multipler}; multiplier for each hit</li>`
+                            }
+
+                            function addTripleKickHitCount(result) {
+                                result.innerHTML += `<li><b>Hit Count:</b> 3 hits; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcTripleKickCritRateBonus(level, weapon, result) {
+                                var crBonus1 = 0
+                                var crBonus2 = 2 * level
+                                var crBonus3 = 4 * level
+                                if (weapon == "Knuckle") {
+                                    crBonus1 += 50
+                                    crBonus2 += 50
+                                    crBonus3 += 50
+                                }
+                                var HTML = ``
+                                if (crBonus1 != 0) { HTML += `<li><b>Critical Rate</b> of the <b>first hit</b> +${crBonus1}</li>` }
+                                HTML += `<li><b>Critical Rate</b> of the <b>second hit</b> +${crBonus2}</li>
+                    <li><b>Critical Rate</b> of the <b>third hit</b> +${crBonus3}</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcTripleKickValues() {
+                                let levelSelector = document.getElementById('tripleKickSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('tripleKickWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('tripleKickValues')
+                                calcTripleKickConstant(level, result)
+                                calcTripleKickMultiplier(level, weapon, result)
+                                addTripleKickHitCount(result)
+                                calcTripleKickCritRateBonus(level, weapon, result)
+                            }
+
+                            calcTripleKickValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/rush.png" width="34" height="34">
+                                Rush
+                            </p>
+                            <p class="medium">
+                                Skill Rush Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>400</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Quick consecutive attacks. Action Speed increases for a few seconds including Rush
+                                activated.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Power +200<br> Power increases depending on AGI.<br> Skill Power +200<br> Motion Speed
+                                buff is doubled</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="rushWeaponType" onchange="calcRushValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="rushSkillLevel" onchange="calcRushValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <div id="baseAgiRushInput" style="display: block;">
+                            <label for="rushAgiValue" class="sub-title"><b>Base AGI:</b></label>
+                            <input type="number" id="rushAgiValue" style="width: 50px;" min="1" max="510" value="255"
+                                onchange="calcRushValues()">
+                        </div>
+                        <br>
+                        <span id="rushValues">
+                            <li><b>Skill Constant:</b> 400; total constant of all hits</li>
+                            <li><b>Skill Multiplier:</b> 14.1; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 4 hits; damage calculation is done once then spread evenly between the
+                                hits</li><br>
+                            <li>Grants <b>Rush buff</b> upon cast</li>
+                            <br><b>Buff effect:</b>
+                            <li><b>Motion Speed</b> +10%</li>
+                            <li><b>Buff Duration:</b> 10 seconds</li><br>This skill's <b>maximum cast range</b> is equal
+                            to the maximum auto attack range of the <b>equipped knuckle</b>, or 1m if no knuckle is
+                            equipped
+                        </span>
+
+                        <script>
+                            function isMainOrSubRush(weapon, agiSection) {
+                                if (weapon == "Knuckle") { agiSection.style = "display: block" }
+                                else { agiSection.style = "display: none" }
+                            }
+
+                            function calcRushConstant(level, weapon, result) {
+                                let constant = 20 * level
+                                if (weapon == "Knuckle") { constant += 200 }
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; total constant of all hits</li>`
+                            }
+
+                            function calcRushMultiplier(level, weapon, baseAgi, result) {
+                                let multiplier = 3 + (0.4 * level)
+                                if (weapon == "Knuckle") { multiplier += 2 + (baseAgi / 50) }
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.0099) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; total multiplier of all hits</li>
+                    <li><b>Hit Count:</b> 4 hits; damage calculation is done once then spread evenly between the hits</li><br>`
+                            }
+
+                            function calcRushMotionSpeed(level, weapon, result) {
+                                let motionSpeed = 2 + Math.floor((level - 1) / 3)
+                                if (weapon == "Knuckle") { motionSpeed *= 2 }
+                                result.innerHTML += `<li>Grants <b>Rush buff</b> upon cast</li>
+                    <br><b>Buff effect:</b>
+                    <li><b>Motion Speed</b> +${motionSpeed}%</li>
+                    <li><b>Buff Duration:</b> 10 seconds</li>`
+                            }
+
+                            function calcRushValues() {
+                                let levelSelector = document.getElementById('rushSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('rushWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let agiSection = document.getElementById('baseAgiRushInput')
+                                let baseAgi = document.getElementById('rushAgiValue').value
+                                let result = document.getElementById('rushValues')
+                                isMainOrSubRush(weapon, agiSection)
+                                calcRushConstant(level, weapon, result)
+                                calcRushMultiplier(level, weapon, baseAgi, result)
+                                calcRushMotionSpeed(level, weapon, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped knuckle</b>, or 1m if no knuckle is equipped`
+                            }
+
+                            calcRushValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/asuraaura.png" width="34" height="34">
+                                Asura Aura
+                            </p>
+                            <p class="medium">
+                                Skill Asura Aura Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle.png"><br>Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>0</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Unleashes the demon power that is hidden inside. While active, ATK increases and if you
+                                receive damage, MP will be used to mitigate the damage, <b style="color: #E77577">but in
+                                    exchange, you will lose ATK MP Recovery and MP Cost of all skills except Martial and
+                                    Crusher skills will increase.</b></p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="asuraAuraWeaponType" onchange="calcAsuraAuraValues()">
+                            <option value="main" selected="">Main Knuckle</option>
+                            <option value="sub">Sub Knuckle</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="asuraAuraSkillLevel" onchange="calcAsuraAuraValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Base AGI:</b></span>
+                        <input type="number" id="asuraAuraAgiValue" style="width: 50px;" min="1" max="510" value="255"
+                            onchange="calcAsuraAuraValues()"><br>
+                        <span class="sub-title"><b>Current MP:</b></span>
+                        <input type="number" value="2000" min="0" max="2000" step="10" id="asuraAuraCurrentMP"
+                            onchange="calcAsuraAuraValues()" style="width: 50px;"><br>
+                        <span class="sub-title"><b>Total Attack MP Recovery:</b></span>
+                        <input type="number" id="asuraAuraAmprInput" value="30" style="width: 3em; text-align: right"
+                            onchange="calcAsuraAuraValues()"><br>
+                        <br>
+                        <span id="asuraAuraValues">
+                            <li><b>Asura Punches Skill Constant:</b> 0; constant for each hit</li>
+                            <li><b>Asura Punches Skill Multiplier:</b> 1.58; multiplier for each hit</li>
+                            <li><b>Hit Interval:</b> Once every 0.25 seconds; damage calculation is done for each hit;
+                                unaffected by Motion Speed stat, Swift Combo tag or [Freeze]</li>
+                            <li><b>Hit Range:</b> Single target, has a <b>trigger range</b> of 3.5m around the <b>main
+                                    target</b>; the punches will stop if the caster is out of trigger range</li>
+                            <li><b>Asura Punches</b> have the <b>Perfect Aim</b> attribute: they cannot [Miss] or
+                                [Graze], but can be [Evaded]</li><br><b>Skill Effect:</b>
+                            <li>Toggles <b>Asura Mode</b> between <b>active</b> state and <b>inactive</b> state upon
+                                cast (<b>Asura Mode</b> is in <b>inactive</b> state by default)</li>
+                            <li>Upon using this skill <b>to switch to active state</b>, gains [Invincible] for 2 seconds
+                                <b>and remove all remaining Asura stacks (if any)</b>
+                            </li>
+                            <li>Grants different effects depending on the state of <b>Asura Mode</b></li><br><b>Active
+                                State Effects:</b> Grants the following effects while <b>Asura Mode</b> is in
+                            <b>active</b> state:
+                            <li><b>Critical Rate</b> +75</li>
+                            <li><b>Skill Constant</b> for <b>all attacks</b> +200 (except <b>Asura Aura</b>)</li>
+                            <li>Increases the damage of <b>all attacks</b> by 30%; stacks <b>additively</b> with
+                                <b>Brave Aura</b> and <b>Mana Recharge</b>
+                            </li>
+                            <li>Increases the <b>MP Cost of all skills</b> (except <b>Martial Skills</b> and <b>Crusher
+                                    Skills</b>) by 100; applies before Combo Tags, and after other MP Cost modifiers
+                            </li>
+                            <li><b>Disables auto attack MP recovery</b> of the caster (including that of Decoy Shot)
+                            </li>
+                            <li>100% chance to resist ailments; stacks <b>additively</b> with <b>Ailment Resistance</b>
+                                stat from MTL personal stat &amp; equipment</li>
+                            <li>Upon taking damage, <b>consumes 100 MP</b> to reduce received damage by <b>95%</b> (the
+                                amount of damage reduction scales with the amount of remaining MP <b>after</b> this
+                                effect's MP consumption; the value here has already taken that into account)</li>
+                            <li>Gains 1 <b>Asura stack</b> for every 100 MP used<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- Upon reaching 20 stacks, each time you use a skill, you will
+                                        lose <b>5% of your MaxHP</b> for every stack gained afterward</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- Upon reaching 40 stacks, <b>you will die instantly</b></li>
+                                </ul>
+                            </li>
+                            <li>Upon using normal attack while <b>within trigger range</b>, activates <b>Asura
+                                    Punches</b> that continuously deal damage to the target; the punches <b>will not
+                                    stop until</b> the caster uses any <b>skill</b>, <b>Manual Guard</b>, <b>Manual
+                                    Evasion</b>, or is out of <b>trigger range</b></li>
+                            <li><b>Buff Duration:</b> Until <b>Asura Aura</b> is recast OR until <b>Asura stacks</b>
+                                reaches 40</li><br><b>Inactive State Effects:</b> Grants the following effects while
+                            <b>Asura Mode</b> is in <b>inactive</b> state:
+                            <li>Upon using normal attack while <b>within trigger range</b>, and <b>you have at least 1
+                                    Asura stack</b>, activates <b>Asura Punches</b> that continuously deal damage to the
+                                target</li>
+                            <li>Unlike during <b>active</b> state, each punch will <b>consume 1 Asura stack</b> and
+                                recovers 30 MP upon <b>successful hit</b></li>
+                            <li>The punches <b>will not stop until</b> the caster uses any <b>skill</b>, <b>Manual
+                                    Guard</b>, <b>Manual Evasion</b>, is out of <b>trigger range</b>, or <b>all stacks
+                                    are consumed/removed</b></li><br><b>Extra info:</b>
+                            <li>The MP Cost value used to calculate stack gain is <b>after any MP Cost modifier
+                                    effects</b>, such as Combo Tags, MP Cost halving effects (Magic: Impact,...), or by
+                                <b>Asura Aura</b> itself
+                            </li>
+                            <li>Upon changing map, if you still have at least 1 <b>Asura stack</b> left, you will
+                                recover 50 MP for each remaining stack</li>
+                            <li><s>The <b>Ailment Resistance</b> granted by this skill, upon stacking with other
+                                    sources, <b>can allow the stat to exceed 100%</b>; this can allow you to resist
+                                    <b>red ailments</b>, as they bypass 100% Ailment Resistance (watch <a
+                                        href="https://youtu.be/OMtybWXP6VA" style="color:blue;"><b>Joji's video about
+                                            Asura Aura</b></a> for more details)</s> This used to be the case in the
+                                past; apparently this feature was removed at unknown time, however, possibly was
+                                considered a bug</li>
+                            <li>The <b>Asura Punches</b> use <b>Physical Proration</b> for their damage calculation, but
+                                <b>does not inflict proration</b>
+                            </li>
+                            <li>The <b>Asura Punches</b> can still be activated even if the normal attack [Misses]</li>
+                            <li>The damage of <b>Asura Punches</b> are <b>unaffected by Short Range Damage</b> and
+                                <b>Long Range Damage</b> stats, <b>damage dealt increase from buffs (Brave Aura, Asura
+                                    Aura,...)</b>, <b>Combo tag damage modifier</b>, or <b>Zero Stance registlet</b>
+                            </li>
+                            <li>Each hit of <b>Asura Punches</b> is treated as a <b>separate action</b>; as a result, it
+                                can be either beneficial (such as being capable of rapidly stacking up certain effects
+                                like that of <b>Nemesis</b>) or harmful (each punch will trigger poison damage once,
+                                rapidly draining your HP due to the hit interval) depending on the situation</li>
+                            <br>Credits to <b>Phantom Library</b> for the info of the skill
+                        </span>
+
+                        <script>
+                            function calcAsuraAuraPunchValues(level, weapon, baseAgi, result) {
+                                var multiplier = 0.95
+                                if (weapon == "sub") { multiplier = 0.5 }
+                                multiplier += baseAgi / (2400 - level * 200)
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.0099) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML = `<li><b>Asura Punches Skill Constant:</b> 0; constant for each hit</li>
+                    <li><b>Asura Punches Skill Multiplier:</b> ${multiplier}; multiplier for each hit</li>
+                    <li><b>Hit Interval:</b> Once every 0.25 seconds; damage calculation is done for each hit; unaffected by Motion Speed stat, Swift Combo tag or [Freeze]</li>
+                    <li><b>Hit Range:</b> Single target, has a <b>trigger range</b> of 3.5m around the <b>main target</b>; the punches will stop if the caster is out of trigger range</li>`
+                                if (weapon == "main") { result.innerHTML += `<li><b>Asura Punches</b> have the <b>Perfect Aim</b> attribute: they cannot [Miss] or [Graze], but can be [Evaded]</li>` }
+                            }
+
+                            function addAsuraAuraSkillEffect(result) {
+                                result.innerHTML += `<br><b>Skill Effect:</b>
+                    <li>Toggles <b>Asura Mode</b> between <b>active</b> state and <b>inactive</b> state upon cast (<b>Asura Mode</b> is in <b>inactive</b> state by default)</li>
+                    <li>Upon using this skill <b>to switch to active state</b>, gains [Invincible] for 2 seconds <b>and remove all remaining Asura stacks (if any)</b></li>
+                    <li>Grants different effects depending on the state of <b>Asura Mode</b></li>`
+                            }
+
+                            function calcAsuraAuraONEffect(level, weapon, currentMp, result) {
+                                var cr = 7.5 * level
+                                var constBonus = 20 * level
+                                if (weapon == "sub") {
+                                    cr /= 3
+                                    constBonus /= 2
+                                }
+                                var dmgReduc = Math.min(95, (currentMp - 100) / 20)
+                                var ailRes = currentMp / 10
+                                cr = Math.floor(cr)
+                                dmgReduc = Math.floor(dmgReduc)
+                                if (ailRes > 100) { ailRes = 100 }
+                                var HTML = `<br><b>Active State Effects:</b> Grants the following effects while <b>Asura Mode</b> is in <b>active</b> state:
+                    <li><b>Critical Rate</b> +${cr}</li>
+                    <li><b>Skill Constant</b> for <b>all attacks</b> +${constBonus} (except <b>Asura Aura</b>)</li>`
+                                if (weapon == "main") { HTML += `<li>Increases the damage of <b>all attacks</b> by 30%; stacks <b>additively</b> with <b>Brave Aura</b> and <b>Mana Recharge</b></li>` }
+                                HTML += `<li>Increases the <b>MP Cost of all skills</b> (except <b>Martial Skills</b> and <b>Crusher Skills</b>) by 100; applies before Combo Tags, and after other MP Cost modifiers</li>
+                    <li><b>Disables auto attack MP recovery</b> of the caster (including that of Decoy Shot)</li>`
+                                if (ailRes > 0) { HTML += `<li>${ailRes}% chance to resist ailments; stacks <b>additively</b> with <b>Ailment Resistance</b> stat from MTL personal stat & equipment</li>` }
+                                if (currentMp >= 100) { HTML += `<li>Upon taking damage, <b>consumes 100 MP</b> to reduce received damage by <b>${dmgReduc}%</b> (the amount of damage reduction scales with the amount of remaining MP <b>after</b> this effect's MP consumption; the value here has already taken that into account)</li>` }
+                                HTML += `<li>Gains 1 <b>Asura stack</b> for every 100 MP used<ul>
+                    <li>&nbsp&nbsp&nbsp- Upon reaching 20 stacks, each time you use a skill, you will lose <b>5% of your MaxHP</b> for every stack gained afterward</li>
+                    <li>&nbsp&nbsp&nbsp- Upon reaching 40 stacks, <b>you will die instantly</b></li>
+                    </ul></li>
+                    <li>Upon using normal attack while <b>within trigger range</b>, activates <b>Asura Punches</b> that continuously deal damage to the target; the punches <b>will not stop until</b> the caster uses any <b>skill</b>, <b>Manual Guard</b>, <b>Manual Evasion</b>, or is out of <b>trigger range</b></li>
+                    <li><b>Buff Duration:</b> Until <b>Asura Aura</b> is recast OR until <b>Asura stacks</b> reaches 40</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcAsuraAuraOFFEffect(level, weapon, ampr, result) {
+                                var mpHeal = ampr * level / 10
+                                if (weapon == "sub") { mpHeal /= 2 }
+                                if (mpHeal - Math.floor(mpHeal) < 0.999999999999) { mpHeal = Math.floor(mpHeal) }
+                                else { mpHeal = Math.round(mpHeal) }
+                                result.innerHTML += `<br><b>Inactive State Effects:</b> Grants the following effects while <b>Asura Mode</b> is in <b>inactive</b> state:
+                    <li>Upon using normal attack while <b>within trigger range</b>, and <b>you have at least 1 Asura stack</b>, activates <b>Asura Punches</b> that continuously deal damage to the target</li>
+                    <li>Unlike during <b>active</b> state, each punch will <b>consume 1 Asura stack</b> and recovers ${mpHeal} MP upon <b>successful hit</b></li>
+                    <li>The punches <b>will not stop until</b> the caster uses any <b>skill</b>, <b>Manual Guard</b>, <b>Manual Evasion</b>, is out of <b>trigger range</b>, or <b>all stacks are consumed/removed</b></li>`
+                            }
+
+                            function addAsuraAuraExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The MP Cost value used to calculate stack gain is <b>after any MP Cost modifier effects</b>, such as Combo Tags, MP Cost halving effects (Magic: Impact,...), or by <b>Asura Aura</b> itself</li>
+                    <li>Upon changing map, if you still have at least 1 <b>Asura stack</b> left, you will recover 50 MP for each remaining stack</li>
+                    <li><s>The <b>Ailment Resistance</b> granted by this skill, upon stacking with other sources, <b>can allow the stat to exceed 100%</b>; this can allow you to resist <b>red ailments</b>, as they bypass 100% Ailment Resistance (watch <a href="https://youtu.be/OMtybWXP6VA" style="color:blue;"><b>Joji's video about Asura Aura</b></a> for more details)</s> This used to be the case in the past; apparently this feature was removed at unknown time, however, possibly was considered a bug</li>
+                    <li>The <b>Asura Punches</b> use <b>Physical Proration</b> for their damage calculation, but <b>does not inflict proration</b></li>
+                    <li>The <b>Asura Punches</b> can still be activated even if the normal attack [Misses]</li>
+                    <li>The damage of <b>Asura Punches</b> are <b>unaffected by Short Range Damage</b> and <b>Long Range Damage</b> stats, <b>damage dealt increase from buffs (Brave Aura, Asura Aura,...)</b>, <b>Combo tag damage modifier</b>, or <b>Zero Stance registlet</b></li>
+                    <li>Each hit of <b>Asura Punches</b> is treated as a <b>separate action</b>; as a result, it can be either beneficial (such as being capable of rapidly stacking up certain effects like that of <b>Nemesis</b>) or harmful (each punch will trigger poison damage once, rapidly draining your HP due to the hit interval) depending on the situation</li>`
+                            }
+
+                            function calcAsuraAuraValues() {
+                                let levelSelector = document.getElementById('asuraAuraSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('asuraAuraWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let baseAgi = document.getElementById('asuraAuraAgiValue').value
+                                let currentMp = document.getElementById("asuraAuraCurrentMP").value
+                                let ampr = document.getElementById("asuraAuraAmprInput").value
+                                let result = document.getElementById('asuraAuraValues')
+                                calcAsuraAuraPunchValues(level, weapon, baseAgi, result)
+                                addAsuraAuraSkillEffect(result)
+                                calcAsuraAuraONEffect(level, weapon, currentMp, result)
+                                calcAsuraAuraOFFEffect(level, weapon, ampr, result)
+                                addAsuraAuraExtraInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the info of the skill`
+                            }
+
+                            calcAsuraAuraValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/flashblink.png" width="34" height="34">
+                                Flash Blink
+                            </p>
+                            <p class="medium">
+                                Skill Flash Blink Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle.png"><br>Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>6</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Sends out a residual image to attack. This skill attacks with "normal attack proration".
+                                The hit count increases according to the number of Evasions used.<br>
+                                The power of the next close range attack increases.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="flashBlinkWeaponType" onchange="calcFlashBlinkValues()">
+                            <option value="main" selected="">Main Knuckle</option>
+                            <option value="sub">Sub Knuckle</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="flashBlinkSkillLevel" onchange="calcFlashBlinkValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Number of Evasion used:</b></span>
+                        <input type="number" id="flashBlinkEvaValue" style="width: 3em;" min="0" max="16" value="0"
+                            onchange="calcFlashBlinkValues()"><br>
+                        <div id="baseAgiFlashBlinkInput" style="display: block;">
+                            <span class="sub-title"><b>Base AGI:</b></span>
+                            <input type="number" id="flashBlinkAgiValue" style="width: 50px;" min="1" max="510"
+                                value="255" onchange="calcFlashBlinkValues()">
+                        </div>
+                        <br>
+                        <span id="flashBlinkValues">
+                            <li><b>Skill Constant:</b> 100</li>
+                            <li><b>Skill Multiplier:</b> 6.85</li>
+                            <li><b>Hit Count:</b> 1 hit</li><br>
+                            <li>Grants <b>Flash Blink buff</b> upon cast</li>
+                            <br><b>Buff Effect:</b>
+                            <li><b>Short Range Damage</b> +10%</li>
+                            <li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
+                            <li>The number of additional hit count - or number of Evasion used - is [your Max Evasion
+                                Charges] - [your Current Evasion Charges]</li>
+                            <li>This skill is unaffected by <b>Short Range Damage</b> and <b>Long Range Damage</b> stats
+                            </li><br>Credits to <b>Phantom Library</b> for the info of the skill
+                        </span>
+
+                        <script>
+                            function isMainOrSub(weapon, agiSection) {
+                                if (weapon == "main") { agiSection.style = "display: block" }
+                                else { agiSection.style = "display: none" }
+                            }
+
+                            function calcFlashBlinkConstant(evaUsed, result) {
+                                var constant = 100
+                                var HTML = `<li><b>Skill Constant:</b> ${constant}`
+                                if (evaUsed > 0) { HTML += `; constant for each hit` }
+                                HTML += `</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcFlashBlinkMultiplier(level, weapon, evaUsed, baseAgi, result) {
+                                let multipler = 3 + (0.3 * level)
+                                if (weapon == "main") { multipler += baseAgi / 300 }
+                                if (multipler - Math.floor(multipler * 100) / 100 < 0.00999999) { multipler = Math.floor(multipler * 100) / 100 }
+                                else { multipler = Math.round(multipler * 100) / 100 }
+                                var HTML = `<li><b>Skill Multiplier:</b> ${multipler}`
+                                if (evaUsed > 0) { HTML += `; each subsequence hit has 50% the damage of its previous hit` }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcFlashBlinkHitCount(evaUsed, result) {
+                                var hitCount = 1 + 1 * evaUsed
+                                var HTML = `<li><b>Hit Count:</b> ${hitCount} hit`
+                                if (hitCount > 1) { HTML += `s; damage calculation is done for each hit` }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+
+                            }
+
+                            function calcFlashBlinkBuffEffect(level, result) {
+                                result.innerHTML += `<br><li>Grants <b>Flash Blink buff</b> upon cast</li>
+                    <br><b>Buff Effect:</b>
+                    <li><b>Short Range Damage</b> +${level}%</li>
+                    <li><b>Buff Duration:</b> Until a skill is used</li>`
+                            }
+
+                            function addFlashBlinkExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The number of additional hit count - or number of Evasion used - is [your Max Evasion Charges] - [your Current Evasion Charges]</li>
+                    <li>This skill is unaffected by <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>`
+                            }
+
+                            function calcFlashBlinkValues() {
+                                let levelSelector = document.getElementById('flashBlinkSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('flashBlinkWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let evaUsed = document.getElementById('flashBlinkEvaValue').value
+                                let agiSection = document.getElementById('baseAgiFlashBlinkInput')
+                                let baseAgi = document.getElementById('flashBlinkAgiValue').value
+                                let result = document.getElementById('flashBlinkValues')
+                                isMainOrSub(weapon, agiSection)
+                                calcFlashBlinkConstant(evaUsed, result)
+                                calcFlashBlinkMultiplier(level, weapon, evaUsed, baseAgi, result)
+                                calcFlashBlinkHitCount(evaUsed, result)
+                                calcFlashBlinkBuffEffect(level, result)
+                                addFlashBlinkExtraInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the info of the skill`
+                            }
+
+                            calcFlashBlinkValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/martialmastery.png" width="34" height="34">
+                                Martial Mastery
+                            </p>
+                            <p class="medium">
+                                Skill Martial Mastery Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle-main.png"><br>Main Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Get better at using Knuckles. ATK of Knuckles increases.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="martialMasterySkillLevel" onchange="calcMartialMasteryValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="martialMasteryValues">
+                            <li><b> ATK </b> +3%</li>
+                            <li><b>Weapon ATK</b> +30%</li>
+                        </span>
+
+                        <script>
+                            function calcMartialMasteryAtk(level, result) {
+                                let baseAtk = 1 + Math.ceil((level - 2) / 5)
+                                result.innerHTML = `<li><b> ATK </b> +${baseAtk}%</li>`
+                            }
+
+                            function calcMartialMasteryWeaponAtk(level, result) {
+                                let wAtk = 3 * level
+                                result.innerHTML += `<li><b>Weapon ATK</b> +${wAtk}%</li>`
+                            }
+
+                            function calcMartialMasteryValues() {
+                                let levelSelector = document.getElementById('martialMasterySkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('martialMasteryValues')
+                                calcMartialMasteryAtk(level, result)
+                                calcMartialMasteryWeaponAtk(level, result)
+                            }
+
+                            calcMartialMasteryValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/martialdiscipline.png" width="34" height="34">
+                                Martial Discipline
+                            </p>
+                            <p class="medium">
+                                Skill Martial Discipline Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle.png"><br>Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Deepen understanding of Knuckles. Increases attack speed of Knuckles. Increases damage of
+                                Knuckle skills a little.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="martialDiciplineWeaponType" onchange="calcMartialDiciplineValues()">
+                            <option value="main" selected="">Main Knuckle</option>
+                            <option value="sub">Sub Knuckle</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="martialDiciplineSkillLevel" onchange="calcMartialDiciplineValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="martialDiciplineValues">
+                            <li>Increases the damage of all skills from the <b>Martial Skills Tree</b> by 10%</li>
+                            <li><b>Attack Speed</b> +10%</li>
+                            <li><b>Attack Speed</b> +100</li>
+                        </span>
+
+                        <script>
+                            function calcmartialDiciplineDamageBonus(level, result) {
+                                let damageBonus = 1 * level
+                                result.innerHTML = `<li>Increases the damage of all skills from the <b>Martial Skills Tree</b> by ${damageBonus}%</li>`
+                            }
+
+                            function calcMartialDiciplineAttackSpeed(level, weapon, result) {
+                                let aspdPercent = level
+                                let aspdFlat = 10 * level
+                                if (weapon == 'main') {
+                                    result.innerHTML += `<li><b>Attack Speed</b> +${aspdPercent}%</li>
+                    <li><b>Attack Speed</b> +${aspdFlat}</li>`
+                                }
+                            }
+
+                            function calcMartialDiciplineValues() {
+                                let levelSelector = document.getElementById('martialDiciplineSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('martialDiciplineWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('martialDiciplineValues')
+                                calcmartialDiciplineDamageBonus(level, result)
+                                calcMartialDiciplineAttackSpeed(level, weapon, result)
+                            }
+
+                            calcMartialDiciplineValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/chakra.png" width="34" height="34">
+                                Chakra
+                            </p>
+                            <p class="medium">
+                                Skill Chakra Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Restore MP a little and add a buff to reduce the next damage for a few seconds. Increase
+                                Attack MP Recovery a little during the effect. Effective on party members.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>Mp Heal Amount +50<br> Boost on Damage Reduction<br> Duration +10sec</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="chakraWeaponType" onchange="calcChakraValues()">
+                            <option value="Knuckle" selected="">Knuckle</option>
+                            <option value="Other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="chakraSkillLevel" onchange="calcChakraValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Cast Speed:</b></span>
+                        <input type="number" style="width: 6em; text-align: right" value="0" id="chakraCSPD"
+                            onchange="calcChakraValues()"><br>
+                        <label for="baseVitChakraInput" class="sub-title"><b>Member's Base VIT:</b></label>
+                        <input type="number" id="baseVitChakra" style="width: 50px;" min="0" value="255"
+                            onchange="calcChakraValues()"><br>
+                        <br>
+                        <span id="chakraValues">
+                            <li><b>Cast Time:</b> 3 seconds (affected by CSPD)</li>
+                            <li><b>Skill effect:</b> Restores 100 MP and grant <b>Chakra buff</b> to the <b>caster</b>
+                                and <b>party members</b> upon successful cast</li><br><b>Buff effect:</b>
+                            <li><b>Attack MP Recovery</b> +15</li>
+                            <li><b>Flat Skill-Based Damage Reduction:</b> +510 (for other party members only); applied
+                                after <b>DEF/MDEF reduction</b> and before <b>Percentage Skill Based Damage
+                                    Reduction</b></li>
+                            <li><b>Percentage Skill-Based Damage Reduction:</b> +50%; applied after <b>Flat Skill Based
+                                    Damage Reduction</b> and before <b>Equipment Refine Damage Reduction</b></li>
+                            <li><b>Buff Duration:</b> 30 seconds, OR until you get hit</li>
+                        </span>
+
+                        <script>
+                            function calcCastTime(baseCastTime, CSPD) {
+                                var castTime = baseCastTime * 1
+                                var modifier1 = CSPD / 2000
+                                var modifier2 = (CSPD - 1000) / 18000
+                                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
+                                else { castTime = castTime * (1 - (0.5 + modifier2)) }
+                                castTime = Math.ceil(castTime * 100) / 100
+                                if (castTime < 0) { castTime = 0 }
+                                return castTime
+                            }
+
+                            function calcChakraCastTime(CSPD, result) {
+                                var castTime = calcCastTime(3, CSPD)
+                                var HTML = `<li><b>Cast Time:</b> ${castTime} second`
+                                if (castTime != 1) { HTML += `s` }
+                                HTML += ` (affected by CSPD)</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcChakraSkillEffect(level, weapon, result) {
+                                let baseMpRestore = 50
+                                if (weapon == "Knuckle") { baseMpRestore += 50 }
+                                result.innerHTML += `<li><b>Skill effect:</b> Restores ${baseMpRestore} MP and grant <b>Chakra buff</b> to the <b>caster</b> and <b>party members</b> upon successful cast</li><br>`
+                            }
+
+                            function calcChakraAmprBonus(level, result) {
+                                let amprBonus = level * 1 + Math.max(0, level - 5)
+                                result.innerHTML += `<b>Buff effect:</b>
+                    <li><b>Attack MP Recovery</b> +${amprBonus}</li>`
+                            }
+
+                            function calcChakraFlatDamageReduction(level, baseVit, result) {
+                                let FDROther = 2 * baseVit
+                                result.innerHTML += `<li><b>Flat Skill-Based Damage Reduction:</b> +${FDROther} (for other party members only); applied after <b>DEF/MDEF reduction</b> and before <b>Percentage Skill Based Damage Reduction</b></li>`
+                            }
+
+                            function calcChakraPercentageDamageReduction(level, weapon, result) {
+                                let PDR = 10 + (2 * level)
+                                if (weapon == "Knuckle") { PDR += 20 }
+                                result.innerHTML += `<li><b>Percentage Skill-Based Damage Reduction:</b> +${PDR}%; applied after <b>Flat Skill Based Damage Reduction</b> and before <b>Equipment Refine Damage Reduction</b></li>`
+                            }
+
+                            function calcChakraBuffDuration(level, weapon, result) {
+                                level = parseInt(level)
+                                let duration = 10 + level
+                                if (weapon == "Knuckle") { duration += 10 }
+                                result.innerHTML += `<li><b>Buff Duration:</b> ${duration} seconds, OR until you get hit`
+                            }
+
+                            function calcChakraValues() {
+                                let levelSelector = document.getElementById('chakraSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('chakraWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                var CSPD = document.getElementById("chakraCSPD").value;
+                                let baseVit = document.getElementById('baseVitChakra').value
+                                let result = document.getElementById('chakraValues')
+                                calcChakraCastTime(CSPD, result)
+                                calcChakraSkillEffect(level, weapon, result)
+                                calcChakraAmprBonus(level, result)
+                                calcChakraFlatDamageReduction(level, baseVit, result)
+                                calcChakraPercentageDamageReduction(level, weapon, result)
+                                calcChakraBuffDuration(level, weapon, result)
+                            }
+
+                            calcChakraValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/energycontrol.png" width="34" height="34">
+                                Energy Control
+                            </p>
+                            <p class="medium">
+                                Skill Energy Control Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle.png"><br>Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Controls the flow of energy and turns it aside. Nullifies the damage received while
+                                performing it and receives the buffs of Chakra except the MP Recovery effect. <b
+                                    style="color: #E77577">*The level of Chakra that activates will not surpass the
+                                    level of Energy Control acquired.</b></p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>
+                                <font style="color: #009fff">[The following effects are for Main Equipment Only]</font>
+                                <br>
+                                If successful, Weapon ATK and stability will increase for a certain period of time.<br>
+                                Together with the skill "Annihilator", this Weapon ATK increase is up to +50%.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="energyControlWeaponType" onchange="calcEnergyControlValues()">
+                            <option value="main" selected="">Main Knuckle</option>
+                            <option value="sub">Sub Knuckle</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="energyControlSkillLevel" onchange="calcEnergyControlValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="energyControlValues"><b>Skill Effect:</b>
+                            <li>Reduce all damage taken to 0 during this skill's animation</li>
+                            <li>Upon <b>successfully blocking an attack</b>, grants <b>Chakra buff</b> and <b>Energy
+                                    Control buff</b> to the <b>caster</b>; the level of <b>Chakra buff</b> granted by
+                                this skill's effect is equal to the <b>Skill Level</b> of either <b>Chakra</b> or
+                                <b>this skill</b>, whichever is lower
+                            </li><br><b>Energy Control Buff Effect:</b>
+                            <li><b>Base Weapon ATK</b> +50%; stacks <b>additively</b> with <b>Annihilator buff</b>, but
+                                <b>cannot exceed +50%</b>
+                            </li>
+                            <li><b>Stability</b> +10%</li>
+                            <li><b>Buff Duration:</b> 90 seconds</li><br><b>Extra info:</b>
+                            <li>The <b>Base Weapon ATK increase</b> granted by this buff is <b>not the same as the
+                                    Weapon ATK % stat</b>; this effect <b>applies directly onto the ATK</b> of the
+                                weapon you're equipping, treating it as having that much percentage more ATK than it
+                                actually has. Due to that, the <b>refinement level</b> of the weapon can affect the
+                                increase amount granted by this buff (check <b>Annihilator</b> info for an example)</li>
+                        </span>
+
+                        <script>
+                            function addEnergyControlSkillEffect(result) {
+                                result.innerHTML = `<b>Skill Effect:</b>
+                    <li>Reduce all damage taken to 0 during this skill's animation</li>
+                    <li>Upon <b>successfully blocking an attack</b>, grants <b>Chakra buff</b> and <b>Energy Control buff</b> to the <b>caster</b>; the level of <b>Chakra buff</b> granted by this skill's effect is equal to the <b>Skill Level</b> of either <b>Chakra</b> or <b>this skill</b>, whichever is lower</li>`
+                            }
+
+                            function calcEnergyControlBuffEffect(level, weapon, result) {
+                                var duration = 30 + Math.max((level - 1) * 2.5, (level - 2) * 5, (level - 4) * 10)
+                                duration = Math.floor(duration)
+                                var HTML = `<br><b>Energy Control Buff Effect:</b>`
+                                if (weapon == "main") { HTML += `<li><b>Base Weapon ATK</b> +${level * 5}%; stacks <b>additively</b> with <b>Annihilator buff</b>, but <b>cannot exceed +50%</b></li>` }
+                                HTML += `<li><b>Stability</b> +10%</li>
+                    <li><b>Buff Duration:</b> ${duration} seconds</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addEnergyControlExtraInfo(weapon, result) {
+                                if (weapon == "main") {
+                                    result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The <b>Base Weapon ATK increase</b> granted by this buff is <b>not the same as the Weapon ATK % stat</b>; this effect <b>applies directly onto the ATK</b> of the weapon you're equipping, treating it as having that much percentage more ATK than it actually has. Due to that, the <b>refinement level</b> of the weapon can affect the increase amount granted by this buff (check <b>Annihilator</b> info for an example)</li>`}
+                            }
+
+                            function calcEnergyControlValues() {
+                                let levelSelector = document.getElementById('energyControlSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('energyControlWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('energyControlValues')
+                                addEnergyControlSkillEffect(result)
+                                calcEnergyControlBuffEffect(level, weapon, result)
+                                addEnergyControlExtraInfo(weapon, result)
+                            }
+
+                            calcEnergyControlValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/aggravate.png" width="34" height="34">
+                                Aggravate
+                            </p>
+                            <p class="medium">
+                                Skill Aggravate Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle.png"><br>Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Keenly attack the target again. Chance to deal additional damage with normal attacks of
+                                Knuckles.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="aggravateSkillLevel" onchange="calcAggravateValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Strong Chase Attack" Skill Level:</b></span>
+                        <select id="strongChaseLevel" onchange="calcAggravateValues()">
+                            <option value="0" selected="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <br>
+                        <span id="aggravateValues">
+                            <li><b>Attack MP Recovery</b> +5</li>
+                            <li><b>Knuckles auto attacks</b> that don't [Miss] have 50% chance to trigger an
+                                <b>additional attack</b>
+                            </li><br><b>Aggravate Additional Attack:</b>
+                            <li><b>Skill Multiplier:</b> 0.5</li>
+                            <li><b>Hit Count:</b> Same as the <b>auto attack that triggered it</b>; damage calculation
+                                is done <b>separately from the auto attack</b>; if the auto attack has more than 1 hit,
+                                damage calculation is done once then spread evenly between the hits</li><br><b>Extra
+                                info:</b>
+                            <li>The <b>Additional Attack</b> has Neutral Element, cannot deal Critical hits, and is
+                                unaffected by [Guard]</li>
+                            <li>The <b>Additional Attack</b> is unaffected by <b>Martial Disciple</b> passive</li>
+                            <li><b>Aggravate Damage</b> formula is similar to <b>Additional Melee</b>, but using ATK,
+                                target's DEF and Physical Resistance stats, and <b>Normal Attack Proration</b></li>
+                            <li>Despite the displayed weapon requirement being "Knuckle" in general, <b>Aggravate</b>
+                                effects only apply when the <b>Knuckle is equipped in main hand slot</b></li>
+                        </span>
+
+                        <script>
+                            function calcAggravateAmpr(level, result) {
+                                let ampr = Math.ceil(0.5 * level)
+                                result.innerHTML = `<li><b>Attack MP Recovery</b> +${ampr}</li>`
+                            }
+
+                            function calcAggravateAdditionalChance(level, result) {
+                                let additionalChance = 10 + (4 * level)
+                                result.innerHTML += `<li><b>Knuckles auto attacks</b> that don't [Miss] have ${additionalChance}% chance to trigger an <b>additional attack</b></li><br>`
+                            }
+
+                            function calcAggravateMultiplier(level, scaLevel, result) {
+                                let multiplier = 0.05 * (level * 1 + scaLevel * 1)
+                                multiplier = Math.round(multiplier * 100) / 100
+                                let HTML = `<b>Aggravate Additional Attack:</b>
+                    <li><b>Skill Multiplier:</b> ${multiplier}</li>
+                    <li><b>Hit Count:</b> Same as the <b>auto attack that triggered it</b>; damage calculation is done <b>separately from the auto attack</b>; if the auto attack has more than 1 hit, damage calculation is done once then spread evenly between the hits</li>`
+                                if (scaLevel > 0) { HTML += `<li>Has increased <b>Physical Pierce</b> (exact amount currently unknown)</li>` }
+                                HTML += `<br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function aggravateExtraInformation(result) {
+                                result.innerHTML += `<b>Extra info:</b>
+                    <li>The <b>Additional Attack</b> has Neutral Element, cannot deal Critical hits, and is unaffected by [Guard]</li>
+                    <li>The <b>Additional Attack</b> is unaffected by <b>Martial Disciple</b> passive</li>
+                    <li><b>Aggravate Damage</b> formula is similar to <b>Additional Melee</b>, but using ATK, target's DEF and Physical Resistance stats, and <b>Normal Attack Proration</b></li>
+                    <li>Despite the displayed weapon requirement being "Knuckle" in general, <b>Aggravate</b> effects only apply when the <b>Knuckle is equipped in main hand slot</b></li>`
+                            }
+
+                            function calcAggravateValues() {
+                                let levelSelector = document.getElementById('aggravateSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let strongChaseSelector = document.getElementById('strongChaseLevel')
+                                let scaLevel = strongChaseSelector[strongChaseSelector.selectedIndex].value
+                                let result = document.getElementById('aggravateValues')
+                                calcAggravateAmpr(level, result)
+                                calcAggravateAdditionalChance(level, result)
+                                calcAggravateMultiplier(level, scaLevel, result)
+                                aggravateExtraInformation(result)
+                            }
+
+                            calcAggravateValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/strongchaseattack.png" width="34" height="34">
+                                Strong Chase Attack
+                            </p>
+                            <p class="medium">
+                                Skill Strong Chase Attack Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle.png"><br>Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Enhances the power of small attacks.<br>
+                                Increases your accuracy and enhances the additional damage of [Aggravate].</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/knuckle.png"></p>
+                                <p>Knuckle</p>
+                            </div>
+                            <p>
+                                <font style="color: #009fff">[The following effect is for Main Equipment Only</font>
+                                ]<br>
+                                Raises Accuracy further.<br>
+                                Grants Physical Pierce that depends on skill level to the additional damage of
+                                Aggravate.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="strongChaseWeaponType" onchange="calcStrongChaseValues()">
+                            <option value="main" selected="">Main Knuckle</option>
+                            <option value="sub">Sub Knuckle</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="strongChaseSkillLevel" onchange="calcStrongChaseValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="strongChaseValues">
+                            <li><b>Accuracy</b> +20%</li>
+                            <li><b>Aggravate Additional Attack Skill Multiplier</b> +0.5</li>
+                            <li>Increase <b>Physical Pierce</b> for <b>Aggravate Additional Attack</b> (exact amount
+                                currently unknown)</li>
+                        </span>
+
+                        <script>
+                            function calcStrongChaseSubBuff(level, weapon, result) {
+                                var acc = level
+                                if (weapon == "main") { acc *= 2 }
+                                var HTML = `<li><b>Accuracy</b> +${acc}%</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcStrongChaseMainBuff(level, weapon, result) {
+                                let multiplier = 0.05 * level
+                                multiplier = Math.round(multiplier * 100) / 100
+                                if (weapon == "main") {
+                                    result.innerHTML += `<li><b>Aggravate Additional Attack Skill Multiplier</b> +${multiplier}</li>
+                    <li>Increase <b>Physical Pierce</b> for <b>Aggravate Additional Attack</b> (exact amount currently unknown)</li>`}
+                            }
+
+                            function calcStrongChaseValues() {
+                                let levelSelector = document.getElementById("strongChaseSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('strongChaseWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById("strongChaseValues")
+                                calcStrongChaseSubBuff(level, weapon, result)
+                                calcStrongChaseMainBuff(level, weapon, result)
+                            }
+
+                            calcStrongChaseValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/slide.png" width="34" height="34">
+                                Slide
+                            </p>
+                            <p class="medium">
+                                Skill Slide Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/knuckle-main.png"><br>Main Knuckle only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>8</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Slide at a high speed to cut the distance and move closer to enemy. The accuracy of the
+                                next skill used will increase.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="slideLevel" onchange="calcSlideValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="slideValue"><b>Skill Effect:</b> Makes the caster <b>slides</b> to 1m in front of the
+                            target and grants <b>Slide buff</b> to the caster upon successful cast
+                            <br><b>Buff effect:</b>
+                            <li><b>Accuracy</b> of the next skill +100</li>
+                            <li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
+                            <li>The said "1m from the target" of the <b>slide</b> is the displayed distance from the
+                                <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely indicated by
+                                their target circle) after the <b>slide</b>; unlike most other movement skills, if you
+                                are inside their hitbox, <b>you will slide outward to the said edge instead</b>
+                            </li>
+                            <li>If this skill is used within 1m from the target but not inside their hitbox, the slide
+                                animation can be "skipped" entirely; as it is the only animation this skill has, it
+                                effectively makes this skill the "fastest" skill in the game when said condition is met,
+                                having virtually "no action at all"</li><br>Credits to <b>Phantom Library</b> for the
+                            info of the skill
+                        </span><br>
+
+                        <script>
+                            function calcSlideEffect(level, result) {
+                                var acc = level * level
+                                result.innerHTML = `<b>Skill Effect:</b> Makes the caster <b>slides</b> to 1m in front of the target and grants <b>Slide buff</b> to the caster upon successful cast
+                    <br><b>Buff effect:</b>
+                    <li><b>Accuracy</b> of the next skill +${acc}</li>
+                    <li><b>Buff Duration:</b> Until a skill is used</li>`
+                            }
+
+                            function addSlideExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The said "1m from the target" of the <b>slide</b> is the displayed distance from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely indicated by their target circle) after the <b>slide</b>; unlike most other movement skills, if you are inside their hitbox, <b>you will slide outward to the said edge instead</b></li>
+                    <li>If this skill is used within 1m from the target but not inside their hitbox, the slide animation can be "skipped" entirely; as it is the only animation this skill has, it effectively makes this skill the "fastest" skill in the game when said condition is met, having virtually "no action at all"</li>`
+                            }
+
+                            function calcSlideValue() {
+                                var levelSelector = document.getElementById("slideLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var result = document.getElementById("slideValue");
+                                calcSlideEffect(level, result)
+                                addSlideExtraInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the info of the skill`
+                            }
+
+                            calcSlideValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>

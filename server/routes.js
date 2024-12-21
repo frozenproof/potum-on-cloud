@@ -185,6 +185,12 @@ router.get('/health', (_req, res) => {
     res.status(200).send('Server is healthy');
 });
 
+router.get('/rangesearch', (_req, res) => {
+    const databaseList = ["Boss", "Miniboss", "NormalMonsters"]; // List of database names
+
+    res.render('rangesearch', { results: [], databaseList }); // Pass the database list to the template
+});
+
 router.post('/rangesearch', (req, res) => {
     const { file, numberInput, rangeInput, sortBy, sortOrder } = req.body; // Include sort criteria
     const filePath = path.join(__dirname, '..', 'database', 'm4', file + '.xlsx'); // Construct file path
@@ -252,20 +258,11 @@ router.post('/rangesearch', (req, res) => {
         const rowsToReturn = formatTableData(filteredData);
         // const rowsToReturn = formatTableData(filteredData.slice(0, maxRows));
 
-        if (req.headers['x-requested-with'] === 'XMLHttpRequest') {
-            return res.json({ results: rowsToReturn });
-        } else {
-            return res.json({ results: rowsToReturn });
-        }
+        return res.json({ results: rowsToReturn });
     } catch (error) {
         console.error(`Error processing file: ${error.message}`);
         return res.status(500).json({ error: "Error processing the file" });
     }
-});
-
-router.get('/rangesearch', (_req, res) => {
-    const databaseList = ["Boss", "Miniboss", "NormalMonsters"]; // List of database names
-    res.render('rangesearch', { results: [], databaseList }); // Pass the database list to the template
 });
 
 router.get('/files', (_req, res) => {

@@ -37,7 +37,7 @@
               <img src="../../images/icon/all.png"><br>Available with all weapons
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -275,7 +275,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -291,7 +291,7 @@
               <img src="../../images/icon/all.png"><br>Available with all weapons
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -509,7 +509,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -525,6 +525,8 @@
               <img src="../../images/icon/all.png"><br>Available with all weapons
             </div>
           </div>
+          <hr class="separator" />
+
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -801,7 +803,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -817,7 +819,7 @@
               <img src="../../images/icon/all.png"><br>Available with all weapons
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -847,9 +849,7 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>Attack enemies around you with a shock wave. Halves MP cost of the next skill. The effect will become
-                weak
-                if
-                you consecutively use this skill.</p>
+                weak if you consecutively use this skill.</p>
             </div>
             <div class="span-2">
               <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
@@ -931,14 +931,12 @@
                 (<b>Hard</b>); 15 seconds (<b>Nightmare</b>); 21 seconds (<b>Ultimate</b>)</li><br><b>Buff Effects:</b>
               <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple of 100</li>
               <li>This skill has <b>reduced Skill Multiplier and Tumble Chance</b>, and <b>weapon bonuses of this skill
-                  are
-                  disabled</b> while the buff is active</li>
+                  are disabled</b> while the buff is active</li>
               <li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
               <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most
                 ailments have the same resistance duration as their own duration, unless stated otherwise</li>
               <li>This skill's cast motion is changed after reaching skill level 7</li><br>The bonus of <b>Main
-                Weapon</b>
-              overwrites that of <b>Sub Weapon</b>
+                Weapon</b> overwrites that of <b>Sub Weapon</b>
             </span>
 
             <script>
@@ -1009,7 +1007,7 @@
 
               function addMagicImpactHitRange(result) {
                 result.innerHTML += `<li><b>Hit Range (radius):</b> 3m, around the <b>caster</b></li>
-    <li>Grant <b>Magic: Impact buff</b> upon cast</li>`
+        <li>Grant <b>Magic: Impact buff</b> upon cast</li>`
               }
 
               function calcMagicImpactTumbleChance(level, weapon, buff, result) {
@@ -1020,21 +1018,21 @@
                   if (weapon == "Staff") { chance += 25 }
                 }
                 result.innerHTML += `<li><b>Tumble Chance:</b> ${chance}%</li>
-    <li><b>Tumble Duration:</b> 3 seconds</li>
-    <li><b>Resistance Duration on Difficulties:</b> 6 seconds (<b>Easy</b> and <b>Normal</b>); 9 seconds (<b>Hard</b>); 15 seconds (<b>Nightmare</b>); 21 seconds (<b>Ultimate</b>)</li>`
+        <li><b>Tumble Duration:</b> 3 seconds</li>
+        <li><b>Resistance Duration on Difficulties:</b> 6 seconds (<b>Easy</b> and <b>Normal</b>); 9 seconds (<b>Hard</b>); 15 seconds (<b>Nightmare</b>); 21 seconds (<b>Ultimate</b>)</li>`
               }
 
               function addMagicImpactBuffEffect(result) {
                 result.innerHTML += `<br><b>Buff Effects:</b>
-    <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple of 100</li>
-    <li>This skill has <b>reduced Skill Multiplier and Tumble Chance</b>, and <b>weapon bonuses of this skill are disabled</b> while the buff is active</li>
-    <li><b>Buff Duration:</b> Until a skill is used</li>`
+        <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple of 100</li>
+        <li>This skill has <b>reduced Skill Multiplier and Tumble Chance</b>, and <b>weapon bonuses of this skill are disabled</b> while the buff is active</li>
+        <li><b>Buff Duration:</b> Until a skill is used</li>`
               }
 
               function addMagicImpactExtraInfo(result) {
                 result.innerHTML += `<br><b>Extra info:</b>
-      <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
-      <li>This skill's cast motion is changed after reaching skill level 7</li>`
+          <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+          <li>This skill's cast motion is changed after reaching skill level 7</li>`
               }
 
               function calcMagicImpactValues() {
@@ -1071,7 +1069,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -1087,7 +1085,7 @@
               <img src="../../images/icon/all.png"><br>Available with all weapons
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -1117,8 +1115,7 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>Super wide area of effect. Deal greater damage to enemies near the center. Cast Time is long and unable
-                to
-                reduce it by CSPD. Generate Aggro while casting.<br><br>
+                to reduce it by CSPD. Generate Aggro while casting.<br><br>
                 <b>Magic: Finale is unaffected by [Chain Cast]</b><br><br>
               </p>
             </div>
@@ -1135,9 +1132,7 @@
                 <p>Magic Device</p>
               </div>
               <p>Power increases depending on INT.<br> 4x Range (Radius) for 1st HIT<br> 2x Range (Radius) for 2nd and
-                3rd
-                HIT
-              </p>
+                3rd HIT</p>
             </div>
           </div>
           <p class="accent-bold">Extras</p>
@@ -1179,38 +1174,31 @@
               <li><b>Skill Multiplier (Second Hit): </b> 20</li>
               <li><b>Skill Multiplier (Third Hit): </b> 10</li>
               <li><b>Hit Count:</b> 3 hits (if within <b>1st Hit's Range</b>); 2 hits (if within <b>2nd Hit's Range</b>
-                but
-                <b>not 1st Hit's</b>); 1 hit (if within <b>3rd Hit's Range</b> but <b>not the others'</b>); damage
-                calculation
-                is done for each hit
-              </li><br>
+                but <b>not 1st Hit's</b>); 1 hit (if within <b>3rd Hit's Range</b> but <b>not the others'</b>); damage
+                calculation is done for each hit</li><br>
               <li><b>Cast Time:</b> 3 seconds (unaffected by CSPD)</li>
               <li><b>Hit Range (radius):</b> 0.5m for the <b>1st Hit</b>; 4m for the <b>2nd Hit</b>; 10m for the <b>3rd
                   Hit</b>; around the <b>main target's position when the cast time ends</b></li>
               <li><b>Total Cast-Time-Aggro on the main target: </b> 3000 (affected by CSPD)</li>
               (Note: This is the official aggro value by <b>Asobimo</b>. Please check out <a
                 href="https://youtu.be/38C8513vj54?t=218" style="color:blue;"><b>Joji Torai's tests about aggro</b></a>
-              for
-              more detail)<br><br><b>Extra info:</b>
+              for more detail)<br><br><b>Extra info:</b>
               <li><b>On the main target only</b>, Total Aggro is separated into 2 parts: <b>Cast-Time-Aggro</b> and
                 <b>On-Hit-Aggro</b>:
                 <ul>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Cast-Time-Aggro:</b> Generates 1000 aggro <b>per second of cast time</b>.
-                    This
-                    part is <b>unaffected by any Aggro Modifiers</b> (Sneak Attack, ±Aggro% stats), but is instead
-                    <b>affected
-                      by CSPD</b>
+                    This part is <b>unaffected by any Aggro Modifiers</b> (Sneak Attack, ±Aggro% stats), but is instead
+                    <b>affected by CSPD</b>
                   </li>
                   <li>&nbsp;&nbsp;&nbsp;- <b>On-Hit-Aggro:</b> The remaining aggro after substracting Cast-Time-Aggro,
-                    and
-                    is
-                    generated on hit. This part is <b>affected by Aggro Modifiers</b></li>
+                    and is generated on hit. This part is <b>affected by Aggro Modifiers</b></li>
                 </ul>
               </li>
               <li>Total Aggro generated <b>on other targets</b> works normally</li>
               <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and
                 <b>Long Range Damage</b> stats
-              </li><br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
+              </li><br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub
+                Weapon</b>
             </span>
 
             <script>
@@ -1235,8 +1223,8 @@
                 var constant2 = 30 * level
                 var constant3 = 3 * level
                 result.innerHTML = `<li><b>Skill Constant (First Hit): </b> ${constant1} </li>
-      <li><b>Skill Constant (Second Hit): </b> ${constant2} </li>
-      <li><b>Skill Constant (Third Hit): </b> ${constant3} </li>`
+          <li><b>Skill Constant (Second Hit): </b> ${constant2} </li>
+          <li><b>Skill Constant (Third Hit): </b> ${constant3} </li>`
               }
 
               function calcFinaleMultiplier(weapon, intValue, result) {
@@ -1249,9 +1237,9 @@
                 multiplier1 = Math.round(multiplier1 * 100) / 100
 
                 result.innerHTML += `<li><b>Skill Multiplier (First Hit): </b> ${multiplier1}</li>
-      <li><b>Skill Multiplier (Second Hit): </b> ${multiplier2}</li>
-      <li><b>Skill Multiplier (Third Hit): </b> ${multiplier3}</li>
-      <li><b>Hit Count:</b> 3 hits (if within <b>1st Hit's Range</b>); 2 hits (if within <b>2nd Hit's Range</b> but <b>not 1st Hit's</b>); 1 hit (if within <b>3rd Hit's Range</b> but <b>not the others'</b>); damage calculation is done for each hit</li><br>`
+          <li><b>Skill Multiplier (Second Hit): </b> ${multiplier2}</li>
+          <li><b>Skill Multiplier (Third Hit): </b> ${multiplier3}</li>
+          <li><b>Hit Count:</b> 3 hits (if within <b>1st Hit's Range</b>); 2 hits (if within <b>2nd Hit's Range</b> but <b>not 1st Hit's</b>); 1 hit (if within <b>3rd Hit's Range</b> but <b>not the others'</b>); damage calculation is done for each hit</li><br>`
               }
 
               function calcFinaleCast(level, result) {
@@ -1272,17 +1260,17 @@
                 var modifier = calcCastTime(1, CSPD)
                 APS *= Math.min(1, modifier)
                 result.innerHTML += `<li><b>Total Cast-Time-Aggro on the main target: </b> ${APS} (affected by CSPD)</li>
-      (Note: This is the official aggro value by <b>Asobimo</b>. Please check out <a href="https://youtu.be/38C8513vj54?t=218" style="color:blue;"><b>Joji Torai's tests about aggro</b></a> for more detail)<br><br>`
+          (Note: This is the official aggro value by <b>Asobimo</b>. Please check out <a href="https://youtu.be/38C8513vj54?t=218" style="color:blue;"><b>Joji Torai's tests about aggro</b></a> for more detail)<br><br>`
               }
 
               function addFinaleAggroInfo(result) {
                 result.innerHTML += `<b>Extra info:</b>
-      <li><b>On the main target only</b>, Total Aggro is separated into 2 parts: <b>Cast-Time-Aggro</b> and <b>On-Hit-Aggro</b>:
-      <ul><li>&nbsp&nbsp&nbsp- <b>Cast-Time-Aggro:</b> Generates 1000 aggro <b>per second of cast time</b>. This part is <b>unaffected by any Aggro Modifiers</b> (Sneak Attack, ±Aggro% stats), but is instead <b>affected by CSPD</b></li>
-      <li>&nbsp&nbsp&nbsp- <b>On-Hit-Aggro:</b> The remaining aggro after substracting Cast-Time-Aggro, and is generated on hit. This part is <b>affected by Aggro Modifiers</b></li>
-      </ul></li>
-      <li>Total Aggro generated <b>on other targets</b> works normally</li>
-      <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>`
+          <li><b>On the main target only</b>, Total Aggro is separated into 2 parts: <b>Cast-Time-Aggro</b> and <b>On-Hit-Aggro</b>:
+          <ul><li>&nbsp&nbsp&nbsp- <b>Cast-Time-Aggro:</b> Generates 1000 aggro <b>per second of cast time</b>. This part is <b>unaffected by any Aggro Modifiers</b> (Sneak Attack, ±Aggro% stats), but is instead <b>affected by CSPD</b></li>
+          <li>&nbsp&nbsp&nbsp- <b>On-Hit-Aggro:</b> The remaining aggro after substracting Cast-Time-Aggro, and is generated on hit. This part is <b>affected by Aggro Modifiers</b></li>
+          </ul></li>
+          <li>Total Aggro generated <b>on other targets</b> works normally</li>
+          <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>`
               }
 
               function calcFinaleValues() {
@@ -1310,7 +1298,8 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
+
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
             <div>
@@ -1355,11 +1344,8 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>A forbidden technique of turning back time and deploying magic again. Instantly reactivates the last
-                magic
-                skill used. <font style="color:#009fff">After using this skill, you need to wait for some time to be
-                  able
-                  to
-                  use it again.</font><br></p>
+                magic skill used. <font style="color:#009fff">After using this skill, you need to wait for some time to
+                  be able to use it again.</font><br></p>
             </div>
           </div>
           <p class="accent-bold">Extras</p>
@@ -1381,31 +1367,25 @@
             <br>
             <span id="chronosShiftValue"><b>Skill Effect:</b>
               <li>Upon using an <b>active skill</b> from <b>Magic Skills</b> tree, gains <b>Chronos Shift buff</b> that
-                acts
-                as an indicator of that skill being "saved/copied"; the buff will be "overwritten" when another skill
-                from
-                <b>Magic Skills</b> tree is used, and lasts until <b>Chronos Shift</b> is used
-              </li>
+                acts as an indicator of that skill being "saved/copied"; the buff will be "overwritten" when another
+                skill from <b>Magic Skills</b> tree is used, and lasts until <b>Chronos Shift</b> is used</li>
               <li>Upon casting this skill, consumes the buff to <b>cast a copy of the last Magic Skill used</b>
                 <ul>
                   <li>&nbsp;&nbsp;&nbsp;- The copy has <b>all of its indices &amp; characteristics (constant,
-                      multiplier,
-                      range,...) being exactly the same as the original skill when that skill is cast</b>, with the only
-                    exceptions being <b>Cast Time</b> (being set to 0), <b>Cast Motion</b> (uses that of Chronos Shift
-                    instead) and <b>Combo tag effects other than MP Cost Reduction</b> (being ignored)</li>
+                      multiplier, range,...) being exactly the same as the original skill when that skill is cast</b>,
+                    with the only exceptions being <b>Cast Time</b> (being set to 0), <b>Cast Motion</b> (uses that of
+                    Chronos Shift instead) and <b>Combo tag effects other than MP Cost Reduction</b> (being ignored)
+                  </li>
                   <li>&nbsp;&nbsp;&nbsp;- The MP Cost of this skill is equal to the <b>final MP Cost</b> of the copied
-                    skill,
-                    which means MP Cost modifiers from combo tags (Consecutive,...) and buffs (Magic: Impact,...) are
-                    included; cannot be activated if your MP is not enough to use this skill</li>
+                    skill, which means MP Cost modifiers from combo tags (Consecutive,...) and buffs (Magic: Impact,...)
+                    are included; cannot be activated if your MP is not enough to use this skill</li>
                 </ul>
               </li>
               <li>After using this skill, it will enter a cooldown of 6 seconds, during which this skill can neither be
                 reactivated nor "save" any skill</li><br><b>Extra info:</b>
               <li>The copy is treated as <b>being the same as the original skill</b>, since casting the copy of a
-                "lingering"
-                skill (such as Magic: Wall or Magic: Storm) will actually ends that skill prematurely, as if you recast
-                that
-                skill instead of casting its copy via <b>Chronos Shift</b></li>
+                "lingering" skill (such as Magic: Wall or Magic: Storm) will actually ends that skill prematurely, as if
+                you recast that skill instead of casting its copy via <b>Chronos Shift</b></li>
               <li>The copy <b>cannot give Magic: Burst stack</b> nor <b>charge Magic: Magic Cannon</b></li>
               <li>The copy of <b>Magic: Arrows</b> can grant <b>Chain Cast buff</b></li>
             </span>
@@ -1415,20 +1395,20 @@
                 //var hpCost = (110 - 10 * level)/100
                 var cooldown = 16 - level * 1
                 result.innerHTML = `<b>Skill Effect:</b>
-      <li>Upon using an <b>active skill</b> from <b>Magic Skills</b> tree, gains <b>Chronos Shift buff</b> that acts as an indicator of that skill being "saved/copied"; the buff will be "overwritten" when another skill from <b>Magic Skills</b> tree is used, and lasts until <b>Chronos Shift</b> is used</li>
-      <li>Upon casting this skill, consumes the buff to <b>cast a copy of the last Magic Skill used</b><ul>
-      <li>&nbsp&nbsp&nbsp- The copy has <b>all of its indices & characteristics (constant, multiplier, range,...) being exactly the same as the original skill when that skill is cast</b>, with the only exceptions being <b>Cast Time</b> (being set to 0), <b>Cast Motion</b> (uses that of Chronos Shift instead) and <b>Combo tag effects other than MP Cost Reduction</b> (being ignored)</li>
-      <li>&nbsp&nbsp&nbsp- The MP Cost of this skill is equal to the <b>final MP Cost</b> of the copied skill, which means MP Cost modifiers from combo tags (Consecutive,...) and buffs (Magic: Impact,...) are included; cannot be activated if your MP is not enough to use this skill</li>
-      </ul></li>
-      <li>After using this skill, it will enter a cooldown of ${cooldown} seconds, during which this skill can neither be reactivated nor "save" any skill</li>`
+          <li>Upon using an <b>active skill</b> from <b>Magic Skills</b> tree, gains <b>Chronos Shift buff</b> that acts as an indicator of that skill being "saved/copied"; the buff will be "overwritten" when another skill from <b>Magic Skills</b> tree is used, and lasts until <b>Chronos Shift</b> is used</li>
+          <li>Upon casting this skill, consumes the buff to <b>cast a copy of the last Magic Skill used</b><ul>
+          <li>&nbsp&nbsp&nbsp- The copy has <b>all of its indices & characteristics (constant, multiplier, range,...) being exactly the same as the original skill when that skill is cast</b>, with the only exceptions being <b>Cast Time</b> (being set to 0), <b>Cast Motion</b> (uses that of Chronos Shift instead) and <b>Combo tag effects other than MP Cost Reduction</b> (being ignored)</li>
+          <li>&nbsp&nbsp&nbsp- The MP Cost of this skill is equal to the <b>final MP Cost</b> of the copied skill, which means MP Cost modifiers from combo tags (Consecutive,...) and buffs (Magic: Impact,...) are included; cannot be activated if your MP is not enough to use this skill</li>
+          </ul></li>
+          <li>After using this skill, it will enter a cooldown of ${cooldown} seconds, during which this skill can neither be reactivated nor "save" any skill</li>`
                 //Keep this just in case there's "new registlet": <li style = 'color: #C70039'>If you die by this skill's effect, <b>Revive Droplet</b> and <b>Struggle</b> will be <b>disabled</b>, and <b>revive time reduction effects</b> of skills (such as First Aid, Heal, Mini Heal,...) will also be negated; <b>Play Dead</b> and <b>Revive Time Reduction stat</b> are still applied, however</li>
               }
 
               function addChronosShiftExtraInfo(result) {
                 result.innerHTML += `<br><b>Extra info:</b>
-      <li>The copy is treated as <b>being the same as the original skill</b>, since casting the copy of a "lingering" skill (such as Magic: Wall or Magic: Storm) will actually ends that skill prematurely, as if you recast that skill instead of casting its copy via <b>Chronos Shift</b></li>
-      <li>The copy <b>cannot give Magic: Burst stack</b> nor <b>charge Magic: Magic Cannon</b></li>
-      <li>The copy of <b>Magic: Arrows</b> can grant <b>Chain Cast buff</b></li>`
+          <li>The copy is treated as <b>being the same as the original skill</b>, since casting the copy of a "lingering" skill (such as Magic: Wall or Magic: Storm) will actually ends that skill prematurely, as if you recast that skill instead of casting its copy via <b>Chronos Shift</b></li>
+          <li>The copy <b>cannot give Magic: Burst stack</b> nor <b>charge Magic: Magic Cannon</b></li>
+          <li>The copy of <b>Magic: Arrows</b> can grant <b>Chain Cast buff</b></li>`
               }
 
               function calcChronosShiftValue() {
@@ -1445,7 +1425,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -1584,11 +1564,9 @@
               <li><b>Knockback Distance:</b> 5m; halved on <b>bosses</b></li>
               <li><b>Resistance Duration:</b> 1.8 seconds</li><br><b>Extra info:</b>
               <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and
-                <b>Long Range Damage</b> stats
-              </li>
+                <b>Long Range Damage</b> stats</li>
               <li>If <b>Magic: Wall</b> is recast while the previous <b>Magic: Wall</b> is still active, the latter will
-                be
-                removed and all of its remaining hits will be canceled</li>
+                be removed and all of its remaining hits will be canceled</li>
               <li><b>Magic: Wall</b> name and effect animation will change depending on its element:<ul>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Neutral:</b> Magic: Wall</li>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Fire:</b> Fire Wall</li>
@@ -1598,8 +1576,7 @@
                   <li>&nbsp;&nbsp;&nbsp;- <b>Light:</b> Holy Wall</li>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Dark:</b> Evil Gate</li>
                 </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>
-              <br>The
-              bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
+              <br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
             </span>
 
             <script>
@@ -1661,23 +1638,23 @@
 
               function addWallKnockBack(result) {
                 result.innerHTML += `<li><b>Knockback Chance:</b> 100%; only on targets the caster has aggro on</li>
-      <li><b>Knockback Distance:</b> 5m; halved on <b>bosses</b></li>
-      <li><b>Resistance Duration:</b> 1.8 seconds</li>`
+          <li><b>Knockback Distance:</b> 5m; halved on <b>bosses</b></li>
+          <li><b>Resistance Duration:</b> 1.8 seconds</li>`
               }
 
               function addWallPlacedInfo(result) {
                 result.innerHTML += `<br><b>Extra info:</b>
-    <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
-    <li>If <b>Magic: Wall</b> is recast while the previous <b>Magic: Wall</b> is still active, the latter will be removed and all of its remaining hits will be canceled</li>
-    <li><b>Magic: Wall</b> name and effect animation will change depending on its element:<ul>
-      <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Wall</li>
-      <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Fire Wall</li>
-      <li>&nbsp&nbsp&nbsp- <b>Water:</b> Aqua Screen</li>
-      <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Gale Zone</li>
-      <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Earthquake</li>
-      <li>&nbsp&nbsp&nbsp- <b>Light:</b> Holy Wall</li>
-      <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Evil Gate</li>
-      </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
+        <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+        <li>If <b>Magic: Wall</b> is recast while the previous <b>Magic: Wall</b> is still active, the latter will be removed and all of its remaining hits will be canceled</li>
+        <li><b>Magic: Wall</b> name and effect animation will change depending on its element:<ul>
+          <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Wall</li>
+          <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Fire Wall</li>
+          <li>&nbsp&nbsp&nbsp- <b>Water:</b> Aqua Screen</li>
+          <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Gale Zone</li>
+          <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Earthquake</li>
+          <li>&nbsp&nbsp&nbsp- <b>Light:</b> Holy Wall</li>
+          <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Evil Gate</li>
+          </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
               }
 
               function calcWallValues() {
@@ -1711,7 +1688,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -1757,8 +1734,7 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>Set off a blast by concentrating magic power. Chance to inflict a status ailment. The status ailment
-                depends
-                on the element.<br><br>
+                depends on the element.<br><br>
                 <b>Element: [Ailment]</b><br>
                 •Neutral: [Flinch]<br>
                 •Fire:[Ignite]<br>
@@ -1869,8 +1845,7 @@
               <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most
                 ailments have the same resistance duration as their own duration, unless stated otherwise</li>
               <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and
-                <b>Long Range Damage</b> stats
-              </li>
+                <b>Long Range Damage</b> stats</li>
               <li><b>Magic: Blast</b> name and effect animation will change depending on its element:<ul>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Neutral:</b> Magic: Blast</li>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Fire:</b> Explosion</li>
@@ -1880,8 +1855,7 @@
                   <li>&nbsp;&nbsp;&nbsp;- <b>Light:</b> Shining Blast</li>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Dark:</b> Evil Blast</li>
                 </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>
-              <br>The
-              bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
+              <br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
             </span>
 
             <script>
@@ -1960,24 +1934,24 @@
                 else { duration = 10 }
 
                 var HTML = `<li><b>${elementToAilmentArray[element]} Chance:</b> ${chance}%</li>
-    <li><b>${elementToAilmentArray[element]} Duration:</b> ${duration} seconds</li>`
+        <li><b>${elementToAilmentArray[element]} Duration:</b> ${duration} seconds</li>`
                 if (element == "Neutral") { HTML += `<li><b>Resistance Duration on Difficulties:</b> 7 seconds (<b>Easy</b>, <b>Normal</b> and <b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li>` }
                 result.innerHTML += HTML
               }
 
               function addMagicBlastPlacedInfo(result) {
                 result.innerHTML += `<br><b>Extra info:</b>
-    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
-    <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
-    <li><b>Magic: Blast</b> name and effect animation will change depending on its element:<ul>
-      <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Blast</li>
-      <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Explosion</li>
-      <li>&nbsp&nbsp&nbsp- <b>Water:</b> Absolute Zero</li>
-      <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Aero Blast</li>
-      <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Geo Impact</li>
-      <li>&nbsp&nbsp&nbsp- <b>Light:</b> Shining Blast</li>
-      <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Evil Blast</li>
-      </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
+        <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+        <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+        <li><b>Magic: Blast</b> name and effect animation will change depending on its element:<ul>
+          <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Blast</li>
+          <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Explosion</li>
+          <li>&nbsp&nbsp&nbsp- <b>Water:</b> Absolute Zero</li>
+          <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Aero Blast</li>
+          <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Geo Impact</li>
+          <li>&nbsp&nbsp&nbsp- <b>Light:</b> Shining Blast</li>
+          <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Evil Blast</li>
+          </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
               }
 
               function calcMagicBlastValues() {
@@ -2018,7 +1992,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -2132,12 +2106,9 @@
               <li><b>Suction Chance:</b> 100%; halved on <b>bosses</b></li>
               <li><b>Suction Duration:</b> 1 second</li><br><b>Extra info:</b>
               <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and
-                <b>Long Range Damage</b> stats
-              </li>
+                <b>Long Range Damage</b> stats</li>
               <li>If <b>Magic: Storm</b> is recast while the previous <b>Magic: Storm</b> is still active, the latter
-                will
-                be
-                removed and all of its remaining hits will be canceled</li>
+                will be removed and all of its remaining hits will be canceled</li>
               <li><b>Magic: Storm</b> name will change depending on its element:<ul>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Neutral:</b> Magic: Storm</li>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Fire:</b> Fire Storm</li>
@@ -2147,8 +2118,7 @@
                   <li>&nbsp;&nbsp;&nbsp;- <b>Light:</b> Lux Vortex</li>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Dark:</b> Evil Tempest</li>
                 </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>
-              <br>The
-              bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
+              <br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
             </span>
 
             <script>
@@ -2212,22 +2182,22 @@
 
               function addStormSuction(result) {
                 result.innerHTML += `<li><b>Suction Chance:</b> 100%; halved on <b>bosses</b></li>
-      <li><b>Suction Duration:</b> 1 second</li>`
+          <li><b>Suction Duration:</b> 1 second</li>`
               }
 
               function addStormPlacedInfo(result) {
                 result.innerHTML += `<br><b>Extra info:</b>
-    <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
-    <li>If <b>Magic: Storm</b> is recast while the previous <b>Magic: Storm</b> is still active, the latter will be removed and all of its remaining hits will be canceled</li>
-    <li><b>Magic: Storm</b> name will change depending on its element:<ul>
-      <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Storm</li>
-      <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Fire Storm</li>
-      <li>&nbsp&nbsp&nbsp- <b>Water:</b> Frozen Cyclone</li>
-      <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Thunder Storm</li>
-      <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Sandstorm</li>
-      <li>&nbsp&nbsp&nbsp- <b>Light:</b> Lux Vortex</li>
-      <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Evil Tempest</li>
-      </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
+        <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+        <li>If <b>Magic: Storm</b> is recast while the previous <b>Magic: Storm</b> is still active, the latter will be removed and all of its remaining hits will be canceled</li>
+        <li><b>Magic: Storm</b> name will change depending on its element:<ul>
+          <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Storm</li>
+          <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Fire Storm</li>
+          <li>&nbsp&nbsp&nbsp- <b>Water:</b> Frozen Cyclone</li>
+          <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Thunder Storm</li>
+          <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Sandstorm</li>
+          <li>&nbsp&nbsp&nbsp- <b>Light:</b> Lux Vortex</li>
+          <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Evil Tempest</li>
+          </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
               }
 
               function calcMagicStormValues() {
@@ -2259,7 +2229,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -2305,8 +2275,7 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>Releases enhanced magic power. Becomes invincible as the skill activates. May Knock Back monsters
-                except
-                bosses. Using Magic Skills shortens its Cast Time.</p>
+                except bosses. Using Magic Skills shortens its Cast Time.</p>
             </div>
             <div class="span-2">
               <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
@@ -2390,31 +2359,25 @@
               <li><b>Skill Multiplier:</b> 23.55</li><br>
               <li><b>Cast Time:</b> 8 seconds (affected by CSPD)</li>
               <li><b>Hit Range:</b> Fan shape with radius of 13m and angle of 60°; in front of the <b>caster upon
-                  cast</b>
-              </li>
+                  cast</b></li>
               <li><b>When the attack is released</b>, gains [Invincible] for 2 seconds</li>
               <li><b>Knockback Chance:</b> 100%; unavailable on <b>bosses</b></li>
               <li><b>Knockback Distance:</b> 15m - 2×[target's size in in-game meters]</li>
               <li><b>Resistance Duration:</b> 1 second for every 1m knockback distance</li><br><b>Buff Effect:</b>
               <li>Gains 1 stack each time <b>another attacking skill from Magic Skills Tree</b> is cast; can stack up to
-                a
-                maximum of <b>8 stacks</b></li>
+                a maximum of <b>8 stacks</b></li>
               <li>Upon casting this skill, <b>consumes all stacks</b> to decrease the <b>Total Cast Time</b> of this
-                skill
-                by
-                1 second for each stack; this is applied <b>after CSPD stat and Chain Cast effect</b></li>
+                skill by 1 second for each stack; this is applied <b>after CSPD stat and Chain Cast effect</b></li>
               <li><b>Buff Duration:</b> Until <b>Magic: Burst</b> is used</li><br><b>Extra info:</b>
               <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and
                 <b>Long Range Damage</b> stats
               </li>
               <li>The change in maximum stack count represents the required stack count for zero cast time; if the
-                required
-                stack is 0, the buff will not appear at all<ul>
+                required stack is 0, the buff will not appear at all<ul>
                   <li>&nbsp;&nbsp;&nbsp;- It used to be a fixed number, but since this skill always use up <b>all
-                      stacks</b>,
-                    any excessive stack will end up serving no purpose at all; this change thus only helps you know how
-                    many
-                    stacks are needed to reduce cast time to zero, and otherwise have no other impact</li>
+                      stacks</b>, any excessive stack will end up serving no purpose at all; this change thus only helps
+                    you know how many stacks are needed to reduce cast time to zero, and otherwise have no other impact
+                  </li>
                 </ul>
               </li>
               <li><b>Magic: Burst</b> name and effect animation will change depending on its element:<ul>
@@ -2426,8 +2389,7 @@
                   <li>&nbsp;&nbsp;&nbsp;- <b>Light:</b> Punishment</li>
                   <li>&nbsp;&nbsp;&nbsp;- <b>Dark:</b> Eclipse</li>
                 </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>
-              <br>The
-              bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
+              <br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
             </span>
 
             <script>
@@ -2527,37 +2489,37 @@
               function calcBurstAilmentChance(level, result) {
                 var ailmentChance = 10 * level
                 result.innerHTML += `<li><b>Knockback Chance:</b> ${ailmentChance}%; unavailable on <b>bosses</b></li>
-      <li><b>Knockback Distance:</b> 15m - 2×[target's size in in-game meters]</li>
-      <li><b>Resistance Duration:</b> 1 second for every 1m knockback distance</li><br>`
+          <li><b>Knockback Distance:</b> 15m - 2×[target's size in in-game meters]</li>
+          <li><b>Resistance Duration:</b> 1 second for every 1m knockback distance</li><br>`
               }
 
               function addingBurstBuffInformation(weapon, stackInput, eBarrier, result) {
                 var stack = `1 stack`
                 if ((weapon == "Staff" || weapon == "MD") && eBarrier) { stack = `2 stacks` }
                 var HTML = `<b>Buff Effect:</b>
-      <li>Gains ${stack} each time <b>another attacking skill from Magic Skills Tree</b> is cast; can stack up to a maximum of <b>${stackInput.max} stack`
+          <li>Gains ${stack} each time <b>another attacking skill from Magic Skills Tree</b> is cast; can stack up to a maximum of <b>${stackInput.max} stack`
                 if (stackInput.max != 1) { HTML += `s` }
                 HTML += `</b></li>
-      <li>Upon casting this skill, <b>consumes all stacks</b> to decrease the <b>Total Cast Time</b> of this skill by 1 second for each stack; this is applied <b>after CSPD stat and Chain Cast effect</b></li>
-      <li><b>Buff Duration:</b> Until <b>Magic: Burst</b> is used</li><br>`
+          <li>Upon casting this skill, <b>consumes all stacks</b> to decrease the <b>Total Cast Time</b> of this skill by 1 second for each stack; this is applied <b>after CSPD stat and Chain Cast effect</b></li>
+          <li><b>Buff Duration:</b> Until <b>Magic: Burst</b> is used</li><br>`
                 if (stackInput.max > 0) { result.innerHTML += HTML }
               }
 
               function addMagicBurstPlacedInfo(result) {
                 result.innerHTML += `<b>Extra info:</b>
-    <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
-    <li>The change in maximum stack count represents the required stack count for zero cast time; if the required stack is 0, the buff will not appear at all<ul>
-    <li>&nbsp&nbsp&nbsp- It used to be a fixed number, but since this skill always use up <b>all stacks</b>, any excessive stack will end up serving no purpose at all; this change thus only helps you know how many stacks are needed to reduce cast time to zero, and otherwise have no other impact</li>
-    </ul></li>
-    <li><b>Magic: Burst</b> name and effect animation will change depending on its element:<ul>
-      <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Burst</li>
-      <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Hell Inferno</li>
-      <li>&nbsp&nbsp&nbsp- <b>Water:</b> Eternal Blizzard</li>
-      <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Force Tempest</li>
-      <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Gravity Turn</li>
-      <li>&nbsp&nbsp&nbsp- <b>Light:</b> Punishment</li>
-      <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Eclipse</li>
-      </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
+        <li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+        <li>The change in maximum stack count represents the required stack count for zero cast time; if the required stack is 0, the buff will not appear at all<ul>
+        <li>&nbsp&nbsp&nbsp- It used to be a fixed number, but since this skill always use up <b>all stacks</b>, any excessive stack will end up serving no purpose at all; this change thus only helps you know how many stacks are needed to reduce cast time to zero, and otherwise have no other impact</li>
+        </ul></li>
+        <li><b>Magic: Burst</b> name and effect animation will change depending on its element:<ul>
+          <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Burst</li>
+          <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Hell Inferno</li>
+          <li>&nbsp&nbsp&nbsp- <b>Water:</b> Eternal Blizzard</li>
+          <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Force Tempest</li>
+          <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Gravity Turn</li>
+          <li>&nbsp&nbsp&nbsp- <b>Light:</b> Punishment</li>
+          <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Eclipse</li>
+          </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
               }
 
               function calcMagicBurstValues() {
@@ -2600,99 +2562,130 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
-          <div style="display:grid;grid-template-columns: 1fr 1fr;">
-            <div>
-              <p class="card-title">
-                <img src="../../images/skills/magiccannon.png" width="34" height="34">
-                Magic: Magic Cannon
-              </p>
-              <p class="medium">
-                Skill Magic: Magic Cannon Level 5 </p>
-            </div>
-            <div style="justify-self:end;">
-              <img src="../../images/icon/all.png"><br>Available with all weapons
-            </div>
+        <div style="display:grid;grid-template-columns: 1fr 1fr;">
+          <div>
+            <p class="card-title">
+              <img src="../../images/skills/magiccannon.png" width="34" height="34">
+              Magic: Magic Cannon
+            </p>
+            <p class="medium">
+              Skill Magic: Magic Cannon Level 5 </p>
           </div>
-          <hr class="separator">
-          <div class="monster-prop">
-            <div>
-              <p class="accent-bold">Type</p>
-              <p>Active, Magic skill</p>
-            </div>
-            <div>
-              <p class="accent-bold">Element</p>
-              <p>Weapon Dependent</p>
-            </div>
-            <div>
-              <p class="accent-bold">MP</p>
-              <p>0</p>
-            </div>
-            <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-            <div>
-              <p class="accent-bold">Combo start</p>
-              <p>Yes</p>
-            </div>
-            <div>
-              <p class="accent-bold">Combo middle</p>
-              <p>Yes</p>
-            </div>
-            <div>
-              <p class="accent-bold">Range</p>
-              <p>24</p>
-            </div>
-            <div class="span-2">
-              <p class="accent-bold">Description</p>
-              <p>A magic cannon that mows down enemies in a straight line (<b style="color: gold">Charge Skill</b>).
-                Charge
-                it
-                to increase its power and hit count. Using a skill that involves casting will speed up the charging.
-                When
-                charged over 100%, it may pierce through Guard.</p>
-            </div>
-            <div class="span-2">
-              <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-                <p><img src="../../images/icon/staff.png"></p>
-                <p>Staff</p>
-              </div>
-              <p>Power increases depending on INT.</p>
-            </div>
-            <div class="span-2">
-              <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-                <p><img src="../../images/icon/md.png"></p>
-                <p>Magic Device</p>
-              </div>
-              <p>Increases the charge bonus for skill power<br>
-                Increases attack range.</p>
-            </div>
+          <div style="justify-self:end;">
+            <img src="../../images/icon/all.png"><br>Available with all weapons
           </div>
-          <p class="accent-bold">Extras</p>
-          <p></p>
-          <details>
-            <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
-            <select id="magicMCannonWeapon" onchange="calcMagicMCannonValues()">
-              <option value="staff" selected="">Staff</option>
-              <option value="md">Main Magic Device</option>
-              <option value="submd">Sub Magic Device</option>
-              <option value="other">Other</option>
-            </select><br>
-            <span class="sub-title"><b>Skill Level:</b></span>
-            <select id="magicMCannonSkillLevel" onchange="calcMagicMCannonValues()">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10" selected="">10</option>
-            </select><br>
-            <span class="sub-title"><b>Buff cast's Combo Tag:</b></span>
-            <select id="magicMCannonBuffComboTag" onchange="calcMagicMCannonValues()">
+        </div>
+        <hr class="separator" />
+
+        <div class="monster-prop">
+          <div>
+            <p class="accent-bold">Type</p>
+            <p>Active, Magic skill</p>
+          </div>
+          <div>
+            <p class="accent-bold">Element</p>
+            <p>Weapon Dependent</p>
+          </div>
+          <div>
+            <p class="accent-bold">MP</p>
+            <p>0</p>
+          </div>
+          <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+          <div>
+            <p class="accent-bold">Combo start</p>
+            <p>Yes</p>
+          </div>
+          <div>
+            <p class="accent-bold">Combo middle</p>
+            <p>Yes</p>
+          </div>
+          <div>
+            <p class="accent-bold">Range</p>
+            <p>24</p>
+          </div>
+          <div class="span-2">
+            <p class="accent-bold">Description</p>
+            <p>A magic cannon that mows down enemies in a straight line (<b style="color: gold">Charge Skill</b>).
+              Charge it to increase its power and hit count. Using a skill that involves casting will speed up the
+              charging. When charged over 100%, it may pierce through Guard.</p>
+          </div>
+          <div class="span-2">
+            <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+              <p><img src="../../images/icon/staff.png"></p>
+              <p>Staff</p>
+            </div>
+            <p>Power increases depending on INT.</p>
+          </div>
+          <div class="span-2">
+            <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+              <p><img src="../../images/icon/md.png"></p>
+              <p>Magic Device</p>
+            </div>
+            <p>Increases the charge bonus for skill power<br>
+              Increases attack range.</p>
+          </div>
+        </div>
+        <p class="accent-bold">Extras</p>
+        <p></p>
+        <details>
+          <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+          <select id="magicMCannonWeapon" onchange="calcMagicMCannonValues()">
+            <option value="staff" selected="">Staff</option>
+            <option value="md">Main Magic Device</option>
+            <option value="submd">Sub Magic Device</option>
+            <option value="other">Other</option>
+          </select><br>
+          <span class="sub-title"><b>Skill Level:</b></span>
+          <select id="magicMCannonSkillLevel" onchange="calcMagicMCannonValues()">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10" selected="">10</option>
+          </select><br>
+          <span class="sub-title"><b>Buff cast's Combo Tag:</b></span>
+          <select id="magicMCannonBuffComboTag" onchange="calcMagicMCannonValues()">
+            <option value="None" selected="">None</option>
+            <option value="Cons">Consecutive</option>
+            <option value="Mind">Mind's Eye</option>
+            <option value="Save">Save</option>
+            <option value="Swift">Swift</option>
+            <option value="Smite">Smite</option>
+            <option value="Tenacity">Tenacity</option>
+            <option value="Invincible">Invincible</option>
+            <option value="Bloodsuck">Bloodsucker</option>
+            <option value="Tough">Tough</option>
+            <option value="Reflect">Reflection</option>
+          </select><br>
+          <div id="buffCastBloodspiritActiveMCannon" style="display: none;">
+            <span class="sub-title"><b>Spirit buff is active:</b></span>
+            <input type="checkbox" id="buffBloodSpiritMCannon" onchange="calcMagicMCannonValues()"><br>
+          </div>
+          <div id="buffCastComboCountMCannon" style="display: none;">
+            <span class="sub-title"><b>Buff cast's Combo count:</b></span>
+            <input type="number" id="comboCountMCannon1" min="2" max="10" value="2" style="width: 3em"
+              onchange="calcMagicMCannonValues()">
+            <span class="sub-title">(nth skill in the combo)</span><br>
+          </div>
+          <div id="buffCastConsCountMCannon" style="display: none;">
+            <span class="sub-title"><b>Buff cast's Consecutive Tag count:</b></span>
+            <input type="number" id="consCountMCannon1" min="1" max="9" value="1" style="width: 2em"
+              onchange="calcMagicMCannonValues()">
+            <span class="sub-title">(nth Consecutive Tag in the combo)</span><br>
+          </div>
+          <span class="sub-title"><b>Magic: Magic Cannon buff is active:</b></span>
+          <input type="checkbox" id="magicMCannonBuffActive" onchange="calcMagicMCannonValues()"><br>
+          <div id="magicMCannonAttackInputs" style="display: none;">
+            <span class="sub-title"><b>Attack cast's Combo Tag:</b></span>
+            <select id="magicMCannonAttackComboTag" onchange="calcMagicMCannonValues()">
               <option value="None" selected="">None</option>
               <option value="Cons">Consecutive</option>
               <option value="Mind">Mind's Eye</option>
@@ -2705,859 +2698,494 @@
               <option value="Tough">Tough</option>
               <option value="Reflect">Reflection</option>
             </select><br>
-            <div id="buffCastBloodspiritActiveMCannon" style="display: none;">
-              <span class="sub-title"><b>Spirit buff is active:</b></span>
-              <input type="checkbox" id="buffBloodSpiritMCannon" onchange="calcMagicMCannonValues()"><br>
-            </div>
-            <div id="buffCastComboCountMCannon" style="display: none;">
-              <span class="sub-title"><b>Buff cast's Combo count:</b></span>
-              <input type="number" id="comboCountMCannon1" min="2" max="10" value="2" style="width: 3em"
+            <div id="attackCastComboCountMCannon" style="display: none;">
+              <span class="sub-title"><b>Attack cast's Combo count:</b></span>
+              <input type="number" id="comboCountMCannon2" min="2" max="10" value="2" style="width: 3em"
                 onchange="calcMagicMCannonValues()">
               <span class="sub-title">(nth skill in the combo)</span><br>
             </div>
-            <div id="buffCastConsCountMCannon" style="display: none;">
-              <span class="sub-title"><b>Buff cast's Consecutive Tag count:</b></span>
-              <input type="number" id="consCountMCannon1" min="1" max="9" value="1" style="width: 2em"
+            <div id="attackCastConsCountMCannon" style="display: none;">
+              <span class="sub-title"><b>Attack cast's Consecutive Tag count:</b></span>
+              <input type="number" id="consCountMCannon2" min="1" max="1" value="1" style="width: 2em"
                 onchange="calcMagicMCannonValues()">
               <span class="sub-title">(nth Consecutive Tag in the combo)</span><br>
             </div>
-            <span class="sub-title"><b>Magic: Magic Cannon buff is active:</b></span>
-            <input type="checkbox" id="magicMCannonBuffActive" onchange="calcMagicMCannonValues()"><br>
-            <div id="magicMCannonAttackInputs" style="display: none;">
-              <span class="sub-title"><b>Attack cast's Combo Tag:</b></span>
-              <select id="magicMCannonAttackComboTag" onchange="calcMagicMCannonValues()">
-                <option value="None" selected="">None</option>
-                <option value="Cons">Consecutive</option>
-                <option value="Mind">Mind's Eye</option>
-                <option value="Save">Save</option>
-                <option value="Swift">Swift</option>
-                <option value="Smite">Smite</option>
-                <option value="Tenacity">Tenacity</option>
-                <option value="Invincible">Invincible</option>
-                <option value="Bloodsuck">Bloodsucker</option>
-                <option value="Tough">Tough</option>
-                <option value="Reflect">Reflection</option>
+            <div id="attackCastSmiteLastMCannon" style="display: none;">
+              <span class="sub-title"><b>Last skill of combo:</b></span>
+              <input type="checkbox" id="attackSmiteLastMCannon" onchange="calcMagicMCannonValues()"><br>
+            </div>
+            <div id="attackCastTenacityCostMCannon" style="display: none;">
+              <span class="sub-title"><b>Remaining MP:</b></span>
+              <select id="tenaRemainingMPMCannon" onchange="calcMagicMCannonValues()">
+                <option value="7" selected="">700 or more</option>
+                <option value="6">600 - 699</option>
+                <option value="5">500 - 599</option>
+                <option value="4">400 - 499</option>
+                <option value="3">300 - 399</option>
+                <option value="2">200 - 299</option>
+                <option value="1">100 - 199</option>
+                <option value="0">Less than 100</option>
               </select><br>
-              <div id="attackCastComboCountMCannon" style="display: none;">
-                <span class="sub-title"><b>Attack cast's Combo count:</b></span>
-                <input type="number" id="comboCountMCannon2" min="2" max="10" value="2" style="width: 3em"
-                  onchange="calcMagicMCannonValues()">
-                <span class="sub-title">(nth skill in the combo)</span><br>
-              </div>
-              <div id="attackCastConsCountMCannon" style="display: none;">
-                <span class="sub-title"><b>Attack cast's Consecutive Tag count:</b></span>
-                <input type="number" id="consCountMCannon2" min="1" max="1" value="1" style="width: 2em"
-                  onchange="calcMagicMCannonValues()">
-                <span class="sub-title">(nth Consecutive Tag in the combo)</span><br>
-              </div>
-              <div id="attackCastSmiteLastMCannon" style="display: none;">
-                <span class="sub-title"><b>Last skill of combo:</b></span>
-                <input type="checkbox" id="attackSmiteLastMCannon" onchange="calcMagicMCannonValues()"><br>
-              </div>
-              <div id="attackCastTenacityCostMCannon" style="display: none;">
-                <span class="sub-title"><b>Remaining MP:</b></span>
-                <select id="tenaRemainingMPMCannon" onchange="calcMagicMCannonValues()">
-                  <option value="7" selected="">700 or more</option>
-                  <option value="6">600 - 699</option>
-                  <option value="5">500 - 599</option>
-                  <option value="4">400 - 499</option>
-                  <option value="3">300 - 399</option>
-                  <option value="2">200 - 299</option>
-                  <option value="1">100 - 199</option>
-                  <option value="0">Less than 100</option>
-                </select><br>
-              </div>
-              <div id="attackCastBloodspiritActiveMCannon" style="display: none;">
-                <span class="sub-title"><b>Spirit buff is active:</b></span>
-                <input type="checkbox" id="attackBloodSpiritMCannon" onchange="calcMagicMCannonValues()"><br>
-              </div>
-              <span class="sub-title"><b>Charge Amount (%):</b></span>
-              <input type="number" id="magicMCannonBuffCharge" min="0" max="200" value="0" style="width: 4em"
-                onchange="calcMagicMCannonValues()"><br>
-              <span class="sub-title"> <b>Base INT:</b></span>
-              <input type="number" value="255" min="1" max="510" id="magicMCannonIntValue"
-                onchange="calcMagicMCannonValues()" style="width: 50px;"><br>
             </div>
-            <br>
-            <span id="magicMCannonValues">The skill can be used without requiring a target, and will <b>activate the
-                buff
-                cast</b>:
-              <li><b>MP Cost:</b> 0</li>
-              <li><b>Maximum Cast Range:</b> Unlimited</li>
-              <li>The buff cast <b>cannot be used as the first skill of a combo</b></li>
-              <li>Grant <b>Magic: Magic Cannon buff</b> that can be charged to a maximum of 200% charge</li><br><b>Extra
-                info:</b>
-              <li>A note for this skill's info: Combo Tag effects in this section are under the assumption that there
-                are
-                no
-                other effects applied to this skill; certain effects can have different interaction with the Combo tag
-                effects
-                applied to the casts</li>
-              <li><b>Zero Stance registlet</b> effect will only be applied if the attack cast is used out of combo;
-                using
-                the
-                buff cast out of combo will not activate the registlet's effect<ul>
-                  <li>&nbsp;&nbsp;&nbsp;- If the buff cast has a Combo tag, <b>Zero Stance effect will be overwritten if
-                      said
-                      Combo tag has a damage modifier effect</b>; it will work normally otherwise</li>
-                </ul>
-              </li>
-              <li>The buff cast is <b>unaffected by any motion speed modifier except Swift Combo tag</b></li><br>The
-              bonus
-              of
-              <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b><br>
-              Credits to <b>Phantom Library</b> for the info of the skill
-            </span>
+            <div id="attackCastBloodspiritActiveMCannon" style="display: none;">
+              <span class="sub-title"><b>Spirit buff is active:</b></span>
+              <input type="checkbox" id="attackBloodSpiritMCannon" onchange="calcMagicMCannonValues()"><br>
+            </div>
+            <span class="sub-title"><b>Charge Amount (%):</b></span>
+            <input type="number" id="magicMCannonBuffCharge" min="0" max="200" value="0" style="width: 4em"
+              onchange="calcMagicMCannonValues()"><br>
+            <span class="sub-title"> <b>Base INT:</b></span>
+            <input type="number" value="255" min="1" max="510" id="magicMCannonIntValue"
+              onchange="calcMagicMCannonValues()" style="width: 50px;"><br>
+          </div>
+          <br>
+          <span id="magicMCannonValues">The skill can be used without requiring a target, and will <b>activate the
+              buff cast</b>:
+            <li><b>MP Cost:</b> 0</li>
+            <li><b>Maximum Cast Range:</b> Unlimited</li>
+            <li>The buff cast <b>cannot be used as the first skill of a combo</b></li>
+            <li>Grant <b>Magic: Magic Cannon buff</b> that can be charged to a maximum of 200% charge</li><br><b>Extra
+              info:</b>
+            <li>A note for this skill's info: Combo Tag effects in this section are under the assumption that there
+              are no other effects applied to this skill; certain effects can have different interaction with the
+              Combo tag effects applied to the casts</li>
+            <li><b>Zero Stance registlet</b> effect will only be applied if the attack cast is used out of combo;
+              using the buff cast out of combo will not activate the registlet's effect<ul>
+                <li>&nbsp;&nbsp;&nbsp;- If the buff cast has a Combo tag, <b>Zero Stance effect will be overwritten if
+                    said Combo tag has a damage modifier effect</b>; it will work normally otherwise</li>
+              </ul>
+            </li>
+            <li>The buff cast is <b>unaffected by any motion speed modifier except Swift Combo tag</b></li><br>The
+            bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b><br>
+            Credits to <b>Phantom Library</b> for the info of the skill
+          </span>
 
-            <script>
-              function mMCBuffCheck(mMCBuff, magicMCannonAttackSection) {
-                if (mMCBuff) { magicMCannonAttackSection.style = "display: block" }
-                else { magicMCannonAttackSection.style = "display: none" }
+          <script>
+            function mMCBuffCheck(mMCBuff, magicMCannonAttackSection) {
+              if (mMCBuff) { magicMCannonAttackSection.style = "display: block" }
+              else { magicMCannonAttackSection.style = "display: none" }
+            }
+
+            function comboTagCheck(buffTag, attackTag, comboCountBuffSection, consCountBuffSection, comboCountAttackSection, consCountAttackSection, smiteLastSection, tenacityCostSection, buffBloodSpiritSection, attackBloodSpiritSection, bloodspirit, mMCBuff) {
+              if ((buffTag == "Invincible" && !mMCBuff) || (buffTag == "Bloodsuck" && bloodspirit)) { comboCountBuffSection.style = "display: block" }
+              else { comboCountBuffSection.style = "display: none" }
+              if (buffTag == "Cons" && mMCBuff) { consCountBuffSection.style = "display: block" }
+              else { consCountBuffSection.style = "display: none" }
+              if (buffTag == "Bloodsuck") { buffBloodSpiritSection.style = "display: block" }
+              else { buffBloodSpiritSection.style = "display: none" }
+              if ((attackTag == "Cons" || attackTag == "Invincible" || attackTag == "Bloodsuck") && attackTag != buffTag) { comboCountAttackSection.style = "display: block" }
+              else { comboCountAttackSection.style = "display: none" }
+              if (attackTag == "Cons" && buffTag != "Cons") { consCountAttackSection.style = "display: block" }
+              else { consCountAttackSection.style = "display: none" }
+              if (attackTag == "Smite" && buffTag != "Smite" && mMCBuff) { smiteLastSection.style = "display: block" }
+              else { smiteLastSection.style = "display: none" }
+              if (attackTag == "Tenacity" && buffTag != "Tenacity" && mMCBuff) { tenacityCostSection.style = "display: block" }
+              else { tenacityCostSection.style = "display: none" }
+              if (attackTag == "Bloodsuck" && buffTag != "Bloodsuck") { attackBloodSpiritSection.style = "display: block" }
+              else { attackBloodSpiritSection.style = "display: none" }
+            }
+
+            function changeMaxConsCount(comboCountAttack, consCountAttack) {
+              var maxConsCount = comboCountAttack.value * 1 - 1
+              if (consCountAttack.value > maxConsCount) { consCountAttack.value = maxConsCount }
+              consCountAttack.max = maxConsCount
+            }
+
+            function addBuffCastTagInfo(buffTag, comboCountBuff, bloodspirit, result) {
+              var HTML = ``
+              var ccBuff = comboCountBuff.value
+              var invChance = 20 * (ccBuff - 1)
+              if (invChance > 100) { invChance = 100 }
+              var hpCost = 10 - (ccBuff * 1)
+              if (buffTag == "Swift") { HTML += `<li><b>Motion Speed</b> of the cast is set to 150%</li>` }
+              else if (buffTag == "Invincible") { HTML += `<li>${invChance}% chance to gain [Invincible] until skill animation ends</li>` }
+              else if (buffTag == "Bloodsuck") {
+                if (bloodspirit && hpCost > 0) { HTML += `<li><b>${hpCost}% of MaxHP</b> is consumed due to <b>Spirit</b> effect</li>` }
+                else if (!bloodspirit) { HTML += `<li>Grant <b>Spirit buff</b> for 10 seconds</li>` }
+              }
+              else if (buffTag == "Tough") { HTML += `<li>All damage received during skill animation are reduced by 50%</li>` }
+              else if (buffTag == "Reflect") { HTML += `<li>Counterattack <b>once</b> upon getting hit during skill animation</li>` }
+              result.innerHTML += HTML
+            }
+
+            function addBuffCastSubSection(buffTag, comboCountBuff, bloodspirit, mMCBuff, result) {
+              if (!mMCBuff) {
+                result.innerHTML += `The skill can be used without requiring a target, and will <b>activate the buff cast</b>:
+          <li><b>MP Cost:</b> 0</li>
+          <li><b>Maximum Cast Range:</b> Unlimited</li>
+          <li>The buff cast <b>cannot be used as the first skill of a combo</b></li>
+          <li>Grant <b>Magic: Magic Cannon buff</b> that can be charged to a maximum of 200% charge</li>`
+                addBuffCastTagInfo(buffTag, comboCountBuff, bloodspirit, result)
+              }
+            }
+
+            function calcAttackCastMpCost(buffTag, attackTag, comboCountAttack, smiteLast) {
+              var mpCost = 700
+              var ccBuff = comboCountAttack.value;
+              if (attackTag == "Cons" && attackTag != buffTag) {
+                mpCost -= 100 * (ccBuff - 1)
+                if (mpCost < 0) { mpCost = 0 }
+              }
+              else if (attackTag == "Smite" && attackTag != buffTag && smiteLast) { mpCost *= 2 }
+              var HTML = ``
+              if (attackTag == "Save" && attackTag != buffTag) { HTML += `<li><b>MP Cost:</b> 0; 700 MP is saved for the next skill(s) in combo if there is any</li>` }
+              else { HTML += `<li><b>MP Cost:</b> ${mpCost}</li>` }
+              return HTML
+            }
+
+            function calcMagicMCannonConstant(weapon, charge) {
+              var constant = 700 + 1 * charge
+              if (weapon == "md" || weapon == "submd") { constant += 2 * charge }
+              var hitGroup = ``
+              if (charge > 20) { hitGroup += ` (All Hits)` }
+              var HTML = ``
+              if (charge > 0) {
+                HTML += `<br><li><b>Skill Constant${hitGroup}:</b> ${constant}`
+                if (charge > 20) { HTML += `; constant for each hit` }
+                HTML += `</li>`
+              }
+              return HTML
+            }
+
+            function calcMagicMCannonMultiplier(level, weapon, charge, intValue) {
+              var multCharge = 0.03 * level * (charge % 20)
+              var multMax = 0.03 * level * 20
+              var multOverMax = 0.03 * level * 40
+              var multiplier = 0
+              if (charge < 100) { multiplier = multCharge }
+              else { multiplier = multMax + multCharge }
+              if (weapon == "staff") {
+                multiplier += intValue / 100
+                multMax += intValue / 100
+                multOverMax += intValue / 100
               }
 
-              function comboTagCheck(buffTag, attackTag, comboCountBuffSection, consCountBuffSection, comboCountAttackSection, consCountAttackSection, smiteLastSection, tenacityCostSection, buffBloodSpiritSection, attackBloodSpiritSection, bloodspirit, mMCBuff) {
-                if ((buffTag == "Invincible" && !mMCBuff) || (buffTag == "Bloodsuck" && bloodspirit)) { comboCountBuffSection.style = "display: block" }
-                else { comboCountBuffSection.style = "display: none" }
-                if (buffTag == "Cons" && mMCBuff) { consCountBuffSection.style = "display: block" }
-                else { consCountBuffSection.style = "display: none" }
-                if (buffTag == "Bloodsuck") { buffBloodSpiritSection.style = "display: block" }
-                else { buffBloodSpiritSection.style = "display: none" }
-                if ((attackTag == "Cons" || attackTag == "Invincible" || attackTag == "Bloodsuck") && attackTag != buffTag) { comboCountAttackSection.style = "display: block" }
-                else { comboCountAttackSection.style = "display: none" }
-                if (attackTag == "Cons" && buffTag != "Cons") { consCountAttackSection.style = "display: block" }
-                else { consCountAttackSection.style = "display: none" }
-                if (attackTag == "Smite" && buffTag != "Smite" && mMCBuff) { smiteLastSection.style = "display: block" }
-                else { smiteLastSection.style = "display: none" }
-                if (attackTag == "Tenacity" && buffTag != "Tenacity" && mMCBuff) { tenacityCostSection.style = "display: block" }
-                else { tenacityCostSection.style = "display: none" }
-                if (attackTag == "Bloodsuck" && buffTag != "Bloodsuck") { attackBloodSpiritSection.style = "display: block" }
-                else { attackBloodSpiritSection.style = "display: none" }
+              function rounding(value) {
+                if (value - Math.floor(value * 100) / 100 < 0.00999999) { value = Math.floor(value * 100) / 100 }
+                else { value = Math.round(value * 100) / 100 }
+                return value
               }
 
-              function changeMaxConsCount(comboCountAttack, consCountAttack) {
-                var maxConsCount = comboCountAttack.value * 1 - 1
-                if (consCountAttack.value > maxConsCount) { consCountAttack.value = maxConsCount }
-                consCountAttack.max = maxConsCount
-              }
+              multiplier = rounding(multiplier)
+              multMax = rounding(multMax)
+              multOverMax = rounding(multOverMax)
 
-              function addBuffCastTagInfo(buffTag, comboCountBuff, bloodspirit, result) {
-                var HTML = ``
-                var ccBuff = comboCountBuff.value
-                var invChance = 20 * (ccBuff - 1)
-                if (invChance > 100) { invChance = 100 }
-                var hpCost = 10 - (ccBuff * 1)
-                if (buffTag == "Swift") { HTML += `<li><b>Motion Speed</b> of the cast is set to 150%</li>` }
-                else if (buffTag == "Invincible") { HTML += `<li>${invChance}% chance to gain [Invincible] until skill animation ends</li>` }
-                else if (buffTag == "Bloodsuck") {
-                  if (bloodspirit && hpCost > 0) { HTML += `<li><b>${hpCost}% of MaxHP</b> is consumed due to <b>Spirit</b> effect</li>` }
-                  else if (!bloodspirit) { HTML += `<li>Grant <b>Spirit buff</b> for 10 seconds</li>` }
-                }
-                else if (buffTag == "Tough") { HTML += `<li>All damage received during skill animation are reduced by 50%</li>` }
-                else if (buffTag == "Reflect") { HTML += `<li>Counterattack <b>once</b> upon getting hit during skill animation</li>` }
-                result.innerHTML += HTML
-              }
-
-              function addBuffCastSubSection(buffTag, comboCountBuff, bloodspirit, mMCBuff, result) {
-                if (!mMCBuff) {
-                  result.innerHTML += `The skill can be used without requiring a target, and will <b>activate the buff cast</b>:
-        <li><b>MP Cost:</b> 0</li>
-        <li><b>Maximum Cast Range:</b> Unlimited</li>
-        <li>The buff cast <b>cannot be used as the first skill of a combo</b></li>
-        <li>Grant <b>Magic: Magic Cannon buff</b> that can be charged to a maximum of 200% charge</li>`
-                  addBuffCastTagInfo(buffTag, comboCountBuff, bloodspirit, result)
-                }
-              }
-
-              function calcAttackCastMpCost(buffTag, attackTag, comboCountAttack, smiteLast) {
-                var mpCost = 700
-                var ccBuff = comboCountAttack.value;
-                if (attackTag == "Cons" && attackTag != buffTag) {
-                  mpCost -= 100 * (ccBuff - 1)
-                  if (mpCost < 0) { mpCost = 0 }
-                }
-                else if (attackTag == "Smite" && attackTag != buffTag && smiteLast) { mpCost *= 2 }
-                var HTML = ``
-                if (attackTag == "Save" && attackTag != buffTag) { HTML += `<li><b>MP Cost:</b> 0; 700 MP is saved for the next skill(s) in combo if there is any</li>` }
-                else { HTML += `<li><b>MP Cost:</b> ${mpCost}</li>` }
-                return HTML
-              }
-
-              function calcMagicMCannonConstant(weapon, charge) {
-                var constant = 700 + 1 * charge
-                if (weapon == "md" || weapon == "submd") { constant += 2 * charge }
-                var hitGroup = ``
-                if (charge > 20) { hitGroup += ` (All Hits)` }
-                var HTML = ``
-                if (charge > 0) {
-                  HTML += `<br><li><b>Skill Constant${hitGroup}:</b> ${constant}`
-                  if (charge > 20) { HTML += `; constant for each hit` }
-                  HTML += `</li>`
-                }
-                return HTML
-              }
-
-              function calcMagicMCannonMultiplier(level, weapon, charge, intValue) {
-                var multCharge = 0.03 * level * (charge % 20)
-                var multMax = 0.03 * level * 20
-                var multOverMax = 0.03 * level * 40
-                var multiplier = 0
-                if (charge < 100) { multiplier = multCharge }
-                else { multiplier = multMax + multCharge }
-                if (weapon == "staff") {
-                  multiplier += intValue / 100
-                  multMax += intValue / 100
-                  multOverMax += intValue / 100
-                }
-
-                function rounding(value) {
-                  if (value - Math.floor(value * 100) / 100 < 0.00999999) { value = Math.floor(value * 100) / 100 }
-                  else { value = Math.round(value * 100) / 100 }
-                  return value
-                }
-
-                multiplier = rounding(multiplier)
-                multMax = rounding(multMax)
-                multOverMax = rounding(multOverMax)
-
-                var hitGroup1 = ``
-                var hitGroup2 = ``
-                var hitGroup3 = ``
-                switch (true) {
-                  case ((charge > 20 && charge < 40) || (charge > 100 && charge < 140)):
-                    hitGroup1 += ` (First Hit)`
-                    if (charge < 100) { hitGroup2 += ` (Second Hit)` }
-                    else if (charge <= 120) { hitGroup2 += ` (Other Hits)` }
-                    else {
-                      hitGroup2 += ` (Second Hit)`
-                      hitGroup3 += ` (Other Hits)`
-                    }
-                    break
-                  case ((charge > 40 && charge < 60) || (charge >= 140 && charge < 160)):
-                    hitGroup1 += ` (First 2 Hits)`
-                    if (charge < 100) { hitGroup2 += ` (Third Hit)` }
-                    else if (charge == 140) { hitGroup2 += ` (Other Hits)` }
-                    else {
-                      hitGroup2 += ` (Third Hit)`
-                      hitGroup3 += ` (Other Hits)`
-                    }
-                    break
-                  case ((charge > 60 && charge < 80) || (charge >= 160 && charge < 180)):
-                    hitGroup1 += ` (First 3 Hits)`
-                    if (charge < 100) { hitGroup2 += ` (Fourth Hit)` }
-                    else if (charge == 160) { hitGroup2 += ` (Other Hits)` }
-                    else {
-                      hitGroup2 += ` (Fourth Hit)`
-                      hitGroup3 += ` (Fifth Hit)`
-                    }
-                    break
-                  case ((charge > 80 && charge < 100) || (charge >= 180 && charge < 200)):
-                    hitGroup1 += ` (First 4 Hits)`
-                    hitGroup2 += ` (Fifth Hit)`
-                    break
-                  case (charge % 20 == 0 && charge > 20): hitGroup1 += ` (All Hits)`; break
-                }
-
-                var multGroup1 = ``
-                var multGroup2 = ``
-                var multGroup3 = ``
-                if (charge % 20 == 0) {
-                  if (charge <= 100) {
-                    multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multMax}`
-                    if (charge > 20) { multGroup1 += `; multiplier for each hit` }
-                    multGroup1 += `</li>`
-                  }
+              var hitGroup1 = ``
+              var hitGroup2 = ``
+              var hitGroup3 = ``
+              switch (true) {
+                case ((charge > 20 && charge < 40) || (charge > 100 && charge < 140)):
+                  hitGroup1 += ` (First Hit)`
+                  if (charge < 100) { hitGroup2 += ` (Second Hit)` }
+                  else if (charge <= 120) { hitGroup2 += ` (Other Hits)` }
                   else {
-                    multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multOverMax}`
-                    if (charge > 120) { multGroup1 += `; multiplier for each hit` }
+                    hitGroup2 += ` (Second Hit)`
+                    hitGroup3 += ` (Other Hits)`
+                  }
+                  break
+                case ((charge > 40 && charge < 60) || (charge >= 140 && charge < 160)):
+                  hitGroup1 += ` (First 2 Hits)`
+                  if (charge < 100) { hitGroup2 += ` (Third Hit)` }
+                  else if (charge == 140) { hitGroup2 += ` (Other Hits)` }
+                  else {
+                    hitGroup2 += ` (Third Hit)`
+                    hitGroup3 += ` (Other Hits)`
+                  }
+                  break
+                case ((charge > 60 && charge < 80) || (charge >= 160 && charge < 180)):
+                  hitGroup1 += ` (First 3 Hits)`
+                  if (charge < 100) { hitGroup2 += ` (Fourth Hit)` }
+                  else if (charge == 160) { hitGroup2 += ` (Other Hits)` }
+                  else {
+                    hitGroup2 += ` (Fourth Hit)`
+                    hitGroup3 += ` (Fifth Hit)`
+                  }
+                  break
+                case ((charge > 80 && charge < 100) || (charge >= 180 && charge < 200)):
+                  hitGroup1 += ` (First 4 Hits)`
+                  hitGroup2 += ` (Fifth Hit)`
+                  break
+                case (charge % 20 == 0 && charge > 20): hitGroup1 += ` (All Hits)`; break
+              }
+
+              var multGroup1 = ``
+              var multGroup2 = ``
+              var multGroup3 = ``
+              if (charge % 20 == 0) {
+                if (charge <= 100) {
+                  multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multMax}`
+                  if (charge > 20) { multGroup1 += `; multiplier for each hit` }
+                  multGroup1 += `</li>`
+                }
+                else {
+                  multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multOverMax}`
+                  if (charge > 120) { multGroup1 += `; multiplier for each hit` }
+                  multGroup1 += `</li>`
+                  if (charge < 200) {
+                    multGroup2 += `<li><b>Skill Multiplier${hitGroup2}:</b> ${multMax}`
+                    if (charge < 180) { multGroup2 += `; multiplier for each hit` }
+                    multGroup2 += `</li>`
+                  }
+                }
+              }
+              else {
+                switch (true) {
+                  case (charge < 20):
+                    multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multiplier}</li>`
+                    break
+                  case (charge < 100):
+                    multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multMax}`
+                    if (charge > 40) { multGroup1 += `; multiplier for each hit` }
                     multGroup1 += `</li>`
-                    if (charge < 200) {
-                      multGroup2 += `<li><b>Skill Multiplier${hitGroup2}:</b> ${multMax}`
-                      if (charge < 180) { multGroup2 += `; multiplier for each hit` }
-                      multGroup2 += `</li>`
+                    multGroup2 += `<li><b>Skill Multiplier${hitGroup2}:</b> ${multiplier}</li>`
+                    break
+                  case (charge < 120):
+                    multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multiplier}</li>`
+                    multGroup2 += `<li><b>Skill Multiplier${hitGroup2}:</b> ${multMax}; multiplier for each hit</li>`
+                    break
+                  default:
+                    multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multOverMax}`
+                    if (charge > 140) { multGroup1 += `; multiplier for each hit` }
+                    multGroup1 += `</li>`
+                    multGroup2 += `<li><b>Skill Multiplier${hitGroup2}:</b> ${multiplier}</li>`
+                    if (charge < 180) {
+                      multGroup3 += `<li><b>Skill Multiplier${hitGroup3}:</b> ${multMax}`
+                      if (charge < 160) { multGroup3 += `; multiplier for each hit` }
+                      multGroup3 += `</li>`
                     }
-                  }
                 }
-                else {
-                  switch (true) {
-                    case (charge < 20):
-                      multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multiplier}</li>`
-                      break
-                    case (charge < 100):
-                      multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multMax}`
-                      if (charge > 40) { multGroup1 += `; multiplier for each hit` }
-                      multGroup1 += `</li>`
-                      multGroup2 += `<li><b>Skill Multiplier${hitGroup2}:</b> ${multiplier}</li>`
-                      break
-                    case (charge < 120):
-                      multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multiplier}</li>`
-                      multGroup2 += `<li><b>Skill Multiplier${hitGroup2}:</b> ${multMax}; multiplier for each hit</li>`
-                      break
-                    default:
-                      multGroup1 += `<li><b>Skill Multiplier${hitGroup1}:</b> ${multOverMax}`
-                      if (charge > 140) { multGroup1 += `; multiplier for each hit` }
-                      multGroup1 += `</li>`
-                      multGroup2 += `<li><b>Skill Multiplier${hitGroup2}:</b> ${multiplier}</li>`
-                      if (charge < 180) {
-                        multGroup3 += `<li><b>Skill Multiplier${hitGroup3}:</b> ${multMax}`
-                        if (charge < 160) { multGroup3 += `; multiplier for each hit` }
-                        multGroup3 += `</li>`
-                      }
-                  }
-                }
-                var HTML = ``
-                if (charge > 0) { HTML += multGroup1 + multGroup2 + multGroup3 }
-                return HTML
               }
+              var HTML = ``
+              if (charge > 0) { HTML += multGroup1 + multGroup2 + multGroup3 }
+              return HTML
+            }
 
-              function calcMagicMCannonHitCountInfo(charge) {
-                var hitCount = Math.ceil(charge / 20)
-                if (hitCount > 5) { hitCount = 5 }
-                var HTML = ``
-                if (charge > 0) {
-                  HTML += `<li><b>Hit Count:</b> ${hitCount} hit`
-                  if (hitCount > 1) { HTML += `s; damage calculation is done for each hit` }
-                  HTML += `</li>`
-                }
-                return HTML
-              }
-
-              function calcAttackCastHitRange(weapon, charge) {
-                var length = 100
-                var width = 2
-                if (weapon == "md" || weapon == "submd") { width += 1 }
-                var HTML = ``
-                if (charge > 0) { HTML += `<li><b>Hit Range:</b> Length of ${length}m and radius of ${width}m; from the <b>caster</b> towards the <b>main target</b></li>` }
-                return HTML
-              }
-
-              function calcBuffCastChargeTime(charge) {
-                var maxCharge = 200
-                var HTML = `<li>`
-                if (charge == maxCharge) { HTML += `The buff is at the <b>maximum amount of charge</b>` }
-                else {
-                  HTML += `<b>Passively gains 1% charge</b> every`
-                  if (charge >= 100) { HTML += ` 2 seconds` }
-                  else { HTML += ` second` }
-                  HTML += `; can <b>gain extra charge</b> upon using certain skills`
-                }
+            function calcMagicMCannonHitCountInfo(charge) {
+              var hitCount = Math.ceil(charge / 20)
+              if (hitCount > 5) { hitCount = 5 }
+              var HTML = ``
+              if (charge > 0) {
+                HTML += `<li><b>Hit Count:</b> ${hitCount} hit`
+                if (hitCount > 1) { HTML += `s; damage calculation is done for each hit` }
                 HTML += `</li>`
-                return HTML
               }
+              return HTML
+            }
 
-              function addAttackCastUseInfo(charge) {
-                var HTML = `<li>Using the attack cast during this stage will <b>consume the buff to launch an attack</b> from the caster`
-                if (charge == 0) { HTML += `, but the attack will only result in a [Miss]` }
-                HTML += `</li>`
-                if (charge > 100) { HTML += `<li>This skill gains ${charge - 100}% <b>Guard Pierce</b> chance (chance of not getting [Guarded])</li>` }
-                return HTML
+            function calcAttackCastHitRange(weapon, charge) {
+              var length = 100
+              var width = 2
+              if (weapon == "md" || weapon == "submd") { width += 1 }
+              var HTML = ``
+              if (charge > 0) { HTML += `<li><b>Hit Range:</b> Length of ${length}m and radius of ${width}m; from the <b>caster</b> towards the <b>main target</b></li>` }
+              return HTML
+            }
+
+            function calcBuffCastChargeTime(charge) {
+              var maxCharge = 200
+              var HTML = `<li>`
+              if (charge == maxCharge) { HTML += `The buff is at the <b>maximum amount of charge</b>` }
+              else {
+                HTML += `<b>Passively gains 1% charge</b> every`
+                if (charge >= 100) { HTML += ` 2 seconds` }
+                else { HTML += ` second` }
+                HTML += `; can <b>gain extra charge</b> upon using certain skills`
               }
+              HTML += `</li>`
+              return HTML
+            }
 
-              function addBuffChargeManaExpEffect(charge) {
-                var HTML = ``
-                if (charge < 200) {
-                  HTML += `<li><b>Getting afflicted with [Mana Explosion]</b> during this stage will <b>prevent charge gain from skill casting</b>`
-                  if (charge >= 100) { HTML += ` as well as <b>stopping the passive charge gain</b>` }
-                  HTML += ` until the ailment is removed</li>`
+            function addAttackCastUseInfo(charge) {
+              var HTML = `<li>Using the attack cast during this stage will <b>consume the buff to launch an attack</b> from the caster`
+              if (charge == 0) { HTML += `, but the attack will only result in a [Miss]` }
+              HTML += `</li>`
+              if (charge > 100) { HTML += `<li>This skill gains ${charge - 100}% <b>Guard Pierce</b> chance (chance of not getting [Guarded])</li>` }
+              return HTML
+            }
+
+            function addBuffChargeManaExpEffect(charge) {
+              var HTML = ``
+              if (charge < 200) {
+                HTML += `<li><b>Getting afflicted with [Mana Explosion]</b> during this stage will <b>prevent charge gain from skill casting</b>`
+                if (charge >= 100) { HTML += ` as well as <b>stopping the passive charge gain</b>` }
+                HTML += ` until the ailment is removed</li>`
+              }
+              HTML += `<li><b>Taking damage from [Mana Explosion]</b> will <b>remove the buff</b></li>`
+              return HTML
+            }
+
+            function addMagicMCannonBuffDuration(charge) {
+              var HTML = `<li><b>Buff Duration:</b> Until <b>Magic: Magic Cannon</b> is cast again (attack cast) OR until you take damage from [Mana Explosion]</li>`
+              return HTML
+            }
+
+            function addAttackCastComboTagInfo(buffTag, buffTagName, charge, attackTag, attackTagName, comboCountAttack, remainingMP, bloodspirit) {
+              var ccAttack = comboCountAttack.value
+              var tenaMPCost = remainingMP * 100
+              var tenaHPCost = (7 - remainingMP) * 10
+              var invChance = 20 * (ccAttack - 1)
+              if (invChance > 100) { invChance = 100 }
+              var vamp = 10 + (ccAttack * 1)
+              var HTML = ``
+              if (buffTag != "None" && attackTag != "None" && buffTag == attackTag) { HTML += `<li>&nbsp&nbsp&nbsp- Due to the <b>buff cast's ${buffTagName} Combo Tag</b>, the <b>attack cast's ${attackTagName} Combo Tag is negated</b></li>` }
+              else if (attackTag != "None" && buffTag != attackTag) {
+                if (attackTag == "Tenacity" && remainingMP < 7) {
+                  HTML += `<li>&nbsp&nbsp&nbsp- `
+                  if (remainingMP > 0) { HTML += `<b>${tenaMPCost} MP</b> and ` }
+                  HTML += `<b>${tenaHPCost}% of MaxHP</b> will be consumed instead of the usual MP Cost</li>`
                 }
-                HTML += `<li><b>Taking damage from [Mana Explosion]</b> will <b>remove the buff</b></li>`
-                return HTML
+                else if (attackTag == "Swift") { HTML += `<li>&nbsp&nbsp&nbsp- <b>Motion Speed</b> of the cast is set to 150%</li>` }
+                else if (attackTag == "Invincible") { HTML += `<li>&nbsp&nbsp&nbsp- ${invChance}% chance to gain [Invincible] until skill animation ends</li>` }
+                else if (attackTag == "Bloodsuck" && !bloodspirit && charge > 0) { HTML += `<li>&nbsp&nbsp&nbsp- Heal yourself for ${vamp}% of the damage dealt by the skill, and grant Spirit buff for 10 seconds</li>` }
+                else if (attackTag == "Tough") { HTML += `<li>&nbsp&nbsp&nbsp- All damage received during skill animation are reduced by 50%</li>` }
+                else if (attackTag == "Reflect") { HTML += `<li>&nbsp&nbsp&nbsp- Counterattack <b>once</b> upon getting hit during skill animation</li>` }
               }
+              return HTML
+            }
 
-              function addMagicMCannonBuffDuration(charge) {
-                var HTML = `<li><b>Buff Duration:</b> Until <b>Magic: Magic Cannon</b> is cast again (attack cast) OR until you take damage from [Mana Explosion]</li>`
-                return HTML
+            function addAttackCastComboMultiplierInfo(buffTag, comboCountBuff, consCountBuff, remainingMP, attackTag, comboCountAttack, consCountAttack, bloodspirit) {
+              var HTML = ``
+              var ccBuff = comboCountBuff.value
+              var consBuff = consCountBuff.value
+              var ccAttack = comboCountAttack.value
+              var consAttack = consCountAttack.value
+              var hpCost = 10 - (ccAttack * 1)
+              var damageMod = 100
+              if (buffTag == "Cons") { damageMod -= consBuff * 10 }
+              if (buffTag == "Save") { damageMod -= 80 }
+              if (buffTag == "Smite") { damageMod += 50 }
+              if (attackTag != buffTag) {
+                if (attackTag == "Cons") { damageMod -= consAttack * 10 }
+                if (attackTag == "Save") { damageMod -= 80 }
+                if (attackTag == "Smite") { damageMod += 50 }
+                //if (attackTag == "Tenacity") {damageMod -= (7-remainingMP)*10}
+                if (bloodspirit && attackTag == "Bloodsuck" && buffTag != "Smite") { damageMod += 10 + (ccAttack * 1) }
               }
-
-              function addAttackCastComboTagInfo(buffTag, buffTagName, charge, attackTag, attackTagName, comboCountAttack, remainingMP, bloodspirit) {
-                var ccAttack = comboCountAttack.value
-                var tenaMPCost = remainingMP * 100
-                var tenaHPCost = (7 - remainingMP) * 10
-                var invChance = 20 * (ccAttack - 1)
-                if (invChance > 100) { invChance = 100 }
-                var vamp = 10 + (ccAttack * 1)
-                var HTML = ``
-                if (buffTag != "None" && attackTag != "None" && buffTag == attackTag) { HTML += `<li>&nbsp&nbsp&nbsp- Due to the <b>buff cast's ${buffTagName} Combo Tag</b>, the <b>attack cast's ${attackTagName} Combo Tag is negated</b></li>` }
-                else if (attackTag != "None" && buffTag != attackTag) {
-                  if (attackTag == "Tenacity" && remainingMP < 7) {
-                    HTML += `<li>&nbsp&nbsp&nbsp- `
-                    if (remainingMP > 0) { HTML += `<b>${tenaMPCost} MP</b> and ` }
-                    HTML += `<b>${tenaHPCost}% of MaxHP</b> will be consumed instead of the usual MP Cost</li>`
-                  }
-                  else if (attackTag == "Swift") { HTML += `<li>&nbsp&nbsp&nbsp- <b>Motion Speed</b> of the cast is set to 150%</li>` }
-                  else if (attackTag == "Invincible") { HTML += `<li>&nbsp&nbsp&nbsp- ${invChance}% chance to gain [Invincible] until skill animation ends</li>` }
-                  else if (attackTag == "Bloodsuck" && !bloodspirit && charge > 0) { HTML += `<li>&nbsp&nbsp&nbsp- Heal yourself for ${vamp}% of the damage dealt by the skill, and grant Spirit buff for 10 seconds</li>` }
-                  else if (attackTag == "Tough") { HTML += `<li>&nbsp&nbsp&nbsp- All damage received during skill animation are reduced by 50%</li>` }
-                  else if (attackTag == "Reflect") { HTML += `<li>&nbsp&nbsp&nbsp- Counterattack <b>once</b> upon getting hit during skill animation</li>` }
-                }
-                return HTML
+              if (damageMod < 10) { damageMod = 10 }
+              if (damageMod != 100) {
+                HTML += `<li>&nbsp&nbsp&nbsp- <b>Damage dealt by the skill</b> is`
+                if (damageMod > 100) { HTML += ` increased to` }
+                else { HTML += ` decreased to` }
+                HTML += ` ${damageMod}%</li>`
               }
+              if (bloodspirit && hpCost > 0 && attackTag == "Bloodsuck" && buffTag != attackTag) { HTML += `<li>&nbsp&nbsp&nbsp- <b>${hpCost}% of MaxHP</b> is consumed due to Spirit effect</li>` }
+              return HTML
+            }
 
-              function addAttackCastComboMultiplierInfo(buffTag, comboCountBuff, consCountBuff, remainingMP, attackTag, comboCountAttack, consCountAttack, bloodspirit) {
-                var HTML = ``
-                var ccBuff = comboCountBuff.value
-                var consBuff = consCountBuff.value
-                var ccAttack = comboCountAttack.value
-                var consAttack = consCountAttack.value
-                var hpCost = 10 - (ccAttack * 1)
-                var damageMod = 100
-                if (buffTag == "Cons") { damageMod -= consBuff * 10 }
-                if (buffTag == "Save") { damageMod -= 80 }
-                if (buffTag == "Smite") { damageMod += 50 }
-                if (attackTag != buffTag) {
-                  if (attackTag == "Cons") { damageMod -= consAttack * 10 }
-                  if (attackTag == "Save") { damageMod -= 80 }
-                  if (attackTag == "Smite") { damageMod += 50 }
-                  //if (attackTag == "Tenacity") {damageMod -= (7-remainingMP)*10}
-                  if (bloodspirit && attackTag == "Bloodsuck" && buffTag != "Smite") { damageMod += 10 + (ccAttack * 1) }
-                }
-                if (damageMod < 10) { damageMod = 10 }
-                if (damageMod != 100) {
-                  HTML += `<li>&nbsp&nbsp&nbsp- <b>Damage dealt by the skill</b> is`
-                  if (damageMod > 100) { HTML += ` increased to` }
-                  else { HTML += ` decreased to` }
-                  HTML += ` ${damageMod}%</li>`
-                }
-                if (bloodspirit && hpCost > 0 && attackTag == "Bloodsuck" && buffTag != attackTag) { HTML += `<li>&nbsp&nbsp&nbsp- <b>${hpCost}% of MaxHP</b> is consumed due to Spirit effect</li>` }
-                return HTML
+            function addAttackCastSubSection(mMCBuff, level, weapon, charge, intValue, buffTag, buffTagName, comboCountBuff, consCountBuff, attackTag, attackTagName, comboCountAttack, consCountAttack, smiteLast, remainingMP, bloodspirit, result) {
+              //Initiating attack cast sub section
+              var HTML = `The skill requires a target to use, and will <b>activate the attack cast</b>:`
+              HTML += calcAttackCastMpCost(buffTag, attackTag, comboCountAttack, smiteLast)
+              HTML += `<li><b>Maximum Cast Range:</b> Infinite, limited to 24m (maximum targeting range)</li>`
+              //Adding attack cast elements
+              HTML += calcMagicMCannonConstant(weapon, charge)
+              HTML += calcMagicMCannonMultiplier(level, weapon, charge, intValue)
+              HTML += calcMagicMCannonHitCountInfo(charge)
+              HTML += `<br>`
+              HTML += calcAttackCastHitRange(weapon, charge)
+              HTML += calcBuffCastChargeTime(charge)
+              HTML += addAttackCastUseInfo(charge)
+              HTML += addBuffChargeManaExpEffect(charge)
+              var comboTagInfo = addAttackCastComboTagInfo(buffTag, buffTagName, charge, attackTag, attackTagName, comboCountAttack, remainingMP, bloodspirit)
+              var comboMultInfo = addAttackCastComboMultiplierInfo(buffTag, comboCountBuff, consCountBuff, remainingMP, attackTag, comboCountAttack, consCountAttack, bloodspirit)
+              if (charge > 0 && (comboTagInfo != "" || comboMultInfo != "")) {
+                HTML += `<li><b>Attack cast Combo Tag modifier:</b><ul>`
+                HTML += comboTagInfo
+                HTML += comboMultInfo
+                HTML += `</ul></li>`
               }
+              HTML += addMagicMCannonBuffDuration(charge)
+              if (mMCBuff) { result.innerHTML += HTML }
+            }
 
-              function addAttackCastSubSection(mMCBuff, level, weapon, charge, intValue, buffTag, buffTagName, comboCountBuff, consCountBuff, attackTag, attackTagName, comboCountAttack, consCountAttack, smiteLast, remainingMP, bloodspirit, result) {
-                //Initiating attack cast sub section
-                var HTML = `The skill requires a target to use, and will <b>activate the attack cast</b>:`
-                HTML += calcAttackCastMpCost(buffTag, attackTag, comboCountAttack, smiteLast)
-                HTML += `<li><b>Maximum Cast Range:</b> Infinite, limited to 24m (maximum targeting range)</li>`
-                //Adding attack cast elements
-                HTML += calcMagicMCannonConstant(weapon, charge)
-                HTML += calcMagicMCannonMultiplier(level, weapon, charge, intValue)
-                HTML += calcMagicMCannonHitCountInfo(charge)
-                HTML += `<br>`
-                HTML += calcAttackCastHitRange(weapon, charge)
-                HTML += calcBuffCastChargeTime(charge)
-                HTML += addAttackCastUseInfo(charge)
-                HTML += addBuffChargeManaExpEffect(charge)
-                var comboTagInfo = addAttackCastComboTagInfo(buffTag, buffTagName, charge, attackTag, attackTagName, comboCountAttack, remainingMP, bloodspirit)
-                var comboMultInfo = addAttackCastComboMultiplierInfo(buffTag, comboCountBuff, consCountBuff, remainingMP, attackTag, comboCountAttack, consCountAttack, bloodspirit)
-                if (charge > 0 && (comboTagInfo != "" || comboMultInfo != "")) {
-                  HTML += `<li><b>Attack cast Combo Tag modifier:</b><ul>`
-                  HTML += comboTagInfo
-                  HTML += comboMultInfo
-                  HTML += `</ul></li>`
-                }
-                HTML += addMagicMCannonBuffDuration(charge)
-                if (mMCBuff) { result.innerHTML += HTML }
+            function addMMCannonExtraInfo(weapon, mMCBuff, charge, result) {
+              var chargeMult1 = 40
+              var chargeMult2 = 20
+              if (weapon == "staff" || weapon == "md") {
+                chargeMult1 *= 2
+                chargeMult2 *= 2
               }
+              var HTML = `<br><b>Extra info:</b>
+        <li>A note for this skill's info: Combo Tag effects in this section are under the assumption that there are no other effects applied to this skill; certain effects can have different interaction with the Combo tag effects applied to the casts</li>
+        <li><b>Zero Stance registlet</b> effect will only be applied if the attack cast is used out of combo; using the buff cast out of combo will not activate the registlet's effect<ul>
+        <li>&nbsp&nbsp&nbsp- If the buff cast has a Combo tag, <b>Zero Stance effect will be overwritten if said Combo tag has a damage modifier effect</b>; it will work normally otherwise</li>
+        </ul></li>`
+              if (mMCBuff) {
+                HTML += `<li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats; <b>Long Range Damage stat will be applied to the entire skill instead of Short Range Damage stat</b> if at least 1 enemy hit by this skill is at 8m or further from the <b>caster</b>, regardless of where the other enemies are</li>
+      <li>List of skills that can charge <b>Magic: Magic Cannon</b>:<ul>
+      <li>&nbsp&nbsp&nbsp- Magic Skills: <b>All skills except</b> <i>Chronos Shift</i>, <i>MP Charge</i> and <i>Guardian Beam</i></li>
+      <li>&nbsp&nbsp&nbsp- Priest Skills: <b>Bless</b>, <b>Gloria</b>, <b>Royal Heal</b>, <b>Holy Light</b>, <b>Prayer</b></li>
+      <li>&nbsp&nbsp&nbsp- Wizard Skills: <b>Mana Crystal</b>, <b>Imperial Ray</b></li>
+      <li>&nbsp&nbsp&nbsp- Magic Blade Skills: <b>Ether Flare</b>, <b>Enchant Sword</b></li>
+      <li>&nbsp&nbsp&nbsp- <b>Red Tear</b>, <b>Punish Ray</b></li>
+      </ul></li>
+      <li>The amount of charge gained from casting skill(s) is affected by <b>your CSPD stat</b> and <b>the final cast time of that skill</b>; the formula is estimated to be:<br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAmount of charge (%) = ${chargeMult1}×[Cast time reduction percentage from CSPD] + [Final cast time]×[Skill Level]<br>
+      For example, 1000 CSPD gives 50% cast time reduction, <b>Magic: Storm</b> in this case will have 0.5 seconds cast time; using <b>Magic: Storm</b> will charge a Lv10 <b>Magic: Magic Cannon</b> by an amount of:<br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp${chargeMult1}×50% + 0.5×10 = ${chargeMult1 * 0.5 + 0.5 * 10}%<br>
+      There are 3 exceptions: instant-cast <b>Magic: Impact</b>, instant-cast <b>Maximizer</b> and <b>Enchant Sword</b>; for these skills, the formula becomes:<br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAmount of charge (%) = ${chargeMult2}×[Cast time reduction percentage from CSPD]<br>
+      In either case, the charge gain will be halved if the current charge has reached 100%</li>`}
+              else if (!mMCBuff) { HTML += `<li>The buff cast is <b>unaffected by any motion speed modifier except Swift Combo tag</b></li>` }
+              HTML += ``
+              result.innerHTML += HTML
+            }
 
-              function addMMCannonExtraInfo(weapon, mMCBuff, charge, result) {
-                var chargeMult1 = 40
-                var chargeMult2 = 20
-                if (weapon == "staff" || weapon == "md") {
-                  chargeMult1 *= 2
-                  chargeMult2 *= 2
-                }
-                var HTML = `<br><b>Extra info:</b>
-      <li>A note for this skill's info: Combo Tag effects in this section are under the assumption that there are no other effects applied to this skill; certain effects can have different interaction with the Combo tag effects applied to the casts</li>
-      <li><b>Zero Stance registlet</b> effect will only be applied if the attack cast is used out of combo; using the buff cast out of combo will not activate the registlet's effect<ul>
-      <li>&nbsp&nbsp&nbsp- If the buff cast has a Combo tag, <b>Zero Stance effect will be overwritten if said Combo tag has a damage modifier effect</b>; it will work normally otherwise</li>
-      </ul></li>`
-                if (mMCBuff) {
-                  HTML += `<li>This skill is affected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats; <b>Long Range Damage stat will be applied to the entire skill instead of Short Range Damage stat</b> if at least 1 enemy hit by this skill is at 8m or further from the <b>caster</b>, regardless of where the other enemies are</li>
-    <li>List of skills that can charge <b>Magic: Magic Cannon</b>:<ul>
-    <li>&nbsp&nbsp&nbsp- Magic Skills: <b>All skills except</b> <i>Chronos Shift</i>, <i>MP Charge</i> and <i>Guardian Beam</i></li>
-    <li>&nbsp&nbsp&nbsp- Priest Skills: <b>Bless</b>, <b>Gloria</b>, <b>Royal Heal</b>, <b>Holy Light</b>, <b>Prayer</b></li>
-    <li>&nbsp&nbsp&nbsp- Wizard Skills: <b>Mana Crystal</b>, <b>Imperial Ray</b></li>
-    <li>&nbsp&nbsp&nbsp- Magic Blade Skills: <b>Ether Flare</b>, <b>Enchant Sword</b></li>
-    <li>&nbsp&nbsp&nbsp- <b>Red Tear</b>, <b>Punish Ray</b></li>
-    </ul></li>
-    <li>The amount of charge gained from casting skill(s) is affected by <b>your CSPD stat</b> and <b>the final cast time of that skill</b>; the formula is estimated to be:<br>
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAmount of charge (%) = ${chargeMult1}×[Cast time reduction percentage from CSPD] + [Final cast time]×[Skill Level]<br>
-    For example, 1000 CSPD gives 50% cast time reduction, <b>Magic: Storm</b> in this case will have 0.5 seconds cast time; using <b>Magic: Storm</b> will charge a Lv10 <b>Magic: Magic Cannon</b> by an amount of:<br>
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp${chargeMult1}×50% + 0.5×10 = ${chargeMult1 * 0.5 + 0.5 * 10}%<br>
-    There are 3 exceptions: instant-cast <b>Magic: Impact</b>, instant-cast <b>Maximizer</b> and <b>Enchant Sword</b>; for these skills, the formula becomes:<br>
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAmount of charge (%) = ${chargeMult2}×[Cast time reduction percentage from CSPD]<br>
-    In either case, the charge gain will be halved if the current charge has reached 100%</li>`}
-                else if (!mMCBuff) { HTML += `<li>The buff cast is <b>unaffected by any motion speed modifier except Swift Combo tag</b></li>` }
-                HTML += ``
-                result.innerHTML += HTML
-              }
+            function calcMagicMCannonValues() {
+              var weaponSelector = document.getElementById("magicMCannonWeapon")
+              var weapon = weaponSelector[weaponSelector.selectedIndex].value
+              var levelSelector = document.getElementById("magicMCannonSkillLevel")
+              var level = levelSelector[levelSelector.selectedIndex].value
+              var buffTagSelector = document.getElementById("magicMCannonBuffComboTag")
+              var buffTag = buffTagSelector[buffTagSelector.selectedIndex].value
+              var buffTagName = buffTagSelector[buffTagSelector.selectedIndex].text
+              var comboCountBuffSection = document.getElementById("buffCastComboCountMCannon")
+              var consCountBuffSection = document.getElementById("buffCastConsCountMCannon")
+              var buffBloodSpiritSection = document.getElementById("buffCastBloodspiritActiveMCannon")
+              var magicMCannonAttackSection = document.getElementById("magicMCannonAttackInputs")
+              var attackTagSelector = document.getElementById("magicMCannonAttackComboTag")
+              var attackTag = attackTagSelector[attackTagSelector.selectedIndex].value
+              var attackTagName = attackTagSelector[attackTagSelector.selectedIndex].text
+              var comboCountAttackSection = document.getElementById("attackCastComboCountMCannon")
+              var consCountAttackSection = document.getElementById("attackCastConsCountMCannon")
+              var smiteLastSection = document.getElementById("attackCastSmiteLastMCannon")
+              var smiteLast = document.getElementById("attackSmiteLastMCannon").checked
+              var tenacityCostSection = document.getElementById("attackCastTenacityCostMCannon")
+              var tenaCostSelector = document.getElementById("tenaRemainingMPMCannon")
+              var remainingMP = tenaCostSelector[tenaCostSelector.selectedIndex].value
+              var attackBloodSpiritSection = document.getElementById("attackCastBloodspiritActiveMCannon")
+              var bloodspirit
+              if (buffTag == "Bloodsuck") { bloodspirit = document.getElementById("buffBloodSpiritMCannon").checked }
+              else if (attackTag == "Bloodsuck") { bloodspirit = document.getElementById("attackBloodSpiritMCannon").checked }
+              var mMCBuff = document.getElementById("magicMCannonBuffActive").checked
+              var charge = document.getElementById("magicMCannonBuffCharge").value
+              var intValue = document.getElementById("magicMCannonIntValue").value
+              var comboCountBuff = document.getElementById("comboCountMCannon1")
+              var comboCountAttack = document.getElementById("comboCountMCannon2")
+              var consCountBuff = document.getElementById("consCountMCannon1")
+              var consCountAttack = document.getElementById("consCountMCannon2")
+              var result = document.getElementById("magicMCannonValues")
+              result.innerHTML = ``
+              mMCBuffCheck(mMCBuff, magicMCannonAttackSection)
+              comboTagCheck(buffTag, attackTag, comboCountBuffSection, consCountBuffSection, comboCountAttackSection, consCountAttackSection, smiteLastSection, tenacityCostSection, buffBloodSpiritSection, attackBloodSpiritSection, bloodspirit, mMCBuff)
+              changeMaxConsCount(comboCountAttack, consCountAttack)
+              addBuffCastSubSection(buffTag, comboCountBuff, bloodspirit, mMCBuff, result)
+              addAttackCastSubSection(mMCBuff, level, weapon, charge, intValue, buffTag, buffTagName, comboCountBuff, consCountBuff, attackTag, attackTagName, comboCountAttack, consCountAttack, smiteLast, remainingMP, bloodspirit, result)
+              addMMCannonExtraInfo(weapon, mMCBuff, charge, result)
+              result.innerHTML += `<br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b><br>Credits to <b>Phantom Library</b> for the info of the skill`
+            }
 
-              function calcMagicMCannonValues() {
-                var weaponSelector = document.getElementById("magicMCannonWeapon")
-                var weapon = weaponSelector[weaponSelector.selectedIndex].value
-                var levelSelector = document.getElementById("magicMCannonSkillLevel")
-                var level = levelSelector[levelSelector.selectedIndex].value
-                var buffTagSelector = document.getElementById("magicMCannonBuffComboTag")
-                var buffTag = buffTagSelector[buffTagSelector.selectedIndex].value
-                var buffTagName = buffTagSelector[buffTagSelector.selectedIndex].text
-                var comboCountBuffSection = document.getElementById("buffCastComboCountMCannon")
-                var consCountBuffSection = document.getElementById("buffCastConsCountMCannon")
-                var buffBloodSpiritSection = document.getElementById("buffCastBloodspiritActiveMCannon")
-                var magicMCannonAttackSection = document.getElementById("magicMCannonAttackInputs")
-                var attackTagSelector = document.getElementById("magicMCannonAttackComboTag")
-                var attackTag = attackTagSelector[attackTagSelector.selectedIndex].value
-                var attackTagName = attackTagSelector[attackTagSelector.selectedIndex].text
-                var comboCountAttackSection = document.getElementById("attackCastComboCountMCannon")
-                var consCountAttackSection = document.getElementById("attackCastConsCountMCannon")
-                var smiteLastSection = document.getElementById("attackCastSmiteLastMCannon")
-                var smiteLast = document.getElementById("attackSmiteLastMCannon").checked
-                var tenacityCostSection = document.getElementById("attackCastTenacityCostMCannon")
-                var tenaCostSelector = document.getElementById("tenaRemainingMPMCannon")
-                var remainingMP = tenaCostSelector[tenaCostSelector.selectedIndex].value
-                var attackBloodSpiritSection = document.getElementById("attackCastBloodspiritActiveMCannon")
-                var bloodspirit
-                if (buffTag == "Bloodsuck") { bloodspirit = document.getElementById("buffBloodSpiritMCannon").checked }
-                else if (attackTag == "Bloodsuck") { bloodspirit = document.getElementById("attackBloodSpiritMCannon").checked }
-                var mMCBuff = document.getElementById("magicMCannonBuffActive").checked
-                var charge = document.getElementById("magicMCannonBuffCharge").value
-                var intValue = document.getElementById("magicMCannonIntValue").value
-                var comboCountBuff = document.getElementById("comboCountMCannon1")
-                var comboCountAttack = document.getElementById("comboCountMCannon2")
-                var consCountBuff = document.getElementById("consCountMCannon1")
-                var consCountAttack = document.getElementById("consCountMCannon2")
-                var result = document.getElementById("magicMCannonValues")
-                result.innerHTML = ``
-                mMCBuffCheck(mMCBuff, magicMCannonAttackSection)
-                comboTagCheck(buffTag, attackTag, comboCountBuffSection, consCountBuffSection, comboCountAttackSection, consCountAttackSection, smiteLastSection, tenacityCostSection, buffBloodSpiritSection, attackBloodSpiritSection, bloodspirit, mMCBuff)
-                changeMaxConsCount(comboCountAttack, consCountAttack)
-                addBuffCastSubSection(buffTag, comboCountBuff, bloodspirit, mMCBuff, result)
-                addAttackCastSubSection(mMCBuff, level, weapon, charge, intValue, buffTag, buffTagName, comboCountBuff, consCountBuff, attackTag, attackTagName, comboCountAttack, consCountAttack, smiteLast, remainingMP, bloodspirit, result)
-                addMMCannonExtraInfo(weapon, mMCBuff, charge, result)
-                result.innerHTML += `<br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b><br>
-    Credits to <b>Phantom Library</b> for the info of the skill`
-              }
-
-              calcMagicMCannonValues()
-            </script>
-          </details>
-          <p></p>
+            calcMagicMCannonValues()
+          </script>
+        </details>
+        <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
-          <div style="display:grid;grid-template-columns: 1fr 1fr;">
-            <div>
-              <p class="card-title">
-                <img src="../../images/skills/crash.png" width="34" height="34">
-                Magic: Crash
-              </p>
-              <p class="medium">
-                Skill Magic: Crash Level 5 </p>
-            </div>
-            <div style="justify-self:end;">
-              <img src="../../images/icon/all.png"><br>Available with all weapons
-            </div>
-          </div>
-          <hr class="separator">
-          <div class="monster-prop">
-            <div>
-              <p class="accent-bold">Type</p>
-              <p>Active, Magic skill</p>
-            </div>
-            <div>
-              <p class="accent-bold">Element</p>
-              <p>Weapon Dependent</p>
-            </div>
-            <div>
-              <p class="accent-bold">MP</p>
-              <p>400</p>
-            </div>
-            <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-            <div>
-              <p class="accent-bold">Combo start</p>
-              <p>Yes</p>
-            </div>
-            <div>
-              <p class="accent-bold">Combo middle</p>
-              <p>Yes</p>
-            </div>
-            <div>
-              <p class="accent-bold">Range</p>
-              <p>12</p>
-            </div>
-            <div class="span-2">
-              <p class="accent-bold">Description</p>
-              <p>Summons 3 little meteorites. When hitting the target, each meteorite may drop down again up to 2 times
-                with
-                diminishing power, but a higher chance of inflicting [Armor Break] or [Dizzy].</p>
-            </div>
-            <div class="span-2">
-              <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-                <p><img src="../../images/icon/staff.png"></p>
-                <p>Staff</p>
-              </div>
-              <p>Power increases depending on INT.<br>
-                Increases the chance of inflicting a status ailment.<br>
-                Range (Radius) +0.5m</p>
-            </div>
-            <div class="span-2">
-              <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-                <p><img src="../../images/icon/md.png"></p>
-                <p>Magic Device</p>
-              </div>
-              <p>Greatly increases the chance of inflicting a status ailment.<br>
-                Range (Radius) +1.5m</p>
-            </div>
-          </div>
-          <p class="accent-bold">Extras</p>
-          <p></p>
-          <details open="">
-            <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
-            <select id="magicCrashWeapon" onchange="calcMagicCrashValues()">
-              <option value="Staff" selected="">Staff</option>
-              <option value="MD">Main Magic Device</option>
-              <option value="SubMD">Sub Magic Device</option>
-              <option value="Other">Other</option>
-            </select><br><span class="sub-title"><b>Skill Level:</b></span>
-            <select id="magicCrashLevel" onchange="calcMagicCrashValues()">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10" selected="">10</option>
-            </select><br>
-            <div id="mCrashIntInput" style="display: block;">
-              <span class="sub-title"><b>Base INT:</b></span>
-              <input type="number" id="mCrashINT" min="1" max="510" value="255" style="width: 4em; text-align: right"
-                onchange="calcMagicCrashValues()"><br>
-            </div>
-            <span class="sub-title"><b>Cast Speed:</b></span>
-            <input type="number" style="width: 6em; text-align: right" value="0" id="magicCrashCSPD"
-              onchange="calcMagicCrashValues()"><br>
-            <span class="sub-title"><b>Chain Cast buff is active:</b></span>
-            <input type="checkbox" id="mCrashChain" onchange="calcMagicCrashValues()"><br>
-            <div id="mCrashChainActive" style="display: none;">
-              <span class="sub-title"><b>Chain Cast Level:</b></span>
-              <select id="mCrashChainLevel" onchange="calcMagicCrashValues()">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10" selected="">10</option>
-              </select>
-            </div>
-            <div id="magicCrashChainStackInput" style="display: block;">
-              <span class="sub-title"><b>Chain Cast stack count:</b></span>
-              <input type="number" id="mCrashChainStack" min="0" max="10" value="0" style="width: 3em"
-                onchange="calcMagicCrashValues()">
-            </div>
-            <br>
-            <span id="magicCrashValues">
-              <li><b>Skill Constant: </b> 400; constant for each hit</li>
-              <li><b>Skill Multiplier (First Volley):</b> 5.85; multiplier for each hit</li>
-              <li><b>Skill Multiplier (Second Volley):</b> 4; multiplier for each hit</li>
-              <li><b>Skill Multiplier (Third Volley):</b> 3; multiplier for each hit</li>
-              <li><b>Hit Count:</b> 3 hits per volley; damage calculation is done for each hit</li><br>
-              <li><b>Cast Time:</b> 2 seconds (affected by CSPD)</li>
-              <li><b>Hit Range (radius):</b> 2.5m, around the <b>drop location</b></li>
-              <li><b>Drop Range (radius):</b> 1m + [target's size in in-game meters] (estimate), around &amp; follows
-                the
-                <b>main target</b>
-              </li>
-              <li><b>Armor Break Chance:</b> 20% (First Volley); 30% (Second Volley); 60% (Third Volley)</li>
-              <li><b>Armor Break Duration:</b> 5 seconds</li>
-              <li><b>Dizzy Chance:</b> 20% (First Volley); 30% (Second Volley); 60% (Third Volley); can only inflict if
-                [Armor
-                Break] is already inflicted</li>
-              <li><b>Dizzy Duration:</b> 10 seconds</li><br><b>Extra info:</b>
-              <li>This skill is a <b>placed skill</b>, making it unaffected by <b>Concentrate</b>, <b>Long Range
-                  passive</b>,
-                <b>Short Range Damage</b> and <b>Long Range Damage</b> stats
-              </li>
-              <li>Unlike most other skills, the total hit count of <b>Magic: Crash</b> is inconsistent and dependent on
-                its
-                own "successful hit count":<ul>
-                  <li>&nbsp;&nbsp;&nbsp;- Each volley can have up to 3 meteors, but while the <b>First Volley</b> always
-                    has
-                    3
-                    meteors, the <b>Second Volley</b> and <b>Third Volley</b> each will only have as many meteors as the
-                    number of <b>successful hits</b> dealt by the previous volley</li>
-                  <li>&nbsp;&nbsp;&nbsp;- Each meteor of the previous volley will only trigger the meteor with the
-                    respective
-                    order of the next volley; for example, denoting the meteor order as "First 1 &gt; First 2 &gt; First
-                    3
-                    &gt; Second 1 &gt; Second 2 &gt; Second 3 &gt; Third 1 &gt; Third 2 &gt; Third 3", a successful hit
-                    by
-                    "meteor 1" of the previous volley will trigger the "meteor 1" of the next volley, while a missed
-                    "meteor
-                    2" of the previous volley will result in an empty gap at when the "meteor 2" of the next volley is
-                    supposed to drop</li>
-                </ul>
-              </li>
-              <li>If <b>Magic: Crash</b> is recast while the previous <b>Magic: Crash</b> is still active, the latter
-                will
-                be
-                removed and all of its remaining hits will be canceled</li>
-              <li><b>Magic: Crash</b> name will change depending on its element:<ul>
-                  <li>&nbsp;&nbsp;&nbsp;- <b>Neutral:</b> Magic: Crash</li>
-                  <li>&nbsp;&nbsp;&nbsp;- <b>Fire:</b> Meteor Rain</li>
-                  <li>&nbsp;&nbsp;&nbsp;- <b>Water:</b> Hail</li>
-                  <li>&nbsp;&nbsp;&nbsp;- <b>Wind:</b> Fulgurite</li>
-                  <li>&nbsp;&nbsp;&nbsp;- <b>Earth:</b> Rockfall</li>
-                  <li>&nbsp;&nbsp;&nbsp;- <b>Light:</b> Meteor Light</li>
-                  <li>&nbsp;&nbsp;&nbsp;- <b>Dark:</b> Cosmos</li>
-                </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>
-              <br>The
-              bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
-            </span>
 
-            <script>
-              function calcCastTime(baseCastTime, CSPD) {
-                var castTime = baseCastTime * 1
-                var modifier1 = CSPD / 2000
-                var modifier2 = (CSPD - 1000) / 18000
-                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
-                else { castTime = castTime * (1 - (0.5 + modifier2)) }
-                if (castTime < 0) { castTime = 0 }
-                return castTime
-              }
 
-              function weaponIntCheckMCrash(weapon, intSection) {
-                if (weapon == "Staff") { intSection.style = "display: block" }
-                else { intSection.style = "display: none" }
-              }
-
-              function chainCastCheck(chainCast, chainCastSection) {
-                if (chainCast) { chainCastSection.style = "display: block" }
-                else { chainCastSection.style = "display: none" }
-              }
-
-              function weaponChainStackCheck(weapon, ccStackSection) {
-                if (weapon == "Staff" || weapon == "MD") { ccStackSection.style = "display: block" }
-                else { ccStackSection.style = "display: none" }
-              }
-
-              function calcMCrashConstant(result) {
-                var constant = 400
-                result.innerHTML = `<li><b>Skill Constant: </b> ${constant}; constant for each hit</li>`
-              }
-
-              function calcMCrashMultiplier(level, weapon, intValue, result) {
-                var multiplier1 = 3 + 0.2 * level
-                var multiplier2 = 2 + 0.2 * level
-                var multiplier3 = 1 + 0.2 * level
-                if (weapon == "Staff") { multiplier1 += intValue / 300 }
-                if (multiplier1 - Math.floor(multiplier1 * 100) / 100 < 0.00999999) { multiplier1 = Math.floor(multiplier1 * 100) / 100 }
-                else { multiplier1 = Math.round(multiplier1 * 100) / 100 }
-                multiplier2 = Math.round(multiplier2 * 100) / 100
-                multiplier3 = Math.round(multiplier3 * 100) / 100
-                result.innerHTML += `<li><b>Skill Multiplier (First Volley):</b> ${multiplier1}; multiplier for each hit</li>
-      <li><b>Skill Multiplier (Second Volley):</b> ${multiplier2}; multiplier for each hit</li>
-      <li><b>Skill Multiplier (Third Volley):</b> ${multiplier3}; multiplier for each hit</li>`
-              }
-
-              function calcMCrashHitCount(level, result) {
-                var HTML = `<li><b>Hit Count:</b> 3 hits per volley; damage calculation is done for each hit</li><br>`
-                result.innerHTML += HTML
-              }
-
-              function calcMCrashCastTime(weapon, CSPD, chainCast, chainCastLevel, ccStack, result) {
-                var baseCastTime = 2
-                if (weapon != "Other") { baseCastTime -= ccStack / 10 }
-                var castTime = calcCastTime(baseCastTime, CSPD)
-                if (chainCast && castTime > 0) { castTime *= (1 - 0.05 * chainCastLevel) }
-                castTime = Math.ceil(castTime * 100) / 100
-                var HTML = `<li><b>Cast Time:</b> ${castTime} second`
-                if (castTime != 1) { HTML += `s` }
-                HTML += ` (affected by CSPD)</li>`
-                result.innerHTML += HTML
-              }
-
-              function calcMCrashMotionSpeed(CSPD, chainCast, chainCastLevel, result) {
-                //Only applies if there's no cast time
-                var castTime = calcCastTime(2, CSPD)
-                var motionSpeed = 0
-                if (chainCast && castTime == 0) { motionSpeed = 5 * chainCastLevel }
-                if (motionSpeed > 0) { result.innerHTML += `<li><b>Motion Speed</b> of <b>Magic: Crash</b> +${motionSpeed}%</li>` }
-              }
-
-              function calcMCrashRange(level, weapon, result) {
-                var hitRange = 2
-                if (weapon == "Staff") { hitRange += 0.5 }
-                else if (weapon == "MD" || weapon == "SubMD") { hitRange += 1.5 }
-                result.innerHTML += `<li><b>Hit Range (radius):</b> ${hitRange}m, around the <b>drop location</b></li>
-      <li><b>Drop Range (radius):</b> 1m + [target's size in in-game meters] (estimate),  around & follows the <b>main target</b></li>`
-              }
-
-              function calcMCrashAilmentChance(weapon, result) {
-                var chance1 = 10
-                if (weapon == "Staff") { chance1 *= 2 }
-                else if (weapon == "MD" || weapon == "SubMD") { chance1 *= 4 }
-                var chance2 = chance1 * 1.5
-                var chance3 = chance1 * 3
-                if (chance3 > 100) { chance3 = 100 }
-                result.innerHTML += `<li><b>Armor Break Chance:</b> ${chance1}% (First Volley); ${chance2}% (Second Volley); ${chance3}% (Third Volley)</li>
-      <li><b>Armor Break Duration:</b> 5 seconds</li>
-      <li><b>Dizzy Chance:</b> ${chance1}% (First Volley); ${chance2}% (Second Volley); ${chance3}% (Third Volley); can only inflict if [Armor Break] is already inflicted</li>
-      <li><b>Dizzy Duration:</b> 10 seconds</li>`
-              }
-
-              function addMCrashPlacedInfo(result) {
-                result.innerHTML += `<br><b>Extra info:</b>
-    <li>This skill is a <b>placed skill</b>, making it unaffected by <b>Concentrate</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
-    <li>Unlike most other skills, the total hit count of <b>Magic: Crash</b> is inconsistent and dependent on its own "successful hit count":<ul>
-    <li>&nbsp&nbsp&nbsp- Each volley can have up to 3 meteors, but while the <b>First Volley</b> always has 3 meteors, the <b>Second Volley</b> and <b>Third Volley</b> each will only have as many meteors as the number of <b>successful hits</b> dealt by the previous volley</li>
-    <li>&nbsp&nbsp&nbsp- Each meteor of the previous volley will only trigger the meteor with the respective order of the next volley; for example, denoting the meteor order as "First 1 > First 2 > First 3 > Second 1 > Second 2 > Second 3 > Third 1 > Third 2 > Third 3", a successful hit by "meteor 1" of the previous volley will trigger the "meteor 1" of the next volley, while a missed "meteor 2" of the previous volley will result in an empty gap at when the "meteor 2" of the next volley is supposed to drop</li>
-    </ul></li>
-    <li>If <b>Magic: Crash</b> is recast while the previous <b>Magic: Crash</b> is still active, the latter will be removed and all of its remaining hits will be canceled</li>
-    <li><b>Magic: Crash</b> name will change depending on its element:<ul>
-      <li>&nbsp&nbsp&nbsp- <b>Neutral:</b> Magic: Crash</li>
-      <li>&nbsp&nbsp&nbsp- <b>Fire:</b> Meteor Rain</li>
-      <li>&nbsp&nbsp&nbsp- <b>Water:</b> Hail</li>
-      <li>&nbsp&nbsp&nbsp- <b>Wind:</b> Fulgurite</li>
-      <li>&nbsp&nbsp&nbsp- <b>Earth:</b> Rockfall</li>
-      <li>&nbsp&nbsp&nbsp- <b>Light:</b> Meteor Light</li>
-      <li>&nbsp&nbsp&nbsp- <b>Dark:</b> Cosmos</li>
-      </ul>These visual changes are purely aesthetic, however, and have no other impact on gameplay</li>`
-              }
-
-              function calcMagicCrashValues() {
-                var weaponSelector = document.getElementById("magicCrashWeapon")
-                var weapon = weaponSelector[weaponSelector.selectedIndex].value
-                var levelSelector = document.getElementById("magicCrashLevel")
-                var level = levelSelector[levelSelector.selectedIndex].value
-                var intSection = document.getElementById("mCrashIntInput")
-                var intValue = document.getElementById("mCrashINT").value
-                var CSPD = document.getElementById("magicCrashCSPD").value
-                var chainCast = document.getElementById("mCrashChain").checked
-                var chainCastSection = document.getElementById("mCrashChainActive")
-                var chainCastSelector = document.getElementById("mCrashChainLevel")
-                var chainCastLevel = chainCastSelector[chainCastSelector.selectedIndex].value
-                var ccStackSection = document.getElementById("magicCrashChainStackInput")
-                var ccStack = document.getElementById("mCrashChainStack").value
-                var result = document.getElementById("magicCrashValues")
-                weaponIntCheckMCrash(weapon, intSection)
-                chainCastCheck(chainCast, chainCastSection)
-                weaponChainStackCheck(weapon, ccStackSection)
-                calcMCrashConstant(result)
-                calcMCrashMultiplier(level, weapon, intValue, result)
-                calcMCrashHitCount(level, result)
-                calcMCrashCastTime(weapon, CSPD, chainCast, chainCastLevel, ccStack, result)
-                calcMCrashMotionSpeed(CSPD, chainCast, chainCastLevel, result)
-                calcMCrashRange(level, weapon, result)
-                calcMCrashAilmentChance(weapon, result)
-                addMCrashPlacedInfo(result)
-                result.innerHTML += `<br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>`
-              }
-
-              calcMagicCrashValues()
-            </script>
-          </details>
-          <p></p>
-        </div>
-
-        <hr class="separator">
-
-        <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
             <div>
               <p class="card-title">
@@ -3571,7 +3199,7 @@
               <img src="../../images/icon/staff.png"><img src="../../images/icon/md-main.png"><br>Staff/Main MD only
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -3633,7 +3261,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -3649,7 +3277,7 @@
               <img src="../../images/icon/staff.png"><br>Staff only
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -3679,11 +3307,8 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>Sends out magic daggers to contain enemy. This skill has "normal attack proration". Guarantees a hit
-                with
-                a
-                small amount of MP recovered. Additional attack with normal attack proration increases when it becomes
-                Lv10.
-              </p>
+                with a small amount of MP recovered. Additional attack with normal attack proration increases when it
+                becomes Lv10.</p>
             </div>
           </div>
           <p class="accent-bold">Extras</p>
@@ -3709,40 +3334,27 @@
               <li><b>Skill Multiplier (First 4 hits):</b> 1.5; total multiplier of all hits</li>
               <li><b>Skill Multiplier (Last hit):</b> 1.5</li>
               <li><b>Hit Count:</b> 5 hits; damage calculation of the first 4 hits is done once then spread evenly
-                between
-                said hits; damage calculation of the last his is done separately</li><br>
+                between said hits; damage calculation of the last his is done separately</li><br>
               <li>This skill has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be [Evaded]</li>
               <li>Each successful hit of the <b>first 4 hits</b> recovers 5 MP; the <b>last hit</b> recovers an
-                additional
-                20
-                MP</li>
+                additional 20 MP</li>
               <li>The <b>first 4 hits</b> inflicts <b>Normal Attack Proration</b> once; if successfully activated, the
-                <b>last
-                  hit</b> will inflict an extra <b>Normal Attack Proration</b> (meaning that the entire skill can
-                inflict
-                proration twice)
+                <b>last hit</b> will inflict an extra <b>Normal Attack Proration</b> (meaning that the entire skill can
+                inflict proration twice)
               </li><br><b>Extra info:</b>
               <li>This skill uses <b>Physical Proration</b> for its damage calculation</li>
               <li>The hits of this skill must land successfully (no [Miss] nor [Evaded]) in order to activate the MP
-                recovery;
-                if the target dies before the hits land, they will also not recover any MP</li>
+                recovery; if the target dies before the hits land, they will also not recover any MP</li>
               <li>Despite being called a "magic" both in name and description, this skill actually <b>fully functions
-                  like
-                  a
-                  physical skill, if not actually is a physical skill</b>: it uses purely physical stats (ATK, Physical
-                Critical, enemy's DEF, enemy's Physical Resistance, etc...), can still be used during [Silence] but not
-                [Bleed]; it also <b>does not give any Magic: Burst stack</b> despite being an attacking skill from
-                <b>Magic
-                  Skills Tree</b>
-              </li>
+                  like a physical skill, if not actually is a physical skill</b>: it uses purely physical stats (ATK,
+                Physical Critical, enemy's DEF, enemy's Physical Resistance, etc...), can still be used during [Silence]
+                but not [Bleed]; it also <b>does not give any Magic: Burst stack</b> despite being an attacking skill
+                from <b>Magic Skills Tree</b></li>
               <li>If the first 4 hits [Miss] or are [Evaded], the last hit will not activate, thus will also not inflict
-                the
-                additional proration nor recover extra MP</li>
+                the additional proration nor recover extra MP</li>
               <li>Due to the speed of the skill, it is actually more efficient to spam it rather than waiting for the
-                last
-                hit
-                when it comes to faster prorating, unless the caster has too low motion speed or has other priorities
-              </li>
+                last hit when it comes to faster prorating, unless the caster has too low motion speed or has other
+                priorities</li>
             </span>
 
             <script>
@@ -3750,7 +3362,7 @@
                 var HTML = ``
                 if (level == 10) {
                   HTML += `<li><b>Skill Constant (First 4 hits):</b> 0; total constant of all hits</li>
-      <li><b>Skill Constant (Last Hit):</b> 0</li>`}
+          <li><b>Skill Constant (Last Hit):</b> 0</li>`}
                 else { HTML += `<li><b>Skill Constant:</b> 0</li>` }
                 result.innerHTML = HTML
               }
@@ -3761,7 +3373,7 @@
                 var HTML = ``
                 if (level == 10) {
                   HTML += `<li><b>Skill Multiplier (First 4 hits):</b> ${multiplier}; total multiplier of all hits</li>
-      <li><b>Skill Multiplier (Last hit):</b> 1.5</li>`}
+          <li><b>Skill Multiplier (Last hit):</b> 1.5</li>`}
                 else { HTML += `<li><b>Skill Multiplier:</b> ${multiplier}; total multiplier of all hits</li>` }
                 HTML += `<li><b>Hit Count:</b>`
                 if (level == 10) { HTML += ` 5 hits; damage calculation of the first 4 hits is done once then spread evenly between said hits; damage calculation of the last his is done separately` }
@@ -3776,21 +3388,21 @@
                 let HTML = `<br><li>This skill has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be [Evaded]</li>`
                 if (level == 10) {
                   HTML += `<li>Each successful hit of the <b>first 4 hits</b> recovers ${mp} MP; the <b>last hit</b> recovers an additional ${4 * mp} MP</li>
-      <li>The <b>first 4 hits</b> inflicts <b>Normal Attack Proration</b> once; if successfully activated, the <b>last hit</b> will inflict an extra <b>Normal Attack Proration</b> (meaning that the entire skill can inflict proration twice)</li>`}
+          <li>The <b>first 4 hits</b> inflicts <b>Normal Attack Proration</b> once; if successfully activated, the <b>last hit</b> will inflict an extra <b>Normal Attack Proration</b> (meaning that the entire skill can inflict proration twice)</li>`}
                 else {
                   HTML += `<li>Each successful hit recovers ${mp} MP</li>
-      <li>This skill inflicts <b>Normal Attack Proration</b></li>`}
+          <li>This skill inflicts <b>Normal Attack Proration</b></li>`}
                 result.innerHTML += HTML
               }
 
               function addMagicKnifeExtraInfo(level, result) {
                 var HTML = `<br><b>Extra info:</b>
-      <li>This skill uses <b>Physical Proration</b> for its damage calculation</li>
-      <li>The hits of this skill must land successfully (no [Miss] nor [Evaded]) in order to activate the MP recovery; if the target dies before the hits land, they will also not recover any MP</li>
-      <li>Despite being called a "magic" both in name and description, this skill actually <b>fully functions like a physical skill, if not actually is a physical skill</b>: it uses purely physical stats (ATK, Physical Critical, enemy's DEF, enemy's Physical Resistance, etc...), can still be used during [Silence] but not [Bleed]; it also <b>does not give any Magic: Burst stack</b> despite being an attacking skill from <b>Magic Skills Tree</b></li>`
+          <li>This skill uses <b>Physical Proration</b> for its damage calculation</li>
+          <li>The hits of this skill must land successfully (no [Miss] nor [Evaded]) in order to activate the MP recovery; if the target dies before the hits land, they will also not recover any MP</li>
+          <li>Despite being called a "magic" both in name and description, this skill actually <b>fully functions like a physical skill, if not actually is a physical skill</b>: it uses purely physical stats (ATK, Physical Critical, enemy's DEF, enemy's Physical Resistance, etc...), can still be used during [Silence] but not [Bleed]; it also <b>does not give any Magic: Burst stack</b> despite being an attacking skill from <b>Magic Skills Tree</b></li>`
                 if (level == 10) {
                   HTML += `<li>If the first 4 hits [Miss] or are [Evaded], the last hit will not activate, thus will also not inflict the additional proration nor recover extra MP</li>
-      <li>Due to the speed of the skill, it is actually more efficient to spam it rather than waiting for the last hit when it comes to faster prorating, unless the caster has too low motion speed or has other priorities</li>`}
+          <li>Due to the speed of the skill, it is actually more efficient to spam it rather than waiting for the last hit when it comes to faster prorating, unless the caster has too low motion speed or has other priorities</li>`}
                 result.innerHTML += HTML
               }
 
@@ -3810,9 +3422,10 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
+
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
             <div>
               <p class="card-title">
@@ -3826,7 +3439,7 @@
               <img src="../../images/icon/staff.png"><br>Staff only
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -3856,10 +3469,8 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>A forbidden technique that places a heavy burden on the mind and body. Consumes current HP and Max HP
-                (random
-                value) to halve the MP Cost of the next skill used and guarantee critical. <b style="color: #E77577">If
-                  the
-                  burden gets too heavy from repeated use, then...</b></p>
+                (random value) to halve the MP Cost of the next skill used and guarantee critical. <b
+                  style="color: #E77577">If the burden gets too heavy from repeated use, then...</b></p>
             </div>
             <div class="span-2">
               <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
@@ -3869,8 +3480,7 @@
               <p>When MaxHP gets reduced due to this skill, the power of magic skills will gradually increase over
                 time.<br>
                 If Qadal's effect ends because you get knocked out or move to another map, the power increase will be
-                reset.
-              </p>
+                reset.</p>
             </div>
           </div>
           <p class="accent-bold">Extras</p>
@@ -3909,22 +3519,15 @@
               <br><b>Charge Effect:</b>
               <li><b>MaxHP</b> is reduced by a percentage equals to the <b>current Qadal charge percentage</b></li>
               <li>Increases the damage of <b>all attacking skill from Magic Skills Tree</b> by 1% for every 3 seconds
-                <b>since
-                  starting combat</b>; this value <b>cannot exceed the current Qadal charge percentage</b>
+                <b>since starting combat</b>; this value <b>cannot exceed the current Qadal charge percentage</b>
               </li>
               <li>Upon exceeding 100% charge, all charges will be removed and one of the following cases will happen at
-                random
-                (the actual chance of each case is yet to be confirmed):<ul>
+                random (the actual chance of each case is yet to be confirmed):<ul>
                   <li>&nbsp;&nbsp;&nbsp;- (Very low chance) Set the <b>caster's HP</b> to 1, recover the <b>caster's
-                      MP</b>
-                    to
-                    full, and gain [Invincible] for 2 seconds; this is also the only case where <b>Qadal Buff</b>
-                    effects
-                    will
-                    still remain after cast</li>
+                      MP</b> to full, and gain [Invincible] for 2 seconds; this is also the only case where <b>Qadal
+                      Buff</b> effects will still remain after cast</li>
                   <li>&nbsp;&nbsp;&nbsp;- (Low chance) Set the <b>caster's HP</b> to 1 and inflict [Stun] to the
-                    <b>caster</b>
-                    for 5 seconds
+                    <b>caster</b> for 5 seconds
                   </li>
                   <li>&nbsp;&nbsp;&nbsp;- (Low chance) Set the <b>caster's HP</b> to 1 and inflict [Sleep] to the
                     <b>caster</b> for 10 seconds
@@ -3935,34 +3538,22 @@
               <li><b>Charge Duration:</b> 3 minutes; <b>does not refresh</b> upon gaining charge</li><br><b>Extra
                 info:</b>
               <li>Using this skill again when the <b>Qadal buff</b> is not consumed yet will not give any effect nor
-                charge
-                at
-                all but will still consume MP</li>
+                charge at all but will still consume MP</li>
               <li>Higher skill level can reduce the <b>KO case</b> and <b>Sleep case</b> chances, while increasing the
-                <b>Stun
-                  case</b> and <b>Invincible case</b> chances; the amount is yet to be confirmed, however
+                <b>Stun case</b> and <b>Invincible case</b> chances; the amount is yet to be confirmed, however
               </li>
               <li>The <b>Personal Stat</b> LUK seems to also be able to affect the chance of the cases; however, the
                 credibility and the effect (if any) are yet to be fully confirmed</li>
               <li>For skills that deal damage over time, the <b>always crit</b> effect will remain as long as you do not
-                apply
-                <b>Qadal</b> again on another skill before the former ends; doing so may ends the effect
-              </li>
+                apply <b>Qadal</b> again on another skill before the former ends; doing so may ends the effect</li>
               <li>The timer for calculating the damage boost effect <b>starts as soon as you engage an enemy</b>, and
                 <b>resets when your party defeats any enemy in non-boss maps, when there's no other target, upon
-                  changing
-                  map,
-                  or when you get KO</b>
+                  changing map, or when you get KO</b>
               </li>
               <li>There is a slight lag in applying the buff as the buff is "server side" (takes time for the
-                information
-                to
-                be delivered from the server to the client side); if the caster has enough motion speed and use this
-                skill
-                in
-                a combo, the next skill in combo may not be able to gain the <b>always crit</b> boost, and instead is
-                granted
-                to the skill after that</li>
+                information to be delivered from the server to the client side); if the caster has enough motion speed
+                and use this skill in a combo, the next skill in combo may not be able to gain the <b>always crit</b>
+                boost, and instead is granted to the skill after that</li>
             </span>
 
             <script>
@@ -3974,36 +3565,36 @@
                 var chargeMin = Math.max(30 - Math.floor(totalDex / 25), 10)
                 var chargeMax = 100 - 5 * level - Math.floor(baseDex / 25)
                 var HTML = `<b>Skill Effect:</b> Consumes 10% of your <b>Current HP</b> and grants the following effects upon successful cast:
-    <li>Grants <b>Qadal buff</b> to the <b>caster</b></li>
-    <li>Grants a random amount of <b>Qadal charge</b> between ${chargeMin}% and ${chargeMax}%</li>`
+          <li>Grants <b>Qadal buff</b> to the <b>caster</b></li>
+          <li>Grants a random amount of <b>Qadal charge</b> between ${chargeMin}% and ${chargeMax}%</li>`
                 result.innerHTML = HTML
               }
 
               function addQadalBuffEffect(result) {
                 result.innerHTML += `<br><b>Buff Effect:</b>
-    <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple of 100</li>
-    <li>In addition, that skill will also <b>always deal critical hits</b></li>
-    <li><b>Buff Duration:</b> Until a skill is used</li>
-    <br><b>Charge Effect:</b>
-    <li><b>MaxHP</b> is reduced by a percentage equals to the <b>current Qadal charge percentage</b></li>
-    <li>Increases the damage of <b>all attacking skill from Magic Skills Tree</b> by 1% for every 3 seconds <b>since starting combat</b>; this value <b>cannot exceed the current Qadal charge percentage</b></li>
-    <li>Upon exceeding 100% charge, all charges will be removed and one of the following cases will happen at random (the actual chance of each case is yet to be confirmed):<ul>
-    <li>&nbsp&nbsp&nbsp- (Very low chance) Set the <b>caster's HP</b> to 1, recover the <b>caster's MP</b> to full, and gain [Invincible] for 2 seconds; this is also the only case where <b>Qadal Buff</b> effects will still remain after cast</li>
-    <li>&nbsp&nbsp&nbsp- (Low chance) Set the <b>caster's HP</b> to 1 and inflict [Stun] to the <b>caster</b> for 5 seconds</li>
-    <li>&nbsp&nbsp&nbsp- (Low chance) Set the <b>caster's HP</b> to 1 and inflict [Sleep] to the <b>caster</b> for 10 seconds</li>
-    <li>&nbsp&nbsp&nbsp- (Common chance) <b>Instantly KO the caster</b></li>
-    </ul></li>
-    <li><b>Charge Duration:</b> 3 minutes; <b>does not refresh</b> upon gaining charge</li>`
+          <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple of 100</li>
+          <li>In addition, that skill will also <b>always deal critical hits</b></li>
+          <li><b>Buff Duration:</b> Until a skill is used</li>
+          <br><b>Charge Effect:</b>
+          <li><b>MaxHP</b> is reduced by a percentage equals to the <b>current Qadal charge percentage</b></li>
+          <li>Increases the damage of <b>all attacking skill from Magic Skills Tree</b> by 1% for every 3 seconds <b>since starting combat</b>; this value <b>cannot exceed the current Qadal charge percentage</b></li>
+          <li>Upon exceeding 100% charge, all charges will be removed and one of the following cases will happen at random (the actual chance of each case is yet to be confirmed):<ul>
+          <li>&nbsp&nbsp&nbsp- (Very low chance) Set the <b>caster's HP</b> to 1, recover the <b>caster's MP</b> to full, and gain [Invincible] for 2 seconds; this is also the only case where <b>Qadal Buff</b> effects will still remain after cast</li>
+          <li>&nbsp&nbsp&nbsp- (Low chance) Set the <b>caster's HP</b> to 1 and inflict [Stun] to the <b>caster</b> for 5 seconds</li>
+          <li>&nbsp&nbsp&nbsp- (Low chance) Set the <b>caster's HP</b> to 1 and inflict [Sleep] to the <b>caster</b> for 10 seconds</li>
+          <li>&nbsp&nbsp&nbsp- (Common chance) <b>Instantly KO the caster</b></li>
+          </ul></li>
+          <li><b>Charge Duration:</b> 3 minutes; <b>does not refresh</b> upon gaining charge</li>`
               }
 
               function addQadalExtraInfo(result) {
                 result.innerHTML += `<br><b>Extra info:</b>
-    <li>Using this skill again when the <b>Qadal buff</b> is not consumed yet will not give any effect nor charge at all but will still consume MP</li>
-    <li>Higher skill level can reduce the <b>KO case</b> and <b>Sleep case</b> chances, while increasing the <b>Stun case</b> and <b>Invincible case</b> chances; the amount is yet to be confirmed, however</li>
-    <li>The <b>Personal Stat</b> LUK seems to also be able to affect the chance of the cases; however, the credibility and the effect (if any) are yet to be fully confirmed</li>
-    <li>For skills that deal damage over time, the <b>always crit</b> effect will remain as long as you do not apply <b>Qadal</b> again on another skill before the former ends; doing so may ends the effect</li>
-    <li>The timer for calculating the damage boost effect <b>starts as soon as you engage an enemy</b>, and <b>resets when your party defeats any enemy in non-boss maps, when there's no other target, upon changing map, or when you get KO</b></li>
-    <li>There is a slight lag in applying the buff as the buff is "server side" (takes time for the information to be delivered from the server to the client side); if the caster has enough motion speed and use this skill in a combo, the next skill in combo may not be able to gain the <b>always crit</b> boost, and instead is granted to the skill after that</li>`
+          <li>Using this skill again when the <b>Qadal buff</b> is not consumed yet will not give any effect nor charge at all but will still consume MP</li>
+          <li>Higher skill level can reduce the <b>KO case</b> and <b>Sleep case</b> chances, while increasing the <b>Stun case</b> and <b>Invincible case</b> chances; the amount is yet to be confirmed, however</li>
+          <li>The <b>Personal Stat</b> LUK seems to also be able to affect the chance of the cases; however, the credibility and the effect (if any) are yet to be fully confirmed</li>
+          <li>For skills that deal damage over time, the <b>always crit</b> effect will remain as long as you do not apply <b>Qadal</b> again on another skill before the former ends; doing so may ends the effect</li>
+          <li>The timer for calculating the damage boost effect <b>starts as soon as you engage an enemy</b>, and <b>resets when your party defeats any enemy in non-boss maps, when there's no other target, upon changing map, or when you get KO</b></li>
+          <li>There is a slight lag in applying the buff as the buff is "server side" (takes time for the information to be delivered from the server to the client side); if the caster has enough motion speed and use this skill in a combo, the next skill in combo may not be able to gain the <b>always crit</b> boost, and instead is granted to the skill after that</li>`
               }
 
               function calcQadalValues() {
@@ -4023,8 +3614,8 @@
           </details>
           <p></p>
         </div>
-
-        <hr class="separator">
+        
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -4040,7 +3631,8 @@
               <img src="../../images/icon/all.png"><br>Available with all weapons
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
+
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -4225,7 +3817,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -4241,7 +3833,8 @@
               <img src="../../images/icon/all.png"><br>Available with all weapons
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
+
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -4271,14 +3864,12 @@
                 <p>Magic Device</p>
               </div>
               <p>Each time an attack skill that has a casting time hits, Casting speed will increase, MATK will
-                increase,
-                and
-                an effect that slightly boosts magic stability can be earned up to 10 times.</p>
+                increase, and an effect that slightly boosts magic stability can be earned up to 10 times.</p>
             </div>
           </div>
           <p class="accent-bold">Extras</p>
           <p></p>
-          <details open="">
+          <details>
             <summary>Show more...</summary><br><span class="sub-title"><b>Main Weapon:</b></span>
             <select id="chainCastWeapon" onchange="calcChainCastValues()">
               <option value="staff" selected="">Staff</option>
@@ -4310,38 +3901,26 @@
             <span id="chainCastValues">
               <li>Grants <b>Chain Cast buff</b> whenever <b>Magic: Arrows</b> is cast</li>
               <li>Grants 1 <b>Chain Cast Additional Buff stack</b> for <b>each successful hit</b> of an attacking skill
-                from
-                <b>Magic Skills Tree</b>; can stack up to a maximum of <b>10 stacks</b>
-              </li><br><b>Buff Effect:</b>
+                from <b>Magic Skills Tree</b>; can stack up to a maximum of <b>10 stacks</b></li><br><b>Buff Effect:</b>
               <li>The next <b>attacking skill from Magic Skills Tree</b> will have its <b>Motion Speed</b> increased by
-                50%;
-                this effect stacks multiplicatively with the effects of [Freeze] and <b>Swift Combo tag</b></li>
+                50%; this effect stacks multiplicatively with the effects of [Freeze] and <b>Swift Combo tag</b></li>
               <li><b>Buff Duration:</b> Until an attack skill from Magic Skills tree is used</li><br><b>Additional Buff
                 Effect:</b>
               <li><b>MATK</b> +10</li>
               <li><b>Magic Stability</b> +2%</li>
               <li>Reduces the <b>Base Cast Time</b> of all <b>attacking skill from Magic Skills Tree</b> by 0.1 seconds;
-                this
-                effect <b>cannot reduce the Base Cast Time to any lower than 1 second</b></li>
+                this effect <b>cannot reduce the Base Cast Time to any lower than 1 second</b></li>
               <li><b>Stacks Duration:</b> 30 seconds; refresh upon gaining stack(s); loses 1 stack instead of the entire
-                buff
-                when the duration runs out</li><br><b>Extra info:</b>
+                buff when the duration runs out</li><br><b>Extra info:</b>
               <li>Unlike the <b>main buff</b>, the cast time reduction effect of the <b>Additional buff</b> is treated
-                as
-                <b>Base Cast Time reduction</b>, therefore it is applied <b>before CSPD stat</b>
-              </li>
+                as <b>Base Cast Time reduction</b>, therefore it is applied <b>before CSPD stat</b></li>
               <li>As the cast time reduction effect of the <b>Additional buff</b> can only lower the <b>Base Cast
-                  Time</b>
-                to
-                a minimum of 1 second, skills with a Base Cast Time of 1 second or less will not benefit from this
-                effect
-                at
-                all, and skills with a Base Cast Time of more than 1 second but below 2 seconds will receive reduced
-                effect
-                (though currently there is no such skill of the latter case exists in <b>Magic Skills Tree</b> yet)</li>
+                  Time</b> to a minimum of 1 second, skills with a Base Cast Time of 1 second or less will not benefit
+                from this effect at all, and skills with a Base Cast Time of more than 1 second but below 2 seconds will
+                receive reduced effect (though currently there is no such skill of the latter case exists in <b>Magic
+                  Skills Tree</b> yet)</li>
               <li><b>Chain Cast Additional Buff stacks</b> are granted <b>per hit</b> instead of <b>per skill</b>,
-                therefore
-                skills that can deal multiple hit will also give multiple stacks per cast</li>
+                therefore skills that can deal multiple hit will also give multiple stacks per cast</li>
               <li>For some reason, <b>Ether Flare</b> can also give 1 <b>Chain Cast Additional Buff stack</b></li>
             </span>
 
@@ -4356,7 +3935,7 @@
                 var HTML = `<li>Grants <b>Chain Cast buff</b> whenever <b>Magic: Arrows</b> is cast</li>`
                 if (weapon != "other") { HTML += `<li>Grants 1 <b>Chain Cast Additional Buff stack</b> for <b>each successful hit</b> of an attacking skill from <b>Magic Skills Tree</b>; can stack up to a maximum of <b>10 stacks</b></li>` }
                 HTML += `<br><b>Buff Effect:</b>
-    <li>The next <b>attacking skill from Magic Skills Tree</b> will have its `
+          <li>The next <b>attacking skill from Magic Skills Tree</b> will have its `
                 if (isCastTime) { HTML += `<b>Cast Time</b> reduced by ${castSpeed}%; this is applied <b>after, and not additively to, CSPD stat</b>` }
                 else { HTML += `<b>Motion Speed</b> increased by ${castSpeed}%; this effect stacks multiplicatively with the effects of [Freeze] and <b>Swift Combo tag</b>` }
                 HTML += `</li><li><b>Buff Duration:</b> Until an attack skill from Magic Skills tree is used</li>`
@@ -4370,22 +3949,22 @@
                 if (weapon == "md") { matk *= 2 }
                 var castTime = stack / 10
                 var HTML = `<br><b>Additional Buff Effect:</b>
-    <li><b>MATK</b> +${matk}</li>`
+          <li><b>MATK</b> +${matk}</li>`
                 if (stab != 0) { HTML += `<li><b>Magic Stability</b> +${stab}%</li>` }
                 HTML += `<li>Reduces the <b>Base Cast Time</b> of all <b>attacking skill from Magic Skills Tree</b> by ${castTime} second`
                 if (castTime != 1) { HTML += `s` }
                 HTML += `; this effect <b>cannot reduce the Base Cast Time to any lower than 1 second</b></li>
-    <li><b>Stacks Duration:</b> 30 seconds; refresh upon gaining stack(s); loses 1 stack instead of the entire buff when the duration runs out</li>`
+          <li><b>Stacks Duration:</b> 30 seconds; refresh upon gaining stack(s); loses 1 stack instead of the entire buff when the duration runs out</li>`
                 if (weapon != "other") { result.innerHTML += HTML }
               }
 
               function addChainCastExtraInfo(weapon, result) {
                 if (weapon != "other") {
                   result.innerHTML += `<br><b>Extra info:</b>
-    <li>Unlike the <b>main buff</b>, the cast time reduction effect of the <b>Additional buff</b> is treated as <b>Base Cast Time reduction</b>, therefore it is applied <b>before CSPD stat</b></li>
-    <li>As the cast time reduction effect of the <b>Additional buff</b> can only lower the <b>Base Cast Time</b> to a minimum of 1 second, skills with a Base Cast Time of 1 second or less will not benefit from this effect at all, and skills with a Base Cast Time of more than 1 second but below 2 seconds will receive reduced effect (though currently there is no such skill of the latter case exists in <b>Magic Skills Tree</b> yet)</li>
-    <li><b>Chain Cast Additional Buff stacks</b> are granted <b>per hit</b> instead of <b>per skill</b>, therefore skills that can deal multiple hit will also give multiple stacks per cast</li>
-    <li>For some reason, <b>Ether Flare</b> can also give 1 <b>Chain Cast Additional Buff stack</b></li>`}
+          <li>Unlike the <b>main buff</b>, the cast time reduction effect of the <b>Additional buff</b> is treated as <b>Base Cast Time reduction</b>, therefore it is applied <b>before CSPD stat</b></li>
+          <li>As the cast time reduction effect of the <b>Additional buff</b> can only lower the <b>Base Cast Time</b> to a minimum of 1 second, skills with a Base Cast Time of 1 second or less will not benefit from this effect at all, and skills with a Base Cast Time of more than 1 second but below 2 seconds will receive reduced effect (though currently there is no such skill of the latter case exists in <b>Magic Skills Tree</b> yet)</li>
+          <li><b>Chain Cast Additional Buff stacks</b> are granted <b>per hit</b> instead of <b>per skill</b>, therefore skills that can deal multiple hit will also give multiple stacks per cast</li>
+          <li>For some reason, <b>Ether Flare</b> can also give 1 <b>Chain Cast Additional Buff stack</b></li>`}
               }
 
               function calcChainCastValues() {
@@ -4409,7 +3988,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -4425,7 +4004,8 @@
               <img src="../../images/icon/all.png"><br>Available with all weapons
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
+
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -4438,9 +4018,7 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>Shoot a magic wave if the target is out of range. Available from 5m or less away. The range extends up
-                to
-                10m
-                as the skill levels up. Attack MP Recovery is applied to this skill.</p>
+                to 10m as the skill levels up. Attack MP Recovery is applied to this skill.</p>
             </div>
             <div class="span-2">
               <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
@@ -4497,21 +4075,17 @@
             <br>
             <span id="powerWaveValues"><b>Passive Effect:</b>
               <li>Auto attacking targets outside of <b>weapon's auto attack range</b> but within <b>Power Wave auto
-                  attack
-                  range</b> will perform an attack that has every characteristics of a regular auto attack (still
-                applies
-                Attack MP Recovery, inflicts normal attack proration, uses weapon element,...) but <b>has modified total
-                  damage</b></li>
+                  attack range</b> will perform an attack that has every characteristics of a regular auto attack (still
+                applies Attack MP Recovery, inflicts normal attack proration, uses weapon element,...) but <b>has
+                  modified total damage</b></li>
               <li><b>Power Wave Auto Attack Range</b>: 12m </li>
               <li><b>Power Wave Auto Attack Damage Penalty: </b> -10%</li>
               <li>Power Wave is <b>disabled when certain auto attack modifier skills are active</b></li><br><b>Extra
                 info:</b>
               <li>If you have <b>Aggravate</b> and/or <b>Hidden Arm</b>, this passive will add one "additional wave" for
-                each
-                of them whenever they activate; these "additional waves" are purely aesthetic, however, with the only
-                purpose
-                being visualizing the additional hit, and have no other impact on gameplay</li><br>The bonus of <b>Main
-                Weapon</b> overwrites that of <b>Sub Weapon</b>
+                each of them whenever they activate; these "additional waves" are purely aesthetic, however, with the
+                only purpose being visualizing the additional hit, and have no other impact on gameplay</li><br>The
+              bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
             </span>
 
             <script>
@@ -4524,7 +4098,7 @@
                 if (weapon == "Staff") { range += 2 }
                 if (registlet == 0) {
                   result.innerHTML += `<li>Auto attacking targets outside of <b>weapon's auto attack range</b> but within <b>Power Wave auto attack range</b> will perform an attack that has every characteristics of a regular auto attack (still applies Attack MP Recovery, inflicts normal attack proration, uses weapon element,...) but <b>has modified total damage</b></li>
-    <li><b>Power Wave Auto Attack Range</b>: ${range}m </li>`
+            <li><b>Power Wave Auto Attack Range</b>: ${range}m </li>`
                 }
                 else { result.innerHTML += `<li>Increase Auto Attack Power while this passive is active</li>` }
               }
@@ -4554,7 +4128,7 @@
               function addPowerWaveExtraInfo(registlet, result) {
                 if (registlet == 0) {
                   result.innerHTML += `<br><b>Extra info:</b>
-    <li>If you have <b>Aggravate</b> and/or <b>Hidden Arm</b>, this passive will add one "additional wave" for each of them whenever they activate; these "additional waves" are purely aesthetic, however, with the only purpose being visualizing the additional hit, and have no other impact on gameplay</li>`}
+            <li>If you have <b>Aggravate</b> and/or <b>Hidden Arm</b>, this passive will add one "additional wave" for each of them whenever they activate; these "additional waves" are purely aesthetic, however, with the only purpose being visualizing the additional hit, and have no other impact on gameplay</li>`}
               }
 
               function calcPowerWaveValues() {
@@ -4580,184 +4154,10 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
-          <div style="display:grid;grid-template-columns: 1fr 1fr;">
-            <div>
-              <p class="card-title">
-                <img src="../../images/skills/maximizer.png" width="34" height="34">
-                Maximizer
-              </p>
-              <p class="medium">
-                Skill Maximizer Level 4 </p>
-            </div>
-            <div style="justify-self:end;">
-              <img src="../../images/icon/all.png"><br>Available with all weapons
-            </div>
-          </div>
-          <hr class="separator">
-          <div class="monster-prop">
-            <div>
-              <p class="accent-bold">Type</p>
-              <p>Active</p>
-            </div>
-            <div>
-              <p class="accent-bold">Element</p>
-              <p>Neutral</p>
-            </div>
-            <div>
-              <p class="accent-bold">MP</p>
-              <p>300</p>
-            </div>
-            <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
-            <div>
-              <p class="accent-bold">Combo start</p>
-              <p>Yes</p>
-            </div>
-            <div>
-              <p class="accent-bold">Combo middle</p>
-              <p>Yes</p>
-            </div>
-            <div>
-              <p class="accent-bold">Range</p>
-              <p>0</p>
-            </div>
-            <div class="span-2">
-              <p class="accent-bold">Description</p>
-              <p>Greatly restore MP. Cast Time is shortened as the skill levels up. If you use MP Charge before this
-                skill,
-                the Cast Time of Maximizer will be shortened according to the skill level of MP Charge when using the
-                skill
-                with a <b>Staff</b> or <b>Magic Device</b>.
-              </p>
-            </div>
-            <div class="span-2">
-              <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-                <p><img src="../../images/icon/staff.png"></p>
-                <p>Staff</p>
-              </div>
-              <p>MP Heal Amount +500</p>
-            </div>
-            <div class="span-2">
-              <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
-                <p><img src="../../images/icon/md.png"></p>
-                <p>Magic Device</p>
-              </div>
-              <p>MP Heal Amount +700</p>
-            </div>
-          </div>
-          <p class="accent-bold">Extras</p>
-          <p></p>
-          <details>
-            <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
-            <select id="maximizerWeapon" onchange="calcMaximizer()">
-              <option value="Staff" selected="">Staff</option>
-              <option value="MD">Magic Device</option>
-              <option value="Other">Other</option>
-            </select><br>
-            <span class="sub-title"><b>Skill Level:</b></span>
-            <select id="maximizerLevel" onchange="calcMaximizer()">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10" selected="">10</option>
-            </select><br>
-            <div id="mpChargeBuff" style="display: block;">
-              <span class="sub-title"><b>MP Charge is used:</b></span>
-              <input type="checkbox" id="maximizerMpCharge" onchange="calcMaximizer()"><br>
-              <div id="mpChargeActive" style="display: none;">
-                <span class="sub-title"><b>"MP Charge" Skill Level:</b></span>
-                <select id="maxiMpChargeLevelSelect" onchange="calcMaximizer()">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10" selected="">10</option>
-                </select>
-              </div>
-            </div>
-            <br>
-            <span id="maximizerValues">
-              <li><b>Cast Time:</b> 10 seconds (unaffected by CSPD)</li>
-              <li><b>MP Recovered:</b> 1500</li><br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>
-            </span>
 
-            <script>
-              function mpChargeMaxiCheck(weapon, mpChargeBuffSection, mpCharge, mpChargeActiveSection) {
-                if (weapon != "Other") {
-                  mpChargeBuffSection.style = "display: block"
-                  if (mpCharge) { mpChargeActiveSection.style = "display: block" }
-                  else { mpChargeActiveSection.style = "display: none" }
-                }
-                else { mpChargeBuffSection.style = "display: none" }
-              }
-
-              function calcMaximizerCastTime(level, weapon, mpCharge, mpChargeLevel, result) {
-                var castTime = 17.5 - 0.5 * level - 0.5 * Math.max(0, level - 5)
-                if (mpCharge && weapon != "Other") { castTime -= mpChargeLevel }
-                var HTML = ``
-                if (castTime > 0) {
-                  HTML += `<li><b>Cast Time:</b> ${castTime} second`
-                  if (castTime != 1) { HTML += `s` }
-                  HTML += ` (unaffected by CSPD)</li>`
-                }
-                else { HTML += `<li><b>Instant Cast</b> without <b>Cast Time</b></li>` }
-                result.innerHTML = HTML
-              }
-
-              function calcMaximizerMPRestored(weapon, result) {
-                var mpRestore = 1000
-                if (weapon == "Staff") { mpRestore += 500 }
-                else if (weapon == "MD") { mpRestore += 700 }
-                result.innerHTML += `<li><b>MP Recovered:</b> ${mpRestore}</li>`
-              }
-
-              function addMaximizerExtraInfo(weapon, mpCharge, result) {
-                if (mpCharge && weapon != "Other") {
-                  result.innerHTML += `<br><b>Extra info:</b>
-    <li>This skill must be used within a few seconds after <b>MP Charge</b>, and <b>there must be no other skill being used between MP Charge and this skill (including auto-activated skills)</b>, in order for this skill to gain the cast time reduction</li>
-    <li>This skill will use a different cast motion if its <b>Cast Time</b> is reduced to 0 seconds by its own effect</li>`}
-              }
-
-              function calcMaximizer() {
-                var weaponSelector = document.getElementById("maximizerWeapon")
-                var weapon = weaponSelector[weaponSelector.selectedIndex].value
-                var levelSelector = document.getElementById("maximizerLevel")
-                var level = levelSelector[levelSelector.selectedIndex].value
-                var mpChargeBuffSection = document.getElementById("mpChargeBuff")
-                var mpCharge = document.getElementById("maximizerMpCharge").checked
-                var mpChargeActiveSection = document.getElementById("mpChargeActive")
-                var mpChargeSelector = document.getElementById("maxiMpChargeLevelSelect")
-                var mpChargeLevel = mpChargeSelector[mpChargeSelector.selectedIndex].value
-                var result = document.getElementById("maximizerValues")
-                mpChargeMaxiCheck(weapon, mpChargeBuffSection, mpCharge, mpChargeActiveSection)
-                calcMaximizerCastTime(level, weapon, mpCharge, mpChargeLevel, result)
-                calcMaximizerMPRestored(weapon, result)
-                addMaximizerExtraInfo(weapon, mpCharge, result)
-                result.innerHTML += `<br>The bonus of <b>Main Weapon</b> overwrites that of <b>Sub Weapon</b>`
-              }
-
-              calcMaximizer()
-            </script>
-          </details>
-          <p></p>
-        </div>
-
-        <hr class="separator">
-
-        <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
             <div>
               <p class="card-title">
@@ -4771,7 +4171,8 @@
               <img src="../../images/icon/md.png"><img src="../../images/icon/staff.png"><br>Magic Device/Staff only
             </div>
           </div>
-          <hr class="separator">
+          <hr class="separator" />
+
           <div class="monster-prop">
             <div>
               <p class="accent-bold">Type</p>
@@ -4785,10 +4186,8 @@
               <p class="accent-bold">Description</p>
               <p>Slightly accelerates MP Charge. (<font style="color: #009fff">Up to Lv5</font>).<br>
                 Enhances MATK and Magic Pierce (<font style="color: #009fff">max 50%</font>) that depends on MP Heal
-                Amount
-                when followed by the activation of Maximizer. <b style="color: gold">*Starting from Lv6, it will only
-                  extend
-                  the buff duration.</b></p>
+                Amount when followed by the activation of Maximizer. <b style="color: gold">*Starting from Lv6, it will
+                  only extend the buff duration.</b></p>
             </div>
           </div>
           <p class="accent-bold">Extras</p>
@@ -4865,7 +4264,7 @@
                 var HTML = `<li>Upon casting <b>Maximizer</b> after <b>MP Charge</b>, grants <b>Rapid Charge buff</b> to the <b>caster</b></li>`
                 if (maximizer) {
                   HTML += `<br><b>Buff Effect:</b>
-        <li><b>MATK</b> +${matk}</li>`
+              <li><b>MATK</b> +${matk}</li>`
                   if (mPen > 0) { HTML += `<li><b>Magic Pierce</b> +${mPen}%</li>` }
                   HTML += `<li><b>Buff Duration:</b> ${duration} seconds</li>`
                 }
@@ -4895,7 +4294,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -4941,11 +4340,8 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>Creates a barrier to protect yourself. If you are inside the barrier, damage will be absorbed. Beside,
-                you
-                won't flinch while casting and aggro from MP consumption will be reduced. <b
-                  style="color: gold">Restoring
-                  MP
-                  inside the barrier will restore the barrier's HP too.</b></p>
+                you won't flinch while casting and aggro from MP consumption will be reduced. <b
+                  style="color: gold">Restoring MP inside the barrier will restore the barrier's HP too.</b></p>
             </div>
             <div class="span-2">
               <div class="accent-bold" style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
@@ -4956,14 +4352,13 @@
                 INT and weapon performance increase the barrier's HP.<br>
                 Damage absorbed is between 50-100% based on the type of damage.<br>
                 Inside the barrier, damage taken is greatly decreased, Action Speed increases, and the buff count of
-                Magic:
-                Burst increases a lot.<br>
+                Magic: Burst increases a lot.<br>
                 The cast time of Magic: Finale becomes shorter inside the barrier.</p>
             </div>
           </div>
           <p class="accent-bold">Extras</p>
           <p></p>
-          <details open="">
+          <details>
             <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
             <select id="enchantedBarriersWeapon" onchange="calcEnchantedBarriersValues()">
               <option value="Staff" selected="">Staff</option>
@@ -4991,15 +4386,12 @@
               <li>Grants <b>Enchanted Barriers buff</b> with 10 stacks</li>
               <br><b>Buff Effect:</b>
               <li>Upon taking physical/magic damage, consume 1 stack to reduce received damage by 15%, increases to 75%
-                damage
-                reduction <b>during casting</b></li>
+                damage reduction <b>during casting</b></li>
               <li>If the damage exceeds <b>10% of your MaxHP</b>, 1 additional stack will be consumed for every 10% of
-                your
-                MaxHP worth of damage</li>
+                your MaxHP worth of damage</li>
               <li>Prevents [Magic Flinch] during casting</li>
               <li><b>Buff Duration:</b> Until all stacks are consumed</li><br>The bonus of <b>Main Weapon</b> overwrites
-              that
-              of <b>Sub Weapon</b>
+              that of <b>Sub Weapon</b>
             </span>
 
             <script>
@@ -5031,11 +4423,11 @@
                 var dmgRed = 1 * level
                 if (weapon == "Staff") { dmgRed += 5 }
                 result.innerHTML += `<li>Grants <b>Enchanted Barriers buff</b> with ${stack}</li>
-    <br><b>Buff Effect:</b>
-    <li>Upon taking physical/magic damage, consume 1 stack to reduce received damage by ${dmgRed}%, increases to ${dmgRed * 5}% damage reduction <b>during casting</b></li>
-    <li>If the damage exceeds <b>10% of your MaxHP</b>, 1 additional stack will be consumed for every 10% of your MaxHP worth of damage</li>
-    <li>Prevents [Magic Flinch] during casting</li>
-    <li><b>Buff Duration:</b> Until all stacks are consumed</li>`
+            <br><b>Buff Effect:</b>
+            <li>Upon taking physical/magic damage, consume 1 stack to reduce received damage by ${dmgRed}%, increases to ${dmgRed * 5}% damage reduction <b>during casting</b></li>
+            <li>If the damage exceeds <b>10% of your MaxHP</b>, 1 additional stack will be consumed for every 10% of your MaxHP worth of damage</li>
+            <li>Prevents [Magic Flinch] during casting</li>
+            <li><b>Buff Duration:</b> Until all stacks are consumed</li>`
               }
 
               function calcEnchantedBarriersValues() {
@@ -5056,7 +4448,7 @@
           <p></p>
         </div>
 
-        <hr class="separator">
+        <hr class="separator" />
 
         <div>
           <div style="display:grid;grid-template-columns: 1fr 1fr;">
@@ -5102,13 +4494,12 @@
             <div class="span-2">
               <p class="accent-bold">Description</p>
               <p>Emits light to protect the caster. While active, magic attacks will be executed at a certain time such
-                as
-                after other magic skills are cast, or after dealing damage to an enemy.</p>
+                as after other magic skills are cast, or after dealing damage to an enemy.</p>
             </div>
           </div>
           <p class="accent-bold">Extras</p>
           <p></p>
-          <details open="">
+          <details>
             <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
             <select id="magicGuardianBeamLevel" onchange="calcMagicGuardianBeamValues()">
               <option value="1">1</option>
@@ -5128,18 +4519,14 @@
             <br>
             <span id="magicGuardianBeamValues">
               <li><b>Skill Constant: </b> 80; constant for each hit</li>
-              <li><b>Skill Multiplier:</b> 5.4; multiplier for each hit</li>
+              <li><b>Skill Multiplier:</b> 0.51; multiplier for each hit</li>
               <li><b>Hit Count:</b> 1 hit for each stack; damage calculation is done for each hit</li><br><b>Buff
                 Effect:</b>
               <li>Grants a buff with 10 stacks</li>
               <li>When using a <b>magic skill with cast time</b>, consumes 1 stack for every second of cast time to
-                launch
-                a
-                beam to attack the target, then 1 more stack after cast time ends for the same purpose. AoE magic skills
-                that
-                hit (but doesn't kill) other targets will <b>consume additional stacks that is equal to the number of
-                  other
-                  targets</b> to attack them</li>
+                launch a beam to attack the target, then 1 more stack after cast time ends for the same purpose. AoE
+                magic skills that hit (but doesn't kill) other targets will <b>consume additional stacks that is equal
+                  to the number of other targets</b> to attack them</li>
               <li>The caster must have the targets' aggro, and they must be within 8m range from the caster in order to
                 trigger the beams</li>
               <li>The beams cause knockback 4m on targets that are <b>neither bosses nor minibosses</b></li>
@@ -5147,8 +4534,7 @@
               <li>This skill is unaffected by <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range
                   Damage</b> stats; it's also unaffected by Combo Tags</li>
               <li>This skill uses <b>Magic Proration</b> for its damage calculation, but <b>does not inflict
-                  proration</b>
-              </li><br>Credits to <b>Phantom Library</b> for the info of the skill
+                  proration</b></li><br>Credits to <b>Phantom Library</b> for the info of the skill
             </span>
 
             <script>
@@ -5172,19 +4558,19 @@
 
               function calcGuardianBeamBuff(level, result) {
                 HTML = `<b>Buff Effect:</b>
-    <li>Grants a buff with ${level} stack`
+              <li>Grants a buff with ${level} stack`
                 if (level > 1) { HTML += `s` }
                 HTML += `</li><li>When using a <b>magic skill with cast time</b>, consumes 1 stack for every second of cast time to launch a beam to attack the target, then 1 more stack after cast time ends for the same purpose. AoE magic skills that hit (but doesn't kill) other targets will <b>consume additional stacks that is equal to the number of other targets</b> to attack them</li>
-    <li>The caster must have the targets' aggro, and they must be within 8m range from the caster in order to trigger the beams</li>
-    <li>The beams cause knockback 4m on targets that are <b>neither bosses nor minibosses</b></li>
-    <li><b>Buff Duration:</b> Until all stacks are used up</li><br>`
+              <li>The caster must have the targets' aggro, and they must be within 8m range from the caster in order to trigger the beams</li>
+              <li>The beams cause knockback 4m on targets that are <b>neither bosses nor minibosses</b></li>
+              <li><b>Buff Duration:</b> Until all stacks are used up</li><br>`
                 result.innerHTML += HTML
               }
 
               function addMagicGuardianBeamExtra(result) {
                 result.innerHTML += `<b>Extra Info:</b>
-    <li>This skill is unaffected by <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats; it's also unaffected by Combo Tags</li>
-    <li>This skill uses <b>Magic Proration</b> for its damage calculation, but <b>does not inflict proration</b></li>`
+              <li>This skill is unaffected by <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats; it's also unaffected by Combo Tags</li>
+              <li>This skill uses <b>Magic Proration</b> for its damage calculation, but <b>does not inflict proration</b></li>`
               }
 
               function calcMagicGuardianBeamValues() {
@@ -5205,7 +4591,6 @@
           </details>
           <p></p>
         </div>
-
       </div>
     </div>
 
