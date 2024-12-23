@@ -1,4 +1,2838 @@
-<div>
-    <h3>Under construction</h3>
-    <p>Please return later　ヾ(≧▽≦)ﾉ .</p>
-</div>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Monofuku Skills Tree</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <%- include('../../templates/headers/metadata') %>
+
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+        <script src="../templates/axios.min.js"></script>
+        <script>
+            // wew have works to do
+            function roundToTwoDecimals(value) {
+                return Math.round(value * 100) / 100;
+            }
+        </script>
+</head>
+
+<body>
+    <%- include('../../templates/headers/header') %>
+
+        <div id="content">
+            <div class="container">
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/issen.png" width="34" height="34">
+                                Issen
+                            </p>
+                            <p class="medium">
+                                Skill Issen Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Slash an enemy at a blinding speed. High Critical Rate at the second hit.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="issenSkillLevel" onchange="calcIssenValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Total Critical Rate:</b></span>
+                        <input type="number" style="width: 50px;" id="issenCritValues" onchange="calcIssenValues()"
+                            min="0" value="25"><br>
+                        <span class="sub-title"><b>"Issen Enhancer" Registlet Level:</b></span>
+                        <select id="issenRegistlet" onchange="calcIssenValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select><br>
+                        <br>
+                        <span id="issenValues">
+                            <li><b>Skill Constant (First Hit):</b> 0</li>
+                            <li><b>Skill Constant (Second Hit):</b> 100</li>
+                            <li><b>Skill Multiplier (First Hit):</b> 0.5</li>
+                            <li><b>Skill Multiplier (Second Hit):</b> 1.5</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>
+                            <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                            <li><b>Critical Rate</b> of the <b>Second Hit</b> +50</li><br>This skill's <b>maximum cast
+                                range</b> is equal to the maximum auto attack range of the <b>equipped katana</b>
+                        </span>
+
+                        <script>
+                            function calcIssenConstant(level, result) {
+                                let constant1 = 0
+                                let constant2 = 50 + 5 * level
+                                result.innerHTML = `<li><b>Skill Constant (First Hit):</b> ${constant1}</li>
+                    <li><b>Skill Constant (Second Hit):</b> ${constant2}</li>`
+                            }
+
+                            function calcIssenMultiplier(level, registlet, result) {
+                                let multiplier1 = 0.5
+                                let multiplier2 = 1 + 0.05 * level + 0.05 * registlet
+                                multiplier2 = Math.round(multiplier2 * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier (First Hit):</b> ${multiplier1}</li>
+                    <li><b>Skill Multiplier (Second Hit):</b> ${multiplier2}</li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function addIssenUnsheathe(result) {
+                                result.innerHTML += `<li>This skill is treated as an <b>Unsheathe Attack</b></li>`
+                            }
+
+                            function calcIssenSecondCrit(totalCr, result) {
+                                let bonusCr = totalCr * 2
+                                result.innerHTML += `<li><b>Critical Rate</b> of the <b>Second Hit</b> +${bonusCr}</li>`
+                            }
+
+                            function calcIssenValues() {
+                                let levelSelector = document.getElementById('issenSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let totalCr = document.getElementById("issenCritValues").value
+                                let registletSelector = document.getElementById("issenRegistlet");
+                                let registlet = registletSelector[registletSelector.selectedIndex].value;
+                                let result = document.getElementById('issenValues')
+                                calcIssenConstant(level, result)
+                                calcIssenMultiplier(level, registlet, result)
+                                addIssenUnsheathe(result)
+                                calcIssenSecondCrit(totalCr, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped katana</b>`
+                            }
+
+                            calcIssenValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/pulseblade.png" width="34" height="34">
+                                Pulse Blade
+                            </p>
+                            <p class="medium">
+                                Skill Pulse Blade Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Slash an enemy with an aerial slash at a distance. The damage decreases as you get
+                                further away from the target. You can move when sheathing the katana.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="pulseBladeWeaponType" onchange="calcPulseBladeValues()">
+                            <option value="main" selected="">Main Katana</option>
+                            <option value="sub">Sub Katana</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="pulseBladeSkillLevel" onchange="calcPulseBladeValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Distance from target (m):</b></span>
+                        <input type="number" id="pulseBladeTargetRange" value="3" min="0" step="0.5"
+                            style="width: 50px;" onchange="calcPulseBladeValues()" max="12"><br>
+                        <span class="sub-title"><b>Equipped Katana's Auto-Attack Range (m):</b></span>
+                        <input type="number" id="ktnAARange" value="2" min="2" max="3" step="0.5" style="width: 50px;"
+                            onchange="calcPulseBladeValues()"><br>
+                        <div id="pulseBladeMainNukiInput" style="display: block;">
+                            <span class="sub-title"><b>Nukiuchi Sennosen buff is active:</b></span>
+                            <input type="checkbox" id="pulseBladeNukiSenBuff" onchange="calcPulseBladeValues()">
+                        </div>
+                        <br>
+                        <span id="pulseBladeValues">
+                            <li><b>Skill Constant:</b> 40; constant for each hit</li>
+                            <li><b>Skill Multiplier (First Hit):</b> 0.5</li>
+                            <li><b>Skill Multiplier (Second Hit):</b> 1</li>
+                            <li><b>Skill Multiplier (Third Hit):</b> 1.5</li>
+                            <li><b>Hit Count:</b> 3 hits; critical calculation is done <b>for the first hit</b>, then
+                                <b>copied for the other hits</b>; the rest of damage calculation is done for each hit
+                            </li><br>
+                            <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                            <li><b>Physical Pierce</b> of <b>Pulse Blade</b> -1%</li>
+                            <li>You can slide to any direction with movement input <b>during the sheathing animation of
+                                    the skill</b> if both of these conditions are met:<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- This skill is used either <b>outside of a combo</b>, or
+                                        <b>as the last skill of a combo</b>
+                                    </li>
+                                    <li>&nbsp;&nbsp;&nbsp;- The <b>caster</b> is <b>not afflicted</b> with [Slow] or
+                                        [Stop]</li>
+                                </ul>
+                            </li>
+                        </span>
+
+                        <script>
+                            function pulseBladeNukiSenCheck(weapon, mainNukiSection) {
+                                if (weapon == "main") { mainNukiSection.style = "display: block" }
+                                else { mainNukiSection.style = "display: none" }
+                            }
+
+                            function calcPulseBladeConstant(level, result) {
+                                let constant = 30 + 1 * level
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; constant for each hit</li>`
+                            }
+
+                            function calcPulseBladeMultiplier(level, weapon, nukiSen, result) {
+                                let multiplier1 = 0.5
+                                let multiplier2 = Math.round((0.5 + 0.05 * level) * 100) / 100
+                                let multiplier3 = Math.round((0.5 + 0.1 * level) * 100) / 100
+                                if (weapon == "main" && nukiSen) {
+                                    multiplier1 *= 5
+                                    multiplier2 *= 5
+                                    multiplier3 *= 5
+                                }
+                                result.innerHTML += `<li><b>Skill Multiplier (First Hit):</b> ${multiplier1}</li>
+                    <li><b>Skill Multiplier (Second Hit):</b> ${multiplier2}</li>
+                    <li><b>Skill Multiplier (Third Hit):</b> ${multiplier3}</li>
+                    <li><b>Hit Count:</b> 3 hits; critical calculation is done <b>for the first hit</b>, then <b>copied for the other hits</b>; the rest of damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcPulseBladeSkillEffect(level, weapon, targetRange, aaRange, nukiSen, result) {
+                                var skillName = `Pulse Blade`
+                                if (weapon == "main" && nukiSen) { skillName = `Swift Pulse Blade` }
+                                var distance = targetRange - aaRange
+                                distance = Math.floor(distance)
+                                if (distance < 0) { distance = 0 }
+                                var defPenalty = distance * (11 - level)
+                                var HTML = ``
+                                if (weapon == "main" && nukiSen) { HTML += `<li>This skill's name is changed to <b>Swift Pulse Blade</b></li>` }
+                                HTML += `<li>This skill is treated as an <b>Unsheathe Attack</b></li>`
+                                if (distance != 0) { HTML += `<li><b>Physical Pierce</b> of <b>${skillName}</b> -${defPenalty}%</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function addPulseBladeExtraInfo(weapon, nukiSen, result) {
+                                result.innerHTML += `<li>You can slide to any direction with movement input <b>during the sheathing animation of the skill</b> if both of these conditions are met:<ul>
+                    <li>&nbsp&nbsp&nbsp- This skill is used either <b>outside of a combo</b>, or <b>as the last skill of a combo</b></li>
+                    <li>&nbsp&nbsp&nbsp- The <b>caster</b> is <b>not afflicted</b> with [Slow] or [Stop]</li>
+                    </ul></li>`
+                                if (weapon == "main" && nukiSen) { result.innerHTML += `<li><b>Swift Pulse Blade</b> uses <b>Physical Proration</b> for its damage calculation, but <b>does not inflict proration</b></li>` }
+                            }
+
+                            function calcPulseBladeValues() {
+                                let levelSelector = document.getElementById('pulseBladeSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('pulseBladeWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let targetRange = document.getElementById('pulseBladeTargetRange').value
+                                let aaRange = document.getElementById('ktnAARange').value
+                                let mainNukiSection = document.getElementById("pulseBladeMainNukiInput")
+                                let nukiSen = document.getElementById("pulseBladeNukiSenBuff").checked
+                                let result = document.getElementById('pulseBladeValues')
+                                pulseBladeNukiSenCheck(weapon, mainNukiSection)
+                                calcPulseBladeConstant(level, result)
+                                calcPulseBladeMultiplier(level, weapon, nukiSen, result)
+                                calcPulseBladeSkillEffect(level, weapon, targetRange, aaRange, nukiSen, result)
+                                addPulseBladeExtraInfo(weapon, nukiSen, result)
+                            }
+
+                            calcPulseBladeValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/triplethrust.png" width="34" height="34">
+                                Triple Thrust
+                            </p>
+                            <p class="medium">
+                                Skill Triple Thrust Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Quickly approach and thrust a target. Move behind a target when attacking. Increases the
+                                damage of the next skill a little.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="tripleThrustSkillLevel" onchange="calcTripleThrustValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Total AGI:</b></span>
+                        <input type="number" value="1" id="tripleThrustAgiValue" onchange="calcTripleThrustValues()"
+                            style="width: 4em; text-align: right;"><br>
+                        <span class="sub-title"><b>Caster Level:</b></span>
+                        <input type="number" value="200" id="tripleThrustCasterLevel" min="1"
+                            onchange="calcTripleThrustValues()" style="width: 50px;"><br>
+                        <span class="sub-title"><b>"Static Triple Thrust" Registlet equipped:</b></span>
+                        <input type="checkbox" id="staticTriple" onchange="calcTripleThrustValues()"><br>
+                        <br>
+                        <span id="tripleThrustValues">
+                            <li><b>Skill Constant:</b> 0; total constant of all hits</li>
+                            <li><b>Skill Multiplier:</b> 3.5; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 3 hits; damage calculation is done once then spread evenly between the
+                                hits</li><br>
+                            <li>The caster will <b>teleport</b> to roughly 0m on the other side of the <b>target</b>
+                            </li>
+                            <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                            <li>Grants <b>Triple Thrust buff</b> upon cast</li><br><b>Buff Effect:</b>
+                            <li><b>Skill Constant</b> of the next skill +200</li>
+                            <li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
+                            <li>The said "distance from the target" of the <b>teleport</b> is the displayed distance
+                                from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely
+                                indicated by their target circle) after the <b>teleport</b></li>
+                            <li>Some skills have different interactions with the buff granted by this skill: most single
+                                hit skills usually receive the full effect of the buff, while multi-hit skills usually
+                                have the bonus divided evenly between the hits instead</li>
+                        </span>
+
+                        <script>
+                            function calcTripleThrustConstant(result) {
+                                result.innerHTML = `<li><b>Skill Constant:</b> 0; total constant of all hits</li>`
+                            }
+
+                            function calcTripleThrustMultiplier(level, agiValue, result) {
+                                let multiplier = 1.5 + 0.2 * level + agiValue / 500
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.009999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; total multiplier of all hits</li>
+                    <li><b>Hit Count:</b> 3 hits; damage calculation is done once then spread evenly between the hits</li><br>`
+                            }
+
+                            function addTripleThrustSkillEffect(registlet, result) {
+                                var HTML = ``
+                                if (!registlet) { HTML += `<li>The caster will <b>teleport</b> to roughly 0m on the other side of the <b>target</b></li>` }
+                                HTML += `<li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                    <li>Grants <b>Triple Thrust buff</b> upon cast</li><br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcTripleThrustBuff(level, casterLevel, result) {
+                                let constBuff = casterLevel / (11 - level)
+                                constBuff = Math.floor(constBuff)
+                                result.innerHTML += `<b>Buff Effect:</b>
+                    <li><b>Skill Constant</b> of the next skill +${constBuff}</li>
+                    <li><b>Buff Duration:</b> Until a skill is used</li>`
+                            }
+
+                            function addTripleThrustExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The said "distance from the target" of the <b>teleport</b> is the displayed distance from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely indicated by their target circle) after the <b>teleport</b></li>
+                    <li>Some skills have different interactions with the buff granted by this skill: most single hit skills usually receive the full effect of the buff, while multi-hit skills usually have the bonus divided evenly between the hits instead</li>`
+                            }
+
+                            function calcTripleThrustValues() {
+                                let levelSelector = document.getElementById('tripleThrustSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let agiValue = document.getElementById("tripleThrustAgiValue").value
+                                let casterLevel = document.getElementById("tripleThrustCasterLevel").value
+                                var registlet = document.getElementById("staticTriple").checked
+                                let result = document.getElementById('tripleThrustValues')
+                                calcTripleThrustConstant(result)
+                                calcTripleThrustMultiplier(level, agiValue, result)
+                                addTripleThrustSkillEffect(registlet, result)
+                                calcTripleThrustBuff(level, casterLevel, result)
+                                addTripleThrustExtraInfo(result)
+                            }
+
+                            calcTripleThrustValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/hassohappa.png" width="34" height="34">
+                                Hasso Happa
+                            </p>
+                            <p class="medium">
+                                Skill Hasso Happa Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>500</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Slash all enemies in a certain space. Deal damage to enemies around you without fail. You
+                                can move when sheathing the katana.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="hassoHappaSkillLevel" onchange="calcHassoHappaValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="hassoHappaValues">
+                            <li><b>Skill Constant:</b> 150; constant for each hit</li>
+                            <li><b>Skill Multiplier (First Hit):</b> 6</li>
+                            <li><b>Skill Multiplier (Additional Hits):</b> 3</li>
+                            <li><b>Hit Count:</b> 1 hit for First Hit; 2 hits for Additional Hits; damage calculation is
+                                done for each hit</li><br>
+                            <li><b>Hit Range (radius):</b> 4m, around the <b>caster</b></li>
+                            <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                            <li>This skill has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be
+                                [Evaded]</li>
+                            <li>You can slide to any direction with movement input <b>during the sheathing animation of
+                                    the skill</b> if both of these conditions are met:<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- This skill is used either <b>outside of a combo</b>, or
+                                        <b>as the last skill of a combo</b>
+                                    </li>
+                                    <li>&nbsp;&nbsp;&nbsp;- The <b>caster</b> is <b>not afflicted</b> with [Slow] or
+                                        [Stop]</li>
+                                </ul>
+                            </li>
+                            <li>This skill is always affected by <b>Short Range Damage</b> stat</li><br>This skill's
+                            <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped
+                                katana</b>
+                        </span>
+
+                        <script>
+                            function calcHassoHappaConstant(level, result) {
+                                let constant = 130 + 2 * level
+                                let HTML = `<li><b>Skill Constant:</b> ${constant}`
+                                if (level > 3) { HTML += `; constant for each hit` }
+                                HTML += `</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcHassoHappaMultiplier(level, result) {
+                                let multiplier1 = 2.1 + 0.1 * level + 2.9 * Math.max(0, level - 9)
+                                let multiplier2 = 2.1 + 0.1 * level - 0.1 * Math.max(0, level - 9)
+                                multiplier1 = Math.round(multiplier1 * 100) / 100
+                                multiplier2 = Math.round(multiplier2 * 100) / 100
+                                let HTML = `<li><b>Skill Multiplier (First Hit):</b> ${multiplier1}</li>`
+                                if (level > 3) {
+                                    HTML += `<li><b>Skill Multiplier (Additional Hit`
+                                    if (level > 6) { HTML += `s` }
+                                    HTML += `):</b> ${multiplier2}</li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcHassoHappaHitCount(level, result) {
+                                let addHit = 0
+                                if (level > 3) { addHit++ }
+                                if (level > 6) { addHit++ }
+                                let HTML = ``
+                                if (addHit == 0) { HTML += `<li><b>Hit Count:</b> 1 hit</li>` }
+                                else {
+                                    HTML += `<li><b>Hit Count:</b> 1 hit for First Hit; ${addHit}`
+                                    if (addHit == 1) { HTML += ` hit for Additional Hit` }
+                                    else { HTML += ` hits for Additional Hits` }
+                                    HTML += `; damage calculation is done for each hit</li>`
+                                }
+                                HTML += `<br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcHassoHappaHitRange(level, result) {
+                                let hitRange = [2, 2, 3, 3, 3, 3, 4, 4, 4, 4]
+                                result.innerHTML += `<li><b>Hit Range (radius):</b> ${hitRange[level - 1]}m, around the <b>caster</b></li>`
+                            }
+
+                            function addHassoHappaExtraInfo(result) {
+                                result.innerHTML += `<li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                    <li>This skill has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be [Evaded]</li>
+                    <li>You can slide to any direction with movement input <b>during the sheathing animation of the skill</b> if both of these conditions are met:<ul>
+                    <li>&nbsp&nbsp&nbsp- This skill is used either <b>outside of a combo</b>, or <b>as the last skill of a combo</b></li>
+                    <li>&nbsp&nbsp&nbsp- The <b>caster</b> is <b>not afflicted</b> with [Slow] or [Stop]</li>
+                    </ul></li>
+                    <li>This skill is always affected by <b>Short Range Damage</b> stat</li>`
+                            }
+
+                            function calcHassoHappaValues() {
+                                let levelSelector = document.getElementById('hassoHappaSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('hassoHappaValues')
+                                calcHassoHappaConstant(level, result)
+                                calcHassoHappaMultiplier(level, result)
+                                calcHassoHappaHitCount(level, result)
+                                calcHassoHappaHitRange(level, result)
+                                addHassoHappaExtraInfo(result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped katana</b>`
+                            }
+
+                            calcHassoHappaValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/tenryuransei.png" width="34" height="34">
+                                Tenryu Ransei
+                            </p>
+                            <p class="medium">
+                                Skill Tenryu Ransei Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Furiously slash consecutively. Power increases for a while everytime you use the skill
+                                (<b style="color: gold">4 Times at Most</b>). Special attack is applied to
+                                Magadachi/Zantei Settetsu by meeting certain conditions and the buff duration increases.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="tenryuRanseiSkillLevel" onchange="calcTenryuRanseiValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Tenryu Ransei buff is active:</b></span>
+                        <input type="checkbox" id="tenryuRanseiBuff" onchange="calcTenryuRanseiValues()"><br>
+                        <div id="tenryuRanseiBuffInput" style="display: none;">
+                            <span class="sub-title"><b>Number of stacks:</b></span>
+                            <input type="number" id="tenryuRanseiBuffStacks" min="0" max="4" value="0"
+                                style="width: 3em" onchange="calcTenryuRanseiValues()"><br>
+                        </div>
+                        <br>
+                        <span id="tenryuRanseiValues">
+                            <li><b>MP Cost:</b> 300</li>
+                            <li><b>Skill Constant:</b> 100; total constant of all hits</li>
+                            <li><b>Skill Multiplier:</b> 4; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 4 hits; damage calculation is done once then spread evenly between the
+                                hits</li><br>
+                            <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                            <li>Grants <b>Tenryu Ransei buff</b> that can be charged up to 4 stacks upon cast</li>
+                            <br><b>Extra info:</b>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>equipped katana</b>
+                            </li>
+                            <li>Even if <b>Tenryu Ransei buff</b> runs out of duration in the middle of casting
+                                <b>Magadachi</b>, <b>Zantei Settetsu</b>, or <b>Kasumisetsu Getsuka</b>, as long as
+                                those skills are activated while the buff is still active, <b>Tenryu Ransei: Zannou</b>
+                                and <b>Tenryu Ransei: Zanyu</b> can still be triggered, allowing the buff to still be
+                                refreshed
+                            </li>
+                        </span>
+
+                        <script>
+                            function tenryuBuffCheck(tenryuBuff, tenryuBuffSection) {
+                                if (tenryuBuff) { tenryuBuffSection.style = "display: block" }
+                                else { tenryuBuffSection.style = "display: none" }
+                            }
+
+                            function calcTenryuRanseiMPCost(tenryuBuff, result) {
+                                let mpCost = 300
+                                if (tenryuBuff) (mpCost -= 200)
+                                result.innerHTML = `<li><b>MP Cost:</b> ${mpCost}</li>`
+                            }
+
+                            function calcTenryuRanseiConstant(level, result) {
+                                let constant = 10 * level
+                                result.innerHTML += `<li><b>Skill Constant:</b> ${constant}; total constant of all hits</li>`
+                            }
+
+                            function calcTenryuRanseiMultiplier(level, tenryuBuff, stackInput, result) {
+                                let multiplier = 1.5 + 0.25 * level
+                                if (tenryuBuff) { multiplier *= 1 + Math.min(3, stackInput.value) }
+                                //multiplier = Math.round(multiplier*100)/100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; total multiplier of all hits</li>
+                    <li><b>Hit Count:</b> 4 hits; damage calculation is done once then spread evenly between the hits</li><br>`
+                            }
+
+                            function addTenryuRanseiSkillEffect(tenryuBuff, result) {
+                                result.innerHTML += `<li>This skill is treated as an <b>Unsheathe Attack</b></li>`
+                                if (!tenryuBuff) { result.innerHTML += `<li>Grants <b>Tenryu Ransei buff</b> that can be charged up to 4 stacks upon cast</li>` }
+                            }
+
+                            function calcTenryuRanseiBuffEffect(tenryuBuff, stackInput, result) {
+                                let stacks = stackInput.value
+                                let motionMod = 125 - 15 * Math.min(3, stacks)
+                                let motionSpd = 100 - motionMod
+                                let acc = 10 * (1 + Math.min(3, stacks))
+                                let HTML = ``
+                                if (tenryuBuff) {
+                                    HTML += `<li><b>Motion Speed</b> of <b>Tenryu Ransei</b>`
+                                    if (motionSpd < 0) { HTML += ` -${-motionSpd}%` }
+                                    else { HTML += ` +${motionSpd}%` }
+                                    HTML += `</li><li><b>Accuracy</b> of <b>Tenryu Ransei</b> +${acc}</li>
+                        <li>Casting <b>Tenryu Ransei</b> during this stage`
+                                    if (stacks < 4) { HTML += ` will <b>grant 1 stack</b>, but` }
+                                    HTML += ` <b>will not refresh the buff duration</b></li>
+                    <br><b>Buff Effect:</b>
+                    <li>Reduces the MP cost of <b>Tenryu Ransei</b> to 100 and modify its power, speed & accuracy depending on number of stacks</li>
+                    <li>Sets the <b>caster's Auto Attack Delay</b> to 0, unless the caster is afflicted with [Paralysis]; this <b>does not</b> include the delay from [Fear] or tapping part(s)</li>
+                    <li>Replaces <b>Magadachi's Attack</b> and <b>Zantei Settetsu's Counter Attack</b> with <b>Tenryu Ransei: Zannou</b> - a special attack that has <b>Perfect Aim</b> attribute and will refresh and extend the duration of <b>Tenryu Ransei buff</b> but also consume all of its stacks upon successful cast</li>
+                    <li>Replaces <b>Kasumisetsu Getsuka's Last Hit</b> with <b>Tenryu Ransei: Zanyu</b> - a special attack that will refresh and extend the duration of <b>Tenryu Ransei buff</b> depending on the number of <b>Tenryu Ransei stacks</b> but also consume some of its stacks upon successful cast</li>
+                    <li><b>Buff Duration:</b><ul>
+                    <li>&nbsp&nbsp&nbsp- 10 seconds if activated by <b>Tenryu Ransei</b></li>
+                    <li>&nbsp&nbsp&nbsp- 30 seconds if refreshed/reactivated by <b>Tenryu Ransei: Zannou</b></li>
+                    <li>&nbsp&nbsp&nbsp- 20~50 seconds if refreshed/reactivated by <b>Tenryu Ransei: Zanyu</b> with 1~4 <b>Tenryu Ransei stacks</b></li>
+                    </ul></li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function addTenryuRanseiExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped katana</b></li>
+                    <li>Even if <b>Tenryu Ransei buff</b> runs out of duration in the middle of casting <b>Magadachi</b>, <b>Zantei Settetsu</b>, or <b>Kasumisetsu Getsuka</b>, as long as those skills are activated while the buff is still active, <b>Tenryu Ransei: Zannou</b> and <b>Tenryu Ransei: Zanyu</b> can still be triggered, allowing the buff to still be refreshed</li>`
+                            }
+
+                            function calcTenryuRanseiValues() {
+                                let levelSelector = document.getElementById('tenryuRanseiSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                var tenryuBuff = document.getElementById("tenryuRanseiBuff").checked
+                                var tenryuBuffSection = document.getElementById("tenryuRanseiBuffInput")
+                                let stackInput = document.getElementById("tenryuRanseiBuffStacks")
+                                let result = document.getElementById('tenryuRanseiValues')
+                                tenryuBuffCheck(tenryuBuff, tenryuBuffSection)
+                                calcTenryuRanseiMPCost(tenryuBuff, result)
+                                calcTenryuRanseiConstant(level, result)
+                                calcTenryuRanseiMultiplier(level, tenryuBuff, stackInput, result)
+                                addTenryuRanseiSkillEffect(tenryuBuff, result)
+                                calcTenryuRanseiBuffEffect(tenryuBuff, stackInput, result)
+                                addTenryuRanseiExtraInfo(result)
+                            }
+
+                            calcTenryuRanseiValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/garyoutensei.png" width="34" height="34">
+                                Garyou Tensei
+                            </p>
+                            <p class="medium">
+                                Skill Garyou Tensei Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>The ultimate slash. The power increases every time you use certain Mononofu Skills. (<b
+                                    style="color: gold">10 Times at Most</b>) Power increases against targets inflicted
+                                with [Armor Break]. <b style="color: #E77577">Critical Rate is extremely low.</b></p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/katana.png"></p>
+                                <p>Katana</p>
+                            </div>
+                            <p>The power of Mononofu skills increases as Garyou Tensei's buff increases.<br><br>
+                                Upon skill activation, all accumulated Garyou Tensei's buff will be consumed and you
+                                will enter a damage reduction state. During this state, the power of Mononofu skills
+                                will remain at maximum.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="garyouTenseiWeaponType" onchange="calcGaryouTenseiValues()">
+                            <option value="main" selected="">Main Katana</option>
+                            <option value="sub">Sub Katana</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="garyouTenseiSkillLevel" onchange="calcGaryouTenseiValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Number of Garyou Tensei stacks:</b></span>
+                        <input type="number" id="garyouStacks" min="0" max="10" value="0" style="width: 3em"
+                            onchange="calcGaryouTenseiValues()"><br>
+                        <span class="sub-title"><b>Target is afflicted with [Armor Break]:</b></span>
+                        <input type="checkbox" id="isArmBreakGaryou" onchange="calcGaryouTenseiValues()"><br>
+                        <span class="sub-title"><b>Kairiki Ranshin buff is active:</b></span>
+                        <input type="checkbox" id="kairikiBuff" onchange="calcGaryouTenseiValues()"><br>
+                        <div id="kairikiBuffInput" style="display: none;">
+                            <span class="sub-title"><b>"Kairiki Ranshin" Skill Level:</b></span>
+                            <select name="skillLevel" id="kairikiBuffLevel" onchange="calcGaryouTenseiValues()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10" selected="">10</option>
+                            </select><br>
+                        </div>
+                        <div id="garyouShadowlessInput" style="display: none;">
+                            <span class="sub-title"><b>Skill is used during "Shadowless Slash" animation:</b></span>
+                            <input type="checkbox" id="isShadowlessGaryou" onchange="calcGaryouTenseiValues()"><br>
+                            <div id="divineWatkInput" style="display: none;">
+                                <span class="sub-title"><b>Katana's Base WeaponATK:</b></span>
+                                <input type="number" value="100" min="1" id="divineSlashKtnAtk"
+                                    onchange="calcGaryouTenseiValues()" style="width: 50px;">
+                            </div>
+                        </div>
+                        <br>
+                        <span id="garyouTenseiValues">
+                            <li><b>Skill Constant:</b> 100</li>
+                            <li><b>Skill Multiplier:</b> 2</li><br>
+                            <li><b>Critical Rate</b> of <b>Garyou Tensei</b> -10</li><br><b>Passive Buff Effect:</b>
+                            <li>Gains 1 stack each time <b>another attacking skill from Mononofu Skills Tree</b> is
+                                cast, or an <b>enhanced auto attack</b> (auto attack after a <b>slide</b>) is performed;
+                                can stack up to a maximum of <b>10 stacks</b></li><br>This skill's <b>maximum cast
+                                range</b> is equal to the maximum auto attack range of the <b>equipped katana</b>
+                        </span>
+
+                        <script>
+                            function kairikiBuffCheck(kairiki, kairikiBuffSection) {
+                                if (kairiki) { kairikiBuffSection.style = "display: block" }
+                                else { kairikiBuffSection.style = "display: none" }
+                            }
+
+                            function garyouShadowlessCheck(level, weapon, stacks, shadowlessSection) {
+                                if (weapon == "main" && level == 10 && stacks == 10) { shadowlessSection.style = "display: block" }
+                                else { shadowlessSection.style = "display: none" }
+                            }
+
+                            function garyouDivineCheck(divine, divineSection) {
+                                if (divine) { divineSection.style = "display: block" }
+                                else { divineSection.style = "display: none" }
+                            }
+
+                            function calcGaryouTenseiConstant(level, weapon, stacks, isArmBreak, divine, result) {
+                                var constant = 100
+                                if (weapon == "main" && level == 10 && stacks == 10 && divine) { constant = 500 }
+                                if (isArmBreak) { constant = 1000 }
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcGaryouTenseiMultiplier(level, weapon, stacks, divine, ktnAtk, result) {
+                                var multiplier = (0.2 * level + stacks / 10) * Math.max(1, stacks)
+                                if (weapon == "main" && level == 10 && stacks == 10 && divine) { multiplier += ktnAtk / 100 }
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.00999999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li>`
+                            }
+
+                            function calcGaryouTenseiSkillEffect(level, weapon, stacks, kairiki, kairikiLevel, divine, result) {
+                                var skillName = `Garyou Tensei`
+                                var cr = - 110 + 10 * level
+                                if (weapon == "main" && level == 10 && stacks == 10 && divine) {
+                                    skillName = `Divine Slash`
+                                    cr = 0
+                                }
+                                var pp = 0
+                                if (kairiki) {
+                                    cr += 10 * kairikiLevel
+                                    pp += 10 * kairikiLevel
+                                }
+                                let HTML = ``
+                                if (kairiki || cr != 0 || (weapon == "main" && level == 10 && stacks == 10 && divine)) { HTML += `<br>` }
+                                if (weapon == "main" && level == 10 && stacks == 10 && divine) {
+                                    HTML += `<li>This skill's name is changed to <b>Divine Slash</b></li>
+                    <li><b>Divine Slash</b> is treated as an <b>Unsheathe Attack</b></li>
+                    <li><b>Divine Slash</b> gives [Invincible] for 3 seconds upon cast</li>
+                    <li><b>Divine Slash</b> has the <b>Special Perfect Aim</b> attribute: it cannot [Miss], [Graze], or be [Evaded] (except <b>Absolute/Forced Evasion</b>)</li>`}
+                                if (kairiki) {
+                                    if (weapon == "sub" || level < 10 || stacks < 10 || !divine) { HTML += `<li>Remove <b>Kairiki Ranshin buff</b> upon cast</li>` }
+                                    HTML += `<li><b>Physical Pierce</b> of <b>${skillName}</b> +${pp}%</li>`
+                                }
+                                if (cr != 0) {
+                                    HTML += `<li><b>Critical Rate</b> of <b>${skillName}</b>`
+                                    if (cr < 0) { HTML += ` -${-cr}` }
+                                    else { HTML += ` +${cr}` }
+                                }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addGaryouPassiveBuff(stacks, result) {
+                                let HTML = `<br><b>Passive Buff Effect:</b>
+                    <li>Gains 1 stack each time <b>another attacking skill from Mononofu Skills Tree</b> is cast, or an <b>enhanced auto attack</b> (auto attack after a <b>slide</b>) is performed; can stack up to a maximum of <b>10 stacks</b></li>`
+                                if (stacks > 0) {
+                                    HTML += `<li>Upon casting this skill, <b>consumes all stacks</b> to <b>enhance the skill</b> and grant <b>Garyou Tensei active buff</b></li>
+                    <li><b>Buff Duration:</b> Until <b>Garyou Tensei</b> is used</li>`}
+                                result.innerHTML += HTML
+                            }
+
+                            function addGaryouActiveBuff(stacks, result) {
+                                let dmgReduc = 5 * stacks
+                                let duration = 1 * stacks
+                                let HTML = ``
+                                if (stacks > 0) {
+                                    HTML += `<br><b>Active Buff Effect:</b>
+                        <li><b>Reduce damage taken</b> by ${dmgReduc}% while this buff is active</li>
+                        <li><b>Buff Duration:</b> ${duration} second`
+                                    if (duration != 1) { HTML += `s` }
+                                    HTML += `</li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcGaryouTenseiValues() {
+                                let levelSelector = document.getElementById('garyouTenseiSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('garyouTenseiWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let stacks = document.getElementById("garyouStacks").value
+                                let isArmBreak = document.getElementById('isArmBreakGaryou').checked
+                                var kairiki = document.getElementById("kairikiBuff").checked;
+                                let kairikiBuffSection = document.getElementById("kairikiBuffInput")
+                                let kairikiLevelSelector = document.getElementById('kairikiBuffLevel')
+                                let kairikiLevel = kairikiLevelSelector[kairikiLevelSelector.selectedIndex].value
+                                let shadowlessSection = document.getElementById("garyouShadowlessInput")
+                                let divine = document.getElementById('isShadowlessGaryou').checked
+                                let divineSection = document.getElementById("divineWatkInput")
+                                let ktnAtk = document.getElementById("divineSlashKtnAtk").value
+                                let result = document.getElementById('garyouTenseiValues')
+                                kairikiBuffCheck(kairiki, kairikiBuffSection)
+                                garyouShadowlessCheck(level, weapon, stacks, shadowlessSection)
+                                garyouDivineCheck(divine, divineSection)
+                                calcGaryouTenseiConstant(level, weapon, stacks, isArmBreak, divine, result)
+                                calcGaryouTenseiMultiplier(level, weapon, stacks, divine, ktnAtk, result)
+                                calcGaryouTenseiSkillEffect(level, weapon, stacks, kairiki, kairikiLevel, divine, result)
+                                addGaryouPassiveBuff(stacks, result)
+                                addGaryouActiveBuff(stacks, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped katana</b>`
+                            }
+
+                            calcGaryouTenseiValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shadowlessslash.png" width="34" height="34">
+                                Shadowless Slash
+                            </p>
+                            <p class="medium">
+                                Skill Shadowless Slash Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Rapidly slashes the enemy. It's so fast that even the enemy doesn't know when the katana
+                                leaves its scabbard. Attacks with high accuracy and grants 2 of Garyou Tensei's buffs.
+                                You can move when sheathing the katana.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="shadowlessSlashWeaponType" onchange="calcShadowlessSlashValues()">
+                            <option value="main" selected="">Main Katana</option>
+                            <option value="sub">Sub Katana</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="shadowlessSlashSkillLevel" onchange="calcShadowlessSlashValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"> <b>Base DEX:</b></span>
+                        <input type="number" value="255" min="1" max="510" id="shadowlessSlashDexValue"
+                            onchange="calcShadowlessSlashValues()" style="width: 50px;"><br>
+                        <br>
+                        <span id="shadowlessSlashValues">
+                            <li><b>Skill Constant:</b> 300; total constant of all hits</li>
+                            <li><b>Skill Multiplier:</b> 10.27; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 5 hits; damage calculation is done once then spread evenly between the
+                                hits</li><br>
+                            <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                            <li><b>Accuracy</b> of <b>Shadowless Slash</b> +2000</li>
+                            <li>Grants <b>2 Garyou Tensei stacks</b> upon cast if <b>Garyou Tensei</b> has been learned
+                            </li>
+                            <li>You can slide to any direction with movement input <b>during the sheathing animation of
+                                    the skill</b> if both of these conditions are met:<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- This skill is used either <b>outside of a combo</b>, or
+                                        <b>as the last skill of a combo</b>
+                                    </li>
+                                    <li>&nbsp;&nbsp;&nbsp;- The <b>caster</b> is <b>not afflicted</b> with [Slow] or
+                                        [Stop]</li>
+                                </ul>
+                            </li>
+                            <li>Casting <b>Garyou Tensei</b> during this skill's animation will change the former into
+                                <b>Divine Slash</b> with enhanced effects
+                            </li><br><b>Extra info:</b>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>main weapon (including that of bow)</b>
+                            </li>
+                            <li>This skill is always affected by <b>Short Range Damage</b> stat regardless of cast
+                                distance</li>
+                            <li>This skill <b>will not prorate if it is canceled before any hit is landed</b> (e.g.
+                                recasting this skill right before the hits occur); it will also not prorate <b>if it
+                                    hits after the next skill in normal motion speed condition</b> (in other words, with
+                                no motion speed modifier)</li>
+                            <li>Exclusive for <b>Divine Slash</b>, activating it with <b>Shadowless Slash</b> can allow
+                                the former to use the same <b>proration modifier</b> as the latter, as if the latter
+                                didn't prorate before the former hits</li>
+                        </span>
+
+                        <script>
+                            function calcShadowlessSlashConstant(result) {
+                                let constant = 300
+                                let HTML = `<li><b>Skill Constant:</b> ${constant}; total constant of all hits</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcShadowlessSlashMultiplier(level, dexValue, result) {
+                                let multiplier = 4 + 0.5 * level + dexValue / 200
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.00999999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                let HTML = `<li><b>Skill Multiplier:</b> ${multiplier}; total multiplier of all hits</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addShadowlessSlashHitCount(result) {
+                                result.innerHTML += `<li><b>Hit Count:</b> 5 hits; damage calculation is done once then spread evenly between the hits</li></li><br>`
+                            }
+
+                            function calcShadowlessSlashSkillEffect(level, weapon, result) {
+                                var acc = 200 * level
+                                var HTML = `<li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                    <li><b>Accuracy</b> of <b>Shadowless Slash</b> +${acc}</li>
+                    <li>Grants <b>2 Garyou Tensei stacks</b> upon cast if <b>Garyou Tensei</b> has been learned</li>
+                    <li>You can slide to any direction with movement input <b>during the sheathing animation of the skill</b> if both of these conditions are met:<ul>
+                    <li>&nbsp&nbsp&nbsp- This skill is used either <b>outside of a combo</b>, or <b>as the last skill of a combo</b></li>
+                    <li>&nbsp&nbsp&nbsp- The <b>caster</b> is <b>not afflicted</b> with [Slow] or [Stop]</li>
+                    </ul></li>`
+                                if (weapon == "main") { HTML += `<li>Casting <b>Garyou Tensei</b> during this skill's animation will change the former into <b>Divine Slash</b> with enhanced effects</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function addShadowlessSlashExtraInfo(weapon, result) {
+                                var HTML = `<br><b>Extra info:</b>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main weapon (including that of bow)</b></li>
+                    <li>This skill is always affected by <b>Short Range Damage</b> stat regardless of cast distance</li>
+                    <li>This skill <b>will not prorate if it is canceled before any hit is landed</b> (e.g. recasting this skill right before the hits occur); it will also not prorate <b>if it hits after the next skill in normal motion speed condition</b> (in other words, with no motion speed modifier)</li>`
+                                if (weapon == "main") { HTML += `<li>Exclusive for <b>Divine Slash</b>, activating it with <b>Shadowless Slash</b> can allow the former to use the same <b>proration modifier</b> as the latter, as if the latter didn't prorate before the former hits</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcShadowlessSlashValues() {
+                                let levelSelector = document.getElementById('shadowlessSlashSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('shadowlessSlashWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let dexValue = document.getElementById("shadowlessSlashDexValue").value
+                                let result = document.getElementById('shadowlessSlashValues')
+                                calcShadowlessSlashConstant(result)
+                                calcShadowlessSlashMultiplier(level, dexValue, result)
+                                addShadowlessSlashHitCount(result)
+                                calcShadowlessSlashSkillEffect(level, weapon, result)
+                                addShadowlessSlashExtraInfo(weapon, result)
+                            }
+
+                            calcShadowlessSlashValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/pomelstrike.png" width="34" height="34">
+                                Pommel Strike
+                            </p>
+                            <p class="medium">
+                                Skill Pommel Strike Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Strike an enemy with the pommel. Chance to inflict [Paralysis]. Chance to inflict [Stun]
+                                if the target is paralyzed.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="pommelStrikeSkillLevel" onchange="calcPommelStrikeValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Taget has [Paralysis] ailment:</b></span>
+                        <input type="checkbox" id="isParalysisPommel" onchange="calcPommelStrikeValues()"><br>
+                        <span class="sub-title"><b>"Pommel Strike Enhancer" Registlet Level:</b></span>
+                        <select id="pommelStrikeRegistlet" onchange="calcPommelStrikeValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select><br>
+                        <br>
+                        <span id="pommelStrikeValues">
+                            <li><b>Skill Constant:</b> 200</li>
+                            <li><b>Skill Multiplier:</b> 1.5</li><br>
+                            <li><b>Paralysis Chance:</b> 100%</li>
+                            <li><b>Paralysis Duration:</b> 10 seconds</li><br><b>Extra info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>equipped katana</b>
+                            </li>
+                        </span>
+
+                        <script>
+                            function calcPommelStrikeConstant(level, result) {
+                                let constant = 100 + 10 * level
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcPommelStrikeMultiplier(level, result) {
+                                let multiplier = 1 + 0.05 * level
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcPommelStrikeAilment(level, isParalysis, registlet, result) {
+                                let para = 50 + 5 * level
+                                let paraDuration = 10 + registlet * 1
+                                let stun = 5 * level
+                                if (isParalysis) {
+                                    result.innerHTML += `<li><b>Stun Chance:</b> ${stun}%</li>
+                    <li><b>Stun Duration:</b> 5 seconds</li>
+                    <li><b>Resistance Duration on Difficulties:</b> 30 seconds (<b>Easy</b>, <b>Normal</b>, <b>Hard</b> and <b>Nightmare</b>); 35 seconds (<b>Ultimate</b>)</li>`}
+                                else {
+                                    result.innerHTML += `<li><b>Paralysis Chance:</b> ${para}%</li>
+                    <li><b>Paralysis Duration:</b> ${paraDuration} seconds</li>`
+                                }
+                            }
+
+                            function addPommelStrikeExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped katana</b></li>`
+                            }
+
+                            function calcPommelStrikeValues() {
+                                let levelSelector = document.getElementById('pommelStrikeSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let isParalysis = document.getElementById('isParalysisPommel').checked
+                                let registletSelector = document.getElementById("pommelStrikeRegistlet");
+                                let registlet = registletSelector[registletSelector.selectedIndex].value;
+                                let result = document.getElementById('pommelStrikeValues')
+                                calcPommelStrikeConstant(level, result)
+                                calcPommelStrikeMultiplier(level, result)
+                                calcPommelStrikeAilment(level, isParalysis, registlet, result)
+                                addPommelStrikeExtraInfo(result)
+                            }
+
+                            calcPommelStrikeValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/magadachi.png" width="34" height="34">
+                                Magadachi
+                            </p>
+                            <p class="medium">
+                                Skill Magadachi Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Parry an enemy's attack and reduce damage only once. Nullify ailments, recover MP a
+                                little, and at least 1 HP remains when taking fatal damage at certain amount of HP. Just
+                                deal damage if you don't parry.<br>
+                                <font style="color:#009fff">MP restored decreases if used with combo.</font>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="magadachiSkillLevel" onchange="calcMagadachiValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Magadachi Amulet" Registlet Level:</b></span>
+                        <select id="magadachiRegistlet" onchange="calcMagadachiValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select><br>
+                        <span class="sub-title"><b>Tenryu Ransei buff is active:</b></span>
+                        <input type="checkbox" id="tenryuBuffMagadachi" onchange="calcMagadachiValues()"><br>
+                        <div id="tenryuMagaBuffInput" style="display: none;">
+                            <span class="sub-title"><b>"Tenryu Ransei" Skill Level:</b></span>
+                            <select name="skillLevel" id="tenryuMagaLevel" onchange="calcMagadachiValues()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10" selected="">10</option>
+                            </select><br>
+                            <span class="sub-title"><b>Number of stacks:</b></span>
+                            <input type="number" id="tenryuMagaBuffStacks" min="0" max="4" value="0" style="width: 3em"
+                                onchange="calcMagadachiValues()"><br>
+                        </div>
+                        <br>
+                        <span id="magadachiValues">
+                            <li><b>Skill Constant:</b> 200</li>
+                            <li><b>Skill Multiplier:</b> 5</li><br>
+                            <li>Grant <b>Magadachi Parry Buff</b> during the <b>katana lifting animation</b>; this
+                                skill's performance changes depending on whether you take damage while this buff is
+                                active or not<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- If you <b>took damage</b>, the buff will be <b>removed</b>,
+                                        and no attack is performed</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- If you <b>did not take damage</b>, <b>Magadachi Attack</b>
+                                        will be performed</li>
+                                </ul>
+                            </li><br><b>Buff Effect:</b>
+                            <li>Reduce <b>Physical Damage</b> and <b>Fractional Damage</b> taken by 90%, and <b>Magic
+                                    Damage</b> taken by 45%</li>
+                            <li>If you take a <b>Fatal Hit</b> while your <b>Current HP</b> is at <b>20% of your
+                                    MaxHP</b> or higher, you will remain at 1 HP instead</li>
+                            <li>Negate any ailment that comes with the blocked hit</li>
+                            <li>Recover 200 MP if the buff is <b>removed by taking damage</b>, reduced to 100 MP if this
+                                skill was used in a combo</li>
+                            <li><b>Buff Duration:</b> Until the <b>katana lifting animation</b> ends OR until you get
+                                hit</li><br><b>Extra info:</b>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>equipped katana</b>
+                            </li>
+                            <li>This skill <b>will not inflict proration</b> if the attack is <b>not performed</b></li>
+                        </span>
+
+                        <script>
+                            function tenryuBuffCheck(tenryuBuff, tenryuBuffSection) {
+                                if (tenryuBuff) { tenryuBuffSection.style = "display: block" }
+                                else { tenryuBuffSection.style = "display: none" }
+                            }
+
+                            function calcMagadachiConstant(level, tenryuBuff, result) {
+                                if (!tenryuBuff) {
+                                    let constant = 100 + 10 * level
+                                    result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                                }
+                                else {
+                                    let constant = 300
+                                    result.innerHTML = `<li><b>Skill Constant (Zannou):</b> ${constant}</li>`
+                                }
+                            }
+
+                            function calcMagadachiMultiplier(level, tenryuBuff, tenryuLevel, stackInput, result) {
+                                if (!tenryuBuff) {
+                                    let multiplier = 2 + 0.3 * level
+                                    multiplier = Math.round(multiplier * 100) / 100
+                                    result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                                }
+                                else {
+                                    let tenryuMult = 1.5 + 0.25 * tenryuLevel
+                                    let stacks = stackInput.value
+                                    let multiplier = 13 + Math.floor(tenryuMult * stacks * 50) / 100
+                                    multiplier = Math.round(multiplier * 100) / 100
+                                    result.innerHTML += `<li><b>Skill Multiplier (Zannou):</b> ${multiplier}</li><br>`
+                                }
+                            }
+
+                            function calcMagadachiBuff(level, registlet, tenryuBuff, result) {
+                                let dmgReduc1 = 90
+                                let dmgReduc2 = 45 + 5 * registlet
+                                let mpHeal = 100 + 10 * level
+                                let HTML = `<li>Grant <b>Magadachi Parry Buff</b> during the <b>katana lifting animation</b>; this skill's performance changes depending on whether you take damage while this buff is active or not<ul>
+                    <li>&nbsp&nbsp&nbsp- If you <b>took damage</b>, the buff will be <b>removed</b>, and no attack is performed</li>
+                    <li>&nbsp&nbsp&nbsp- If you <b>did not take damage</b>,`
+                                if (!tenryuBuff) { HTML += ` <b>Magadachi Attack</b> will be performed</li></ul></li>` }
+                                else {
+                                    HTML += ` <b>Tenryu Ransei: Zannou</b> will be performed</li></ul></li>
+                    <li><b>Tenryu Ransei: Zannou</b> is treated as an <b>Unsheathe Attack</b></li>
+                    <li><b>Tenryu Ransei: Zannou</b> gives [Invincible] for 2 seconds OR until 0.5 seconds after skill animation ends</li>
+                    <li><b>Tenryu Ransei: Zannou</b> has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be [Evaded]</li>
+                    <li><b>Tenryu Ransei: Zannou</b> will refresh and extend the duration of <b>Tenryu Ransei buff</b> to 30 seconds upon successful cast</li>`}
+                                HTML += `<br><b>Buff Effect:</b>
+                    <li>Reduce <b>Physical Damage</b> and <b>Fractional Damage</b> taken by ${dmgReduc1}%, and <b>Magic Damage</b> taken by ${dmgReduc2}%</li>
+                    <li>If you take a <b>Fatal Hit</b> while your <b>Current HP</b> is at <b>20% of your MaxHP</b> or higher, you will remain at 1 HP instead</li>
+                    <li>Negate any ailment that comes with the blocked hit</li>
+                    <li>Recover ${mpHeal} MP if the buff is <b>removed by taking damage</b>, reduced to ${mpHeal - 100} MP if this skill was used in a combo</li>
+                    <li><b>Buff Duration:</b> Until the <b>katana lifting animation</b> ends OR until you get hit</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addMagadachiExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped katana</b></li>
+                    <li>This skill <b>will not inflict proration</b> if the attack is <b>not performed</b></li>`
+                            }
+
+                            function calcMagadachiValues() {
+                                let levelSelector = document.getElementById('magadachiSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("magadachiRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let tenryuBuff = document.getElementById("tenryuBuffMagadachi").checked
+                                let tenryuBuffSection = document.getElementById("tenryuMagaBuffInput")
+                                let tenryuLevelSelector = document.getElementById('tenryuMagaLevel')
+                                let tenryuLevel = tenryuLevelSelector[tenryuLevelSelector.selectedIndex].value
+                                let stackInput = document.getElementById("tenryuMagaBuffStacks")
+                                let result = document.getElementById('magadachiValues')
+                                tenryuBuffCheck(tenryuBuff, tenryuBuffSection)
+                                calcMagadachiConstant(level, tenryuBuff, result)
+                                calcMagadachiMultiplier(level, tenryuBuff, tenryuLevel, stackInput, result)
+                                calcMagadachiBuff(level, registlet, tenryuBuff, result)
+                                addMagadachiExtraInfo(result)
+                            }
+
+                            calcMagadachiValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/zanteisettetsu.png" width="34" height="34">
+                                Zantei Settetsu
+                            </p>
+                            <p class="medium">
+                                Skill Zantei Settetsu Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana.png"><br>Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>400</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Furiously slash an enemy taking its attack. Nullify damage once and do additional attack.
+                                Chance to inflict [Armor Break] with it.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="zanteiSettetsuSkillLevel" onchange="calcZanteiSettetsuValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Tenryu Ransei buff is active:</b></span>
+                        <input type="checkbox" id="tenryuBuffZantei" onchange="calcZanteiSettetsuValues()"><br>
+                        <div id="tenryuZanteiBuffInput" style="display: none;">
+                            <span class="sub-title"><b>"Tenryu Ransei" Skill Level:</b></span>
+                            <select name="skillLevel" id="tenryuZanteiLevel" onchange="calcZanteiSettetsuValues()">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10" selected="">10</option>
+                            </select><br>
+                            <span class="sub-title"><b>Number of stacks:</b></span>
+                            <input type="number" id="tenryuZanteiBuffStacks" min="0" max="4" value="0"
+                                style="width: 3em" onchange="calcZanteiSettetsuValues()"><br>
+                        </div>
+                        <br>
+                        <span id="zanteiSettetsuValues">
+                            <li><b>Skill Constant (Parry Attacks):</b> 100; total constant of all hits</li>
+                            <li><b>Skill Constant (Counter Attack):</b> 300</li>
+                            <li><b>Skill Multiplier (Parry Attacks):</b> 3; total multiplier of all hits</li>
+                            <li><b>Skill Multiplier (Counter Attack):</b> 15</li>
+                            <li><b>Hit Count:</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Parry Attacks:</b> 4 hits; damage calculation is done
+                                        once then spread evenly between the hits</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Counter Attack:</b> 1 hit; critical calculation is copied
+                                        from the <b>Parry Attacks</b>; the rest of damage calculation is done separately
+                                        for itself</li>
+                                </ul>
+                            </li><br>
+                            <li><b>Zantei Settetsu</b> is treated as an <b>Unsheathe Attack</b></li>
+                            <li>Grant <b>Zantei Settetsu Parry Buff</b> during the <b>Parry Attacks</b>; if you <b>get
+                                    hit</b> while this buff is active, the <b>Counter Attack</b> will be performed. The
+                                <b>Counter Attack</b> can inflict [Armor Break]
+                            </li>
+                            <li><b>Armor Break Chance:</b> 100%</li>
+                            <li><b>Armor Break Duration:</b> 5 seconds</li><br><b>Buff Effect:</b>
+                            <li>Reduce damage taken to 0; this still counts as taking damage, but <b>will not</b> remove
+                                any buffs that can be removed upon taking damage</li>
+                            <li>Negate any [Flinch], [Tumble], [Stun] or [Knockback] that comes with the blocked hit
+                            </li>
+                            <li><b>Buff Duration:</b> Until the <b>Parry Attacks</b> ends OR until you get hit</li>
+                            <br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                            <b>equipped katana</b>
+                        </span>
+
+                        <script>
+                            function tenryuBuffCheck(tenryuBuff, tenryuBuffSection) {
+                                if (tenryuBuff) { tenryuBuffSection.style = "display: block" }
+                                else { tenryuBuffSection.style = "display: none" }
+                            }
+
+                            function calcZanteiSettetsuConstant(level, tenryuBuff, result) {
+                                let constant1 = 10 * level
+                                let HTML = `<li><b>Skill Constant (Parry Attacks):</b> ${constant1}; total constant of all hits</li>`
+                                if (!tenryuBuff) {
+                                    let constant2 = 30 * level
+                                    HTML += `<li><b>Skill Constant (Counter Attack):</b> ${constant2}</li>`
+                                }
+                                else {
+                                    let constant2 = 300
+                                    HTML += `<li><b>Skill Constant (Zannou):</b> ${constant2}</li>`
+                                }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcZanteiSettetsuMultiplier(level, tenryuBuff, tenryuLevel, stackInput, result) {
+                                let multiplier1 = 1 + 0.2 * level
+                                multiplier1 = Math.round(multiplier1 * 100) / 100
+                                let HTML = `<li><b>Skill Multiplier (Parry Attacks):</b> ${multiplier1}; total multiplier of all hits</li>`
+                                if (!tenryuBuff) {
+                                    let multiplier2 = 5 + 1 * level
+                                    multiplier2 = Math.round(multiplier2 * 100) / 100
+                                    HTML += `<li><b>Skill Multiplier (Counter Attack):</b> ${multiplier2}</li>`
+                                }
+                                else {
+                                    let tenryuMult = 1.5 + 0.25 * tenryuLevel
+                                    let stacks = stackInput.value
+                                    let multiplier2 = 13 + Math.floor(tenryuMult * stacks * 50) / 100
+                                    multiplier2 = Math.round(multiplier2 * 100) / 100
+                                    HTML += `<li><b>Skill Multiplier (Zannou):</b> ${multiplier2}</li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function addZanteiSettetsuHitCount(tenryuBuff, result) {
+                                let HTML = `<li><b>Hit Count:</b><ul>
+                    <li>&nbsp&nbsp&nbsp- <b>Parry Attacks:</b> 4 hits; damage calculation is done once then spread evenly between the hits</li>`
+                                if (!tenryuBuff) { HTML += `<li>&nbsp&nbsp&nbsp- <b>Counter Attack:</b> 1 hit; critical calculation is copied from the <b>Parry Attacks</b>; the rest of damage calculation is done separately for itself</li>` }
+                                else { HTML += `<li>&nbsp&nbsp&nbsp- <b>Tenryu Ransei: Zannou:</b> 1 hit; damage calculation is done separately for itself</li>` }
+                                HTML += `</ul></li><br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcZanteiSettetsuBuff(level, tenryuBuff, result) {
+                                let armorBreak = 50 + 5 * level
+                                let HTML = `<li><b>Zantei Settetsu</b> is treated as an <b>Unsheathe Attack</b></li>
+                    <li>Grant <b>Zantei Settetsu Parry Buff</b> during the <b>Parry Attacks</b>; if you <b>get hit</b> while this buff is active,`
+                                if (!tenryuBuff) {
+                                    HTML += ` the <b>Counter Attack</b> will be performed. The <b>Counter Attack</b> can inflict [Armor Break]</li>
+                    <li><b>Armor Break Chance:</b> ${armorBreak}%</li>
+                    <li><b>Armor Break Duration:</b> 5 seconds</li>`}
+                                else {
+                                    HTML += ` <b>Tenryu Ransei: Zannou</b> will be performed (<b>does not</b> inflict [Armor Break])</li>
+                    <li><b>Tenryu Ransei: Zannou</b> is treated as an <b>Unsheathe Attack</b></li>
+                    <li><b>Tenryu Ransei: Zannou</b> gives [Invincible] for 2 seconds OR until 0.5 seconds after skill animation ends</li>
+                    <li><b>Tenryu Ransei: Zannou</b> has the <b>Perfect Aim</b> attribute: it cannot [Miss] or [Graze], but can be [Evaded]</li>
+                    <li><b>Tenryu Ransei: Zannou</b> will refresh and extend the duration of <b>Tenryu Ransei buff</b> to 30 seconds upon successful cast</li>`}
+                                HTML += `<br><b>Buff Effect:</b>
+                    <li>Reduce damage taken to 0; this still counts as taking damage, but <b>will not</b> remove any buffs that can be removed upon taking damage</li>
+                    <li>Negate any [Flinch], [Tumble], [Stun] or [Knockback] that comes with the blocked hit</li>
+                    <li><b>Buff Duration:</b> Until the <b>Parry Attacks</b> ends OR until you get hit</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcZanteiSettetsuValues() {
+                                let levelSelector = document.getElementById('zanteiSettetsuSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let tenryuBuff = document.getElementById("tenryuBuffZantei").checked
+                                let tenryuBuffSection = document.getElementById("tenryuZanteiBuffInput")
+                                let tenryuLevelSelector = document.getElementById('tenryuZanteiLevel')
+                                let tenryuLevel = tenryuLevelSelector[tenryuLevelSelector.selectedIndex].value
+                                let stackInput = document.getElementById("tenryuZanteiBuffStacks")
+                                let result = document.getElementById('zanteiSettetsuValues')
+                                tenryuBuffCheck(tenryuBuff, tenryuBuffSection)
+                                calcZanteiSettetsuConstant(level, tenryuBuff, result)
+                                calcZanteiSettetsuMultiplier(level, tenryuBuff, tenryuLevel, stackInput, result)
+                                addZanteiSettetsuHitCount(tenryuBuff, result)
+                                calcZanteiSettetsuBuff(level, tenryuBuff, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped katana</b>`
+                            }
+
+                            calcZanteiSettetsuValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/bushido.png" width="34" height="34">
+                                Bushido
+                            </p>
+                            <p class="medium">
+                                Skill Bushido Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Learn how to be a Mononofu. HP, MP and Accuracy increase a little. ATK increases when
+                                equipping a Katana.<br><br>
+
+                                &nbsp;&nbsp;<b>Side note:</b> (the following notes are not part of this or any other
+                                Mononofu passive, rather being hidden innate effects of <b>Main Katana</b>)<br>
+                                • <b>Auto Attacks</b> of <b>Main Katana</b> are treated as <b>Unsheathe Attacks</b><br>
+                                • You can <b>slide</b> to any direction after an auto attack by using movement input
+                                <b>during the auto attack animation</b> if your are <b>not afflicted</b> with [Slow] or
+                                [Stop]; the same <b>slide</b> can also be performed after certain <b>Mononofu Skills</b>
+                                (conditions are listed within the info of said skills)<br>
+                                • After performing a <b>slide</b>, gains a buff that lasts until you perform an <b>auto
+                                    attack</b>; the auto attack that consumes the buff will have its damage
+                                <b>doubled</b>, gains 50% bonus AMPR, will <b>always deal critical hits</b>, and give 1
+                                <b>Garyou Tensei stack</b><br>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="bushidoWeaponType" onchange="calcBushidoValues()">
+                            <option value="ktn" selected="">Main Katana</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="bushidoSkillLevel" onchange="calcBushidoValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="bushidoValues">
+                            <li><b>MaxHP</b> +100</li>
+                            <li><b>MaxMP</b> +100</li>
+                            <li><b>Accuracy</b> +10</li>
+                            <li><b>ATK</b> +3% </li>
+                            <li><b>Weapon ATK</b> +30%</li>
+                        </span>
+
+                        <script>
+                            function calcbushidoGlobalBonus(level, result) {
+                                let hpMp = 10 * level
+                                let acc = 1 * level
+                                result.innerHTML = `<li><b>MaxHP</b> +${hpMp}</li>
+                    <li><b>MaxMP</b> +${hpMp}</li>
+                    <li><b>Accuracy</b> +${acc}</li>`
+                            }
+
+                            function calcBushidoKtnMainBonus(level, weapon, result) {
+                                let atk = 1 + Math.ceil((level - 2) / 5)
+                                let watk = 3 * level
+                                if (weapon == 'ktn') {
+                                    result.innerHTML += `<li><b>ATK</b> +${atk}% </li>
+                    <li><b>Weapon ATK</b> +${watk}%</li>`
+                                }
+                            }
+
+                            function calcBushidoValues() {
+                                let levelSelector = document.getElementById('bushidoSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('bushidoWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('bushidoValues')
+                                calcbushidoGlobalBonus(level, result)
+                                calcBushidoKtnMainBonus(level, weapon, result)
+                            }
+
+                            calcBushidoValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shukuchi.png" width="34" height="34">
+                                Shukuchi
+                            </p>
+                            <p class="medium">
+                                Skill Shukuchi Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A technique to move fast. Quickly move within the range when doing normal attacks.
+                                Increase the ability of the next normal attack. Unavailable during [Slow/Stop].</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/katana.png"></p>
+                                <p>Katana</p>
+                            </div>
+                            <p>Available with Katana Skills</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="shukuchiWeaponType" onchange="calcShukuchiValues()">
+                            <option value="main" selected="">Main Katana</option>
+                            <option value="sub">Sub Katana</option>
+                            <option value="dw">Dual Swords</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="shukuchiSkillLevel" onchange="calcShukuchiValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <div id="shukuchiMainNukiInput" style="display: block;">
+                            <span class="sub-title"><b>Nukiuchi Sennosen buff is active:</b></span>
+                            <input type="checkbox" id="shukuchiNukiSenBuff" onchange="calcShukuchiValues()"><br>
+                            <div id="shukuchiNukiHpInput" style="display: none;">
+                                <span class="sub-title"><b>Current HP Percentage:</b></span>
+                                <input type="number" value="100" id="shukuchiCurrentHP" min="1" max="100"
+                                    onchange="calcShukuchiValues()" style="width: 4em;">
+                            </div>
+                        </div>
+                        <br>
+                        <span id="shukuchiValues"><b>Passive Effect:</b>
+                            <li>When you use an <b>auto attack</b> or <b>another attacking skill from Mononofu Skills
+                                    Tree</b> while being out of range and not under auto attack delay, you will <b>dash
+                                    toward the target</b> until you are within the <b>range of auto attack</b> OR until
+                                cancelled by movement input; <b>cannot</b> activate if you are afflicted with [Slow] or
+                                [Stop]</li>
+                            <li>The used action will be queued to activate <b>at the end of the dash</b>; if the dash is
+                                cancelled, the queued action is also cancelled</li>
+                            <li>If the dash is not cancelled, the <b>auto attack</b> used right after it becomes an
+                                <b>Unsheathe Attack</b>
+                            </li>
+                            <li>Grants <b>Shukuchi buff</b> upon initiating the dash</li>
+                            <li><b>Maximum Dash Range:</b> Theoretically infinite (limited to 24m by targeting limit;
+                                becomes infinite for skills if the target was hit at least once)</li><br><b>Buff
+                                Effect:</b>
+                            <li><b>Attack MP Recovery</b> +50</li>
+                            <li><b>Skill Multiplier</b> of the next <b>auto attack</b> +0.5</li>
+                            <li><b>Buff Duration:</b> Until the dash is cancelled OR until a skill or an auto attack is
+                                used</li>
+                        </span>
+
+                        <script>
+                            function shukuchiNukiSenCheck(weapon, mainNukiSection, nukiSen, nukiSenHPSection) {
+                                if (weapon == "main") { mainNukiSection.style = "display: block" }
+                                else { mainNukiSection.style = "display: none" }
+                                if (nukiSen) { nukiSenHPSection.style = "display: block" }
+                                else { nukiSenHPSection.style = "display: none" }
+                            }
+
+                            function addShukuchiGlobalEffect(weapon, result) {
+                                let HTML = `<b>Passive Effect:</b>
+                    <li>When you use an <b>auto attack</b>`
+                                if (weapon == "main" || weapon == "sub") { HTML += ` or <b>another attacking skill from Mononofu Skills Tree</b>` }
+                                HTML += ` while being out of range and not under auto attack delay, you will <b>dash toward the target</b> until you are within the <b>range of auto attack</b> OR until cancelled by movement input; <b>cannot</b> activate if you are afflicted with [Slow] or [Stop]</li>
+                    <li>The used action will be queued to activate <b>at the end of the dash</b>; if the dash is cancelled, the queued action is also cancelled</li>
+                    <li>If the dash is not cancelled, the <b>auto attack</b> used right after it becomes an <b>Unsheathe Attack</b></li>
+                    <li>Grants <b>Shukuchi buff</b> upon initiating the dash</li>
+                    <li><b>Maximum Dash Range:</b> Theoretically infinite (limited to 24m by targeting limit; becomes infinite for skills if the target was hit at least once)</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcShukuchiGlobalBonus(level, weapon, nukiSen, currentHP, result) {
+                                var aaConst = 0
+                                var aaBonus = 0.05 * level
+                                if (weapon == "main" && nukiSen) {
+                                    aaConst = 1000 * (100 - 1 * currentHP) / 100
+                                    aaBonus = 4
+                                }
+                                aaBonus = Math.round(aaBonus * 100) / 100
+                                var ampr = level * level / 4
+                                if (weapon == "main") { ampr *= 2 }
+                                ampr = Math.floor(ampr)
+                                var HTML = `<br><b>Buff Effect:</b>
+                    <li><b>Attack MP Recovery</b> +${ampr}</li>`
+                                if (weapon == "main" && nukiSen && aaConst != 0) { HTML += `<li><b>Skill Constant</b> of the next <b>auto attack</b> +${aaConst}</li>` }
+                                HTML += `<li><b>Skill Multiplier</b> of the next <b>auto attack</b> +${aaBonus}`
+                                if (weapon == "dw") { HTML += `; <font style = 'color: #C70039'>only applies to main hand damage</font style>` }
+                                HTML += `</li><li><b>Buff Duration:</b> Until the dash is cancelled OR until a skill or an auto attack is used</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcShukuchiValues() {
+                                let levelSelector = document.getElementById('shukuchiSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('shukuchiWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let mainNukiSection = document.getElementById("shukuchiMainNukiInput")
+                                let nukiSen = document.getElementById("shukuchiNukiSenBuff").checked
+                                let nukiSenHPSection = document.getElementById("shukuchiNukiHpInput")
+                                let currentHP = document.getElementById("shukuchiCurrentHP").value
+                                let result = document.getElementById('shukuchiValues')
+                                shukuchiNukiSenCheck(weapon, mainNukiSection, nukiSen, nukiSenHPSection)
+                                addShukuchiGlobalEffect(weapon, result)
+                                calcShukuchiGlobalBonus(level, weapon, nukiSen, currentHP, result)
+                            }
+
+                            calcShukuchiValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shukuchi.png" width="34" height="34">
+                                Nukiuchi Sennosen
+                            </p>
+                            <p class="medium">
+                                Skill Nukiuchi Sennosen Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana-main.png"><br>Main Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A sword-drawing technique that is like a miracle. When not attacking for a certain period
+                                of time, the normal attack with Shukuchi will be greatly enhanced. The less HP you have,
+                                the more powerful it is.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="nukiuchiSennosenSkillLevel" onchange="calcNukiuchiSennosenValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Current HP Percentage:</b></span>
+                        <input type="number" value="100" id="nukiuchiCurrentHP" min="1" max="100"
+                            onchange="calcNukiuchiSennosenValues()" style="width: 4em;"><br>
+                        <br>
+                        <span id="nukiuchiSennosenValues">
+                            <li>After 2 seconds of <b>not attacking</b>, gains <b>Nukiuchi Sennosen buff</b> (indicated
+                                by a faint glow that appears briefly on the weapon)</li>
+                            <li>Performing an <b>after-attack slide</b> will reduce the remaining cooldown by 1 second
+                            </li><br><b>Buff Effect:</b>
+                            <li><b>Skill Multiplier bonus</b> of <b>Shukuchi buff</b> becomes +4</li>
+                            <li><b>Pulse Blade</b> becomes <b>Swift Pulse Blade</b>, its damage is multiplied by 5
+                                times, and it will not inflict proration</li>
+                            <li><b>Buff Duration:</b> Until an auto attack or an attacking skill is used</li>
+                        </span>
+
+                        <script>
+
+                            function calcNukiuchiSennosenSkillEffect(level, result) {
+                                var wait = 12 - 1 * level
+                                result.innerHTML = `<li>After ${wait} seconds of <b>not attacking</b>, gains <b>Nukiuchi Sennosen buff</b> (indicated by a faint glow that appears briefly on the weapon)</li>
+                    <li>Performing an <b>after-attack slide</b> will reduce the remaining cooldown by 1 second</li>`
+                            }
+
+                            function calcNukiuchiSennosenBuffEffect(currentHP, result) {
+                                var aaConst = 1000 * (100 - 1 * currentHP) / 100
+                                var cdmg = 1
+                                var HTML = `<br><b>Buff Effect:</b>`
+                                if (aaConst > 0) { HTML += `<li><b>Skill Constant bonus</b> of <b>Shukuchi buff</b> +${aaConst}</li>` }
+                                HTML += `<li><b>Skill Multiplier bonus</b> of <b>Shukuchi buff</b> becomes +4</li>
+                    <li><b>Pulse Blade</b> becomes <b>Swift Pulse Blade</b>, its damage is multiplied by 5 times, and it will not inflict proration</li>
+                    <li><b>Buff Duration:</b> Until an auto attack or an attacking skill is used</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcNukiuchiSennosenValues() {
+                                let levelSelector = document.getElementById("nukiuchiSennosenSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let currentHP = document.getElementById("nukiuchiCurrentHP").value
+                                let result = document.getElementById("nukiuchiSennosenValues")
+                                calcNukiuchiSennosenSkillEffect(level, result)
+                                calcNukiuchiSennosenBuffEffect(currentHP, result)
+                            }
+
+                            calcNukiuchiSennosenValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/twohanded.png" width="34" height="34">
+                                Two-Handed
+                            </p>
+                            <p class="medium">
+                                Skill Two-Handed Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Wield the weapon with both hands. Various stats are enhanced if Sub-Weapon is empty.
+                                Critical Damage with a Katana greatly increases.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/katana.png"></p>
+                                <p>Katana</p>
+                            </div>
+                            <p>2x Boost on Critical Rate<br> 2x Boost on Stability Boost</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="twoHandedWeaponType" onchange="calcTwoHandedValues()">
+                            <option value="ktn" selected="">Main Katana</option>
+                            <option value="ninja">Main 1-Handed Sword/Staff/Magic Device</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="twoHandedSkillLevel" onchange="calcTwoHandedValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <div id="ninjaSpiritLvlInput" style="display: block;">
+                            <span class="sub-title"><b>"Ninja Spirit" Skill Level:</b></span>
+                            <select id="ninjaSpiritLevel" onchange="calcTwoHandedValues()">
+                                <option value="1" selected="">0~9</option>
+                                <option value="10">10</option>
+                            </select><br>
+                        </div>
+                        <br>
+                        <span id="twoHandedValues">Gains the following bonuses if your <b>sub-weapon slot</b> is
+                            <b>empty</b>:<li><b>WeaponATK</b> +10%</li>
+                            <li><b>Accuracy</b> +10%</li>
+                            <li><b>Critical Rate</b> +10</li>
+                            <li><b>Stability</b> +10%</li>
+                            <li><b>All Critical Hits</b> have the <b>TotalATK</b> used for their damage calculations
+                                <b>increased by 50%</b>
+                            </li>
+                        </span>
+
+                        <script>
+                            function ktnMainOrNot(weapon, ninjaSpiritLvlSection) {
+                                if (weapon != "other") { ninjaSpiritLvlSection.style = "display: block" }
+                                else { ninjaSpiritLvlSection.style = "display: none" }
+                            }
+
+                            function calctwoHandedGlobalBonus(level, weapon, ninjaLevel, result) {
+                                let watk = 1 * level
+                                let acc = 1 * level
+                                let cr = 1 * level
+                                let stab = 1 * level
+                                if (weapon != "ktn") {
+                                    cr = Math.floor(cr / 2)
+                                    stab = Math.floor(stab / 2)
+                                }
+                                let HTML = `Gains the following bonuses if your <b>sub-weapon slot</b> is <b>empty</b>`
+                                if (weapon != "other" && ninjaLevel > 1) { HTML += ` or <b>equipped with a Ninjutsu Scroll</b>` }
+                                HTML += `:<li><b>WeaponATK</b> +${watk}%</li>
+                    <li><b>Accuracy</b> +${acc}%</li>`
+                                if (cr > 0) { HTML += `<li><b>Critical Rate</b> +${cr}</li>` }
+                                if (stab > 0) { HTML += `<li><b>Stability</b> +${stab}%</li>` }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcTwoHandedKtnMainBonus(level, weapon, result) {
+                                let bonusAtk = 5 * level
+                                if (weapon == 'ktn') { result.innerHTML += `<li><b>All Critical Hits</b> have the <b>TotalATK</b> used for their damage calculations <b>increased by ${bonusAtk}%</b></li>` }
+                            }
+
+                            function calcTwoHandedValues() {
+                                let levelSelector = document.getElementById('twoHandedSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('twoHandedWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let ninjaSpiritLvlSection = document.getElementById("ninjaSpiritLvlInput")
+                                let ninjaLevelSelector = document.getElementById('ninjaSpiritLevel')
+                                let ninjaLevel = ninjaLevelSelector[ninjaLevelSelector.selectedIndex].value
+                                let result = document.getElementById('twoHandedValues')
+                                ktnMainOrNot(weapon, ninjaSpiritLvlSection)
+                                calctwoHandedGlobalBonus(level, weapon, ninjaLevel, result)
+                                calcTwoHandedKtnMainBonus(level, weapon, result)
+                            }
+
+                            calcTwoHandedValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/meikyoshisui.png" width="34" height="34">
+                                Meikyo Shisui
+                            </p>
+                            <p class="medium">
+                                Skill Meikyo Shisui Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Sharpen your focus. Critical Rate greatly increases for a short time and Critical Damage,
+                                DEF, and MDEF decrease. The effect ends when you use a skill.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/katana.png"></p>
+                                <p>Katana</p>
+                            </div>
+                            <p>2x Duration<br> Critical Rate Boost +25<br> No Decrease in Critical Damage.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="meikyoShisuiWeapon" onchange="calcMeikyoShisuiValues()">
+                            <option value="ktn" selected="">Katana</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="meikyoShisuiLevel" onchange="calcMeikyoShisuiValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Meikyo Shisui Preserver" Registlet equipped:</b></span>
+                        <input type="checkbox" id="meikyoShisuiRegistlet" onchange="calcMeikyoShisuiValues()"><br>
+                        <br>
+                        <span id="meikyoShisuiValues"><b>Buff Effect:</b>
+                            <li><b>Critical Rate</b> +65</li>
+                            <li style="color: #C70039"><b>DEF</b> -100</li>
+                            <li style="color: #C70039"><b>MDEF</b> -100</li>
+                            <li><b>Buff Duration:</b> 60 seconds OR until a skill is used</li><br>The buff will be
+                            applied fully to the next skill used <b>after this skill</b>
+                        </span>
+
+                        <script>
+                            function calcMeikyoShisuiBuffCritRateIncrease(level, weapon, result) {
+                                var critRate = 20 + 2 * level
+                                if (weapon == "ktn") { critRate += 25 }
+                                result.innerHTML = `<b>Buff Effect:</b>
+                    <li><b>Critical Rate</b> +${critRate}</li>`;
+                            }
+
+                            function calcMeikyoShisuiBuffCritDmgDecrease(level, weapon, result) {
+                                var critDmg = 15 - 1 * level
+                                if (weapon != "ktn") { result.innerHTML += `<li style = 'color: #C70039'><b>Critical Damage</b> -${critDmg}%</li>` }
+                            }
+
+                            function calcMeikyoShisuiBuffDefMdefDecrease(level, weapon, result) {
+                                var defPenalty = 100 * (11 - level)
+                                result.innerHTML += `<li style = 'color: #C70039'><b>DEF</b> -${defPenalty}</li>
+                    <li style = 'color: #C70039'><b>MDEF</b> -${defPenalty}</li>`
+                            }
+
+                            function calcMeikyoShisuiBuffDuration(level, weapon, registlet, result) {
+                                var duration = 10 + 2 * level
+                                if (weapon == "ktn") { duration *= 2 }
+                                var HTML = `<li><b>Buff Duration:</b> ${duration} seconds`
+                                if (!registlet) { HTML += ` OR until a skill is used` }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addMeikyoShisuiExtraInfo(registlet, result) {
+                                result.innerHTML += `<br>The buff will be applied fully to the next skill used <b>after this skill</b>`
+                                if (registlet) { result.innerHTML += `, but <b>not to any subsequent skills</b> for its entire duration, until this skill is recast` }
+                            }
+
+                            function calcMeikyoShisuiValues() {
+                                var weaponSelector = document.getElementById("meikyoShisuiWeapon")
+                                var weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                var levelSelector = document.getElementById("meikyoShisuiLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var registlet = document.getElementById("meikyoShisuiRegistlet").checked
+                                var result = document.getElementById("meikyoShisuiValues")
+                                calcMeikyoShisuiBuffCritRateIncrease(level, weapon, result)
+                                calcMeikyoShisuiBuffCritDmgDecrease(level, weapon, result)
+                                calcMeikyoShisuiBuffDefMdefDecrease(level, weapon, result)
+                                calcMeikyoShisuiBuffDuration(level, weapon, registlet, result)
+                                addMeikyoShisuiExtraInfo(registlet, result)
+                            }
+
+                            calcMeikyoShisuiValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/kairikiranshin.png" width="34" height="34">
+                                Kairiki Ranshin
+                            </p>
+                            <p class="medium">
+                                Skill Kairiki Ranshin Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Release the demonic power inside. Increase ATK/Attack MP Recovery/Normal Attack Power.
+                                Enhance Defense Pierce/Critical Rate of Garyou Tensei. <b style="color: #E77577">Inflict
+                                    [Ignition] on yourself when activated.</b></p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/katana.png"></p>
+                                <p>Katana</p>
+                            </div>
+                            <p>Normal Attack Power +50<br> 3x Duration</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select id="kairikiRanshinWeapon" onchange="calcKairikiRanshinValues()">
+                            <option value="main" selected="">Main Katana</option>
+                            <option value="sub">Sub Katana</option>
+                            <option value="dw">Dual Swords</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="kairikiRanshinLevel" onchange="calcKairikiRanshinValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="kairikiRanshinValues">
+                            <li><b>Skill Effect:</b> Inflicts [Ignite] with <b>no Resistance Time</b> and grants
+                                <b>Kairiki Ranshin buff</b> to the <b>caster</b>
+                            </li>
+                            <li><b>Ignite Duration:</b> 10 seconds</li><br><b>Buff Effect:</b>
+                            <li><b>ATK</b> +100</li>
+                            <li><b>Attack MP Recovery</b> +25</li>
+                            <li><b>Auto Attack Skill Multiplier</b> +1</li>
+                            <li><b>Critical Rate</b> of <b>Garyou Tensei/Divine Slash</b> +100</li>
+                            <li><b>Physical Pierce</b> of <b>Garyou Tensei/Divine Slash</b> +100%</li>
+                            <li><b>Buff Duration:</b> 30 seconds OR until <b>Garyou Tensei</b> is used; the buff <b>will
+                                    not be consumed</b> if <b>Divine Slash</b> is used instead</li>
+                        </span>
+
+                        <script>
+                            function calcKairikiRanshinIgnite(level, result) {
+                                var ignite = Math.floor(5 + 0.5 * level)
+                                result.innerHTML = `<li><b>Skill Effect:</b> Inflicts [Ignite] with <b>no Resistance Time</b> and grants <b>Kairiki Ranshin buff</b> to the <b>caster</b></li>
+                    <li><b>Ignite Duration:</b> ${ignite} seconds</li><br>`
+                            }
+
+                            function calcKairikiRanshinBonus(level, weapon, result) {
+                                var atk = 10 * level
+                                var ampr = 5 + 1 * level + 5 * Math.floor((level - 1) / 5) + 5 * Math.floor(level / 10)
+                                var aaBonus = 0.05 * level
+                                if (weapon == "main" || weapon == "sub") { aaBonus += 0.5 }
+                                aaBonus = Math.round(aaBonus * 100) / 100
+                                var garyouCr = 10 * level
+                                var garyouPp = 10 * level
+                                var name = `Garyou Tensei`
+                                if (weapon == "main") { name += `/Divine Slash` }
+                                var HTML = `<b>Buff Effect:</b>
+                    <li><b>ATK</b> +${atk}</li>
+                    <li><b>Attack MP Recovery</b> +${ampr}</li>
+                    <li><b>Auto Attack Skill Multiplier</b> +${aaBonus}`
+                                if (weapon == "dw") { HTML += `; <font style = 'color: #C70039'>only applies to main hand damage</font style>` }
+                                HTML += `</li>`
+                                if (weapon == "main" || weapon == "sub") {
+                                    HTML += `<li><b>Critical Rate</b> of <b>${name}</b> +${garyouCr}</li>
+                    <li><b>Physical Pierce</b> of <b>${name}</b> +${garyouPp}%</li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcKairikiRanshinBuffDuration(level, weapon, result) {
+                                var duration = Math.floor(5 + 0.5 * level)
+                                if (weapon == "main" || weapon == "sub") { duration *= 3 }
+                                var HTML = `<li><b>Buff Duration:</b> ${duration} seconds`
+                                if (weapon == "main" || weapon == "sub") {
+                                    HTML += ` OR until <b>Garyou Tensei</b> is used`
+                                    if (weapon == "main") { HTML += `; the buff <b>will not be consumed</b> if <b>Divine Slash</b> is used instead` }
+                                }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcKairikiRanshinValues() {
+                                var weaponSelector = document.getElementById("kairikiRanshinWeapon")
+                                var weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                var levelSelector = document.getElementById("kairikiRanshinLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var result = document.getElementById("kairikiRanshinValues")
+                                calcKairikiRanshinIgnite(level, result)
+                                calcKairikiRanshinBonus(level, weapon, result)
+                                calcKairikiRanshinBuffDuration(level, weapon, result)
+                            }
+
+                            calcKairikiRanshinValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/dauntless.png" width="34" height="34">
+                                Dauntless
+                            </p>
+                            <p class="medium">
+                                Skill Dauntless Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana-main.png"><br>Main Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A strong determination to confront the enemy. Dauntless automatically accumulates when
+                                fighting against a powerful enemy. Grants various buffs for every 10 Dauntless points
+                                accumulated. Defeating the enemy consumes its counts and it will deplete over time.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="dauntlessLevel" onchange="calcDauntlessValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Number of stacks:</b></span>
+                        <input type="number" id="dauntlessStackCount" value="0" onchange="calcDauntlessValues()"
+                            style="width: 3em;" min="0" max="100" step="10"><br>
+                        <div id="dauntlessMaxStackInput" style="display: none;">
+                            <span class="sub-title"><b>Main Weapon Refinement Level:</b></span>
+                            <select id="dauntlessWeaponRefine" onchange="calcDauntlessValues()">
+                                <option value="0" selected="">+0</option>
+                                <option value="1">+1</option>
+                                <option value="2">+2</option>
+                                <option value="3">+3</option>
+                                <option value="4">+4</option>
+                                <option value="5">+5</option>
+                                <option value="6">+6</option>
+                                <option value="7">+7</option>
+                                <option value="8">+8</option>
+                                <option value="9">+9</option>
+                                <option value="10">+E</option>
+                                <option value="11">+D</option>
+                                <option value="12">+C</option>
+                                <option value="13">+B</option>
+                                <option value="14">+A</option>
+                                <option value="15">+S</option>
+                            </select><br>
+                        </div>
+                        <br>
+                        <span id="dauntlessValues">
+                            <li>Upon engaging battle with a <b>Miniboss</b> or a <b>Boss</b>, starts accumulating
+                                <b>Dauntless buff stack</b>, up to a maximum of 100 stacks
+                            </li>
+                            <li>Gains 1 stack every 2 seconds; gains 2 stacks on any successful "parry" (reducing damage
+                                with a <b>Parry Buff</b> from <b>Magadachi</b>, <b>Zantei Settetsu</b>, or <b>Bouncing
+                                    Blade</b>)</li>
+                            <li>The buff is removed entirely once all <b>Minibosses</b> and <b>Bosses</b> in your fight
+                                are defeated</li><br><b>Buff Effect:</b>
+                            <li>No effect at this stage</li>
+                            <li><b>Buff Duration:</b> Until there is no longer a <b>Miniboss</b> or a <b>Boss</b> in
+                                your fight</li><br>Credits to <b>Phantom Library</b> for the info of the skill
+                        </span>
+
+                        <script>
+                            function dauntlessMaxStackCheck(stack, maxStackSection) {
+                                if (stack == "100") { maxStackSection.style = "display: block" }
+                                else { maxStackSection.style = "display: none" }
+                            }
+
+                            function calcDauntlessSkillEffect(level, result) {
+                                var period = 12 - 1 * level
+                                result.innerHTML = `<li>Upon engaging battle with a <b>Miniboss</b> or a <b>Boss</b>, starts accumulating <b>Dauntless buff stack</b>, up to a maximum of 100 stacks</li>
+                    <li>Gains 1 stack every ${period} seconds; gains 2 stacks on any successful "parry" (reducing damage with a <b>Parry Buff</b> from <b>Magadachi</b>, <b>Zantei Settetsu</b>, or <b>Bouncing Blade</b>)</li>
+                    <li>The buff is removed entirely once all <b>Minibosses</b> and <b>Bosses</b> in your fight are defeated</li>`
+                            }
+
+                            function calcDauntlessBuffEffect(level, stack, refine, result) {
+                                var acc = Math.floor(stack / 10) * 10
+                                var watk = Math.floor(stack / 10) * 5
+                                var unsheathe = Math.floor(stack / 10)
+                                if (stack >= 70) { unsheathe += Math.floor(stack / 10) }
+                                var motion = Math.floor(Math.floor(stack / 40) * 12.5)
+                                var baseWatk = Math.floor(stack / 10) * 5
+                                var percentWatk = 2 * refine
+                                var HTML = `<br><b>Buff Effect:</b>`
+                                if (stack < 10) { HTML += `<li>No effect at this stage</li>` }
+                                if (stack >= 10) { HTML += `<li><b>Accuracy</b> +${acc}</li>` }
+                                if (stack >= 20) { HTML += `<li><b>Weapon ATK</b> +${watk}</li>` }
+                                if (stack >= 30) { HTML += `<li><b>Unsheathe Attack</b> +${unsheathe}%</li>` }
+                                if (stack >= 40) { HTML += `<li><b>Motion Speed</b> +${motion}%</li>` }
+                                if (stack >= 50) {
+                                    HTML += `<li>Reduces damage taken to 0 <b>once</b> during each <b>after-skill/attack slide</b>; this still counts as taking damage, but <b>will not</b> remove buffs that can be removed upon taking damage</li>
+                    <li>Reduces <b>Kasumisetsu Getsuka's Tenryu Ransei stack consumption</b> by 1</li>`}
+                                if (stack >= 60) { HTML += `<li><b>Base Weapon ATK</b> +${baseWatk}</li>` }
+                                if (stack >= 90) { HTML += `<li><b>MP Cost</b> of all <b>Mononofu Skills</b> are halved</li>` }
+                                if (stack >= 100 && percentWatk > 0) { HTML += `<li><b>Weapon ATK</b> +${percentWatk}%</li>` }
+                                HTML += `<li><b>Buff Duration:</b> Until there is no longer a <b>Miniboss</b> or a <b>Boss</b> in your fight</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcDauntlessValues() {
+                                let levelSelector = document.getElementById("dauntlessLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value;
+                                let stack = document.getElementById("dauntlessStackCount").value
+                                var maxStackSection = document.getElementById("dauntlessMaxStackInput")
+                                var weaponRefineSelector = document.getElementById("dauntlessWeaponRefine")
+                                var refine = weaponRefineSelector[weaponRefineSelector.selectedIndex].value
+                                let result = document.getElementById("dauntlessValues")
+                                dauntlessMaxStackCheck(stack, maxStackSection)
+                                calcDauntlessSkillEffect(level, result)
+                                calcDauntlessBuffEffect(level, stack, refine, result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the info of the skill`
+                            }
+
+                            calcDauntlessValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/bouncingblade.png" width="34" height="34">
+                                Bouncing Blade
+                            </p>
+                            <p class="medium">
+                                Skill Bouncing Blade Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/katana-main.png"><br>Main Katana only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A defense technique using scabbard. A counterattack is carried out 1 time only if you get
+                                hurt while holding a scabbard. If successful, some HP will be restored. MP Cost of the
+                                next skill used is reduced and accuracy increases.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="bouncingBladeSkillLevel" onchange="calcBouncingBladeValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="bouncingBladeValues">
+                            <li><b>Skill Constant:</b> 200</li>
+                            <li><b>Skill Multiplier:</b> 4</li><br>
+                            <li>Grants <b>Bouncing Blade Parry Buff</b> during the <b>skill animation</b></li>
+                            <li>Performs a <b>counter attack</b> and grants <b>Successful Parry Effect</b> if you <b>get
+                                    hit</b> during the <b>Parry Buff</b>; does nothing otherwise</li>
+                            <br><b>Parry Buff Effect:</b>
+                            <li>Recovers an amount of HP equals to 100% of damage taken</li>
+                            <li>Negate any [Flinch], [Tumble] or [Stun] that comes with the blocked hit</li>
+                            <li><b>Buff Duration:</b> Until skill animation ends OR until you get hit</li>
+                            <br><b>Successful Parry Effect:</b>
+                            <li>Gives <b>Accuracy</b> by [Base Accuracy × Total Weapon ATK × 0.25%]</li>
+                            <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple
+                                of 100</li>
+                            <li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>equipped katana</b>
+                            </li>
+                            <li>This skill <b>will not inflict proration</b> if the attack is <b>not performed</b></li>
+                            <br>Credits to <b>Phantom Library</b> for the info of the skill
+                        </span>
+
+                        <script>
+                            function calcBouncingBladeConstant(level, result) {
+                                let constant = 100 + 10 * level
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcBouncingBladeMultiplier(level, result) {
+                                let multiplier = 2 + 0.2 * level
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcBouncingBladeBuff(level, result) {
+                                let heal = 10 * level
+                                let acc = 0.05 + 0.02 * level
+                                acc = Math.round(acc * 100) / 100
+                                result.innerHTML += `<li>Grants <b>Bouncing Blade Parry Buff</b> during the <b>skill animation</b></li>
+                    <li>Performs a <b>counter attack</b> and grants <b>Successful Parry Effect</b> if you <b>get hit</b> during the <b>Parry Buff</b>; does nothing otherwise</li>
+                    <br><b>Parry Buff Effect:</b>
+                    <li>Recovers an amount of HP equals to ${heal}% of damage taken</li>
+                    <li>Negate any [Flinch], [Tumble] or [Stun] that comes with the blocked hit</li>
+                    <li><b>Buff Duration:</b> Until skill animation ends OR until you get hit</li>
+                    <br><b>Successful Parry Effect:</b>
+                    <li>Gives <b>Accuracy</b> by [Base Accuracy × Total Weapon ATK × ${acc}%]</li>
+                    <li>The next <b>skill</b> has its <b>MP Cost halved</b>, rounded up to the nearest multiple of 100</li>
+                    <li><b>Buff Duration:</b> Until a skill is used</li>`
+                            }
+
+                            function addBouncingBladeExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>equipped katana</b></li>
+                    <li>This skill <b>will not inflict proration</b> if the attack is <b>not performed</b></li>`
+                            }
+
+                            function calcBouncingBladeValues() {
+                                let levelSelector = document.getElementById('bouncingBladeSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('bouncingBladeValues')
+                                calcBouncingBladeConstant(level, result)
+                                calcBouncingBladeMultiplier(level, result)
+                                calcBouncingBladeBuff(level, result)
+                                addBouncingBladeExtraInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the info of the skill`
+                            }
+
+                            calcBouncingBladeValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>

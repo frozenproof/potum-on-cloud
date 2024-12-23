@@ -1,0 +1,2961 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Dual Swords Skills Tree</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <%- include('../../templates/headers/metadata') %>
+
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+        <script src="../templates/axios.min.js"></script>
+        <script>
+            // wew have works to do
+            function roundToTwoDecimals(value) {
+                return Math.round(value * 100) / 100;
+            }
+        </script>
+</head>
+
+<body>
+    <%- include('../../templates/headers/header') %>
+
+        <div id="content">
+            <div class="container">
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/dualswordmastery.png" width="34" height="34">
+                                Dual Sword Mastery
+                            </p>
+                            <p class="medium">
+                                Skill Dual Sword Mastery Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>You can equip 2 One-Handed Swords. Reduces the decline in Accuracy Rate and Critical Rate
+                                as this skill levels up.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="dualSwordMasterySkillLevel"
+                            onchange="calcDualSwordMasteryValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br><span class="sub-title"><b>"Dual Sword Control" Skill Level:</b></span>
+                        <select name="skillLevel" id="dsControlSkillLevel" onchange="calcDualSwordMasteryValues()">
+                            <option value="0" selected="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <br>
+                        <span id="dualSwordMasteryValues">
+                            <li><b>Accuracy Penalty: </b> -25%</li>
+                            <li><b>Critical Rate Penalty: </b> -25%</li><br><b>Passive Effect:</b>
+                            <li>Allow <b>One-Handed Sword</b> user to equip another One-Handed Sword on their Sub-Hand
+                                slot. The sub-hand sword has all of its stats negated, except for its Awakened Element.
+                            </li>
+                            <li><a href="https://coryn.club/guide.php?key=status" style="color:blue;">The MainATK gain
+                                    of Dual Swords is changed</a> (click and check "Derived Stat" for more detail)</li>
+                            <li><b>Attack MP Recovery</b> from most sources are <b>doubled</b>, unless stated otherwise
+                            </li>
+                            <li>Dual Swords Skills - and <b>only Dual Swords Skills</b> - have their base damage
+                                calculated differently, taking 2 new hidden stats into account: <b>SubATK</b> and
+                                <b>Sub-Hand Stability</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;&nbsp;<b>• Sub-Hand Stability</b> = [Sub-Hand Sword's Base
+                                        Stability]/2 + STR×0.06 + AGI×0.04 + Stability% stat from other sources</li>
+                                    <li>&nbsp;&nbsp;&nbsp;<b>• Dual Swords Skill Base Damage</b> = (MainATK + (SubATK ×
+                                        Sub-Hand Stability) + player's level - mob's level) * (100 - mob's Physical
+                                        Resistance)/100</li>
+                                </ul>
+                            </li>
+                            <li>Dual Swords auto attacks <b>calculate the damage of main hand &amp; sub-hand swords
+                                    separately</b>, with the main hand hits using ATK and the sub-hand hits using
+                                SubATK; each sword only uses its own element for its damage calculation</li>
+                            <li>All Dual Swords skills have the <b>Dual Element</b> attribute and use the <b>sub-hand
+                                    sword's element</b> as the <b>Secondary Element</b>; skill without a default element
+                                will use both swords' elements instead</li>
+                            <li>Dual Swords is still considered as <b>One-Handed Sword</b> for skill bonus, unless
+                                specifically stated separately</li><br>Credits to <b>Phantom Library</b> for the
+                            formulae info
+                        </span>
+
+                        <script>
+                            function calcDualSwordMasteryAccuracy(level, level2, result) {
+                                //base formula -(55 -3*Slvl)
+                                let accuracyPenalty = 55 - (3 * level)
+                                if (level2 > 0) { accuracyPenalty -= 5 + (3 * level2) }
+                                let HTML = ``
+                                if (accuracyPenalty > 0) { HTML += `<li><b>Accuracy Penalty: </b> -` }
+                                else { HTML += `<li><b>Accuracy Bonus:</b> +` }
+                                HTML += `${Math.abs(accuracyPenalty)}%</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcDualSwordMasteryCritRate(level, level2, result) {
+                                //base formula penalty -(55 - 3*lvl)
+                                let critRatePenalty = 55 - (3 * level)
+                                if (level2 > 0) { critRatePenalty -= 5 + (3 * level2) }
+                                let HTML = ``
+                                if (critRatePenalty > 0) { HTML += `<li><b>Critical Rate Penalty: </b> -` }
+                                else { HTML += `<li><b>Critical Rate Bonus:</b> +` }
+                                HTML += `${Math.abs(critRatePenalty)}%</li>`
+                                result.innerHTML += HTML + `<br>`
+                            }
+
+                            function addDualSwordInfo(result) {
+                                result.innerHTML += `<b>Passive Effect:</b>
+                    <li>Allow <b>One-Handed Sword</b> user to equip another One-Handed Sword on their Sub-Hand slot. The sub-hand sword has all of its stats negated, except for its Awakened Element.</li>
+                    <li><a href="https://coryn.club/guide.php?key=status" style="color:blue;">The MainATK gain of Dual Swords is changed</a> (click and check "Derived Stat" for more detail)</li>
+                    <li><b>Attack MP Recovery</b> from most sources are <b>doubled</b>, unless stated otherwise</li>
+                    <li>Dual Swords Skills - and <b>only Dual Swords Skills</b> - have their base damage calculated differently, taking 2 new hidden stats into account: <b>SubATK</b> and <b>Sub-Hand Stability</b>
+                    <ul><li>&nbsp&nbsp&nbsp<b>• Sub-Hand Stability</b> = [Sub-Hand Sword's Base Stability]/2 + STR×0.06 + AGI×0.04 + Stability% stat from other sources</li>
+                    <li>&nbsp&nbsp&nbsp<b>• Dual Swords Skill Base Damage</b> = (MainATK + (SubATK × Sub-Hand Stability) + player's level - mob's level) * (100 - mob's Physical Resistance)/100</li>
+                    </ul></li>
+                    <li>Dual Swords auto attacks <b>calculate the damage of main hand & sub-hand swords separately</b>, with the main hand hits using ATK and the sub-hand hits using SubATK; each sword only uses its own element for its damage calculation</li>
+                    <li>All Dual Swords skills have the <b>Dual Element</b> attribute and use the <b>sub-hand sword's element</b> as the <b>Secondary Element</b>; skill without a default element will use both swords' elements instead</li>
+                    <li>Dual Swords is still considered as <b>One-Handed Sword</b> for skill bonus, unless specifically stated separately</li>`
+                            }
+
+                            function calcDualSwordMasteryValues() {
+                                let levelSelector = document.getElementById('dualSwordMasterySkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let levelSelector2 = document.getElementById('dsControlSkillLevel')
+                                let level2 = levelSelector2[levelSelector2.selectedIndex].value
+                                let result = document.getElementById('dualSwordMasteryValues')
+                                calcDualSwordMasteryAccuracy(level, level2, result)
+                                calcDualSwordMasteryCritRate(level, level2, result)
+                                addDualSwordInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the formulae info`
+                            }
+
+                            calcDualSwordMasteryValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/twinslash.png" width="34" height="34">
+                                Twin Slash
+                            </p>
+                            <p class="medium">
+                                Skill Twin Slash Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Slash the target with the swords. Increases critical damage.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="twinSlashSkillLevel" onchange="calcTwinSlashValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Twin Slash Enhancer" Registlet Level:</b></span>
+                        <select id="twinSlashRegistlet" onchange="calcTwinSlashValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select><br>
+                        <br>
+                        <span id="twinSlashValues">
+                            <li><b>Skill Constant:</b> 200</li>
+                            <li><b>Skill Multiplier: </b>2.5</li><br>
+                            <li><b>Critical Damage</b> of <b>Twin Slash</b> +100</li>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the elements from both
+                                <b>main hand sword</b> and <b>sub-hand sword</b>; whichever of the two provides better
+                                damage will be selected for damage calculation</li><br><b>Extra info:</b>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>main hand weapon</b></li>
+                            <li>The bonus Critical Damage of this skill <b>is not affected by Critical Damage "soft
+                                    cap"</b>; in other words, it will not be halved even if Critical Damage exceeds 300
+                            </li>
+                        </span>
+
+                        <script>
+                            function calcTwinSlashConstant(level, result) {
+                                let constant = 100 + (10 * level)
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcTwinSlashMultiplier(level, result) {
+                                let multiplier = 1.5 + (0.1 * level)
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier: </b>${multiplier}</li><br>`
+                            }
+
+                            function calcTwinSlashCritDamageBonus(level, registlet, result) {
+                                let cdmg = 50 + (5 * level) + (registlet * 1)
+                                result.innerHTML += `<li><b>Critical Damage</b> of <b>Twin Slash</b> +${cdmg}</li>`
+                            }
+
+                            function addTwinSlashDualElement(result) {
+                                result.innerHTML += `<li>This skill has the <b>Dual Element</b> attribute: it gains the elements from both <b>main hand sword</b> and <b>sub-hand sword</b>; whichever of the two provides better damage will be selected for damage calculation</li>`
+                            }
+
+                            function addTwinSlashExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main hand weapon</b></li>
+                    <li>The bonus Critical Damage of this skill <b>is not affected by Critical Damage "soft cap"</b>; in other words, it will not be halved even if Critical Damage exceeds 300</li>`
+                            }
+
+                            function calcTwinSlashValues() {
+                                let levelSelector = document.getElementById("twinSlashSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("twinSlashRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let result = document.getElementById('twinSlashValues')
+                                calcTwinSlashConstant(level, result)
+                                calcTwinSlashMultiplier(level, result)
+                                calcTwinSlashCritDamageBonus(level, registlet, result)
+                                addTwinSlashDualElement(result)
+                                addTwinSlashExtraInfo(result)
+                            }
+
+                            calcTwinSlashValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/spinningslash.png" width="34" height="34">
+                                Spinning Slash
+                            </p>
+                            <p class="medium">
+                                Skill Spinning Slash Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Wind</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>24</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Slash and blow away enemies around you. Dual Element (<b style="color: gold">One-Handed
+                                    Sword</b>). Generate whirlwind and deal damage. Chance to inflict [Blind].</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="spinningSlashSkillLevel" onchange="calcSpinningSlashValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Spinning Slash Compress" Registlet Level:</b></span>
+                        <select id="spinningSlashRegistlet" onchange="calcSpinningSlashValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <br>
+                        <span id="spinningSlashValues">
+                            <li><b>Skill Constant (First Hit):</b> 100</li>
+                            <li><b>Skill Constant (Whirlwind):</b> 0; total constant of all hits of a <b>whirlwind
+                                    tick</b></li>
+                            <li><b>Skill Multiplier (First Hit):</b> 1.5</li>
+                            <li><b>Skill Multiplier (Whirlwind):</b> 0.5; total multiplier of all hits of a <b>whirlwind
+                                    tick</b></li>
+                            <li><b>Hit Count :</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>First Hit:</b> 1 hit</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Number of Whirlwind Ticks:</b> 3 ticks; damage
+                                        calculation is done for each tick</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Hits per Whirlwind Tick:</b> 5 hits; damage calculation
+                                        is done once then spread evenly between the hits</li>
+                                </ul>
+                            </li><br>
+                            <li><b>Hit Range (radius):</b> 4m, around the <b>caster's position on cast</b></li>
+                            <li><b>Blind Chance (Whirlwind):</b> 40%</li>
+                            <li><b>Blind Duration:</b> 10 seconds</li>
+                            <li><b>Knockback Chance (First Hit):</b> 100%, as long as you have aggro</li>
+                            <li><b>Knockback Distance:</b> 5m; halved on <b>bosses</b></li><br><b>Extra info:</b>
+                            <li>This skill is a <b>Placed Skill</b>, making it unaffected by <b>Whack</b>, <b>Long Range
+                                    passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+                            <li>This skill inflicts <b>Magic Proration</b>, but uses <b>Physical Proration</b> for its
+                                damage calculation</li>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the element from the
+                                <b>sub-hand sword</b> in addition to its default <b>Wind</b> element; whichever of the
+                                two provides better damage will be selected for damage calculation</li>
+                        </span>
+
+                        <script>
+                            function calcSpinningSlashConstant(level, result) {
+                                let firstHitConstant = 50 + (5 * level)
+                                result.innerHTML = `<li><b>Skill Constant (First Hit):</b> ${firstHitConstant}</li>
+                    <li><b>Skill Constant (Whirlwind):</b> 0; total constant of all hits of a <b>whirlwind tick</b></li>`
+                            }
+
+                            function calcSpinningSlashMultiplier(level, registlet, result) {
+                                let firstHitMultiplier = 1.25 + (0.025 * level) + (0.05 * registlet)
+                                let whirlwindMultiplier = 0.3 + (0.02 * level) + (0.05 * registlet)
+
+                                function rounding(value) {
+                                    if (value - Math.floor(value * 100) / 100 < 0.00999999) { value = Math.floor(value * 100) / 100 }
+                                    else { value = Math.round(value * 100) / 100 }
+                                    return value
+                                }
+
+                                firstHitMultiplier = rounding(firstHitMultiplier)
+                                whirlwindMultiplier = rounding(whirlwindMultiplier)
+                                result.innerHTML += `<li><b>Skill Multiplier (First Hit):</b> ${firstHitMultiplier}</li>
+                    <li><b>Skill Multiplier (Whirlwind):</b> ${whirlwindMultiplier}; total multiplier of all hits of a <b>whirlwind tick</b></li>`
+                            }
+
+                            function addSpinningSlashHitCount(result) {
+                                result.innerHTML += `<li><b>Hit Count :</b>
+                    <ul><li>&nbsp&nbsp&nbsp- <b>First Hit:</b> 1 hit</li>
+                    <li>&nbsp&nbsp&nbsp- <b>Number of Whirlwind Ticks:</b> 3 ticks; damage calculation is done for each tick</li>
+                    <li>&nbsp&nbsp&nbsp- <b>Hits per Whirlwind Tick:</b> 5 hits; damage calculation is done once then spread evenly between the hits</li>
+                    </ul></li><br>`
+                            }
+
+                            function calcSpinningSlashHitRange(registlet, result) {
+                                var hitRange = 4
+                                if (registlet > 0) { hitRange /= 2 }
+                                result.innerHTML += `<li><b>Hit Range (radius):</b> ${hitRange}m, around the <b>caster's position on cast</b></li>`
+                            }
+
+                            function calcSpinningSlashAilmentChance(level, registlet, result) {
+                                let ailmentChance = 15 + (2.5 * level)
+                                let HTML = `<li><b>Blind Chance (Whirlwind):</b> ${ailmentChance}%</li>
+                    <li><b>Blind Duration:</b> 10 seconds</li>`
+                                if (registlet == 0) {
+                                    HTML += `<li><b>Knockback Chance (First Hit):</b> 100%, as long as you have aggro</li>
+                    <li><b>Knockback Distance:</b> 5m; halved on <b>bosses</b></li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function spinningSlashExtraInformation(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill is a <b>Placed Skill</b>, making it unaffected by <b>Whack</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+                    <li>This skill inflicts <b>Magic Proration</b>, but uses <b>Physical Proration</b> for its damage calculation</li>
+                    <li>This skill has the <b>Dual Element</b> attribute: it gains the element from the <b>sub-hand sword</b> in addition to its default <b>Wind</b> element; whichever of the two provides better damage will be selected for damage calculation</li>`
+                            }
+
+                            function calcSpinningSlashValues() {
+                                let levelSelector = document.getElementById('spinningSlashSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("spinningSlashRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let result = document.getElementById('spinningSlashValues')
+                                calcSpinningSlashConstant(level, result)
+                                calcSpinningSlashMultiplier(level, registlet, result)
+                                addSpinningSlashHitCount(result)
+                                calcSpinningSlashHitRange(registlet, result)
+                                calcSpinningSlashAilmentChance(level, registlet, result)
+                                spinningSlashExtraInformation(result)
+                            }
+
+                            calcSpinningSlashValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/phantomslash.png" width="34" height="34">
+                                Phantom Slash
+                            </p>
+                            <p class="medium">
+                                Skill Phantom Slash Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Dark</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>400</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>8</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Slash a target with lightning speed. Dual Element (<b style="color: gold">One-Handed
+                                    Sword</b>). Become invincible mode while in action and able to cancel the mode by
+                                moving the character. Chance to kill weak monsters except bosses. Chance to inflict
+                                [Freeze] on the target.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="phantomSlashSkillLevel" onchange="calcPhantomSlashValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Phantom Slash Enhancer" Registlet Level:</b></span>
+                        <select id="phantomSlashRegistlet" onchange="calcPhantomSlashValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill is used during "Lunar Misfortune" retreat animation:</b></span>
+                        <input type="checkbox" id="phantomEclipseLM" onchange="calcPhantomSlashValues()"><br>
+                        <br>
+                        <span id="phantomSlashValues">
+                            <li><b>Skill Constant:</b> 400; total constant of all hits</li>
+                            <li><b>Skill Multiplier:</b> 7; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 12 hits; <b>Range Damage modifier</b> is done <b>separately for each
+                                    hit</b>; the rest of damage calculation is done once then spread evenly between the
+                                hits</li><br>
+                            <li>Gains [Invincible] upon using this skill<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Using any sideways movement input</b> during [Invincible]
+                                        will make you "slide" toward that direction and <b>ends [Invincible]
+                                            prematurely</b></li>
+                                    <li>&nbsp;&nbsp;&nbsp;- During [Invincible], this skill can be affected by <b>Short
+                                            Range Damage</b> and <b>Long Range Damage</b> stats; exiting [Invincible]
+                                        early will immediately disable this effect</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Invincible Duration:</b> 6 seconds OR until the skill
+                                        animation ends OR until you move</li>
+                                </ul>
+                            </li>
+                            <li>If the target is a normal mob, there's a 5% chance to deal an extra hit that inflicts
+                                "massive" damage to 'execute' the target<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- It is shown in the damage log as a 13th hit that deals
+                                        "999999999 damage"; however, it's rather unclear whether this is really an
+                                        "execution hit" or merely an aesthetic effect</li>
+                                </ul>
+                            </li>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the element from the
+                                <b>sub-hand sword</b> in addition to its default <b>Dark</b> element; whichever of the
+                                two provides better damage will be selected for damage calculation</li>
+                            <li><b>Freeze Chance:</b> 100%</li>
+                            <li><b>Freeze Duration:</b> 10 seconds</li>
+                        </span>
+
+                        <script>
+                            function calcPhantomSlashConstant(level, result) {
+                                var constant = 200 + (20 * level)
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; total constant of all hits`
+                            }
+
+                            function calcPhantomSlashMultiplier(level, registlet, result) {
+                                var multiplier = 5 + (0.2 * level) + (0.05 * registlet)
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b>  ${multiplier}; total multiplier of all hits</li>
+                    <li><b>Hit Count:</b> 12 hits; <b>Range Damage modifier</b> is done <b>separately for each hit</b>; the rest of damage calculation is done once then spread evenly between the hits</li><br>`
+                            }
+
+                            function addPhantomSlashSkillInfo(eclipse, result) {
+                                var HTML = ``
+                                if (eclipse) {
+                                    HTML += `<li>This skill's name is changed to <b>Phantom Eclipse</b></li>
+                    <li><b>Motion Speed</b> of <b>Phantom Eclipse</b> is set to 150%</li>`}
+                                HTML += `<li>Gains [Invincible] upon using this skill<ul>
+                    <li>&nbsp&nbsp&nbsp- <b>Using any sideways movement input</b> during [Invincible] will make you "slide" toward that direction and <b>ends [Invincible] prematurely</b></li>
+                    <li>&nbsp&nbsp&nbsp- During [Invincible], this skill can be affected by <b>Short Range Damage</b> and <b>Long Range Damage</b> stats; exiting [Invincible] early will immediately disable this effect</li>
+                    <li>&nbsp&nbsp&nbsp- <b>Invincible Duration:</b> 6 seconds OR until the skill animation ends OR until you move</li>
+                    </ul></li>
+                    <li>If the target is a normal mob, there's a 5% chance to deal an extra hit that inflicts "massive" damage to 'execute' the target<ul>
+                    <li>&nbsp&nbsp&nbsp- It is shown in the damage log as a 13th hit that deals "999999999 damage"; however, it's rather unclear whether this is really an "execution hit" or merely an aesthetic effect</li>
+                    </ul></li>
+                    <li>This skill has the <b>Dual Element</b> attribute: it gains the element from the <b>sub-hand sword</b> in addition to its default <b>Dark</b> element; whichever of the two provides better damage will be selected for damage calculation</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcPhantomSlashAilmentChance(level, result) {
+                                let ailmentChance = 10 * level
+                                result.innerHTML += `<li><b>Freeze Chance:</b> ${ailmentChance}%</li>
+                    <li><b>Freeze Duration:</b> 10 seconds</li>`
+                            }
+
+                            function calcPhantomSlashValues() {
+                                let levelSelector = document.getElementById('phantomSlashSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("phantomSlashRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let eclipse = document.getElementById("phantomEclipseLM").checked
+                                let result = document.getElementById('phantomSlashValues')
+                                calcPhantomSlashConstant(level, result)
+                                calcPhantomSlashMultiplier(level, registlet, result)
+                                addPhantomSlashSkillInfo(eclipse, result)
+                                calcPhantomSlashAilmentChance(level, result)
+                            }
+
+                            calcPhantomSlashValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/aerialcut.png" width="34" height="34">
+                                Aerial Cut
+                            </p>
+                            <p class="medium">
+                                Skill Aerial Cut Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Wind</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A sword technique that releases windy blades. Dual Element with (<b
+                                    style="color: gold">One-Handed Sword</b>). While deploying Spinning Slash, <font
+                                    style="color:#009fff">press the button to move forward</font> and 200 MP will be
+                                consumed additionally to unleash powerful attacks.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/dw.png"></p>
+                                <p>Dual Swords</p>
+                            </div>
+                            <p>The power of Aerial Cut depends on the level of Spinning Slash acquired.<br>
+                                <br>
+                                Increased critical damage from Twin Slash acquired will apply to the additional attacks,
+                                which is further increased if the target is afflicted by Blind. But the further it is
+                                (8m or more), the smaller the value applied.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="aerialCutSkillLevel" onchange="calcAerialCutValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Spinning Slash" Skill Level:</b></span>
+                        <select name="skillLevel" id="aerialCutSpinningLevel" onchange="calcAerialCutValues()">
+                            <option value="5" selected="">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Spinning Slash Compress" Registlet Level:</b> </span>
+                        <select id="aerialCutSpinningRegistlet" onchange="calcAerialCutValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Base DEX:</b></span>
+                        <input type="number" name="dexValue" id="aerialCutBaseDex" min="1" max="510" value="1"
+                            style="width: 50px;" onchange="calcAerialCutValues()"><br>
+                        <span class="sub-title"><b>Spinning Slash is active &amp; forward movement input is
+                                held:</b></span>
+                        <input type="checkbox" id="aerialCutForward" onchange="calcAerialCutValues()"><br>
+                        <div id="aerialCutAddHitInput" style="display: none;">
+                            <span class="sub-title"><b>Base STR:</b></span>
+                            <input type="number" name="strValue" id="aerialCutBaseStr" min="1" max="510" value="255"
+                                style="width: 50px;" onchange="calcAerialCutValues()"><br>
+                            <span class="sub-title"><b>"Twin Slash" Skill Level:</b></span>
+                            <select name="skillLevel" id="aerialCutTwinLevel" onchange="calcAerialCutValues()">
+                                <option value="5" selected="">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select><br>
+                            <span class="sub-title"><b>Target is afflicted with [Blind]:</b></span>
+                            <input type="checkbox" id="aerialCutBlind" onchange="calcAerialCutValues()"><br>
+                            <span class="sub-title"><b>Distance from target (m):</b></span>
+                            <input type="number" id="aerialCutTargetDistance" min="0" max="12" value="7"
+                                style="width: 50px;" onchange="calcAerialCutValues()">
+                        </div>
+                        <br>
+                        <span id="aerialCutValues">
+                            <li><b>Skill Constant (Wind Blades):</b> 75; total constant of all hits</li>
+                            <li><b>Skill Multiplier (Wind Blades):</b> 2.57; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 3 hits; damage calculation is done once then spread evenly between the
+                                hits</li><br>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the element from the
+                                <b>sub-hand sword</b> in addition to its default <b>Wind</b> element; whichever of the
+                                two provides better damage will be selected for damage calculation</li>
+                            <li>If <b>Spinning Slash</b> is active, <b>holding forward movement input</b> while casting
+                                this skill will consume an additional 200 MP to perform an <b>Additional Attack</b> and
+                                <b>ends Spinning Slash prematurely</b></li>
+                            <li><b>Blind Chance (Wind Blades):</b> 27%? (not confirmed yet)</li>
+                            <li><b>Blind Duration:</b> 10 seconds</li><br><b>Extra info:</b>
+                            <li>This skill is affected by <b>Whack</b>, <b>Long Range passive</b>, <b>Short Range
+                                    Damage</b> and <b>Long Range Damage</b> stats</li>
+                            <li>Both parts of the skill use the <b>distance value at the start of the cast</b> to apply
+                                for all of their range modifiers, including the range penalties of the <b>Additional
+                                    Attack</b></li>
+                            <li>The additional MP consumption for the <b>Additional Attack</b> is unaffected by any
+                                Combo Tag nor MP Cost modifying effects</li>
+                            <li><b>This skill can inflict proration twice</b>: the <b>Wind Blades</b> inflicts <b>Magic
+                                    Proration</b>, while the <b>Additional Attack</b> will inflict <b>Physical
+                                    Proration</b> if activated; both of them still use <b>Physical Proration</b> for
+                                their damage calculation, however</li><br>Credits to <b>Cy's Grimoire</b> for the
+                            after-adjustment range penalties info
+                        </span>
+
+                        <script>
+                            function aerialCutAddHitCheck(acAddHit, acAddHitSection) {
+                                if (acAddHit) { acAddHitSection.style = "display: block" }
+                                else { acAddHitSection.style = "display: none" }
+                            }
+
+                            function calcAerialCutConstant(level, acAddHit, spinLevel, result) {
+                                var constant = 50 + 5 * spinLevel
+                                var constAdd = 20 * level
+                                var HTML = `<li><b>Skill Constant (Wind Blades):</b> ${constant}; total constant of all hits</li>`
+                                if (acAddHit) { HTML += `<li><b>Skill Constant (Additional Attack):</b> ${constAdd}</li>` }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcAerialCutMultiplier(level, spinLevel, spinRegistlet, dexValue, acAddHit, strValue, twinLevel, targetDistance, result) {
+                                var multiplier = 2.15 + (0.085 * spinLevel) + (0.2 * spinRegistlet) + (level * Math.floor(dexValue / 10) / 100)
+                                var multAddHit = 5 + 1 * level + (strValue / 100) * (1 - Math.max(0, targetDistance - 7) * 0.2)
+
+                                function rounding(value) {
+                                    if (value - Math.floor(value * 100) / 100 < 0.009) { value = Math.floor(value * 100) / 100 }
+                                    else { value = Math.round(value * 100) / 100 }
+                                    return value
+                                }
+
+                                multiplier = rounding(multiplier)
+                                multAddHit = rounding(multAddHit)
+                                var HTML = `<li><b>Skill Multiplier (Wind Blades):</b> ${multiplier}; total multiplier of all hits</li>`
+                                if (acAddHit) { HTML += `<li><b>Skill Multiplier (Additional Attack):</b> ${multAddHit}</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function addAerialCutHitCount(acAddHit, result) {
+                                var HTML = `<li><b>Hit Count:</b>`
+                                if (acAddHit) {
+                                    HTML += `<ul><li>&nbsp&nbsp&nbsp- <b>Wind Blades:</b> 3 hits; damage calculation is done once then spread evenly between the hits</li>
+                    <li>&nbsp&nbsp&nbsp- <b>Additional Attack:</b> 1 hit; damage calculation is done separately for itself</li>
+                    </ul>`}
+                                else { HTML += ` 3 hits; damage calculation is done once then spread evenly between the hits` }
+                                HTML += `</li><br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcAerialCutSkillEffect(acAddHit, twinLevel, blind, targetDistance, result) {
+                                var cdmg = Math.floor(25 + 2.5 * twinLevel)
+                                if (blind) { cdmg *= 2 }
+                                cdmg -= 20 * Math.max(0, targetDistance - 7)
+                                var cdValue = ``
+                                if (cdmg >= 0) { cdValue = `+${cdmg}` }
+                                else { cdValue = cdmg }
+                                var HTML = ``
+                                if (acAddHit) {
+                                    if (cdmg != 0) { HTML += `<li><b>Critical Damage</b> of <b>Additional Attack</b> ${cdValue}</li>` }
+                                    HTML += `<li>The <b>Additional Attack</b> loses <b>Critical Damage bonus</b> and <b>bonus multiplier from Base STR</b> when attacking targets at 8m and above</li>`
+                                }
+                                HTML += `<li>This skill has the <b>Dual Element</b> attribute: it gains the element from the <b>sub-hand sword</b> in addition to its default <b>Wind</b> element; whichever of the two provides better damage will be selected for damage calculation</li>`
+                                if (!acAddHit) { HTML += `<li>If <b>Spinning Slash</b> is active, <b>holding forward movement input</b> while casting this skill will consume an additional 200 MP to perform an <b>Additional Attack</b> and <b>ends Spinning Slash prematurely</b></li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcAerialCutAilmentChance(spinLevel, result) {
+                                var ailmentChance = Math.floor(15 + 2.5 * spinLevel)
+                                var HTML = `<li><b>Blind Chance (Wind Blades):</b> ${ailmentChance}%? (not confirmed yet)</li>
+                    <li><b>Blind Duration:</b> 10 seconds</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addAerialCutExtraInfo(acAddHit, result) {
+                                var HTML = `<br><b>Extra info:</b>
+                    <li>This skill is affected by <b>Whack</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+                    <li>Both parts of the skill use the <b>distance value at the start of the cast</b> to apply for all of their range modifiers, including the range penalties of the <b>Additional Attack</b></li>
+                    <li>The additional MP consumption for the <b>Additional Attack</b> is unaffected by any Combo Tag nor MP Cost modifying effects</li>
+                    <li><b>This skill can inflict proration twice</b>: the <b>Wind Blades</b> inflicts <b>Magic Proration</b>, while the <b>Additional Attack</b> will inflict <b>Physical Proration</b> if activated; both of them still use <b>Physical Proration</b> for their damage calculation, however</li>`
+                                if (acAddHit) {
+                                    HTML += `<li>The bonus Critical Damage of the <b>Additional Attack</b> is <b>not affected by Critical Damage "soft cap"</b>; in other words, it will not be halved even if Critical Damage exceeds 300</li>
+                    <li>While <b>"Spinning Slash Compress" Registlet</b> can affect the power of the <b>Wind Blades</b>, <b>"Twin Slash Enhancer" Registlet</b> cannot increase the Critical Damage bonus of the <b>Additional Attack</b><ul>
+                    <li>&nbsp&nbsp&nbsp- An unconfirmed but possible explanation is that the <b>Wind Blade</b> directly copies the total power codes from <b>Spinning Slash</b>, while the <b>Additional Attack</b> uses separate codes for its Critical Damage bonus</li>
+                    </ul></li>`}
+                                result.innerHTML += HTML
+                            }
+
+                            function calcAerialCutValues() {
+                                let levelSelector = document.getElementById('aerialCutSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let spinLevelSelector = document.getElementById('aerialCutSpinningLevel')
+                                let spinLevel = spinLevelSelector[spinLevelSelector.selectedIndex].value
+                                let spinRegistletSelector = document.getElementById('aerialCutSpinningRegistlet')
+                                let spinRegistlet = spinRegistletSelector[spinRegistletSelector.selectedIndex].value
+                                let dexValue = document.getElementById('aerialCutBaseDex').value
+                                let acAddHitSection = document.getElementById("aerialCutAddHitInput")
+                                let acAddHit = document.getElementById("aerialCutForward").checked
+                                let strValue = document.getElementById('aerialCutBaseStr').value
+                                let twinLevelSelector = document.getElementById('aerialCutTwinLevel')
+                                let twinLevel = twinLevelSelector[twinLevelSelector.selectedIndex].value
+                                let blind = document.getElementById("aerialCutBlind").checked
+                                let targetDistance = document.getElementById('aerialCutTargetDistance').value
+                                let result = document.getElementById('aerialCutValues')
+                                aerialCutAddHitCheck(acAddHit, acAddHitSection)
+                                calcAerialCutConstant(level, acAddHit, spinLevel, result)
+                                calcAerialCutMultiplier(level, spinLevel, spinRegistlet, dexValue, acAddHit, strValue, twinLevel, targetDistance, result)
+                                addAerialCutHitCount(acAddHit, result)
+                                calcAerialCutSkillEffect(acAddHit, twinLevel, blind, targetDistance, result)
+                                calcAerialCutAilmentChance(spinLevel, result)
+                                addAerialCutExtraInfo(acAddHit, result)
+                                result.innerHTML += `<br>Credits to <b>Cy's Grimoire</b> for the after-adjustment range penalties info`
+                            }
+
+                            calcAerialCutValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/crossparry.png" width="34" height="34">
+                                Cross Parry
+                            </p>
+                            <p class="medium">
+                                Skill Cross Parry Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attack a target parrying the target's attack. Reduce Physical/Magic damage while the
+                                skill is in action. Enhance ATK and ASPD for 30 seconds when reducing damage.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="crossParrySkillLevel" onchange="calcCrossParryValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Cross Parry Enhancer" Registlet Level:</b></span>
+                        <select id="crossParryRegistlet" onchange="calcCrossParryValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select><br>
+                        <span class="sub-title"><b>Get hit during Primary Buff:</b></span>
+                        <input type="checkbox" id="crossParryBuff" onchange="calcCrossParryValues()"><br>
+                        <br>
+                        <span id="crossParryValues">
+                            <li><b>Skill Constant:</b> 100; total constant of all hits</li>
+                            <li><b>Skill Multiplier:</b> 1.1; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done once then spread evenly between the
+                                hits</li><br>
+                            <li>Grants <b>Cross Parr Primary Buff</b> upon cast</li>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the elements from both
+                                <b>main hand sword</b> and <b>sub-hand sword</b>; whichever of the two provides better
+                                damage will be selected for damage calculation</li><br><b>Primary Buff Effect:</b>
+                            <li><b>Physical Resistance</b> and <b>Magic Resistance</b> +90%</li>
+                            <li>Negates [Flinch], [Tumble], [Stun] and [Knockback] from all hits taken for the duration
+                            </li>
+                            <li><b>Buff Duration:</b> Until the skill animation ends</li><br>This skill's <b>maximum
+                                cast range</b> is equal to the maximum auto attack range of the <b>main hand weapon</b>
+                        </span>
+
+                        <script>
+                            function calcCrossParryConstant(level, result) {
+                                let constant = 50 + (5 * level)
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; total constant of all hits</li>`
+                            }
+
+                            function calcCrossParryMultiplier(level, registlet, result) {
+                                let multiplier = 1 + (0.01 * level) + (0.05 * registlet)
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; total multiplier of all hits</li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done once then spread evenly between the hits</li><br>`
+                            }
+
+                            function addCrossParryDualElement(result) {
+                                result.innerHTML += `<li>Grants <b>Cross Parr Primary Buff</b> upon cast</li>
+                    <li>This skill has the <b>Dual Element</b> attribute: it gains the elements from both <b>main hand sword</b> and <b>sub-hand sword</b>; whichever of the two provides better damage will be selected for damage calculation</li><br>`
+                            }
+
+                            function calcCrossParryResistance(level, buff1Hit, result) {
+                                // stronging resistance bonus into array 
+                                let resistance = [10, 13, 17, 22, 28, 36, 45, 57, 72, 90]
+                                let HTML = `<b>Primary Buff Effect:</b>
+                    <li><b>Physical Resistance</b> and <b>Magic Resistance</b> +${resistance[level - 1]}%</li>
+                    <li>Negates [Flinch], [Tumble], [Stun] and [Knockback] from all hits taken for the duration</li>
+                    <li><b>Buff Duration:</b> Until the skill animation ends</li>`
+                                if (buff1Hit) { HTML += `<li>Switches to <b>Secondary Buff</b> once the skill animation ends</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcCrossParrySecBonus(level, buff1Hit, result) {
+                                let atk = level
+                                let aspd = 10 * level
+                                if (buff1Hit) {
+                                    result.innerHTML += `<br><b>Secondary Buff Effect:</b>
+                    <li><b>ATK</b> +${atk}%</li>
+                    <li><b>Attack Speed</b> +${aspd}%</li>
+                    <li><b>Buff Duration:</b> 30 seconds, OR until <b>Cross Parry</b> is recast</li>`
+                                }
+                            }
+
+                            function calcCrossParryValues() {
+                                var levelSelector = document.getElementById('crossParrySkillLevel')
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var registletSelector = document.getElementById("crossParryRegistlet")
+                                var registlet = registletSelector[registletSelector.selectedIndex].value
+                                var buff1Hit = document.getElementById("crossParryBuff").checked
+                                var result = document.getElementById('crossParryValues')
+                                calcCrossParryConstant(level, result)
+                                calcCrossParryMultiplier(level, registlet, result)
+                                addCrossParryDualElement(result)
+                                calcCrossParryResistance(level, buff1Hit, result)
+                                calcCrossParrySecBonus(level, buff1Hit, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main hand weapon</b>`
+                            }
+
+                            calcCrossParryValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/chargingslash.png" width="34" height="34">
+                                Charging Slash
+                            </p>
+                            <p class="medium">
+                                Skill Charging Slash Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Charge toward the target using two swords. Pass through target and deal damage to the
+                                enemies in a straight line. Categorized as an Unsheathe Attack.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="chargingSlashSkillLevel" onchange="calcChargingSlashValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Critical Charging Slash" Registlet Level:</b></span>
+                        <select id="chargingSlashRegistlet" onchange="calcChargingSlashValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <br>
+                        <span id="chargingSlashValues">
+                            <li><b>Skill Constant:</b> 300; constant for each hit</li>
+                            <li><b>Skill Multiplier: </b> 4; <b>total multiplier</b>, divided evenly for each hit during
+                                damage calculation</li>
+                            <li><b>Hit Count:</b> 2 hits on the main target; 1 hit on all other targets; damage
+                                calculation is done for each hit</li><br>
+                            <li><b>Second Hit Range (radius):</b> 3m, around the <b>caster</b></li>
+                            <li>The caster will <b>dash</b> 12m forward, <b>hitting all other enemies along the path</b>
+                                within the Hit Range</li>
+                            <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the elements from both
+                                <b>main hand sword</b> and <b>sub-hand sword</b>; whichever of the two provides better
+                                damage will be selected for damage calculation</li><br>This skill's <b>maximum cast
+                                range</b> is equal to the maximum auto attack range of the <b>main hand weapon</b>
+                        </span>
+
+                        <script>
+                            function calcChargingSlashConstant(level, result) {
+                                let constant = 100 + (20 * level)
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; constant for each hit</li>`
+                            }
+
+                            function calcChargingSlashMultiplier(level, registlet, result) {
+                                let multiplier = 2 + (0.2 * level)
+                                if (registlet > 0) { multiplier -= 1.1 - 0.1 * registlet }
+                                multiplier = Math.round(multiplier * 100) / 100
+                                let HTML = `<li><b>Skill Multiplier: </b> ${multiplier}; <b>total multiplier</b>, divided evenly for each hit during damage calculation</li>
+                    <li><b>Hit Count:</b> 2 hits on the main target; 1 hit on all other targets; damage calculation is done for each hit</li>`
+                                result.innerHTML += HTML + `<br>`
+                            }
+
+                            function addChargingSlashExtraInfo(registlet, result) {
+                                var HTML = `<li><b>Second Hit Range (radius):</b> 3m, around the <b>caster</b></li>
+                    <li>The caster will <b>dash</b> 12m forward, <b>hitting all other enemies along the path</b> within the Hit Range</li>
+                    <li>This skill is treated as an <b>Unsheathe Attack</b></li>`
+                                if (registlet > 0) { HTML += `<li>This skill will <b>always deal critical hits</b></li>` }
+                                HTML += `<li>This skill has the <b>Dual Element</b> attribute: it gains the elements from both <b>main hand sword</b> and <b>sub-hand sword</b>; whichever of the two provides better damage will be selected for damage calculation</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcChargingSlashValues() {
+                                let levelSelector = document.getElementById('chargingSlashSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("chargingSlashRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                let result = document.getElementById('chargingSlashValues')
+                                calcChargingSlashConstant(level, result)
+                                calcChargingSlashMultiplier(level, registlet, result)
+                                addChargingSlashExtraInfo(registlet, result)
+                                result.innerHTML += `<br>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main hand weapon</b>`
+                            }
+
+                            calcChargingSlashValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shadowstep.png" width="34" height="34">
+                                Shadowstep
+                            </p>
+                            <p class="medium">
+                                Skill Shadowstep Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>Lv1-2: 400; Lv3-6: 300; Lv7-10: 200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>4</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Quickly move behind a target's back. Enhance Attack MP Recovery until the next skill.
+                                Increase Critical Rate of skill attack one time.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="shadowstepSkillLevel" onchange="calcShadowstepValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="shadowstepValues">
+                            <li><b>MP Cost:</b> 200</li>
+                            <li><b>Maximum Cast Range:</b> 12m</li><br>
+                            <li>The caster will first <b>dash</b> to roughly 2.5m in front of the <b>target</b>, then
+                                immediately <b>teleport</b> to the other side of that <b>target</b> upon successful cast
+                            </li>
+                            <li>The Normal Attack used right after <b>Shadowstep</b> will become an <b>Unsheathe
+                                    Attack</b></li>
+                            <li>Grant <b>Shadowstep buff</b> upon cast</li><br><b>Buff Effect:</b>
+                            <li><b>Attack MP Recovery</b> +10</li>
+                            <li><b>Critical Rate</b> of the next <b>attacking skill</b> +200%</li>
+                            <li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
+                            <li>The distance to the target after the <b>teleport</b> is equal to the maximum auto attack
+                                range of the <b>main hand weapon</b></li>
+                            <li>The said "distances to the target" of both the <b>dash</b> and the <b>teleport</b> is
+                                the displayed distance from the <b>caster</b> to the <b>edge of the target's circular
+                                    hitbox</b> (vaguely indicated by their target circle) after the
+                                <b>dash</b>/<b>teleport</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- If you are already within the 2.5m range, the <b>dash</b>
+                                        will be skipped</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- If you are inside the target's hitbox, however, <b>you will
+                                            dash outward to the said edge instead</b>, before performing the
+                                        <b>teleport</b></li>
+                                </ul>
+                            </li>
+                        </span>
+
+                        <script>
+                            function calcShadowstepMpCost(level, result) {
+                                let mpCost = 400 - 100 * Math.floor((level * 1 + 1) / 4)
+                                result.innerHTML = `<li><b>MP Cost:</b> ${mpCost}</li>`
+                            }
+
+                            function calcShadowstepCastRange(level, result) {
+                                let castRange = 4 + Math.floor(level / 2) + 3 * Math.floor(level / 10)
+                                result.innerHTML += `<li><b>Maximum Cast Range:</b> ${castRange}m</li><br>`
+                            }
+
+                            function addShadowstepSkillInfo(result) {
+                                result.innerHTML += `<li>The caster will first <b>dash</b> to roughly 2.5m in front of the <b>target</b>, then immediately <b>teleport</b> to the other side of that <b>target</b> upon successful cast</li>
+                    <li>The Normal Attack used right after <b>Shadowstep</b> will become an <b>Unsheathe Attack</b></li>
+                    <li>Grant <b>Shadowstep buff</b> upon cast</li><br>`
+                            }
+
+                            function calcShadowstepBuff(level, result) {
+                                let ampr = level
+                                let cr = 20 * level
+                                result.innerHTML += `<b>Buff Effect:</b>
+                    <li><b>Attack MP Recovery</b> +${level}</li>
+                    <li><b>Critical Rate</b> of the next <b>attacking skill</b> +${cr}%</li>
+                    <li><b>Buff Duration:</b> Until a skill is used`
+                            }
+
+                            function addShadowstepExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The distance to the target after the <b>teleport</b> is equal to the maximum auto attack range of the <b>main hand weapon</b></li>
+                    <li>The said "distances to the target" of both the <b>dash</b> and the <b>teleport</b> is the displayed distance from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely indicated by their target circle) after the <b>dash</b>/<b>teleport</b><ul>
+                    <li>&nbsp&nbsp&nbsp- If you are already within the 2.5m range, the <b>dash</b> will be skipped</li>
+                    <li>&nbsp&nbsp&nbsp- If you are inside the target's hitbox, however, <b>you will dash outward to the said edge instead</b>, before performing the <b>teleport</b></li>
+                    </ul></li>`
+                            }
+
+                            function calcShadowstepValues() {
+                                let levelSelector = document.getElementById('shadowstepSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('shadowstepValues')
+                                calcShadowstepMpCost(level, result)
+                                calcShadowstepCastRange(level, result)
+                                addShadowstepSkillInfo(result)
+                                calcShadowstepBuff(level, result)
+                                addShadowstepExtraInfo(result)
+                            }
+
+                            calcShadowstepValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shiningcross.png" width="34" height="34">
+                                Shining Cross
+                            </p>
+                            <p class="medium">
+                                Skill Shining Cross Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Light</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>600</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A pair of light blades slashes darkness. Dual Element (<b style="color: gold">One-Handed
+                                    Sword</b>). Deal more damage as the distance is closer. Restore MP with Critical.
+                                Grant a buff to restore small amount of HP, and it cannot be overwritten.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="shiningCrossSkillLevel" onchange="calcShiningCrossValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <label for="totalSTR" class="sub-title"><b>Total STR:</b></label>
+                        <input type="number" name="strValue" id="shiningCrossTotalStr" value="255" style="width: 50px;"
+                            onchange="calcShiningCrossValues()"><br>
+                        <label for="totalAGI" class="sub-title"><b>Total AGI:</b></label>
+                        <input type="number" name="agiValue" id="shiningCrossTotalAgi" value="247" style="width: 50px;"
+                            onchange="calcShiningCrossValues()"><br>
+                        <label for="totalDEX" class="sub-title"><b>Total DEX:</b></label>
+                        <input type="number" name="dexValue" id="shiningCrossTotalDex" value="1" style="width: 50px;"
+                            onchange="calcShiningCrossValues()"><br>
+                        <label for="range" class="sub-title"><b>Distance from target (m):</b></label>
+                        <input type="number" id="shiningCrossTargetRange" value="1" min="0" style="width: 50px;"
+                            onchange="calcShiningCrossValues()" max="12"><br>
+                        <span class="sub-title"><b>Lunar Misfortune buff is active:</b></span>
+                        <input type="checkbox" id="blazingShiningCross" onchange="calcShiningCrossValues()"><br>
+                        <br>
+                        <span id="shiningCrossValues">
+                            <li><b>Skill Constant:</b> 300; constant for each hit</li>
+                            <li><b>Skill Multiplier:</b> 5; multiplier for each hit</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>
+                            <li>This skill loses <b>Skill Multiplier</b> when attacking targets at 5m and above</li>
+                            <li><b>Recovers</b> 100 MP for each <b>critical hit</b> dealt by this skill; cannot activate
+                                <b>more than once per cast</b></li>
+                            <li>Grant <b>Shining Cross buff</b> after cast if <b>there is no buff that recovers HP over
+                                    time being active</b></li>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the element from the
+                                <b>sub-hand sword</b> in addition to its default <b>Light</b> element; whichever of the
+                                two provides better damage will be selected for damage calculation</li>
+                            <li>This skill is affected by <b>Whack</b>, <b>Long Range passive</b>, <b>Short Range
+                                    Damage</b> and <b>Long Range Damage</b> stats</li><br><b>Buff Effect:</b>
+                            <li>For every 3 seconds, recovers 1% of <b>MaxHP</b></li>
+                            <li><b>Buff Duration:</b> 9 seconds</li>
+                        </span>
+
+                        <script>
+                            function calcShiningCrossConstant(level, result) {
+                                let constant = 100 + 20 * level
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; constant for each hit`
+                            }
+
+                            function calcShiningCrossMultiplier(level, strValue, dexValue, agiValue, targetRange, blazing, result) {
+                                let multiplier = 3 + (0.1 * level)
+                                if (blazing) { multiplier += dexValue / 400 + strValue / 400 + agiValue / 400 }
+                                else { multiplier += dexValue / 500 + strValue / 500 + agiValue / 500 }
+                                if (targetRange > 4) { multiplier -= 0.5 * (targetRange - 4) }
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.009) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; multiplier for each hit</li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcShiningCrossSkillEffect(level, blazing, result) {
+                                var mpRecov = 10 * level
+                                var HTML = ``
+                                if (blazing) { HTML += `<li>This skill's name is changed to <b>Blazing Shining Cross</b></li>` }
+                                HTML += `<li>This skill loses <b>Skill Multiplier</b> when attacking targets at 5m and above</li>
+                    <li><b>Recovers</b> ${mpRecov} MP for each <b>critical hit</b> dealt by this skill; cannot activate <b>`
+                                if (blazing) { HTML += `if the target is killed` }
+                                else { HTML += `more than once per cast` }
+                                HTML += `</b></li><li>Grant <b>Shining Cross buff</b> after cast if <b>there is no buff that recovers HP over time being active</b></li>
+                    <li>This skill has the <b>Dual Element</b> attribute: it gains the element from the <b>sub-hand sword</b> in addition to its default <b>Light</b> element; whichever of the two provides better damage will be selected for damage calculation</li>
+                    <li>This skill is affected by <b>Whack</b>, <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li><br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcShiningCrossHpRecov(level, targetRange, result) {
+                                let baseHpRecov = 0.1 * level
+                                if (targetRange > 6 && targetRange < 12) { baseHpRecov *= 2 }
+                                else if (targetRange == 12) { baseHpRecov *= 3 }
+                                result.innerHTML += `<b>Buff Effect:</b>
+                    <li>For every 3 seconds, recovers ${baseHpRecov}% of <b>MaxHP</b></li>
+                    <li><b>Buff Duration:</b> 9 seconds</li>`
+                            }
+
+                            function calcShiningCrossValues() {
+                                let levelSelector = document.getElementById('shiningCrossSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let dexValue = document.getElementById('shiningCrossTotalDex').value
+                                let strValue = document.getElementById('shiningCrossTotalStr').value
+                                let agiValue = document.getElementById('shiningCrossTotalAgi').value
+                                let targetRange = document.getElementById('shiningCrossTargetRange').value
+                                let blazing = document.getElementById("blazingShiningCross").checked
+                                let result = document.getElementById('shiningCrossValues')
+                                calcShiningCrossConstant(level, result)
+                                calcShiningCrossMultiplier(level, strValue, dexValue, agiValue, targetRange, blazing, result)
+                                calcShiningCrossSkillEffect(level, blazing, result)
+                                calcShiningCrossHpRecov(level, targetRange, result)
+                            }
+
+                            calcShiningCrossValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/lunarmisfortune.png" width="34" height="34">
+                                Lunar Misfortune
+                            </p>
+                            <p class="medium">
+                                Skill Lunar Misfortune Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Dark</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>400</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Dazzling moonlight. Dual Element with (<b style="color: gold">One-Handed Sword</b>).
+                                Press the back button right after it activates to quickly retreat and pierce the enemy
+                                with flying moonlight blade.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="lunarMisfortuneSkillLevel" onchange="calcLunarMisfortuneValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Total DEX:</b></span>
+                        <input type="number" name="baseDex" id="baseDexLunarMisfortune" value="255" min="1"
+                            style="width: 50px;" onchange="calcLunarMisfortuneValues()"><br>
+                        <span class="sub-title"><b>Backward movement input is held:</b></span>
+                        <input type="checkbox" id="lunarMisfortuneBackward" onchange="calcLunarMisfortuneValues()"><br>
+                        <div id="lunarMisfortuneAddHitInput" style="display: none;">
+                            <span class="sub-title"><b>Successful Moonlight Blade hit count:</b></span>
+                            <input type="number" id="lunarMisfortuneAddHitCount" min="0" max="5" value="0"
+                                style="width: 3em;" onchange="calcLunarMisfortuneValues()">
+                        </div>
+                        <br>
+                        <span id="lunarMisfortuneValues">
+                            <li><b>Skill Constant (Lunar Assault):</b> 400; total constant of all hits</li>
+                            <li><b>Skill Multiplier (Lunar Assault):</b> 11.27; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done once then spread evenly between the
+                                hits</li><br>
+                            <li>The caster will <b>teleport</b> to roughly 0m in front of the <b>main target</b> upon
+                                successful cast</li>
+                            <li>The <b>Lunar Assault</b> is treated as an <b>Unsheathe Attack</b></li>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the element from the
+                                <b>sub-hand sword</b> in addition to its default <b>Dark</b> element; whichever of the
+                                two provides better damage will be selected for damage calculation</li><br><b>Extra
+                                info:</b>
+                            <li>The said "distances to the target" of both <b>teleports</b> are the displayed distance
+                                from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely
+                                indicated by their target circle) after those <b>teleports</b>; for the first
+                                <b>teleport</b>, if you are already within the 1m range, it will be skipped</li>
+                            <li>This skill is affected by <b>Long Range passive</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- The <b>Lunar Assault</b> is affected by <b>Short Range
+                                            Damage</b> and <b>Long Range Damage</b> stats depending on where it was used
+                                    </li>
+                                    <li>&nbsp;&nbsp;&nbsp;- The <b>Moonlight Blade</b>, on the other hand, is always
+                                        affected by <b>Long Range Damage</b> stat</li>
+                                </ul>
+                            </li>
+                            <li><b>This skill can inflict proration twice</b>: the <b>Lunar Assault</b> inflicts
+                                <b>Physical Proration</b>, while the <b>Moonlight Blade</b> will inflict <b>Magic
+                                    Proration</b> if activated; both of them still use <b>Physical Proration</b> for
+                                their damage calculation, however</li>
+                        </span>
+
+                        <script>
+                            function lunarMisfortuneAddHitCheck(retreat, lmAddHitSection) {
+                                if (retreat) { lmAddHitSection.style = "display: block" }
+                                else { lmAddHitSection.style = "display: none" }
+                            }
+
+                            function calcLunarMisfortuneConstant(retreat, result) {
+                                var constant1 = 400
+                                var constant2 = 0
+                                var HTML = `<li><b>Skill Constant (Lunar Assault):</b> ${constant1}; total constant of all hits</li>`
+                                if (retreat) { HTML += `<li><b>Skill Constant (Moonlight Blade):</b> ${constant2}; constant for each hit</li>` }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcLunarMisfortuneMultiplier(level, baseDex, retreat, result) {
+                                var multiplier1 = 5 + 0.5 * level + baseDex / 200
+                                var multiplier2 = 2.5 + 0.05 * level
+
+                                function rounding(value) {
+                                    if (value - Math.floor(value * 100) / 100 < 0.009999) { value = Math.floor(value * 100) / 100 }
+                                    else { value = Math.round(value * 100) / 100 }
+                                    return value
+                                }
+
+                                multiplier1 = rounding(multiplier1)
+                                var HTML = `<li><b>Skill Multiplier (Lunar Assault):</b> ${multiplier1}; total multiplier of all hits</li>`
+                                if (retreat) { HTML += `<li><b>Skill Multiplier (Moonlight Blade):</b> ${multiplier2}; multiplier for each hit</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function addLunarMisfortuneHitCount(retreat, result) {
+                                var HTML = `<li><b>Hit Count:</b>`
+                                if (retreat) {
+                                    HTML += `<ul><li>&nbsp&nbsp&nbsp- <b>Lunar Assault:</b> 2 hits; damage calculation is done once then spread evenly between the hits</li>
+                    <li>&nbsp&nbsp&nbsp- <b>Moonlight Blade:</b> 5 hits; damage calculation is done for for each hit</li>
+                    </ul>`}
+                                else { HTML += ` 2 hits; damage calculation is done once then spread evenly between the hits` }
+                                HTML += `</li><br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addLunarMisfortuneHitRange(retreat, result) {
+                                var HTML = ``
+                                if (retreat) { HTML += `<li><b>Moonlight Blade Hit Range (radius):</b> 1m (first hit), gradually expands by 0.5m on each subsequence hit (up to 3m on the 5th hit), around the <b>main target</b> upon activating <b>retreat</b></li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function addLunarMisfortuneSkillEffect(level, retreat, result) {
+                                var pp = 5 * level
+                                var HTML = `<li>The caster will <b>teleport</b> to roughly 0m in front of the <b>main target</b> upon successful cast</li>
+                    <li>The <b>Lunar Assault</b> is treated as an <b>Unsheathe Attack</b></li>`
+                                if (retreat) { HTML += `<li><b>Physical Pierce</b> of <b>Moonlight Blade</b> +${pp}%</li>` }
+                                HTML += `<li>This skill has the <b>Dual Element</b> attribute: it gains the element from the <b>sub-hand sword</b> in addition to its default <b>Dark</b> element; whichever of the two provides better damage will be selected for damage calculation</li>`
+                                if (retreat) {
+                                    HTML += `<br><li>Holding the backward movement input will make the caster <b>teleport</b> back 7.5m in the direction <b>where the caster was at the start of the cast</b> and trigger <b>Moonlight Blade</b> attack</li>
+                    <li>Grants <b>Shadowstep buff</b> upon activating <b>retreat</b>, and <b>Lunar Misfortune buff</b> after <b>Moonlight Blade</b> attack ends; the duration of <b>Lunar Misfortune buff</b> depends on the number of <b>successful Moonlight Blade hit</b> (not [Miss]/[Graze]/[Evaded])</li>
+                    <li>Casting <b>Phantom Slash</b> during the <b>retreat</b> animation will <b>cancel the latter completely</b> and change the former into <b>Phantom Eclipse</b>, setting its motion speed to 150%</li>
+                    <li>Casting <b>Storm Reaper</b> during the <b>retreat</b> animation will <b>cancel the latter completely</b> and change the former into <b>Orbit Reaper</b>, ignoring its original cast range, changing its buff effect to <b>Long Range Damage increase</b> while halving its value, and setting its motion speed to 150%</li>`}
+                                result.innerHTML += HTML
+                            }
+
+                            function calcLunarMisfortuneBuffEffect(retreat, lmAddHit, result) {
+                                let duration = 6 * lmAddHit
+                                if (retreat && lmAddHit > 0) {
+                                    result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li>Changes <b>Shining Cross</b> into <b>Blazing Shining Cross</b> with enhanced effects</li>
+                    <li><b>Buff Duration:</b> ${duration} seconds</li>`
+                                }
+                            }
+
+                            function addLunarMisfortuneExtraInfo(retreat, result) {
+                                var HTML = `<br><b>Extra info:</b>
+                    <li>The said "distances to the target" of both <b>teleports</b> are the displayed distance from the <b>caster</b> to the <b>edge of the target's circular hitbox</b> (vaguely indicated by their target circle) after those <b>teleports</b>; for the first <b>teleport</b>, if you are already within the 1m range, it will be skipped</li>
+                    <li>This skill is affected by <b>Long Range passive</b><ul>
+                    <li>&nbsp&nbsp&nbsp- The <b>Lunar Assault</b> is affected by <b>Short Range Damage</b> and <b>Long Range Damage</b> stats depending on where it was used</li>
+                    <li>&nbsp&nbsp&nbsp- The <b>Moonlight Blade</b>, on the other hand, is always affected by <b>Long Range Damage</b> stat</li>
+                    </ul></li>
+                    <li><b>This skill can inflict proration twice</b>: the <b>Lunar Assault</b> inflicts <b>Physical Proration</b>, while the <b>Moonlight Blade</b> will inflict <b>Magic Proration</b> if activated; both of them still use <b>Physical Proration</b> for their damage calculation, however</li>`
+                                if (retreat) { HTML += `<li>The <b>Shadowstep buff</b> granted by this skill is the same as the buff granted by the <b>Shadowstep</b> learned</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcLunarMisfortuneValues() {
+                                let levelSelector = document.getElementById('lunarMisfortuneSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let baseDex = document.getElementById('baseDexLunarMisfortune').value
+                                let retreat = document.getElementById("lunarMisfortuneBackward").checked
+                                let lmAddHitSection = document.getElementById("lunarMisfortuneAddHitInput")
+                                let lmAddHit = document.getElementById('lunarMisfortuneAddHitCount').value
+                                let result = document.getElementById('lunarMisfortuneValues')
+                                lunarMisfortuneAddHitCheck(retreat, lmAddHitSection)
+                                calcLunarMisfortuneConstant(retreat, result)
+                                calcLunarMisfortuneMultiplier(level, baseDex, retreat, result)
+                                addLunarMisfortuneHitCount(retreat, result)
+                                addLunarMisfortuneHitRange(retreat, result)
+                                addLunarMisfortuneSkillEffect(level, retreat, result)
+                                calcLunarMisfortuneBuffEffect(retreat, lmAddHit, result)
+                                addLunarMisfortuneExtraInfo(retreat, result)
+                            }
+
+                            calcLunarMisfortuneValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/twinbusterblade.png" width="34" height="34">
+                                Twin Buster Blade
+                            </p>
+                            <p class="medium">
+                                Skill Twin Buster Blade Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>7</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Consecutive double slash surrounded by an aura. A series of efficient slashes resulting
+                                in a critical hit.<br>
+                                Performs a two-stage attack with an AoE that gets stronger as more targets are involved.
+                            </p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/dw.png"></p>
+                                <p>Dual Swords</p>
+                            </div>
+                            <p>Get the same buff effects if Buster Blade has been acquired.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="twinBusterSkillLevel" onchange="calcTwinBusterValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"> <b>Base STR:</b></span>
+                        <input type="number" value="255" min="1" max="510" id="twinBusterStrValue"
+                            onchange="calcTwinBusterValues()" style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Base AGI:</b></span>
+                        <input type="number" value="247" min="1" max="510" id="twinBusterAgiValue"
+                            onchange="calcTwinBusterValues()" style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Base DEX:</b></span>
+                        <input type="number" value="1" min="1" max="510" id="twinBusterDexValue"
+                            onchange="calcTwinBusterValues()" style="width: 50px;"><br>
+                        <span class="sub-title"><b>Number of enemies within AoE Hit Range:</b></span>
+                        <input type="number" id="twinBusterEnemyCount" min="0" max="10" value="0" style="width: 3em;"
+                            onchange="calcTwinBusterValues()"><br>
+                        <span class="sub-title"><b>"Buster Blade" Skill Level:</b></span>
+                        <select id="twinBusterBladeBusterLevel" onchange="calcTwinBusterValues()">
+                            <option value="0" selected="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <br>
+                        <span id="twinBusterValues">
+                            <li><b>Skill Constant (Consecutive Slash):</b> 100; total constant of all hits</li>
+                            <li><b>Skill Constant (AoE Hit):</b> 200</li>
+                            <li><b>Skill Multiplier (Consecutive Slash):</b> 8.74; total multiplier of all hits</li>
+                            <li><b>Skill Multiplier (AoE Hit):</b> 5</li>
+                            <li><b>Hit Count:</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Consecutive Slash:</b> 4 hits; damage calculation is done
+                                        once then spread evenly between the hits</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>AoE Hit:</b> 1 hit; damage calculation is done separately
+                                        for itself</li>
+                                </ul>
+                            </li><br>
+                            <li><b>Hit Range (AoE Hit):</b> Length of 4m and radius of 2m; from the <b>caster</b> toward
+                                the <b>main target</b></li>
+                            <li>The <b>Consecutive Slash</b> will <b>always deal critical hits</b></li>
+                            <li>The <b>AoE Hit</b> is treated as an <b>Unsheathe Attack</b></li>
+                            <li>This skill has the <b>Dual Element</b> attribute: it gains the elements from both
+                                <b>main hand sword</b> and <b>sub-hand sword</b>; whichever of the two provides better
+                                damage will be selected for damage calculation</li><br><b>Extra info:</b>
+                            <li>This skill is unaffected by <b>Short Range Damage</b> stat</li>
+                            <li>As with other "linear attacks", the hit range of the <b>AoE Hit</b> is <b>stadium
+                                    shaped</b> (a rectangle with two semicircles on opposite sides, with the length
+                                being that of the rectangle, and the radius being that of the semicircles), thus
+                                allowing the attack to hit enemies behind the caster or further than the "length" of the
+                                hit range</li>
+                        </span>
+
+                        <script>
+                            function calcTwinBusterConstant(level, result) {
+                                var constant1 = 10 * level
+                                var constant2 = 20 * level
+                                result.innerHTML = `<li><b>Skill Constant (Consecutive Slash):</b> ${constant1}; total constant of all hits</li>
+                    <li><b>Skill Constant (AoE Hit):</b> ${constant2}</li>`
+                            }
+
+                            function calcTwinBusterMultiplier(level, strValue, agiValue, dexValue, enemyCount, result) {
+                                var multiplier1 = 0.75 * level + agiValue / 200 + dexValue / 200
+                                var multiplier2 = 5 + enemyCount * strValue / 200
+
+                                function rounding(value) {
+                                    if (value - Math.floor(value * 100) / 100 < 0.0099999) { value = Math.floor(value * 100) / 100 }
+                                    else { value = Math.round(value * 100) / 100 }
+                                    return value
+                                }
+
+                                multiplier1 = rounding(multiplier1)
+                                multiplier2 = rounding(multiplier2)
+                                result.innerHTML += `<li><b>Skill Multiplier (Consecutive Slash):</b> ${multiplier1}; total multiplier of all hits</li>
+                    <li><b>Skill Multiplier (AoE Hit):</b> ${multiplier2}</li>
+                    <li><b>Hit Count:</b><ul>
+                    <li>&nbsp&nbsp&nbsp- <b>Consecutive Slash:</b> 4 hits; damage calculation is done once then spread evenly between the hits</li>
+                    <li>&nbsp&nbsp&nbsp- <b>AoE Hit:</b> 1 hit; damage calculation is done separately for itself</li>
+                    </ul></li>`
+                            }
+
+                            function addTwinBusterSkillInfo(busterLevel, result) {
+                                var HTML = `<br><li><b>Hit Range (AoE Hit):</b> Length of 4m and radius of 2m; from the <b>caster</b> toward the <b>main target</b></li>
+                    <li>The <b>Consecutive Slash</b> will <b>always deal critical hits</b></li>
+                    <li>The <b>AoE Hit</b> is treated as an <b>Unsheathe Attack</b></li>
+                    <li>This skill has the <b>Dual Element</b> attribute: it gains the elements from both <b>main hand sword</b> and <b>sub-hand sword</b>; whichever of the two provides better damage will be selected for damage calculation</li>`
+                                if (busterLevel > 0) { HTML += `<li>Grants <b>Buster Blade buff</b> upon successful cast</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcTwinBusterBuffEffect(busterLevel, result) {
+                                var weaponATK = 1 * busterLevel
+                                var HTML = `<br><b>Buff Effect:</b>
+                    <li><b>Weapon ATK</b> +${weaponATK}%; only applies to the <b>main hand sword</b></li>
+                    <li><b>Buff Duration:</b> 10 seconds; <b>cannot be reapplied/refreshed</b> if it's already active</li>`
+                                if (busterLevel > 0) { result.innerHTML += HTML }
+                            }
+
+                            function addTwinBusterExtraInfo(result) {
+                                var HTML = `<br><b>Extra info:</b>
+                    <li>This skill is unaffected by <b>Short Range Damage</b> stat</li>
+                    <li>As with other "linear attacks", the hit range of the <b>AoE Hit</b> is <b>stadium shaped</b> (a rectangle with two semicircles on opposite sides, with the length being that of the rectangle, and the radius being that of the semicircles), thus allowing the attack to hit enemies behind the caster or further than the "length" of the hit range</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcTwinBusterValues() {
+                                var levelSelector = document.getElementById("twinBusterSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var strValue = document.getElementById("twinBusterStrValue").value
+                                var agiValue = document.getElementById("twinBusterAgiValue").value
+                                var dexValue = document.getElementById("twinBusterDexValue").value
+                                var enemyCount = document.getElementById('twinBusterEnemyCount').value
+                                var busterLevelSelector = document.getElementById("twinBusterBladeBusterLevel")
+                                var busterLevel = busterLevelSelector[busterLevelSelector.selectedIndex].value
+                                var result = document.getElementById("twinBusterValues")
+                                calcTwinBusterConstant(level, result)
+                                calcTwinBusterMultiplier(level, strValue, agiValue, dexValue, enemyCount, result)
+                                addTwinBusterSkillInfo(busterLevel, result)
+                                calcTwinBusterBuffEffect(busterLevel, result)
+                                addTwinBusterExtraInfo(result)
+                            }
+
+                            calcTwinBusterValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/reflex.png" width="34" height="34">
+                                Reflex
+                            </p>
+                            <p class="medium">
+                                Skill Reflex Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Greatly raises Evasion Recharge for a short time. Decreases DEF and MDEF a lot.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/dw.png"></p>
+                                <p>Dual Swords</p>
+                            </div>
+                            <p>Duration +90sec</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select name="weaponType" id="reflexWeaponType" onchange="calcReflexValues()">
+                            <option value="ds" selected="">Dual Swords</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="reflexSkillLevel" onchange="calcReflexValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="reflexValues"><b>Buff Effect:</b>
+                            <li><b>Evasion Recharge</b> +30%</li>
+                            <li style="color: #C70039"><b>DEF</b> -90%</li>
+                            <li style="color: #C70039"><b>MDEF</b> -90%</li>
+                            <li><b>Buff Duration:</b> 1 minute 40 seconds</li>
+                        </span>
+
+                        <script>
+                            function caclReflexEvasionRecharge(level, result) {
+                                let evasionRecharge = 10 + (2 * level)
+                                result.innerHTML = `<b>Buff Effect:</b>
+                    <li><b>Evasion Recharge</b> +${evasionRecharge}%</li>`
+                            }
+
+                            function calcReflexDeffAndMdeffPenalty(level, result) {
+                                let penalty = 100 - level
+                                result.innerHTML += `<li style = 'color: #C70039'><b>DEF</b> -${penalty}%</li>
+                    <li style = 'color: #C70039'><b>MDEF</b> -${penalty}%</li>`
+                            }
+
+                            function calcReflexBuffDuration(weapon, result) {
+                                // ds equipped got bonus 1 min 30 sec 
+                                let baseDuration = 10
+                                let dsBonusSecondTime = baseDuration + 30
+                                if (weapon == 'ds') { result.innerHTML += `<li><b>Buff Duration:</b> 1 minute ${dsBonusSecondTime} seconds</li>` }
+                                else { result.innerHTML += `<li><b>Buff Duration:</b> ${baseDuration} seconds</li>` }
+                            }
+
+                            function calcReflexValues() {
+                                let levelSelector = document.getElementById('reflexSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('reflexWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('reflexValues')
+                                caclReflexEvasionRecharge(level, result)
+                                calcReflexDeffAndMdeffPenalty(level, result)
+                                calcReflexBuffDuration(weapon, result)
+                            }
+
+                            calcReflexValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/flashblast.png" width="34" height="34">
+                                Flash Blast
+                            </p>
+                            <p class="medium">
+                                Skill Flash Blast Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Wind</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Dual Element (<b style="color: gold">One Handed Sword</b>). Enhance Unsheathe Power for a
+                                short period of time and add a powerful counter when activating Evasion. It is activated
+                                when using [Shadowstep].</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/dw.png"></p>
+                                <p>Dual Swords</p>
+                            </div>
+                            <p>Boost on Weapon ATK Buff<br> Duration +100sec</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/ohs.png"></p>
+                                <p>1-Handed Sword</p>
+                            </div>
+                            <p>Power +50<br> Range (Radius) +1m</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select name="weaponType" id="flashBlastWeaponType" onchange="calcFlashBlastValues()">
+                            <option value="ds" selected="">Dual Swords</option>
+                            <option value="ohs">1-Handed Sword</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="flashBlastSkillLevel" onchange="calcFlashBlastValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="flashBlastValues">
+                            <li><b>Skill Constant (Blast):</b> 200; constant for each hit</li>
+                            <li><b>Skill Multiplier (Blast):</b> 2.5; multiplier for each hit</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li>
+                            <li><b>Hit Range (radius):</b> 5m, around the <b>caster's position before evading</b></li>
+                            <br><b>Skill Effect:</b> Grants <b>Flash Blast buff</b> upon successful cast<br>
+                            <br><b>Buff Effect:</b>
+                            <li><b>Unsheathe Attack</b> +10%</li>
+                            <li>Upon activating <b>Evasion</b> or casting <b>Shadowstep</b>, create a <b>Blast</b> that
+                                deals damage</li>
+                            <li><b>Evasion Charge</b> +2</li>
+                            <li><b>Weapon ATK</b> +25%; only applies to the <b>main hand sword</b></li>
+                            <li>The blast's <b>base damage calculation</b> is calculated like any other <b>Dual
+                                    Swords</b> skill</li>
+                            <li>The blast has the <b>Dual Element</b> attribute: it gains the element from the
+                                <b>sub-hand sword</b> in addition to its default <b>Wind</b> element; whichever of the
+                                two provides better damage will be selected for damage calculation</li>
+                            <li><b>Buff Duration:</b> 2 minutes</li><br><b>Extra info:</b>
+                            <li>The blast is considered as a <b>physical skill</b>: it uses <b>physical damage
+                                    calculation</b>, and inflicts <b>Physical Proration</b></li>
+                            <li>The blast is neither affected by buffs that are consumed on the next skill (Impact,
+                                Shadowstep,...), nor will it consume those buffs</li>
+                        </span>
+
+                        <script>
+                            function calcFlashBlastConstant(level, result) {
+                                let constant = 100 + (10 * level)
+                                result.innerHTML = `<li><b>Skill Constant (Blast):</b> ${constant}; constant for each hit</li>`
+                            }
+
+                            function calcFlashBlastMultiplier(level, weapon, result) {
+                                level = parseInt(level)
+                                let multiplier = 0.5 + (0.15 * level)
+                                if (weapon != "other") { multiplier += 0.5 }
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier (Blast):</b> ${multiplier}; multiplier for each hit</li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li>`
+                            }
+
+                            function calcFlashBlastHitRange(weapon, result) {
+                                let hitRange = 4
+                                if (weapon != "other") hitRange++
+                                result.innerHTML += `<li><b>Hit Range (radius):</b> ${hitRange}m, around the <b>caster's position before evading</b></li><br>`
+                            }
+
+                            function calcFlashBlastBuff(level, result) {
+                                let unsheathe = level
+                                result.innerHTML += `<b>Skill Effect:</b> Grants <b>Flash Blast buff</b> upon successful cast<br>
+                    <br><b>Buff Effect:</b>
+                    <li><b>Unsheathe Attack</b> +${unsheathe}%</li>
+                    <li>Upon activating <b>Evasion</b> or casting <b>Shadowstep</b>, create a <b>Blast</b> that deals damage</li>`
+                            }
+
+                            function calcFlashBlastDSBonus(level, weapon, result) {
+                                var eva = Math.floor(level / 5)
+                                var HTML = ``
+                                if (eva > 0) { HTML += `<li><b>Evasion Charge</b> +${eva}</li>` }
+                                HTML += `<li><b>Weapon ATK</b> +25%; only applies to the <b>main hand sword</b></li>
+                    <li>The blast's <b>base damage calculation</b> is calculated like any other <b>Dual Swords</b> skill</li>
+                    <li>The blast has the <b>Dual Element</b> attribute: it gains the element from the <b>sub-hand sword</b> in addition to its default <b>Wind</b> element; whichever of the two provides better damage will be selected for damage calculation</li>`
+                                if (weapon == "ds") { result.innerHTML += HTML }
+                            }
+
+                            function calcFlashBlastBuffDuration(weapon, result) {
+                                let durationValue = 20
+                                let duration = `${durationValue} seconds`
+                                if (weapon == "ds") {
+                                    durationValue = 2
+                                    duration = `${durationValue} minutes`
+                                }
+                                result.innerHTML += `<li><b>Buff Duration:</b> ${duration}</li>`
+                            }
+
+                            function addFlashBlastExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The blast is considered as a <b>physical skill</b>: it uses <b>physical damage calculation</b>, and inflicts <b>Physical Proration</b></li>
+                    <li>The blast is neither affected by buffs that are consumed on the next skill (Impact, Shadowstep,...), nor will it consume those buffs</li>`
+                            }
+
+                            function calcFlashBlastValues() {
+                                let levelSelector = document.getElementById('flashBlastSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('flashBlastWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('flashBlastValues')
+                                calcFlashBlastConstant(level, result)
+                                calcFlashBlastMultiplier(level, weapon, result)
+                                calcFlashBlastHitRange(weapon, result)
+                                calcFlashBlastBuff(level, result)
+                                calcFlashBlastDSBonus(level, weapon, result)
+                                calcFlashBlastBuffDuration(weapon, result)
+                                addFlashBlastExtraInfo(result)
+                            }
+
+                            calcFlashBlastValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/stormreaper.png" width="34" height="34">
+                                Storm Reaper
+                            </p>
+                            <p class="medium">
+                                Skill Storm Reaper Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>400</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>2</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attacks the target while jumping back swiftly. The power of the next close-range attack
+                                increases based on the distance you've jumped back. Invincible while jumping back.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="stormReaperSkillLevel" onchange="calcStormReaperValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Base DEX:</b></span>
+                        <input type="number" id="baseDexStormReaper" value="255" min="1" max="510" style="width: 50px;"
+                            onchange="calcStormReaperValues()"><br>
+                        <span class="sub-title"><b>Skill is used during "Lunar Misfortune" retreat animation:</b></span>
+                        <input type="checkbox" id="orbitReaperLM" onchange="calcStormReaperValues()"><br>
+                        <br>
+                        <span id="stormReaperValues">
+                            <li><b>Skill Constant:</b> 200; constant for each hit</li>
+                            <li><b>Skill Multiplier:</b> 6; multiplier for each hit</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>
+                            <li>The caster will <b>leap</b> 9m backward upon cast</li>
+                            <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                            <li>Upon using this skill, gain [Invincible] for 2 seconds OR until you land</li>
+                            <li>Grants <b>Storm Reaper buff</b> upon successful cast</li><br><b>Buff Effect:</b>
+                            <li><b>Short Range Damage</b> of the next <b>skill</b> +100%</li>
+                            <li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
+                            <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+                                <b>main hand weapon</b> if it is used normally (not as <b>Orbit Reaper</b>)<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- Despite having said maximum cast range, this skill is
+                                        treated as a skill with a <b>maximum cast range of 50m that is used at 50m</b>
+                                        for damage calculation, making it unaffected by <b>Short Range Damage</b> stat,
+                                        and instead always affected by <b>Long Range Damage</b> stat and <b>Long Range
+                                            passive</b></li>
+                                </ul>
+                            </li>
+                        </span>
+
+                        <script>
+                            function caclStormReaperConstant(level, result) {
+                                let constant = 100 + 10 * level
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; constant for each hit</li>`
+                            }
+
+                            function calcStormReaperMultiplier(level, baseDex, result) {
+                                let multiplier = 4 + (0.1 * level) + Math.floor(baseDex / 25) * (level / 100)
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.009) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; multiplier for each hit</li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function addStormReaperSkillEffect(orbit, result) {
+                                let HTML = ``
+                                if (orbit) {
+                                    HTML += `<li>This skill's name is changed to <b>Orbit Reaper</b>, and will ignore its usual maximum cast range</li>
+                    <li><b>Motion Speed</b> of <b>Orbit Reaper</b> is set to 150%</li>`}
+                                HTML += `<li>The caster will <b>leap</b> 9m backward upon cast</li>
+                    <li>This skill is treated as an <b>Unsheathe Attack</b></li>
+                    <li>Upon using this skill, gain [Invincible] for 2 seconds OR until you land</li>
+                    <li>Grants <b>Storm Reaper buff</b> upon successful cast</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcStormReaperBuffEffect(level, orbit, result) {
+                                var srd = (10 * level)
+                                var distance = "Short"
+                                if (orbit) { distance = "Long"; srd /= 2 }
+                                result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li><b>${distance} Range Damage</b> of the next <b>skill</b> +${srd}%</li>
+                    <li><b>Buff Duration:</b> Until a skill is used</li>`
+                            }
+
+                            function stormReaperExtraInformation(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the <b>main hand weapon</b> if it is used normally (not as <b>Orbit Reaper</b>)<ul>
+                    <li>&nbsp&nbsp&nbsp- Despite having said maximum cast range, this skill is treated as a skill with a <b>maximum cast range of 50m that is used at 50m</b> for damage calculation, making it unaffected by <b>Short Range Damage</b> stat, and instead always affected by <b>Long Range Damage</b> stat and <b>Long Range passive</b></li>
+                    </ul></li>`
+                            }
+
+                            function calcStormReaperValues() {
+                                let levelSelector = document.getElementById('stormReaperSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let baseDex = document.getElementById('baseDexStormReaper').value
+                                let orbit = document.getElementById("orbitReaperLM").checked
+                                let result = document.getElementById('stormReaperValues')
+                                caclStormReaperConstant(level, result)
+                                calcStormReaperMultiplier(level, baseDex, result)
+                                addStormReaperSkillEffect(orbit, result)
+                                calcStormReaperBuffEffect(level, orbit, result)
+                                stormReaperExtraInformation(result)
+                            }
+
+                            calcStormReaperValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/dualswordcontrol.png" width="34" height="34">
+                                Dual Sword Control
+                            </p>
+                            <p class="medium">
+                                Skill Dual Sword Control Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Increases ASPD of Dual Swords. Reduces the disadvantages of Dual Swords.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="dualSwordControlSkillLevel"
+                            onchange="calcDualSwordControlValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="dualSwordControlValues">
+                            <li><b>Attack Speed</b> +500</li>
+                            <li><b>Accuracy</b> +35%</li>
+                            <li><b>Critical Rate</b> +35%</li><br><b>Accuracy</b> and <b>Critical Rate</b> bonuses are
+                            applied additively to <b>Dual Sword Mastery</b> modifiers
+                        </span>
+
+                        <script>
+                            function calcDualSwordControlAspd(level, result) {
+                                let aspd = 50 * level
+                                result.innerHTML = `<li><b>Attack Speed</b> +${aspd}</li>`
+                            }
+
+                            function calcDualSwordControlAccuracyAndCrit(level, result) {
+                                let bonus = 5 + (3 * level)
+                                result.innerHTML += `<li><b>Accuracy</b> +${bonus}%</li>
+                    <li><b>Critical Rate</b> +${bonus}%`
+                            }
+
+                            function calcDualSwordControlValues() {
+                                let levelSelector = document.getElementById('dualSwordControlSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('dualSwordControlValues')
+                                calcDualSwordControlAspd(level, result)
+                                calcDualSwordControlAccuracyAndCrit(level, result)
+                                result.innerHTML += `<br><b>Accuracy</b> and <b>Critical Rate</b> bonuses are applied additively to <b>Dual Sword Mastery</b> modifiers`
+                            }
+
+                            calcDualSwordControlValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/godspeed.png" width="34" height="34">
+                                Godspeed
+                            </p>
+                            <p class="medium">
+                                Skill Godspeed Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Enhances AGI and Unsheathe Attacks such as First Attack, Evasion Attacks and certain
+                                skills.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/dw.png"></p>
+                                <p>Dual Swords</p>
+                            </div>
+                            <p>Unsheathe Attack +10%</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+                        <select name="weaponType" id="godspeedWeaponType" onchange="calcGodspeedValues()">
+                            <option value="ds">Dual Swords</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="godspeedSkillLevel" onchange="calcGodspeedValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="godspeedValues">
+                            <li><b>AGI</b> +15</li>
+                            <li><b>Unsheathe Attack</b> +25%</li>
+                        </span>
+
+                        <script>
+                            function calcGodspeedAgi(level, result) {
+                                let agiBonus = level * 1 + Math.max(0, level - 5)
+                                result.innerHTML = `<li><b>AGI</b> +${agiBonus}</li>`
+                            }
+
+                            function calcGodspeedUnsheathe(level, weapon, result) {
+                                let unsheathe = 5 + 1 * level
+                                if (weapon == 'ds') { unsheathe += 10 }
+                                result.innerHTML += `<li><b>Unsheathe Attack</b> +${unsheathe}%</li>`
+                            }
+
+                            function calcGodspeedValues() {
+                                let levelSelector = document.getElementById('godspeedSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let weaponSelector = document.getElementById('godspeedWeaponType')
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let result = document.getElementById('godspeedValues')
+                                calcGodspeedAgi(level, result)
+                                calcGodspeedUnsheathe(level, weapon, result)
+                            }
+
+                            calcGodspeedValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/saberaura.png" width="34" height="34">
+                                Saber Aura
+                            </p>
+                            <p class="medium">
+                                Skill Saber Aura Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>900</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>The two blades emit a divine light. Increase various stats and movement speed.
+                                Continuously use HP while the effect is active. The effect ends when you become unable
+                                to use HP.<br>
+                                Unable to use redundantly.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="saberAuraSkillLevel" onchange="calcSaberAuraValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <label for="stacksaberAura" class="sub-title"><b>Number of stacks:</b></label>
+                        <input type="number" id="stackSaberAura" value="1" onchange="calcSaberAuraValues()"
+                            style="width: 3em;" min="1" max="20"><br>
+                        <label for="maxHp" class="sub-title"><b>MaxHP:</b></label>
+                        <input type="number" id="maxHpSaberAura" value="7500" min="1" max="99999"
+                            onchange="calcSaberAuraValues()" style="width: 60px;"><br>
+                        <br>
+                        <span id="saberAuraValues"><b>Buff Effect:</b>
+                            <li>Grants <b>Saber Aura buff</b> that starts at 1 stack. Every <b>2 seconds</b>, this skill
+                                grants 1 additional stack
+                            </li>
+                            <li><b>Doubles</b> your <b>Movement Speed</b> while the buff is active and <b>not on
+                                    cooldown</b>; this bonus is overridden by [Stop] ailment and stacks with [Slow]
+                                ailment</li>
+                            <li>If <b>Crescent Saber</b> has been learned, replace this skill with <b>Crescent Saber</b>
+                                while the buff is active and <b>not on cooldown</b></li><br>
+                            <b>Effect of this stage:</b>
+                            <li><b>Attack Speed</b> +100%</li>
+                            <li><b>Accuracy</b> +50</li>
+                            <li><b>Attack MP Recovery</b> +5 (<b>doubled</b> by Dual Swords' effect)</li>
+                            <li>Drains 5% of your <b>Current HP</b> every second while the buff is active and <b>not on
+                                    cooldown</b>
+                                <ul>
+                                    <li>&nbsp;&nbsp;- If the <b>HP drain</b> would make your <b>Current HP</b> go under
+                                        <b>5% of your MaxHP</b> (or 375 HP) OR you take a <b>Fatal Hit</b>, the buff
+                                        will enter <b>cooldown</b> (if you would have been <b>killed</b>, you remain at
+                                        1 HP instead); your <b>Current HP</b> at this stage must be at least <b>394</b>
+                                        to prevent the <b>next instance of HP drain</b> from causing this effect</li>
+                                    <li>&nbsp;&nbsp;- Recovers 5% of your <b>MaxHP</b> (or 375 HP) after the buff enters
+                                        <b>cooldown</b> during this stage</li>
+                                    <li>&nbsp;&nbsp;- While the buff is <b>on cooldown</b>, all bonuses are disabled
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>Buff Duration:</b> Until your HP goes below 5% of your MaxHP OR until you take a
+                                fatal hit OR until you use <b>Crescent Saber</b></li>
+                            <li><b>Cooldown Duration:</b> 11 seconds after entering <b>cooldown </b> at this stage</li>
+                            <br><b>Extra Info:</b>
+                            <li>You cannot recast <b>Saber Aura</b> while the buff is <b>either active or on
+                                    cooldown</b>; if <b>Crescent Saber</b> has been learned, attempting to recast
+                                <b>Saber Aura</b> while the buff is <b>active</b> will cast <b>Crescent Saber</b>
+                                instead</li>
+                            <li><b>Shukuchi</b> is <b>disabled</b> while the buff is active and <b>not on cooldown</b>
+                            </li>
+                            <li>The <b>Movement Speed modifier</b> effect only applies <b>during combat</b></li>
+                            <li>If you got hit and survive at 1 HP thanks to this skill, and you have a Decoy active,
+                                then your Decoy will disappear</li>
+                            <li><b>Instant kill effect</b> such as those from <b>Regretless</b> or <b>Final
+                                    Resistance</b> Registlet bypasses this buff's effect</li>
+                            <li><b>Side note:</b> Currently, due to the <b>HP drain</b> effect, one can usually reach
+                                around 8 to 11 stacks at most. Any more than that would require intense healing effort
+                                that becomes gradually more difficult over time<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;&nbsp;<b>•</b> The current theoretical maximum stack is 20
+                                        stacks, since at that stage the <b>HP drain</b> would be 99% of your <b>Current
+                                            HP</b> per second, which would make your HP go below 5% of your <b>MaxHP</b>
+                                        regardless and force the buff to enter <b>cooldown</b> once it happens</li>
+                                </ul>
+                            </li>
+                        </span>
+
+                        <script>
+                            function calcSaberAuraBuffInfo(level, result) {
+                                let time = 7 - Math.floor(level / 2)
+                                result.innerHTML = `<b>Buff Effect:</b>
+                    <li>Grants <b>Saber Aura buff</b> that starts at 1 stack. Every <b>${time} seconds</b>, this skill grants 1 additional stack
+                    </li><li><b>Doubles</b> your <b>Movement Speed</b> while the buff is active and <b>not on cooldown</b>; this bonus is overridden by [Stop] ailment and stacks with [Slow] ailment</li>
+                    <li>If <b>Crescent Saber</b> has been learned, replace this skill with <b>Crescent Saber</b> while the buff is active and <b>not on cooldown</b></li><br>
+                    <b>Effect of this stage:</b>`
+                            }
+
+                            function caclSaberAuraAspd(level, stack, result) {
+                                let aspd = 10 * level * stack
+                                result.innerHTML += `<li><b>Attack Speed</b> +${aspd}%</li>`
+                            }
+
+                            function calcSaberAuraAcc(level, stack, result) {
+                                let acc = 5 * level * stack
+                                result.innerHTML += `<li><b>Accuracy</b> +${acc}</li>`
+                            }
+
+                            function calcSaberAuraAmpr(level, stack, result) {
+                                let ampr = Math.ceil(0.5 * level) * stack
+                                result.innerHTML += `<li><b>Attack MP Recovery</b> +${ampr} (<b>doubled</b> by Dual Swords' effect)</li>`
+                            }
+
+                            function calcSaberAuraHpDrain(level, stack, maxHp, result) {
+                                let hpDrain = 25 - (2 * level) + (5 * (stack - 1))
+                                if (hpDrain > 99) hpDrain = 99
+                                let hpLimit = Math.floor(maxHp * 5 / 100)
+                                result.innerHTML += `<li>Drains ${hpDrain}% of your <b>Current HP</b> every second while the buff is active and <b>not on cooldown</b><ul>
+                    <li>&nbsp&nbsp- If the <b>HP drain</b> would make your <b>Current HP</b> go under <b>5% of your MaxHP</b> (or ${hpLimit} HP) OR you take a <b>Fatal Hit</b>, the buff will enter <b>cooldown</b> (if you would have been <b>killed</b>, you remain at 1 HP instead); your <b>Current HP</b> at this stage must be at least <b>${Math.floor(hpLimit / (1 - 0.05 * stack))}</b> to prevent the <b>next instance of HP drain</b> from causing this effect</li>
+                    <li>&nbsp&nbsp- Recovers ${5 * stack}% of your <b>MaxHP</b> (or ${Math.floor((5 * stack) / 100 * maxHp)} HP) after the buff enters <b>cooldown</b> during this stage</li>
+                    <li>&nbsp&nbsp- While the buff is <b>on cooldown</b>, all bonuses are disabled</li>
+                    </ul></li>`
+                            }
+
+                            function calcSaberAuraBuffDuration(level, stack, result) {
+                                var cooldown = 10 + stack * 1
+                                result.innerHTML += `<li><b>Buff Duration:</b> Until your HP goes below 5% of your MaxHP OR until you take a fatal hit OR until you use <b>Crescent Saber</b></li>
+                    <li><b>Cooldown Duration:</b> ${cooldown} seconds after entering <b>cooldown </b> at this stage</li>`
+                            }
+
+                            function saberAuraExtraInformation(result) {
+                                result.innerHTML += `<br><b>Extra Info:</b>
+                    <li>You cannot recast <b>Saber Aura</b> while the buff is <b>either active or on cooldown</b>; if <b>Crescent Saber</b> has been learned, attempting to recast <b>Saber Aura</b> while the buff is <b>active</b> will cast <b>Crescent Saber</b> instead</li>
+                    <li><b>Shukuchi</b> is <b>disabled</b> while the buff is active and <b>not on cooldown</b></li>
+                    <li>The <b>Movement Speed modifier</b> effect only applies <b>during combat</b></li>
+                    <li>If you got hit and survive at 1 HP thanks to this skill, and you have a Decoy active, then your Decoy will disappear</li>
+                    <li><b>Instant kill effect</b> such as those from <b>Regretless</b> or <b>Final Resistance</b> Registlet bypasses this buff's effect</li>
+                    <li><b>Side note:</b> Currently, due to the <b>HP drain</b> effect, one can usually reach around 8 to 11 stacks at most. Any more than that would require intense healing effort that becomes gradually more difficult over time<ul>
+                    <li>&nbsp&nbsp&nbsp&nbsp<b>•</b> The current theoretical maximum stack is 20 stacks, since at that stage the <b>HP drain</b> would be 99% of your <b>Current HP</b> per second, which would make your HP go below 5% of your <b>MaxHP</b> regardless and force the buff to enter <b>cooldown</b> once it happens</li>
+                    </ul></li>`
+                            }
+
+                            function calcSaberAuraValues() {
+                                let levelSelector = document.getElementById('saberAuraSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let stack = document.getElementById('stackSaberAura').value
+                                let maxHp = document.getElementById('maxHpSaberAura').value
+                                let result = document.getElementById('saberAuraValues')
+                                calcSaberAuraBuffInfo(level, result)
+                                caclSaberAuraAspd(level, stack, result)
+                                calcSaberAuraAcc(level, stack, result)
+                                calcSaberAuraAmpr(level, stack, result)
+                                calcSaberAuraHpDrain(level, stack, maxHp, result)
+                                calcSaberAuraBuffDuration(level, stack, result)
+                                saberAuraExtraInformation(result)
+                            }
+
+                            calcSaberAuraValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/crescentsaber.png" width="34" height="34">
+                                Crescent Saber
+                            </p>
+                            <p class="medium">
+                                Skill Crescent Saber Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dw.png"><br>Dual Wield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A special skill that can be activated while Saber Aura is active. Restores HP and the
+                                number of Evasions. Greatly raises Critical Rate and always halves MP Cost except for
+                                magic skills. <b style="color: #E77577">However, if you take damage from an enemy...</b>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="crescentSaberSkillLevel" onchange="calcCrescentSaberValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Number of Saber Aura stacks:</b></span>
+                        <input type="number" id="stackCrescentSaber" value="2" onchange="calcCrescentSaberValues()"
+                            style="width: 3em;" min="2" max="20"><br>
+                        <span class="sub-title"><b>Total Critical Rate:</b></span>
+                        <input type="number" id="critRateCrescentSaber" value="100" min="0"
+                            onchange="calcCrescentSaberValues()" style="width: 60px;">
+                        <span class="sub-title">(before Crescent Saber buff)</span><br>
+                        <br>
+                        <span id="crescentSaberValues"><b>Passive Effect:</b>
+                            <li>While <b>Saber Aura buff</b> is active and <b>not on cooldown</b>, replaces <b>Saber
+                                    Aura</b> with <b>Crescent Saber</b> (attempting to recast <b>Saber Aura</b> with
+                                such condition will now activate <b>Crescent Saber</b> instead of getting a warning and
+                                being prevented from casting the skill)</li>
+                            <li><b>Crescent Saber</b> can only be activated when you have at least 2 <b>Saber Aura
+                                    stacks</b></li><br>
+                            <b>Active:</b> Recovers 20% of your <b>MaxHP</b>, 2 Evasion stacks, and grants <b>Crescent
+                                Saber buff</b> upon successful cast<br><br><b>Buff Effect:</b>
+                            <li><b>Critical Rate</b> +100</li>
+                            <li><b>Skill Constant</b> for <b>all attacks</b> +100</li>
+                            <li><b>Attack MP Recovery</b> +20</li>
+                            <li><b>Halves the MP Cost of all skills (except Magic Skills)</b> while the buff is active,
+                                rounded up to the nearest multiple of 100; <b>does not stack</b> with other MP Cost
+                                halving effects</li>
+                            <li>Each time you take damage, <b>consumes 1 MP for every 5 HP worth of the original
+                                    damage</b> and <b>reduces the received damage to 1</b>; if MP is not enough, this
+                                buff will <b>ends immediately</b></li>
+                            <li><b>Buff Duration:</b> 10 seconds OR until your MP runs out by the damage mitigate effect
+                                OR until you use <b>Saber Aura</b></li><br><b>Extra Info:</b>
+                            <li>The <b>Skill Constant</b> bonus scales with your <b>total Critical Rate before applying
+                                    this skill's buff effects</b>; therefore, remember to substract the bonus Critical
+                                Rate from this skill before calculating the bonus Skill Constant</li>
+                            <li>The damage taken reduction effect will still reduce the damage to 1 even if the MP
+                                consumption is greater than your remaining MP</li>
+                        </span>
+
+                        <script>
+                            function calcCrescentSaberSkillEffect(stack, result) {
+                                var heal = 10 * stack
+                                if (heal > 100) { heal = 100 }
+                                result.innerHTML = `<b>Passive Effect:</b>
+                    <li>While <b>Saber Aura buff</b> is active and <b>not on cooldown</b>, replaces <b>Saber Aura</b> with <b>Crescent Saber</b> (attempting to recast <b>Saber Aura</b> with such condition will now activate <b>Crescent Saber</b> instead of getting a warning and being prevented from casting the skill)</li>
+                    <li><b>Crescent Saber</b> can only be activated when you have at least 2 <b>Saber Aura stacks</b></li><br>
+                    <b>Active:</b> Recovers ${heal}% of your <b>MaxHP</b>, ${stack} Evasion stacks, and grants <b>Crescent Saber buff</b> upon successful cast<br>`
+                            }
+
+                            function calcCrescentSaberBuffEffect(level, totalCr, result) {
+                                var cr = 10 * level
+                                var constant = totalCr * level / 10 + (level - 10) * level
+                                constant = Math.floor(Math.round(constant * 10) / 10)
+                                if (constant > 200) { constant = 200 }
+                                if (constant > 0) { constant = `+` + constant }
+                                var ampr = 2 * level
+                                var HTML = `<br><b>Buff Effect:</b>
+                    <li><b>Critical Rate</b> +${cr}</li>`
+                                if (constant != 0) { HTML += `<li><b>Skill Constant</b> for <b>all attacks</b> ${constant}</li>` }
+                                HTML += `<li><b>Attack MP Recovery</b> +${ampr}</li>
+                    <li><b>Halves the MP Cost of all skills (except Magic Skills)</b> while the buff is active, rounded up to the nearest multiple of 100; <b>does not stack</b> with other MP Cost halving effects</li>
+                    <li>Each time you take damage, <b>consumes 1 MP for every 5 HP worth of the original damage</b> and <b>reduces the received damage to 1</b>; if MP is not enough, this buff will <b>ends immediately</b></li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcCrescentSaberBuffDuration(stack, result) {
+                                var duration = Math.max(10, stack * 3)
+                                result.innerHTML += `<li><b>Buff Duration:</b> ${duration} seconds OR until your MP runs out by the damage mitigate effect OR until you use <b>Saber Aura</b></li>`
+                            }
+
+                            function crescentSaberExtraInformation(result) {
+                                result.innerHTML += `<br><b>Extra Info:</b>
+                    <li>The <b>Skill Constant</b> bonus scales with your <b>total Critical Rate before applying this skill's buff effects</b>; therefore, remember to substract the bonus Critical Rate from this skill before calculating the bonus Skill Constant</li>
+                    <li>The damage taken reduction effect will still reduce the damage to 1 even if the MP consumption is greater than your remaining MP</li>`
+                            }
+
+                            function calcCrescentSaberValues() {
+                                let levelSelector = document.getElementById('crescentSaberSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let stack = document.getElementById('stackCrescentSaber').value
+                                let totalCr = document.getElementById('critRateCrescentSaber').value
+                                let result = document.getElementById('crescentSaberValues')
+                                calcCrescentSaberSkillEffect(stack, result)
+                                calcCrescentSaberBuffEffect(level, totalCr, result)
+                                calcCrescentSaberBuffDuration(stack, result)
+                                crescentSaberExtraInformation(result)
+                            }
+
+                            calcCrescentSaberValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+            </div>
+        </div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>

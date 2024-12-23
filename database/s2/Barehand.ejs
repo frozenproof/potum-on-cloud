@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Barehand Skills Tree</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <%- include('../../templates/headers/metadata') %>
+
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+        <script src="../templates/axios.min.js"></script>
+        <script>
+            // wew have works to do
+            function roundToTwoDecimals(value) {
+                return Math.round(value * 100) / 100;
+            }
+        </script>
+</head>
+
+<body>
+    <%- include('../../templates/headers/header') %>
+
+        <div id="content">
+            <div class="container">
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/unarmedmastery.png" width="34" height="34">
+                                Unarmed Mastery
+                            </p>
+                            <p class="medium">
+                                Skill Unarmed Mastery Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>
+                                <font style="color:#2edfff"><b>Only usable when no Main or Sub-Weapon is equipped.</b>
+                                </font><br>The essence of unarmed combat. Gain Weapon ATK based on character's level.
+                                Also increase qi limit.<br><br>
+                                &nbsp;&nbsp;<b>Important note:</b><br>
+                                • <b>You must have both Main Weapon Slot and Sub-Weapon Slot empty</b> in order to use
+                                any of the Bare Hand Skills<br>
+                                • Using any <b>non-Bare Hand skill</b> will consume 20% of current <b>Accumulate Qi</b>
+                                (rounded down, minimum 1); this can only be reduced by the passive <b>Ultima Qi
+                                    Charge</b><br>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="unarmedMasterySkillLevel" onchange="calcUnarmedMasteryValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Caster Level:</b></span>
+                        <input type="number" value="200" id="unarmedMasteryCasterLevel" min="1"
+                            onchange="calcUnarmedMasteryValues()" style="width: 50px;"><br>
+                        <br>
+                        <span id="unarmedMasteryValues">
+                            <li><b>Weapon ATK</b> +200</li>
+                            <li><b>Qi Limit:</b> 300 Qi</li>
+                        </span>
+
+                        <script>
+                            function calcUnarmedMasteryWeaponAtk(level, casterLevel, result) {
+                                let watk = casterLevel * level / 10
+                                watk = Math.floor(watk)
+                                result.innerHTML = `<li><b>Weapon ATK</b> +${watk}</li> `
+                            }
+
+                            function calcUnarmedMasteryQiLimit(level, casterLevel, result) {
+                                let qiLimit = 10 + Math.min(level, 9) * 10 + Math.floor(level / 10) * casterLevel
+                                result.innerHTML += `<li><b>Qi Limit:</b> ${qiLimit} Qi</li> `
+                            }
+
+                            function calcUnarmedMasteryValues() {
+                                let levelSelector = document.getElementById('unarmedMasterySkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let casterLevel = document.getElementById("unarmedMasteryCasterLevel").value
+                                let result = document.getElementById('unarmedMasteryValues')
+                                calcUnarmedMasteryWeaponAtk(level, casterLevel, result)
+                                calcUnarmedMasteryQiLimit(level, casterLevel, result)
+                            }
+
+                            calcUnarmedMasteryValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/qicharge.png" width="34" height="34">
+                                Qi Charge
+                            </p>
+                            <p class="medium">
+                                Skill Qi Charge Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100+</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>
+                                <font style="color:#2edfff"><b>Only usable when no Main or Sub-Weapon is equipped.</b>
+                                </font><br> Use up MP to accumulate qi. ATK increases for 180 sec based on qi
+                                accumulated and Stability increases regardless of Qi amount.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="qiChargeSkillLevel" onchange="calcQiChargeValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Cast Speed:</b></span>
+                        <input type="number" style="width: 6em; text-align: right" value="0" id="qiChargeCSPD"
+                            onchange="calcQiChargeValues()"><br>
+                        <span class="sub-title"><b>Current MP Bars:</b></span>
+                        <input type="number" value="20" id="mpBarCost" min="1" max="20" onchange="calcQiChargeValues()"
+                            style="width: 50px;">
+                        <span class="sub-title">(1 MP Bar = 100 MP)</span><br>
+                        <span class="sub-title"><b>"Full Power Qi Charge" Registlet Level:</b></span>
+                        <select id="qiChargeRegistlet" onchange="calcQiChargeValues()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Qi Charge buff is active:</b></span>
+                        <input type="checkbox" id="qiChargeBuffActive" onchange="calcQiChargeValues()"><br>
+                        <div id="qiChargeBuffInput" style="display: none;">
+                            <span class="sub-title"><b>Accumulated Qi:</b></span>
+                            <input type="number" value="300" id="accumulatedQi" min="1" onchange="calcQiChargeValues()"
+                                style="width: 50px;"><br>
+                        </div>
+                        <br>
+                        <span id="qiChargeValues">
+                            <li><b>Cast Time:</b> 1 second (affected by CSPD)</li>
+                            <li><b>Skill effect:</b> Consumes 2000 MP to gain 26 Qi and grant <b>Qi Charge buff</b> to
+                                the <b>caster</b> upon successful cast</li><br><b>Extra info:</b>
+                            <li>This skill's MP Cost is always <b>multiply of 100</b>; for example, if you have 1950 MP,
+                                the skill will only consume 1900 MP</li>
+                            <li>This skill's MP Cost is <b>before certain combo tag effects</b> such as Consecutive,
+                                Reflect or <i>after</i>-Save, but is <b>after MP Cost halving effects</b> (e.g. Magic:
+                                Impact); putting Save tag on this skill will <b>set its MP Cost to 0</b></li>
+                            <ul>
+                                <li>&nbsp;&nbsp;&nbsp;- The amount of Qi gained is <b>based on the amount of MP consumed
+                                        by this skill</b>; as a result, the aforementioned effects will: <b>have no
+                                        effect on Qi gain despite the change in MP consumption</b>, <b>half the Qi gain
+                                        accordingly</b>, and <b>set the Qi gain to 0</b>, respectively.</li>
+                            </ul>
+                            <li>The amount of <b>Accumulated Qi</b> cannot exceed <b>Qi Limit</b>, and all will be
+                                removed if you equip <b>any weapon in your main hand slot or sub-hand slot</b></li>
+                            <li>20% of current <b>Accumulated Qi</b> (rounded down, minimum 1) will be consumed if a
+                                skill that is <b>not from Bare Hand Skills Tree</b> is used; this amount can be reduced
+                                with <b>Ultima Qi Charge</b></li>
+                        </span>
+
+                        <script>
+                            function calcCastTime(baseCastTime, CSPD) {
+                                var castTime = baseCastTime * 1
+                                var modifier1 = CSPD / 2000
+                                var modifier2 = (CSPD - 1000) / 18000
+                                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
+                                else { castTime = castTime * (1 - (0.5 + modifier2)) }
+                                castTime = Math.ceil(castTime * 100) / 100
+                                if (castTime < 0) { castTime = 0 }
+                                return castTime
+                            }
+
+                            function qiBuffCheck(qiChargeBuff, qiChargeBuffSection) {
+                                if (qiChargeBuff) { qiChargeBuffSection.style = "display: block" }
+                                else { qiChargeBuffSection.style = "display: none" }
+                            }
+
+                            function calcQiChargeCastTime(CSPD, result) {
+                                var castTime = calcCastTime(1, CSPD)
+                                var HTML = `<li><b>Cast Time:</b> ${castTime} second`
+                                if (castTime != 1) { HTML += `s` }
+                                HTML += ` (affected by CSPD)</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcQiChargeSkillEffect(level, mpCost, registlet, qiChargeBuff, accQi, result) {
+                                let qiGain = mpCost * 4 / 3
+                                if (!qiChargeBuff && mpCost == 20) { qiGain += qiGain * 0.1 * registlet }
+                                qiGain = Math.floor(qiGain)
+                                let HTML = `<li><b>Skill effect:</b> Consumes ${mpCost * 100} MP to gain ${qiGain} Qi and`
+                                if (!qiChargeBuff) { HTML += ` grant <b>Qi Charge buff</b> to the <b>caster</b>` }
+                                else { HTML += ` refresh the duration of <b>caster's Qi Charge buff</b>` }
+                                HTML += ` upon successful cast</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcQiChargeBuffEffect(level, qiChargeBuff, accQi, result) {
+                                let atk = accQi * level * level * level / 100
+                                let stability = level * 5
+                                if (qiChargeBuff) {
+                                    result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li><b>ATK</b> +${atk}</li>
+                    <li><b>Stability</b> +${stability}%</li>
+                    <li><b>Buff Duration:</b> 180 seconds</li>`}
+                            }
+
+                            function addQiChargeBuffExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill's MP Cost is always <b>multiply of 100</b>; for example, if you have 1950 MP, the skill will only consume 1900 MP</li>
+                    <li>This skill's MP Cost is <b>before certain combo tag effects</b> such as Consecutive, Reflect or <i>after</i>-Save, but is <b>after MP Cost halving effects</b> (e.g. Magic: Impact); putting Save tag on this skill will <b>set its MP Cost to 0</b></li>
+                    <ul><li>&nbsp&nbsp&nbsp- The amount of Qi gained is <b>based on the amount of MP consumed by this skill</b>; as a result, the aforementioned effects will: <b>have no effect on Qi gain despite the change in MP consumption</b>, <b>half the Qi gain accordingly</b>, and <b>set the Qi gain to 0</b>, respectively.</li></ul>
+                    <li>The amount of <b>Accumulated Qi</b> cannot exceed <b>Qi Limit</b>, and all will be removed if you equip <b>any weapon in your main hand slot or sub-hand slot</b></li>
+                    <li>20% of current <b>Accumulated Qi</b> (rounded down, minimum 1) will be consumed if a skill that is <b>not from Bare Hand Skills Tree</b> is used; this amount can be reduced with <b>Ultima Qi Charge</b></li>`
+                            }
+
+                            function calcQiChargeValues() {
+                                let levelSelector = document.getElementById('qiChargeSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let CSPD = document.getElementById("qiChargeCSPD").value;
+                                let mpCost = document.getElementById("mpBarCost").value
+                                var registletSelector = document.getElementById("qiChargeRegistlet");
+                                var registlet = registletSelector[registletSelector.selectedIndex].value;
+                                let qiChargeBuff = document.getElementById("qiChargeBuffActive").checked;
+                                let qiChargeBuffSection = document.getElementById("qiChargeBuffInput");
+                                let accQi = document.getElementById("accumulatedQi").value
+                                let result = document.getElementById('qiChargeValues')
+                                qiBuffCheck(qiChargeBuff, qiChargeBuffSection)
+                                calcQiChargeCastTime(CSPD, result)
+                                calcQiChargeSkillEffect(level, mpCost, registlet, qiChargeBuff, accQi, result)
+                                calcQiChargeBuffEffect(level, qiChargeBuff, accQi, result)
+                                addQiChargeBuffExtraInfo(result)
+                            }
+
+                            calcQiChargeValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/lionrage.png" width="34" height="34">
+                                Lion Rage
+                            </p>
+                            <p class="medium">
+                                Skill Lion Rage Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>
+                                <font style="color:#2edfff"><b>Only usable if no Main or Sub-Weapon is equipped.</b>
+                                </font><br> Boost Normal Attack and Critical Rate with qi for 30 sec at the cost of
+                                greatly lowered ASPD. <br>
+                                <font style="color:#E77577"><b>Using another qi technique will end the effect.</b>
+                                </font><br>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="lionRageSkillLevel" onchange="calcLionRageValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Cast Speed:</b></span>
+                        <input type="number" style="width: 6em; text-align: right" value="0" id="lionRageCSPD"
+                            onchange="calcLionRageValues()"><br>
+                        <span class="sub-title"><b>Accumulated Qi:</b></span>
+                        <select id="accumulatedQiLionRage" onchange="calcLionRageValues()">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10 or more</option>
+                        </select><br>
+                        <span class="sub-title"><b>Currently active Qi buff:</b></span>
+                        <select id="otherQiLionActive" onchange="calcLionRageValues()">
+                            <option value="lion" selected="">None/Lion Rage</option>
+                            <option value="raving">Raving Storm</option>
+                            <option value="elixir">Internal Elixir</option>
+                        </select><br>
+                        <div id="lionRageRavingDurationInput" style="display: none;">
+                            <span class="sub-title"><b>Raving Storm buff's remaining duration (s):</b></span>
+                            <input type="number" value="29" id="lionRavingRemainDuration" min="1" max="29"
+                                onchange="calcLionRageValues()" style="width: 50px;"><br>
+                        </div>
+                        <div id="lionRageElixirDurationInput" style="display: none;">
+                            <span class="sub-title"><b>Internal Elixir buff's remaining duration (s):</b></span>
+                            <input type="number" value="99" id="lionElixirRemainDuration" min="1" max="99"
+                                onchange="calcLionRageValues()" style="width: 50px;"><br>
+                        </div>
+                        <br>
+                        <span id="lionRageValues">
+                            <li><b>Cast Time:</b> 1 second (affected by CSPD)</li>
+                            <li><b>Skill effect:</b> Consumes 10 Qi and grants <b>Lion Rage buff</b> to the
+                                <b>caster</b> upon successful cast</li><br><b>Buff Effect:</b>
+                            <li><b>Critical Rate</b> +100</li>
+                            <li><b>Auto Attack Skill Constant</b> +500</li>
+                            <li><b>Auto Attack Skill Multiplier</b> +2</li>
+                            <li style="color: #C70039"><b>Attack Speed</b> -1500</li>
+                            <li><b>Buff Duration:</b> 30 seconds OR until <b>Raving Storm</b> or <b>Internal Elixir</b>
+                                is used</li>
+                        </span>
+
+                        <script>
+                            function calcCastTime(baseCastTime, CSPD) {
+                                var castTime = baseCastTime * 1
+                                var modifier1 = CSPD / 2000
+                                var modifier2 = (CSPD - 1000) / 18000
+                                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
+                                else { castTime = castTime * (1 - (0.5 + modifier2)) }
+                                castTime = Math.ceil(castTime * 100) / 100
+                                if (castTime < 0) { castTime = 0 }
+                                return castTime
+                            }
+
+                            function lionActiveQiBuffCheck(activeQiBuff, lionRageRavingSection, lionRageElixirSection) {
+                                switch (activeQiBuff) {
+                                    case "raving":
+                                        lionRageRavingSection.style = "display: block"
+                                        lionRageElixirSection.style = "display: none"
+                                        break
+                                    case "elixir":
+                                        lionRageRavingSection.style = "display: none"
+                                        lionRageElixirSection.style = "display: block"
+                                        break
+                                    default:
+                                        lionRageRavingSection.style = "display: none"
+                                        lionRageElixirSection.style = "display: none"
+                                }
+                            }
+
+                            function calcLionRageCastTime(CSPD, activeQiBuff, result) {
+                                var castTime = calcCastTime(1, CSPD)
+                                var HTML = ``
+                                if (activeQiBuff == "lion") {
+                                    HTML += `<li><b>Cast Time:</b> ${castTime} second`
+                                    if (castTime != 1) { HTML += `s` }
+                                    HTML += ` (affected by CSPD)</li>`
+                                }
+                                else { HTML += `<li><b>Instant Cast</b> without <b>Cast Time</b></li>` }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcLionRageSkillEffect(level, accQi, activeQiBuff, ravingRemainDuration, elixirRemainDuration, result) {
+                                var qiCost = accQi
+                                var qiRecover = 0
+                                var qiBuff = ``
+                                switch (activeQiBuff) {
+                                    case "raving":
+                                        qiRecover = 29 - ravingRemainDuration
+                                        qiBuff = `Raving Storm`
+                                        break
+                                    case "elixir":
+                                        qiRecover = Math.floor(9.9 - elixirRemainDuration / 10)
+                                        qiBuff = `Internal Elixir`
+                                        break
+                                }
+                                let HTML = ``
+                                if (qiCost != 0) {
+                                    HTML += `<li><b>Skill effect:</b> Consumes ${qiCost} Qi and`
+                                    if (activeQiBuff == "lion") { HTML += ` grants <b>Lion Rage buff</b> to the <b>caster</b> upon successful cast</li>` }
+                                    else {
+                                        HTML += ` replaces the <b>caster's ${qiBuff}</b> with <b>Lion Rage buff</b> upon successful cast`
+                                        if (qiRecover > 0) { HTML += `; also recovers ${qiRecover} Qi` }
+                                        HTML += `</li>`
+                                    }
+                                }
+                                else {
+                                    HTML += `<li><b>Skill effect:</b>`
+                                    if (activeQiBuff == "lion") { HTML += ` Nothing happens` }
+                                    else {
+                                        HTML += ` Removes the <b>caster's ${qiBuff}</b>`
+                                        if (qiRecover > 0) { HTML += ` and recovers ${qiRecover} Qi` }
+                                    }
+                                    HTML += ` upon successful cast</li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcLionRageBuffEffect(level, accQi, result) {
+                                let cr = level * accQi
+                                let aaConst = level * accQi * 5
+                                let aaMult = level * accQi * 0.02
+                                aaMult = Math.round(aaMult * 100) / 100
+                                let aspd = 3000 - level * 150
+                                if (accQi > 0) {
+                                    result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li><b>Critical Rate</b> +${cr}</li>
+                    <li><b>Auto Attack Skill Constant</b> +${aaConst}</li>
+                    <li><b>Auto Attack Skill Multiplier</b> +${aaMult}</li>
+                    <li style = 'color: #C70039'><b>Attack Speed</b> -${aspd}</li>
+                    <li><b>Buff Duration:</b> 30 seconds OR until <b>Raving Storm</b> or <b>Internal Elixir</b> is used</li>`}
+                            }
+
+                            function calcLionRageValues() {
+                                let levelSelector = document.getElementById('lionRageSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let CSPD = document.getElementById("lionRageCSPD").value
+                                let qiSelector = document.getElementById('accumulatedQiLionRage')
+                                let accQi = qiSelector[qiSelector.selectedIndex].value
+                                let activeQiBuffSelector = document.getElementById('otherQiLionActive')
+                                let activeQiBuff = activeQiBuffSelector[activeQiBuffSelector.selectedIndex].value
+                                let lionRageRavingSection = document.getElementById("lionRageRavingDurationInput")
+                                let lionRageElixirSection = document.getElementById("lionRageElixirDurationInput")
+                                let ravingRemainDuration = document.getElementById("lionRavingRemainDuration").value
+                                let elixirRemainDuration = document.getElementById("lionElixirRemainDuration").value
+                                let result = document.getElementById('lionRageValues')
+                                lionActiveQiBuffCheck(activeQiBuff, lionRageRavingSection, lionRageElixirSection)
+                                calcLionRageCastTime(CSPD, activeQiBuff, result)
+                                calcLionRageSkillEffect(level, accQi, activeQiBuff, ravingRemainDuration, elixirRemainDuration, result)
+                                calcLionRageBuffEffect(level, accQi, result)
+                            }
+
+                            calcLionRageValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/ultimalionsrage.png" width="34" height="34">
+                                Ultima Lion Rage
+                            </p>
+                            <p class="medium">
+                                Skill Ultima Lion Rage Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Raises Lion Rage effect to boost Normal Attack. If a critical hit is inflicted while Lion
+                                Rage is active, the effect that enhances attack skills will be accumulated. <font
+                                    style="color:#E77577"><b>But if Internal Elixir is activated, the power will
+                                        vanish.</b></font><br></p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="ultimaLionRageSkillLevel" onchange="calcUltimaLionRageValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Current Ultima Lion Rage stacks:</b></span>
+                        <select id="ultimaLionRageStack" onchange="calcUltimaLionRageValues()">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5" selected="">5 ~ 30</option>
+                        </select><br>
+                        <br>
+                        <span id="ultimaLionRageValues">
+                            <li>Gains the following effects while <b>Lion Rage buff</b> is active:<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Auto Attack Skill Multiplier</b> +2</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- Gains 1 <b>Ultima Lion Rage stack</b> for <b>each critical
+                                            hit</b> you dealt (attack that has multiple hits will grant multiple
+                                        stacks); can gain up to a maximum of 30 stacks</li>
+                                </ul>
+                            </li>
+                            <li>When you use an <b>attack skill</b>, consumes 5 <b>Ultima Lion Rage stacks</b> to
+                                increase damage by 50% (applies <b>multiplicatively</b> with other damage multipliers);
+                                this effect can be activated anytime even when <b>Lion Rage buff</b> is not active</li>
+                            <li><b>Stacks Duration:</b> Until all stacks are used up OR until <b>Internal Elixir</b> is
+                                used; the latter will <b>remove all Ultima Lion Rage stacks</b></li>
+                        </span>
+
+                        <script>
+                            function calcUltimaLionRageBuffEffect(level, result) {
+                                let aaMult = Math.round(level * 20) / 100
+                                result.innerHTML = `<li>Gains the following effects while <b>Lion Rage buff</b> is active:<ul>
+                    <li>&nbsp&nbsp&nbsp- <b>Auto Attack Skill Multiplier</b> +${aaMult}</li>
+                    <li>&nbsp&nbsp&nbsp- Gains 1 <b>Ultima Lion Rage stack</b> for <b>each critical hit</b> you dealt (attack that has multiple hits will grant multiple stacks); can gain up to a maximum of 30 stacks</li>
+                    </ul></li>`
+                            }
+
+                            function calcUltimaLionRageStackEffect(level, stacks, result) {
+                                let dmgBonus = level * stacks
+                                let HTML = ``
+                                if (stacks > 0) {
+                                    HTML += `<li>When you use an <b>attack skill</b>, consumes ${stacks} <b>Ultima Lion Rage stack`
+                                    if (stacks != 1) { HTML += `s` }
+                                    HTML += `</b> to increase damage by ${dmgBonus}% (applies <b>multiplicatively</b> with other damage multipliers); this effect can be activated anytime even when <b>Lion Rage buff</b> is not active</li>
+                        <li><b>Stacks Duration:</b> Until all stacks are used up OR until <b>Internal Elixir</b> is used; the latter will <b>remove all Ultima Lion Rage stacks</b></li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcUltimaLionRageValues() {
+                                let levelSelector = document.getElementById('ultimaLionRageSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let stackSelector = document.getElementById('ultimaLionRageStack')
+                                let stacks = stackSelector[stackSelector.selectedIndex].value
+                                let result = document.getElementById('ultimaLionRageValues')
+                                calcUltimaLionRageBuffEffect(level, result)
+                                calcUltimaLionRageStackEffect(level, stacks, result)
+                            }
+
+                            calcUltimaLionRageValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/ravingstorm.png" width="34" height="34">
+                                Raving Storm
+                            </p>
+                            <p class="medium">
+                                Skill Raving Storm Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>
+                                <font style="color:#2edfff"><b>Only usable when no Main or Sub-Weapon is equipped.</b>
+                                </font><br>Boost Accuracy, ASPD, ATK MP Recovery and movement speed with qi for 30
+                                sec.<br>
+                                <font style="color:#E77577"><b>Using another qi technique ends the effect.</b></font>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="ravingStormSkillLevel" onchange="calcRavingStormValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Cast Speed:</b></span>
+                        <input type="number" style="width: 6em; text-align: right" value="0" id="ravingStormCSPD"
+                            onchange="calcRavingStormValues()"><br>
+                        <span class="sub-title"><b>Accumulated Qi:</b></span>
+                        <select id="accumulatedQiRavingStorm" onchange="calcRavingStormValues()">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10 or more</option>
+                        </select><br>
+                        <span class="sub-title"><b>Currently active Qi buff:</b></span>
+                        <select id="otherQiRavingActive" onchange="calcRavingStormValues()">
+                            <option value="raving" selected="">None/Raving Storm</option>
+                            <option value="lion">Lion Rage</option>
+                            <option value="elixir">Internal Elixir</option>
+                        </select><br>
+                        <div id="ravingStormLionDurationInput" style="display: none;">
+                            <span class="sub-title"><b>Lion Rage buff's remaining duration (s):</b></span>
+                            <input type="number" value="29" id="ravingLionRemainDuration" min="1" max="29"
+                                onchange="calcRavingStormValues()" style="width: 50px;"><br>
+                        </div>
+                        <div id="ravingStormElixirDurationInput" style="display: none;">
+                            <span class="sub-title"><b>Internal Elixir buff's remaining duration (s):</b></span>
+                            <input type="number" value="99" id="ravingElixirRemainDuration" min="1" max="99"
+                                onchange="calcRavingStormValues()" style="width: 50px;"><br>
+                        </div>
+                        <br>
+                        <span id="ravingStormValues">
+                            <li><b>Cast Time:</b> 1 second (affected by CSPD)</li>
+                            <li><b>Skill effect:</b> Consumes 10 Qi and grants <b>Raving Storm buff</b> to the
+                                <b>caster</b> upon successful cast</li><br><b>Buff Effect:</b>
+                            <li><b>Attack Speed</b> +10000</li>
+                            <li><b>Accuracy</b> +1000</li>
+                            <li><b>Attack MP Recovery</b> +20</li>
+                            <li><b>Movement Speed</b> ×1.5 times</li>
+                            <li><b>Buff Duration:</b> 30 seconds OR until <b>Lion Rage</b> or <b>Internal Elixir</b> is
+                                used</li><br><b>Extra info:</b>
+                            <li>The <b>Movement Speed modifier</b> effect only applies <b>during combat</b></li>
+                        </span>
+
+                        <script>
+                            function calcCastTime(baseCastTime, CSPD) {
+                                var castTime = baseCastTime * 1
+                                var modifier1 = CSPD / 2000
+                                var modifier2 = (CSPD - 1000) / 18000
+                                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
+                                else { castTime = castTime * (1 - (0.5 + modifier2)) }
+                                castTime = Math.ceil(castTime * 100) / 100
+                                if (castTime < 0) { castTime = 0 }
+                                return castTime
+                            }
+
+                            function ravingActiveQiBuffCheck(activeQiBuff, ravingStormLionSection, ravingStormElixirSection) {
+                                switch (activeQiBuff) {
+                                    case "lion":
+                                        ravingStormLionSection.style = "display: block"
+                                        ravingStormElixirSection.style = "display: none"
+                                        break
+                                    case "elixir":
+                                        ravingStormLionSection.style = "display: none"
+                                        ravingStormElixirSection.style = "display: block"
+                                        break
+                                    default:
+                                        ravingStormLionSection.style = "display: none"
+                                        ravingStormElixirSection.style = "display: none"
+                                }
+                            }
+
+                            function calcRavingStormCastTime(CSPD, activeQiBuff, result) {
+                                var castTime = calcCastTime(1, CSPD)
+                                var HTML = ``
+                                if (activeQiBuff == "raving") {
+                                    HTML += `<li><b>Cast Time:</b> ${castTime} second`
+                                    if (castTime != 1) { HTML += `s` }
+                                    HTML += ` (affected by CSPD)</li>`
+                                }
+                                else { HTML += `<li><b>Instant Cast</b> without <b>Cast Time</b></li>` }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcRavingStormSkillEffect(level, accQi, activeQiBuff, lionRemainDuration, elixirRemainDuration, result) {
+                                let qiCost = accQi
+                                var qiRecover = 0
+                                var qiBuff = ``
+                                switch (activeQiBuff) {
+                                    case "lion":
+                                        qiRecover = 29 - lionRemainDuration
+                                        qiBuff = `Lion Rage`
+                                        break
+                                    case "elixir":
+                                        qiRecover = Math.floor(9.9 - elixirRemainDuration / 10)
+                                        qiBuff = `Internal Elixir`
+                                        break
+                                }
+                                let HTML = ``
+                                if (qiCost != 0) {
+                                    HTML += `<li><b>Skill effect:</b> Consumes ${qiCost} Qi and`
+                                    if (activeQiBuff == "raving") { HTML += ` grants <b>Raving Storm buff</b> to the <b>caster</b> upon successful cast</li>` }
+                                    else {
+                                        HTML += ` replaces the <b>caster's ${qiBuff}</b> with <b>Raving Storm buff</b> upon successful cast`
+                                        if (qiRecover > 0) { HTML += `; also recovers ${qiRecover} Qi` }
+                                        HTML += `</li>`
+                                    }
+                                }
+                                else {
+                                    HTML += `<li><b>Skill effect:</b>`
+                                    if (activeQiBuff == "raving") { HTML += ` Nothing happens` }
+                                    else {
+                                        HTML += ` Removes the <b>caster's ${qiBuff}</b>`
+                                        if (qiRecover > 0) { HTML += ` and recovers ${qiRecover} Qi` }
+                                    }
+                                    HTML += ` upon successful cast</li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcRavingStormBuffEffect(level, accQi, result) {
+                                let aspd = level * accQi * 100
+                                let accuracy = level * level * accQi
+                                if (accQi > 0) {
+                                    result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li><b>Attack Speed</b> +${aspd}</li>
+                    <li><b>Accuracy</b> +${accuracy}</li>
+                    <li><b>Attack MP Recovery</b> +20</li>
+                    <li><b>Movement Speed</b> ×1.5 times</li>
+                    <li><b>Buff Duration:</b> 30 seconds OR until <b>Lion Rage</b> or <b>Internal Elixir</b> is used</li>`}
+                            }
+
+                            function addRavingStormExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The <b>Movement Speed modifier</b> effect only applies <b>during combat</b></li>`
+                            }
+
+                            function calcRavingStormValues() {
+                                let levelSelector = document.getElementById('ravingStormSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let CSPD = document.getElementById("ravingStormCSPD").value
+                                let qiSelector = document.getElementById('accumulatedQiRavingStorm')
+                                let accQi = qiSelector[qiSelector.selectedIndex].value
+                                let activeQiBuffSelector = document.getElementById('otherQiRavingActive')
+                                let activeQiBuff = activeQiBuffSelector[activeQiBuffSelector.selectedIndex].value
+                                let ravingStormLionSection = document.getElementById("ravingStormLionDurationInput")
+                                let ravingStormElixirSection = document.getElementById("ravingStormElixirDurationInput")
+                                let lionRemainDuration = document.getElementById("ravingLionRemainDuration").value
+                                let elixirRemainDuration = document.getElementById("ravingElixirRemainDuration").value
+                                let result = document.getElementById('ravingStormValues')
+                                ravingActiveQiBuffCheck(activeQiBuff, ravingStormLionSection, ravingStormElixirSection)
+                                calcRavingStormCastTime(CSPD, activeQiBuff, result)
+                                calcRavingStormSkillEffect(level, accQi, activeQiBuff, lionRemainDuration, elixirRemainDuration, result)
+                                calcRavingStormBuffEffect(level, accQi, result)
+                                addRavingStormExtraInfo(result)
+                            }
+
+                            calcRavingStormValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/ultimaraving.png" width="34" height="34">
+                                Ultima Raving Storm
+                            </p>
+                            <p class="medium">
+                                Skill Ultima Raving Storm Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>When Raving Storm activates, Physical Pierce and chance to trigger Additional Melee are
+                                raised. The effect ends when a non-Bare Hand skill is used, but the MP Cost will be
+                                halved.<br>
+                                <font style="color:#E77577"><b>The effect is also lost when Internal Elixir
+                                        activates.</b></font>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="ultimaRavingStormSkillLevel"
+                            onchange="calcUltimaRavingStormValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="ultimaRavingStormValues">
+                            <li>Gains the following effects while <b>Raving Storm buff</b> is active:<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Physical Pierce</b> +25% (need further testing)</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- <b>Chance to activate Additional Melee</b> +25%</li>
+                                </ul>
+                            </li>
+                            <li>Upon using <b>Raving Storm</b>, gains a stack that <b>halves the MP Cost</b> of the next
+                                <b>non-Bare Hand skill</b>, rounded up to the nearest multiple of 100</li>
+                            <li><b>Stack Duration:</b> Until a <b>non-Bare Hand skill</b> is used OR until <b>Internal
+                                    Elixir</b> is used</li>
+                        </span>
+
+                        <script>
+                            function calcUltimaRavingStormBuffEffect(level, result) {
+                                let pp = Math.floor(level * 2.5)
+                                let addMeleeChance = Math.floor(level * 2.5)
+                                result.innerHTML = `<li>Gains the following effects while <b>Raving Storm buff</b> is active:<ul>
+                    <li>&nbsp&nbsp&nbsp- <b>Physical Pierce</b> +${pp}% (need further testing)</li>
+                    <li>&nbsp&nbsp&nbsp- <b>Chance to activate Additional Melee</b> +${addMeleeChance}%</li>
+                    </ul></li>
+                    <li>Upon using <b>Raving Storm</b>, gains a stack that <b>halves the MP Cost</b> of the next <b>non-Bare Hand skill</b>, rounded up to the nearest multiple of 100</li>
+                    <li><b>Stack Duration:</b> Until a <b>non-Bare Hand skill</b> is used OR until <b>Internal Elixir</b> is used</li>`
+                            }
+
+                            function calcUltimaRavingStormValues() {
+                                let levelSelector = document.getElementById('ultimaRavingStormSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('ultimaRavingStormValues')
+                                calcUltimaRavingStormBuffEffect(level, result)
+                            }
+
+                            calcUltimaRavingStormValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/internalelixir.png" width="34" height="34">
+                                Internal Elixir
+                            </p>
+                            <p class="medium">
+                                Skill Internal Elixir Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>
+                                <font style="color:#2edfff"><b>Only usable when no Main or Sub-Weapon is equipped.</b>
+                                </font><br>Use qi to recover HP for a certain period of time and reduce damage received.
+                                Attack power goes down and damage from poison increases while it is in effect.<br><b>
+                                    <font style="color:#E77577">Using another qi technique ends the effect.</font>
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="internalElixirSkillLevel" onchange="calcInternalElixirValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Cast Speed:</b></span>
+                        <input type="number" style="width: 6em; text-align: right" value="0" id="internalElixirCSPD"
+                            onchange="calcInternalElixirValues()"><br>
+                        <span class="sub-title"><b>Accumulated Qi:</b></span>
+                        <select id="accumulatedQiInternalElixir" onchange="calcInternalElixirValues()">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10 or more</option>
+                        </select><br>
+                        <span class="sub-title"><b>Currently active Qi buff:</b></span>
+                        <select id="otherQiElixirActive" onchange="calcInternalElixirValues()">
+                            <option value="elixir" selected="">None/Internal Elixir</option>
+                            <option value="other">Lion Rage/Raving Storm</option>
+                        </select><br>
+                        <div id="internalElixirDurationInput" style="display: none;">
+                            <span class="sub-title"><b>Lion Rage/Raving Storm buff's remaining duration (s):</b></span>
+                            <input type="number" value="29" id="elixirOtherRemainDuration" min="1" max="29"
+                                onchange="calcInternalElixirValues()" style="width: 50px;"><br>
+                        </div>
+                        <br>
+                        <span id="internalElixirValues">
+                            <li><b>Cast Time:</b> 1 second (affected by CSPD)</li>
+                            <li><b>Skill effect:</b> Consumes 10 Qi and grants <b>Internal Elixir buff</b> to the
+                                <b>caster</b> upon successful cast</li><br><b>Buff Effect:</b>
+                            <li><b>Damage Reduction:</b> 95%</li>
+                            <li><b>HP Recovery:</b> 3% of <b>MaxHP</b> every 3 seconds</li>
+                            <li style="color: #C70039"><b>ATK</b> -75%</li>
+                            <li>If you are afflicted with [Poison], HP recovery is changed to <b>HP Loss</b>: Lose 2% of
+                                <b>Current HP</b> every 3 seconds</li>
+                            <li>Lose 1 Qi each time you get hit</li>
+                            <li><b>Buff Duration:</b> 100 seconds OR until <b>Lion Rage</b> or <b>Raving Storm</b> is
+                                used</li>
+                        </span>
+
+                        <script>
+                            function calcCastTime(baseCastTime, CSPD) {
+                                var castTime = baseCastTime * 1
+                                var modifier1 = CSPD / 2000
+                                var modifier2 = (CSPD - 1000) / 18000
+                                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
+                                else { castTime = castTime * (1 - (0.5 + modifier2)) }
+                                castTime = Math.ceil(castTime * 100) / 100
+                                if (castTime < 0) { castTime = 0 }
+                                return castTime
+                            }
+
+                            function elixirActiveQiBuffCheck(activeQiBuff, activeQiBuffSection) {
+                                if (activeQiBuff == "other") { activeQiBuffSection.style = "display: block" }
+                                else { activeQiBuffSection.style = "display: none" }
+                            }
+
+                            function calcInternalElixirCastTime(CSPD, activeQiBuff, result) {
+                                var castTime = calcCastTime(1, CSPD)
+                                var HTML = ``
+                                if (activeQiBuff == "elixir") {
+                                    HTML += `<li><b>Cast Time:</b> ${castTime} second`
+                                    if (castTime != 1) { HTML += `s` }
+                                    HTML += ` (affected by CSPD)</li>`
+                                }
+                                else { HTML += `<li><b>Instant Cast</b> without <b>Cast Time</b></li>` }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcInternalElixirSkillEffect(level, accQi, activeQiBuff, remainDuration, result) {
+                                let qiCost = accQi
+                                let qiRecover = 29 - remainDuration
+                                let HTML = ``
+                                if (qiCost != 0) {
+                                    HTML += `<li><b>Skill effect:</b> Consumes ${qiCost} Qi and`
+                                    if (activeQiBuff == "elixir") { HTML += ` grants <b>Internal Elixir buff</b> to the <b>caster</b> upon successful cast</li>` }
+                                    else {
+                                        HTML += ` replaces the <b>caster's Lion Rage/Raving Storm buff</b> with <b>Internal Elixir buff</b> upon successful cast`
+                                        if (qiRecover > 0) { HTML += `; also recovers ${qiRecover} Qi` }
+                                        HTML += `</li>`
+                                    }
+                                }
+                                else {
+                                    HTML += `<li><b>Skill effect:</b>`
+                                    if (activeQiBuff == "elixir") { HTML += ` Nothing happens` }
+                                    else {
+                                        HTML += ` Removes the <b>caster's Lion Rage/Raving Storm buff</b>`
+                                        if (qiRecover > 0) { HTML += ` and recovers ${qiRecover} Qi` }
+                                    }
+                                    HTML += ` upon successful cast</li>`
+                                }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcInternalElixirBuffEffect(level, accQi, result) {
+                                let dmgReduc = Math.floor((4.5 + 0.5 * level) * accQi)
+                                let atk = 100 - level * 2.5
+                                let duration = 10 * accQi
+                                if (accQi > 0) {
+                                    result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li><b>Damage Reduction:</b> ${dmgReduc}%</li>
+                    <li><b>HP Recovery:</b> 3% of <b>MaxHP</b> every 3 seconds</li>
+                    <li style = 'color: #C70039'><b>ATK</b> -${atk}%</li>
+                    <li>If you are afflicted with [Poison], HP recovery is changed to <b>HP Loss</b>: Lose 2% of <b>Current HP</b> every 3 seconds</li>
+                    <li>Lose 1 Qi each time you get hit</li>
+                    <li><b>Buff Duration:</b> ${duration} seconds OR until <b>Lion Rage</b> or <b>Raving Storm</b> is used</li>`
+                                }
+                            }
+
+                            function calcInternalElixirValues() {
+                                let levelSelector = document.getElementById('internalElixirSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let CSPD = document.getElementById("internalElixirCSPD").value
+                                let qiSelector = document.getElementById('accumulatedQiInternalElixir')
+                                let accQi = qiSelector[qiSelector.selectedIndex].value
+                                let activeQiBuffSelector = document.getElementById('otherQiElixirActive')
+                                let activeQiBuff = activeQiBuffSelector[activeQiBuffSelector.selectedIndex].value
+                                let activeQiBuffSection = document.getElementById("internalElixirDurationInput")
+                                let remainDuration = document.getElementById("elixirOtherRemainDuration").value
+                                let result = document.getElementById('internalElixirValues')
+                                elixirActiveQiBuffCheck(activeQiBuff, activeQiBuffSection)
+                                calcInternalElixirCastTime(CSPD, activeQiBuff, result)
+                                calcInternalElixirSkillEffect(level, accQi, activeQiBuff, remainDuration, result)
+                                calcInternalElixirBuffEffect(level, accQi, result)
+                            }
+
+                            calcInternalElixirValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/clashofenmity.png" width="34" height="34">
+                                Clash of Enmity
+                            </p>
+                            <p class="medium">
+                                Skill Clash of Enmity Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>
+                                <font style="color:#2edfff"><b>Only usable if no Main or Sub-Weapon is equipped.</b>
+                                </font><br> If you and a target are pulling aggro towards each other, the damage taken
+                                from the target will be reduced. Chance to prevent qi consumption if you receive damage
+                                while Internal Elixir is active.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="clashOfEnmitySkillLevel" onchange="calcClashOfEnmityValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="clashOfEnmityValues">
+                            <li>If <b>you and an enemy</b> are pulling aggro towards each other, the damage taken
+                                <b>from that enemy</b> will be reduced by 10%; <b>only apply to the enemy that you are
+                                    targetting</b></li>
+                            <li>Chance to prevent Qi lost while <b>Internal Elixir buff</b> is active: 25% (estimate)
+                            </li>
+                        </span>
+
+                        <script>
+                            function calcClashOfEnmityBuffEffect(level, result) {
+                                let dmgReduc = 1 * level
+                                let qiSaveChance = Math.floor(2.5 * level)
+                                result.innerHTML = `<li>If <b>you and an enemy</b> are pulling aggro towards each other, the damage taken <b>from that enemy</b> will be reduced by ${dmgReduc}%; <b>only apply to the enemy that you are targetting</b></li>
+                    <li>Chance to prevent Qi lost while <b>Internal Elixir buff</b> is active: ${qiSaveChance}% (estimate)</li>`
+                            }
+
+                            function calcClashOfEnmityValues() {
+                                let levelSelector = document.getElementById('clashOfEnmitySkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('clashOfEnmityValues')
+                                calcClashOfEnmityBuffEffect(level, result)
+                            }
+
+                            calcClashOfEnmityValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/internalelixir.png" width="34" height="34">
+                                Miracle Comeback
+                            </p>
+                            <p class="medium">
+                                Skill Miracle Comeback Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>When Internal Elixir is not activated and you get knocked out, it may auto-activate and
+                                restore your HP. <font style="color:#E77577"><b>Once activated, it won't reactivate for
+                                        some time.</b></font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/qicharge.png" width="34" height="34">
+                                Ultima Qi Charge
+                            </p>
+                            <p class="medium">
+                                Skill Ultima Qi Charge Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Mitigates qi consumption when using skills other than Bare Hand Skills and slightly
+                                increases Attack MP Recovery.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="ultimaQiChargeSkillLevel" onchange="calcUltimaQiChargeValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="ultimaQiChargeValues">
+                            <li><b>Attack MP Recovery</b> +5</li>
+                            <li>Reduces Qi comsumption when using <b>non-Bare Hand skills</b> to 10% of current
+                                <b>Accumulated Qi</b> (rounded down, minimum 1)</li>
+                        </span>
+
+                        <script>
+                            function calcUltimaQiChargeBuffEffect(level, result) {
+                                let ampr = Math.floor(level / 2)
+                                let qiCost = 20 - 1 * level
+                                let HTML = ""
+                                if (ampr != 0) { HTML += `<li><b>Attack MP Recovery</b> +${ampr}</li>` }
+                                HTML += `<li>Reduces Qi comsumption when using <b>non-Bare Hand skills</b> to ${qiCost}% of current <b>Accumulated Qi</b> (rounded down, minimum 1)</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcUltimaQiChargeValues() {
+                                let levelSelector = document.getElementById('ultimaQiChargeSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('ultimaQiChargeValues')
+                                calcUltimaQiChargeBuffEffect(level, result)
+                            }
+
+                            calcUltimaQiChargeValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/hiddentalent.png" width="34" height="34">
+                                Hidden Talent
+                            </p>
+                            <p class="medium">
+                                Skill Hidden Talent Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>EX Skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>0</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>If there are no slots, just hold them.<br>
+                                Equips 3 crystas and get the ability of the 2 corresponding crystas when Lion
+                                Rage/Raving Storm/Internal Elixir activates.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/earthshaker.png" width="34" height="34">
+                                Earthshaker
+                            </p>
+                            <p class="medium">
+                                Skill Earthshaker Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/barehand.png"><img src="../../images/icon/nosub.png"><br>Bare Hand/No Sub
+                            Weapon only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>
+                                <font style="color:#2edfff"><b>Only usable when no Main or Sub-Weapon is equipped.</b>
+                                </font><br> Get a barrier according to the qi accumulated by this skill. Increase all
+                                elemental advantages, physical pierce, and stability. <br><b style="color:#E77577">The
+                                    effect ends when Internal Elixir is used.</b>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="earthshakerSkillLevel" onchange="calcEarthshakerValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Caster Level:</b></span>
+                        <input type="number" value="200" id="earthshakerCasterLevel" min="1"
+                            onchange="calcEarthshakerValues()" style="width: 50px;"><br>
+                        <span class="sub-title"><b>Number of stacks during Inactive state:</b></span>
+                        <input type="number" value="0" id="earthshakerStackOff" min="0"
+                            onchange="calcEarthshakerValues()" style="width: 50px;"><br>
+                        <span class="sub-title"><b>Number of stacks during Active state:</b></span>
+                        <input type="number" value="0" id="earthshakerStackOn" min="0"
+                            onchange="calcEarthshakerValues()" style="width: 50px;"><br>
+                        <span id="earthshakerValues"><br><b>Skill Effect:</b>
+                            <li>Toggles <b>Earthshaker Mode</b> between <b>active</b> state and <b>inactive</b> state
+                                upon cast (<b>Earthshaker Mode</b> is in <b>inactive</b> state by default)</li>
+                            <li>Grants different effects depending on the state of <b>Earthshaker Mode</b></li>
+                            <br><b>Inactive State Effects:</b> Grants the following effects while <b>Earthshaker
+                                Mode</b> is in <b>inactive</b> state:
+                            <li>Gains 1 <b>Earthshaker stack</b> for each Qi <i>gained</i> during this state</li>
+                            <li>Upon casting this skill to switch to <b>active</b> state, <b>consumes all stacks</b> to
+                                gain an equal amount of Qi (in this case, 0 Qi), and gain 2000 <b>Physical/Magic
+                                    Barrier</b> until switching back to <b>inactive</b> state</li><br><b>Active State
+                                Effects:</b> Grants the following effects while <b>Earthshaker Mode</b> is in
+                            <b>active</b> state:
+                            <li>Modifies the caster's auto attacks and change their hit counts</li>
+                            <li>Gains 1 <b>Earthshaker stack</b> for each Qi <i>consumed</i> during this state</li>
+                            <li><b>Damage to All Element</b> +40%</li>
+                            <li><b>Physical Pierce</b> +25%</li>
+                            <li><b>Stability</b> +10%</li>
+                            <li>This state can coexist with <b>Lion Rage</b> and <b>Raving Storm</b>, but not
+                                <b>Internal Elixir</b></li>
+                            <li>Upon casting this skill to switch to <b>inactive</b> state, <b>consumes all stacks</b>
+                                to recover MP (in this case, 0 MP)</li>
+                            <li><b>Buff Duration:</b> Until <b>Earthshaker</b> is recast OR until <b>Internal Elixir</b>
+                                is used</li><br><b>Extra info:</b>
+                            <li>Casting this skill while <b>Internal Elixir</b> is active will simply do nothing, but MP
+                                will still be consumed</li>
+                            <li>Casting <b>Internal Elixir</b> during this skill's <b>active</b> state will force-switch
+                                it back to <b>inactive</b> state; the MP recovery effect will still be triggered upon
+                                doing so</li>
+                            <li>The <b>Physical/Magic Barrier</b> gained from switching to <b>active</b> state is the
+                                same as the <b>Physical/Magic Barrier</b> stats<ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- These barrier bonuses are only applied during <b>active</b>
+                                        state; deactivating <b>Earthshaker</b> will remove them</li>
+                                    <li>&nbsp;&nbsp;&nbsp;- If your initial <b>Physical/Magic Barrier</b> was 0,
+                                        deactivating <b>Earthshaker</b> will reset the cooldown of the respective
+                                        barrier</li>
+                                </ul>
+                            </li>
+                            <li>The <b>Damage to All Element bonus</b> granted during <b>active</b> state also includes
+                                <b>Damage to Neutral</b></li>
+                            <li>The yellow aura of this skill is only shown if no other <b>Barehand aura</b> is present
+                                (<b>Lion Rage</b>, <b>Raving Storm</b>); otherwise the latter's visual effect will take
+                                priority</li><br>Credits to <b>Phantom Library</b> for the info of the skill
+                        </span>
+
+                        <script>
+                            function addEarthshakerSkillEffect(result) {
+                                result.innerHTML = `<br><b>Skill Effect:</b>
+                            <li>Toggles <b>Earthshaker Mode</b> between <b>active</b> state and <b>inactive</b> state upon cast (<b>Earthshaker Mode</b> is in <b>inactive</b> state by default)</li>
+                            <li>Grants different effects depending on the state of <b>Earthshaker Mode</b></li>`
+                            }
+
+                            function calcEarthshakerOFFEffect(level, casterLevel, esStackOff, result) {
+                                var barrier = esStackOff * 2 * level + casterLevel * level
+                                result.innerHTML += `<br><b>Inactive State Effects:</b> Grants the following effects while <b>Earthshaker Mode</b> is in <b>inactive</b> state:
+                            <li>Gains 1 <b>Earthshaker stack</b> for each Qi <i>gained</i> during this state</li>
+                            <li>Upon casting this skill to switch to <b>active</b> state, <b>consumes all stacks</b> to gain an equal amount of Qi (in this case, ${esStackOff} Qi), and gain ${barrier} <b>Physical/Magic Barrier</b> until switching back to <b>inactive</b> state</li>`
+                            }
+
+                            function calcEarthshakerONEffect(level, casterLevel, esStackOn, result) {
+                                var dte = Math.floor(2 * level + casterLevel / 10)
+                                var pp = 2 * level + Math.max(1 * level - 5, 0)
+                                var HTML = `<br><b>Active State Effects:</b> Grants the following effects while <b>Earthshaker Mode</b> is in <b>active</b> state:
+                            <li>Modifies the caster's auto attacks and change their hit counts</li>
+                            <li>Gains 1 <b>Earthshaker stack</b> for each Qi <i>consumed</i> during this state</li>
+                            <li><b>Damage to All Element</b> +${dte}%</li>
+                            <li><b>Physical Pierce</b> +${pp}%</li>
+                            <li><b>Stability</b> +${level}%</li>
+                            <li>This state can coexist with <b>Lion Rage</b> and <b>Raving Storm</b>, but not <b>Internal Elixir</b></li>
+                            <li>Upon casting this skill to switch to <b>inactive</b> state, <b>consumes all stacks</b> to recover MP (in this case, ${esStackOn * 10} MP)</li>
+                            <li><b>Buff Duration:</b> Until <b>Earthshaker</b> is recast OR until <b>Internal Elixir</b> is used</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addEarthshakerExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                            <li>Casting this skill while <b>Internal Elixir</b> is active will simply do nothing, but MP will still be consumed</li>
+                            <li>Casting <b>Internal Elixir</b> during this skill's <b>active</b> state will force-switch it back to <b>inactive</b> state; the MP recovery effect will still be triggered upon doing so</li>
+                            <li>The <b>Physical/Magic Barrier</b> gained from switching to <b>active</b> state is the same as the <b>Physical/Magic Barrier</b> stats<ul>
+                            <li>&nbsp&nbsp&nbsp- These barrier bonuses are only applied during <b>active</b> state; deactivating <b>Earthshaker</b> will remove them</li>
+                            <li>&nbsp&nbsp&nbsp- If your initial <b>Physical/Magic Barrier</b> was 0, deactivating <b>Earthshaker</b> will reset the cooldown of the respective barrier</li>
+                            </ul></li>
+                            <li>The <b>Damage to All Element bonus</b> granted during <b>active</b> state also includes <b>Damage to Neutral</b></li>
+                            <li>The yellow aura of this skill is only shown if no other <b>Barehand aura</b> is present (<b>Lion Rage</b>, <b>Raving Storm</b>); otherwise the latter's visual effect will take priority</li>`
+                            }
+
+                            function calcEarthshakerValues() {
+                                let levelSelector = document.getElementById('earthshakerSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let casterLevel = document.getElementById("earthshakerCasterLevel").value
+                                let esStackOff = document.getElementById("earthshakerStackOff").value
+                                let esStackOn = document.getElementById("earthshakerStackOn").value
+                                let result = document.getElementById('earthshakerValues')
+                                addEarthshakerSkillEffect(result)
+                                calcEarthshakerOFFEffect(level, casterLevel, esStackOff, result)
+                                calcEarthshakerONEffect(level, casterLevel, esStackOn, result)
+                                addEarthshakerExtraInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the info of the skill`
+                            }
+
+                            calcEarthshakerValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>
