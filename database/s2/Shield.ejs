@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Shield Skills Tree</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <%- include('../../templates/headers/metadata') %>
+
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+        <script src="../templates/axios.min.js"></script>
+        <script>
+            // wew have works to do
+            function roundToTwoDecimals(value) {
+                return Math.round(value * 100) / 100;
+            }
+        </script>
+</head>
+
+<body>
+    <%- include('../../templates/headers/header') %>
+
+        <div id="content">
+            <div class="container">
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shieldmastery.png" width="34" height="34">
+                                Shield Mastery
+                            </p>
+                            <p class="medium">
+                                Skill Shield Mastery Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Enhance Attack Speed when equipping a shield.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="shieldMasteryLevel" onchange="calcShieldMasteryValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="shieldMasteryValues"><b>Nullifies the Attack Speed penalty</b> granted by <b>equipping
+                                a Shield</b></span>
+
+                        <script>
+                            function calcShieldMasteryValues() {
+                                var levelSelector = document.getElementById("shieldMasteryLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var penalty = 50 - 5 * level
+                                var result = document.getElementById("shieldMasteryValues")
+                                var HTML = ``
+                                if (penalty != 0) { HTML += `<b>Reduces the Attack Speed penalty</b> granted by <b>equipping a Shield</b> to -${penalty}%` }
+                                else { HTML += `<b>Nullifies the Attack Speed penalty</b> granted by <b>equipping a Shield</b>` }
+                                result.innerHTML = HTML
+                            }
+
+                            calcShieldMasteryValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shieldbash.png" width="34" height="34">
+                                Shield Bash
+                            </p>
+                            <p class="medium">
+                                Skill Shield Bash Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>3</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Bash with the shield. Chance to inflict [Stun] on the target.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="shieldBashLevel" onchange="calcShieldBashValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Frugal Shield Bash" Registlet Level:</b></span>
+                        <select id="shieldBashRegistlet" onchange="calcShieldBashValue()">
+                            <option value="0" selected="">Unequipped</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <div id="shieldBashStunInput" style="display: none;">
+                            <span class="sub-title"><b>[Stun] inflicted successfully:</b></span>
+                            <input type="checkbox" id="shieldBashStun" onchange="calcShieldBashValue()"><br>
+                        </div>
+                        <br>
+                        <span id="shieldBashValue">
+                            <li><b>Skill Constant:</b> 100</li>
+                            <li><b>Skill Multiplier:</b> 0.15</li><br>
+                            <li><b>Stun Chance:</b> 100%</li>
+                            <li><b>Stun Duration:</b> 5 seconds</li>
+                            <li><b>Resistance Duration on Difficulties:</b> 30 seconds (<b>Easy</b>, <b>Normal</b>,
+                                <b>Hard</b> and <b>Nightmare</b>); 35 seconds (<b>Ultimate</b>)
+                            </li><br><b>Extra
+                                info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                        </span>
+
+                        <script>
+                            function stunCheck(registlet, stunSection) {
+                                if (registlet > 0) { stunSection.style = "display: block" }
+                                else { stunSection.style = "display: none" }
+                            }
+
+                            function calcShieldBashConstant(level, result) {
+                                var constant = 50 + 5 * level
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcShieldBashMultiplier(level, result) {
+                                var skillMultiplier = Math.floor(1.5 * level) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${skillMultiplier}</li><br>`
+                            }
+
+                            function calcAilmentChanceShieldBash(level, result) {
+                                var chance = Math.floor(75 + 2.5 * level)
+                                result.innerHTML += `<li><b>Stun Chance:</b> ${chance}%</li>
+                    <li><b>Stun Duration:</b> 5 seconds</li>
+                    <li><b>Resistance Duration on Difficulties:</b> 30 seconds (<b>Easy</b>, <b>Normal</b>, <b>Hard</b> and <b>Nightmare</b>); 35 seconds (<b>Ultimate</b>)</li>`
+                            }
+
+                            function calcShieldBashMPRecovery(level, registlet, stun, result) {
+                                var mp = 10 * registlet
+                                if (registlet > 0 && stun) { result.innerHTML += `<li><b>MP Recovered:</b> ${mp}</li>` }
+                            }
+
+                            function addShieldBashExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>`
+                            }
+
+                            function calcShieldBashValue() {
+                                let levelSelector = document.getElementById("shieldBashLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let registletSelector = document.getElementById("shieldBashRegistlet")
+                                let registlet = registletSelector[registletSelector.selectedIndex].value
+                                var stunSection = document.getElementById("shieldBashStunInput")
+                                var stun = document.getElementById("shieldBashStun").checked
+                                let result = document.getElementById("shieldBashValue")
+                                stunCheck(registlet, stunSection)
+                                calcShieldBashConstant(level, result)
+                                calcShieldBashMultiplier(level, result)
+                                calcAilmentChanceShieldBash(level, result)
+                                calcShieldBashMPRecovery(level, registlet, stun, result)
+                                addShieldBashExtraInfo(result)
+                            }
+
+                            calcShieldBashValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shieldcannon.png" width="34" height="34">
+                                Shield Cannon
+                            </p>
+                            <p class="medium">
+                                Skill Shield Cannon Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Light</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>6</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Throw the shield like a cannonball. Chance to inflict [Stun] on the target. Damage dealt
+                                increases if the target is stunned.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="shieldCannonLevel" onchange="calcShieldCannonValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>[Stun] inflicted successfully:</b></span>
+                        <input type="checkbox" id="shieldCannonStun" onchange="calcShieldCannonValue()"><br>
+                        <div id="shieldCannonStunInput" style="display: none;">
+                            <span class="sub-title"><b>Base VIT:</b></span>
+                            <input type="number" value="255" min="1" max="510" id="shieldCannonVIT"
+                                onchange="calcShieldCannonValue()" style="width: 50px;"><br>
+                            <span class="sub-title"><b>Shield Refinement Level:</b></span>
+                            <select id="shieldCannonShieldRefine" onchange="calcShieldCannonValue()">
+                                <option value="0" selected="">+0</option>
+                                <option value="1">+1</option>
+                                <option value="2">+2</option>
+                                <option value="3">+3</option>
+                                <option value="4">+4</option>
+                                <option value="5">+5</option>
+                                <option value="6">+6</option>
+                                <option value="7">+7</option>
+                                <option value="8">+8</option>
+                                <option value="9">+9</option>
+                                <option value="10">+E</option>
+                                <option value="11">+D</option>
+                                <option value="12">+C</option>
+                                <option value="13">+B</option>
+                                <option value="14">+A</option>
+                                <option value="15">+S</option>
+                            </select><br>
+                        </div>
+                        <br>
+                        <span id="shieldCannonValue">
+                            <li><b>Skill Constant:</b> 200</li>
+                            <li><b>Skill Multiplier:</b> 1.5</li><br>
+                            <li><b>Maximum Cast Range:</b> 20m</li>
+                            <li><b>Stun Chance:</b> 100% </li>
+                            <li><b>Stun Duration:</b> 5 seconds</li>
+                            <li><b>Resistance Duration on Difficulties:</b> 30 seconds (<b>Easy</b>, <b>Normal</b>,
+                                <b>Hard</b> and <b>Nightmare</b>); 35 seconds (<b>Ultimate</b>)
+                            </li><br><b>Extra
+                                info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                        </span>
+
+                        <script>
+                            function stunCheck(stun, stunSection) {
+                                if (stun) { stunSection.style = "display: block" }
+                                else { stunSection.style = "display: none" }
+                            }
+
+                            function calcShieldCannonConstant(level, stun, baseVIT, shieldRefine, result) {
+                                var constant = 100 + 10 * level
+                                if (stun) { constant += baseVIT * (1 + Math.floor(shieldRefine / 5)) }
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcShieldCannonMultiplier(level, stun, shieldRefine, result) {
+                                var skillMultiplier = 0.5 + 0.1 * level
+                                skillMultiplier = Math.round(skillMultiplier * 100) / 100
+                                if (stun) { skillMultiplier *= Math.max(1, shieldRefine) }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${skillMultiplier}</li><br>`
+                            }
+
+                            function calcShieldCannonCastRange(level, result) {
+                                var castRange = Math.floor(5 + 1.5 * level)
+                                result.innerHTML += `<li><b>Maximum Cast Range:</b> ${castRange}m</li>`
+                            }
+
+                            function calcAilmentChanceShieldCannon(level, result) {
+                                var chance = 10 * level
+                                result.innerHTML += `<li><b>Stun Chance:</b> ${chance}% </li>
+                    <li><b>Stun Duration:</b> 5 seconds</li>
+                    <li><b>Resistance Duration on Difficulties:</b> 30 seconds (<b>Easy</b>, <b>Normal</b>, <b>Hard</b> and <b>Nightmare</b>); 35 seconds (<b>Ultimate</b>)</li>`
+                            }
+
+                            function addShieldCannonExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>`
+                            }
+
+                            function calcShieldCannonValue() {
+                                let levelSelector = document.getElementById("shieldCannonLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                var stun = document.getElementById("shieldCannonStun").checked
+                                var stunSection = document.getElementById("shieldCannonStunInput")
+                                var baseVIT = document.getElementById("shieldCannonVIT").value
+                                var shieldRefineSelector = document.getElementById("shieldCannonShieldRefine")
+                                var shieldRefine = shieldRefineSelector[shieldRefineSelector.selectedIndex].value
+                                let result = document.getElementById("shieldCannonValue")
+                                stunCheck(stun, stunSection)
+                                calcShieldCannonConstant(level, stun, baseVIT, shieldRefine, result)
+                                calcShieldCannonMultiplier(level, stun, shieldRefine, result)
+                                calcShieldCannonCastRange(level, result)
+                                calcAilmentChanceShieldCannon(level, result)
+                                addShieldCannonExtraInfo(result)
+                            }
+
+                            calcShieldCannonValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/guardstrike.png" width="34" height="34">
+                                Guard Strike
+                            </p>
+                            <p class="medium">
+                                Skill Guard Strike Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attack repelling an enemy's attack. Deal damage to a target when Guard is activated. The
+                                damage dealt depends on Guard Power and the refinement value of your shield.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/shield.png"></p>
+                                <p>Shield</p>
+                            </div>
+                            <p>Guard Power is added to Power<br> Refinement Value of Shield affects Skill Power</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Sub-Weapon:</b></span>
+                        <select id="guardStrikeWeapon" onchange="calcGuardStrikeValue()">
+                            <option value="shield" selected="">Shield</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="guardStrikeLevel" onchange="calcGuardStrikeValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <div id="guardStrikeShieldInput" style="display: block;">
+                            <span class="sub-title"><b>Shield Refinement Level:</b></span>
+                            <select id="guardStrikeShieldRefine" onchange="calcGuardStrikeValue()">
+                                <option value="0" selected="">+0</option>
+                                <option value="1">+1</option>
+                                <option value="2">+2</option>
+                                <option value="3">+3</option>
+                                <option value="4">+4</option>
+                                <option value="5">+5</option>
+                                <option value="6">+6</option>
+                                <option value="7">+7</option>
+                                <option value="8">+8</option>
+                                <option value="9">+9</option>
+                                <option value="10">+E</option>
+                                <option value="11">+D</option>
+                                <option value="12">+C</option>
+                                <option value="13">+B</option>
+                                <option value="14">+A</option>
+                                <option value="15">+S</option>
+                            </select><br>
+                            <span class="sub-title"><b>Guard Power (%):</b></span>
+                            <input type="number" value="0" id="guardStrikeGPower" onchange="calcGuardStrikeValue()"
+                                style="width: 50px;"><br>
+                        </div>
+                        <br>
+                        <span id="guardStrikeValue"><b>Skill Effect:</b> Deals damage to the enemy whenever <b>Guard</b>
+                            is activated<br>
+                            <li><b>MP Cost:</b> 0</li>
+                            <li><b>Activation Range:</b> Infinite</li>
+                            <li><b>Skill Constant:</b> 100</li>
+                            <li><b>Skill Multiplier:</b> 1</li><br><b>Guard Strike</b> uses <b>Physical Proration</b>
+                            for its damage calculation, but <b>does not affect proration</b>
+                        </span>
+
+                        <script>
+                            function shieldCheck(weapon, shieldSection) {
+                                if (weapon == "shield") { shieldSection.style = "display: block" }
+                                else { shieldSection.style = "display: none" }
+                            }
+
+                            function addGuardStrikeSkillEffect(result) {
+                                result.innerHTML = `<b>Skill Effect:</b> Deals damage to the enemy whenever <b>Guard</b> is activated<br>
+                    <li><b>MP Cost:</b> 0</li>
+                    <li><b>Activation Range:</b> Infinite</li>`
+                            }
+
+                            function calcGuardStrikeConstant(level, weapon, shieldRefine, result) {
+                                var constant = 10 * level
+                                if (weapon == "shield") { constant += 60 * shieldRefine }
+                                result.innerHTML += `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcGuardStrikeMultiplier(level, weapon, gPower, result) {
+                                var skillMultiplier = 0.1 * level
+                                if (weapon == "shield") { skillMultiplier += gPower / 100 }
+                                skillMultiplier = Math.round(skillMultiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${skillMultiplier}</li><br>`
+                            }
+
+                            function addGuardStrikeInfo(result) {
+                                result.innerHTML += `<b>Guard Strike</b> uses <b>Physical Proration</b> for its damage calculation, but <b>does not affect proration</b>`
+                            }
+
+                            function calcGuardStrikeValue() {
+                                let weaponSelector = document.getElementById("guardStrikeWeapon")
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let levelSelector = document.getElementById("guardStrikeLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                var shieldSection = document.getElementById("guardStrikeShieldInput")
+                                var shieldRefineSelector = document.getElementById("guardStrikeShieldRefine")
+                                var shieldRefine = shieldRefineSelector[shieldRefineSelector.selectedIndex].value;
+                                var gPower = document.getElementById("guardStrikeGPower").value
+                                let result = document.getElementById("guardStrikeValue")
+                                shieldCheck(weapon, shieldSection)
+                                addGuardStrikeSkillEffect(result)
+                                calcGuardStrikeConstant(level, weapon, shieldRefine, result)
+                                calcGuardStrikeMultiplier(level, weapon, gPower, result)
+                                addGuardStrikeInfo(result)
+                            }
+
+                            calcGuardStrikeValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/forceshield.png" width="34" height="34">
+                                Force Shield
+                            </p>
+                            <p class="medium">
+                                Skill Force Shield Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>DEF and Physical Resistance are added when equipping a shield.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="forceShieldLevel" onchange="calcForceShieldValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="forceShieldValues">
+                            <li><b>DEF</b> +20</li>
+                            <li><b>DEF</b> +10%</li>
+                            <li><b>MaxHP</b> +500</li>
+                            <li><b>Physical Resistance</b> +10%</li>
+                        </span>
+
+                        <script>
+                            function calcForceShieldValues() {
+                                var levelSelector = document.getElementById("forceShieldLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var result = document.getElementById("forceShieldValues")
+                                var flatDEF = 2 * level
+                                var percDEF = 1 * level
+                                var hp = 50 * level
+                                var pres = 1 * level
+                                result.innerHTML = `<li><b>DEF</b> +${flatDEF}</li>
+                    <li><b>DEF</b> +${percDEF}%</li>
+                    <li><b>MaxHP</b> +${hp}</li>
+                    <li><b>Physical Resistance</b> +${pres}%</li>`
+                            }
+
+                            calcForceShieldValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/magicalshield.png" width="34" height="34">
+                                Magical Shield
+                            </p>
+                            <p class="medium">
+                                Skill Magical Shield Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Increases MDEF and Magic Resistance when equipping a shield.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="magicalShieldLevel" onchange="calcMagicalShieldValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="magicalShieldValues">
+                            <li><b>MDEF</b> +20</li>
+                            <li><b>MDEF</b> +10%</li>
+                            <li><b>MaxHP</b> +500</li>
+                            <li><b>Magic Resistance</b> +10%</li>
+                        </span>
+
+                        <script>
+                            function calcMagicalShieldValues() {
+                                var levelSelector = document.getElementById("magicalShieldLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var result = document.getElementById("magicalShieldValues")
+                                var flatMDEF = 2 * level
+                                var percMDEF = 1 * level
+                                var hp = 50 * level
+                                var mres = 1 * level
+                                result.innerHTML = `<li><b>MDEF</b> +${flatMDEF}</li>
+                    <li><b>MDEF</b> +${percMDEF}%</li>
+                    <li><b>MaxHP</b> +${hp}</li>
+                    <li><b>Magic Resistance</b> +${mres}%</li>`
+                            }
+
+                            calcMagicalShieldValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shielduppercut.png" width="34" height="34">
+                                Shield Uppercut
+                            </p>
+                            <p class="medium">
+                                Skill Shield Uppercut Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>4</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A powerful uppercut with a shield. Chance to inflict [Tumble]. Damage Reduction and Guard
+                                will be activated during this skill.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="shieldUppercutSkillLevel" onchange="calcShieldUppercutValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Shield Refinement Level:</b></span>
+                        <select id="shieldUppercutShieldRefine" onchange="calcShieldUppercutValue()">
+                            <option value="0" selected="">+0</option>
+                            <option value="1">+1</option>
+                            <option value="2">+2</option>
+                            <option value="3">+3</option>
+                            <option value="4">+4</option>
+                            <option value="5">+5</option>
+                            <option value="6">+6</option>
+                            <option value="7">+7</option>
+                            <option value="8">+8</option>
+                            <option value="9">+9</option>
+                            <option value="10">+E</option>
+                            <option value="11">+D</option>
+                            <option value="12">+C</option>
+                            <option value="13">+B</option>
+                            <option value="14">+A</option>
+                            <option value="15">+S</option>
+                        </select><br>
+                        <span class="sub-title"><b>[Tumble] inflicted successfully:</b></span>
+                        <input type="checkbox" id="shieldUppercutTumble" onchange="calcShieldUppercutValue()"><br>
+                        <br>
+                        <span id="shieldUppercutValue">
+                            <li><b>Skill Constant:</b> 100</li>
+                            <li><b>Skill Multiplier:</b> 1.5</li><br>
+                            <li>The <b>caster</b> will be in <b>Guard</b> state during skill animation, automatically
+                                [Guard] all incoming attacks</li>
+                            <li>Reduces all damage taken during skill animation by 69%</li>
+                            <li><b>Tumble Chance:</b> 100% </li>
+                            <li><b>Tumble Duration:</b> 3 seconds</li>
+                            <li><b>Resistance Duration on Difficulties:</b> 18 seconds (<b>Easy</b>, <b>Normal</b>,
+                                <b>Hard</b> and <b>Nightmare</b>); 21 seconds (<b>Ultimate</b>)</li><br><b>Extra
+                                info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                            <li>The damage reduction during skill animation is applied <b>after [Guard] damage
+                                    reduction</b>; this damage reduction will still apply even if the <b>caster</b> is
+                                afflicted with [Armor Break] or is in <b>Guard Break</b> state</li><br>Credits to
+                            <b>Phantom Library</b> for the skill info
+                        </span>
+
+                        <script>
+                            function calcShieldUppercutConstant(result) {
+                                var constant = 100
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcShieldUppercutMultiplier(level, tumble, shieldRefine, result) {
+                                var multiplier = 0.15 * level
+                                if (tumble) { multiplier += 0.01 * level * shieldRefine }
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function addShieldUppercutSkillEffect(level, shieldRefine, result) {
+                                var dmgReduc = Math.floor(39 + level * 3 + shieldRefine * level / 5)
+                                result.innerHTML += `<li>The <b>caster</b> will be in <b>Guard</b> state during skill animation, automatically [Guard] all incoming attacks</li>
+                    <li>Reduces all damage taken during skill animation by ${dmgReduc}%</li>`
+                            }
+
+                            function calcShieldUppercutAilmentChance(level, result) {
+                                var chance = 10 * level
+                                result.innerHTML += `<li><b>Tumble Chance:</b> ${chance}% </li>
+                    <li><b>Tumble Duration:</b> 3 seconds</li>
+                    <li><b>Resistance Duration on Difficulties:</b> 18 seconds (<b>Easy</b>, <b>Normal</b>, <b>Hard</b> and <b>Nightmare</b>); 21 seconds (<b>Ultimate</b>)</li>`
+                            }
+
+                            function addShieldUppercutExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>
+                    <li>The damage reduction during skill animation is applied <b>after [Guard] damage reduction</b>; this damage reduction will still apply even if the <b>caster</b> is afflicted with [Armor Break] or is in <b>Guard Break</b> state</li>`
+                            }
+
+                            function calcShieldUppercutValue() {
+                                var levelSelector = document.getElementById("shieldUppercutSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var tumble = document.getElementById("shieldUppercutTumble").checked
+                                var tumbleSection = document.getElementById("shieldUppercutTumbleInput")
+                                var shieldRefineSelector = document.getElementById("shieldUppercutShieldRefine")
+                                var shieldRefine = shieldRefineSelector[shieldRefineSelector.selectedIndex].value
+                                var result = document.getElementById("shieldUppercutValue")
+                                calcShieldUppercutConstant(result)
+                                calcShieldUppercutMultiplier(level, tumble, shieldRefine, result)
+                                addShieldUppercutSkillEffect(level, shieldRefine, result)
+                                calcShieldUppercutAilmentChance(level, result)
+                                addShieldUppercutExtraInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the skill info`
+                            }
+
+                            calcShieldUppercutValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/dualshields.png" width="34" height="34">
+                                Dual Shields
+                            </p>
+                            <p class="medium">
+                                Skill Dual Shields Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Your iron will is stronger than a castle wall. Equips two shields and maintains the state
+                                of Guard during combat. Heavy armor increases Guard range and removes the interval of
+                                normal attacks.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="dualShieldsSkillLevel" onchange="calcDualShieldsValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"> <b>Base VIT:</b></span>
+                        <input type="number" value="255" min="1" max="510" id="dualShieldsVitValue"
+                            onchange="calcDualShieldsValues()" style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Shield DEF:</b></span>
+                        <input type="number" value="1" min="1" id="dualShieldsDef" onchange="calcDualShieldsValues()"
+                            style="width: 50px;"><br>
+                        <span class="sub-title"><b>Shield Refinement Level:</b></span>
+                        <select id="dualShieldsShieldRefine" onchange="calcDualShieldsValues()">
+                            <option value="0" selected="">+0</option>
+                            <option value="1">+1</option>
+                            <option value="2">+2</option>
+                            <option value="3">+3</option>
+                            <option value="4">+4</option>
+                            <option value="5">+5</option>
+                            <option value="6">+6</option>
+                            <option value="7">+7</option>
+                            <option value="8">+8</option>
+                            <option value="9">+9</option>
+                            <option value="10">+E</option>
+                            <option value="11">+D</option>
+                            <option value="12">+C</option>
+                            <option value="13">+B</option>
+                            <option value="14">+A</option>
+                            <option value="15">+S</option>
+                        </select><br>
+                        <span class="sub-title"><b>Heavy Armor equipped:</b></span>
+                        <input type="checkbox" id="dualShieldsHeavyArmor" onchange="calcDualShieldsValues()"><br>
+                        <br>
+                        <span id="dualShieldsValues">
+                            <li><b>Auto Attack Skill Constant </b> +0; total constant increase for all hits of 1 auto
+                                attack</li>
+                            <li><b>Auto Attack Skill Multiplier </b> +1.51; total multiplier increase for all hits of 1
+                                auto attack</li>
+                            <li><b>Auto Attack Hit Count:</b> 3 hits; damage calculation is done once then spread evenly
+                                between the hits</li><br><b>Skill Effect:</b> Grants <b>Dual Shields buff</b> to the
+                            <b>caster</b> upon cast<br><br><b>Buff Effect:</b>
+                            <li>Using <b>Manual Guard</b> via hotkeys/shortcuts is disabled, instead will automatically
+                                activate against all attacks from <b>the front</b>; will only activate when <b>Guard is
+                                    set to Manual</b>, and <b>during actions where both shields are present</b></li>
+                            <li>Modifies the caster's auto attacks and change their hit counts; attack range of the
+                                modified auto attacks is equal to the maximum auto attack range of the <b>main
+                                    weapon</b>, but <b>cannot go beyond 3m</b></li>
+                            <li><b>Guard gauge consumption</b> on guarding is <b>halved</b></li>
+                            <li><b>Attack Speed</b> -50%</li>
+                            <li><b>Accuracy</b> +101</li>
+                            <li><b>Buff Duration:</b> 30 seconds OR until you get [Armor Break] or [Guard Break] OR
+                                until <b>Belagerung</b> is used</li><br><b>Extra info:</b>
+                            <li>This skill <b>cannot be recast</b> if the buff is active; it also <b>cannot be cast if
+                                    another attack motion modifier skill is active</b> (e.g. <b>Rampage</b>, <b>Twin
+                                    Storm</b>,...)</li>
+                            <li>If this skill is in a <b>combo</b> and is not the first skill of that combo, the
+                                <b>combo will be temporarily disabled</b> as long as the buff is active</li>
+                            <li>This skill's total damage is <b>unaffected by Combo tags</b></li>
+                            <li>The <b>automatical Manual Guard</b> of this buff will not halt Guard gauge recovery;
+                                this was confirmed to be a bug by Asobimo, however</li>
+                            <li>The motion of the <b>modified auto attacks</b> is significantly slower than any other
+                                weapon that can equip a shield; in exchange, <b>automatical Manual Guard</b> can still
+                                activate during these auto attacks</li>
+                            <li>Neither <b>Power Wave</b> nor <b>Shukuchi</b> will be disabled while the buff is active
+                                <ul>
+                                    <li>&nbsp;&nbsp;&nbsp;- The Power Wave projectile during <b>Dual Shields buff</b>
+                                        has a different shape compared to the usual Power Wave projectile; this is
+                                        purely aesthetic, however, and has no other impact on gameplay</li>
+                                </ul>
+                            </li>
+                        </span>
+
+                        <script>
+                            function calcDualShieldsAAConstant(result) {
+                                var constant = 0
+                                result.innerHTML = `<li><b>Auto Attack Skill Constant </b> +${constant}; total constant increase for all hits of 1 auto attack</li>`
+                            }
+
+                            function calcDualShieldsAAMultiplier(level, vitValue, result) {
+                                var multiplier = 0.1 * level + vitValue / 500
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.0099) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Auto Attack Skill Multiplier </b> +${multiplier}; total multiplier increase for all hits of 1 auto attack</li>`
+                            }
+
+                            function calcDualShieldsAAHitCount(result) {
+                                result.innerHTML += `<li><b>Auto Attack Hit Count:</b> 3 hits; damage calculation is done once then spread evenly between the hits</li>`
+                            }
+
+                            function addDualShieldsSkillEffect(result) {
+                                result.innerHTML += `<br><b>Skill Effect:</b> Grants <b>Dual Shields buff</b> to the <b>caster</b> upon cast<br>`
+                            }
+
+                            function calcDualShieldsBuffEffect(level, shieldDef, shieldRefine, heavyArmor, result) {
+                                var direction = `the front`
+                                if (heavyArmor) { direction = `any direction` }
+                                var aspd = 150 - 10 * level - 2 * shieldRefine
+                                var acc = 10 * level + 1 * shieldDef
+                                var duration = 10 + 2 * level + 1 * shieldRefine
+                                var HTML = `<br><b>Buff Effect:</b>
+                    <li>Using <b>Manual Guard</b> via hotkeys/shortcuts is disabled, instead will automatically activate against all attacks from <b>${direction}</b>; will only activate when <b>Guard is set to Manual</b>, and <b>during actions where both shields are present</b></li>
+                    <li>Modifies the caster's auto attacks and change their hit counts; attack range of the modified auto attacks is equal to the maximum auto attack range of the <b>main weapon</b>, but <b>cannot go beyond 3m</b></li>`
+                                if (heavyArmor) { HTML += `<li>Sets the <b>caster's Auto Attack Delay</b> to 0, unless the caster is afflicted with [Paralysis]; this <b>does not</b> include the delay from [Fear] or tapping part(s)</li>` }
+                                HTML += `<li><b>Guard gauge consumption</b> on guarding is <b>halved</b></li>
+                    <li><b>Attack Speed</b> -${aspd}%</li>
+                    <li><b>Accuracy</b> +${acc}</li>
+                    <li><b>Buff Duration:</b> ${duration} seconds OR until you get [Armor Break] or [Guard Break] OR until <b>Belagerung</b> is used</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addDualShieldsExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill <b>cannot be recast</b> if the buff is active; it also <b>cannot be cast if another attack motion modifier skill is active</b> (e.g. <b>Rampage</b>, <b>Twin Storm</b>,...)</li>
+                    <li>If this skill is in a <b>combo</b> and is not the first skill of that combo, the <b>combo will be temporarily disabled</b> as long as the buff is active</li>
+                    <li>This skill's total damage is <b>unaffected by Combo tags</b></li>
+                    <li>The <b>automatical Manual Guard</b> of this buff will not halt Guard gauge recovery; this was confirmed to be a bug by Asobimo, however</li>
+                    <li>The motion of the <b>modified auto attacks</b> is significantly slower than any other weapon that can equip a shield; in exchange, <b>automatical Manual Guard</b> can still activate during these auto attacks</li>
+                    <li>Neither <b>Power Wave</b> nor <b>Shukuchi</b> will be disabled while the buff is active<ul>
+                    <li>&nbsp&nbsp&nbsp- The Power Wave projectile during <b>Dual Shields buff</b> has a different shape compared to the usual Power Wave projectile; this is purely aesthetic, however, and has no other impact on gameplay</li>
+                    </ul></li>`
+                            }
+
+                            function calcDualShieldsValues() {
+                                var levelSelector = document.getElementById("dualShieldsSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var vitValue = document.getElementById("dualShieldsVitValue").value
+                                var shieldDef = document.getElementById("dualShieldsDef").value
+                                var shieldRefineSelector = document.getElementById("dualShieldsShieldRefine")
+                                var shieldRefine = shieldRefineSelector[shieldRefineSelector.selectedIndex].value
+                                var heavyArmor = document.getElementById("dualShieldsHeavyArmor").checked
+                                var result = document.getElementById("dualShieldsValues")
+                                calcDualShieldsAAConstant(result)
+                                calcDualShieldsAAMultiplier(level, vitValue, result)
+                                calcDualShieldsAAHitCount(result)
+                                addDualShieldsSkillEffect(result)
+                                calcDualShieldsBuffEffect(level, shieldDef, shieldRefine, heavyArmor, result)
+                                addDualShieldsExtraInfo(result)
+                            }
+
+                            calcDualShieldsValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/shieldrepair.png" width="34" height="34">
+                                Shield Repair
+                            </p>
+                            <p class="medium">
+                                Skill Shield Repair Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Repairs your shield and recovers its durability.<br>
+                                Recovers the Guard power consumed. Also recovers MP depending on the recovered Guard.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="shieldRepairLevel" onchange="calcShieldRepairValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="shieldRepairValues">
+                            <li><b>Cast Time:</b> 2 seconds (unaffected by CSPD)</li><br><b>Skill Effect:</b>
+                            <li>Recovers <b>Guard gauge</b> by 50% of <b>missing Guard gauge</b> upon successful cast
+                            </li>
+                            <li>Recovers 1 MP for every 0.1 unit of <b>Guard gauge</b> recovered by this skill</li>
+                        </span>
+
+                        <script>
+                            function calcShieldRepairCastTime(result) {
+                                result.innerHTML = `<li><b>Cast Time:</b> 2 seconds (unaffected by CSPD)</li>`
+                            }
+
+                            function calcShieldRepairSkillEffect(level, result) {
+                                var gauge = 10 + 4 * level
+                                result.innerHTML += `<br><b>Skill Effect:</b>
+                    <li>Recovers <b>Guard gauge</b> by ${gauge}% of <b>missing Guard gauge</b> upon successful cast</li>
+                    <li>Recovers 1 MP for every 0.1 unit of <b>Guard gauge</b> recovered by this skill</li>`
+                            }
+
+                            function calcShieldRepairValues() {
+                                let levelSelector = document.getElementById("shieldRepairLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById("shieldRepairValues")
+                                calcShieldRepairCastTime(result)
+                                calcShieldRepairSkillEffect(level, result)
+                            }
+
+                            calcShieldRepairValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/belagerung.png" width="34" height="34">
+                                Belagerung
+                            </p>
+                            <p class="medium">
+                                Skill Belagerung Level 5 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>600</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Only available during the Skill: "Dual Shields".<br>
+                                Deals AoE damage twice and ends "Dual Shields". Increases damage to an immobile target.
+                            </p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/shield.png"></p>
+                                <p>Shield</p>
+                            </div>
+                            <p>"Immobile" refers to [Flinch], [Tumble] and [Stun].<br><br>
+                                <b style="color:gold">Applies a debuff to the target when equipped with heavy
+                                    armor.</b><br>
+                                The debuff lasts for 15 seconds.<br>
+                                Reduces Critical resistance depending on the level of Belagerung.<br>
+                                Increases the damage dealt and Attack MP Recovery if the target is immobile.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="belagerungSkillLevel" onchange="calcBelagerungValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Target is afflicted with [Flinch]/[Tumble]/[Stun]:</b></span>
+                        <input type="checkbox" id="belagerungStun" onchange="calcBelagerungValue()"><br>
+                        <div id="belagerungStunInput" style="display: none;">
+                            <span class="sub-title"><b>Base VIT:</b></span>
+                            <input type="number" value="255" min="1" max="510" id="belagerungVIT"
+                                onchange="calcBelagerungValue()" style="width: 50px;"><br>
+                            <span class="sub-title"><b>Shield Refinement Level:</b></span>
+                            <select id="belagerungShieldRefine" onchange="calcBelagerungValue()">
+                                <option value="0" selected="">+0</option>
+                                <option value="1">+1</option>
+                                <option value="2">+2</option>
+                                <option value="3">+3</option>
+                                <option value="4">+4</option>
+                                <option value="5">+5</option>
+                                <option value="6">+6</option>
+                                <option value="7">+7</option>
+                                <option value="8">+8</option>
+                                <option value="9">+9</option>
+                                <option value="10">+E</option>
+                                <option value="11">+D</option>
+                                <option value="12">+C</option>
+                                <option value="13">+B</option>
+                                <option value="14">+A</option>
+                                <option value="15">+S</option>
+                            </select><br>
+                        </div>
+                        <span class="sub-title"><b>Heavy Armor equipped:</b></span>
+                        <input type="checkbox" id="belagerungHeavyArmor" onchange="calcBelagerungValue()"><br>
+                        <div id="belagerungHeavyInput" style="display: none;">
+                            <span class="sub-title"><b>Number of Belagerung debuff stacks on the target:</b></span>
+                            <input type="number" value="0" min="0" max="2" id="belagerungDebuff"
+                                onchange="calcBelagerungValue()" style="width: 50px;">
+                        </div>
+                        <br>
+                        <span id="belagerungValue">
+                            <li><b>Skill Constant:</b> 200; constant for each hit</li>
+                            <li><b>Skill Multiplier:</b> 5; multiplier for each hit</li>
+                            <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>
+                            <li><b>Hit Range (radius):</b> 3m, around the <b>main target's position on hit</b></li>
+                            <li>This skill can only be used when <b>Dual Shields</b> is active; <b>Dual Shields</b> will
+                                end after using this skill</li><br><b>Extra info:</b>
+                            <li>This skill is unaffected by <b>Long Range passive</b>, <b>Short Range Damage</b> and
+                                <b>Long Range Damage</b> stats</li>
+                            <li>Due to how the skill works, there can be a slight delay between the 2 hits of the skill
+                                as the 2 shields fly to the target in different trajectories; since the hit range of the
+                                skill is around the target's position <b>on hit</b>, this can lead to the skill dealing
+                                2 separated AoE damage zones</li>
+                            <li>If this skill is used after <b>Dual Shields</b> in the same combo, it will not be able
+                                to activate despite that <b>Dual Shield</b> should have already been activated, which in
+                                turn should have fulfilled the condition to use this skill; it is unclear whether this
+                                is intentional or a bug</li><br>Credits to <b>Phantom Library</b> for the info of the
+                            skill
+                        </span>
+
+                        <script>
+                            function belagerungStunCheck(stun, stunSection) {
+                                if (stun) { stunSection.style = "display: block" }
+                                else { stunSection.style = "display: none" }
+                            }
+
+                            function belagerungHeavyCheck(heavyArmor, heavySection) {
+                                if (heavyArmor) { heavySection.style = "display: block" }
+                                else { heavySection.style = "display: none" }
+                            }
+
+                            function calcBelagerungConstant(level, stun, baseVIT, shieldRefine, result) {
+                                var constant = 100 + 10 * level
+                                if (stun) { constant += baseVIT * (1 + Math.floor(shieldRefine / 5)) }
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}; constant for each hit</li>`
+                            }
+
+                            function calcBelagerungMultiplier(level, stun, result) {
+                                var multiplier = 4 + 0.1 * level
+                                if (stun) { multiplier *= 1.5 }
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; multiplier for each hit</li>
+                    <li><b>Hit Count:</b> 2 hits; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcBelagerungHitRange(result) {
+                                result.innerHTML += `<li><b>Hit Range (radius):</b> 3m, around the <b>main target's position on hit</b></li>`
+                            }
+
+                            function calcBelagerungSkillEffect(level, heavyArmor, result) {
+                                var HTML = `<li>This skill can only be used when <b>Dual Shields</b> is active; <b>Dual Shields</b> will end after using this skill</li>`
+                                if (heavyArmor) { HTML += `<li>Inflict <b>Belagerung debuff</b> to the target upon successful hit; this ailment can be stacked up to a maximum of <b>2 stacks</b></li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcBelagerungDebuff(level, stun, heavyArmor, stack, result) {
+                                var critRes = level * stack
+                                var dmgInc = 0.5 * level * stack
+                                var ampr = 2 * level * stack
+                                var HTML = `<br><b>Debuff Effect:</b>
+                    <li><b>Target's Critical Resistance</b> -${critRes}; cannot reduce Critical Resistance to any lower than 0, and have no effect on negative Critical Resistance</li>`
+                                if (stun) {
+                                    HTML += `<li><b>Damage dealt to afflicted target</b> +${dmgInc}%; stacks <b>additively</b> with <b>Brave Aura</b> and <b>Mana Recharge</b></li>
+                    <li><b>Attack MP Recovery</b> +${ampr}; only applies when attacking afflicted target</li>`
+                                }
+                                HTML += `<li><b>Debuff Duration:</b> 10 seconds</li>`
+                                if (heavyArmor && stack != 0) { result.innerHTML += HTML }
+                            }
+
+                            function addBelagerungExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill is unaffected by <b>Long Range passive</b>, <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+                    <li>Due to how the skill works, there can be a slight delay between the 2 hits of the skill as the 2 shields fly to the target in different trajectories; since the hit range of the skill is around the target's position <b>on hit</b>, this can lead to the skill dealing 2 separated AoE damage zones</li>
+                    <li>If this skill is used after <b>Dual Shields</b> in the same combo, it will not be able to activate despite that <b>Dual Shield</b> should have already been activated, which in turn should have fulfilled the condition to use this skill; it is unclear whether this is intentional or a bug</li></li>`
+                            }
+
+                            function calcBelagerungValue() {
+                                var levelSelector = document.getElementById("belagerungSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var stun = document.getElementById("belagerungStun").checked
+                                var stunSection = document.getElementById("belagerungStunInput")
+                                var baseVIT = document.getElementById("belagerungVIT").value
+                                var shieldRefineSelector = document.getElementById("belagerungShieldRefine")
+                                var shieldRefine = shieldRefineSelector[shieldRefineSelector.selectedIndex].value
+                                var heavyArmor = document.getElementById("belagerungHeavyArmor").checked
+                                var heavySection = document.getElementById("belagerungHeavyInput")
+                                var stack = document.getElementById("belagerungDebuff").value
+                                var result = document.getElementById("belagerungValue")
+                                belagerungStunCheck(stun, stunSection)
+                                belagerungHeavyCheck(heavyArmor, heavySection)
+                                calcBelagerungConstant(level, stun, baseVIT, shieldRefine, result)
+                                calcBelagerungMultiplier(level, stun, result)
+                                calcBelagerungHitRange(result)
+                                calcBelagerungSkillEffect(level, heavyArmor, result)
+                                calcBelagerungDebuff(level, stun, heavyArmor, stack, result)
+                                addBelagerungExtraInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the info of the skill`
+                            }
+
+                            calcBelagerungValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/protection.png" width="34" height="34">
+                                Protection
+                            </p>
+                            <p class="medium">
+                                Skill Protection Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Increase party members' Physical Resistance and decrease Magic Resistance for a limited
+                                time.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/shield.png"></p>
+                                <p>Shield</p>
+                            </div>
+                            <p>Mp Cost -200</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Sub-Weapon:</b></span>
+                        <select id="protectionWeapon" onchange="calcProtectionValues()">
+                            <option value="shield" selected="">Shield</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="protectionLevel" onchange="calcProtectionValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="protectionValues">
+                            <li><b>MP Cost:</b> 100</li>
+                            <li><b>Skill Effect:</b> Grants <b>Protection buff</b> to the <b>caster</b> and <b>party
+                                    members</b> upon successful cast</li><br><b>Buff Effect:</b>
+                            <li><b>Physical Resistance</b> +30%</li>
+                            <li style="color: #C70039"><b>Magic Resistance</b> -15%</li>
+                            <li><b>Buff Duration</b>: 10 minutes</li>
+                        </span>
+
+                        <script>
+                            function calcProtectionMpCost(weapon, result) {
+                                var cost = 300
+                                if (weapon == "shield") { cost -= 200 }
+                                var result = document.getElementById("protectionValues")
+                                result.innerHTML = `<li><b>MP Cost:</b> ${cost}</li>`
+                            }
+
+                            function calcProtectionSkillEffect(result) {
+                                result.innerHTML += `<li><b>Skill Effect:</b> Grants <b>Protection buff</b> to the <b>caster</b> and <b>party members</b> upon successful cast</li>`
+                            }
+
+                            function calcProtectionBuff(level, result) {
+                                var pres = 10 + Math.ceil(level / 3) * 5
+                                var mres = Math.ceil(level / 3) * 5 - 35
+                                result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li><b>Physical Resistance</b> +${pres}%</li>
+                    <li style = 'color: #C70039'><b>Magic Resistance</b> ${mres}%</li>`
+
+                            }
+
+                            function calcProtectionBuffDuration(level, result) {
+                                var duration = 1 * level
+                                var HTML = `<li><b>Buff Duration</b>: ${duration} minute`
+                                if (duration != 1) { HTML += `s` }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcProtectionValues() {
+                                let weaponSelector = document.getElementById("protectionWeapon")
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let levelSelector = document.getElementById("protectionLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById("protectionValues")
+                                calcProtectionMpCost(weapon, result)
+                                calcProtectionSkillEffect(result)
+                                calcProtectionBuff(level, result)
+                                calcProtectionBuffDuration(level, result)
+                            }
+
+                            calcProtectionValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/aegis.png" width="34" height="34">
+                                Aegis
+                            </p>
+                            <p class="medium">
+                                Skill Aegis Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/all.png"><br>Available with all weapons
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Increase party members' Magic Resistance and decrease Physical Resistance for a limited
+                                time.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/shield.png"></p>
+                                <p>Shield</p>
+                            </div>
+                            <p>Mp Cost -200</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Sub-Weapon:</b></span>
+                        <select id="aegisWeapon" onchange="calcAegisValues()">
+                            <option value="shield" selected="">Shield</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                        <span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="aegisLevel" onchange="calcAegisValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="aegisValues">
+                            <li><b>MP Cost:</b> 100</li>
+                            <li><b>Skill Effect:</b> Grants <b>Aegis buff</b> to the <b>caster</b> and <b>party
+                                    members</b> upon successful cast</li><br><b>Buff Effect:</b>
+                            <li style="color: #C70039"><b>Physical Resistance</b> -15%</li>
+                            <li><b>Magic Resistance</b> +30%</li>
+                            <li><b>Buff Duration</b>: 10 minutes</li>
+                        </span>
+
+                        <script>
+                            function calcAegisMpCost(weapon, result) {
+                                var cost = 300
+                                if (weapon == "shield") { cost -= 200 }
+                                var result = document.getElementById("aegisValues")
+                                result.innerHTML = `<li><b>MP Cost:</b> ${cost}</li>`
+                            }
+
+                            function calcAegisSkillEffect(result) {
+                                result.innerHTML += `<li><b>Skill Effect:</b> Grants <b>Aegis buff</b> to the <b>caster</b> and <b>party members</b> upon successful cast</li>`
+                            }
+
+                            function calcAegisBuff(level, result) {
+                                var pres = Math.ceil(level / 3) * 5 - 35
+                                var mres = 10 + Math.ceil(level / 3) * 5
+                                result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li style = 'color: #C70039'><b>Physical Resistance</b> ${pres}%</li>
+                    <li><b>Magic Resistance</b> +${mres}%</li>`
+
+                            }
+
+                            function calcAegisBuffDuration(level, result) {
+                                var duration = 1 * level
+                                var HTML = `<li><b>Buff Duration</b>: ${duration} minute`
+                                if (duration != 1) { HTML += `s` }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcAegisValues() {
+                                let weaponSelector = document.getElementById("aegisWeapon")
+                                let weapon = weaponSelector[weaponSelector.selectedIndex].value
+                                let levelSelector = document.getElementById("aegisLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById("aegisValues")
+                                calcAegisMpCost(weapon, result)
+                                calcAegisSkillEffect(result)
+                                calcAegisBuff(level, result)
+                                calcAegisBuffDuration(level, result)
+                            }
+
+                            calcAegisValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/guardian.png" width="34" height="34">
+                                Guardian
+                            </p>
+                            <p class="medium">
+                                Skill Guardian Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/shield.png"><br>Shield only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>600</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Creates an area that reduces damage taken. Increase Guard Recharge. ATK decreases and
+                                Aggro greatly increases as more mates are in the area. Your shield's refinement value
+                                affects the damage reduction.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/shield.png"></p>
+                                <p>Shield</p>
+                            </div>
+                            <p>[Refinement Value of Shield affects the effects below]<br> Raises Guard Recharge
+                                further.<br> Boost on Damage Reduction of allies protected by this skill.<br> Boost on
+                                Aggro Reduction of allies protected by this skill.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="guardianLevel" onchange="calcGuardianValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Number of Connected Allies:</b></span>
+                        <input type="number" id="guardianLinkCount" min="0" max="3" value="0" style="width: 3em"
+                            onchange="calcGuardianValues()"><br>
+                        <span class="sub-title"><b>Shield Refinement Level:</b></span>
+                        <select id="guardianShieldRefine" onchange="calcGuardianValues()">
+                            <option value="0" selected="">+0</option>
+                            <option value="1">+1</option>
+                            <option value="2">+2</option>
+                            <option value="3">+3</option>
+                            <option value="4">+4</option>
+                            <option value="5">+5</option>
+                            <option value="6">+6</option>
+                            <option value="7">+7</option>
+                            <option value="8">+8</option>
+                            <option value="9">+9</option>
+                            <option value="10">+E</option>
+                            <option value="11">+D</option>
+                            <option value="12">+C</option>
+                            <option value="13">+B</option>
+                            <option value="14">+A</option>
+                            <option value="15">+S</option>
+                        </select><br>
+                        <br>
+                        <span id="guardianValues">
+                            <li><b>Aura Range (radius):</b> 6m</li>
+                            <li><b>Skill Effect:</b> Creates an aura that grants <b>Guardian self buff</b> to the
+                                <b>caster</b> and <b>Guardian party buff</b> to any <b>party members</b> inside the aura
+                                range upon successful cast</li><br><b>Self Buff Effect:</b>
+                            <li><b>Guard Recharge</b> +15%</li>
+                            <li><b>Passively generates</b> 50 aggro every 3 seconds (unaffected by ±Aggro% stats)</li>
+                            <li><b>Buff Duration</b>: 180 seconds</li><br><b>Party Buff Effect:</b>
+                            <li><b>Received Damage</b> -35%; stacks <b>additively</b> with other damage reduction
+                                modifiers</li>
+                            <li><b>Attack MP Recovery</b> +15</li>
+                            <li style="color: #C70039"><b>Aggro</b> -60%; stacks <b>multiplicatively</b> with Aggro%
+                                stat</li>
+                            <li><b>Buff Duration</b>: Until you move out of aura range OR until the caster's aura
+                                duration ends</li><br><b>Extra info:</b>
+                            <li>The <b>party buff effects</b> does not apply to other <b>Guardian users</b> (those who
+                                also have their own <b>Guardian aura</b>), with the -Aggro being the only exception
+                                <b>if one of the Guardian has lower skill level than the other</b>; the <b>Guardian</b>
+                                with lower skill level will have its <b>self buff aggro modifier disabled</b>, and its
+                                <b>passive-generate aggro set to 50 per 3 seconds</b> and affected by the <b>party buff
+                                    aggro modifier</b> of the <b>Guardian</b> with higher skill level</li>
+                            <li>The aggro amount shown is the official aggro value by <b>Asobimo</b>.</li>
+                            For more detail regarding this skill's info, check out <a
+                                href="https://youtu.be/38C8513vj54" style="color:blue;"><b>Joji Torai's tests about
+                                    aggro</b></a>
+                        </span>
+
+                        <script>
+                            function calcGuardianRadius(level, result) {
+                                var range = 1 + 0.5 * level
+                                var result = document.getElementById("guardianValues")
+                                result.innerHTML = `<li><b>Aura Range (radius):</b> ${range}m</li>`
+                            }
+
+                            function calcGuardianSkillEffect(result) {
+                                result.innerHTML += `<li><b>Skill Effect:</b> Creates an aura that grants <b>Guardian self buff</b> to the <b>caster</b> and <b>Guardian party buff</b> to any <b>party members</b> inside the aura range upon successful cast</li>`;
+                            }
+
+                            function calcGuardianSelfBuff(level, linkCount, shieldRefine, result) {
+                                var guardRecharge = 15 + shieldRefine * 1
+                                var aggro = (40 + 2 * level + 2 * shieldRefine) * linkCount
+                                var atk = (20 - 1.5 * level) * linkCount
+                                var matk = (30 - 2 * level) * linkCount
+                                var ampr = (5 + 1 * level) * linkCount
+                                var autoAggro = 50 + (32 + 1 * shieldRefine + Math.max(0, (1 * shieldRefine) - 12)) * linkCount
+                                var duration = 30 + 10 * level + 10 * Math.max(0, level - 5)
+                                var HTML = `<br><b>Self Buff Effect:</b>
+                    <li><b>Guard Recharge</b> +${guardRecharge}%</li>`
+                                if (linkCount > 0) {
+                                    HTML += `<li><b>Aggro</b> +${aggro}%; stacks <b>multiplicatively</b> with Aggro% stat</li>
+                    <li style = 'color: #C70039'><b>ATK</b> -${atk}%</li>
+                    <li style = 'color: #C70039'><b>MATK</b> -${matk}%</li>
+                    <li><b>Attack MP Recovery</b> +${ampr}</li>`
+                                }
+                                HTML += `<li><b>Passively generates</b> ${autoAggro} aggro every 3 seconds (unaffected by ±Aggro% stats)</li>
+                    <li><b>Buff Duration</b>: ${duration} seconds</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcGuardianParyBuff(level, shieldRefine, result) {
+                                var dmgReduc = 20 + 1.5 * level + 1 * shieldRefine
+                                var ampr = 5 + 1 * level
+                                var aggro = 40 + 2 * level + 2 * shieldRefine
+                                var HTML = `<br><b>Party Buff Effect:</b>
+                    <li><b>Received Damage</b> -${dmgReduc}%; stacks <b>additively</b> with other damage reduction modifiers</li>
+                    <li><b>Attack MP Recovery</b> +${ampr}</li>
+                    <li style = 'color: #C70039'><b>Aggro</b> -${aggro}%; stacks <b>multiplicatively</b> with Aggro% stat</li>
+                    <li><b>Buff Duration</b>: Until you move out of aura range OR until the caster's aura duration ends</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addGuardianExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>The <b>party buff effects</b> does not apply to other <b>Guardian users</b> (those who also have their own <b>Guardian aura</b>), with the -Aggro being the only exception <b>if one of the Guardian has lower skill level than the other</b>; the <b>Guardian</b> with lower skill level will have its <b>self buff aggro modifier disabled</b>, and its <b>passive-generate aggro set to 50 per 3 seconds</b> and affected by the <b>party buff aggro modifier</b> of the <b>Guardian</b> with higher skill level</li>
+                    <li>The aggro amount shown is the official aggro value by <b>Asobimo</b>.</li>
+                    For more detail regarding this skill's info, check out <a href="https://youtu.be/38C8513vj54" style="color:blue;"><b>Joji Torai's tests about aggro</b></a>`
+                            }
+
+                            function calcGuardianValues() {
+                                let levelSelector = document.getElementById("guardianLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let linkCount = document.getElementById("guardianLinkCount").value
+                                let shieldRefineSelector = document.getElementById("guardianShieldRefine")
+                                let shieldRefine = shieldRefineSelector[shieldRefineSelector.selectedIndex].value
+                                let result = document.getElementById("guardianValues")
+                                calcGuardianRadius(level, result)
+                                calcGuardianSkillEffect(result)
+                                calcGuardianSelfBuff(level, linkCount, shieldRefine, result)
+                                calcGuardianParyBuff(level, shieldRefine, result)
+                                addGuardianExtraInfo(result)
+                            }
+
+                            calcGuardianValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>

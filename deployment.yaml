@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs-app
+spec:
+  replicas: 3  # Adjust the number of replicas as needed
+  selector:
+    matchLabels:
+      app: nodejs-app
+  template:
+    metadata:
+      labels:
+        app: nodejs-app
+    spec:
+      containers:
+      - name: nodejs-app
+        image: your-docker-image:latest  # Replace with your custom Docker image
+        ports:
+        - containerPort: 5000  # The port your app listens on
+        env:
+        - name: PORT
+          value: "5000"
+        volumeMounts:
+        - name: app-content
+          mountPath: /app
+      volumes:
+      - name: app-content
+        configMap:
+          name: nodejs-app-content  # Optional: Define a ConfigMap for content, if necessary
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nodejs-app-service
+spec:
+  selector:
+    app: nodejs-app
+  ports:
+    - protocol: TCP
+      port: 80  # Port exposed by the service
+      targetPort: 5000  # Port the container listens on
+  type: LoadBalancer  # Adjust type as needed (e.g., ClusterIP for internal access)
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nodejs-app-content
+data:
+  # Example: You can include config files or environment data here
+  server.js: |
+    # The content of your server.js file, if needed
+  routes.js: |
+    # The content of your routes.js file

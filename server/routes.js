@@ -130,29 +130,42 @@ router.get('/aux1/*', (req, res) => {
 });
 
 router.get('/freerouting/*', (req, res) => {
-    const fileExtension = path.extname(req.url); // Extract file extension
+    const fileExtension = path.extname(req.params[0]);
     console.log(`Requested file type: ${fileExtension}`);
-    const filePath = path.join(__dirname, '..', req.params[0]);
-    if (fs.existsSync(filePath)) {
 
-        // Handle different file types
+    const filePath = path.join(__dirname, '..', req.params[0]);
+    console.log(`File path: ${filePath}`);
+
+    if (fs.existsSync(filePath)) {
+        console.log("File exists. Processing...");
+
         switch (fileExtension) {
             case '.ejs':
-                res.render(filePath)
+                console.log("Rendering EJS file...");
+                res.render(filePath, (err, html) => {
+                    if (err) {
+                        console.error("Error rendering EJS:", err);
+                        res.status(500).send("Error rendering EJS.");
+                    } else {
+                        res.send(html); // Ensure it outputs the rendered HTML
+                    }
+                });
                 break;
+
             case '':
-                // Handle requests without file extension (e.g., routes)
-                res.send(filePath);
-                break;
-            default:
-                // For unsupported file types, respond with 404
                 res.status(404).send('Unsupported file type');
+                break;
+
+            default:
+                res.sendFile(filePath);
         }
 
     } else {
+        console.log("File not found!");
         res.status(404).send('<p>File not found</p>');
     }
 });
+
 
 // Serve the sitemap
 router.get('/sitemaps', (_req, res) => {

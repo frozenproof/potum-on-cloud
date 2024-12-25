@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Dagger Skills Tree</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <%- include('../../templates/headers/metadata') %>
+
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+        <script src="../templates/axios.min.js"></script>
+        <script>
+            // wew have works to do
+            function roundToTwoDecimals(value) {
+                return Math.round(value * 100) / 100;
+            }
+        </script>
+</head>
+
+<body>
+    <%- include('../../templates/headers/header') %>
+
+        <div id="content">
+            <div class="container">
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/throwingknife.png" width="34" height="34">
+                                Throwing Knife
+                            </p>
+                            <p class="medium">
+                                Skill Throwing Knife Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>Lv1-9: 100mp; Lv10: 0mp</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attack by throwing a dagger. <font style="color:#009fff">MP Cost becomes 0 when reaching
+                                    Lv10 and normal attack proration will be applied.</font>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="throwingKnifeLevel" onchange="calcthrowingKnifeValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="throwingKnifeValue">
+                            <li><b>MP Cost</b>: 100</li>
+                            <li><b>Skill Constant:</b> 0</li>
+                            <li><b>Skill Multiplier:</b> 0.14</li><br>
+                            <li>The <b>equipped dagger's WeaponATK</b> is added at the very end of damage calculation,
+                                ignoring all kinds of defenses of the target except <b>Guard</b></li>
+                            <li>This skill inflicts <b>Physical Proration</b>, and uses <b>Physical Proration</b> for
+                                its damage calculation</li>
+                        </span>
+
+                        <script>
+                            function calcThrowingKnifeMpCost(level, result) {
+                                var cost = 100
+                                if (level == 10) { cost = 0 }
+                                result.innerHTML = `<li><b>MP Cost</b>: ${cost}</li>`
+                            }
+
+                            function calcThrowingKnifeConstant(result) {
+                                result.innerHTML += `<li><b>Skill Constant:</b> 0</li>`
+                            }
+
+                            function calcThrowingKnifeMultiplier(level, result) {
+                                var multiplier = 0.1 + (0.04 * level)
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li>`
+                            }
+
+                            function calcEffectThrowingKnife(level, result) {
+                                let HTML = `<br><li>The <b>equipped dagger's WeaponATK</b> is added at the very end of damage calculation, ignoring all kinds of defenses of the target except <b>Guard</b></li>`
+                                if (level == 10) { HTML += `<li>This skill inflicts <b>Normal Attack Proration</b>, but uses <b>Physical Proration</b> for its damage calculation</li>` }
+                                else { HTML += `<li>This skill inflicts <b>Physical Proration</b>, and uses <b>Physical Proration</b> for its damage calculation</li>` }
+                                result.innerHTML += HTML
+                            }
+
+                            function calcthrowingKnifeValue() {
+                                let levelSelector = document.getElementById("throwingKnifeLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById("throwingKnifeValue")
+                                calcThrowingKnifeMpCost(level, result)
+                                calcThrowingKnifeConstant(result)
+                                calcThrowingKnifeMultiplier(level, result)
+                                calcEffectThrowingKnife(level, result)
+                            }
+
+                            calcthrowingKnifeValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/spikedart.png" width="34" height="34">
+                                Spike Dart
+                            </p>
+                            <p class="medium">
+                                Skill Spike Dart Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>8</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Disturb the target's movement by throwing a dagger at the feet. The damage increases as
+                                DEX is higher. Chance to inflict [Slow Down] on the target.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="spikeDartLevel" onchange="calcSpikeDartValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"> <b>Dagger's WeaponATK:</b></span>
+                        <input type="number" value="1" min="1" id="spikeDartWatk" onchange="calcSpikeDartValue()"
+                            style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Base DEX:</b></span>
+                        <input type="number" value="255" min="1" max="510" id="spikeDartDexValue"
+                            onchange="calcSpikeDartValue()" style="width: 50px;"><br>
+                        <br>
+                        <span id="spikeDartValue">
+                            <li><b>Skill Constant: </b> 20; total constant of all hits</li>
+                            <li><b>Skill Multiplier:</b> 3.03; total multiplier of all hits</li>
+                            <li><b>Hit Count:</b> 6 hits; damage calculation is done <b>for the first hit</b>, then
+                                <b>copied for the other hits</b></li><br>
+                            <li><b>Slow Chance:</b> 100%</li>
+                            <li><b>Slow Duration:</b> 10 seconds</li><br>If the target dies before all hits take place,
+                            the remaining hits will not be shown
+                        </span>
+
+                        <script>
+                            function calcSpikeDartConstant(level, watk, result) {
+                                var constant = 10 + 1 * level + watk / 5
+                                constant = Math.floor(constant)
+                                var HTML = `<li><b>Skill Constant: </b> ${constant}`
+                                if (level > 1) { HTML += `; total constant of all hits` }
+                                HTML += `</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcSpikeDartMultiplier(level, dexValue, result) {
+                                var multiplier = 0.75 + 0.075 * level + ((dexValue / 100) / (20 - 1 * level)) * (1 + Math.floor(level / 2))
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.00999999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else (multiplier = Math.round(multiplier * 100) / 100)
+                                var HTML = `<li><b>Skill Multiplier:</b> ${multiplier}`
+                                if (level > 1) { HTML += `; total multiplier of all hits` }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcSpikeDartHitCount(level, result) {
+                                var hitCount = 1 + Math.floor(level / 2)
+                                var HTML = `<li><b>Hit Count:</b> ${hitCount} hit`
+                                if (hitCount != 1) { HTML += `s; damage calculation is done <b>for the first hit</b>, then <b>copied for the other hits</b>` }
+                                HTML += `</li><br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcSpikeDartSlowChance(level, result) {
+                                var chance = 50 + 5 * level
+                                result.innerHTML += `<li><b>Slow Chance:</b> ${chance}%</li>
+                    <li><b>Slow Duration:</b> 10 seconds</li>`
+                            }
+
+                            function calcEffectSpikeDart(level, result) {
+                                if (level > 1) { result.innerHTML += `<br>If the target dies before all hits take place, the remaining hits will not be shown` }
+                            }
+
+                            function calcSpikeDartValue() {
+                                let levelSelector = document.getElementById("spikeDartLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                var watk = document.getElementById("spikeDartWatk").value
+                                var dexValue = document.getElementById("spikeDartDexValue").value
+                                let result = document.getElementById("spikeDartValue")
+                                calcSpikeDartConstant(level, watk, result)
+                                calcSpikeDartMultiplier(level, dexValue, result)
+                                calcSpikeDartHitCount(level, result)
+                                calcSpikeDartSlowChance(level, result)
+                                calcEffectSpikeDart(level, result)
+                            }
+
+                            calcSpikeDartValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/gatlingknife.png" width="34" height="34">
+                                Gatling Knife
+                            </p>
+                            <p class="medium">
+                                Skill Gatling Knife Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>8</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Throw a lot of knives single-mindedly. The damage increases as STR, AGI and DEX are
+                                higher.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="gatlingKnifeLevel" onchange="calcGatlingKnifeValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"> <b>Dagger's WeaponATK:</b></span>
+                        <input type="number" value="1" min="1" id="gatlingKnifeWatk" onchange="calcGatlingKnifeValue()"
+                            style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Base STR:</b></span>
+                        <input type="number" value="255" min="1" max="510" id="gatlingKnifeStrValue"
+                            onchange="calcGatlingKnifeValue()" style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Base AGI:</b></span>
+                        <input type="number" value="247" min="1" max="510" id="gatlingKnifeAgiValue"
+                            onchange="calcGatlingKnifeValue()" style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Base DEX:</b></span>
+                        <input type="number" value="1" min="1" max="510" id="gatlingKnifeDexValue"
+                            onchange="calcGatlingKnifeValue()" style="width: 50px;"><br>
+                        <br>
+                        <span id="gatlingKnifeValue">
+                            <li><b>Skill Constant: </b> 41; constant for each hit</li>
+                            <li><b>Skill Multiplier:</b> 1.24; multiplier for each hit</li>
+                            <li><b>Hit Count:</b> 8 hits; damage calculation is done <b>for the first hit</b>, then
+                                <b>copied for the other hits</b></li><br>If the target dies before all hits take place,
+                            the remaining hits will not be shown
+                        </span>
+
+                        <script>
+                            function calcGatlingKnifeConstant(level, watk, result) {
+                                var constant = 20 + 2 * level + watk * 1
+                                result.innerHTML = `<li><b>Skill Constant: </b> ${constant}; constant for each hit</li>`
+                            }
+
+                            function calcGatlingKnifeMultiplier(level, strValue, agiValue, dexValue, result) {
+                                var multiplier = 0.4 + 0.1 * (level - 1) * 0.75 + (dexValue / 3000 + strValue / 3000 + agiValue / 3000)
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.009999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; multiplier for each hit</li>`
+                            }
+
+                            function calcGatlingKnifeHitCount(level, result) {
+                                var hitCount = 5 + Math.floor((2 + 1 * level) / 4)
+                                result.innerHTML += `<li><b>Hit Count:</b> ${hitCount} hits; damage calculation is done <b>for the first hit</b>, then <b>copied for the other hits</b></li>`
+                            }
+
+                            function calcEffectGatlingKnife(level, result) {
+                                if (level > 1) { result.innerHTML += `<br>If the target dies before all hits take place, the remaining hits will not be shown` }
+                            }
+
+                            function calcGatlingKnifeValue() {
+                                let levelSelector = document.getElementById("gatlingKnifeLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                var watk = document.getElementById("gatlingKnifeWatk").value
+                                var strValue = document.getElementById("gatlingKnifeStrValue").value
+                                var agiValue = document.getElementById("gatlingKnifeAgiValue").value
+                                var dexValue = document.getElementById("gatlingKnifeDexValue").value
+                                let result = document.getElementById("gatlingKnifeValue")
+                                calcGatlingKnifeConstant(level, watk, result)
+                                calcGatlingKnifeMultiplier(level, strValue, agiValue, dexValue, result)
+                                calcGatlingKnifeHitCount(level, result)
+                                calcEffectGatlingKnife(level, result)
+                            }
+
+                            calcGatlingKnifeValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/amazingthrow.png" width="34" height="34">
+                                Amazing Throw
+                            </p>
+                            <p class="medium">
+                                Skill Amazing Throw Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>An astounding throwing skill. Add the chance to increase hit counts to all the Dagger
+                                Skills.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="amazingThrowLevel" onchange="calcAmazingThrowEffect()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="amazingThrowValues">Attacks from <b>Dagger Skills</b> (including <b>Hidden Arm</b>,
+                            but exclude <b>Flincher Knife/Fighting Knife</b>) can have a 30% chance to deal <b>double of
+                                its total amount of hits (effectively doubling its damage)</b><br>
+                            <br><b>Extra info:</b>
+                            <li>The Additional Hits dealt by this passive are all dealt after the first hit of the main
+                                skill; in case of multi-hit skill, this will result in a rapid succession of hits, which
+                                can possibly allow skipping some phase-changing mechanisms of some bosses</li>
+                            <li><b>Spike Dart</b> seems to always activate this passive regardless of level</li>
+                        </span>
+
+                        <script>
+                            function calcAmazingThrowEffect() {
+                                var levelSelector = document.getElementById("amazingThrowLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var chance = 3 * level
+                                var result = document.getElementById("amazingThrowValues")
+                                result.innerHTML = `Attacks from <b>Dagger Skills</b> (including <b>Hidden Arm</b>, but exclude <b>Flincher Knife/Fighting Knife</b>) can have a ${chance}% chance to deal <b>double of its total amount of hits (effectively doubling its damage)</b><br>
+                    <br><b>Extra info:</b>
+                    <li>The Additional Hits dealt by this passive are all dealt after the first hit of the main skill; in case of multi-hit skill, this will result in a rapid succession of hits, which can possibly allow skipping some phase-changing mechanisms of some bosses</li>
+                    <li><b>Spike Dart</b> seems to always activate this passive regardless of level</li>`
+                            }
+
+                            calcAmazingThrowEffect()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/poisondagger.png" width="34" height="34">
+                                Poison Dagger
+                            </p>
+                            <p class="medium">
+                                Skill Poison Dagger Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>200</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>8</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Attack with a poisoned dagger. The damage increases as INT is higher. Chance to inflict
+                                [Poison].</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="poisonDaggerLevel" onchange="calcPoisonDaggerValue()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Caster Level:</b></span>
+                        <input type="number" value="200" id="poisonDaggerCasterLevel" min="1"
+                            onchange="calcPoisonDaggerValue()" style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Total AGI:</b></span>
+                        <input type="number" value="255" id="poisonDaggerAgiValue" onchange="calcPoisonDaggerValue()"
+                            style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Total DEX:</b></span>
+                        <input type="number" value="1" id="poisonDaggerDexValue" onchange="calcPoisonDaggerValue()"
+                            style="width: 50px;"><br>
+                        <span class="sub-title"> <b>Base INT:</b></span>
+                        <input type="number" value="255" min="1" max="510" id="poisonDaggerIntValue"
+                            onchange="calcPoisonDaggerValue()" style="width: 50px;"><br>
+                        <br>
+                        <span id="poisonDaggerValue">
+                            <li><b>Skill Constant: </b> 910</li>
+                            <li><b>Skill Multiplier:</b> 3.3</li><br>
+                            <li><b>Poison Chance:</b> 100%</li>
+                            <li><b>Poison Duration:</b> 10 seconds</li>
+                        </span>
+
+                        <script>
+                            function calcPoisonDaggerConstant(level, casterLevel, agiValue, dexValue, result) {
+                                var constant = 100 + 10 * level + 1 * casterLevel + agiValue * 2 + Math.floor(dexValue / 2)
+                                result.innerHTML = `<li><b>Skill Constant: </b> ${constant}</li>`
+                            }
+
+                            function calcPoisonDaggerMultiplier(level, intValue, result) {
+                                var multiplier = 0.5 + 0.025 * level + intValue / ((11 - level * 1) * 100)
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.0099999999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcPoisonDaggerPoisonChance(level, result) {
+                                var chance = Math.floor(75 + 2.5 * level)
+                                result.innerHTML += `<li><b>Poison Chance:</b> ${chance}%</li>
+                    <li><b>Poison Duration:</b> 10 seconds</li>`
+                            }
+
+                            function calcPoisonDaggerValue() {
+                                let levelSelector = document.getElementById("poisonDaggerLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let casterLevel = document.getElementById("poisonDaggerCasterLevel").value
+                                let agiValue = document.getElementById("poisonDaggerAgiValue").value
+                                let dexValue = document.getElementById("poisonDaggerDexValue").value
+                                let intValue = document.getElementById("poisonDaggerIntValue").value
+                                let result = document.getElementById("poisonDaggerValue")
+                                calcPoisonDaggerConstant(level, casterLevel, agiValue, dexValue, result)
+                                calcPoisonDaggerMultiplier(level, intValue, result)
+                                calcPoisonDaggerPoisonChance(level, result)
+                            }
+
+                            calcPoisonDaggerValue()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/doublethrow.png" width="34" height="34">
+                                Double Stab
+                            </p>
+                            <p class="medium">
+                                Skill Double Stab Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Raises the next dagger skill power used after Evasion. Requires some time to reactivate
+                                after 1 activation. Reactivate faster by leveling the skill. <font
+                                    style="color:#009fff">Has no effect on skills that do not consume MP.</font>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="doubleStabLevel" onchange="calcDoubleStabEffect()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="doubleStabValues">After activating <b>Evasion</b>, the next <b>Dagger Skill</b> will
+                            <b>have its damage doubled</b>; this effect enters a cooldown of 20 seconds after the effect
+                            is used, during which you cannot activate it again
+                            <li>Skills that <b>does not consume MP</b> (including by combo tags) will neither receive
+                                this skill's effect, nor will it consume the effect</li>
+                            <li>Does not affect the Additional Hits from <b>Amazing Throw</b></li>
+                        </span>
+
+                        <script>
+                            function calcDoubleStabEffect() {
+                                var levelSelector = document.getElementById("doubleStabLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var cooldown = 30 - 1 * level
+                                var result = document.getElementById("doubleStabValues")
+                                result.innerHTML = `After activating <b>Evasion</b>, the next <b>Dagger Skill</b> will <b>have its damage doubled</b>; this effect enters a cooldown of ${cooldown} seconds after the effect is used, during which you cannot activate it again
+                    <li>Skills that <b>does not consume MP</b> (including by combo tags) will neither receive this skill's effect, nor will it consume the effect</li>
+                    <li>Does not affect the Additional Hits from <b>Amazing Throw</b></li>`
+                            }
+
+                            calcDoubleStabEffect()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/hiddenarm.png" width="34" height="34">
+                                Hidden Arm
+                            </p>
+                            <p class="medium">
+                                Skill Hidden Arm Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Chance to add small damage to normal attacks by equipping a dagger.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="hiddenArmSkillLevel" onchange="calcHiddenArmValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>"Intensive Knife" Skill Level:</b></span>
+                        <select id="intensiveKnifeLevel" onchange="calcHiddenArmValues()">
+                            <option value="0" selected="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select><br>
+                        <br>
+                        <span id="hiddenArmValues">
+                            <li><b>Auto attacks</b> have 50% chance to trigger an <b>Additional Attack</b></li>
+                            <li><b>Additional Attack Skill Constant:</b> 0</li>
+                            <li><b>Additional Attack Skill Multiplier:</b> 0.25</li><br><b>Extra info:</b>
+                            <li>The <b>Additional Attack</b> cannot deal Critical hits and does not apply AMPR</li>
+                            <li><b>Hidden Arm</b> goes through <b>Physical Damage Calculation</b>; the <b>equipped
+                                    dagger's WeaponATK</b> is added at the very end of damage calculation, ignoring all
+                                kinds of defenses of the target except <b>Guard</b></li>
+                            <li><b>Hidden Arm</b> uses <b>Normal Attack Proration</b> for its damage calculation, but
+                                <b>does not inflict proration</b></li>
+                        </span>
+
+                        <script>
+                            function calcHiddenArmAdditionalChance(level, intensiveLevel, result) {
+                                let additionalChance = 5 * level + 5 * intensiveLevel
+                                result.innerHTML = `<li><b>Auto attacks</b> have ${additionalChance}% chance to trigger an <b>Additional Attack</b></li>`
+                            }
+
+                            function calcHiddenArmConstant(result) {
+                                result.innerHTML += `<li><b>Additional Attack Skill Constant:</b> 0</li>`
+                            }
+
+                            function calcHiddenArmMultiplier(level, intensiveLevel, result) {
+                                let multiplier = 0.25
+                                if (intensiveLevel > 0) { multiplier += 0.25 }
+                                result.innerHTML += `<li><b>Additional Attack Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function hiddenArmExtraInformation(result) {
+                                result.innerHTML += `<b>Extra info:</b>
+                    <li>The <b>Additional Attack</b> cannot deal Critical hits and does not apply AMPR</li>
+                    <li><b>Hidden Arm</b> goes through <b>Physical Damage Calculation</b>; the <b>equipped dagger's WeaponATK</b> is added at the very end of damage calculation, ignoring all kinds of defenses of the target except <b>Guard</b></li>
+                    <li><b>Hidden Arm</b> uses <b>Normal Attack Proration</b> for its damage calculation, but <b>does not inflict proration</b></li>`
+                            }
+
+                            function calcHiddenArmValues() {
+                                let levelSelector = document.getElementById('hiddenArmSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let intensiveKnifeSelector = document.getElementById('intensiveKnifeLevel')
+                                let intensiveLevel = intensiveKnifeSelector[intensiveKnifeSelector.selectedIndex].value
+                                let result = document.getElementById('hiddenArmValues')
+                                calcHiddenArmAdditionalChance(level, intensiveLevel, result)
+                                calcHiddenArmConstant(result)
+                                calcHiddenArmMultiplier(level, intensiveLevel, result)
+                                hiddenArmExtraInformation(result)
+                            }
+
+                            calcHiddenArmValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/intenseknife.png" width="34" height="34">
+                                Intensive Knife
+                            </p>
+                            <p class="medium">
+                                Skill Intensive Knife Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Increase the damage and activation rate of Hidden Arm.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="intensiveKnifeSkillLevel" onchange="calcIntensiveKnifeValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="intensiveKnifeValues">
+                            <li><b>Hidden Arm Activation Chance</b> +50%</li>
+                            <li><b>Hidden Arm Skill Multiplier</b> +0.25</li>
+                        </span>
+
+                        <script>
+                            function calcIntensiveKnifeActivationChance(level, result) {
+                                result.innerHTML = `<li><b>Hidden Arm Activation Chance</b> +${5 * level}%</li>`
+                            }
+
+                            function calcIntensiveKnifeMultiplier(result) {
+                                multiplier = 0.25
+                                result.innerHTML += `<li><b>Hidden Arm Skill Multiplier</b> +${multiplier}</li>`
+                            }
+
+                            function calcIntensiveKnifeValues() {
+                                let levelSelector = document.getElementById("intensiveKnifeSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById("intensiveKnifeValues")
+                                calcIntensiveKnifeActivationChance(level, result)
+                                calcIntensiveKnifeMultiplier(result)
+                            }
+
+                            calcIntensiveKnifeValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/mailbreaker.png" width="34" height="34">
+                                Mail Breaker
+                            </p>
+                            <p class="medium">
+                                Skill Mail Breaker Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Ignore certain amount of DEF when using Hidden Arm.<br> The next normal attack gets
+                                Critical Rate +75, Attack MP Recovery +100% at a small probability.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="mailBreakerLevel" onchange="calcMailBreakerValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="mailBreakerValues"><b>Skill Effect:</b>
+                            <li><b>Physical Pierce</b> of <b>Hidden Arm</b> +50%</li>
+                            <li>When <b>Hidden Arm</b> is activated, 10% chance to gain <b>Mail Breaker buff</b></li>
+                            <br><b>Buff Effect:</b> The next <b>auto attack</b> gains these bonuses:
+                            <li><b>Critical Rate</b> +75</li>
+                            <li><b>Attack MP Recovery</b> +100% of <b>Base AMPR</b></li>
+                            <li><b>Buff Duration:</b> Until an auto attack is used</li>
+                        </span>
+
+                        <script>
+                            function calcMailBreakerSkillEffect(level, result) {
+                                var pp = 10 + 4 * level
+                                var chance = 1 * level
+                                result.innerHTML = `<b>Skill Effect:</b>
+                    <li><b>Physical Pierce</b> of <b>Hidden Arm</b> +${pp}%</li>
+                    <li>When <b>Hidden Arm</b> is activated, ${chance}% chance to gain <b>Mail Breaker buff</b></li><br>`
+                            }
+
+                            function calcMailBreakerBuffEffect(result) {
+                                var cr = 75
+                                var ampr = 100
+                                result.innerHTML += `<b>Buff Effect:</b> The next <b>auto attack</b> gains these bonuses:
+                    <li><b>Critical Rate</b> +${cr}</li>
+                    <li><b>Attack MP Recovery</b> +${ampr}% of <b>Base AMPR</b></li>`
+                            }
+
+                            function calcMailBreakerBuffDuration(result) {
+                                result.innerHTML += `<li><b>Buff Duration:</b> Until an auto attack is used</li>`
+                            }
+
+                            function calcMailBreakerValues() {
+                                var levelSelector = document.getElementById("mailBreakerLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var result = document.getElementById("mailBreakerValues")
+                                calcMailBreakerSkillEffect(level, result)
+                                calcMailBreakerBuffEffect(result)
+                                calcMailBreakerBuffDuration(result)
+                            }
+
+                            calcMailBreakerValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/knifecombat.png" width="34" height="34">
+                                Knife Combat
+                            </p>
+                            <p class="medium">
+                                Skill Knife Combat Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>0</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>4</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Normal attacks turn into Dagger attacks. Increases Critical Rate and Attack MP Recovery.
+                                Reduces Evasion consumption during normal attack. Removes "normal attack proration". The
+                                effect ends when you use another skill.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/dagger.png"></p>
+                                <p>Dagger</p>
+                            </div>
+                            <p>The normal attacks during Knife Combat are enhanced by Hidden Arm, Intensive Knife, and
+                                Mail Breaker.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="knifeCombatSkillLevel" onchange="calcKnifeCombatValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="knifeCombatValues">
+                            <li><b>Initiating Strike Skill Constant:</b> 0</li>
+                            <li><b>Initiating Strike Skill Multiplier:</b> 1</li>
+                            <li><b>Initiating Strike Hit Count:</b> 1 hit</li><br>
+                            <li><b>Auto Attack Skill Constant </b> +0; total constant increase for all hits of 1 auto
+                                attack</li>
+                            <li><b>Auto Attack Skill Multiplier </b> +1.5; total multiplier increase for all hits of 1
+                                auto attack</li>
+                            <li><b>Auto Attack Hit Count:</b> 6 hits; damage calculation is done once then spread evenly
+                                between the hits</li><br><b>Skill Effect:</b> Grants <b>Knife Combat buff</b> to the
+                            <b>caster</b> upon successful cast<br><br><b>Buff Effect:</b>
+                            <li>Modifies the caster's auto attacks and change their hit counts; maximum attack range of
+                                the modified auto attacks is set to 4m regardless of <b>main weapon</b></li>
+                            <li>Modified auto attacks <b>does not inflict proration</b>, but <b>can be canceled with
+                                    Manual Evasion</b> at any point of the auto attack motion; if canceled this way, any
+                                properties tied with the remaining hits (including damage &amp; <b>Hidden Knife</b>
+                                hits) will also be canceled</li>
+                            <li><b>Manual Evasion</b> used for canceling modified auto attacks will have its <b>Evasion
+                                    consumption</b> reduced by 75%</li>
+                            <li><b>Critical Rate</b> of <b>auto attacks</b> +75</li>
+                            <li><b>Attack MP Recovery</b> +20</li>
+                            <li><b>Buff Duration:</b> Until a skill is used</li><br><b>Extra info:</b>
+                            <li>Supposedly, other attack motion modifier skills (e.g. <b>Rampage</b>, <b>Twin
+                                    Storm</b>,...) <b>should not be usable while this skill's buff is active</b>;
+                                however, since the buff of this skill is removed upon using a skill, said skills should
+                                actually still be usable, since using them will "remove the buff", thus allowing said
+                                skills to be usable</li>
+                            <li>The motion of the <b>modified auto attacks</b> is significantly slower than any other
+                                weapon that can equip a dagger; in exchange, <b>Manual Evasion</b> can be used during
+                                these auto attacks to cancel them prematurely, but doing so will also cancel the damage
+                                of any remaining hits along with any effect tied with them</li>
+                        </span>
+
+                        <script>
+                            function calcKnifeCombatInitiator(result) {
+                                result.innerHTML = `<li><b>Initiating Strike Skill Constant:</b> 0</li>
+                    <li><b>Initiating Strike Skill Multiplier:</b> 1</li>
+                    <li><b>Initiating Strike Hit Count:</b> 1 hit</li><br>`
+                            }
+
+                            function calcKnifeCombatAAConstant(result) {
+                                var constant = 0
+                                result.innerHTML += `<li><b>Auto Attack Skill Constant </b> +${constant}; total constant increase for all hits of 1 auto attack</li>`
+                            }
+
+                            function calcKnifeCombatAAMultiplier(level, result) {
+                                var multiplier = 0.5 + 0.1 * level
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Auto Attack Skill Multiplier </b> +${multiplier}; total multiplier increase for all hits of 1 auto attack</li>`
+                            }
+
+                            function calcKnifeCombatAAHitCount(result) {
+                                result.innerHTML += `<li><b>Auto Attack Hit Count:</b> 6 hits; damage calculation is done once then spread evenly between the hits</li>`
+                            }
+
+                            function addKnifeCombatSkillEffect(result) {
+                                result.innerHTML += `<br><b>Skill Effect:</b> Grants <b>Knife Combat buff</b> to the <b>caster</b> upon successful cast<br>`
+                            }
+
+                            function calcKnifeCombatBuffEffect(level, result) {
+                                var evasion = Math.floor(7.5 * level)
+                                var cr = 25 + 5 * level
+                                var HTML = `<br><b>Buff Effect:</b>
+                    <li>Modifies the caster's auto attacks and change their hit counts; maximum attack range of the modified auto attacks is set to 4m regardless of <b>main weapon</b></li>
+                    <li>Modified auto attacks <b>does not inflict proration</b>, but <b>can be canceled with Manual Evasion</b> at any point of the auto attack motion; if canceled this way, any properties tied with the remaining hits (including damage & <b>Hidden Knife</b> hits) will also be canceled</li>
+                    <li><b>Manual Evasion</b> used for canceling modified auto attacks will have its <b>Evasion consumption</b> reduced by ${evasion}%</li>
+                    <li><b>Critical Rate</b> of <b>auto attacks</b> +${cr}</li>
+                    <li><b>Attack MP Recovery</b> +${2 * level}</li>
+                    <li><b>Buff Duration:</b> Until a skill is used</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addKnifeCombatExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>Supposedly, other attack motion modifier skills (e.g. <b>Rampage</b>, <b>Twin Storm</b>,...) <b>should not be usable while this skill's buff is active</b>; however, since the buff of this skill is removed upon using a skill, said skills should actually still be usable, since using them will "remove the buff", thus allowing said skills to be usable</li>
+                    <li>The motion of the <b>modified auto attacks</b> is significantly slower than any other weapon that can equip a dagger; in exchange, <b>Manual Evasion</b> can be used during these auto attacks to cancel them prematurely, but doing so will also cancel the damage of any remaining hits along with any effect tied with them</li>`
+                            }
+
+                            function calcKnifeCombatValues() {
+                                var levelSelector = document.getElementById("knifeCombatSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var result = document.getElementById("knifeCombatValues")
+                                calcKnifeCombatInitiator(result)
+                                calcKnifeCombatAAConstant(result)
+                                calcKnifeCombatAAMultiplier(level, result)
+                                calcKnifeCombatAAHitCount(result)
+                                addKnifeCombatSkillEffect(result)
+                                calcKnifeCombatBuffEffect(level, result)
+                                addKnifeCombatExtraInfo(result)
+                            }
+
+                            calcKnifeCombatValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/flincherknife.png" width="34" height="34">
+                                Flincher Knife
+                            </p>
+                            <p class="medium">
+                                Skill Flincher Knife Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/dagger.png"><br>Dagger only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Physical skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>4</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Chance to inflict "Flinch" to a foe targeting you and turns into Knife Combat mode.
+                                Increases damage and Physical Pierce when not being targeted.</p>
+                        </div>
+                        <div class="span-2">
+                            <div class="accent-bold"
+                                style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+                                <p><img src="../../images/icon/dagger.png"></p>
+                                <p>Dagger</p>
+                            </div>
+                            <p>If this skill hits the target, it will shortened the time for the skill "Double Stab" to
+                                reactivate.<br>
+                                Since this skill is not a throwing skill, it is not affected by the skill "Double Stab"
+                                or "Amazing Throw".</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="flincherKnifeSkillLevel" onchange="calcFlincherKnifeValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Target's aggro is NOT on you:</b></span>
+                        <input type="checkbox" id="flincherKnifeNoAggro" onchange="calcFlincherKnifeValues()"><br>
+                        <br>
+                        <span id="flincherKnifeValues">
+                            <li><b>Skill Constant:</b> 300</li>
+                            <li><b>Skill Multiplier:</b> 4</li><br>
+                            <li>This skill will <b>always deal critical hits</b></li>
+                            <li>If this skill deals a <b>successful hit</b> (not [Miss]/[Graze]/[Evaded]), the cooldown
+                                of <b>Double Stab</b> will be reduced by 10 seconds</li>
+                            <li>Grants <b>Knife Combat buff</b> upon successful cast</li><br>
+                            <li><b>Flinch Chance:</b> 100%</li>
+                            <li><b>Flinch Duration:</b> 2 seconds</li>
+                            <li><b>Resistance Duration on Difficulties:</b> 3 seconds (<b>Easy</b> and <b>Normal</b>); 5
+                                seconds (<b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li>
+                            <br><b>Extra info:</b>
+                            <li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding
+                                ailment; most ailments have the same resistance duration as their own duration, unless
+                                stated otherwise</li>
+                            <li>Despite being a <b>Dagger Skill</b>, this skill is unaffected by both <b>Amazing
+                                    Throw</b> and <b>Double Stab</b></li>
+                        </span>
+
+                        <script>
+                            function calcFlincherKnifeSlashConstant(level, result) {
+                                var constant = 30 * level
+                                result.innerHTML = `<li><b>Skill Constant:</b> ${constant}</li>`
+                            }
+
+                            function calcFlincherKnifeSlashMultiplier(level, noAggro, result) {
+                                var multiplier = 2 + 0.2 * level
+                                if (noAggro) { multiplier *= 2 }
+                                multiplier = Math.round(multiplier * 100) / 100
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li><br>`
+                            }
+
+                            function calcFlincherKnifeSkillEffect(level, noAggro, result) {
+                                var pp = level * level
+                                var HTML = ``
+                                if (noAggro) {
+                                    HTML += `<li>This skill's name is changed to <b>Fighting Knife</b></li>
+                    <li><b>Physical Pierce</b> of <b>Fighting Knife</b> +${pp}%</li>`
+                                }
+                                HTML += `<li>This skill will <b>always deal critical hits</b></li>
+                    <li>If this skill deals a <b>successful hit</b> (not [Miss]/[Graze]/[Evaded]), the cooldown of <b>Double Stab</b> will be reduced by 10 seconds</li>
+                    <li>Grants <b>Knife Combat buff</b> upon successful cast</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcFlincherKnifeFlinchChance(level, noAggro, result) {
+                                var chance = Math.min(20 * level, 100)
+                                if (!noAggro) {
+                                    result.innerHTML += `<br><li><b>Flinch Chance:</b> ${chance}%</li>
+                    <li><b>Flinch Duration:</b> 2 seconds</li>
+                    <li><b>Resistance Duration on Difficulties:</b> 3 seconds (<b>Easy</b> and <b>Normal</b>); 5 seconds (<b>Hard</b>); 8 seconds (<b>Nightmare</b>); 11 seconds (<b>Ultimate</b>)</li>`}
+                            }
+
+                            function addFlincherKnifeExtraInfo(noAggro, result) {
+                                var HTML = `<br><b>Extra info:</b>`
+                                if (!noAggro) { HTML += `<li><b>Ailment Resistance Duration</b> starts upon successfully inflicting the corresponding ailment; most ailments have the same resistance duration as their own duration, unless stated otherwise</li>` }
+                                HTML += `<li>Despite being a <b>Dagger Skill</b>, this skill is unaffected by both <b>Amazing Throw</b> and <b>Double Stab</b></li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcFlincherKnifeValues() {
+                                var levelSelector = document.getElementById("flincherKnifeSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var noAggro = document.getElementById("flincherKnifeNoAggro").checked
+                                var result = document.getElementById("flincherKnifeValues")
+                                calcFlincherKnifeSlashConstant(level, result)
+                                calcFlincherKnifeSlashMultiplier(level, noAggro, result)
+                                calcFlincherKnifeSkillEffect(level, noAggro, result)
+                                calcFlincherKnifeFlinchChance(level, noAggro, result)
+                                addFlincherKnifeExtraInfo(noAggro, result)
+                            }
+
+                            calcFlincherKnifeValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>

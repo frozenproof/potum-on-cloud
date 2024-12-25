@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Guard Skills Tree</title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <%- include('../../templates/headers/metadata') %>
+
+    <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+    <script src="../templates/axios.min.js"></script>
+    <script>
+      // wew have works to do
+      function roundToTwoDecimals(value) {
+        return Math.round(value * 100) / 100;
+      }
+    </script>
+</head>
+
+<body>
+  <%- include('../../templates/headers/header') %>
+
+    <div id="content">
+      <div class="container">
+        <div>
+          <div style="display:grid;grid-template-columns: 1fr 1fr;">
+            <div>
+              <p class="card-title">
+                <img src="../../images/skills/heavyarmor.png" width="34" height="34">
+                Heavy Armor Mastery
+              </p>
+              <p class="medium">
+                Skill Heavy Armor Mastery Level 1 </p>
+            </div>
+            <div style="justify-self:end;">
+              <img src="../../images/icon/heavy.png"><br>Heavy Armor only
+            </div>
+          </div>
+          <hr class="separator">
+          <div class="monster-prop">
+            <div>
+              <p class="accent-bold">Type</p>
+              <p>Passive</p>
+            </div>
+            <div>
+              <p class="accent-bold"></p>
+              <p>Neutral</p>
+            </div>
+            <div class="span-2">
+              <p class="accent-bold">Description</p>
+              <p>Increases Guard Recharge when heavy-remodeled armor is equipped.</p>
+            </div>
+          </div>
+          <p class="accent-bold">Extras</p>
+          <p></p>
+          <details>
+            <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+            <select id="heavyArmorMasteryLevel" onchange="calcHeavyArmorMasteryValues()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10" selected="">10</option>
+            </select><br>
+            <br>
+            <span id="heavyArmorMasteryValues">
+              <li><b>Guard Recharge</b> +10%</li>
+            </span>
+
+            <script>
+              function calcHeavyArmorMasteryValues() {
+                var levelSelector = document.getElementById("heavyArmorMasteryLevel")
+                var level = levelSelector[levelSelector.selectedIndex].value
+                var guardRecharge = 1 * level
+                var result = document.getElementById("heavyArmorMasteryValues")
+                result.innerHTML = `<li><b>Guard Recharge</b> +${guardRecharge}%</li>`
+              }
+
+              calcHeavyArmorMasteryValues()
+            </script>
+          </details>
+          <p></p>
+        </div>
+
+        <div>
+          <div style="display:grid;grid-template-columns: 1fr 1fr;">
+            <div>
+              <p class="card-title">
+                <img src="../../images/skills/advancedguard.png" width="34" height="34">
+                Advanced Guard
+              </p>
+              <p class="medium">
+                Skill Advanced Guard Level 2 </p>
+            </div>
+            <div style="justify-self:end;">
+              <img src="../../images/icon/heavy.png"><br>Heavy Armor only
+            </div>
+          </div>
+          <hr class="separator">
+          <div class="monster-prop">
+            <div>
+              <p class="accent-bold">Type</p>
+              <p>Passive</p>
+            </div>
+            <div>
+              <p class="accent-bold"></p>
+              <p>Neutral</p>
+            </div>
+            <div class="span-2">
+              <p class="accent-bold">Description</p>
+              <p>Increases (<font style="color:#009fff">Damage Reduction</font>) by Guard Power when heavy-remodeled
+                armor is equipped. Also slightly increases Guard Recharge.</p>
+            </div>
+          </div>
+          <p class="accent-bold">Extras</p>
+          <p></p>
+          <details>
+            <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+            <select id="advancedGuardLevel" onchange="calcAdvancedGuardValues()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10" selected="">10</option>
+            </select><br>
+            <br>
+            <span id="advancedGuardValues">
+              <li><b>Guard Recharge</b> +10%</li>
+              <li><b>Guard Power</b> +5%</li>
+            </span>
+
+            <script>
+              function calcAdvancedGuardValues() {
+                var levelSelector = document.getElementById("advancedGuardLevel")
+                var level = levelSelector[levelSelector.selectedIndex].value
+                var guardRecharge = 1 * level
+                var guardPower = Math.floor((1 + level * 1) / 2)
+                var result = document.getElementById("advancedGuardValues")
+                result.innerHTML = `<li><b>Guard Recharge</b> +${guardRecharge}%</li>
+                    <li><b>Guard Power</b> +${guardPower}%</li>`
+              }
+
+              calcAdvancedGuardValues()
+            </script>
+          </details>
+          <p></p>
+        </div>
+
+        <div>
+          <div style="display:grid;grid-template-columns: 1fr 1fr;">
+            <div>
+              <p class="card-title">
+                <img src="../../images/skills/physicalguard.png" width="34" height="34">
+                Physical Guard
+              </p>
+              <p class="medium">
+                Skill Physical Guard Level 3 </p>
+            </div>
+            <div style="justify-self:end;">
+              <img src="../../images/icon/all.png"><br>Available with all weapons
+            </div>
+          </div>
+          <hr class="separator">
+          <div class="monster-prop">
+            <div>
+              <p class="accent-bold">Type</p>
+              <p>Passive</p>
+            </div>
+            <div>
+              <p class="accent-bold"></p>
+              <p>Neutral</p>
+            </div>
+            <div class="span-2">
+              <p class="accent-bold">Description</p>
+              <p>Increases Ailment Resistance from Guard when running low on HP.<br>
+                Higher skill level enables the skill to be activated with more HP remaining.</p>
+            </div>
+          </div>
+          <p class="accent-bold">Extras</p>
+          <p></p>
+          <details>
+            <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+            <select id="physicalGuardLevel" onchange="calcPhysicalGuardValues()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10" selected="">10</option>
+            </select><br>
+            <br>
+            <span id="physicalGuardValues"><b>Doubles Guard's ailment resistance</b> when your <b>current HP</b> is
+              below 50% of your <b>MaxHP</b></span>
+
+            <script>
+              function calcPhysicalGuardValues() {
+                var levelSelector = document.getElementById("physicalGuardLevel")
+                var level = levelSelector[levelSelector.selectedIndex].value
+                var hpThreshold = 5 * level
+                var result = document.getElementById("physicalGuardValues")
+                result.innerHTML = `<b>Doubles Guard's ailment resistance</b> when your <b>current HP</b> is below ${hpThreshold}% of your <b>MaxHP</b>`
+              }
+
+              calcPhysicalGuardValues()
+            </script>
+          </details>
+          <p></p>
+        </div>
+
+        <div>
+          <div style="display:grid;grid-template-columns: 1fr 1fr;">
+            <div>
+              <p class="card-title">
+                <img src="../../images/skills/lightarmor.png" width="34" height="34">
+                Light Armor Mastery
+              </p>
+              <p class="medium">
+                Skill Light Armor Mastery Level 1 </p>
+            </div>
+            <div style="justify-self:end;">
+              <img src="../../images/icon/light.png"><br>Light Armor only
+            </div>
+          </div>
+          <hr class="separator">
+          <div class="monster-prop">
+            <div>
+              <p class="accent-bold">Type</p>
+              <p>Passive</p>
+            </div>
+            <div>
+              <p class="accent-bold"></p>
+              <p>Neutral</p>
+            </div>
+            <div class="span-2">
+              <p class="accent-bold">Description</p>
+              <p>Increases Evasion Recharge when light-remodeled armor is equipped.</p>
+            </div>
+          </div>
+          <p class="accent-bold">Extras</p>
+          <p></p>
+          <details>
+            <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+            <select id="lightArmorMasteryLevel" onchange="calcLightArmorMasteryValues()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10" selected="">10</option>
+            </select><br>
+            <br>
+            <span id="lightArmorMasteryValues">
+              <li><b>Evasion Recharge</b> +10%</li>
+            </span>
+
+            <script>
+              function calcLightArmorMasteryValues() {
+                var levelSelector = document.getElementById("lightArmorMasteryLevel")
+                var level = levelSelector[levelSelector.selectedIndex].value
+                var evasionRecharge = 1 * level
+                var result = document.getElementById("lightArmorMasteryValues")
+                result.innerHTML = `<li><b>Evasion Recharge</b> +${evasionRecharge}%</li>`
+              }
+
+              calcLightArmorMasteryValues()
+            </script>
+          </details>
+          <p></p>
+        </div>
+
+        <div>
+          <div style="display:grid;grid-template-columns: 1fr 1fr;">
+            <div>
+              <p class="card-title">
+                <img src="../../images/skills/advancedevasion.png" width="34" height="34">
+                Advanced Evasion
+              </p>
+              <p class="medium">
+                Skill Advanced Evasion Level 2 </p>
+            </div>
+            <div style="justify-self:end;">
+              <img src="../../images/icon/light.png"><br>Light Armor only
+            </div>
+          </div>
+          <hr class="separator">
+          <div class="monster-prop">
+            <div>
+              <p class="accent-bold">Type</p>
+              <p>Passive</p>
+            </div>
+            <div>
+              <p class="accent-bold"></p>
+              <p>Neutral</p>
+            </div>
+            <div class="span-2">
+              <p class="accent-bold">Description</p>
+              <p>Increases Evasion Recharge when light-remodeled armor is equipped.<br>
+                The amount raised per level is the same as the effect of <font style="color:#009fff">Light Armor Mastery
+                </font>.</p>
+            </div>
+          </div>
+          <p class="accent-bold">Extras</p>
+          <p></p>
+          <details>
+            <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+            <select id="advancedEvasionLevel" onchange="calcAdvancedEvasionValues()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10" selected="">10</option>
+            </select><br>
+            <br>
+            <span id="advancedEvasionValues">
+              <li><b>Evasion Recharge</b> +10%</li>
+            </span>
+
+            <script>
+              function calcAdvancedEvasionValues() {
+                var levelSelector = document.getElementById("advancedEvasionLevel")
+                var level = levelSelector[levelSelector.selectedIndex].value
+                var evasionRecharge = 1 * level
+                var result = document.getElementById("advancedEvasionValues")
+                result.innerHTML = `<li><b>Evasion Recharge</b> +${evasionRecharge}%</li>`
+              }
+
+              calcAdvancedEvasionValues()
+            </script>
+          </details>
+          <p></p>
+        </div>
+
+        <div>
+          <div style="display:grid;grid-template-columns: 1fr 1fr;">
+            <div>
+              <p class="card-title">
+                <img src="../../images/skills/mirageevasion.png" width="34" height="34">
+                Mirage Evasion
+              </p>
+              <p class="medium">
+                Skill Mirage Evasion Level 3 </p>
+            </div>
+            <div style="justify-self:end;">
+              <img src="../../images/icon/all.png"><br>Available with all weapons
+            </div>
+          </div>
+          <hr class="separator">
+          <div class="monster-prop">
+            <div>
+              <p class="accent-bold">Type</p>
+              <p>Passive</p>
+            </div>
+            <div>
+              <p class="accent-bold"></p>
+              <p>Neutral</p>
+            </div>
+            <div class="span-2">
+              <p class="accent-bold">Description</p>
+              <p>Evasion becomes usable while charging or casting.<br>
+                The effect of this skill is lost for a few seconds if used. The duration depends on the skill level.</p>
+            </div>
+          </div>
+          <p class="accent-bold">Extras</p>
+          <p></p>
+          <details>
+            <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+            <select id="mirageEvasionLevel" onchange="calcMirageEvasionValues()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10" selected="">10</option>
+            </select><br>
+            <br>
+            <span id="mirageEvasionValues"><b>Evasion</b> can be used <b>during the charge/cast time</b> of skills that
+              has <b>charge/cast time</b>; has a <b>cooldown</b> of 10 seconds before it can be activated again</span>
+
+            <script>
+              function calcMirageEvasionValues() {
+                var levelSelector = document.getElementById("mirageEvasionLevel")
+                var level = levelSelector[levelSelector.selectedIndex].value
+                var cooldown = 20 - 1 * level
+                var result = document.getElementById("mirageEvasionValues")
+                result.innerHTML = `<b>Evasion</b> can be used <b>during the charge/cast time</b> of skills that has <b>charge/cast time</b>; has a <b>cooldown</b> of ${cooldown} seconds before it can be activated again`
+              }
+
+              calcMirageEvasionValues()
+            </script>
+          </details>
+          <p></p>
+        </div>
+
+
+      </div>
+    </div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>

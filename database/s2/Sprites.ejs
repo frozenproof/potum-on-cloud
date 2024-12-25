@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Sprites Skills Tree</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <%- include('../../templates/headers/metadata') %>
+
+        <link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+        <script src="../templates/axios.min.js"></script>
+        <script>
+            // wew have works to do
+            function roundToTwoDecimals(value) {
+                return Math.round(value * 100) / 100;
+            }
+        </script>
+</head>
+
+<body>
+    <%- include('../../templates/headers/header') %>
+
+        <div id="content">
+            <div class="container">
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/autodevice.png" width="34" height="34">
+                                Auto-Device
+                            </p>
+                            <p class="medium">
+                                Skill Auto-Device Level 1 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Magic skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A technique allowing magic device to assist attack.<br>
+                                Performs a normal attack on target after being idle for 60 seconds.
+                                <b style="color: #E77577">Efficiency reduced for long-range (8m or more).</b>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="autoDeviceSkillLevel" onchange="calcAutoDeviceValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Attack Speed:</b></span>
+                        <input type="number" style="width:5em; text-align: right" value="0" id="autoDeviceASPD"
+                            onchange="calcAutoDeviceValues()"><br>
+                        <span class="sub-title"><b>Target is beyond 8m range:</b></span>
+                        <input type="checkbox" id="longrange" onchange="calcAutoDeviceValues()"><br>
+                        <br>
+                        <span id="autoDeviceValues">
+                            <li><b>Device Attack Constant: </b> 0</li>
+                            <li><b>Device Attack Multiplier:</b> 1</li>
+                            <li><b>Hit Count:</b> 1 hit</li><br>
+                            <li>Grants <b>Auto-Device buff</b> to the <b>caster</b> upon successful cast</li>
+                            <br><b>Buff Effect:</b>
+                            <li>When you're <b>not performing any action</b> (except moving/walking normally) and <b>not
+                                    being afflicted with any interruption or [Silence]</b>, constantly deal magic
+                                attacks on the target</li>
+                            <li>The target must be within 12m range from the caster in order to trigger the attacks</li>
+                            <li>Each successful attack will recover MP equals to 100% of your <b>total Attack MP
+                                    Recovery</b></li>
+                            <li><b>Delay between attacks:</b> 1.1 seconds (affected by ASPD)</li>
+                            <li><b>Buff Duration:</b> 60 seconds</li><br><b>Extra Info:</b>
+                            <li>Auto-Device attacks go through <b>Magic Damage calculation</b>: they use MATK, Magic
+                                Stability, target's MDEF &amp; Magic Resistance, Magic Critical Rate &amp; Damage; they
+                                use <b>Normal Attack Proration</b> for their damage calculation, however</li>
+                            <li>Auto-Device attacks inflict <b>Normal Attack Proration</b></li>
+                            <li>Auto-Device attacks are treated as Magic attacks, thus they cannot [Miss], [Graze], nor
+                                be [Evaded]</li>
+                            <li>The damage of Auto-Device attacks is affected by auto attack damage modifiers, but not
+                                skill damage modifiers</li>
+                            <li>Auto-Device attacks are unaffected by Motion Speed modifier</li>
+                            <li>Auto-Device attacks <b>do not</b> trigger Additional Melee/Magic</li>
+                        </span>
+
+                        <script>
+                            function calcAttackDelay(ASPD) {
+                                var attackDelay = 1100 - ASPD
+                                if (attackDelay < 0) { attackDelay = 0 }
+                                return attackDelay / 1000
+                            }
+
+                            function calcAutoDeviceConstant(over8m, result) {
+                                var HTML = `<li><b>Device Attack Constant: </b> 0`
+                                if (over8m) { HTML += `; total constant of all hits` }
+                                HTML += `</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcAutoDeviceMultiplier(over8m, result) {
+                                var HTML = `<li><b>Device Attack Multiplier:</b> 1`
+                                if (over8m) { HTML += `; total multiplier of all hits` }
+                                HTML += `</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcAutoDeviceHitCount(over8m, result) {
+                                var HTML = `<li><b>Hit Count:</b>`
+                                if (over8m) { HTML += ` 3 hits; damage calculation is done once then spread evenly between the hits` }
+                                else { HTML += ` 1 hit` }
+                                HTML += `</li><br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcAutoDeviceBuff(level, aspd, over8m, result) {
+                                var mpRecov = 100
+                                var attackDelay = (1100 - aspd) / 1000
+                                if (attackDelay < 0) { attackDelay = 0 }
+                                if (over8m) {
+                                    mpRecov = 5 * level
+                                    attackDelay += 1.5 - 0.1 * level
+                                }
+                                if (Math.ceil(attackDelay * 100) / 100 - attackDelay < 0.0099) { attackDelay = Math.ceil(attackDelay * 100) / 100 }
+                                else { attackDelay = Math.round(attackDelay * 100) / 100 }
+                                HTML = `<li>Grants <b>Auto-Device buff</b> to the <b>caster</b> upon successful cast</li>
+                    <br><b>Buff Effect:</b>
+                    <li>When you're <b>not performing any action</b> (except moving/walking normally) and <b>not being afflicted with any interruption or [Silence]</b>, constantly deal magic attacks on the target</li>
+                    <li>The target must be within 12m range from the caster in order to trigger the attacks</li>
+                    <li>Each successful attack will recover MP equals to ${mpRecov}% of your <b>total Attack MP Recovery</b></li>
+                    <li><b>Delay between attacks:</b> ${attackDelay} second`
+                                if (attackDelay != 1) { HTML += `s` }
+                                HTML += ` (affected by ASPD)</li>
+                    <li><b>Buff Duration:</b> 60 seconds</li><br>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addAutoDeviceExtra(result) {
+                                result.innerHTML += `<b>Extra Info:</b>
+                    <li>Auto-Device attacks go through <b>Magic Damage calculation</b>: they use MATK, Magic Stability, target's MDEF & Magic Resistance, Magic Critical Rate & Damage; they use <b>Normal Attack Proration</b> for their damage calculation, however</li>
+                    <li>Auto-Device attacks inflict <b>Normal Attack Proration</b></li>
+                    <li>Auto-Device attacks are treated as Magic attacks, thus they cannot [Miss], [Graze], nor be [Evaded]</li>
+                    <li>The damage of Auto-Device attacks is affected by auto attack damage modifiers, but not skill damage modifiers</li>
+                    <li>Auto-Device attacks are unaffected by Motion Speed modifier</li>
+                    <li>Auto-Device attacks <b>do not</b> trigger Additional Melee/Magic</li>`
+                            }
+
+                            function calcAutoDeviceValues() {
+                                var levelSelector = document.getElementById("autoDeviceSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var aspd = document.getElementById("autoDeviceASPD").value
+                                var over8m = document.getElementById("longrange").checked
+                                var result = document.getElementById("autoDeviceValues")
+                                calcAutoDeviceConstant(over8m, result)
+                                calcAutoDeviceMultiplier(over8m, result)
+                                calcAutoDeviceHitCount(over8m, result)
+                                calcAutoDeviceBuff(level, aspd, over8m, result)
+                                addAutoDeviceExtra(result)
+                            }
+
+                            calcAutoDeviceValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/expressaid.png" width="34" height="34">
+                                Express Aid
+                            </p>
+                            <p class="medium">
+                                Skill Express Aid Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Passive</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold"></p>
+                            <p>Neutral</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Raises and rushes the output of magic device.<br>
+                                Increases traveling speed toward the target of "First Aid" and reduces damage received
+                                up to a certain number of times.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="expressAidSkillLevel" onchange="calcExpressAidValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="expressAidValues">Upon using <b>First Aid</b>, <b>doubles</b> your <b>Movement
+                                Speed</b> toward the targeted ally, and reduces damage taken by 100% for up to 3 times
+                            during the movement (the received hits will be treated as [Miss] instead of taking 0
+                            damage)</span>
+
+                        <script>
+                            function calcExpressAidSkillEffect(level, result) {
+                                var dmgReduc = 10 * level
+                                var redCount = Math.floor(1 + level / 5)
+                                var HTML = `Upon using <b>First Aid</b>, <b>doubles</b> your <b>Movement Speed</b> toward the targeted ally, and reduces damage taken by ${dmgReduc}% for up to ${redCount} time`
+                                if (redCount != 1) { HTML += `s` }
+                                HTML += ` during the movement`
+                                if (dmgReduc == 100) { HTML += ` (the received hits will be treated as [Miss] instead of taking 0 damage)` }
+                                result.innerHTML = HTML
+                            }
+
+                            function calcExpressAidValues() {
+                                let levelSelector = document.getElementById("expressAidSkillLevel")
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById("expressAidValues")
+                                calcExpressAidSkillEffect(level, result)
+                            }
+
+                            calcExpressAidValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/microheal.png" width="34" height="34">
+                                Micro Heal
+                            </p>
+                            <p class="medium">
+                                Skill Micro Heal Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>24</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>Sharing a little comfort.<br>
+                                Slightly restores your HP and the HP of the party member who has lost the most HP.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="microHealSkillLevel" onchange="calcMicroHealValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Total MATK:</b></span>
+                        <input type="number" style="width: 5em" value="1000" id="microHealMatk"
+                            onchange="calcMicroHealValues()"><br>
+                        <br>
+                        <span id="microHealValues"><b>Skill effect:</b>
+                            <li>Recovers the HP of the <b>caster</b> and the <b>party member with the lowest HP</b> by
+                                1000 HP upon successful cast</li>
+                            <li>If there are no members within 8m range, or the <b>caster</b> is also the party member
+                                with the lowest HP, then the <b>caster</b> will be healed twice</li>
+                        </span>
+
+                        <script>
+                            function calcMicroHealSkillEffect(level, matk, result) {
+                                var healFlat = (50 + Math.floor(matk / 20)) * level
+                                result.innerHTML = `<b>Skill effect:</b>
+                    <li>Recovers the HP of the <b>caster</b> and the <b>party member with the lowest HP</b> by ${healFlat} HP upon successful cast</li>
+                    <li>If there are no members within 8m range, or the <b>caster</b> is also the party member with the lowest HP, then the <b>caster</b> will be healed twice</li>`
+                            }
+
+                            function calcMicroHealValues() {
+                                var levelSelector = document.getElementById('microHealSkillLevel')
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var matk = document.getElementById("microHealMatk").value
+                                var result = document.getElementById('microHealValues')
+                                calcMicroHealSkillEffect(level, matk, result)
+                            }
+
+                            calcMicroHealValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/resurrection.png" width="34" height="34">
+                                Resurrection
+                            </p>
+                            <p class="medium">
+                                Skill Resurrection Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>2000</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A secret technique to resuscitate those who can no longer fight. The waiting time for
+                                those around you (<font style="color: #009fff">within 16m</font>) to revive instantly
+                                becomes 0 s.<br>
+                                <b style="color: gold">*Not available if First Aid is not applicable.<br>
+                                    *Not usable with combo.</b>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="resurrectionSkillLevel" onchange="calcResurrectionValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Cast Speed:</b></span>
+                        <input type="number" style="width: 6em; text-align: right" value="0" id="resurrectionCSPD"
+                            onchange="calcResurrectionValues()"><br>
+                        <br>
+                        <span id="resurrectionValues">
+                            <li><b>Cast Time:</b> 5 seconds (affected by CSPD)</li>
+                            <li><b>Skill effect:</b> Sets the <b>Revive Time</b> of <b>all players within range</b> to 0
+                                seconds upon successful cast; those who are affected by this skill will revive with 100%
+                                of their <b>MaxHP</b></li>
+                            <li><b>Effect Range (radius):</b> 16m, around the <b>caster</b></li><br><b>Extra info:</b>
+                            <li>If the MP consumption of this skill is <b>not 2000</b> (due to MP cost reduction effects
+                                such as <b>Magic: Impact</b>,...), the total cast time of this skill will be increased
+                                by <b>a fixed amount of 5 seconds</b>; this extra cast time is unaffected by CSPD</li>
+                            <li>This skill can affect mercenaries and pets
+                            </li>
+                            <li>This skill does not affect those who are knocked out by effects that prevent <b>First
+                                    Aid</b> to be used on them (such as <b>Regretless</b> or <b>Final Resistance
+                                    registlet</b> effects,...)</li>
+                        </span>
+
+                        <script>
+                            function calcCastTime(baseCastTime, CSPD) {
+                                var castTime = baseCastTime * 1
+                                var modifier1 = CSPD / 2000
+                                var modifier2 = (CSPD - 1000) / 18000
+                                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
+                                else { castTime = castTime * (1 - (0.5 + modifier2)) }
+                                castTime = Math.ceil(castTime * 100) / 100
+                                if (castTime < 0) { castTime = 0 }
+                                return castTime
+                            }
+
+                            function calcResurrectionCastTime(level, CSPD, result) {
+                                var baseCastTime = 10 - 0.5 * level
+                                var castTime = calcCastTime(baseCastTime, CSPD)
+                                var HTML = `<li><b>Cast Time:</b> ${castTime} second`
+                                if (castTime != 1) { HTML += `s` }
+                                HTML += ` (affected by CSPD)</li>`
+                                result.innerHTML = HTML
+                            }
+
+                            function calcResurrectionSkillEffect(level, result) {
+                                var reviveHp = level * level
+                                result.innerHTML += `<li><b>Skill effect:</b> Sets the <b>Revive Time</b> of <b>all players within range</b> to 0 seconds upon successful cast; those who are affected by this skill will revive with ${reviveHp}% of their <b>MaxHP</b></li>
+                    <li><b>Effect Range (radius):</b> 16m, around the <b>caster</b></li>`
+                            }
+
+                            function addResurrectionExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>If the MP consumption of this skill is <b>not 2000</b> (due to MP cost reduction effects such as <b>Magic: Impact</b>,...), the total cast time of this skill will be increased by <b>a fixed amount of 5 seconds</b>; this extra cast time is unaffected by CSPD</li>
+                    <li>This skill can affect mercenaries and pets
+                    <li>This skill does not affect those who are knocked out by effects that prevent <b>First Aid</b> to be used on them (such as <b>Regretless</b> or <b>Final Resistance registlet</b> effects,...)</li></li>`
+                            }
+
+                            function calcResurrectionValues() {
+                                let levelSelector = document.getElementById('resurrectionSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                var CSPD = document.getElementById("resurrectionCSPD").value;
+                                let result = document.getElementById('resurrectionValues')
+                                calcResurrectionCastTime(level, CSPD, result)
+                                calcResurrectionSkillEffect(level, result)
+                                addResurrectionExtraInfo(result)
+                            }
+
+                            calcResurrectionValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/enhance.png" width="34" height="34">
+                                Enhance
+                            </p>
+                            <p class="medium">
+                                Skill Enhance Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>400</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A technique that boosts outstanding abilities further. Enhances the attack power of the
+                                party member with the highest ATK and MATK (<font style="color: #009fff">1 each</font>).
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="enhanceSpriteSkillLevel" onchange="calcEnhanceSpriteValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Target's Level:</b></span>
+                        <input type="number" id="enhanceTargetLevel" value="174" min="1" style="width: 4em;"
+                            onchange="calcEnhanceSpriteValues()"><br>
+                        <span class="sub-title"><b>Target's DEF:</b></span>
+                        <input type="number" id="enhanceTargetDef" value="174" style="width: 4em;"
+                            onchange="calcEnhanceSpriteValues()">
+                        <span class="sub-title"><b>&nbsp;Target's MDEF:</b></span>
+                        <input type="number" id="enhanceTargetMdef" value="174" style="width: 4em;"
+                            onchange="calcEnhanceSpriteValues()"><br>
+                        <br>
+                        <span id="enhanceSpriteValues"><b>Skill effect:</b> Grants <b>Enhance buff</b> to the party
+                            member(s) with the highest ATK and highest MATK upon successful cast
+                            <br><b>Buff Effect:</b>
+                            <li><b>Damage dealt</b> +10%; stacks <b>additively</b> with <b>Brave Aura</b> and <b>Mana
+                                    Recharge</b></li>
+                            <li><b>ATK</b> +87; <b style="color: #C70039">only applies to the party member with the
+                                    highest ATK</b></li>
+                            <li><b>MATK</b> +87; <b style="color: #C70039">only applies to the party member with the
+                                    highest MATK</b></li>
+                            <li><b>Buff Duration:</b> 120 seconds</li><br><b>Extra info:</b>
+                            <li>If a party member has both highest ATK and highest MATK, they will get both the ATK and
+                                MATK increase, <b>but the damage dealt increase will not be doubled</b></li>
+                            <li>The default <b>Target's DEF</b> and <b>Target's level</b> values used here are based on
+                                <b>Altoblepas</b></li><br>Credits to <b>Phantom Library</b> for the info of the skill
+                        </span>
+
+                        <script>
+                            function calcEnhanceSpriteSkillEffect(level, targetLevel, targetDef, targetMdef, result) {
+                                var atk = Math.max(0, Math.min(targetLevel, Math.floor(level * targetDef / 20)))
+                                var matk = Math.max(Math.min(targetLevel, Math.floor(level * targetMdef / 20)))
+                                var duration = 20 + 10 * level
+                                result.innerHTML = `<b>Skill effect:</b> Grants <b>Enhance buff</b> to the party member(s) with the highest ATK and highest MATK upon successful cast
+                    <br><b>Buff Effect:</b>
+                    <li><b>Damage dealt</b> +${level}%; stacks <b>additively</b> with <b>Brave Aura</b> and <b>Mana Recharge</b></li>
+                    <li><b>ATK</b> +${atk}; <b style = 'color: #C70039'>only applies to the party member with the highest ATK</b></li>
+                    <li><b>MATK</b> +${matk}; <b style = 'color: #C70039'>only applies to the party member with the highest MATK</b></li>
+                    <li><b>Buff Duration:</b> ${duration} seconds</li>`
+                            }
+
+                            function addEnhanceSpriteExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>If a party member has both highest ATK and highest MATK, they will get both the ATK and MATK increase, <b>but the damage dealt increase will not be doubled</b></li>
+                    <li>The default <b>Target's DEF</b> and <b>Target's level</b> values used here are based on <b>Altoblepas</b></li>`
+                            }
+
+                            function calcEnhanceSpriteValues() {
+                                var levelSelector = document.getElementById('enhanceSpriteSkillLevel')
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var targetLevel = document.getElementById("enhanceTargetLevel").value
+                                var targetDef = document.getElementById("enhanceTargetDef").value
+                                var targetMdef = document.getElementById("enhanceTargetMdef").value
+                                var result = document.getElementById('enhanceSpriteValues')
+                                calcEnhanceSpriteSkillEffect(level, targetLevel, targetDef, targetMdef, result)
+                                addEnhanceSpriteExtraInfo(result)
+                                result.innerHTML += `<br>Credits to <b>Phantom Library</b> for the info of the skill`
+                            }
+
+                            calcEnhanceSpriteValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/stabiliz.png" width="34" height="34">
+                                Stabiliz
+                            </p>
+                            <p class="medium">
+                                Skill Stabiliz Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>700</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A technique that improves accuracy. Increases the stability of Critical Rate and Magic
+                                Damage, and mitigates the decrease in stability of Graze hits for 45 seconds. Removes
+                                [Fatigue] when activated.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="stabilizSkillLevel" onchange="calcStabilizValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Member's CRT Stat:</b></span>
+                        <input type="number" id="stabilizCrt" style="width: 50px;" min="0" value="0" max="255"
+                            onchange="calcStabilizValues()"><br>
+                        <br>
+                        <span id="stabilizValues"><b>Skill effect:</b> Removes [Fatigue] ailment from and grant
+                            <b>Stabiliz buff</b> to the <b>caster</b> and <b>party members</b> upon successful
+                            cast<br><b>Buff effect:</b>
+                            <li><b>Critical Rate</b> +25</li>
+                            <li><b>Magic Stability</b> +10%</li>
+                            <li>Halves the stability reduction effect of [Graze]</li>
+                            <li><b>Buff Duration:</b> 45 seconds</li>
+                        </span>
+
+                        <script>
+                            function calcStabilizSkillEffect(result) {
+                                result.innerHTML = `<b>Skill effect:</b> Removes [Fatigue] ailment from and grant <b>Stabiliz buff</b> to the <b>caster</b> and <b>party members</b> upon successful cast<br>`
+                            }
+
+                            function calcStabilizFlatDamageReduction(level, crt, result) {
+                                function rounding(value) {
+                                    if (value - Math.floor(value) < 0.99999999) { value = Math.floor(value) }
+                                    else { value = Math.round(value) }
+                                    return value
+                                }
+                                var crit = 5 + 2 * level + rounding(crt / 8.5)
+                                result.innerHTML += `<b>Buff effect:</b>
+                    <li><b>Critical Rate</b> +${crit}</li>
+                    <li><b>Magic Stability</b> +${level}%</li>
+                    <li>Halves the stability reduction effect of [Graze]</li>
+                    <li><b>Buff Duration:</b> 45 seconds</li>`
+                            }
+
+                            function calcStabilizValues() {
+                                let levelSelector = document.getElementById('stabilizSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let crt = document.getElementById('stabilizCrt').value
+                                let result = document.getElementById('stabilizValues')
+                                calcStabilizSkillEffect(result)
+                                calcStabilizFlatDamageReduction(level, crt, result)
+                            }
+
+                            calcStabilizValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/spriteshield.png" width="34" height="34">
+                                Sprite Shield
+                            </p>
+                            <p class="medium">
+                                Skill Sprite Shield Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>0</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>No</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A secret technique to convert energy into mana. Consumes HP to instantly restore 100 MP.
+                                Reduces the damage taken next and the chance of being inflicted with a status ailment.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select name="skillLevel" id="spriteShieldSkillLevel" onchange="calcSpriteShieldValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="spriteShieldValues"><b>Skill Effect:</b> Consumes 10% of your <b>MaxHP</b> to recover
+                            100 MP and grants <b>Sprite Shield buff</b> upon cast; cannot be used if you don't have
+                            enough HP<br><b>Buff Effect:</b>
+                            <li>Reduces <b>all damage taken</b> by 50%</li>
+                            <li>Gains 100% <b>Ailment Resistance</b>; stacks with Ailment Resistance from MTL stat &amp;
+                                equipment</li>
+                            <li><b>Buff Duration:</b> Until you get hit</li>
+                        </span>
+
+                        <script>
+                            function calcSpriteShieldSkillEffect(level, result) {
+                                var hpConsumption = 30 - 2 * level
+                                result.innerHTML = `<b>Skill Effect:</b> Consumes ${hpConsumption}% of your <b>MaxHP</b> to recover 100 MP and grants <b>Sprite Shield buff</b> upon cast; cannot be used if you don't have enough HP`
+                            }
+
+                            function calcSpriteShieldBuffEffect(level, result) {
+                                var ailres = level * level
+                                result.innerHTML += `<br><b>Buff Effect:</b>
+                    <li>Reduces <b>all damage taken</b> by 50%</li>
+                    <li>Gains ${ailres}% <b>Ailment Resistance</b>; stacks with Ailment Resistance from MTL stat & equipment</li>
+                    <li><b>Buff Duration:</b> Until you get hit</li>`
+                            }
+
+                            function calcSpriteShieldValues() {
+                                let levelSelector = document.getElementById('spriteShieldSkillLevel')
+                                let level = levelSelector[levelSelector.selectedIndex].value
+                                let result = document.getElementById('spriteShieldValues')
+                                calcSpriteShieldSkillEffect(level, result)
+                                calcSpriteShieldBuffEffect(level, result)
+                            }
+
+                            calcSpriteShieldValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/counterforce.png" width="34" height="34">
+                                Counterforce
+                            </p>
+                            <p class="medium">
+                                Skill Counterforce Level 2 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Magic skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>300</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A supporting technique with magic device. Deploys a magic circle for 30 seconds to attack
+                                the target if a party member in sight (<font style="color: #009fff">up to 24m</font>)
+                                receives damage. (<font style="color: #009fff">Max 3</font>)</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="counterforceSkillLevel" onchange="calcCounterforceValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Total INT:</b></span>
+                        <input type="number" id="counterforceInt" value="1" style="width: 4em; text-align: right"
+                            onchange="calcCounterforceValues()"><br>
+                        <span class="sub-title"><b>Cast Speed:</b></span>
+                        <input type="number" style="width: 6em; text-align: right" value="0" id="counterforceCSPD"
+                            onchange="calcCounterforceValues()"><br>
+                        <br>
+                        <span id="counterforceValues">
+                            <li><b>Skill Constant: </b> 75; constant for each hit</li>
+                            <li><b>Skill Multiplier:</b> 3; multiplier for each hit</li>
+                            <li><b>Hit Count:</b> 4 hits; proration and stability calculations are done <b>for the first
+                                    hit</b>, then <b>copied for the other hits</b>; the rest of damage calculation is
+                                done for each hit</li><br>
+                            <li><b>Cast Time:</b> 1 second (affected by CSPD)</li>
+                            <li><b>Skill Effect:</b> Grants <b>Counterforce buff</b> to the <b>caster</b> and <b>all
+                                    party members within 24m radius</b> upon successful cast</li>
+                            <br><b>Buff Effect:</b>
+                            <li>Each time the person with this buff get hit by an enemy, automatically activate a
+                                <b>Counterforce attack</b> against that enemy. Cannot activate if there are already 3
+                                active <b>Counterforce attacks</b></li>
+                            <li><b>Buff Duration:</b> 30 seconds</li><br><b>Extra info:</b>
+                            <li>This skill is unaffected by <b>Short Range Damage</b> and <b>Long Range Damage</b>
+                                stats; it's also unaffected by the damage modifier of Combo Tags</li>
+                            <li>This skill uses <b>Magic Proration</b> for its damage calculation, but <b>does not
+                                    inflict proration</b></li>
+                        </span>
+
+                        <script>
+                            function calcCastTime(baseCastTime, CSPD) {
+                                var castTime = baseCastTime * 1
+                                var modifier1 = CSPD / 2000
+                                var modifier2 = (CSPD - 1000) / 18000
+                                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
+                                else { castTime = castTime * (1 - (0.5 + modifier2)) }
+                                if (castTime < 0) { castTime = 0 }
+                                return castTime
+                            }
+
+                            function calcCounterforceConstant(result) {
+                                result.innerHTML = `<li><b>Skill Constant: </b> 75;  constant for each hit</li>`
+                            }
+
+                            function calcCounterforceMultiplier(level, totalInt, result) {
+                                var multiplier = 0.3 * level + totalInt / 1000
+                                if (multiplier - Math.floor(multiplier * 100) / 100 < 0.00999999) { multiplier = Math.floor(multiplier * 100) / 100 }
+                                else { multiplier = Math.round(multiplier * 100) / 100 }
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}; multiplier for each hit</li>`
+                            }
+
+                            function calcCounterforceHitCount(result) {
+                                result.innerHTML += `<li><b>Hit Count:</b> 4 hits; proration and stability calculations are done <b>for the first hit</b>, then <b>copied for the other hits</b>; the rest of damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcCounterforceCastTime(CSPD, result) {
+                                var castTime = calcCastTime(1, CSPD)
+                                castTime = Math.ceil(castTime * 100) / 100
+                                var HTML = `<li><b>Cast Time:</b> ${castTime} second`
+                                if (castTime != 1) { HTML += `s` }
+                                HTML += ` (affected by CSPD)</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcCounterforceSkillEffect(result) {
+                                result.innerHTML += `<li><b>Skill Effect:</b> Grants <b>Counterforce buff</b> to the <b>caster</b> and <b>all party members within 24m radius</b> upon successful cast</li>
+                    <br><b>Buff Effect:</b>
+                    <li>Each time the person with this buff get hit by an enemy, automatically activate a <b>Counterforce attack</b> against that enemy. Cannot activate if there are already 3 active <b>Counterforce attacks</b></li>
+                    <li><b>Buff Duration:</b> 30 seconds</li>`
+                            }
+
+                            function addCounterforceExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill is unaffected by <b>Short Range Damage</b> and <b>Long Range Damage</b> stats; it's also unaffected by the damage modifier of Combo Tags</li>
+                    <li>This skill uses <b>Magic Proration</b> for its damage calculation, but <b>does not inflict proration</b></li>`
+                            }
+
+                            function calcCounterforceValues() {
+                                var levelSelector = document.getElementById("counterforceSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var totalInt = document.getElementById("counterforceInt").value
+                                var CSPD = document.getElementById("counterforceCSPD").value
+                                var result = document.getElementById("counterforceValues")
+                                calcCounterforceConstant(result)
+                                calcCounterforceMultiplier(level, totalInt, result)
+                                calcCounterforceHitCount(result)
+                                calcCounterforceCastTime(CSPD, result)
+                                calcCounterforceSkillEffect(result)
+                                addCounterforceExtraInfo(result)
+                            }
+
+                            calcCounterforceValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/astrallance.png" width="34" height="34">
+                                Astral Lance
+                            </p>
+                            <p class="medium">
+                                Skill Astral Lance Level 3 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Magic skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Neutral</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>500</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>0</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>An attack technique that efficiently recycles depleted mana.<br>
+                                Attacks by releasing a powerful magic lance for every 500 MP consumed for 90 seconds. (
+                                <font style="color: #009fff">max 1 lance</font>)</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="astralLanceSkillLevel" onchange="calcAstralLanceValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <span class="sub-title"><b>Cast Speed:</b></span>
+                        <input type="number" style="width: 6em; text-align: right" value="0" id="astralLanceCSPD"
+                            onchange="calcAstralLanceValues()"><br>
+                        <br>
+                        <span id="astralLanceValues">
+                            <li><b>Skill Constant: </b> 500</li>
+                            <li><b>Skill Multiplier:</b> 7.5</li>
+                            <li><b>Hit Count:</b> 1 hit</li><br>
+                            <li><b>Cast Time:</b> 2 seconds (affected by CSPD)</li>
+                            <li><b>Hit Range (radius):</b> 1m, around the <b>main target's position when the attack is
+                                    triggered</b></li>
+                            <li><b>Magic Pierce</b> of <b>Astral Lance attack</b> +50%</li>
+                            <li><b>Skill Effect:</b> Grants <b>Astral Lance buff</b> to the <b>caster</b> upon
+                                successful cast</li>
+                            <br><b>Buff Effect:</b>
+                            <li>Gains 1 stack for every 100 MP consumed, up to a maximum of 5 stacks</li>
+                            <li>Upon reaching 5 stacks, if you're targeting an enemy, consumes all stacks to activate
+                                <b>Astral Lance attack</b> against said target</li>
+                            <li><b>Activation Range:</b> Theoretically infinite (?)</li>
+                            <li><b>Buff Duration:</b> 90 seconds</li><br><b>Extra info:</b>
+                            <li>This skill is unaffected by the damage modifier of Combo Tags</li>
+                            <li>This skill can be affected by <b>Short Range Damage</b> and <b>Long Range Damage</b>
+                                stats</li>
+                            <li>The lance launched by this skill functions similar to Magic: Lances, having a delay
+                                before launch; combining with it aiming at the target's position <b>when the lance
+                                    generates</b>, it tends to miss easily if the target moves during the delay</li>
+                            <li>The maximum stack count is fixed at 5, and cannot be exceeded, thus skills that has
+                                enough MP Cost to "give excessive stacks" will still not be able to let you launch more
+                                than 1 lance, as those "excessive stacks" will simply be ignored completely</li>
+                        </span>
+
+                        <script>
+                            function calcCastTime(baseCastTime, CSPD) {
+                                var castTime = baseCastTime * 1
+                                var modifier1 = CSPD / 2000
+                                var modifier2 = (CSPD - 1000) / 18000
+                                if (CSPD <= 1000) { castTime = castTime * (1 - modifier1) }
+                                else { castTime = castTime * (1 - (0.5 + modifier2)) }
+                                if (castTime < 0) { castTime = 0 }
+                                return castTime
+                            }
+
+                            function calcAstralLanceConstant(result) {
+                                result.innerHTML = `<li><b>Skill Constant: </b> 500</li>`
+                            }
+
+                            function calcAstralLanceMultiplier(level, result) {
+                                var multiplier = 2.5 + 0.5 * level
+                                result.innerHTML += `<li><b>Skill Multiplier:</b> ${multiplier}</li>`
+                            }
+
+                            function calcAstralLanceHitCount(result) {
+                                result.innerHTML += `<li><b>Hit Count:</b> 1 hit</li><br>`
+                            }
+
+                            function calcAstralLanceCastTime(CSPD, result) {
+                                var castTime = calcCastTime(2, CSPD)
+                                castTime = Math.ceil(castTime * 100) / 100
+                                var HTML = `<li><b>Cast Time:</b> ${castTime} second`
+                                if (castTime != 1) { HTML += `s` }
+                                HTML += ` (affected by CSPD)</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcAstralLanceSkillEffect(level, result) {
+                                var mpierce = Math.floor(level * level / 2)
+                                var HTML = `<li><b>Hit Range (radius):</b> 1m, around the <b>main target's position when the attack is triggered</b></li>`
+                                if (mpierce > 0) { HTML += `<li><b>Magic Pierce</b> of <b>Astral Lance attack</b> +${mpierce}%</li>` }
+                                HTML += `<li><b>Skill Effect:</b> Grants <b>Astral Lance buff</b> to the <b>caster</b> upon successful cast</li>
+                    <br><b>Buff Effect:</b>
+                    <li>Gains 1 stack for every 100 MP consumed, up to a maximum of 5 stacks</li>
+                    <li>Upon reaching 5 stacks, if you're targeting an enemy, consumes all stacks to activate <b>Astral Lance attack</b> against said target</li>
+                    <li><b>Activation Range:</b> Theoretically infinite (?)</li>
+                    <li><b>Buff Duration:</b> 90 seconds</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addAstralLanceExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill is unaffected by the damage modifier of Combo Tags</li>
+                    <li>This skill can be affected by <b>Short Range Damage</b> and <b>Long Range Damage</b> stats</li>
+                    <li>The lance launched by this skill functions similar to Magic: Lances, having a delay before launch; combining with it aiming at the target's position <b>when the lance generates</b>, it tends to miss easily if the target moves during the delay</li>
+                    <li>The maximum stack count is fixed at 5, and cannot be exceeded, thus skills that has enough MP Cost to "give excessive stacks" will still not be able to let you launch more than 1 lance, as those "excessive stacks" will simply be ignored completely</li>`
+                            }
+
+                            function calcAstralLanceValues() {
+                                var levelSelector = document.getElementById("astralLanceSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var CSPD = document.getElementById("astralLanceCSPD").value
+                                var result = document.getElementById("astralLanceValues")
+                                calcAstralLanceConstant(result)
+                                calcAstralLanceMultiplier(level, result)
+                                calcAstralLanceHitCount(result)
+                                calcAstralLanceCastTime(CSPD, result)
+                                calcAstralLanceSkillEffect(level, result)
+                                addAstralLanceExtraInfo(result)
+                            }
+
+                            calcAstralLanceValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+
+                <div>
+                    <div style="display:grid;grid-template-columns: 1fr 1fr;">
+                        <div>
+                            <p class="card-title">
+                                <img src="../../images/skills/magicvulcan.png" width="34" height="34">
+                                Magic Vulcan
+                            </p>
+                            <p class="medium">
+                                Skill Magic Vulcan Level 4 </p>
+                        </div>
+                        <div style="justify-self:end;">
+                            <img src="../../images/icon/md-main.png"><br>Main MD only
+                        </div>
+                    </div>
+                    <hr class="separator">
+                    <div class="monster-prop">
+                        <div>
+                            <p class="accent-bold">Type</p>
+                            <p>Active, Magic skill</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Element</p>
+                            <p>Weapon Dependent</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">MP</p>
+                            <p>100</p>
+                        </div>
+                        <!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+                        <div>
+                            <p class="accent-bold">Combo start</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Combo middle</p>
+                            <p>Yes</p>
+                        </div>
+                        <div>
+                            <p class="accent-bold">Range</p>
+                            <p>12</p>
+                        </div>
+                        <div class="span-2">
+                            <p class="accent-bold">Description</p>
+                            <p>A revolving magic cannon technique. Inflicts consecutive magic damage to the target. MP
+                                can be consumed additionally to continue attacking, but the power will diminish bit by
+                                bit. This attack does not cause proration.</p>
+                        </div>
+                    </div>
+                    <p class="accent-bold">Extras</p>
+                    <p></p>
+                    <details>
+                        <summary>Show more...</summary><br><span class="sub-title"><b>Skill Level:</b></span>
+                        <select id="magicVulcanSkillLevel" onchange="calcMagicVulcanValues()">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected="">10</option>
+                        </select><br>
+                        <br>
+                        <span id="magicVulcanValues">
+                            <li><b>Skill Constant (First Volley):</b> 0; constant for each hit</li>
+                            <li><b>Skill Constant (Additional Volleys):</b> 100; constant for each hit</li>
+                            <li><b>Skill Multiplier (First Volley):</b> 1 (first hit); increases to 1.5 → 2 → 2.5 → 3
+                                for the next 4 hits, respectively</li>
+                            <li><b>Skill Multiplier (Additional Volleys):</b> 2.8; multiplier for each hit; reduces by
+                                0.2 on every subsequence volley, down to a minimum of 0.1</li>
+                            <li><b>Hit Count:</b> 5 hits per volley; damage calculation is done for each hit</li><br>
+                            <li><b>Cast Time:</b> 2 seconds (unaffected by CSPD)</li><br><b>Skill Effect:</b>
+                            <li>After the <b>First Volley</b>, continuously consumes 100 MP per second to launch
+                                <b>Additional Volleys</b>, with every 100 MP consumed this way will launch 1
+                                <b>Additional Volley</b></li>
+                            <li>Each subsequence <b>Additional Volley</b> will have reduced power compared to the
+                                previous one</li>
+                            <li>The skill will keep consuming MP until it is canceled by moving, running out of MP, or
+                                being interrupted</li><br><b>Extra info:</b>
+                            <li>This skill uses <b>Magic Proration</b> for its damage calculation, but <b>does not
+                                    inflict proration</b></li>
+                            <li>If this skill is placed in a combo, it will still perform the continuous casting;
+                                canceling this skill will let the next skill in the combo be performed</li>
+                            <li>If the target moves further than 12m from the caster, all hits of this skill will become
+                                [Miss]</li>
+                        </span>
+
+                        <script>
+                            function calcMagicVulcanConstant(result) {
+                                result.innerHTML = `<li><b>Skill Constant (First Volley):</b> 0; constant for each hit</li>
+                    <li><b>Skill Constant (Additional Volleys):</b> 100; constant for each hit</li>`
+                            }
+
+                            function calcMagicVulcanMultiplier(level, result) {
+                                function rounding(value) {
+                                    value = Math.round(value * 100) / 100
+                                    return value
+                                }
+                                var mult1 = rounding(0.5 + 0.05 * level)
+                                var up = 0.05 * level
+                                var mult2 = rounding(1.8 + 0.1 * level)
+                                result.innerHTML += `<li><b>Skill Multiplier (First Volley):</b> ${mult1} (first hit); increases to ${rounding(mult1 + up * 1)} → ${rounding(mult1 + up * 2)} → ${rounding(mult1 + up * 3)} → ${rounding(mult1 + up * 4)} for the next 4 hits, respectively</li>
+                    <li><b>Skill Multiplier (Additional Volleys):</b> ${mult2}; multiplier for each hit; reduces by 0.2 on every subsequence volley, down to a minimum of 0.1</li>`
+                            }
+
+                            function calcMagicVulcanHitCount(result) {
+                                result.innerHTML += `<li><b>Hit Count:</b> 5 hits per volley; damage calculation is done for each hit</li><br>`
+                            }
+
+                            function calcMagicVulcanCastTime(result) {
+                                var HTML = `<li><b>Cast Time:</b> 2 seconds (unaffected by CSPD)</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function calcMagicVulcanSkillEffect(level, result) {
+                                var HTML = `<br><b>Skill Effect:</b>
+                    <li>After the <b>First Volley</b>, continuously consumes 100 MP per second to launch <b>Additional Volleys</b>, with every 100 MP consumed this way will launch 1 <b>Additional Volley</b></li>
+                    <li>Each subsequence <b>Additional Volley</b> will have reduced power compared to the previous one</li>
+                    <li>The skill will keep consuming MP until it is canceled by moving, running out of MP, or being interrupted</li>`
+                                result.innerHTML += HTML
+                            }
+
+                            function addMagicVulcanExtraInfo(result) {
+                                result.innerHTML += `<br><b>Extra info:</b>
+                    <li>This skill uses <b>Magic Proration</b> for its damage calculation, but <b>does not inflict proration</b></li>
+                    <li>If this skill is placed in a combo, it will still perform the continuous casting; canceling this skill will let the next skill in the combo be performed</li>
+                    <li>If the target moves further than 12m from the caster, all hits of this skill will become [Miss]</li>`
+                            }
+
+                            function calcMagicVulcanValues() {
+                                var levelSelector = document.getElementById("magicVulcanSkillLevel")
+                                var level = levelSelector[levelSelector.selectedIndex].value
+                                var result = document.getElementById("magicVulcanValues")
+                                calcMagicVulcanConstant(result)
+                                calcMagicVulcanMultiplier(level, result)
+                                calcMagicVulcanHitCount(result)
+                                calcMagicVulcanCastTime(result)
+                                calcMagicVulcanSkillEffect(level, result)
+                                addMagicVulcanExtraInfo(result)
+                            }
+
+                            calcMagicVulcanValues()
+                        </script>
+                    </details>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>
