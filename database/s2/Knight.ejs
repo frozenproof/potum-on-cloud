@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Knight Skills Tree</title>
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<%- include('../../templates/headers/metadata') %>
+
+		<link rel="stylesheet" href="../../templates/functions-skills-list/skills.css">
+
+		<script src="../templates/axios.min.js"></script>
+		<script>
+			// wew have works to do
+			function roundToTwoDecimals(value) {
+				return Math.round(value * 100) / 100;
+			}
+		</script>
+</head>
+
+<body>
+	<%- include('../../templates/headers/header') %>
+
+		<div id="content">
+			<div class="container">
+
+				<hr class="separator" />
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="../../images/skills/lunarslash.png" width="34" height="34">
+								Ass Attack
+							</p>
+							<p class="medium">
+								Skill Ass Slap Level 1 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="../../images/icon/ohs.png"><br>1-Handed
+							Sword only
+						</div>
+					</div>
+					<hr class="separator" />
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Active, Physical skill</p>
+						</div>
+						<div>
+							<p class="accent-bold">Element</p>
+							<p>Weapon Dependent</p>
+						</div>
+						<div>
+							<p class="accent-bold">MP</p>
+							<p>100</p>
+						</div>
+						<!-- $result_string .= sprintf("<td><b>Aggro</b></td>	<td>%s</td>", $row['aggro_text']); -->
+						<div>
+							<p class="accent-bold">Combo start</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Combo middle</p>
+							<p>Yes</p>
+						</div>
+						<div>
+							<p class="accent-bold">Range</p>
+							<p>1</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Slashes target and magic blade will deal additional damage after a slight delay.<br>
+								Magic blade may inflict [Fatigue].</p>
+						</div>
+						<div class="span-2">
+							<div class="accent-bold"
+								style="display:grid;grid-template-columns: 35px auto;grid-column-gap: 10px">
+								<p><img src="../../images/icon/ths.png"></p>
+								<p>2-Handed Sword</p>
+							</div>
+							<p>Performs an additional attack if another attack skill is used. This additional attack is
+								unable to inflict [Fatigue], but Critical Rate increases according to the skill level.
+							</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Weapon:</b></span>
+						<select id="lunarSlashWeapon" onchange="calcLunarSlashValues()">
+							<option value="1H">1-Handed Sword</option>
+							<option value="2H" selected="">2-Handed Sword</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="lunarSlashSkillLevel" onchange="calcLunarSlashValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<span class="sub-title"> <b>Total STR:</b></span>
+						<input type="number" value="255" id="lunarSlashStrValue" onchange="calcLunarSlashValues()"
+							style="width: 50px;"><br>
+						<span class="sub-title"> <b>Base INT:</b></span>
+						<input type="number" value="1" min="1" max="510" id="lunarSlashIntValue"
+							onchange="calcLunarSlashValues()" style="width: 50px;"><br>
+						<div id="lunarSlashComboInput" style="display: block;">
+							<span class="sub-title"> <b>CRT Stat:</b></span>
+							<input type="number" value="0" min="0" max="255" id="lunarSlashCrtValue"
+								onchange="calcLunarSlashValues()" style="width: 50px;"><br>
+							<span class="sub-title"> <b>Position in combo:</b></span>
+							<input type="number" value="1" min="1" max="10" id="lunarSlashComboCount"
+								onchange="calcLunarSlashValues()" style="width: 30px;">
+						</div>
+						<br>
+						<span id="lunarSlashValues">
+							<li><b>Skill Constant (First Hit):</b> 400</li>
+							<li><b>Skill Constant (Magic Blade):</b> 0</li>
+							<li><b>Skill Constant (Additional Attack):</b> 1; constant for each hit</li>
+							<li><b>Skill Multiplier (First Hit):</b> 10</li>
+							<li><b>Skill Multiplier (Magic Blade):</b> 2.55</li>
+							<li><b>Skill Multiplier (Additional Attack):</b> 2.55; multiplier for each hit</li>
+							<li><b>Hit Count:</b> 2 hits on the main target; 1 additional hit for each stack consumed;
+								damage calculation is done for each hit</li><br>
+							<li><b>Fatigue Chance (Magic Blade):</b> 40%</li>
+							<li><b>Fatigue Duration:</b> 10 seconds</li><br><b>Buff Effect:</b>
+							<li>Grants 1 <b>Lunar Slash stack</b> upon cast; can stack up to a maximum of <b>9
+									stacks</b></li>
+							<li>Hitting a target with an attack skill other than <b>Lunar Slash</b> will consume 1 stack
+								to deal an <b>Additional Attack</b> on that target</li>
+							<li>The <b>Additional Attack</b> has a <b>fixed Critical Rate</b> of 100</li>
+							<li><b>Buff Duration:</b> Until all stacks are consumed</li><br><b>Extra info:</b>
+							<li>This skill's <b>maximum cast range</b> is equal to the maximum auto attack range of the
+								<b>main weapon</b>
+							</li>
+							<li>If the used attack skill hits multiple targets, multiple stacks will be consumed
+								accordingly</li>
+							<li>The <b>Additional Attack(s)</b> are <b>unaffected by Combo Tags</b></li>
+							<li>Strangely, the <b>Additional Attack(s)</b> are always affected by <b>Zero Stance
+									registlet</b>, whether <b>Lunar Slash</b> or the skill that triggers these hit(s) is
+								used out of combo or not; possibly because the attack is treated as "skill that is used
+								out of combo" by the game</li>
+						</span>
+					</details>
+					<p></p>
+				</div>
+
+				<div>
+					<div style="display:grid;grid-template-columns: 1fr 1fr;">
+						<div>
+							<p class="card-title">
+								<img src="skill/knight/parry.png" width="34" height="34">
+								Parry
+							</p>
+							<p class="medium">
+								Skill Parry Level 2 </p>
+						</div>
+						<div style="justify-self:end;">
+							<img src="images/icon/all.png"><br>Available with all weapons
+						</div>
+					</div>
+					<hr class="separator">
+					<div class="monster-prop">
+						<div>
+							<p class="accent-bold">Type</p>
+							<p>Passive</p>
+						</div>
+						<div>
+							<p class="accent-bold"></p>
+							<p>Neutral</p>
+						</div>
+						<div class="span-2">
+							<p class="accent-bold">Description</p>
+							<p>Parry attacks using the weapon. Chance to reduce physical damage. The skill will not be
+								activated with Guard.</p>
+						</div>
+					</div>
+					<p class="accent-bold">Extras</p>
+					<p></p>
+					<details>
+						<summary>Show more...</summary><br><span class="sub-title"><b>Sub-Weapon:</b></span>
+						<select id="parryWeapon" onchange="calcParryValues()">
+							<option value="shield" selected="">Shield</option>
+							<option value="other">Other</option>
+						</select><br>
+						<span class="sub-title"><b>Skill Level:</b></span>
+						<select id="parrySkillLevel" onchange="calcParryValues()">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10" selected="">10</option>
+						</select><br>
+						<div id="parryKWInput" style="display: block;">
+							<span class="sub-title"><b>"Knight Will" Skill Level:</b></span>
+							<select id="parryKWLevel" onchange="calcParryValues()">
+								<option value="0" selected="">0</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+							</select><br>
+						</div>
+						<br>
+						<span id="parryValues">
+							<li><b>Parry Chance:</b> 30%</li>
+							<li><b>Damage Reduction:</b> 20%</li><br><b>Extra info:</b>
+							<li><b>Parry</b> does not show any kind of indication when it activates</li>
+							<li><b>Parry</b> can <b>only reduce Physical Damage</b></li>
+							<li><b>Parry</b> cannot activate <b>simultaneously with Guard</b></li>
+						</span>
+
+						<script>
+							function knightWillCheck(level, kwSection) {
+								if (level == 10) { kwSection.style = "display: block" }
+								else { kwSection.style = "display: none" }
+							}
+
+							function calcParryChance(level, weapon, kwLevel, result) {
+								let chance = 5 * level - Math.floor(level / 6) * 20
+								if (level == 10) {
+									if (weapon == "shield") { chance += kwLevel * 2 }
+									else { chance += kwLevel * 1 }
+								}
+								result.innerHTML = `<li><b>Parry Chance:</b> ${chance}%</li>`
+							}
+
+							function calcParryDmgReduc(level, result) {
+								let dmgReduc = 10 + Math.floor(level / 6) * 10
+								result.innerHTML += `<li><b>Damage Reduction:</b> ${dmgReduc}%</li><br>`
+							}
+
+							function parryExtraInformation(result) {
+								result.innerHTML += `<b>Extra info:</b>
+					<li><b>Parry</b> does not show any kind of indication when it activates</li>
+					<li><b>Parry</b> can <b>only reduce Physical Damage</b></li>
+					<li><b>Parry</b> cannot activate <b>simultaneously with Guard</b></li>`
+							}
+
+							function calcParryValues() {
+								let weaponSelector = document.getElementById("parryWeapon")
+								let weapon = weaponSelector[weaponSelector.selectedIndex].value
+								let levelSelector = document.getElementById('parrySkillLevel')
+								let level = levelSelector[levelSelector.selectedIndex].value
+								let kwSection = document.getElementById("parryKWInput")
+								let kwLevelSelector = document.getElementById("parryKWLevel")
+								let kwLevel = kwLevelSelector[kwLevelSelector.selectedIndex].value
+								let result = document.getElementById('parryValues')
+								knightWillCheck(level, kwSection)
+								calcParryChance(level, weapon, kwLevel, result)
+								calcParryDmgReduc(level, result)
+								parryExtraInformation(result)
+							}
+
+							calcParryValues()
+						</script>
+					</details>
+					<p></p>
+				</div>
+			</div>
+		</div>
+
+</body>
+
+<script src="../../templates/functions-skills-list/magic.js"></script>
