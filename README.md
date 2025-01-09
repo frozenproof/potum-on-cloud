@@ -3,7 +3,7 @@ The unofficial mirror of Coryn Club, since Coryn Club can't handle too much band
 
 The project is dead.
 
-Yes, I will no longer update this repo, but I will make a new website for contents entirely.
+Yes, I will no longer update this repo, but I will make a new website for contents entirely. The website link is also dead.
 
 I have added a ton of functionalities to my website, come and visit.
 
