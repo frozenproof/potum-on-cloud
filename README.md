@@ -1,7 +1,9 @@
 # Potum on cloud
 The unofficial mirror of Coryn Club, since Coryn Club can't handle too much bandwidth. Only for searching items, information on each item are as close to Coryn as it can get, but no visual display so we can add that once we have more time.
 
-The project is back and more alive than ever(until I have a proper job that is)
+The project is dead.
+
+Yes, I will no longer update this repo, but I will make a new website for contents entirely.
 
 I have added a ton of functionalities to my website, come and visit.
 
